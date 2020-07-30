@@ -80,13 +80,13 @@
         <item>Оптимизировать качество звука</item>
         <item>Баланс качества звука и скорости подключения</item>
         <item>Оптимизировать скорость подключения</item>
-        <item>Наилучший результат (адаптивный битрейт)</item>
+        <item>Лучший возможный результат (адаптивный битрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Оптимизировать качество звука (990/909 Кбит/с)</item>
-        <item>Баланс качества звука и скорости подключения (660/606 Кбит/с)</item>
+        <item>Баланс качества звука и скорости подключения (660/606 кбит/с)</item>
         <item>Оптимизировать скорость подключения (330/303 Кбит/с)</item>
-        <item>Наилучший результат (адаптивный битрейт)</item>
+        <item>Лучший возможный результат (адаптивный битрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
         <item>Выбор системы (по умолчанию)</item>
@@ -106,14 +106,11 @@
         <item>Выбор системы (по умолчанию)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>Qualcomm® aptX™ audio</item>
-        <item>Qualcomm® aptX™ HD audio</item>
+        <item>Аудиокодек: Qualcomm® aptX™</item>
+        <item>Аудиокодек: Qualcomm® aptX™ HD</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC V3</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
+        <item>Аудиокодек: Qualcomm® aptX™ Adaptive</item>
+        <item>LHDC</item>
         <item>Включить дополнительные кодеки</item>
         <item>Отключить дополнительные кодеки</item>
     </string-array>
@@ -125,10 +122,7 @@
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC V3</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
+        <item>LHDC</item>
         <item>Включить дополнительные кодеки</item>
         <item>Отключить дополнительные кодеки</item>
     </string-array>
@@ -149,13 +143,6 @@
         <item>AVRCP 1.3</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
-    </string-array>
-    <string-array name="bt_hci_snoop_log_entries">
-        <item>Отключено</item>
-        <item>Включен с фильтрацией</item>
-        <item>Включен</item>
-        <item>Включен с фильтрацией заголовков</item>
-        <item>Включен с фильтрацией медиапакетов</item>
     </string-array>
     <string-array name="clock_options">
         <item>Часы, минуты и секунды</item>
@@ -254,13 +241,13 @@
     <string-array name="select_logpersist_summaries">
         <item>Отключено</item>
         <item>Все буферы журналов</item>
-        <item>Все, кроме буферов журнала радио</item>
+        <item>Все, кроме буферов системного журнала</item>
         <item>Только буфер журнала ядра</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Отключено</item>
         <item>Все</item>
-        <item>Все, кроме радио</item>
+        <item>Все, кроме системных</item>
         <item>Только ядро</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
