@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="aggregate_entries">
+        <item>Agrupar</item>
+        <item>Agrupar e diminuir prioridade</item>
+        <item>Não agrupar</item>
+    </string-array>
+    <string-array name="aggregate_summaries">
+        <item>Notificações push promocionais e relacionadas ao conteúdo serão agrupadas</item>
+        <item>As notificações push serão agrupadas e exibidas abaixo de outras notificações</item>
+        <item>As notificações push não serão agrupadas</item>
+    </string-array>
     <string-array name="agps_apn_entries">
         <item>CMWAP</item>
         <item>CMNET</item>
@@ -134,7 +144,7 @@
         <item>Local</item>
         <item>Obter estatísticas de uso</item>
         <item>Ativar/desativar o som do microfone</item>
-        <item>Mostrar mensagem</item>
+        <item>Mostrar notificação toast</item>
         <item>Projeção de mídia</item>
         <item>Ativar VPN</item>
         <item>Escrever plano de fundo</item>
@@ -166,7 +176,7 @@
         <item>modificar registro de chamadas</item>
         <item>ler agenda</item>
         <item>modificar agenda</item>
-        <item>verificação de Wi-Fi</item>
+        <item>busca por Wi-Fi</item>
         <item>notificação</item>
         <item>verificação de celular</item>
         <item>chamar telefone</item>
@@ -201,7 +211,7 @@
         <item>monitorar local de alta potência</item>
         <item>obter estatísticas de uso</item>
         <item>ativar/desativar o som do microfone</item>
-        <item>mostrar mensagem</item>
+        <item>mostrar notificação toast</item>
         <item>projeção de mídia</item>
         <item>ativar VPN</item>
         <item>escrever plano de fundo</item>
@@ -229,6 +239,11 @@
         <item>No máximo 2 processos</item>
         <item>No máximo 3 processos</item>
         <item>No máximo 4 processos</item>
+    </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>Desativado</item>
+        <item>Depuração</item>
+        <item>Detalhado</item>
     </string-array>
     <string-array name="automatic_storage_management_days">
         <item>Com mais de 30 dias</item>
@@ -317,12 +332,14 @@
         <item>Latência longa (300~500ms)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_summaries">
+        <item>Otimizado para baixa latência</item>
         <item>Otimizado para qualidade de conexão</item>
-        <item>Qualidade de áudio e conexão balanceados</item>
+        <item>Qualidade balanceada de áudio e conexão</item>
         <item>Otimizado para qualidade de áudio</item>
         <item>Melhor desempenho (Taxa de bits automática)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles">
+        <item>Otimizado para baixa latência (256kbps)</item>
         <item>Otimizado para qualidade de conexão (400kbps)</item>
         <item>Qualidade balanceada de áudio e conexão (500/560kbps)</item>
         <item>Otimizado para qualidade de áudio (900kbps)</item>
@@ -350,7 +367,10 @@
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>LHDC</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC_V3</item>
+        <item>LHDC_V2</item>
+        <item>LHDC_V1</item>
         <item>Ativar codecs opcionais</item>
         <item>Desativar codecs opcionais</item>
     </string-array>
@@ -362,7 +382,10 @@
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>LHDC</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC_V3</item>
+        <item>LHDC_V2</item>
+        <item>LHDC_V1</item>
         <item>Ativar codecs opcionais</item>
         <item>Desativar codecs opcionais</item>
     </string-array>
@@ -397,6 +420,13 @@
         <item>Cinco minutos</item>
         <item>Uma hora</item>
         <item>Nunca definir tempo limite</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Desativado</item>
+        <item>Ativado e Filtrado</item>
+        <item>Ativado</item>
+        <item>\"Filtro de Cabeçalhos\" ativado</item>
+        <item>\"Filtro de pacotes multimídia\" ativado</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 segundo</item>
@@ -445,6 +475,14 @@
         <item>Casual</item>
         <item>Cursiva</item>
         <item>Versalete</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>R-UIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Somente doméstica</item>
+        <item>Automático</item>
     </string-array>
     <string-array name="change_security_lock_picker">
         <item>Desbloqueio facial</item>
@@ -803,9 +841,8 @@
         <item>1</item>
     </string-array>
     <string-array name="dark_ui_mode_entries">
-        <item>Automático (com base na hora do dia)</item>
-        <item>Sempre ativado</item>
-        <item>Sempre desativado</item>
+        <item>Escuro</item>
+        <item>Claro</item>
     </string-array>
     <string-array name="data_usage_data_range">
         <item>Últimos 30 dias</item>
@@ -843,12 +880,6 @@
         <item>5 minutos</item>
         <item>10 minutos</item>
         <item>30 minutos</item>
-    </string-array>
-    <string-array name="eap_method_without_sim_auth">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Nenhum</item>
@@ -913,6 +944,27 @@
     <string-array name="hide_account_list">
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
+    </string-array>
+    <string-array name="input_method_function_des">
+        <item>@string/input_method_function_voice_des</item>
+        <item>@string/input_method_function_xiaoai_des</item>
+        <item>@string/input_method_function_switch_des</item>
+        <item>@string/input_method_function_clipboard_des</item>
+        <item>@string/input_method_function_no_function_des</item>
+    </string-array>
+    <array name="input_method_function_icons">
+        <item>@drawable/input_method_voice_function_selector</item>
+        <item>@drawable/input_method_xiaoai_function_selector</item>
+        <item>@drawable/input_method_switch_function_selector</item>
+        <item>@drawable/input_method_clipboard_function_selector</item>
+        <item>@drawable/input_method_no_function_selector</item>
+    </array>
+    <string-array name="input_method_function_title">
+        <item>@string/input_method_function_voice</item>
+        <item>@string/input_method_function_xiaoai</item>
+        <item>@string/input_method_function_switch</item>
+        <item>@string/input_method_function_clipboard</item>
+        <item>@string/input_method_function_no_function</item>
     </string-array>
     <string-array name="key_and_gesture_shortcut_action">
         <item>long_press_home_key</item>
@@ -1037,12 +1089,12 @@
         <item>Roxo</item>
     </string-array>
     <string-array name="miui_entries_font_size">
+        <item>EP</item>
         <item>P</item>
         <item>M</item>
         <item>G</item>
         <item>EG</item>
         <item>EEG</item>
-        <item>EEEG</item>
     </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP e versões mais antigas</item>
@@ -1285,6 +1337,36 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>E-mail</item>
         <item>Reprodutor de vídeos</item>
     </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>GSM/WCDMA preferencial</item>
+        <item>Somente GSM</item>
+        <item>Somente WCDMA</item>
+        <item>GSM/WCDMA automático</item>
+        <item>CDMA/EvDo automático</item>
+        <item>CDMA sem EvDo</item>
+        <item>Somente EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>Global</item>
+        <item>LTE</item>
+        <item>LTE / WCDMA</item>
+        <item>Somente TDSCDMA</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>Global</item>
+        <item>LTE / CDMA</item>
+        <item>LTE / GSM / UMTS</item>
+    </string-array>
     <string-array name="priority_storage_entries">
         <item>Armazenamento interno</item>
         <item>Armazenamento externo</item>
@@ -1348,14 +1430,14 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>Mostrar menu</item>
     </string-array>
     <string-array name="screen_optimize_summary">
-        <item>Ajustar cores com base na iluminação</item>
+        <item>Ajustar cores com base na iluminação atual</item>
         <item>Sempre aprimorar cores</item>
-        <item>Restaurar cor padrão do conteúdo da tela com a calibração de cores</item>
+        <item>O contraste permanecerá constante</item>
     </string-array>
     <string-array name="screen_optimize_title">
         <item>Automático (recomendado)</item>
         <item>Saturada</item>
-        <item>Cor original</item>
+        <item>Padrão</item>
     </string-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
@@ -1455,6 +1537,10 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>Permitir</item>
         <item>Recusar</item>
     </string-array>
+    <string-array name="swipe_direction_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
         <item>@drawable/threedrop01</item>
@@ -1481,7 +1567,7 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>@drawable/threedrop07</item>
     </array>
     <string-array name="time_format_entries">
-        <item>12 horas 1:00PM</item>
+        <item>12 horas 1:00 PM</item>
         <item>24 horas 13:00</item>
         <item>Automático (baseado no idioma do sistema)</item>
     </string-array>
@@ -1591,6 +1677,10 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>2</item>
         <item>3</item>
     </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>Nenhum</item>
+        <item>Manual</item>
+    </string-array>
     <string-array name="vpn_states">
         <item>Desconectado</item>
         <item>Inicializando...</item>
@@ -1640,11 +1730,6 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>@string/wifi_security_none</item>
         <item>@string/wifi_security_wpa2</item>
     </string-array>
-    <string-array name="wifi_calling_mode_choices">
-        <item>Wi-Fi preferido</item>
-        <item>Preferência pela rede móvel</item>
-        <item>Somente Wi-Fi</item>
-    </string-array>
     <string-array name="wifi_calling_mode_choices_v2">
         <item>Wi-Fi</item>
         <item>Celular</item>
@@ -1653,19 +1738,6 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
     <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
         <item>Wi-Fi</item>
         <item>Celular</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_choices_without_wifi_only">
-        <item>Wi-Fi preferido</item>
-        <item>Preferência pela rede móvel</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values_without_wifi_only">
-        <item>2</item>
-        <item>1</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
         <item>Conectar automaticamente</item>
@@ -1677,15 +1749,6 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>TLS</item>
         <item>TTLS</item>
         <item>PWD</item>
-    </string-array>
-    <string-array name="wifi_eap_method">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
-        <item>SIM</item>
-        <item>AKA</item>
-        <item>"AKA'"</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Não</item>
@@ -1732,6 +1795,10 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
+    <string-array name="wifi_privacy_entries">
+        <item>Usar MAC aleatório</item>
+        <item>Usar MAC do dispositivo</item>
+    </string-array>
     <string-array name="wifi_proxy_settings">
         <item>Nenhum</item>
         <item>Manual</item>
@@ -1751,34 +1818,30 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
     <string-array name="wifi_status">
         <item></item>
         <item>Procurando…</item>
-        <item>Conectando…</item>
-        <item>Autenticando…</item>
+        <item>Conectando...</item>
+        <item>Autenticando...</item>
         <item>Obtendo endereço IP…</item>
         <item>Conectado</item>
-        <item>Suspensa</item>
+        <item>Suspenso</item>
         <item>Desconectando…</item>
         <item>Desconectado</item>
-        <item>Sem sucesso</item>
-        <item>Bloqueada</item>
-        <item>Evitando temporariamente uma conexão ruim</item>
+        <item>Falha</item>
+        <item>Bloqueado</item>
+        <item>Temporariamente evitando uma conexão ruim</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
         <item>Procurando…</item>
         <item>Conectando-se a %1$s…</item>
-        <item>Autenticando-se com %1$s…</item>
-        <item>Obtendo endereço IP de %1$s…</item>
+        <item>Autenticando com a %1$s…</item>
+        <item>Obtendo endereço IP da %1$s…</item>
         <item>Conectado a %1$s</item>
-        <item>Suspensa</item>
-        <item>Desconectando de %1$s…</item>
+        <item>Suspenso</item>
+        <item>Desconectando da %1$s…</item>
         <item>Desconectado</item>
-        <item>Sem sucesso</item>
-        <item>Bloqueada</item>
-        <item>Evitando temporariamente uma conexão ruim</item>
-    </string-array>
-    <string-array name="wifi_tether_security_values">
-        <item>4</item>
-        <item>0</item>
+        <item>Falha</item>
+        <item>Bloqueado</item>
+        <item>Temporariamente evitando uma conexão ruim</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animação desativada</item>

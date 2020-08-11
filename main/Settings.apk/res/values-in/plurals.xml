@@ -12,6 +12,10 @@
         <item quantity="other">%d tahun lalu</item>
         <item quantity="one">%d tahun lalu</item>
     </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d aplikasi memiliki akses penuh ke perangkat Anda</item>
+        <item quantity="one">1 aplikasi memiliki akses penuh ke perangkat Anda</item>
+    </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
         <item quantity="other">Penundaan terlalu singkat (%1$d md)</item>
         <item quantity="one">Penundaan terlalu singkat (%1$d md)</item>
@@ -79,12 +83,15 @@
         <item quantity="other">%d hari lagi</item>
         <item quantity="one">%d hari lagi</item>
     </plurals>
+    <plurals name="bt_usable_device_title">
+        <item quantity="other">%d perangkat tersedia</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d perangkat</item>
     </plurals>
     <plurals name="data_saver_unrestricted_summary">
-        <item quantity="other">%1$d aplikasi diizinkan untuk menggunakan data yang tidak dibatasi jika Penghemat Kuota Internet aktif</item>
-        <item quantity="one">1 aplikasi diizinkan untuk menggunakan data yang tidak dibatasi jika Penghemat Kuota Internet aktif</item>
+        <item quantity="other">%1$d aplikasi diizinkan untuk menggunakan kuota tak terbatas saat Penghemat Kuota Internet aktif</item>
+        <item quantity="one">1 aplikasi diizinkan untuk menggunakan kuota tak terbatas saat Penghemat Kuota Internet aktif</item>
     </plurals>
     <plurals name="default_camera_app_title">
         <item quantity="other">Aplikasi kamera</item>
@@ -135,6 +142,14 @@
     <plurals name="hours">
         <item quantity="other">%s jam</item>
         <item quantity="one">1 jam</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%1$d dari %2$d aplikasi memiliki akses ke lokasi</item>
+        <item quantity="one">%1$d dari %2$d aplikasi memiliki akses ke lokasi</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">Aktif - %1$d aplikasi memiliki akses ke lokasi</item>
+        <item quantity="one">Aktif - %1$d aplikasi memiliki akses ke lokasi</item>
     </plurals>
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="other">Minimal berisi %d huruf</item>
@@ -189,8 +204,8 @@
         <item quantity="one">%d aplikasi dapat membaca notifikasi</item>
     </plurals>
     <plurals name="manage_trust_agents_summary_on">
-        <item quantity="other">%d perangkat dipercaya aktif</item>
-        <item quantity="one">1 perangkat dipercaya aktif</item>
+        <item quantity="other">%d perangkat tepercaya aktif</item>
+        <item quantity="one">1 perangkat tepercaya aktif</item>
     </plurals>
     <plurals name="memory_usage_apps_summary">
         <item quantity="other">%1$d aplikasi menggunakan memori dalam %2$s terakhir</item>
@@ -203,9 +218,17 @@
     <plurals name="miui_sos_emergency_contacts_quantity">
         <item quantity="other">%d ditambahkan</item>
     </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM</item>
+        <item quantity="one">%1$d SIM</item>
+    </plurals>
     <plurals name="network_restrictions_summary">
         <item quantity="other">%1$d pembatasan</item>
         <item quantity="one">1 pembatasan</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d saluran notifikasi.</item>
+        <item quantity="one">%1$d saluran notifikasi.</item>
     </plurals>
     <plurals name="notification_group_summary">
         <item quantity="other">%d kategori</item>
@@ -219,9 +242,21 @@
         <item quantity="other">%d kategori dinonaktifkan</item>
         <item quantity="one">%d kategori dinonaktifkan</item>
     </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d notifikasi per hari</item>
+        <item quantity="one">~%d notifikasi per hari</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d notifikasi per minggu</item>
+        <item quantity="one">~%d notifikasi per minggu</item>
+    </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d aplikasi aktif</item>
         <item quantity="one">%d aplikasi aktif</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s aplikasi</item>
+        <item quantity="one">1 aplikasi</item>
     </plurals>
     <plurals name="permissions_summary">
         <item quantity="other">%d izin diberikan</item>
@@ -255,6 +290,9 @@
         <item quantity="other">%1$d dari %2$d izin diberikan</item>
         <item quantity="one">%1$d dari %2$d izin diberikan</item>
     </plurals>
+    <plurals name="saved_network_checked_num">
+        <item quantity="other">%d item terpilih</item>
+    </plurals>
     <plurals name="seconds">
         <item quantity="other">%s detik</item>
         <item quantity="one">1 detik</item>
@@ -266,6 +304,10 @@
     <plurals name="settings_suggestion_header_summary_hidden_items">
         <item quantity="other">Tampilkan %d item tersembunyi</item>
         <item quantity="one">Tampilkan %d item tersembunyi</item>
+    </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d perangkat terhubung</item>
+        <item quantity="one">%1$d perangkat terhubung</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Tinggal %1$d langkah lagi dari memasuki CIT.</item>
@@ -285,8 +327,8 @@
         <item quantity="other">Tinggal %1$d langkah lagi dr melapor bug.</item>
     </plurals>
     <plurals name="special_access_summary">
-        <item quantity="other">%d aplikasi dapat menggunakan data yang tidak dibatasi</item>
-        <item quantity="one">1 aplikasi dapat menggunakan data yang tidak dibatasi</item>
+        <item quantity="other">%d aplikasi dapat menggunakan data tanpa dibatasi</item>
+        <item quantity="one">1 aplikasi dapat menggunakan data tanpa dibatasi</item>
     </plurals>
     <plurals name="ssl_ca_cert_dialog_title">
         <item quantity="other">Percayai atau hapus sertifikat</item>
@@ -388,6 +430,14 @@ Untuk informasi selengkapnya tentang sertifikat ini, hubungi admin."</item>
         <item quantity="other">%d jaringan</item>
         <item quantity="one">1 jaringan</item>
     </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d jaringan &amp; langganan</item>
+        <item quantity="one">1 jaringan &amp; langganan</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d langganan</item>
+        <item quantity="one">1 langganan</item>
+    </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">Berbagi %d jaringan</item>
     </plurals>
@@ -398,17 +448,21 @@ Untuk informasi selengkapnya tentang sertifikat ini, hubungi admin."</item>
         <item quantity="other">Kode PIN SIM salah, sisa %d percobaan.</item>
         <item quantity="one">Kode PIN SIM salah, sisa %d percobaan sebelum Anda harus menghubungi operator untuk membuka kunci perangkat.</item>
     </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">Notifikasi dari %1$d aplikasi dapat menggantikan mode Jangan Ganggu</item>
+        <item quantity="one">Notifikasi dari 1 aplikasi dapat menggantikan mode Jangan Ganggu</item>
+    </plurals>
     <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d jam (kecuali diaktifkan otomatis)</item>
-        <item quantity="one">1 jam (kecuali diaktifkan otomatis)</item>
+        <item quantity="other">%d jam</item>
+        <item quantity="one">1 jam</item>
     </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d aturan</item>
-        <item quantity="one">1 aturan</item>
+        <item quantity="other">%d diaktifkan</item>
+        <item quantity="one">1 diaktifkan</item>
     </plurals>
     <plurals name="zen_mode_sound_summary_summary_off_info">
-        <item quantity="other">%d aturan dapat aktif secara otomatis</item>
-        <item quantity="one">1 aturan dapat aktif secara otomatis</item>
+        <item quantity="other">%d jadwal dapat aktif otomatis</item>
+        <item quantity="one">1 jadwal dapat aktif otomatis</item>
     </plurals>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
         <item quantity="other">%d lainnya</item>

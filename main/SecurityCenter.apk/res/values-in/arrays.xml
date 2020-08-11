@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="date_of_traffic_cmcc">
-        <item>"Minggu ini "</item>
-        <item>"Hari ini "</item>
-        <item>"Bulan ini "</item>
+    <string-array name="alarm_repeat_type">
+        <item>Sekali</item>
+        <item>Tiap hari</item>
+        <item>Hari kerja</item>
+        <item>Senin sampai Jumat</item>
+        <item>Khusus</item>
     </string-array>
-    <string-array name="date_of_traffic">
-        <item>"Kemarin "</item>
-        <item>"Hari ini "</item>
-        <item>"Bulan lalu "</item>
-        <item>"Bulan ini "</item>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Sekali</item>
+        <item>Tiap hari</item>
+        <item>Senin sampai Jumat</item>
+        <item>Khusus</item>
     </string-array>
-    <string-array name="date_of_traffic_prefix_cmcc">
-        <item>"Minggu ini: "</item>
-        <item>"Hari ini: "</item>
-        <item>"Bulan ini: "</item>
+    <string-array name="app_behavior_type_menu">
+        <item>Semua catatan</item>
+        <item>Mulai otomatis</item>
+        <item>Rangkaian mulai</item>
+        <item>Penggunaan perizinan</item>
+        <item>Aksi sensitif</item>
     </string-array>
-    <string-array name="date_of_traffic_prefix">
-        <item>"Kemarin: "</item>
-        <item>"Hari ini: "</item>
-        <item>"Bulan lalu: "</item>
-        <item>"Bulan ini: "</item>
+    <string-array name="applock_password_types">
+        <item>Pola</item>
+        <item>PIN</item>
+        <item>Sandi</item>
+    </string-array>
+    <string-array name="daily_brand">
+        <item>Kustom</item>
+        <item>Kartu Mi Fan</item>
+        <item>Kartu Xiao Tiansheng</item>
+        <item>Kartu Tencent King</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>"Kemarin (data seluler) "</item>
@@ -32,22 +41,39 @@
         <item>"Bulan lalu (Wi-Fi) "</item>
         <item>"Bulan ini (Wi-Fi) "</item>
     </string-array>
-    <string-array name="traffic_type">
-        <item>"Penggunaan data seluler "</item>
-        <item>"Penggunaan Wi-Fi "</item>
+    <string-array name="date_of_traffic">
+        <item>"Kemarin "</item>
+        <item>"Hari ini "</item>
+        <item>"Bulan lalu "</item>
+        <item>"Bulan ini "</item>
     </string-array>
-    <string-array name="mi_service_traffic_type">
-        <item>"Penggunaan seluler "</item>
-        <item>"Penggunaan Wi-Fi "</item>
+    <string-array name="date_of_traffic_cmcc">
+        <item>"Minggu ini "</item>
+        <item>"Hari ini "</item>
+        <item>"Bulan ini "</item>
     </string-array>
-    <string-array name="over_limit_traffic_waring_style">
-        <item>Tampil peringatan</item>
-        <item>Beritahu dan matikan data seluler</item>
+    <string-array name="date_of_traffic_prefix">
+        <item>"Kemarin: "</item>
+        <item>"Hari ini: "</item>
+        <item>"Bulan lalu: "</item>
+        <item>"Bulan ini: "</item>
     </string-array>
-    <string-array name="roaming_network_type">
-        <item>Selalu</item>
-        <item>Pengecualian saja</item>
-        <item>Jangan</item>
+    <string-array name="date_of_traffic_prefix_cmcc">
+        <item>"Minggu ini: "</item>
+        <item>"Hari ini: "</item>
+        <item>"Bulan ini: "</item>
+    </string-array>
+    <string-array name="debug_open_intercept">
+        <item>Dengan ini, maka memungkinkan untuk mengakses dan mengedit berkas di perangkat Anda menggunakan komputer.</item>
+        <item>Menginstal aplikasi di perangkat Anda tanpa izin eksplisit Anda akan diizinkan.</item>
+        <item>Anda akan dapat memantau dan merekam konten layar Anda dari jauh.</item>
+        <item>Dengan ini, maka memungkinkan untuk mengakses rincian informasi mengenai perangkat Anda.</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
     </string-array>
     <string-array name="lock_mode">
         <item>Saat perangkat terkunci</item>
@@ -59,62 +85,41 @@
         <item>0</item>
         <item>2</item>
     </string-array>
-    <string-array name="sort_type">
-        <item>Status</item>
-        <item>Nama apl</item>
-        <item>Frekuensi penggunaan</item>
-        <item>Penyimpanan terpakai</item>
-        <item>Waktu instal</item>
+    <string-array name="mi_service_traffic_type">
+        <item>"Penggunaan seluler "</item>
+        <item>"Penggunaan Wi-Fi "</item>
     </string-array>
-    <string-array name="sort_title">
-        <item>Urut per status</item>
-        <item>Urut per nama apl</item>
-        <item>Urut per frekuensi penggunaan</item>
-        <item>Urut per penyimpanan terpakai</item>
-        <item>Urut per waktu instal</item>
+    <string-array name="miui_optimization_close_intercept">
+        <item>Penting: Beberapa aplikasi sistem mungkin berhenti bekerja dengan normal.</item>
+        <item>Susunan teks, akun, dan konten mungkin tidak dapat ditampilkan dengan benar.</item>
     </string-array>
-    <string-array name="key_app_info">
-        <item>install_source</item>
-        <item>install_time</item>
-        <item>update_source</item>
-        <item>update_time</item>
+    <string-array name="operate_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
     </string-array>
-    <string-array name="title_app_info">
-        <item>Sumber instalasi</item>
-        <item>Waktu instal</item>
-        <item>Sumber pembaruan terakhir</item>
-        <item>Waktu pembaruan terakhir</item>
+    <string-array name="operate_entryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
-    <string-array name="sms_report_type">
-        <item>Penggunaan data</item>
-        <item>Saldo pulsa</item>
+    <string-array name="operate_memory_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
     </string-array>
-    <string-array name="tether_limit_warn_type">
-        <item>Matikan dan beritahu</item>
-        <item>Hanya beritahu</item>
+    <string-array name="operate_memory_entryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
-    <string-array name="traffic_package_type">
-        <item>Paket data bulanan</item>
-        <item>Paket data harian</item>
-        <item>Paket data tak terbatas</item>
+    <string-array name="over_limit_traffic_waring_style">
+        <item>Tampil peringatan</item>
+        <item>Beritahu dan matikan data seluler</item>
     </string-array>
-    <string-array name="applock_password_types">
-        <item>Pola</item>
-        <item>PIN</item>
-        <item>Sandi</item>
-    </string-array>
-    <string-array name="alarm_repeat_type">
-        <item>Sekali</item>
-        <item>Tiap hari</item>
-        <item>Hari kerja</item>
-        <item>Senin sampai Jumat</item>
-        <item>Kustom</item>
-    </string-array>
-    <string-array name="alarm_repeat_type_no_workdays">
-        <item>Sekali</item>
-        <item>Tiap hari</item>
-        <item>Senin sampai Jumat</item>
-        <item>Kustom</item>
+    <string-array name="pc_battery_history_spinner_choice">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_settings_thermal_entries">
         <item>Standar</item>
@@ -124,38 +129,64 @@
         <item>Gunakan mode kontrol suhu standar</item>
         <item>Memprioritaskan performa</item>
     </string-array>
-    <string-array name="power_dialog_auto_clean_memory_items">
-        <item>Setelah 1 menit</item>
-        <item>Setelah 5 menit</item>
-        <item>Setelah 10 menit</item>
+    <string-array name="perm_intercept_notification">
+        <item>Membaca seluruh notifikasi Anda, termasuk konten pesan teks dan item lainnya yang mungkin akan mengandung info pribadi</item>
+        <item>Membatasi perizinan notifikasi untuk beberapa apl</item>
+        <item>Simulasi mengetuk notifikasi dan membuka apl</item>
+        <item>Menghidupkan dan mematikan mode Jangan ganggu</item>
+    </string-array>
+    <string-array name="perm_intercept_statitics">
+        <item>Mengumpulkan data tentang ketertarikan dan perilaku Anda dengan mempelajari apl apa yang Anda gunakan dan bagaimana Anda menggunakannya</item>
+        <item>Mengakses hal-hal yang berhubungan dengan operator dan setelan bahasa Anda, serta rincian lainnya</item>
+    </string-array>
+    <string-array name="perm_intercept_unknown_source">
+        <item>Apl pihak ketiga yang tidak diverifikasi oleh GetApps dapat menimbulkan beberapa masalah dan menurunkan stabilitas sistem.</item>
+        <item>Beberapa apl pihak ketiga mungkin mengandung malware yang dapat membawa risiko untuk data pribadi Anda.</item>
+    </string-array>
+    <string-array name="priority_storage_entries">
+        <item>Penyimpanan internal</item>
+        <item>Penyimpanan eksternal</item>
+    </string-array>
+    <string-array name="roaming_network_type">
+        <item>Selalu</item>
+        <item>Pengecualian saja</item>
         <item>Jangan</item>
     </string-array>
-    <string-array name="power_dialog_sleep_items">
-        <item>15 detik</item>
-        <item>30 detik</item>
-        <item>1 menit</item>
-        <item>2 menit</item>
-        <item>5 menit</item>
-        <item>10 menit</item>
-        <item>Jangan</item>
+    <string-array name="sms_report_type">
+        <item>Penggunaan data</item>
+        <item>Saldo pulsa</item>
     </string-array>
-    <string-array name="power_dialog_cpu_state_items">
-        <item>Performa tinggi</item>
-        <item>Seimbang</item>
+    <string-array name="sort_title">
+        <item>Urut per status</item>
+        <item>Urut per nama apl</item>
+        <item>Urut per frekuensi penggunaan</item>
+        <item>Urut per penyimpanan terpakai</item>
+        <item>Urut per waktu instal</item>
     </string-array>
-    <string-array name="power_dialog_wifi_internet_state_items">
-        <item>Matikan</item>
-        <item>Hidupkan</item>
-        <item>Bawaan</item>
+    <string-array name="sort_type">
+        <item>Status</item>
+        <item>Nama apl</item>
+        <item>Frekuensi penggunaan</item>
+        <item>Penyimpanan terpakai</item>
+        <item>Waktu instal</item>
     </string-array>
-    <string-array name="power_dialog_vibration_items">
-        <item>Tidak getar</item>
-        <item>Getar saat hening</item>
-        <item>Selalu getar</item>
+    <string-array name="tether_limit_warn_type">
+        <item>Matikan dan beritahu</item>
+        <item>Hanya beritahu</item>
     </string-array>
-    <string-array name="power_dialog_vibration_items_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
+    <string-array name="title_app_info">
+        <item>Sumber instalasi</item>
+        <item>Waktu instal</item>
+        <item>Sumber pembaruan terakhir</item>
+        <item>Waktu pembaruan terakhir</item>
+    </string-array>
+    <string-array name="traffic_package_type">
+        <item>Paket data bulanan</item>
+        <item>Paket data harian</item>
+        <item>Paket data tak terbatas</item>
+    </string-array>
+    <string-array name="traffic_type">
+        <item>"Penggunaan data seluler "</item>
+        <item>"Penggunaan Wi-Fi "</item>
     </string-array>
 </resources>
