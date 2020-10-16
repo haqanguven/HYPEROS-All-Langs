@@ -1,2 +1,2 @@
 # MIUITR Team
-# Developer
+# https://forum.miuitr.info/
