@@ -48,6 +48,7 @@
     <string name="cloud_find_device_off">Tắt</string>
     <string name="cloud_find_device_on">Bật</string>
     <string name="cloud_lab_title">Phòng thí nghiệm</string>
+    <string name="cloud_space_full_gallery_notification_content_text">Nâng cấp gói gói của bạn để có thêm dung lượng lưu trữ đám mây</string>
     <string name="cloud_storage_already_full">Lưu trữ Mi Cloud đã đầy: %1$s/%2$s</string>
     <string name="cloud_storage_already_used">Đã sử dụng: %1$s/%2$s</string>
     <string name="cloud_storage_default_title">Lưu trữ đám mây</string>
@@ -67,6 +68,8 @@
     <string name="connect_wlan">Kết nối Wi-Fi</string>
     <string name="connect_wlan_china">Connect to WLAN</string>
     <string name="copy">Sao chép</string>
+    <string name="cta_notification_content_text">Cho phép %s kết nối internet để có thể khôi phục các mục</string>
+    <string name="cta_notification_content_title">Không thể khôi phục các mục từ %s</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_more_than_two">Tài khoản này cũng được sử dụng trên một thiết bị khác. Hợp nhất các mục từ nhiều ứng dụng (bao gồm %1$s và %2$s) với các mục trên thiết bị này?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_one">Tài khoản này cũng được sử dụng trên một thiết bị khác. Hợp nhất các mục từ %s với các mục trên thiết bị này?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_two">Tài khoản này cũng được sử dụng trên một thiết bị khác. Hợp nhất các mục từ %1$s và %2$s với các mục trên thiết bị này?</string>
@@ -118,6 +121,7 @@
     <string name="ks_fingerprint_status">Trạng thái thanh toán</string>
     <string name="ks_name_alipay">IFAA</string>
     <string name="ks_name_fido">FIDO</string>
+    <string name="ks_name_passpoint">Wi-Fi Passpoint</string>
     <string name="ks_name_soter">Soter</string>
     <string name="ks_name_widevine">Widevine (L1)</string>
     <string name="ks_status_available">Khả dụng</string>
@@ -167,11 +171,6 @@
     <string name="micloud_battery_low_notification_message">Kết nối bộ sạc để đồng bộ</string>
     <string name="micloud_battery_low_notification_title">Pin yếu</string>
     <string name="micloud_buy_member_safe">Thêm lưu trữ đám mây</string>
-    <string name="micloud_check_sim_notify_text">"Dường như bạn đã đổi thẻ SIM. Đăng nhập
-vào Tài khoản Mi của bạn để kích hoạt lại Xiaomi Cloud."</string>
-    <string name="micloud_check_sim_notify_title">Kích hoạt lại Xiaomi Cloud</string>
-    <string name="micloud_check_sim_title">"Dường như bạn đã đổi thẻ SIM. Đăng nhập
-vào Tài khoản Mi của bạn để kích hoạt lại Xiaomi Cloud."</string>
     <string name="micloud_confusion_account_hint">Các thay đổi mà bạn thực hiện trên thiết bị này sẽ được đồng bộ đến tất cả thiết bị. Để bảo vệ tài khoản, chúng tôi kiến nghị bạn tắt đồng bộ thiết bị khác khi bạn không sử dụng chúng.</string>
     <string name="micloud_confusion_account_name">Tài khoản:</string>
     <string name="micloud_confusion_account_notify_text">Thiết bị khác đang chỉnh sửa Tài khoản Mi của bạn. Xác minh tài khoản của bạn ngay.</string>
@@ -210,7 +209,7 @@ vào Tài khoản Mi của bạn để kích hoạt lại Xiaomi Cloud."</string
     <string name="micloud_dspt_provision_china">Sử dụng Xiaomi Cloud để đồng bộ dữ liệu, định vị thiết bị và chia sẻ mọi thứ với bạn bè.</string>
     <string name="micloud_dspt_provision_xms">Sử dụng Xiaomi Cloud để đồng bộ dữ liệu.</string>
     <string name="micloud_dspt_provision_xms_china">Sử dụng Xiaomi Cloud để đồng bộ dữ liệu.</string>
-    <string name="micloud_find_device_close_alert_content">Nếu bạn tắt Tìm thiết bị, bạn sẽ không thể định vị điện thoại của mình bằng tính năng này. Nếu điện thoại của bạn hỗ trợ chức năng NFC, tất cả thẻ ngân hàng và thẻ khóa của bạn sẽ bị xóa khỏi Mi Pay.</string>
+    <string name="micloud_find_device_close_alert_content">"If you turn off Find device, you won't be able to locate your device using this feature. If your device supports NFC, all your bank cards and keycards will be deleted from Mi Pay. People with whom you share location won't be able to receive updates on your whereabouts as well."</string>
     <string name="micloud_find_device_close_alert_negtive">Tiếp tục tắt</string>
     <string name="micloud_find_device_close_alert_positive">Tiếp tục mở</string>
     <string name="micloud_find_device_close_alert_title">Tắt Tìm thiết bị?</string>
@@ -290,6 +289,11 @@ vào Tài khoản Mi của bạn để kích hoạt lại Xiaomi Cloud."</string
     <string name="micloud_manual_pausing">Đồng bộ đã tạm dừng</string>
     <string name="micloud_manual_pending">Đang chờ…</string>
     <string name="micloud_manual_reactivate">Kích hoạt lại</string>
+    <string name="micloud_manual_request_permission_cancel">Hủy</string>
+    <string name="micloud_manual_request_permission_confirm">Cài đặt</string>
+    <string name="micloud_manual_request_permission_content">Để có thể sử dụng dịch vụ của chúng tôi, cấp cho Xiaomi Cloud các quyền sau trong Cài đặt: \"%s\".</string>
+    <string name="micloud_manual_request_permission_content_on_provision">Cấp các quyền yêu cầu trong Bảo mật trước</string>
+    <string name="micloud_manual_request_permission_title">Yêu cầu quyền</string>
     <string name="micloud_manual_sync_all">Đồng bộ tất cả các mục</string>
     <string name="micloud_manual_sync_now">Đồng bộ</string>
     <string name="micloud_manual_sync_now_retry">Thử lại</string>
@@ -331,14 +335,14 @@ vào Tài khoản Mi của bạn để kích hoạt lại Xiaomi Cloud."</string
     <string name="micloud_privacy_warning_title">Chú ý</string>
     <string name="micloud_proceed">Tiếp tục</string>
     <string name="micloud_request_permission_confirm">Tôi biết</string>
-    <string name="micloud_request_permission_content">Xiaomi Cloud yêu cầu quyền để đồng bộ dữ liệu. Cho phép Xiaomi Cloud truy cập Lịch, Liên hệ, Tài khoản Mi, trạng thái thẻ SIM, lịch sử cuộc gọi và tin nhắn.</string>
+    <string name="micloud_request_permission_content">Để có thể đồng bộ lịch sự kiện, liên hệ, tin nhắn, lịch sử cuộc gọi, ảnh, video và các mục khác, Xiaomi Cloud cần quyền truy cập lịch, liên hệ, tài khoản, trạng thái SIM, lịch sử cuộc gọi, tin nhắn, ảnh và video của bạn.</string>
     <string name="micloud_request_permission_title">Xiaomi Cloud yêu cầu quyền truy cập</string>
     <string name="micloud_request_sync_too_frequent">Quá nhiều yêu cầu. Chờ một hoặc hai phút và thử lại.</string>
     <string name="micloud_setting_antispam_summary">Danh sách ngoại lệ và số điện thoại bị chặn</string>
     <string name="micloud_setting_browser_summary">Dấu trang, lịch sử và các thẻ</string>
     <string name="micloud_setting_calendar_summary">Sự kiện</string>
     <string name="micloud_setting_calllog_summary">Lịch sử cuộc gọi</string>
-    <string name="micloud_setting_contact_summary">Liên hệ và ảnh hồ sơ</string>
+    <string name="micloud_setting_contact_summary">Ảnh liên hệ và hồ sơ</string>
     <string name="micloud_setting_gallery_summary">Ảnh và video</string>
     <string name="micloud_setting_music_summary">Danh sách phát và yêu thích</string>
     <string name="micloud_setting_notes_summary">Ghi chú</string>
@@ -394,6 +398,15 @@ vào Tài khoản Mi của bạn để kích hoạt lại Xiaomi Cloud."</string
     <string name="micloud_wipe_data_confirm_title">Một số mục từ các ứng dụng sau đã đồng bộ với Xiaomi Cloud. Bạn có thể xóa khỏi thiết bị này mà vẫn giữ trên đám mây.</string>
     <string name="micloud_wipe_data_remove">Xóa</string>
     <string name="micloud_wipe_data_retain">Giữ</string>
+    <string name="midrive_guide1_desc">Sao lưu các mục lên đám mây để giải phóng dung lượng lưu trữ trên thiết bị.</string>
+    <string name="midrive_guide1_title">Sao lưu an toàn</string>
+    <string name="midrive_guide2_desc">Tải xuống các mục với tốc độ chóng mặt.</string>
+    <string name="midrive_guide2_title">Tải xuống nhanh</string>
+    <string name="midrive_guide3_desc">Sử dụng Mi Drive trên thiết bị di động, máy tính và trên trình duyệt.</string>
+    <string name="midrive_guide3_title">Làm việc mọi nơi</string>
+    <string name="midrive_guide_btn_install">Cài đặt Mi Drive</string>
+    <string name="midrive_guide_btn_installed">Mở Mi Drive</string>
+    <string name="midrive_guide_btn_installing">Đang cài đặt…</string>
     <string name="mx_dspt">Tin nhắn Mi</string>
     <string name="mx_dspt_provision">"Tin nhắn Mi cho phép bạn gửi tin nhắn cho thiết bị MIUI khác mà không phải trả phí khi kết nối Wi-Fi.
 
@@ -415,7 +428,7 @@ Tính năng này mã hóa và gửi ID của thiết bị lên máy chủ Mi."</
     <string name="no_sim">Không tìm thấy thẻ SIM</string>
     <string name="not_set">Chưa đặt</string>
     <string name="pay_info_dialog_confirm_to_pay">Thanh toán %s</string>
-    <string name="pay_info_dialog_mibi_balance_prefix">Sử dụng Mi Credit còn lại: %s</string>
+    <string name="pay_info_dialog_mibi_balance_prefix">Sử dụng Mi Coin còn lại: %s</string>
     <string name="pay_info_dialog_title">Chọn phương thức thanh toán</string>
     <string name="phone_number_required_dspt_provision">"Dịch vụ này yêu cầu số điện thoại của bạn. "</string>
     <string name="picker_list_empty">Không có liên hệ nào ở đây</string>
@@ -435,6 +448,7 @@ Tính năng này mã hóa và gửi ID của thiết bị lên máy chủ Mi."</
     <string name="privacy_dialog_sync_all_purpose_china">Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, songs, photos and videos, WLAN settings, recordings, Home screen layout, apps, calendar events, Blocklist items, and App vault across all connected devices.</string>
     <string name="privacy_doc_cloudservice">Chào mừng sử dụng dịch vụ Xiaomi Cloud! Bạn có thể sử dụng Xiaomi Cloud để đồng bộ tin nhắn, lịch sử cuộc gọi, liên hệ, ghi chú, cài đặt Trình duyệt, bài hát, ảnh và video, cài đặt Wi-Fi, ghi âm, bốtrí Màn hình chính, ứng dụng, lịch sự kiện, mục Danh sách chặn và App vault trên tất cả các thiết bị đã được kết nối. Truy cập những thứ bạn đồng bộ từ bất kỳ trình duyệt nào tại &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Một tin nhắn SMS có thể được yêu cầu gửi đi để kích hoạt các dịch vụ này. Nhà cung cấp sẽ tính phí tin nhắn này. Khi bạn chuyển đổi thẻ SIM, một tin nhắn có thể được gửi tự động để kích hoạt lại các dịch vụ này.&lt;br />&lt;br />Chúng tôi sẽ bảo vệ thông tin cá nhân của bạn theo luật pháp, quy định và chính sách bảo mật có liên quan.&lt;br />Để có thể hoạt động bình thường, các dịch vụ này cần kết nối internet và yêu cầu các quyền sau để thu thập thông tin cá nhân của bạn:&lt;br />• Lịch:&lt;br />Để đồng bộ sự kiện&lt;br />• Truy cập SMS:&lt;br />Để đồng bộ tin nhắn&lt;br />• Truy cập MMS:&lt;br />Để đồng bộ tin nhắn&lt;br />• Truy cập liên hệ:&lt;br />Để đồng bộ liên hệ&lt;br />• Chỉnh sửa liên hệ:&lt;br />Để đồng bộ liên hệ&lt;br />• Lưu trữ:&lt;br />Để lưu các mục trên thiết bị của bạn (ví dụ: ảnh, video, bài hát)&lt;br />Nếu bạn không đồng ý cấp các quyền đó hoặc chia sẻ và tải lên thông tin cá nhân của mình, bạn sẽ không thể sử dụng các dịch vụ này. Bạn có thể chọn gỡ cài đặt ứng dụng, đăng xuất hoặc giới hạn quyền trong Cài đặt trong những trường hợp như vậy.&lt;br />Đọc và đồng ý với &lt;a href=%1$s>&lt;u>Thỏa thuận Người dùng&lt;/u>&lt;/a> và &lt;a href=%2$s>&lt;u>Chính sách Riêng tư&lt;/u>&lt;/a> của chúng tôi trước khi sử dụng Xiaomi Cloud.&lt;br /></string>
     <string name="privacy_doc_cloudservice_china">"Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, songs, photos and videos, WLAN settings, recordings, Home screen layout, apps, calendar events, Blocklist items, and App vault across all connected devices. Access the things you sync from any browser at &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />An outgoing SMS message may be required to activate these services. Your carrier will charge you for this message. When you switch your SIM card, a message may be sent automatically to reactivate these services.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Calendar:&lt;br />For syncing events&lt;br />• Accessing SMS:&lt;br />For syncing messages&lt;br />• Accessing MMS:&lt;br />For syncing messages&lt;br />• Accessing contacts:&lt;br />For syncing contacts&lt;br />• Editing contacts:&lt;br />For syncing contacts&lt;br />• Storage:&lt;br />For saving items on your device (e.g. images, videos, songs)&lt;br />If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.&lt;br />Read and agree to our &lt;a href=%1$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%2$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using Xiaomi Cloud.&lt;br />"</string>
+    <string name="privacy_doc_cloudservice_global">Xiaomi Cloud cần kết nối internet để hoạt động bình thường. Đồng bộ dữ liệu có thể yêu cầu sử dụng dữ liệu di động và bật Wi-Fi. Đọc và đồng ý với &lt;a href=%1$s>&lt;u>Thỏa thuận Người dùng&lt;/u>&lt;/a> và&lt;a href=%2$s>&lt;u>Chính sách Riêng tư&lt;/u>&lt;/a> của chúng tôi trước khi sử dụng các dịch vụ Xiaomi Cloud.</string>
     <string name="privacy_doc_finddevice_pad">Chào mừng sử dụng Tìm thiết bị! Bạn có thể sử dụng dịch vụ này để định vị, khóa hoặc xóa dữ liệu trên thiết bị của mình nếu bị mất. Bạn có thể truy cập &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> để định vị, khóa hoặc đặt lại thiết bị.&lt;br />&lt;br />Chúng tôi sẽ bảo vệ thông tin cá nhân của bạn theo luật pháp, quy định và chính sách bảo mật có liên quan.&lt;br />Để có thể hoạt động bình thường, dịch vụ này cần kết nối internet và yêu cầu các quyền sau để thu thập thông tin cá nhân của bạn:&lt;br />• Truy cập thông tin thiết bị:&lt;br />Để nhận dạng thiết bị của bạn&lt;br />• Vị trí:&lt;br />Để định vị thiết bị của bạn và chuyển sang chế độ bị mất&lt;br />Nếu bạn không đồng ý cấp các quyền đó hoặc chia sẻ và tải lên thông tin cá nhân của mình, bạn sẽ không thể sử dụng dịch vụ này. Bạn có thể chọn gỡ cài đặt ứng dụng, đăng xuất hoặc giới hạn quyền trong Cài đặt trong những trường hợp như vậy.&lt;br />Đọc và đồng ý với &lt;a href=%1$s>&lt;u>Thỏa thuận Người dùng&lt;/u>&lt;/a> và &lt;a href=%2$s>&lt;u>Chính sách Riêng tư&lt;/u>&lt;/a> của chúng tôi trước khi sử dụng Tìm thiết bị.&lt;br /></string>
     <string name="privacy_doc_finddevice_phone">Chào mừng sử dụng Tìm thiết bị! Bạn có thể sử dụng dịch vụ này để định vị, khóa hoặc xóa dữ liệu trên thiết bị của mình nếu bị mất. Bạn có thể truy cập &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> để định vị, khóa hoặc đặt lại thiết bị.&lt;br />&lt;br />Chúng tôi sẽ bảo vệ thông tin cá nhân của bạn theo luật pháp, quy định và chính sách bảo mật có liên quan.&lt;br />Để có thể hoạt động bình thường, dịch vụ này cần kết nối internet và yêu cầu các quyền sau để thu thập thông tin cá nhân của bạn:&lt;br />• Truy cập thông tin thiết bị:&lt;br />Để nhận dạng thiết bị của bạn&lt;br />• Vị trí:&lt;br />Để định vị thiết bị của bạn và chuyển sang chế độ bị mất&lt;br />Nếu bạn không đồng ý cấp các quyền đó hoặc chia sẻ và tải lên thông tin cá nhân của mình, bạn sẽ không thể sử dụng dịch vụ này. Bạn có thể chọn gỡ cài đặt ứng dụng, đăng xuất hoặc giới hạn quyền trong Cài đặt trong những trường hợp như vậy.&lt;br />Đọc và đồng ý với &lt;a href=%1$s>&lt;u>Thỏa thuận Người dùng&lt;/u>&lt;/a> và &lt;a href=%2$s>&lt;u>Chính sách Riêng tư&lt;/u>&lt;/a> của chúng tôi trước khi sử dụng Tìm thiết bị.&lt;br /></string>
     <string name="privacy_doc_finddevice_with_telephony_feature_pad">Chào mừng sử dụng Tìm thiết bị! Bạn có thể sử dụng dịch vụ này để định vị, khóa hoặc xóa dữ liệu trên thiết bị của mình nếu bị mất. Bạn có thể truy cập &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> để định vị, khóa hoặc đặt lại thiết bị.&lt;br />&lt;br />Một tin nhắn SMS có thể được yêu cầu gửi đi để kích hoạt dịch vụ này. Nhà cung cấp sẽ tính phí tin nhắn này. Khi bạn chuyển đổi thẻ SIM, một tin nhắn có thể được gửi tự động để kích hoạt lại dịch vụ này.&lt;br />&lt;br />Chúng tôi sẽ bảo vệ thông tin cá nhân của bạn theo luật pháp, quy định và chính sách bảo mật có liên quan.&lt;br />Để có thể hoạt động bình thường, dịch vụ này cần kết nối internet và yêu cầu các quyền sau để thu thập thông tin cá nhân của bạn:&lt;br />• Truy cập thông tin thiết bị:&lt;br />Để nhận dạng thiết bị của bạn&lt;br />• Vị trí:&lt;br />Để định vị thiết bị của bạn và chuyển sang chế độ bị mất&lt;br />Nếu bạn không đồng ý cấp các quyền đó hoặc chia sẻ và tải lên thông tin cá nhân của mình, bạn sẽ không thể sử dụng dịch vụ này. Bạn có thể chọn gỡ cài đặt ứng dụng, đăng xuất hoặc giới hạn quyền trong Cài đặt trong những trường hợp như vậy.&lt;br />Đọc và đồng ý với &lt;a href=%1$s>&lt;u>Thỏa thuận Người dùng&lt;/u>&lt;/a> và &lt;a href=%2$s>&lt;u>Chính sách Riêng tư&lt;/u>&lt;/a> của chúng tôi trước khi sử dụng Tìm thiết bị.&lt;br /></string>
@@ -459,9 +473,12 @@ Tính năng này mã hóa và gửi ID của thiết bị lên máy chủ Mi."</
     <string name="special_func_title">Tính năng đặc biệt</string>
     <string name="starred_contact">Yêu thích</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_manage_cloud_data_title">Xem các mục trên đám mây</string>
     <string name="storage_manage_expansion">Nhận thêm</string>
+    <string name="storage_manage_full_summary">Lưu trữ đám mây đầy. Nâng cấp gói của bạn.</string>
     <string name="storage_manage_list_title">Dữ liệu đám mây</string>
     <string name="storage_manage_list_title_action">Xem thêm</string>
+    <string name="storage_manage_normal_summary">Thay đổi gói lưu trữ đám mây</string>
     <string name="storage_manage_renewal">Gia hạn</string>
     <string name="storage_manage_title">Thay đổi gói lưu trữ đám mây</string>
     <string name="storage_manage_upgrade">Nâng cấp</string>

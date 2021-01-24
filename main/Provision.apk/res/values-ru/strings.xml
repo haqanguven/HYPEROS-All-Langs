@@ -45,6 +45,7 @@
     <string name="disageement_abnormal_download">Если вы не согласны предоставлять данные разрешения или делиться личной информацией и загружать ее, вы не сможете воспользоваться этим сервисом.</string>
     <string name="disagree">Отмена</string>
     <string name="disagreement_abnormal_running">Если вы не согласны предоставлять данные разрешения или делиться личной информацией и загружать ее, вы не сможете воспользоваться этим приложением. Вы можете отказаться от использования этого приложения или ограничить разрешения в Настройках.</string>
+    <string name="disagreement_abnormal_running_fast_pairing">Если вы не согласны предоставлять данные разрешения, вы не сможете воспользоваться этим приложением. Вы можете ограничить разрешения и отключить эту функцию в Настройках.</string>
     <string name="disagreement_donnot_use_application">Если вы не согласны предоставлять данные разрешения или делиться личной информацией и загружать ее, вы не сможете воспользоваться этим приложением. Вы можете отказаться от использования этого приложения.</string>
     <string name="disagreement_donnot_use_product">Если вы не согласны предоставлять данные разрешения или делиться личной информацией и загружать ее, вы не сможете воспользоваться этим продуктом. Вы можете отказаться от использования этого продукта.</string>
     <string name="disagreement_donnot_use_service">Если вы не согласны предоставлять данные разрешения или делиться личной информацией и загружать ее, вы не сможете воспользоваться этим сервисом. Вы можете отказаться от использования этого приложения.</string>
@@ -58,12 +59,16 @@
     <string name="enable_accessibility_dialog_negative_btn">Отмена</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>
     <string name="fast_application_introduction">Платформа \"Быстрые приложения\" позволяет вам создавать и предоставлять сервисы в Быстрых приложениях.</string>
+    <string name="fast_pairing_introduction">Mi Link позволяет вашему устройству подключаться к Bluetooth-устройствам поблизости при помощи службы MIUI Bluetooth. Для осуществления поиска устройств рядом с вами разрешите службе MIUI Bluetooth доступ к интернету.</string>
     <string name="font_hint_large">Размер по умолчанию</string>
     <string name="font_hint_normal">Увеличенный размер</string>
     <string name="framework_introduction">Mi Services Framework позволяет вам использовать Mi аккаунт, Mi Push, Mi Stats и MIUI BI.</string>
     <string name="framwork_base_service">Для предоставление вам данных услуг Mi Services Framework (Mi аккаунт, Mi Push, Mi Stats, MIUI BI) необходимо соединение с интернетом, доступ к вашему местоположению и номеру телефона, IMEI и IMSI, а также разрешение получать push-уведомления</string>
     <string name="game_introduction">Плагины для игр позволяют вам выполнять вход в систему, создавать заказы, совершать платежи, использовать купоны и участвовать в рекламных акциях.</string>
     <string name="google_service_introduction">Для правильной работы Google Play требуется соединение с интернетом, доступ к вашему местоположению, разрешение на запись аудио, совершение вызовов, доступ к календарю, журналу вызовов, датчикам, хранилищу, камере, информации об устройстве и аккаунтам.</string>
+    <string name="home_settings_miui_home">Классический</string>
+    <string name="home_settings_poco_launcher">Меню приложений</string>
+    <string name="home_settings_title">Выберите рабочий стол по умолчанию</string>
     <string name="ime_privacy_policy">Политика конфиденциальности выбранной клавиатуры</string>
     <string name="ime_privacy_policy_no_network">Нет подключения к сети. Просмотрите Политику конфиденциальности для этой клавиатуры на %s.</string>
     <string name="input_method_category">Выберите клавиатуру по умолчанию, которую вы будете использовать для написания сообщений, заметок и всего остального. Обратите внимание, что позже вы можете установить другие сторонние клавиатуры.</string>
@@ -71,16 +76,27 @@
     <string name="install_preinstall_app">Загрузка приложений…</string>
     <string name="item_fingerprint">Отпечаток пальца</string>
     <string name="item_lock_screen_password">Только блокировка экрана</string>
+    <string name="ktlocation_U">(KT Service Agent)</string>
+    <string name="ktposition_header">Передача данных о местоположении аварийно-спасательным службам</string>
     <string name="language_picker_other_languages_title">Другие языки</string>
     <string name="language_settings">Выберите язык</string>
     <string name="locale_picker_other_locale_title">Другие регионы</string>
     <string name="locale_picker_title">Выберите регион</string>
+    <string name="location_U">U+ GPSnWPS</string>
+    <string name="location_content">В соответствии с законодательством и требованиями аварийно-спасательных служб (полиции и пожарной охраны) операторы мобильной связи могут получать данные о местоположении мобильных устройств для обеспечения безопасности и проведения аварийно-спасательных операций.</string>
     <string name="location_introduction">Службы местоположения позволяют находить товары и услуги рядом с вами.</string>
+    <string name="location_location">Аварийно-спасательные службы могут получить данные о вашем текущем местоположении по запросу.</string>
     <string name="lockscreen_introduction">Карусель обоев позволяет вам ежедневно получать свежие изображения для вашего экрана блокировки.</string>
     <string name="mint_keyboard_oobe_checkbox">Я прочитал и принимаю Политику конфиденциальности Mint Keyboard</string>
     <string name="mint_keyboard_oobe_terms">Политика конфиденциальности Mint Keyboard</string>
     <string name="miui_privacy_policy_no_network">Нет подключения к интернету. Ознакомьтесь с Политикой конфиденциальности на %s.</string>
     <string name="miui_terms_no_network">Нет подключения к сети Интернет. Ознакомьтесь с Условиями использования на %s.</string>
+    <string name="mobile_network">Используется мобильный интернет</string>
+    <string name="move_data_dialog_box_le">Это позволяет использовать мобильный интернет и GPS-соединение на основе запроса пользователя. В зависимости от характеристик смартфона для синхронизации учетных записей и других элементов может потребоваться использование мобильного интернета.</string>
+    <string name="move_data_dialog_box_title">Если ваш тарифный план не включает опцию \"Безлимитный интернет\", использование мобильного интернета может повлечь дополнительные расходы. Использовать мобильный интернет?</string>
+    <string name="move_data_dialog_cancel">Отмена</string>
+    <string name="move_data_dialog_title">Вы можете ограничить использование мобильного интернета позже в Настройках.</string>
+    <string name="move_data_dialog_use">Использовать</string>
     <string name="multisim_settings_category">Настройки SIM-карт</string>
     <string name="multisim_settings_title">Обнаружено 2 SIM-карты</string>
     <string name="navigation_picker_gesture_guide">Руководство по жестам</string>
@@ -90,8 +106,9 @@
     <string name="next_fingerprint">Далее</string>
     <string name="note_introduction">Приложение позволяет создавать, просматривать и изменять заметки.</string>
     <string name="other_settings">Дополнительные настройки</string>
-    <string name="other_settings_ad_dialog_content">"После отключения этой функции вы больше не будете получать персонализированную рекламу. Тем не менее, вы все равно будете видеть объявления, которые могут быть вам неинтересны. Вы можете узнать более подробную информацию о персонализированной рекламе, ознакомившись с Политикой конфиденциальности Xiaomi.
-Отключить персонализацию рекламы?"</string>
+    <string name="other_settings_ad_dialog_agree">Включить</string>
+    <string name="other_settings_ad_dialog_content">Включение или отключение функции персонализации рекламных рекомендаций не влияет на количество показываемой рекламы. Если вы отключите эту функцию, подбор рекламы перестанет основываться на данных о ваших личных предпочтениях.</string>
+    <string name="other_settings_ad_dialog_disagree">Отключить</string>
     <string name="other_settings_ad_disable_summary">Включите, чтобы персонализировать рекламу</string>
     <string name="other_settings_ad_enable">Персонализация рекламы</string>
     <string name="other_settings_ad_enable_summary">Персонализация рекламы на основе ваших интересов</string>
@@ -155,6 +172,8 @@
     <string name="poco_agree_terms_other">(Включая Политику конфиденциальности и Условия использования POCO Launcher)</string>
     <string name="poco_launcher_privacy_policy">Политика конфиденциальности POCO Launcher</string>
     <string name="poco_launcher_user_agreement">Условия использования POCO Launcher</string>
+    <string name="position_header">Передача данных о местоположении</string>
+    <string name="position_subheading">Местоположение</string>
     <string name="pref_title_data_slot">SIM-карта для интернета</string>
     <string name="pref_title_voice_slot">SIM-карта для вызовов</string>
     <string name="privacy_policy">Политика конфиденциальности</string>
@@ -223,7 +242,7 @@
     <string name="terms_of_use_label_phrase">, Частые фразы</string>
     <string name="terms_of_use_label_systemhelper">, cаморегистрируемые сервисы</string>
     <string name="terms_of_use_label_updater">, Обновление системы</string>
-    <string name="terms_of_use_lable_apps">Сервисы Mi, сервис активации Mi SIM, Xiaomi Cloud, Поиск устройства, Рабочий стол, Игровой центр, системные компоненты MSA, сервисы перевода, Быстрые приложения, Лента виджетов, статистика, Mi Link</string>
+    <string name="terms_of_use_lable_apps">Службы Mi, служба активации Mi SIM, Xiaomi Cloud, Поиск устройства, Рабочий стол, Игровой центр, MIUI Daemon, системные компоненты MSA, службы перевода, MIUI SDK, Быстрые приложения, Лента виджетов, статистика, Mi Link</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Перед использованием этой функции вы должны принять Политику конфиденциальности Facemoji."</string>
@@ -240,13 +259,22 @@
     <string name="terms_privacy_policy_input_method_kika">Политика конфиденциальности Kika</string>
     <string name="title_fingerprint">Задайте пароль</string>
     <string name="user_agreement">Условия использования</string>
-    <string name="user_agreement_declare">Перед использованием MIUI, вы должны ознакомиться и согласиться с нашими Условиями использования и Политикой конфиденциальности. Как только вы активируете ваше устройство, сервис активации Mi SIM, Xiaomi Cloud, функция Поиск устройства, Рабочий стол, частые фразы, сервис перевода, MIUI Daemon, HTML Viewer, виртуальный ассистент, детектор мощности, Joyose, настройки системного ИИ, управление разрешениями и средство установки обновлений будут подключены к сети. Смарт-службы будут подключены к сети и получат доступ к вашему местоположению.</string>
+    <string name="user_agreement_declare">Перед использованием MIUI, вы должны ознакомиться и согласиться с нашими Условиями использования и Политикой конфиденциальности. Как только вы активируете ваше устройство, служба активации Mi SIM, Xiaomi Cloud, функция Поиск устройства, Рабочий стол, Частые фразы, служба перевода, MIUI Daemon, HTML Viewer, Виртуальный ассистент, Питание и производительность, Детектор мощности, Joyose, настройки системного ИИ, служба управления разрешениями и средство установки обновлений будут подключены к сети. Смарт-службы будут подключены к сети и получат доступ к вашему местоположению.</string>
     <string name="voice_assist_advice">Mi AI позволяет использовать голосовое управление, но потребляет больше энергии (+1% в час).</string>
     <string name="voice_assist_condition">"Вы сможете использовать Mi AI:r
 1. При включенном экране.r
 2. При прослушивании музыки с выключенным экраном."</string>
     <string name="voice_assist_desp">Скажите \"Mi AI\" своему телефону. Mi AI распознает ваш голос и сможет управлять вашим устройством.</string>
     <string name="voice_assist_title">Голосовой помощник</string>
+    <string name="wc_dialog_agree">Согласиться</string>
+    <string name="wc_dialog_reject">Отклонить</string>
+    <string name="wc_dialog_summary">Карусель обоев – это красочные изображения и захватывающие истории прямо на вашем экране блокировки.</string>
+    <string name="wc_dialog_title">Новый экран блокировки</string>
+    <string name="wc_double_check_agree">Попробовать</string>
+    <string name="wc_double_check_reject">Нет, спасибо</string>
+    <string name="wc_double_check_summary">Вы можете включить Карусель обоев, чтобы ознакомиться с этой функцией. Вы всегда можете включить или отключить ее в разделе Настройки > Экран блокировки</string>
+    <string name="wc_double_check_title">Попробуйте Карусель обоев</string>
+    <string name="wc_notice_link_announcement_summary">Перед использованием этой функции ознакомьтесь и согласитесь с &lt;a href=\"%1$s\">Политикой конфиденциальности&lt;/a> и &lt;a href=\"%2$s\">Условиями использования&lt;/a> стороннего поставщика материалов.</string>
     <string name="welcome">Добро пожаловать</string>
     <string name="zone_picker_title">Выберите часовой пояс</string>
 </resources>

@@ -65,6 +65,10 @@
     <string name="about">Tentang</string>
     <string name="action_settings">Setelan</string>
     <string name="ad_install">Instal</string>
+    <string name="add_download_download">Unduh</string>
+    <string name="add_download_error_not_support">Link ini tidak didukung</string>
+    <string name="add_download_text_hint">Masukkan link HTTP/HTTPS</string>
+    <string name="add_download_title">Tambah URL</string>
     <string name="all_downloads">Semua unduhan</string>
     <string name="all_fileter">Semua</string>
     <string name="all_share_files_content">Berkas-berkas yang Anda pilih telah dihapus.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Batal</string>
     <string name="dialog_btn_ok">Oke</string>
     <string name="dialog_btn_ok_disabled_net">Setelan jaringan</string>
+    <string name="dialog_clipboard_permission_message">Izinkan apl Unduhan untuk mengakses item di papan klip agar dapat secara otomatis menambahkan salinan URL?</string>
+    <string name="dialog_clipboard_permission_title">Butuh perizinan</string>
     <string name="dialog_confirm_delete_checkbox_message">Hapus berkas lokal juga</string>
     <string name="dialog_confirm_delete_the_download_item_message">Hapus tugas ini</string>
     <string name="dialog_file_missing_title">Tidak bisa buka berkas</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Pengunduhan menggunakan jaringan seluler</string>
     <string name="downloaded">Pengunduhan selesai</string>
     <string name="downloaded_empty">Kosong</string>
+    <string name="downloaded_tab_hint">Anda dapat melihat item yang diunduh di File Manager</string>
     <string name="downloading">Mengunduh…</string>
     <string name="downloading_empty">Kosong</string>
     <string name="downloads_operating">Memproses…</string>
-    <string name="durationDayHour">%1$d hari %2$d jam</string>
-    <string name="durationDayHours">%1$d hari %2$d jam</string>
-    <string name="durationHourMinute">%1$d jam %2$d mnt</string>
-    <string name="durationHourMinutes">%1$d jam %2$d mnt</string>
-    <string name="durationMinute">%1$d mnt</string>
-    <string name="durationMinuteSecond">%1$d mnt %2$d dtk</string>
-    <string name="durationMinuteSeconds">%1$d mnt %2$d dtk</string>
-    <string name="durationMinutes">%1$d mnt</string>
-    <string name="durationSecond">%1$d dtk</string>
-    <string name="durationSeconds">%1$d dtk</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Hapus</string>
     <string name="editmode_menu_share">Berbagi</string>
     <string name="extend">Lainnya</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Batas ukuran pengunduhan</string>
     <string name="pref_summary_any_bytes_popup">Selalu tunggu Wi-Fi untuk unduh berkas</string>
     <string name="pref_summary_enable_max_bytes_popup">Tampil notifikasi popup saat memakai koneksi data seluler untuk mengunduh konten</string>
-    <string name="pref_summary_max_bytes_limit_format">Tunggu jaringan Wi-Fi jika ukuran berkas melebihi %s</string>
     <string name="pref_summary_no_limit_popup">Tak terbatas</string>
     <string name="pref_title_enable_max_bytes_popup">Tampil konfirmasi penggunaan data</string>
     <string name="preferences_title">Setelan</string>
+    <string name="privacy_agree_dialog_msg">&lt;Data>Selamat datang di apl Unduhan! Anda dapat menggunakan apl ini untuk mengunduh berkas.&lt;BR>Apl Unduhan perlu untuk mengumpulkan informasi pribadi yang dibutuhkan untuk menyediakan layanan yang akan menghasilkan statistik pengunduhan. Anda dapat mempelajari bagaimana kami mengelola info yang kami kumpulkan di &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> kami.&lt;BR>Baca dan setujui &lt;a href=\"%2$s\">Perjanjian Pengguna&lt;/a> dan &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> kami sebelum menggunakan apl Unduhan.&lt;BR>Anda dapat menarik persetujuan terhadap Kebijakan Privasi apl Unduhan kapan saja di Setelan. Jika Anda tidak menyetujui Kebijakan Privasi kami, maka Anda tidak dapat menggunakan beberapa fitur dari apl ini. Namun, Anda tetap masih bisa menggunakan fitur dasar.&lt;/Data></string>
+    <string name="privacy_agree_dialog_title">Syarat dan Ketentuan</string>
+    <string name="privacy_revoke_dialog_later">Batal</string>
+    <string name="privacy_revoke_dialog_msg">Dengan mematikan tombol ini, Anda menarik persetujuan Anda terhadap Kebijakan Privasi aplikasi Unduhan. Kami akan berhenti mengumpulkan informasi pribadi Anda. Informasi pribadi yang telah dikumpulkan dan disimpan akan dihapus dalam jangka waktu tertentu sebagaimana diwajibkan oleh hukum yang berlaku. Apl Unduhan perlu mengumpulkan informasi pribadi yang diperlukan untuk memberikan kepada Anda layanan dasar. Penarikan persetujuan atas kebijakan privasi ini akan dianggap sebagai Anda menolak untuk menerima layanan berdasarkan informasi pribadi yang dikumpulkan.</string>
+    <string name="privacy_revoke_dialog_ok">Tarik</string>
+    <string name="privacy_revoke_dialog_title">Penarikan persetujuan</string>
+    <string name="privacy_revoke_label">Penarikan persetujuan</string>
+    <string name="privacy_revoke_msg">Dengan mematikan tombol ini, maka Anda menarik persetujuan Anda terhadap Kebijakan Privasi apl Unduhan.</string>
+    <string name="privacy_revoke_nonetwork_msg">Perangkat Anda harus terhubung ke jaringan agar dapat menarik persetujuan. Periksa setelan jaringan dan coba lagi.</string>
+    <string name="privacy_revoke_nonetwork_ok">Mengerti</string>
+    <string name="privacy_revoke_nonetwork_title">Tidak dapat terhubung ke jaringan</string>
     <string name="privacy_tip_cancel">Batal</string>
     <string name="privacy_tip_ok">Oke</string>
     <string name="rank">Peringkat</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">Hubungkan ke Wi-Fi untuk unduh item ini</string>
     <string name="total_speedup">Picu kecepatan (total)</string>
     <string name="version">Versi %s</string>
-    <string name="security_ui_title">Iklan di apl Keamanan</string>
 </resources>

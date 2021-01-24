@@ -65,6 +65,10 @@
     <string name="about">Sobre</string>
     <string name="action_settings">Configurações</string>
     <string name="ad_install">Instalar</string>
+    <string name="add_download_download">Baixar</string>
+    <string name="add_download_error_not_support">Este link não é suportado</string>
+    <string name="add_download_text_hint">Insira um link HTTP/HTTPS</string>
+    <string name="add_download_title">Adicionar URL</string>
     <string name="all_downloads">Todos os downloads</string>
     <string name="all_fileter">Tudo</string>
     <string name="all_share_files_content">Os arquivos selecionados já foram excluídos.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Cancelar</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Configurações de rede</string>
+    <string name="dialog_clipboard_permission_message">Permitir que o app Download acesse itens na área de transferência para adicionar URLs copiadas automaticamente?</string>
+    <string name="dialog_clipboard_permission_title">Permissões necessárias</string>
     <string name="dialog_confirm_delete_checkbox_message">Excluir também o arquivo local</string>
     <string name="dialog_confirm_delete_the_download_item_message">Excluir estas tarefas</string>
     <string name="dialog_file_missing_title">Não é possível abrir o arquivo</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Baixar usando a conexão de dados</string>
     <string name="downloaded">Download concluído</string>
     <string name="downloaded_empty">Vazio</string>
+    <string name="downloaded_tab_hint">Você pode ver os itens baixados no Gerenciador de Arquivos</string>
     <string name="downloading">Baixando…</string>
     <string name="downloading_empty">Vazio</string>
     <string name="downloads_operating">Trabalhando…</string>
-    <string name="durationDayHour">%1$d dia e %2$d h</string>
-    <string name="durationDayHours">%1$d dia e %2$d h</string>
-    <string name="durationHourMinute">%1$d h e %2$d min</string>
-    <string name="durationHourMinutes">%1$d h e %2$d min</string>
-    <string name="durationMinute">%1$d min</string>
-    <string name="durationMinuteSecond">%1$d min e %2$d s</string>
-    <string name="durationMinuteSeconds">%1$d min e %2$d s</string>
-    <string name="durationMinutes">%1$d min</string>
-    <string name="durationSecond">%1$d s</string>
-    <string name="durationSeconds">%1$d s</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Excluir</string>
     <string name="editmode_menu_share">Compartilhar</string>
     <string name="extend">Mais</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Limite do tamanho do download</string>
     <string name="pref_summary_any_bytes_popup">Sempre aguardar uma conexão Wi-Fi para baixar arquivos</string>
     <string name="pref_summary_enable_max_bytes_popup">Mostrar uma notificação pop-up ao usar a conexão de dados móveis para baixar conteúdo</string>
-    <string name="pref_summary_max_bytes_limit_format">Aguardar conexão Wi-Fi se o tamanho do arquivo exceder %s</string>
     <string name="pref_summary_no_limit_popup">Ilimitado</string>
     <string name="pref_title_enable_max_bytes_popup">Mostrar aviso de uso de dados</string>
     <string name="preferences_title">Configurações</string>
+    <string name="privacy_agree_dialog_msg">&lt;Data>Boas-vindas ao Downloads! Você pode usar este app para baixar arquivos.&lt;BR>O app Downloads precisa coletar informações pessoais necessárias para lhe fornecer os serviços que geram estatísticas de download. Você pode saber mais sobre como tratamos as informações coletadas em nossa &lt;a href=\"%1$s\">Política de Privacidade&lt;/a>.&lt;BR>Leia e aceite o nosso &lt;a href=\"%2$s\">Contrato do Usuário&lt;/a> e a &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> antes de usar o app Downloads.&lt;BR>Você pode retirar o seu consentimento à Política de Privacidade do app Downloads nas Configurações a qualquer momento. Se você não aceitar a Política de Privacidade, você não poderá usar alguns recursos do app; no entanto, seus recursos básicos ainda estarão disponíveis para você.&lt;/Data></string>
+    <string name="privacy_agree_dialog_title">Termos e condições</string>
+    <string name="privacy_revoke_dialog_later">Cancelar</string>
+    <string name="privacy_revoke_dialog_msg">Ao desativar o seletor, você retira seu consentimento para a Política de Privacidade do app Downloads. Nós deixaremos de coletar suas informações pessoais. As informações pessoais já coletadas e retidas serão excluídas dentro do período específico, conforme exigido pelas leis aplicáveis. O app Downloads precisa coletar as informações pessoais necessárias para fornecer-lhe serviços que geram as estatísticas de downloads. Sua retirada de consentimento de sua Política de Privacidade será considerada como recusa a aceitar seus serviços com base nas informações pessoais coletadas.</string>
+    <string name="privacy_revoke_dialog_ok">Retirar</string>
+    <string name="privacy_revoke_dialog_title">Retirada de consentimento</string>
+    <string name="privacy_revoke_label">Retirada de consentimento</string>
+    <string name="privacy_revoke_msg">Ao desativar o seletor, você retira o seu consentimento à Política de Privacidade do app Downloads.</string>
+    <string name="privacy_revoke_nonetwork_msg">Seu dispositivo precisa se conectar à rede para que você possa retirar o consentimento. Verifique suas configurações de rede e tente novamente.</string>
+    <string name="privacy_revoke_nonetwork_ok">Entendido</string>
+    <string name="privacy_revoke_nonetwork_title">Não é possível conectar-se à rede</string>
     <string name="privacy_tip_cancel">Cancelar</string>
     <string name="privacy_tip_ok">OK</string>
     <string name="rank">Rankings</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">Conecte-se ao Wi-Fi para baixar este item</string>
     <string name="total_speedup">Otimização de velocidade (total)</string>
     <string name="version">Versão %s</string>
-    <string name="security_ui_title">Anúncios de segurança</string>
 </resources>

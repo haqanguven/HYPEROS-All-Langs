@@ -37,18 +37,32 @@
     <string name="back_up_task_in_process">Γίνεται δημιουργία αντίγραφου ασφαλείας…</string>
     <string name="back_up_task_unfinished">Αδυναμία δημιουργίας αντίγραφου ασφαλείας</string>
     <string name="backing_up_to_micloud">Γίνεται δημιουργία αντίγραφου ασφαλείας…</string>
-    <string name="backup_failed_reason_cloud_space_not_enough">Ανεπαρκής χώρος αποθήκευσης στο Xiaomi Cloud. Αναβαθμίστε το πλάνο σας ή ελευθερώστε χώρο.</string>
+    <string name="backup_action_buy_cloud_space">Αποκτήστε περισσότερο χώρο αποθήκευσης</string>
+    <string name="backup_action_check_network">Ελέγξτε τις ρυθμίσεις δικτύου</string>
+    <string name="backup_action_clean_disk_space">Ελευθερώστε χώρο</string>
+    <string name="backup_action_retry_now">Προσπαθήστε ξανά</string>
+    <string name="backup_failed_reason_cloud_space_not_enough">Δεν υπάρχει επαρκής χώρος αποθήκευσης στο cloud για να αποθηκεύσετε αυτό το αντίγραφο ασφαλείας. Αναβαθμίστε το πακέτο σας ή απελευθερώστε χώρο αποθήκευσης στο cloud.</string>
     <string name="backup_failed_reason_disk_space_not_enough">Ανεπαρκής χώρος αποθήκευσης. Ελευθερώστε πρώτα χώρο.</string>
-    <string name="backup_failed_reason_network_error">Πρόβλημα δικτύου. Περιμένετε ένα με δύο λεπτά και προσπαθήστε ξανά.</string>
+    <string name="backup_failed_reason_network_error">Ελέγξτε τις ρυθμίσεις δικτύου σας και προσπαθήστε ξανά</string>
     <string name="backup_finished_notification_content">Έχουν δημιουργηθεί αντίγραφα ασφαλείας για εφαρμογές Αρχικής οθόνης, ρυθμίσεις συστήματος, κλπ.</string>
     <string name="backup_now">Δημιουργία αντίγραφου ασφαλείας τώρα</string>
     <string name="backup_progress_percent_unit">%</string>
+    <string name="backup_remind_buy_cloud_space">Αναβαθμίστε το πακέτο αποθήκευσης στο cloud</string>
+    <string name="backup_remind_clean_disk_space">Ελευθερώστε χώρο αποθήκευσης</string>
+    <string name="backup_remind_cloud_space_cost">Μέγεθος αντιγράφου ασφαλείας: %s</string>
     <string name="backup_size">Μέγεθος: %s</string>
     <string name="backup_stopped_msg">Το τρέχον αντίγραφο ασφαλείας θα αντικαταστήσει το προηγούμενο αντίγραφο ασφαλείας. Πατήστε για προβολή.</string>
     <string name="backup_stopped_title">Η δημιουργία αντιγράφων ασφαλείας σταμάτησε</string>
     <string name="backup_success">Επιτυχής δημιουργία αντιγράφου ασφαλείας</string>
     <string name="backup_successfully">Επιτυχής δημιουργία αντιγράφου ασφαλείας</string>
     <string name="backup_to_cloud">Δημιουργία αντίγραφου ασφαλείας για την εφαρμογή</string>
+    <string name="backup_warning_reason_cloud_space_not_enough">Αδυναμία δημιουργίας αντίγραφου ασφαλείας</string>
+    <string name="backup_warning_reason_disk_space_not_enough">"Δεν υπάρχει επαρκής χώρος αποθήκευσης
+Αδυναμία δημιουργίας αντιγράφου ασφαλείας"</string>
+    <string name="backup_warning_reason_network_error">"Σφάλμα δικτύου
+Αδυναμία δημιουργίας αντιγράφου ασφαλείας"</string>
+    <string name="backup_warning_reason_no_server_response">"Η σύνδεση διακόπηκε
+Προσπαθήστε ξανά"</string>
     <string name="btn_back">Πίσω</string>
     <string name="btn_continue">Συνέχεια</string>
     <string name="btn_restore_abort">Ακύρωση</string>
@@ -94,7 +108,7 @@
 *  MIUI and system settings 
 Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Προγραμματισμός για δημιουργία αντίγραφου ασφαλείας</string>
-    <string name="cloud_back_up_frequence_long">Κάθε 7 μέρες</string>
+    <string name="cloud_back_up_frequence_long">Κάθε %d μέρες</string>
     <string name="cloud_back_up_frequence_short">Κάθε ημέρα</string>
     <string name="cloud_back_up_ok_btn">OK</string>
     <string name="cloud_back_up_opening">Περιμένετε μια στιγμή…</string>
@@ -105,6 +119,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup">Αντίγραφα ασφαλείας στο Cloud</string>
     <string name="cloud_backup_derail_size_summary">Μέγεθος: %s</string>
     <string name="cloud_backup_detail_frequence">Προγραμματισμός για δημιουργία αντίγραφου ασφαλείας</string>
+    <string name="cloud_backup_detail_frequence_every_7_day">Δημιουργία αντιγράφων ασφαλείας κάθε %d μέρες</string>
+    <string name="cloud_backup_detail_frequence_every_day">Δημιουργία αντίγραφου ασφαλείας κάθε ημέρα</string>
     <string name="cloud_backup_detail_manage">Διαχείριση αντίγραφων ασφαλείας</string>
     <string name="cloud_backup_detail_state">Αυτόματη δημιουργία αντίγραφου ασφαλείας</string>
     <string name="cloud_backup_detail_state_summary">Αυτόματη δημιουργία αντιγράφων ασφαλείας Xiaomi Cloud όταν είστε συνδεδεμένοι σε Wi-Fi.</string>

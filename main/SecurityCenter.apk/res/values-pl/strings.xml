@@ -161,9 +161,9 @@
     <string name="antivirus_none_engine_dialog_ok">OK</string>
     <string name="antivirus_not_wlan">Nie jesteś połączony z Wi-Fi. Korzystanie z danych mobilnych może wygenerować dodatkowe opłaty. Czy na pewno kontynuować?</string>
     <string name="antivirus_privacy_dialog_cloudscan">Prześlij nazwy i szczegóły aplikacji</string>
-    <string name="antivirus_privacy_dialog_cloudscan_description">Wyślij i skanuj nazwy aplikacji oraz ich szczegóły, korzystając z internetowych baz wirusów.</string>
+    <string name="antivirus_privacy_dialog_cloudscan_description">Aby skuteczniej wykrywać i neutralizować wirusy, będziemy przesyłać nazwy pakietów i właściwości aplikacji, w celu ich skanowania przy użyciu narzędzi chmury.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
-    <string name="antivirus_privacy_dialog_summary">Funkcja szyfruje i przesyła dane urządzenia na serwery Avast, AVL i Tencent (%s).</string>
+    <string name="antivirus_privacy_dialog_summary"><Data>Ta funkcja jest obsługiwana przez system antywirusowy innej firmy. Aby dowiedzieć się więcej, przeczytaj &lt;a href=\"%1$s\">Umowę licencyjną&lt;/a> tej firmy.</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Polityka prywatności</string>
     <string name="antivirus_privacy_dialog_title">Polityka prywatności</string>
     <string name="antivirus_sec_network_unavailable">Aplikacja panel sterowania nie może być zatualizowana, ponieważ ograniczyłeś połączenie internetowe. Zezwolić panelowi sterowania na połączenie z internetem?</string>
@@ -467,9 +467,16 @@ Nie spowoduje to utraty żadnych danych."</string>
     <string name="application_item_already_permission">Zezwolono</string>
     <string name="application_item_disable">Ograniczony</string>
     <string name="applock_add_account">Dodaj</string>
+    <string name="applock_add_account_ignore">Nie teraz</string>
+    <string name="applock_add_account_ignore_with_seconds">Nie teraz (%ds)</string>
     <string name="applock_add_account_info">Dodaj konto Xiaomi, aby móc zresetować hasło, w przypadku gdy go zapomnisz.</string>
     <string name="applock_add_account_setting">Konto i prywatność</string>
+    <string name="applock_add_account_tips">Z kontem Xiaomi będziesz mógł przywrócić Blokowanie aplikacji, jeśli o nim zapomnisz.</string>
+    <string name="applock_add_account_title">Dodaj konto Xiaomi</string>
+    <string name="applock_already_add_account">Aktualne konto: %s</string>
     <string name="applock_app_recommend_lock_title">Możesz zablokować następujące aplikacje</string>
+    <string name="applock_bind_account_dialog_content">Twoje konto Xiaomi to jedyny sposób na przywrócenie Blokowania aplikacji, jeśli o nim zapomnisz. Zaloguj się, aby dodać swoje konto Xiaomi.</string>
+    <string name="applock_bind_account_dialog_title">Dodaj konto Xiaomi</string>
     <string name="applock_bind_account_title">Nie pamiętam hasła</string>
     <string name="applock_close_dialog_summary">Wszystkie ukryte aplikacje zostaną odkryte, ich skróty na Ekranie głównym zostaną przywrócone, a hasło Blokowania aplikacji zostanie usunięte. Wyłączyć Blokowanie aplikacji?</string>
     <string name="applock_close_dialog_title">Wyłączyć​ Blokowanie aplikacji?</string>
@@ -479,6 +486,8 @@ Nie spowoduje to utraty żadnych danych."</string>
     <string name="applock_function_base_settings">Blokowanie aplikacji</string>
     <string name="applock_function_pwd_settings">Hasło</string>
     <string name="applock_go_to">Ustawienia</string>
+    <string name="applock_guide_notification_summary">Chroń swoją prywatność dzięki Blokowaniu aplikacji</string>
+    <string name="applock_guide_notification_title">Inne osoby mogą zobaczyć na Twoim ekranie poufne informacje</string>
     <string name="applock_guide_open_applock">Włącz</string>
     <string name="applock_guide_tip1">Dostępne są różne rodzaje haseł. Odblokuj aplikacje za pomocą swojego odcisku palca, twarzy lub wprowadź hasło.</string>
     <string name="applock_guide_tip1_global">Odblokuj aplikacje za pomocą odcisku palca, twarzy lub wprowadź hasło.</string>
@@ -495,8 +504,18 @@ Nie spowoduje to utraty żadnych danych."</string>
     <string name="applock_header_text_less_than_half">Zbyt mały. Przeciągnij jeszcze trochę.</string>
     <string name="applock_lock_all">Zablokuj wszystkie</string>
     <string name="applock_login_and_add_account">Zaloguj i dodaj</string>
+    <string name="applock_no_account_login">Nie jesteś zalogowany do konta Xiaomi.</string>
     <string name="applock_not_add_account"><u>Nie teraz</u></string>
     <string name="applock_not_login_account">Nie jesteś zalogowany</string>
+    <string name="applock_operate_faceunlock_summary">Odblokuj aplikacje, po prostu patrząc na ekran</string>
+    <string name="applock_operate_faceunlock_title">Użyj danych twarzy</string>
+    <string name="applock_operate_fingerprint_summary">Blokowanie aplikacji obsługuje dodawanie wielu odcisków palców</string>
+    <string name="applock_operate_fingerprint_title">Użyj odcisku palca</string>
+    <string name="applock_operate_hidenoti_summary">Blokowanie aplikacji może to zrobić dla chronionych aplikacji</string>
+    <string name="applock_operate_hidenoti_title">Chcesz ukryć poufne powiadomienia?</string>
+    <string name="applock_recommend_tips">%s użytkowników chroni te aplikacje</string>
+    <string name="applock_recommend_title">Wybierz aplikacje</string>
+    <string name="applock_set_complete">Użyj blokowania aplikacji</string>
     <string name="applock_set_password_title">Zmień typ hasła</string>
     <string name="applock_settings_unlock_all_toast">Odblokuj wszystkie aplikacje</string>
     <string name="applock_toast_tip">Pomyślnie zweryfikowano Blokowanie aplikacji</string>
@@ -604,7 +623,7 @@ Nie spowoduje to utraty żadnych danych."</string>
     <string name="banner_optimizemanage_summary">Zwolnij miejsce w pamięci</string>
     <string name="banner_red_money_assist_button">Włącz</string>
     <string name="banner_red_money_assist_summary">Otwieraj czerwone koperty szybciej</string>
-    <string name="battery_and_property">Bateria i wydajność</string>
+    <string name="battery_and_property">Bateria</string>
     <string name="battery_can_use_time">Pozostało %s</string>
     <string name="battery_capacity_title">Pojemność baterii</string>
     <string name="battery_charge_estimating">Obliczanie</string>
@@ -772,12 +791,26 @@ Nie spowoduje to utraty żadnych danych."</string>
     <string name="card_main_xspace_title">Sklonowane aplikacje</string>
     <string name="card_tc_failed">Nie udało się skalibrować</string>
     <string name="cd_back">Cofnij</string>
+    <string name="charger_detect_button_ok">Rozumiem</string>
+    <string name="charger_detect_info1">Sprawdź, czy zasilacz i kabel są prawidłowo podłączone.</string>
+    <string name="charger_detect_info2">Ładowanie może również spowolnić, jeśli używasz niestandardowych lub starych zasilaczy i kabli.</string>
+    <string name="charger_detect_no_remind">Nie pokazuj ponownie</string>
+    <string name="charger_detect_title">Powolne ładowanie</string>
     <string name="charging_text_battery_full_time">"Ostatnie ładowanie "</string>
     <string name="charging_text_battery_nearly_full">Prawie naładowany do pełna</string>
     <string name="charging_text_battery_perfect">W pełni naładowana</string>
     <string name="choose">Wybierz</string>
     <string name="choose_gs_show_way">Wybierz orientację strony głównej</string>
     <string name="clean_immediately">Wyczyść</string>
+    <string name="clean_master_icon_recall_button_text">Dodaj</string>
+    <string name="clean_master_icon_recall_dialog_button_negative">Nie, dziękuję</string>
+    <string name="clean_master_icon_recall_dialog_button_positive">Dodaj</string>
+    <string name="clean_master_icon_recall_dialog_summary">Dodaj skrót na ekranie głównym, aby usunąć śmieci w dowolnym momencie.</string>
+    <string name="clean_master_icon_recall_dialog_title">Wyczyść śmieci szybciej</string>
+    <string name="clean_master_icon_recall_hint">Dodaj skrót na ekranie głównym</string>
+    <string name="clean_master_icon_recall_summary">Dodaj skrót na ekranie głównym, aby usunąć śmieci w dowolnym momencie.</string>
+    <string name="clean_master_icon_recall_title">Wyczyść śmieci szybciej</string>
+    <string name="clean_master_icon_recall_toast_text">Pomyślnie utworzono skrót Sprzątacza na ekranie głównym</string>
     <string name="cleaned">Usunięto</string>
     <string name="clear_garbage">Usuń śmieci, aby zwolnić miejsce</string>
     <string name="clear_immediately">Wyczyść teraz</string>
@@ -895,7 +928,7 @@ Wszystkie dane na twoim urządzeniu mogą zostać wykasowane, a twoje hasło Ekr
     <string name="dialog_restrict_negative">Ogranicz</string>
     <string name="dialog_restrict_positive">Anuluj</string>
     <string name="dialog_roaming_message">Twój operator może naliczyć dodatkowe opłaty za dane mobilne w roamingu.</string>
-    <string name="dialog_roaming_title">Zezwolić na dane w roamingu?</string>
+    <string name="dialog_roaming_title">Zezwolić na roaming międzynarodowy</string>
     <string name="dialog_roaming_warning_checkbox">Nie pokazuj ponownie</string>
     <string name="dialog_roaming_warning_message">Po włączeniu roamingu międzynarodowego operator naliczy opłatę. Włączyć mimo to?</string>
     <string name="dialog_roaming_warning_ok">Włącz</string>
@@ -1129,6 +1162,13 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="first_aid_scanning_item4">Wyszukiwanie problemów z baterią…</string>
     <string name="first_aid_scanning_item5">Wyszukiwanie innych problemów…</string>
     <string name="first_aid_stop_scan">Zatrzymaj skanowanie</string>
+    <string name="first_settings_default_camera_title">Domyślnie udostępniaj bez metadanych</string>
+    <string name="first_settings_default_location_subtitle">Usuń informacje o lokalizacji z udostępnianych zdjęć</string>
+    <string name="first_settings_default_location_title">Domyślnie udostępniaj bez informacji o lokalizacji</string>
+    <string name="first_settings_share_enable">Dodaj ikonę „Bezpieczne udostępnianie”</string>
+    <string name="first_settings_share_enable_subtitle">Przedmioty, które udostępniasz na WeChat, pojawią się z ikoną MIUI</string>
+    <string name="first_settings_subtitle">Oto dostępne opcje bezpiecznego udostępniania:</string>
+    <string name="first_settings_title">Chroń swoją prywatność</string>
     <string name="five_percent_total_pkg">%s (5%% miesięcznego pakietu danych)</string>
     <string name="fod_authentication_shift_button">Anuluj</string>
     <string name="fod_button_finger">Użyj odcisku palca</string>
@@ -1153,6 +1193,11 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="free_time_traffic_settings">Limit danych poza szczytem</string>
     <string name="free_time_traffic_title">Wpisz limit danych poza szczytem</string>
     <string name="free_traffic_settings">Ustawienia użycia danych poza szczytem</string>
+    <string name="function_auto_reject_detail">"O tej funkcji:
+1. Podczas grania w gry wszystkie połączenia przychodzące na kartę SIM bez komórkowej usługi transmisji danych będą automatycznie odrzucane.
+2. Zobaczysz powiadomienia o nieodebranych połączeniach, a druga osoba usłyszy wiadomość dźwiękową z informacją, że w tej chwili jesteś zajęty.
+3. Ta funkcja jest obsługiwana tylko przez operatorów komórkowych w Chinach."</string>
+    <string name="function_auto_reject_title">Odrzucaj połączenia VoLTE na karty SIM bez usługi danych</string>
     <string name="function_close">Wyłączony</string>
     <string name="function_gwsd_detail">"Informacje o tej funkcji:
 1. Gdy używasz danych mobilnych na mobilnej karcie SIM lub zwykłej karcie SIM podłączonej do sieci VoLTE, połączenia nie będą przerywane przez połączenia przychodzące, dopóki nie odbierzesz.
@@ -1266,6 +1311,11 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="gb_description_image_button_answer">Odbierz</string>
     <string name="gb_description_image_button_reject">Odmów</string>
     <string name="gb_description_image_button_video_answer">Rozmowa wideo</string>
+    <string name="gb_dialog_game_uninstall_deleting">Odinstalowywanie…</string>
+    <string name="gb_dialog_game_uninstall_loading">Ładowanie gier…</string>
+    <string name="gb_dialog_game_uninstall_tips_message">Wszystkie dane aplikacji zostaną usunięte.</string>
+    <string name="gb_dialog_game_uninstall_tips_message_xspace">Wszystkie dane aplikacji i powiązane sklonowane aplikacje zostaną usunięte.</string>
+    <string name="gb_dialog_game_uninstall_tips_title">Odinstaluj %s</string>
     <string name="gb_dialog_record_way_ai">Nagrania SI są zapisywane na gameboxie i przechowywane tam przez 7 dni.</string>
     <string name="gb_dialog_record_way_finish">Zakończono</string>
     <string name="gb_dialog_record_way_manual">Ręcznie nagrywaj filmy do 30 sekund</string>
@@ -1297,6 +1347,10 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="gb_game_video_type_manual">Ręcznie</string>
     <string name="gb_get_gift_right_now">Zamelduj się teraz</string>
     <string name="gb_global_settings">Ustawienia ogólne</string>
+    <string name="gb_gpu_driver_btn_update">Sprawdź dostępność aktualizacji</string>
+    <string name="gb_gpu_driver_update">Aktualizator sterowników GPU</string>
+    <string name="gb_gpu_driver_update_app">Aktualizuj</string>
+    <string name="gb_gpu_driver_update_app_tips">Korzystasz z najnowszej wersji</string>
     <string name="gb_have_signed">Zameldowano dzisiaj</string>
     <string name="gb_manual_record_dialog_del_video_message">Usunąć trwale zaznaczone pliki wideo?</string>
     <string name="gb_msg_completely_shielded">Ukryj wiadomości</string>
@@ -1318,6 +1372,9 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="gb_signed_gift_loading_summary">Chwileczkę…</string>
     <string name="gb_signed_title">Zameldowano w tym miesiącu</string>
     <string name="gb_sound_audition">Wypróbuj</string>
+    <string name="gb_storage_game_uninstall">Odinstaluj gry</string>
+    <string name="gb_storage_summary">"Nie pokazuj gier, które zostały dodane do gamebox'a na ekranie głównym"</string>
+    <string name="gb_storage_title">Usuń dodane gry z ekranu głównego</string>
     <string name="gb_voice_change_settinged">Modulator głosu jest włączony</string>
     <string name="gb_voice_changer_cartoon">Kreskówka</string>
     <string name="gb_voice_changer_dlg_button_agree">Zezwól</string>
@@ -1338,7 +1395,7 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="gb_xunyou_gift_type_one">1-dniowe przyspieszenie Xunyou</string>
     <string name="gb_xunyou_gift_type_three">3-dniowe przyspieszenie Xunyou</string>
     <string name="gb_xunyou_gift_type_two">2-dniowe przyspieszenie Xunyou</string>
-    <string name="gdpr_msg">&lt;Data>Aby móc korzystać z podstawowych funkcji Panelu sterowania, należy wyrazić zgodę na gromadzenie, przetwarzanie i wykorzystywanie przez Xiaomi danych osobowych użytkownika, w tym informacji o sposobach korzystania z Panelu sterowania (np. statystyk danych mobilnych, informacje o złośliwym oprogramowaniu, a także podstawowe informacje o urządzeniu), a także innych rodzajów informacji określonych w naszej &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Polityce prywatności&lt;/a>.&lt;/Data></string>
+    <string name="gdpr_msg"><Data>Aby móc wykryć zagrożenia bezpieczeństwa i chronić Twoje dane, musimy zebrać niezbędną ilość informacji o Twoim urządzeniu. Przeczytaj i zaakceptuj naszą &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Politykę prywatności&lt;/a> przed skorzystaniem z naszych usług. Jeśli nie pozwolisz nam na gromadzenie takich informacji, nadal będziesz mógł korzystać z tej aplikacji, ale niektóre funkcje nie będą dla Ciebie dostępne. </Data></string>
     <string name="get_sys_info">Uzyskiwanie danych…</string>
     <string name="gigabyteShort">GB</string>
     <string name="global_wa_setting_alert_dialog_content">Możesz zwolnić %s</string>
@@ -1397,8 +1454,18 @@ Wideo zostanie zapisane w Game Turbo > Kluczowe momenty."</string>
     <string name="gs_show_way_vertical">Pionowa</string>
     <string name="gs_sign_notification">Przypomnij o meldowaniu codziennie o 8 wieczorem</string>
     <string name="gs_slip_gamebox_detail">Użyj suwaka lub przesuń palcem od górnej krawędzi ekranu, aby wyświetlić panel skrótów</string>
+    <string name="gtb_dialog_btn_close">Wyłącz</string>
+    <string name="gtb_dialog_btn_open">Włącz</string>
+    <string name="gtb_dialog_hint_smart_5g">W każdej chwili możesz włączyć lub wyłączyć tę funkcję w Game Turbo > Ustawienia.</string>
+    <string name="gtb_dialog_summary_smart_5g">Za każdym razem, gdy Game Turbo wykryje sieć 5G, może podłączyć Twoje urządzenie do najlepszej dostępnej sieci, aby zredukować opóźnienia sieci. Włączyć tę funkcję teraz?</string>
+    <string name="gtb_dialog_title_smart_5g">Optymalizacja sieci 5G</string>
     <string name="gtb_exit_game_to_gtb">Otwórz gamebox</string>
     <string name="gtb_exit_game_to_home">Wróć do ekranu głównego</string>
+    <string name="gtb_setting_item_summary_smart_5g">Za każdym razem, gdy Game Turbo wykryje sieć 5G, może podłączyć Twoje urządzenie do najlepszej dostępnej sieci, aby zredukować opóźnienia sieci.</string>
+    <string name="gtb_setting_item_summary_smart_wlan_speed" formatted="false">Zwiększ prędkość połączenia o 10%-20% po podłączeniu do routerów Mi/Redmi</string>
+    <string name="gtb_setting_item_title_smart_5g">Optymalizacja sieci 5G</string>
+    <string name="gtb_setting_item_title_smart_wlan_speed">Przyspieszenie prędkości Mi Wi-Fi</string>
+    <string name="gtb_wlan_speed_tips">Używanie Mi Wi-Fi…</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Nieprawidłowy operator?&lt;/U>&lt;/font>"</string>
     <string name="guide_operator_text">"Twój aktualny operator: "</string>
     <string name="guide_quck_open">Włącz</string>
@@ -1489,6 +1556,7 @@ Operator może naliczyć dodatkowe opłaty, jeśli będziesz korzystać z danych
     <string name="list_empty_text">Pusta lista</string>
     <string name="load_only_under_wlan">Załaduj tylko przez Wi-Fi</string>
     <string name="loading">Chwileczkę…</string>
+    <string name="loading_text_format" formatted="false">Usuwanie prywatnych informacji ze zdjęć (%d/%d)…</string>
     <string name="local_ip_exception_summary">Nie udało się uzyskać lokalnego adresu IP. Aby zgłosić ten problem do MIUI, przejdź do aplikacji Opinie i wyślij logi ze swojego urządzenia.</string>
     <string name="lock_all_title">Zablokuj wszystkie aplikacje</string>
     <string name="lock_mode_title">Ustawienia ograniczenia</string>
@@ -1617,6 +1685,7 @@ odpowie"</string>
     <string name="memory_check_content">Uwolniono %s</string>
     <string name="memory_clean_memory_size_tip">Pamięć podręczna</string>
     <string name="memory_clean_no_need_clean">Wszystko wygląda dobrze</string>
+    <string name="memory_clean_no_need_clean_1" formatted="false">Zwolniono %s. Twoje urządzenie jest teraz %d%% szybsze.</string>
     <string name="memory_clear_unused">Wyczyść pamięć podręczną (%s)</string>
     <string name="memory_title">Dostępne: %1$s\u0009\u0009Razem: %2$s</string>
     <string name="menu_add">Dodaj</string>
@@ -1657,11 +1726,14 @@ odpowie"</string>
     <string name="menu_summary_antivirus">Wyszukaj wirusy na swoim urządzeniu</string>
     <string name="menu_summary_app_manager">Aktualizuj i usuwaj aplikacje</string>
     <string name="menu_summary_garbage_cleanup">Nie znaleziono śmieci</string>
-    <string name="menu_summary_garbage_cleanup_ex">Wyczyść %s śmieci</string>
+    <string name="menu_summary_garbage_cleanup_ex">Zwolnij %s</string>
+    <string name="menu_summary_garbage_cleanup_new">%d%% miejsca w pamięci</string>
     <string name="menu_summary_networkassistants">Zarządzaj planem danych</string>
     <string name="menu_summary_networkassistants_2">Przekroczono limit</string>
     <string name="menu_summary_networkassistants_3">Pozostała wystarczająca ilość danych</string>
     <string name="menu_summary_networkassistants_4">Dane na ukończeniu</string>
+    <string name="menu_summary_optimize_manage">Wyczyść pamięć</string>
+    <string name="menu_summary_optimize_manage_1">Uczyń swoje urządzenie %d%% szybszym</string>
     <string name="menu_summary_power_manager">Oszczędzanie baterii pozwala wydłużyć czas między ładowaniami</string>
     <string name="menu_summary_power_manager_1">Bateria w pełni naładowana</string>
     <string name="menu_summary_power_manager_2">Pozostało: %s</string>
@@ -1681,7 +1753,8 @@ odpowie"</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_optimize_manage">Przyspiesz prędkość</string>
-    <string name="menu_text_power_manager">Bateria i wydajność</string>
+    <string name="menu_text_optimize_manage_1">Przyspiesz prędkość</string>
+    <string name="menu_text_power_manager">Bateria</string>
     <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Usuń z wyjątków</string>
     <string name="menu_white">Dodaj do wyjątków</string>
@@ -1797,6 +1870,9 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="notification_channel_battery">Bateria</string>
     <string name="notification_exit_power_save_mode">Oszczędzanie baterii wyłączone</string>
     <string name="notification_exit_power_save_mode_subtitle">Bateria naładowana %s.</string>
+    <string name="notification_garbage_clean_botton_text">Wyczyść</string>
+    <string name="notification_garbage_clean_hint">Zwolnij miejsce na dysku</string>
+    <string name="notification_garbage_clean_size">Zwolnij %s</string>
     <string name="notification_garbage_cleanup_summary">Wyczyść śmieci (%s), aby przyspieszyć urządzenie</string>
     <string name="notification_garbage_cleanup_title">Wyczyść pliki śmieci</string>
     <string name="notification_low_battery_action_btn">Włącz</string>
@@ -1808,6 +1884,8 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="notification_masked_item">Jak ukryć treść powiadomienia?</string>
     <string name="notification_masked_subtitle">Użyj Blokowania aplikacji, aby ukryć treść powiadomień dla wybranych aplikacji</string>
     <string name="notification_summary_cmcc_app_check">Dotknij, aby zobaczyć szczegóły.</string>
+    <string name="notification_whatsapp_clean_button_text">Wyczyść</string>
+    <string name="notification_whatsapp_clean_size">Pliki cache WhatsApp osiągnęły %s</string>
     <string name="notify_channel_mipush">Bezpośrednie powiadomienia Panelu sterowania</string>
     <string name="notify_channel_name_behavior">Historia zachowań</string>
     <string name="notify_channel_name_security">Bezpieczeństwo systemu</string>
@@ -1842,6 +1920,8 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="om_locked_apps_summary">Zablokowane aplikacje będą ignorowane przez przyspieszenie prędkości.</string>
     <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">Przyspieszenie prędkości jest wymagane</string>
+    <string name="om_optimzing_big_button_text">Przyspiesz prędkość</string>
+    <string name="om_running_app_info_summary">Zwolnij %s</string>
     <string name="om_running_locked_apps">Zablokowane uruchomione aplikacje</string>
     <string name="om_running_system_apps">Uruchomione aplikacje systemowe</string>
     <string name="om_running_third_apps">Uruchomione aplikacje zewnętrznych dostawców</string>
@@ -1856,6 +1936,13 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="om_settings_notify_manage">Powiadomienia</string>
     <string name="om_settings_speed_up_auto">Automatyczne przyspieszenie prędkość</string>
     <string name="om_settings_title">Ustawienia</string>
+    <string name="om_shortcut_added_toast_text">Pomyślnie dodano</string>
+    <string name="om_shortcut_dialog_summary">RAM Jet pozwala wyczyścić pamięć i zwiększyć prędkość urządzenia jednym dotknięciem. Dodać RAM Jet do ekranu głównego?</string>
+    <string name="om_shortcut_dialog_title">RAM Jet</string>
+    <string name="once_settings_camera_ttile">Udostępniaj bez metadanych</string>
+    <string name="once_settings_location_title">Udostępnij bez informacji o lokalizacji</string>
+    <string name="once_settings_subtitle">Jak chcesz udostępnić wybrane elementy?</string>
+    <string name="once_settings_title">Ochrona prywatności</string>
     <string name="one_address_choose_hint">%s1</string>
     <string name="open_activity_err">Aplikacja nie została znaleziona</string>
     <string name="open_app">Otwórz</string>
@@ -1963,7 +2050,7 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="pc_search_keywords_battery_use">Zużycie baterii</string>
     <string name="pc_search_keywords_capacity">Pojemność baterii</string>
     <string name="pc_search_keywords_property">Wydajność</string>
-    <string name="pc_settings_title">Ustawienia baterii i wydajności</string>
+    <string name="pc_settings_title">Bateria</string>
     <string name="pc_statistics_battery_last_hour_minute">Pozostało %1$d godz. %2$d min</string>
     <string name="pc_statistics_battery_use_hour_minute">%1$d godz. %2$d min od ostatniego naładowania</string>
     <string name="pc_statistics_battery_use_summary">%s od ostatniego naładowania</string>
@@ -2101,7 +2188,7 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="power_center_super_save_title_text">Ultra oszczędzanie baterii</string>
     <string name="power_center_time_to_boot">Czas uruchomienia</string>
     <string name="power_center_time_to_shutdown">Czas wyłączenia</string>
-    <string name="power_center_title">Bateria i wydajność</string>
+    <string name="power_center_title">Bateria</string>
     <string name="power_consume_hardware_total_format">Sprzęt: %s</string>
     <string name="power_consume_other">Inne</string>
     <string name="power_consume_rank_hardware">Sprzęt</string>
@@ -2195,7 +2282,7 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="power_settings_number">Procentowy</string>
     <string name="power_settings_saver_title">Oszczędzanie energii</string>
     <string name="power_settings_shape">Graficzny</string>
-    <string name="power_settings_title">Ustaw</string>
+    <string name="power_settings_title">Ustawienia</string>
     <string name="power_settings_top">Liniowy</string>
     <string name="power_superpower_title_systemui_highpower">Pozostały czas</string>
     <string name="power_superpower_title_systemui_lowpower">Podłącz ładowarkę</string>
@@ -2204,7 +2291,7 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="pref_adjust_data_usage">Szablon wiadomości operatora</string>
     <string name="pref_adjust_data_usage_summary">Po zmianie szablonu kalibracji, MIUI skorzysta z niego, aby uzyskać statystki użycia danych od twojego operatora</string>
     <string name="pref_adjust_traffic_data">Ustaw użycie danych</string>
-    <string name="pref_allow_connect_network_title">Dane w roamingu</string>
+    <string name="pref_allow_connect_network_title">Roaming międzynarodowy</string>
     <string name="pref_auto_adjust_traffic">Automatycznie dostosuj statystki użycia danych</string>
     <string name="pref_automatic_adjust">Synchronizuj użycie danych operatora</string>
     <string name="pref_avaible_traffic">Plan danych</string>
@@ -2477,9 +2564,9 @@ W trakcie kalibracji, MIUI wyśle wiadomość tekstową do Twojego operatora, ab
     <string name="roaming_limit_notification_title">Osiągnięto dzienny limit danych w roamingu</string>
     <string name="roaming_limit_warning_notification_body">Dotknij, aby zobaczyć użycie danych.</string>
     <string name="roaming_not_start_body">Dotknij, aby wyświetlić ustawienia danych w roamingu.</string>
-    <string name="roaming_not_start_title">Dane w roamingu</string>
+    <string name="roaming_not_start_title">Roaming międzynarodowy</string>
     <string name="roaming_start_body">Dotknij, aby zobaczyć wyjątki dla danych w roamingu.</string>
-    <string name="roaming_start_title">Dane w roamingu</string>
+    <string name="roaming_start_title">Roaming międzynarodowy</string>
     <string name="root">Dostęp do ROOT</string>
     <string name="root_apply_step_1">Przyznać %s uprawnienia ROOT?</string>
     <string name="root_apply_step_2">Uprawnienia ROOT mogą spowodować utratę stabilności systemu.</string>
@@ -2546,10 +2633,18 @@ W trakcie kalibracji, MIUI wyśle wiadomość tekstową do Twojego operatora, ab
     <string name="settings">Ustawienia użycia danych</string>
     <string name="settings_battery_consume_abnormal_summary">Otrzymuj powiadomienia, gdy bateria jest szybko drenowana</string>
     <string name="settings_battery_consume_abnormal_title">Powiadomienia o drenowaniu baterii</string>
+    <string name="settings_camera_subtitle_no">Brak metadanych</string>
     <string name="settings_category_other">Inne ustawienia</string>
     <string name="settings_category_overheat">Nagrzewanie</string>
     <string name="settings_choice_no_notification">Wyłączone</string>
+    <string name="settings_image_camera_summary">Model urządzenia, metadane itp.</string>
+    <string name="settings_location_subtitle_no">Brak lokalizacji</string>
     <string name="settings_power_save_ontime_title">Planuj</string>
+    <string name="settings_share_enable_summary">Przedmioty, które udostępniasz na WeChat, pojawią się z ikoną MIUI</string>
+    <string name="settings_share_info">Oto bezpieczne opcje udostępniania dostępne dla elementów udostępnianych z Galerii i Menedżera plików:</string>
+    <string name="settings_show_detail">Zobacz szczegóły</string>
+    <string name="settings_tip">Idź do Galeria > Ustawienia, aby wyświetlić więcej opcji</string>
+    <string name="settings_title">Bezpieczne udostępnianie</string>
     <string name="shield_keyboard_detail">Dotknij dwa razy przycisk, aby ponownie go włączyć</string>
     <string name="shield_keyboard_summary">Ogranicza przyciski i gesty pełnoekranowe podczas gier</string>
     <string name="shield_keyboard_title">Ogranicz przyciski i gesty</string>
@@ -3009,6 +3104,8 @@ Formatowanie spowoduje usunięcie istniejącej zawartości w ^2. Aby uniknąć u
     <string name="text_button">Rozumiem</string>
     <string name="text_cycle_day">%s</string>
     <string name="text_day" />
+    <string name="text_done">OK</string>
+    <string name="text_security">Prywatność</string>
     <string name="thermal_tips_message">Granie w gry w Trybie wydajności może powodować przegrzanie.</string>
     <string name="thermal_tips_title">Powiadomienie</string>
     <string name="third_application">Zainstalowane aplikacje</string>
@@ -3235,6 +3332,9 @@ Pozostałe dane zawierają dane, które zostały przeniesione z poprzedniego mie
     <string name="vb_advanced_settings_after_open">Po</string>
     <string name="vb_advanced_settings_before_open">Przed</string>
     <string name="vb_advanced_settings_pic_stronger_desc">Spraw, aby ruchome obiekty były wyraźniejsze dzięki ulepszeniu animacji. Ta funkcja wymaga większego zużycia energii.</string>
+    <string name="vb_fps_settings">Auto częstotliwość odświeżania</string>
+    <string name="vb_fps_settings_tips">Ta funkcja dostosowuje częstotliwość odświeżania ekranu do szybkości klatek wideo, co oszczędza baterię i zapewnia płynne odtwarzanie. Włączenie pływających komentarzy spowoduje wyłączenie automatycznej częstotliwości odświeżania.</string>
+    <string name="vb_quick_func_auto_bgm">Rozpoznawanie muzyki w tle</string>
     <string name="vb_quick_func_hangup_listening">Odtwarzaj dźwięk wideo przy wyłączonym ekranie</string>
     <string name="vb_quick_func_screen_capture">Zrzut ekranu</string>
     <string name="vb_quick_func_screen_record">Nagrywanie</string>
@@ -3246,9 +3346,19 @@ Pozostałe dane zawierają dane, które zostały przeniesione z poprzedniego mie
     <string name="vb_video_effects_display_style">Styl</string>
     <string name="vb_video_effects_setting_black_white">Czarno-biały</string>
     <string name="vb_video_effects_setting_cinema">Kinowy</string>
+    <string name="vb_video_effects_setting_girl">Zarumieniony</string>
+    <string name="vb_video_effects_setting_gorgeous">Intensywny</string>
+    <string name="vb_video_effects_setting_green_orange">Pomarańczowy</string>
+    <string name="vb_video_effects_setting_grim">Chłodny</string>
+    <string name="vb_video_effects_setting_hdr">HDR</string>
+    <string name="vb_video_effects_setting_knight">Metal</string>
+    <string name="vb_video_effects_setting_mecha">Robot</string>
+    <string name="vb_video_effects_setting_nostalgia">Nostalgiczny</string>
     <string name="vb_video_effects_setting_old_movie">Retro</string>
     <string name="vb_video_effects_setting_outside">Na zewnątrz</string>
     <string name="vb_video_effects_setting_raw">Oryginalny</string>
+    <string name="vb_video_effects_setting_solar">Wyblakły</string>
+    <string name="vb_video_effects_setting_warmth">Ciepły</string>
     <string name="vb_video_effects_settings_liquid">Czystość</string>
     <string name="vb_video_effects_settings_stereo">Głośność</string>
     <string name="vb_video_effects_srs_premium_sound">Dźwięk</string>

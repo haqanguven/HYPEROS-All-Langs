@@ -45,6 +45,7 @@
     <string name="disageement_abnormal_download">Se você não concordar em conceder tais permissões ou compartilhar e fazer upload de suas informações pessoais, você não poderá usar este serviço.</string>
     <string name="disagree">Cancelar</string>
     <string name="disagreement_abnormal_running">Se você não concordar em conceder tais permissões ou compartilhar e fazer upload de suas informações pessoais, você não poderá usar este app. Você pode optar por não usar este app ou restringir as permissões nas Configurações em tais casos.</string>
+    <string name="disagreement_abnormal_running_fast_pairing">Se você não concordar em conceder tais permissões, você não poderá usar este app. Você pode optar por restringir as permissões e desativar este recurso a qualquer momento nas Configurações neste caso.</string>
     <string name="disagreement_donnot_use_application">Se você não concordar em conceder tais permissões ou compartilhar e fazer upload de suas informações pessoais, você não poderá usar este app. Você pode optar por não usar este app em tais casos.</string>
     <string name="disagreement_donnot_use_product">Se você não concordar em conceder tais permissões ou compartilhar e fazer upload de suas informações pessoais, você não poderá usar este produto. Você pode optar por não usar este produto em tais casos.</string>
     <string name="disagreement_donnot_use_service">Se você não concordar em conceder tais permissões ou compartilhar e fazer upload de suas informações pessoais, você não poderá usar este serviço. Você pode optar por não usar este serviço em tais casos.</string>
@@ -58,12 +59,16 @@
     <string name="enable_accessibility_dialog_negative_btn">Cancelar</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>
     <string name="fast_application_introduction">A Estrutura de Quick apps permite que você crie e receba serviços dos quick apps.</string>
+    <string name="fast_pairing_introduction">O Mi Link permite que seu dispositivo se conecte a dispositivos Bluetooth por perto usando o Serviço Bluetooth MIUI. Para encontrar dispositivos por perto, permita que o Serviço Bluetooth MIUI conecte-se à internet.</string>
     <string name="font_hint_large">Tamanho do texto padrão</string>
     <string name="font_hint_normal">Aumentar tamanho do texto</string>
     <string name="framework_introduction">A Estrutura de Serviços Mi permite que você use a Conta Mi, o Mi Push, Mi Stats e o MIUI BI.</string>
     <string name="framwork_base_service">Para lhe fornecer estes serviços, a Estrutura de Serviços Mi (Conta Mi, Mi Push, Mi Stats, MIUI BI) precisa se conectar à Internet, acessar sua localização, número de telefone, IMEI e IMSI, e permitir que seu dispositivo receba notificações push</string>
     <string name="game_introduction">O Plugin de jogos permite que você faça login, crie pedidos, conclua pagamentos, use cupons e participe de eventos promocionais.</string>
     <string name="google_service_introduction">Para poder funcionar normalmente, o Google Play precisa de uma conexão com a internet, acesso à sua localização, gravar áudio, fazer chamadas, acessar eventos da agenda, o histórico de chamadas, sensores, armazenamento câmera, informações do dispositivo e contas.</string>
+    <string name="home_settings_miui_home">Clássico</string>
+    <string name="home_settings_poco_launcher">Gaveta de apps</string>
+    <string name="home_settings_title">Selecionar launcher padrão</string>
     <string name="ime_privacy_policy">Política de Privacidade para o teclado selecionado</string>
     <string name="ime_privacy_policy_no_network">Nenhuma conexão de rede. Veja a Política de Privacidade para este teclado em %s.</string>
     <string name="input_method_category">Escolha o teclado padrão a ser usado para escrever mensagens, anotações, etc. É possível instalar ou usar outros teclados mais tarde.</string>
@@ -101,8 +106,9 @@
     <string name="next_fingerprint">Avançar</string>
     <string name="note_introduction">Este app permite que você crie, veja e edite anotações.</string>
     <string name="other_settings">Configurações adicionais</string>
-    <string name="other_settings_ad_dialog_content">"Depois de desativar este recurso, você não receberá mais anúncios personalizados. No entanto, você ainda receberá anúncios que não são relevantes aos seus interesses. Você pode saber mais sobre os anúncios personalizados na Política de Privacidade da Xiaomi.
-Desativar os anúncios personalizados mesmo assim?"</string>
+    <string name="other_settings_ad_dialog_agree">Ativar</string>
+    <string name="other_settings_ad_dialog_content">Quando a recomendação de anúncios personalizados está desativada, você ainda verá a mesma quantidade de anúncios de quando o recurso está ativo. Os anúncios, no entanto, não serão relevantes já que não serão baseados em suas preferências pessoais.</string>
+    <string name="other_settings_ad_dialog_disagree">Desativar</string>
     <string name="other_settings_ad_disable_summary">Ative para personalizar os anúncios</string>
     <string name="other_settings_ad_enable">Anúncios personalizados</string>
     <string name="other_settings_ad_enable_summary">Personalizar anúncios com base em seus interesses</string>
@@ -253,13 +259,22 @@ Você precisa aceitar a Política de Privacidade do Teclado Mint antes de usar e
     <string name="terms_privacy_policy_input_method_kika">Política de Privacidade do Kika</string>
     <string name="title_fingerprint">Definir senha</string>
     <string name="user_agreement">Contrato do Usuário</string>
-    <string name="user_agreement_declare">Antes de usar o MIUI, você deve ler e concordar com nosso Contrato de Usuário e a Política de Privacidade. Enquanto seu dispositivo estiver sendo ativado, o Serviço de Ativação do SIM Mi, Xiaomi Cloud, Encontrar dispositivo, Tela inicial, Frases frequentes, Serviço de Tradução, Daemon MIUI, Visualizador HTML, Assistente de IA, Bateria e desempenho, Detector de Energia, Joyose, Configuração de IA do SO, Gerenciador de Permissões e Atualizador se conectarão à rede. Serviços inteligentes irão conectar-se à rede e acessar sua localização.</string>
+    <string name="user_agreement_declare">Antes de usar o MIUI, você deve ler e concordar com nosso Contrato de Usuário e a Política de Privacidade. Enquanto seu dispositivo estiver sendo ativado, o Serviço de Ativação do SIM Mi, Xiaomi Cloud, Encontrar dispositivo, Tela inicial, Frases frequentes, Serviço de Tradução, Daemon MIUI, Visualizador HTML, SDK do MIUI, Assistente de IA, Bateria e desempenho, Detector de Energia, Joyose, Configuração de IA do SO, Gerenciador de Permissões e Atualizador se conectarão à rede. Serviços inteligentes irão conectar-se à rede e acessar sua localização.</string>
     <string name="voice_assist_advice">O Mi AI permite que você use controles por voz, mas ele consumirá mais energia (+1% a cada hora).</string>
     <string name="voice_assist_condition">"Você conseguirá usar o Mi AI nestes casos:r
 1. Quando a tela estiver ligada.r
 2. Quando você estiver ouvindo música com a tela desligada."</string>
     <string name="voice_assist_desp">Diga \"Mi AI\" no seu telefone. O Mi AI reconhecerá a sua voz e poderá controlar o seu dispositivo.</string>
     <string name="voice_assist_title">Ligar tela com voz</string>
+    <string name="wc_dialog_agree">Aceitar</string>
+    <string name="wc_dialog_reject">Não aceitar</string>
+    <string name="wc_dialog_summary">O Carrossel de Planos de fundo entrega imagens impressionantes e histórias inspiradoras em sua Tela de bloqueio diariamente.</string>
+    <string name="wc_dialog_title">Tela de bloqueio reimaginada</string>
+    <string name="wc_double_check_agree">Experimentar</string>
+    <string name="wc_double_check_reject">Não, obrigado</string>
+    <string name="wc_double_check_summary">Você pode ativar o Carrossel de Planos de fundo para ver se ele funciona pra você. Lembre-se de que você sempre pode ativar ou desativar o Carrossel de Planos de fundo em Configurações > Tela de bloqueio.</string>
+    <string name="wc_double_check_title">Experimente o Carrossel de Planos de fundo</string>
+    <string name="wc_notice_link_announcement_summary">Leia e aceite a &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> e o &lt;a href=\"%2$s\">Contrato do Usuário&lt;/a> do provedor de conteúdo terceirizado antes de usar este recurso.</string>
     <string name="welcome">Boas-vindas</string>
     <string name="zone_picker_title">Escolher fuso horário</string>
 </resources>

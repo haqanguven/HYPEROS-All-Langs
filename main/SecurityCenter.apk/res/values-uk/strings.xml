@@ -161,9 +161,9 @@
     <string name="antivirus_none_engine_dialog_ok">ОК</string>
     <string name="antivirus_not_wlan">Відсутнє підключення до Wi-Fi. За використання мобільного інтернету може стягуватися додаткова плата. Продовжити?</string>
     <string name="antivirus_privacy_dialog_cloudscan">Відправити назви програм та відомості</string>
-    <string name="antivirus_privacy_dialog_cloudscan_description">Відправляти назви невідомих файлів та додатків на сервер і перевіряти на наявність вірусів.</string>
+    <string name="antivirus_privacy_dialog_cloudscan_description">Щоб поліпшити ефективність виявлення і нейтралізації шкідливого ПЗ, ми будемо завантажувати імена і властивості програм для їх подальшої перевірки за допомогою хмарних служб.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
-    <string name="antivirus_privacy_dialog_summary">При використанні цієї функції, ID вашого пристрою шифрується та відправляється на сервери Avast, AVL та Tencent (%s).</string>
+    <string name="antivirus_privacy_dialog_summary"><Data>Ця функція працює на базі стороннього антивіруса. Для отримання детальної інформації ознайомтеся з&lt;a href=\"%1$s\">Ліцензійною угодою&lt;/a>, наданою стороннім розробником.</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Політика конфіденційності</string>
     <string name="antivirus_privacy_dialog_title">Політика конфіденційності</string>
     <string name="antivirus_sec_network_unavailable">Програма «Безпека» не може оновитися, тому що ви обмежили доступ до інтернету. Дозволити програмі доступ до інтернету?</string>
@@ -467,9 +467,16 @@
     <string name="application_item_already_permission">Дозволено</string>
     <string name="application_item_disable">Заборонено</string>
     <string name="applock_add_account">Додати</string>
+    <string name="applock_add_account_ignore">Не зараз</string>
+    <string name="applock_add_account_ignore_with_seconds">Не зараз (%d сек)</string>
     <string name="applock_add_account_info">Додайте Mi акаунт, щоб мати змогу скинути ваш пароль, якщо ви його забудете.</string>
     <string name="applock_add_account_setting">Акаунт та конфіденційність</string>
+    <string name="applock_add_account_tips">За допомогою Mi акаунту ви зможете відновити програму Захист програм</string>
+    <string name="applock_add_account_title">Додайте ваш Мі акаунт</string>
+    <string name="applock_already_add_account">Поточний акаунт: %s</string>
     <string name="applock_app_recommend_lock_title">Ви можете заблокувати наступні програми</string>
+    <string name="applock_bind_account_dialog_content">Ваш Мі акаунт - це єдиний спосіб відновити програму Захист програм, якщо ви забудете пароль для неї. Увійдіть, щоб додати Мі акаунт.</string>
+    <string name="applock_bind_account_dialog_title">Додайте ваш Мі акаунт</string>
     <string name="applock_bind_account_title">Забули пароль</string>
     <string name="applock_close_dialog_summary">Приховання всіх програм буде скасовано, їх ярлики на робочому столі відновлені, а ваш пароль для Захисту програм видалено. Вимкнути Захист програм?</string>
     <string name="applock_close_dialog_title">Відключити захист?</string>
@@ -479,6 +486,8 @@
     <string name="applock_function_base_settings">Захист програм</string>
     <string name="applock_function_pwd_settings">Пароль</string>
     <string name="applock_go_to">Налаштування</string>
+    <string name="applock_guide_notification_summary">Захистіть вашу конфіденційність за допомогою Захисту програм</string>
+    <string name="applock_guide_notification_title">Інші люди можуть побачити вашу особисту інформацію на екрані</string>
     <string name="applock_guide_open_applock">Увімкнути</string>
     <string name="applock_guide_tip1">Доступна функція декількох типів паролів. Розблоковуйте програми за допомогою відбитка пальця, за допомогою обличчя або шляхом введення пароля.</string>
     <string name="applock_guide_tip1_global">Розблоковуйте програми за допомогою відбитка пальця, за допомогою обличчя або шляхом введення пароля.</string>
@@ -495,8 +504,18 @@
     <string name="applock_header_text_less_than_half">Дуже мало місця. Посуньте роздільник подалі.</string>
     <string name="applock_lock_all">Заблокувати всі</string>
     <string name="applock_login_and_add_account">ОК</string>
+    <string name="applock_no_account_login">Ви не увійшли до Мі акаунту</string>
     <string name="applock_not_add_account"><u>Не зараз</u></string>
     <string name="applock_not_login_account">Вхід не здійснено</string>
+    <string name="applock_operate_faceunlock_summary">Розблоковуйте програми одним поглядом на екран</string>
+    <string name="applock_operate_faceunlock_title">Використовувати дані обличчя</string>
+    <string name="applock_operate_fingerprint_summary">Захист програми підтримує додавання декількох відбитків пальців.</string>
+    <string name="applock_operate_fingerprint_title">Використайте відбиток пальця</string>
+    <string name="applock_operate_hidenoti_summary">Програма Захист програм може робити це для прихованих програм</string>
+    <string name="applock_operate_hidenoti_title">Хочете приховати особисті сповіщення?</string>
+    <string name="applock_recommend_tips">%s користувачів захистили свої програми</string>
+    <string name="applock_recommend_title">Вибрати програми</string>
+    <string name="applock_set_complete">Використовувати програму Захист програм</string>
     <string name="applock_set_password_title">Змінити тип пароля</string>
     <string name="applock_settings_unlock_all_toast">Розблокувати всі програми</string>
     <string name="applock_toast_tip">Захист програм перевірено</string>
@@ -604,7 +623,7 @@
     <string name="banner_optimizemanage_summary">"Звільніть пам'ять"</string>
     <string name="banner_red_money_assist_button">Увімкнути</string>
     <string name="banner_red_money_assist_summary">Відкривайте червоні конверти швидше</string>
-    <string name="battery_and_property">Батарея та продуктивність</string>
+    <string name="battery_and_property">Батарея</string>
     <string name="battery_can_use_time">Залишилося: %s</string>
     <string name="battery_capacity_title">Ємність батареї</string>
     <string name="battery_charge_estimating">Оцінка</string>
@@ -772,12 +791,26 @@
     <string name="card_main_xspace_title">Клоновані програми</string>
     <string name="card_tc_failed">Помилка калібрування</string>
     <string name="cd_back">Назад</string>
+    <string name="charger_detect_button_ok">Зрозуміло</string>
+    <string name="charger_detect_info1">Переконайтеся, що адаптер живлення та кабель зарядки підключені правильно.</string>
+    <string name="charger_detect_info2">Швидкість заряджання може бути повільнішою, якщо ви використовуєте нестандартний або старий адаптер живлення або кабель для заряджання.</string>
+    <string name="charger_detect_no_remind">Більше не показувати</string>
+    <string name="charger_detect_title">Повільна зарядка</string>
     <string name="charging_text_battery_full_time">"Час останньої зарядки "</string>
     <string name="charging_text_battery_nearly_full">Батарея майже повністю заряджена</string>
     <string name="charging_text_battery_perfect">Батарея заряджена</string>
     <string name="choose">Обрати</string>
     <string name="choose_gs_show_way">Виберіть орієнтацію робочого столу</string>
     <string name="clean_immediately">Очистити</string>
+    <string name="clean_master_icon_recall_button_text">Додати</string>
+    <string name="clean_master_icon_recall_dialog_button_negative">Ні, дякую</string>
+    <string name="clean_master_icon_recall_dialog_button_positive">Додати</string>
+    <string name="clean_master_icon_recall_dialog_summary">Додайте ярлик на робочий стіл для швидкого доступу до очищення</string>
+    <string name="clean_master_icon_recall_dialog_title">Очищуйте сміття швидше</string>
+    <string name="clean_master_icon_recall_hint">Додати ярлик на робочий стіл</string>
+    <string name="clean_master_icon_recall_summary">Додайте ярлик на робочий стіл для швидкого доступу до очищення</string>
+    <string name="clean_master_icon_recall_title">Очищуйте сміття швидше</string>
+    <string name="clean_master_icon_recall_toast_text">Ярлик було додано на робочий стіл</string>
     <string name="cleaned">Очищено</string>
     <string name="clear_garbage">Очистіть сміття, щоб звільнити місце</string>
     <string name="clear_immediately">Очистити зараз</string>
@@ -1129,6 +1162,13 @@
     <string name="first_aid_scanning_item4">Перевірка проблем із живленням…</string>
     <string name="first_aid_scanning_item5">Перевірка інших проблем…</string>
     <string name="first_aid_stop_scan">Зупинити сканування</string>
+    <string name="first_settings_default_camera_title">За замовчуванням ділитися без метаданих</string>
+    <string name="first_settings_default_location_subtitle">Видалити інформацію про місцезнаходження із фотографій, які будуть відправлятися</string>
+    <string name="first_settings_default_location_title">За замовчуванням ділитися без інформації про місцезнаходження</string>
+    <string name="first_settings_share_enable">Додати мітку \"Безпечне відправлення\"</string>
+    <string name="first_settings_share_enable_subtitle">"Об'єкти, якими ви ділитеся у WeChat, будуть з'являтися з міткою MIUI"</string>
+    <string name="first_settings_subtitle">Доступні безпечні методи відправлення:</string>
+    <string name="first_settings_title">Захистіть вашу приватність</string>
     <string name="five_percent_total_pkg">%s (5%% від місячного ліміту)</string>
     <string name="fod_authentication_shift_button">Скасувати</string>
     <string name="fod_button_finger">Використовувати відбиток пальця</string>
@@ -1153,6 +1193,11 @@
     <string name="free_time_traffic_settings">Трафік поза межею</string>
     <string name="free_time_traffic_title">Введіть межу трафіку</string>
     <string name="free_traffic_settings">Налаштування безкоштовного трафіку</string>
+    <string name="function_auto_reject_detail">"Про цю функцію:
+1. Коли ви перебуваєте в грі, всі вхідні дзвінки на SIM-карту без мобільного інтернету будуть автоматично відхилені.
+2. Ви побачите повідомлення про пропущений виклик, а абонент почує звукове повідомлення про те, що в даний момент ви зайняті.
+3. Ця функція підтримується тільки китайськими операторами мобільного зв'язку."</string>
+    <string name="function_auto_reject_title">Відхиляти VoLTE-виклики для SIM-карт без мобільного інтернету</string>
     <string name="function_close">Вимк</string>
     <string name="function_gwsd_detail">"Про цю функцію:
  1. Коли ви використовуєте мобільний інтернет на SIM-карті для передачі даних або звичайній SIM-карті, підключеній до мережі VoLTE, підключення не буде перериватися вхідними дзвінками до тих пір, поки ви не відповісте.
@@ -1266,6 +1311,11 @@
     <string name="gb_description_image_button_answer">Відповісти</string>
     <string name="gb_description_image_button_reject">Відхилити</string>
     <string name="gb_description_image_button_video_answer">Відеовиклик</string>
+    <string name="gb_dialog_game_uninstall_deleting">Видалення…</string>
+    <string name="gb_dialog_game_uninstall_loading">Завантаження ігор…</string>
+    <string name="gb_dialog_game_uninstall_tips_message">Дані програми будуть видалені.</string>
+    <string name="gb_dialog_game_uninstall_tips_message_xspace">"Всі дані програми та пов'язані клоновані програми будуть видалені."</string>
+    <string name="gb_dialog_game_uninstall_tips_title">Видалити %s</string>
     <string name="gb_dialog_record_way_ai">Записи АІ збережено у ігровому ящику та будуть зберігатися там протягом 7 днів.</string>
     <string name="gb_dialog_record_way_finish">Готово</string>
     <string name="gb_dialog_record_way_manual">Записуйте вручну відео тривалістю до 30 сек</string>
@@ -1297,6 +1347,10 @@
     <string name="gb_game_video_type_manual">Вручну</string>
     <string name="gb_get_gift_right_now">Відмітится зараз</string>
     <string name="gb_global_settings">Загальні налаштування</string>
+    <string name="gb_gpu_driver_btn_update">Перевірити оновлення</string>
+    <string name="gb_gpu_driver_update">Оновлення драйвера ГП</string>
+    <string name="gb_gpu_driver_update_app">Оновити</string>
+    <string name="gb_gpu_driver_update_app_tips">Встановлена остання версія</string>
     <string name="gb_have_signed">Відмічався сьогодні</string>
     <string name="gb_manual_record_dialog_del_video_message">Видалити вибрані відео назавжди?</string>
     <string name="gb_msg_completely_shielded">Приховати повідомлення</string>
@@ -1318,6 +1372,9 @@
     <string name="gb_signed_gift_loading_summary">Хвилинку…</string>
     <string name="gb_signed_title">Відмічань за місяць</string>
     <string name="gb_sound_audition">Спробувати</string>
+    <string name="gb_storage_game_uninstall">Видалити ігри</string>
+    <string name="gb_storage_summary">Не відображати, додані на приставку, ігри на робочому столі</string>
+    <string name="gb_storage_title">Видалити додані ігри з робочого столу</string>
     <string name="gb_voice_change_settinged">Функція зміни голосу увімкнена</string>
     <string name="gb_voice_changer_cartoon">Мультфільм</string>
     <string name="gb_voice_changer_dlg_button_agree">Дозволити</string>
@@ -1338,7 +1395,7 @@
     <string name="gb_xunyou_gift_type_one">Прискорення Xunyou на 1 день</string>
     <string name="gb_xunyou_gift_type_three">Прискорення Xunyou на 3 дні</string>
     <string name="gb_xunyou_gift_type_two">Прискорення Xunyou на 2 дні</string>
-    <string name="gdpr_msg">&lt;Data>Для використання основних функцій програми Безпеки ви повинні погодитися з тим, що Xiaomi буде збирати, обробляти і використовувати ваші особисті дані, включаючи інформацію про використання конкретних функцій програми (наприклад, статистика мобільного трафіку, інформація про шкідливе ПЗ, а також базова інформація про ваш пристрій) та інші типи даних, які визначає наша&lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Політика конфіденційності&lt;/a>.&lt;/Data></string>
+    <string name="gdpr_msg"><Data>Щоб мати можливість виявляти загрози безпеці та захищати ваші дані, нам необхідно збирати інформацію про ваш пристрій. Прочитайте та погодьтеся з нашою &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Політикою конфіденційності&lt;/a> перед використанням нашої послуги. Якщо ви не надасте дозвіл на збирання такої інформації, то ви все ще зможете використовувати цю програму, але деякі її функції будуть недоступні. </Data></string>
     <string name="get_sys_info">Отримання інформації…</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="global_wa_setting_alert_dialog_content">Ви можете очистити до %s</string>
@@ -1397,8 +1454,18 @@
     <string name="gs_show_way_vertical">Вертикальний</string>
     <string name="gs_sign_notification">Нагадувати про відмічання щодня о 8 годині вечора</string>
     <string name="gs_slip_gamebox_detail">Використовуйте слайдер або проведіть від верхнього краю екрана для відкриття панелі ярликів</string>
+    <string name="gtb_dialog_btn_close">Вимкнути</string>
+    <string name="gtb_dialog_btn_open">Увімкнути</string>
+    <string name="gtb_dialog_hint_smart_5g">Ви можете вмикати та вимикати цю функцію у Game Turbo > Налаштування.</string>
+    <string name="gtb_dialog_summary_smart_5g">Всякий раз, коли Game Turbo буде виявляти мережу 5G, він може підключити ваш пристрій до найкращої доступної мережі, щоб зменшити мережеву затримку. Увімкніть цю функцію зараз?</string>
+    <string name="gtb_dialog_title_smart_5g">Оптимізація мережі 5G</string>
     <string name="gtb_exit_game_to_gtb">Відкрити коробку з іграми</string>
     <string name="gtb_exit_game_to_home">Назад на робочий стіл</string>
+    <string name="gtb_setting_item_summary_smart_5g">Всякий раз, коли Game Turbo буде виявляти мережу 5G, він може підключити ваш пристрій до найкращої доступної мережі, щоб зменшити мережеву затримку.</string>
+    <string name="gtb_setting_item_summary_smart_wlan_speed">Збільшення на 10-20% швидкості підключення при використанні роутерів Mi і Redmi.</string>
+    <string name="gtb_setting_item_title_smart_5g">Оптимізація мережі 5G</string>
+    <string name="gtb_setting_item_title_smart_wlan_speed">Збільшення швидкості Мі Wi-Fi</string>
+    <string name="gtb_wlan_speed_tips">Використовується Mi Wi-Fi…</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Неправильний оператор?&lt;/U>&lt;/font>"</string>
     <string name="guide_operator_text">"Ваш поточний оператор: "</string>
     <string name="guide_quck_open">Увімкнути</string>
@@ -1489,6 +1556,7 @@
     <string name="list_empty_text">Порожньо</string>
     <string name="load_only_under_wlan">Завантажити тільки по Wi-Fi</string>
     <string name="loading">Хвилинку…</string>
+    <string name="loading_text_format" formatted="false">Видалення особистої інформації з фото (%d/%d)…</string>
     <string name="local_ip_exception_summary">Не вдалося отримати локальну IP-адресу. Ви можете використати програму \"Звіти\", щоб повідомити MIUI про проблему.</string>
     <string name="lock_all_title">Заблокувати всі програми</string>
     <string name="lock_mode_title">Налаштування блокування</string>
@@ -1617,6 +1685,7 @@
     <string name="memory_check_content">Звільнено %s</string>
     <string name="memory_clean_memory_size_tip">Кеш</string>
     <string name="memory_clean_no_need_clean">Очищення не потрібно</string>
+    <string name="memory_clean_no_need_clean_1" formatted="false">Звільнено %s. Ваш пристрій працює тепер на %d%% швидше.</string>
     <string name="memory_clear_unused">Очистити кеш (%s)</string>
     <string name="memory_title">Доступно: %1$s\u0009\u0009Всього: %2$s</string>
     <string name="menu_add">Додати</string>
@@ -1657,11 +1726,14 @@
     <string name="menu_summary_antivirus">Пошук вірусів на пристрої</string>
     <string name="menu_summary_app_manager">Оновлюйте та видаляйте програми</string>
     <string name="menu_summary_garbage_cleanup">Сміття не знайдено</string>
-    <string name="menu_summary_garbage_cleanup_ex">Очистити %s сміття</string>
+    <string name="menu_summary_garbage_cleanup_ex">Звільніть %s</string>
+    <string name="menu_summary_garbage_cleanup_new">%d%% сховища</string>
     <string name="menu_summary_networkassistants">Керуйте своїм тарифом</string>
     <string name="menu_summary_networkassistants_2">Межа трафіку перевищена</string>
     <string name="menu_summary_networkassistants_3">Достатньо трафіку</string>
     <string name="menu_summary_networkassistants_4">Трафік закінчується</string>
+    <string name="menu_summary_optimize_manage">"Очистити пам'ять"</string>
+    <string name="menu_summary_optimize_manage_1">Зробіть роботу пристрою на %d%% швидшою</string>
     <string name="menu_summary_power_manager">Економія енергії збільшує час між зарядками</string>
     <string name="menu_summary_power_manager_1">Батарея заряджена</string>
     <string name="menu_summary_power_manager_2">Залишилося: %s</string>
@@ -1681,7 +1753,8 @@
     <string name="menu_text_networkassistants_unit_kb">кБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_optimize_manage">Збільшити швидкість</string>
-    <string name="menu_text_power_manager">Батарея та продуктивність</string>
+    <string name="menu_text_optimize_manage_1">Збільшити швидкість</string>
+    <string name="menu_text_power_manager">Батарея</string>
     <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Видалити з винятків</string>
     <string name="menu_white">Додати до винятків</string>
@@ -1797,6 +1870,9 @@
     <string name="notification_channel_battery">Батарея</string>
     <string name="notification_exit_power_save_mode">Енергозбереження відключене</string>
     <string name="notification_exit_power_save_mode_subtitle">Заряд батареї %s.</string>
+    <string name="notification_garbage_clean_botton_text">Очистити</string>
+    <string name="notification_garbage_clean_hint">Очистити хмарне сховище</string>
+    <string name="notification_garbage_clean_size">Звільнити %s</string>
     <string name="notification_garbage_cleanup_summary">Очистіть кеш (%s) для збільшення швидкості роботи пристрою</string>
     <string name="notification_garbage_cleanup_title">Необхідне очищення</string>
     <string name="notification_low_battery_action_btn">Увімкнути</string>
@@ -1808,6 +1884,8 @@
     <string name="notification_masked_item">Як приховувати зміст сповіщень?</string>
     <string name="notification_masked_subtitle">Використовуйте програму Захист програм для приховування змісту сповіщень для обраних програм</string>
     <string name="notification_summary_cmcc_app_check">Натисніть для додаткової інформації.</string>
+    <string name="notification_whatsapp_clean_button_text">Очистити</string>
+    <string name="notification_whatsapp_clean_size">Кеш WhatsApp досяг %s</string>
     <string name="notify_channel_mipush">Push-повідомлення безпеки</string>
     <string name="notify_channel_name_behavior">Історія дій</string>
     <string name="notify_channel_name_security">Безпека системи</string>
@@ -1842,6 +1920,8 @@
     <string name="om_locked_apps_summary">Закріплені програми не будуть оптимізовані.</string>
     <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">Необхідне збільшення швидкості</string>
+    <string name="om_optimzing_big_button_text">Збільшити швидкість</string>
+    <string name="om_running_app_info_summary">Звільнити %s</string>
     <string name="om_running_locked_apps">Працюючі (закріплені)</string>
     <string name="om_running_system_apps">Працюючі (системні)</string>
     <string name="om_running_third_apps">Працюючі (сторонні)</string>
@@ -1856,6 +1936,13 @@
     <string name="om_settings_notify_manage">Сповіщення</string>
     <string name="om_settings_speed_up_auto">Автоматичне збільшення швидкості</string>
     <string name="om_settings_title">Налаштування</string>
+    <string name="om_shortcut_added_toast_text">Додано</string>
+    <string name="om_shortcut_dialog_summary">"RAM Jet дозволяє вам очищувати пам'ять та збільшувати швидкість роботи пристрою одним натисненням. Додати RAM Jet на робочий стіл?"</string>
+    <string name="om_shortcut_dialog_title">RAM Jet</string>
+    <string name="once_settings_camera_ttile">Поділитися без метаданих</string>
+    <string name="once_settings_location_title">Поділитися без інформації про місцезнаходження</string>
+    <string name="once_settings_subtitle">"Як ви хотіли б відправити вибрані об'єкти?"</string>
+    <string name="once_settings_title">Захист конфіденційності</string>
     <string name="one_address_choose_hint">%s1</string>
     <string name="open_activity_err">Заявку не знайдено</string>
     <string name="open_app">Відкрити</string>
@@ -1963,7 +2050,7 @@
     <string name="pc_search_keywords_battery_use">Споживання енергії</string>
     <string name="pc_search_keywords_capacity">Ємність батареї</string>
     <string name="pc_search_keywords_property">Продуктивність</string>
-    <string name="pc_settings_title">Батарея та налаштування продуктивності</string>
+    <string name="pc_settings_title">Батарея</string>
     <string name="pc_statistics_battery_last_hour_minute">Заряду вистачить на %1$d год %2$d хв</string>
     <string name="pc_statistics_battery_use_hour_minute">%1$d год %2$d хв без підзарядки</string>
     <string name="pc_statistics_battery_use_summary">%s без підзарядки</string>
@@ -2101,7 +2188,7 @@
     <string name="power_center_super_save_title_text">Ультраекономія енергії</string>
     <string name="power_center_time_to_boot">Час вмикання</string>
     <string name="power_center_time_to_shutdown">Час вимкнення</string>
-    <string name="power_center_title">Батарея та продуктивність</string>
+    <string name="power_center_title">Батарея</string>
     <string name="power_consume_hardware_total_format">Пристрій: %s</string>
     <string name="power_consume_other">Інше</string>
     <string name="power_consume_rank_hardware">Пристрій</string>
@@ -2195,7 +2282,7 @@
     <string name="power_settings_number">Відсотковий</string>
     <string name="power_settings_saver_title">Економія заряду</string>
     <string name="power_settings_shape">Графічний</string>
-    <string name="power_settings_title">Задати</string>
+    <string name="power_settings_title">Налаштування</string>
     <string name="power_settings_top">Смуга в рядку стану</string>
     <string name="power_superpower_title_systemui_highpower">Час, що залишився</string>
     <string name="power_superpower_title_systemui_lowpower">Підключіть зарядний пристрій</string>
@@ -2546,10 +2633,18 @@
     <string name="settings">Налаштування трафіку</string>
     <string name="settings_battery_consume_abnormal_summary">Отримувати сповіщення, коли заряд батареї знижується занадто швидко</string>
     <string name="settings_battery_consume_abnormal_title">Сповіщення про зниження заряду батареї</string>
+    <string name="settings_camera_subtitle_no">Без метаданих</string>
     <string name="settings_category_other">Інші налаштування</string>
     <string name="settings_category_overheat">Нагрівання</string>
     <string name="settings_choice_no_notification">Вимкнено</string>
+    <string name="settings_image_camera_summary">Модель пристрою, метадані і т.д.</string>
+    <string name="settings_location_subtitle_no">Без інформації про місцезнаходження</string>
     <string name="settings_power_save_ontime_title">Розклад</string>
+    <string name="settings_share_enable_summary">"Об'єкти, якими ви ділитеся у WeChat, будуть з'являтися з міткою MIUI"</string>
+    <string name="settings_share_info">"Є доступні безпечні способи відправки об'єктів, які знаходяться у Галереї або Провіднику:"</string>
+    <string name="settings_show_detail">Переглянути деталі</string>
+    <string name="settings_tip">Перейдіть до Галереї > Налаштування, щоб переглянути більше опцій</string>
+    <string name="settings_title">Безпечне відправлення</string>
     <string name="shield_keyboard_detail">Кнопки можна увімкнути знову, натиснувши на них два рази</string>
     <string name="shield_keyboard_summary">Заборонити роботу кнопок та повноекранні жести під час ігор</string>
     <string name="shield_keyboard_title">Заборонити роботу кнопок та жести</string>
@@ -3009,6 +3104,8 @@
     <string name="text_button">Зрозуміло</string>
     <string name="text_cycle_day">%s</string>
     <string name="text_day" />
+    <string name="text_done">ОК</string>
+    <string name="text_security">Конфіденційність</string>
     <string name="thermal_tips_message">Гра в режимі прискорення процесора може призвести до проблем з перегріванням.</string>
     <string name="thermal_tips_title">Увага</string>
     <string name="third_application">Встановлені програми</string>
@@ -3235,6 +3332,9 @@ Rolled over extra data"</string>
     <string name="vb_advanced_settings_after_open">Після</string>
     <string name="vb_advanced_settings_before_open">До</string>
     <string name="vb_advanced_settings_pic_stronger_desc">"Робіть рухомі об'єкти чіткішими, покращивши анімацію. Ця функція вимагає більш високого енергоспоживання."</string>
+    <string name="vb_fps_settings">Автоматична частота оновлення</string>
+    <string name="vb_fps_settings_tips">Ця функція дозволяє регулювати частоту оновлення екрана відповідно до кадрової частоти відео для економії заряду і збільшення плавності відтворення. При увімкненні відображення спливаючих коментарів ця функція буде відключена.</string>
+    <string name="vb_quick_func_auto_bgm">Розпізнавання фонової музики</string>
     <string name="vb_quick_func_hangup_listening">Відтворювати звук відео, коли екран вимкнено</string>
     <string name="vb_quick_func_screen_capture">Скріншот</string>
     <string name="vb_quick_func_screen_record">Запис</string>
@@ -3246,9 +3346,19 @@ Rolled over extra data"</string>
     <string name="vb_video_effects_display_style">Стиль</string>
     <string name="vb_video_effects_setting_black_white">Ч/Б</string>
     <string name="vb_video_effects_setting_cinema">Кіно</string>
+    <string name="vb_video_effects_setting_girl">"Рум'янець"</string>
+    <string name="vb_video_effects_setting_gorgeous">Яскравість</string>
+    <string name="vb_video_effects_setting_green_orange">Помаранчевий</string>
+    <string name="vb_video_effects_setting_grim">Холод</string>
+    <string name="vb_video_effects_setting_hdr">HDR</string>
+    <string name="vb_video_effects_setting_knight">Метал</string>
+    <string name="vb_video_effects_setting_mecha">Робот</string>
+    <string name="vb_video_effects_setting_nostalgia">Ностальгія</string>
     <string name="vb_video_effects_setting_old_movie">Ретро</string>
     <string name="vb_video_effects_setting_outside">На вулиці</string>
     <string name="vb_video_effects_setting_raw">Оригінал</string>
+    <string name="vb_video_effects_setting_solar">Згасаючий</string>
+    <string name="vb_video_effects_setting_warmth">Тепло</string>
     <string name="vb_video_effects_settings_liquid">Чіткість</string>
     <string name="vb_video_effects_settings_stereo">Гучність</string>
     <string name="vb_video_effects_srs_premium_sound">Звук</string>

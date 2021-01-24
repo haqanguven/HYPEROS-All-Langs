@@ -45,6 +45,7 @@
     <string name="disageement_abnormal_download">Jeśli nie wyrazisz zgody na udzielanie takich uprawnień lub udostępnianie i przesyłanie swoich danych osobowych, nie będziesz mógł korzystać z tej usługi.</string>
     <string name="disagree">Nie zgadzam się</string>
     <string name="disagreement_abnormal_running">Jeśli nie wyrazisz zgody na udzielanie takich uprawnień lub udostępnianie i przesyłanie swoich danych osobowych, nie będziesz mógł korzystać z tej aplikacji. W takim przypadku możesz zrezygnować z używania tej aplikacji lub ograniczyć uprawnienia w Ustawieniach.</string>
+    <string name="disagreement_abnormal_running_fast_pairing">Jeśli nie zgadzasz się na udzielenie takich uprawnień, nie będziesz mógł korzystać z tej aplikacji. W takim przypadku możesz ograniczyć uprawnienia i wyłączyć tę funkcję w Ustawieniach.</string>
     <string name="disagreement_donnot_use_application">Jeśli nie wyrazisz zgody na udzielanie takich uprawnień lub udostępnianie i przesyłanie swoich danych osobowych, nie będziesz mógł korzystać z tej aplikacji. W takim przypadku możesz zrezygnować z używania tej aplikacji.</string>
     <string name="disagreement_donnot_use_product">Jeśli nie wyrazisz zgody na udzielanie takich uprawnień lub udostępnianie i przesyłanie swoich danych osobowych, nie będziesz mógł korzystać z tego produktu. W takim przypadku możesz zrezygnować z używania tego produktu.</string>
     <string name="disagreement_donnot_use_service">Jeśli nie wyrazisz zgody na udzielanie takich uprawnień lub udostępnianie i przesyłanie swoich danych osobowych, nie będziesz mógł korzystać z tej usługi. W takim przypadku możesz zrezygnować z używania tej usługi.</string>
@@ -58,12 +59,16 @@
     <string name="enable_accessibility_dialog_negative_btn">Anuluj</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>
     <string name="fast_application_introduction">Platforma Quick apps pozwala na tworzenie i świadczenie usług w szybkich aplikacjach.</string>
+    <string name="fast_pairing_introduction">Mi Link pozwala urządzeniu łączyć się z urządzeniami Bluetooth w pobliżu za pomocą usługi MIUI Bluetooth. Aby znaleźć urządzenia w pobliżu, zezwól usłudze MIUI Bluetooth na łączenie się z internetem.</string>
     <string name="font_hint_large">Domyślny rozmiar tekstu</string>
     <string name="font_hint_normal">Zwiększ rozmiar tekstu</string>
     <string name="framework_introduction">Platforma Usług Mi pozwala na używanie konta Xiaomi, Mi Push, Mi Statystyk i MIUI BI.</string>
     <string name="framwork_base_service">Aby zapewnić Ci te usługi, platforma Usługi Mi (konto Xiaomi, Mi Push, Mi Statystyki, MIUI BI) musi połączyć się z Internetem, uzyskać dostęp do Twojej lokalizacji, numeru telefonu, IMEI i IMSI oraz zezwolić urządzeniu na otrzymywanie powiadomień push</string>
     <string name="game_introduction">Wtyczka do gier umożliwia logowanie się, tworzenie zamówień, dokonywanie płatności, korzystanie z kuponów oraz udział w wydarzeniach promocyjnych.</string>
     <string name="google_service_introduction">Aby móc normalnie pracować, Google Play musi połączyć się z internetem, uzyskać dostęp do lokalizacji, być w stanie nagrywać dźwięk, nawiązywać połączenia, uzyskiwać dostęp do wydarzeń w kalendarzu, historii połączeń, czujników, pamięci masowej, kamery, informacji o urządzeniu i kontach.</string>
+    <string name="home_settings_miui_home">Klasyczny</string>
+    <string name="home_settings_poco_launcher">Szuflada aplikacji</string>
+    <string name="home_settings_title">Wybierz domyślą aplikację</string>
     <string name="ime_privacy_policy">Polityka prywatności dla wybranej klawiatury</string>
     <string name="ime_privacy_policy_no_network">Nie można połączyć z siecią. Wyświetl Politykę prywatności z %s.</string>
     <string name="input_method_category">Wybierz domyślną klawiaturę, której będziesz używać do pisania wiadomości, notatek i w każdym innymi miejscu. Później możesz też zainstalować inne klawiatury.</string>
@@ -101,8 +106,9 @@
     <string name="next_fingerprint">Dalej</string>
     <string name="note_introduction">Ta aplikacja umożliwia tworzenie, przeglądanie i edytowanie notatek.</string>
     <string name="other_settings">Dodatkowe ustawienia</string>
-    <string name="other_settings_ad_dialog_content">"Po wyłączeniu tej funkcji, nie będziesz już otrzymywać spersonalizowanych reklam. Jednak nadal będziesz otrzymywać reklamy, które nie mają znaczenia dla Twoich zainteresowań. Możesz dowiedzieć się więcej o spersonalizowanych reklamach w Polityce Prywatności Xiaomi.
-Wyłączyć spersonalizowane reklamy?"</string>
+    <string name="other_settings_ad_dialog_agree">Włącz</string>
+    <string name="other_settings_ad_dialog_content">Gdy spersonalizowane rekomendacje reklam są wyłączone, nadal będziesz widzieć taką samą liczbę reklam, jak wtedy, gdy funkcja jest włączona. Reklamy nie będą jednak już trafne, ponieważ nie będą oparte na Twoich osobistych preferencjach.</string>
+    <string name="other_settings_ad_dialog_disagree">Wyłącz</string>
     <string name="other_settings_ad_disable_summary">Włącz, aby personalizować reklamy</string>
     <string name="other_settings_ad_enable">Spersonalizowane reklamy</string>
     <string name="other_settings_ad_enable_summary">Personalizuj reklamy w oparciu o Twoje zainteresowania</string>
@@ -229,7 +235,7 @@ Zobacz Politykę prywatności dla wybranej klawiatury."</string>
     <string name="terms_of_use_ble_htmlViewer">, Dostawca usługi Fused Location, HTML Viewer</string>
     <string name="terms_of_use_label">"Przeczytaj naszą Umowę użytkownika i Politykę prywatności, aby zrozumieć, jakie informacje zbieramy, w jaki sposób je wykorzystujemy oraz jakie opcje są dla Ciebie dostępne.
 Musisz zaakceptować naszą Umowę użytkownika i Politykę prywatności, zanim będzie mógł korzystać z MIUI.
-%si komponenty konta Xiaomi połączą się z internetem i uzyskają Twoją lokalizację."</string>
+%s i komponenty konta Xiaomi połączą się z internetem i uzyskają Twoją lokalizację."</string>
     <string name="terms_of_use_label_Mistore">, Wtyczka systemu Sklep Mi</string>
     <string name="terms_of_use_label_mab">, MAB</string>
     <string name="terms_of_use_label_package">, Instalator pakietów</string>
@@ -253,13 +259,22 @@ Musisz zaakceptować Politykę prywatności Mint Keyboard, aby móc korzystać z
     <string name="terms_privacy_policy_input_method_kika">Polityka prywatności Kika</string>
     <string name="title_fingerprint">Ustaw hasło</string>
     <string name="user_agreement">Umowa użytkownika</string>
-    <string name="user_agreement_declare">Przed użyciem MIUI musisz przeczytać i zaakceptować naszą Umowę użytkownika i Politykę prywatności. Podczas aktywacji urządzenia, usługa aktywacji Mi SIM, Chmura Xiaomi, Znajdź urządzenie, Ekran główny, Często używane zwroty, Tłumaczenia, MIUI Daemon, HTML Viewer, Asystent SI Bateria i wydajność, Czujnik zasilania, Joyose, Ustawienia OS SI, Menedżer Uprawnień i Aktualizator, połączą się z siecią. Inteligentne usługi połączą się z siecią i uzyskają dostęp do Twojej lokalizacji.</string>
+    <string name="user_agreement_declare">Przed użyciem MIUI musisz przeczytać i zaakceptować naszą Umowę użytkownika i Politykę prywatności. Podczas aktywacji urządzenia, usługa aktywacji Mi SIM, Chmura Xiaomi, Znajdź urządzenie, Ekran główny, Często używane zwroty, Tłumaczenia, MIUI Daemon, HTML Viewer, MIUI SDK, Asystent SI Bateria i wydajność, Czujnik zasilania, Joyose, Ustawienia OS SI, Menedżer Uprawnień i Aktualizator, połączą się z siecią. Inteligentne usługi połączą się z siecią i uzyskają dostęp do Twojej lokalizacji.</string>
     <string name="voice_assist_advice">Mi SI pozwala na używanie głosu, ale ta opcja zużywa więcej energii (+1% dla każdej godziny).</string>
     <string name="voice_assist_condition">"Będziesz mógł używać Mi SI w przypadku kiedy r
 1. Ekran jest włączony. r
 2. Ekran jest wyłączony podczas słuchania muzyki."</string>
     <string name="voice_assist_desp">Powiedz \"Mi AI\" do swojego telefonu. SI Mi rozpozna twój głos i będziesz w stanie kontrolować swoje urządzenie.</string>
     <string name="voice_assist_title">Wybudź za pomocą głosu</string>
+    <string name="wc_dialog_agree">Zgadzam się</string>
+    <string name="wc_dialog_reject">Nie zgadzam się</string>
+    <string name="wc_dialog_summary">Dzięki funkcji Codzienne tapety otrzymujesz wspaniałe obrazy i ekscytujące historie na swoim ekranie blokady.</string>
+    <string name="wc_dialog_title">Zmieniony Ekran blokady</string>
+    <string name="wc_double_check_agree">Wypróbuj</string>
+    <string name="wc_double_check_reject">Nie, dziękuję</string>
+    <string name="wc_double_check_summary">Możesz włączyć Codzienne tapety, aby sprawdzić jak one działają. Pamiętaj, że zawsze możesz włączać i wyłączać Codzienne tapety w Ustawieniach > Ekran blokady.</string>
+    <string name="wc_double_check_title">Wypróbuj Codzienne tapety</string>
+    <string name="wc_notice_link_announcement_summary">Przeczytaj i zaakceptuj &lt;a href=\"%1$s\">Politykę prywatności&lt;/a> i &lt;a href=\"%2$s\">Umowę użytkownika&lt;/a> zewnętrznego dostawcy, przed skorzystaniem z tej usługi.</string>
     <string name="welcome">Witaj</string>
     <string name="zone_picker_title">Wybierz strefę czasową</string>
 </resources>

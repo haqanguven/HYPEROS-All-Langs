@@ -186,6 +186,12 @@
     <plurals name="photo_remain_hours">
         <item quantity="other">%d giờ</item>
     </plurals>
+    <plurals name="pic_to_pdf_filter_count">
+        <item quantity="other">Đã lọc %d mục không được hỗ trợ</item>
+    </plurals>
+    <plurals name="pic_to_pdf_support_max_count">
+        <item quantity="other">Tập tin PDF có thể chứa đến %d ảnh</item>
+    </plurals>
     <plurals name="picker_all_image_need_download">
         <item quantity="other">Ảnh đã chọn không nằm trên thiết bị. Tải xuống thông qua dữ liệu di động?</item>
     </plurals>
@@ -193,7 +199,7 @@
         <item quantity="other">Ảnh đã chọn không nằm trên thiết bị. Các ảnh sẽ được tải xuống.</item>
     </plurals>
     <plurals name="picker_all_origin_need_download">
-        <item quantity="other">Ảnh đã chọn (%dMB) không nằm trên thiết bị. Tải xuống bằng dữ liệu di động?</item>
+        <item quantity="other">Ảnh đã chọn (%d MB) không nằm trên thiết bị. Tải xuống bằng dữ liệu di động?</item>
     </plurals>
     <plurals name="picker_cancel_confirm_message">
         <item quantity="other">%d tập tin chưa được tải xuống. Vẫn hủy?</item>
@@ -202,19 +208,19 @@
         <item quantity="other">Đang tải xuống %d tập tin còn lại</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">Không thể tải xuống %1$d ảnh, kết nối với mạng và thử lại</item>
+        <item quantity="other">Không thể tải xuống %1$d ảnh, hãy kết nối mạng và thử lại</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
-        <item quantity="other">Không thể tải xuống %1$d tập tin (%2$dMB). Kết nối mạng và thử lại.</item>
+        <item quantity="other">Không thể tải xuống %1$d tập tin (%2$d MB). Kết nối mạng và thử lại.</item>
     </plurals>
     <plurals name="picker_origin_need_to_download">
-        <item quantity="other">%1$d tập tin (%2$dMB) chưa được tải xuống. Tải xuống bằng dữ liệu di động?</item>
+        <item quantity="other">%1$d tập tin (%2$d MB) chưa được tải xuống. Tải xuống bằng dữ liệu di động?</item>
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
-        <item quantity="other">Không thể tải xuống %1$d ảnh, thử lại?</item>
+        <item quantity="other">Không thể tải xuống %1$d ảnh, hãy thử lại?</item>
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
-        <item quantity="other">Không thể tải xuống %1$d ảnh (%2$dMB), thử lại?</item>
+        <item quantity="other">Không thể tải xuống %1$d ảnh (%2$d MB), thử lại?</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">Đã bỏ qua %d ảnh không nằm trên thiết bị.</item>
@@ -240,8 +246,80 @@
     <plurals name="search_feedback_done_mark_false_positive">
         <item quantity="other">Đã xóa %1$d ảnh từ \"%2$s\".</item>
     </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">%2$d gói cài đặt (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d gói cài đặt (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d gói cài đặt (%3$s) từ %1$s…</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%2$d tập tin âm thanh (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d tập tin âm thanh (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d tập tin âm thanh (%3$s) từ %1$s…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%2$d %3$s tập tin (%4$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d %3$s tập tin (%4$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d %3$s tập tin (%4$s) từ %1$s…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%2$d ảnh từ %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d ảnh từ %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d ảnh từ %1$s…</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%2$d ảnh và video %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d ảnh và video từ %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d ảnh và video từ %1$s…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%2$d tập tin từ %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d tập tin từ %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d tập tin từ %1$s…</item>
+    </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Không thể chia sẻ. Tiếp tục xử lý %d ảnh…</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%2$d video từ %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d video từ %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d video từ %1$s…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%2$d tập tin nén (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d tập tin nén (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d tập tin nén (%3$s) từ %1$s…</item>
     </plurals>
     <plurals name="slideshow_interval_value">
         <item quantity="other">%1$d giây</item>

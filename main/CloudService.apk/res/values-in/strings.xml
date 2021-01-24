@@ -48,6 +48,7 @@
     <string name="cloud_find_device_off">Mati</string>
     <string name="cloud_find_device_on">Hidup</string>
     <string name="cloud_lab_title">Lab</string>
+    <string name="cloud_space_full_gallery_notification_content_text">Tingkatkan paket Anda untuk mendapatkan lebih banyak ruang penyimpanan</string>
     <string name="cloud_storage_already_full">Penyimpanan cloud penuh: %1$s/%2$s</string>
     <string name="cloud_storage_already_used">Terisi: %1$s/%2$s</string>
     <string name="cloud_storage_default_title">Penyimpanan cloud</string>
@@ -67,6 +68,8 @@
     <string name="connect_wlan">Hubungkan ke Wi-Fi</string>
     <string name="connect_wlan_china">Connect to WLAN</string>
     <string name="copy">Salin</string>
+    <string name="cta_notification_content_text">Izinkan %s untuk terhubung ke internet agar dapat memulihkan item</string>
+    <string name="cta_notification_content_title">Tidak dapat memulihkan item dari %s</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_more_than_two">Akun ini juga digunakan di perangkat lain. Gabungkan item dari beberapa aplikasi (termasuk %1$s dan %2$s) dengan item di perangkat ini?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_one">Akun ini juga digunakan di perangkat lainnya. Gabungkan item dari %s dengan item di perangkat ini?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_two">Akun ini juga digunakan di perangkat lainnya. Gabungkan item dari %1$s dan %2$s dengan item di perangkat ini?</string>
@@ -118,6 +121,7 @@
     <string name="ks_fingerprint_status">Status pembayaran</string>
     <string name="ks_name_alipay">IFAA</string>
     <string name="ks_name_fido">FIDO</string>
+    <string name="ks_name_passpoint">Wi-Fi Passpoint</string>
     <string name="ks_name_soter">Soter</string>
     <string name="ks_name_widevine">Widevine (L1)</string>
     <string name="ks_status_available">Tersedia</string>
@@ -167,11 +171,6 @@
     <string name="micloud_battery_low_notification_message">Isi daya untuk sinkron</string>
     <string name="micloud_battery_low_notification_title">Baterai lemah</string>
     <string name="micloud_buy_member_safe">Dapatkan ekstra ruang cloud</string>
-    <string name="micloud_check_sim_notify_text">"Sepertinya Anda berganti kartu SIM. Masuk ke
-Akun Mi untuk aktivasi ulang Xiaomi Cloud."</string>
-    <string name="micloud_check_sim_notify_title">Aktivasi ulang Xiaomi Cloud</string>
-    <string name="micloud_check_sim_title">"Sepertinya Anda berganti kartu SIM. Masuk ke
-Akun Mi untuk aktivasi ulang Xiaomi Cloud."</string>
     <string name="micloud_confusion_account_hint">Perubahan yang Anda buat di perangkat ini akan disinkron ke seluruh perangkat Anda. Untuk melindungi akun, kami menyarankan Anda untuk mematikan sinkron dengan perangkat lain saat Anda tidak menggunakannya.</string>
     <string name="micloud_confusion_account_name">Akun:</string>
     <string name="micloud_confusion_account_notify_text">Perangkat lain sedang mengubah Akun Mi Anda. Verifikasi akun sekarang.</string>
@@ -210,7 +209,7 @@ Mencari dan mengunci perangkat Anda jika hilang."</string>
     <string name="micloud_dspt_provision_china">Use Xiaomi Cloud to sync data, locate your device, and share things with friends.</string>
     <string name="micloud_dspt_provision_xms">Gunakan Xiaomi Cloud untuk sinkron data.</string>
     <string name="micloud_dspt_provision_xms_china">Use Xiaomi Cloud to sync data.</string>
-    <string name="micloud_find_device_close_alert_content">Jika Anda mematikan Cari perangkat, Anda tidak akan dapat mencari lokasi telepon Anda menggunakan fitur ini. Jika telepon Anda mendukung fungsi NFC, semua kartu bank dan kartu kunci akan dihapus dari Mi Pay.</string>
+    <string name="micloud_find_device_close_alert_content">"If you turn off Find device, you won't be able to locate your device using this feature. If your device supports NFC, all your bank cards and keycards will be deleted from Mi Pay. People with whom you share location won't be able to receive updates on your whereabouts as well."</string>
     <string name="micloud_find_device_close_alert_negtive">Tetap matikan</string>
     <string name="micloud_find_device_close_alert_positive">Selalu hidup</string>
     <string name="micloud_find_device_close_alert_title">Matikan Cari perangkat?</string>
@@ -290,6 +289,11 @@ Mencari dan mengunci perangkat Anda jika hilang."</string>
     <string name="micloud_manual_pausing">Sinkron dijeda</string>
     <string name="micloud_manual_pending">Dijeda…</string>
     <string name="micloud_manual_reactivate">Aktivasi ulang</string>
+    <string name="micloud_manual_request_permission_cancel">Batal</string>
+    <string name="micloud_manual_request_permission_confirm">Setelan</string>
+    <string name="micloud_manual_request_permission_content">Untuk dapat menggunakan layanan kami, berikan kepada Xiaomi Cloud perizinan berikut ini di Setelan: \"%s\".</string>
+    <string name="micloud_manual_request_permission_content_on_provision">Berikan izin yang dibutuhkan di Setelan terlebih dahulu</string>
+    <string name="micloud_manual_request_permission_title">Butuh perizinan</string>
     <string name="micloud_manual_sync_all">Sinkron semua item</string>
     <string name="micloud_manual_sync_now">Sinkron</string>
     <string name="micloud_manual_sync_now_retry">Coba lagi</string>
@@ -331,7 +335,7 @@ Mencari dan mengunci perangkat Anda jika hilang."</string>
     <string name="micloud_privacy_warning_title">Perhatian</string>
     <string name="micloud_proceed">Lanjutkan</string>
     <string name="micloud_request_permission_confirm">Mengerti</string>
-    <string name="micloud_request_permission_content">Xiaomi Cloud butuh perizinan untuk sinkron data. Izinkan Xiaomi Cloud akses Kalender, Kontak, Akun Mi, status kartu SIM, riwayat panggilan, dan pesan.</string>
+    <string name="micloud_request_permission_content">Untuk dapat menyinkronkan acara kalender, kontak, pesan, riwayat panggilan, foto, video, dan hal lainnya, Xiaomi Cloud perlu izin untuk mengakses kalender, kontak, akun, status SIM, riwayat panggilan, pesan, foto, dan video Anda.</string>
     <string name="micloud_request_permission_title">Xiaomi Cloud butuh perizinan</string>
     <string name="micloud_request_sync_too_frequent">Terlalu banyak permintaan. Tunggu sebentar dan coba lagi.</string>
     <string name="micloud_setting_antispam_summary">Nomor telepon pengecualian dan yang terblokir</string>
@@ -394,6 +398,15 @@ Mencari dan mengunci perangkat Anda jika hilang."</string>
     <string name="micloud_wipe_data_confirm_title">Beberapa item dari aplikasi berikut disinkronkan dengan Xiaomi Cloud. Anda dapat menghapusnya dari perangkat ini, namun tetap menyimpannya di cloud.</string>
     <string name="micloud_wipe_data_remove">Hapus</string>
     <string name="micloud_wipe_data_retain">Simpan</string>
+    <string name="midrive_guide1_desc">Cadangkan item ke cloud untuk membebaskan ruang penyimpanan di perangkat.</string>
+    <string name="midrive_guide1_title">Pencadangan yang aman</string>
+    <string name="midrive_guide2_desc">Mengnduh item dengan kecepatan sangat tinggi.</string>
+    <string name="midrive_guide2_title">Pengunduhan cepat</string>
+    <string name="midrive_guide3_desc">Gunakan Mi Drive di perangkat seluler, komputer, dan browser.</string>
+    <string name="midrive_guide3_title">Bekerja di mana saja</string>
+    <string name="midrive_guide_btn_install">Instal Mi Drive</string>
+    <string name="midrive_guide_btn_installed">Buka Mi Drive</string>
+    <string name="midrive_guide_btn_installing">Menginstal…</string>
     <string name="mx_dspt">Mi Pesan</string>
     <string name="mx_dspt_provision">"Mi Pesan memungkinkan Anda untuk kirim pesan ke perangkat MIUI lain tanpa dikenai biaya saat terhubung ke Wi-Fi.
 
@@ -415,7 +428,7 @@ Fitur ini mengenkripsi dan mengirimkan identitas perangkat Anda ke server Mi."</
     <string name="no_sim">Tidak dapat menemukan kartu SIM</string>
     <string name="not_set">Belum disetel</string>
     <string name="pay_info_dialog_confirm_to_pay">Bayar %s</string>
-    <string name="pay_info_dialog_mibi_balance_prefix">Gunakan sisa Mi Kredit: %s</string>
+    <string name="pay_info_dialog_mibi_balance_prefix">Gunakan sisa Mi Koin: %s</string>
     <string name="pay_info_dialog_title">Pilih metode pembayaran</string>
     <string name="phone_number_required_dspt_provision">"Layanan ini membutuhkan no. telepon Anda. "</string>
     <string name="picker_list_empty">Tidak ada kontak di sini</string>
@@ -435,6 +448,7 @@ Fitur ini mengenkripsi dan mengirimkan identitas perangkat Anda ke server Mi."</
     <string name="privacy_dialog_sync_all_purpose_china">Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, songs, photos and videos, WLAN settings, recordings, Home screen layout, apps, calendar events, Blocklist items, and App vault across all connected devices.</string>
     <string name="privacy_doc_cloudservice">Selamat datang di layanan Xiaomi Cloud! Anda dapat menggunakannya untuk sinkron pesan, riwayat panggilan, kontak, catatan, setelan Browser, lagu, foto dan video, setelan Wi-Fi, rekaman, tata letak Layar utama, aplikasi, acara kalender, item Daftar blokir, dan App vault antar beragam perangkat yang terhubung. Akses item yang Anda sinkron pada browser mana saja di &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Sebuah pesan SMS keluar akan dibutuhkan untuk mengaktivasi layanan ini. Operator Anda akan mengenakan biaya untuk pesan ini. Saat Anda mengganti kartu SIM Anda, sebuah pesan akan dikirimkan untuk mengaktivasi ulang layanan ini.&lt;br />&lt;br />Kami akan melindungi informasi pribadi Anda sesuai dengan hukum, peraturan, dan kebijakan privasi yang relevan.&lt;br />Untuk dapat bekerja dengan normal, layanan ini harus terhubung ke internet dan butuh perizinan di bawah ini agar dapat memperolah informasi pribadi Anda:&lt;br />• Kalender:&lt;br />Untuk menyinkron acara:&lt;br />• Akses ke SMS:&lt;br />Untuk menyinkron pesan&lt;br />• Akses ke MMS:&lt;br />Untuk menyinkron pesan&lt;br />• Akses ke kontak:&lt;br />Untuk menyinkron kontak&lt;br />• Ubah kontak:&lt;br />Untuk menyinkron kontak&lt;br />• Penyimpanan:&lt;br />Untuk menyimpan item di perangkat Anda (contoh: gambar, video, lagu)&lt;br />Jika Anda tidak setuju untuk memberikan izin tersebut atau membagikan dan mengunggah informasi pribadi Anda, Anda tidak akan dapat menggunakan layanan ini. Anda dapat memilih untuk tidak menggunakan aplikasi ini, keluar, atau membatasi izin pada Setelan dalam kasus seperti itu.&lt;br />Anda harus membaca dan menyetujui &lt;a href=%1$s>&lt;u>Perjanjian Pengguna&lt;/u>&lt;/a> dan &lt;a href=%2$s>&lt;u>Kebijakan Privasi&lt;/u>&lt;/a> kami sebelum menggunakan Xiaomi Cloud.&lt;br /></string>
     <string name="privacy_doc_cloudservice_china">"Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, songs, photos and videos, WLAN settings, recordings, Home screen layout, apps, calendar events, Blocklist items, and App vault across all connected devices. Access the things you sync from any browser at &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />An outgoing SMS message may be required to activate these services. Your carrier will charge you for this message. When you switch your SIM card, a message may be sent automatically to reactivate these services.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Calendar:&lt;br />For syncing events&lt;br />• Accessing SMS:&lt;br />For syncing messages&lt;br />• Accessing MMS:&lt;br />For syncing messages&lt;br />• Accessing contacts:&lt;br />For syncing contacts&lt;br />• Editing contacts:&lt;br />For syncing contacts&lt;br />• Storage:&lt;br />For saving items on your device (e.g. images, videos, songs)&lt;br />If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.&lt;br />Read and agree to our &lt;a href=%1$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%2$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using Xiaomi Cloud.&lt;br />"</string>
+    <string name="privacy_doc_cloudservice_global">Xiaomi Cloud butuh terhubung ke internet untuk dapat bekerja dengan normal. Penyinkronan data membutuhkan penggunaan data seluler atau menghidupkan Wi-Fi. Baca dan setujui &lt;a href=%1$s>&lt;u>Perjanjian Pengguna&lt;/u>&lt;/a> dan &lt;a href=%2$s>&lt;u>Kebijakan Privasi&lt;/u>&lt;/a> kami sebelum menggunakan layanan Xiaomi Cloud.</string>
     <string name="privacy_doc_finddevice_pad">Selamat datang di Cari perangkat! Anda dapat menggunakan layanan ini untuk mencari lokasi perangkat, mengunci, atau menghapus data pada perangkat Anda jika hilang. Anda dapat pergi ke &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> untuk mencari lokasi, kunci, atau setel ulang.&lt;br />&lt;br />Kami akan melindungi informasi pribadi Anda sesuai dengan hukum, peraturan, dan kebijakan privasi yang relevan.&lt;br />Untuk dapat bekerja dengan normal, layanan ini harus terhubung ke internet dan butuh perizinan di bawah ini agar dapat memperolah informasi pribadi Anda:&lt;br />• Mengakses info perangkat:&lt;br />Untuk mengidentifikasi perangkat&lt;br />• Lokasi:&lt;br />Untuk mencari lokasi perangkat dan beralih ke mode hilang&lt;br />Jika Anda tidak setuju untuk memberikan izin tersebut atau membagikan dan mengunggah informasi pribadi Anda, Anda tidak akan dapat menggunakan layanan ini. Anda dapat memilih untuk tidak menggunakan aplikasi ini, keluar, atau membatasi izin pada Setelan dalam kasus seperti itu.&lt;br />Anda harus membaca dan menyetujui &lt;a href=%1$s>&lt;u>Perjanjian Pengguna&lt;/u>&lt;/a> dan &lt;a href=%2$s>&lt;u>Kebijakan Privasi&lt;/u>&lt;/a> kami sebelum menggunakan Cari perangkat.&lt;br /></string>
     <string name="privacy_doc_finddevice_phone">Selamat datang di Cari perangkat! Anda dapat menggunakan layanan ini untuk mencari lokasi perangkat, mengunci, atau menghapus data pada perangkat Anda jika hilang. Anda dapat pergi ke &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> untuk mencari lokasi, kunci, atau setel ulang.&lt;br />&lt;br />Kami akan melindungi informasi pribadi Anda sesuai dengan hukum, peraturan, dan kebijakan privasi yang relevan.&lt;br />Untuk dapat bekerja dengan normal, layanan ini harus terhubung ke internet dan butuh perizinan di bawah ini agar dapat memperolah informasi pribadi Anda:&lt;br />• Mengakses info perangkat:&lt;br />Untuk mengidentifikasi perangkat&lt;br />• Lokasi:&lt;br />Untuk mencari lokasi perangkat dan beralih ke mode hilang&lt;br />Jika Anda tidak setuju untuk memberikan izin tersebut atau membagikan dan mengunggah informasi pribadi Anda, Anda tidak akan dapat menggunakan layanan ini. Anda dapat memilih untuk tidak menggunakan aplikasi ini, keluar, atau membatasi izin pada Setelan dalam kasus seperti itu.&lt;br />Anda harus membaca dan menyetujui &lt;a href=%1$s>&lt;u>Perjanjian Pengguna&lt;/u>&lt;/a> dan &lt;a href=%2$s>&lt;u>Kebijakan Privasi&lt;/u>&lt;/a> kami sebelum menggunakan Cari perangkat.&lt;br /></string>
     <string name="privacy_doc_finddevice_with_telephony_feature_pad">Selamat datang di Cari perangkat! Anda dapat menggunakan layanan ini untuk mencari lokasi perangkat, mengunci, atau menghapus data pada perangkat Anda jika hilang. Anda dapat pergi ke &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> untuk mencari lokasi, kunci, atau setel ulang.&lt;br />&lt;br />Sebuah pesan SMS keluar akan dibutuhkan untuk mengaktivasi layanan ini. Operator Anda akan mengenakan biaya untuk pesan ini. Saat Anda mengganti kartu SIM Anda, sebuah pesan akan otomatis dikirimkan untuk mengaktivasi ulang layanan ini.&lt;br />&lt;br />Kami akan melindungi informasi pribadi Anda sesuai dengan hukum, peraturan, dan kebijakan privasi yang relevan.&lt;br />Untuk dapat bekerja dengan normal, layanan ini harus terhubung ke internet dan butuh perizinan di bawah ini agar dapat memperolah informasi pribadi Anda:&lt;br />• Mengakses info perangkat:&lt;br />Untuk mengidentifikasi perangkat&lt;br />• Lokasi:&lt;br />Untuk mencari lokasi perangkat dan beralih ke mode hilang&lt;br />Jika Anda tidak setuju untuk memberikan izin tersebut atau membagikan dan mengunggah informasi pribadi Anda, Anda tidak akan dapat menggunakan layanan ini. Anda dapat memilih untuk tidak menggunakan aplikasi ini, keluar, atau membatasi izin pada Setelan dalam kasus seperti itu.&lt;br />Anda harus membaca dan menyetujui &lt;a href=%1$s>&lt;u>Perjanjian Pengguna&lt;/u>&lt;/a> dan &lt;a href=%2$s>&lt;u>Kebijakan Privasi&lt;/u>&lt;/a> kami sebelum menggunakan Cari perangkat.&lt;br /></string>
@@ -459,9 +473,12 @@ Fitur ini mengenkripsi dan mengirimkan identitas perangkat Anda ke server Mi."</
     <string name="special_func_title">Fitur spesial</string>
     <string name="starred_contact">Favorit</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_manage_cloud_data_title">Lihat item di cloud</string>
     <string name="storage_manage_expansion">Dapatkan ruang</string>
+    <string name="storage_manage_full_summary">Penyimpanan cloud penuh. Tingkatkan paket Anda.</string>
     <string name="storage_manage_list_title">Data cloud</string>
     <string name="storage_manage_list_title_action">Lihat lainnya</string>
+    <string name="storage_manage_normal_summary">Ganti paket penyimpanan cloud</string>
     <string name="storage_manage_renewal">Perpanjang</string>
     <string name="storage_manage_title">Ganti paket penyimpanan cloud</string>
     <string name="storage_manage_upgrade">Tingkatkan</string>

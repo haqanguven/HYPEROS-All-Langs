@@ -37,18 +37,32 @@
     <string name="back_up_task_in_process">Резервирование…</string>
     <string name="back_up_task_unfinished">Резервирование не удалось</string>
     <string name="backing_up_to_micloud">Резервирование…</string>
-    <string name="backup_failed_reason_cloud_space_not_enough">В Xiaomi Cloud недостаточно места. Повысьте свой тариф или освободите память.</string>
+    <string name="backup_action_buy_cloud_space">Получите больше места в хранилище</string>
+    <string name="backup_action_check_network">Проверьте настройки сети</string>
+    <string name="backup_action_clean_disk_space">Освободить место</string>
+    <string name="backup_action_retry_now">Повторить</string>
+    <string name="backup_failed_reason_cloud_space_not_enough">Недостаточно места для создания резервной копии в облаке. Измените план подписки или освободите место в облаке.</string>
     <string name="backup_failed_reason_disk_space_not_enough">Недостаточно места. Освободите память.</string>
-    <string name="backup_failed_reason_network_error">Ошибка сети. Подождите немного и повторите попытку.</string>
+    <string name="backup_failed_reason_network_error">Проверьте настройки сети и повторите попытку</string>
     <string name="backup_finished_notification_content">Резервирование завершено</string>
     <string name="backup_now">Начать</string>
     <string name="backup_progress_percent_unit">%</string>
+    <string name="backup_remind_buy_cloud_space">Измените план подписки</string>
+    <string name="backup_remind_clean_disk_space">Освободите место в хранилище</string>
+    <string name="backup_remind_cloud_space_cost">Размер копии: %s</string>
     <string name="backup_size">Размер: %s</string>
     <string name="backup_stopped_msg">Текущая резервная копия перезапишет предыдущую. Нажмите для просмотра.</string>
     <string name="backup_stopped_title">Резервирование остановлено</string>
     <string name="backup_success">Резервирование завершено</string>
     <string name="backup_successfully">Резервирование завершено</string>
     <string name="backup_to_cloud">Резервировать приложение</string>
+    <string name="backup_warning_reason_cloud_space_not_enough">Не удалось создать резервную копию</string>
+    <string name="backup_warning_reason_disk_space_not_enough">"Недостаточно места
+Не удалось создать резервную копию"</string>
+    <string name="backup_warning_reason_network_error">"Ошибка сети
+Не удалось создать резервную копию"</string>
+    <string name="backup_warning_reason_no_server_response">"Соединение прервано
+Повторите попытку"</string>
     <string name="btn_back">Назад</string>
     <string name="btn_continue">Продолжить</string>
     <string name="btn_restore_abort">Прервать</string>
@@ -94,7 +108,7 @@
 *  MIUI and system settings 
 Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Расписание резервирования</string>
-    <string name="cloud_back_up_frequence_long">Каждые 7 дней</string>
+    <string name="cloud_back_up_frequence_long">Каждые %d дней</string>
     <string name="cloud_back_up_frequence_short">Каждый день</string>
     <string name="cloud_back_up_ok_btn">OK</string>
     <string name="cloud_back_up_opening">Секунду…</string>
@@ -105,6 +119,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup">Облачное резервирование</string>
     <string name="cloud_backup_derail_size_summary">Размер: %s</string>
     <string name="cloud_backup_detail_frequence">Расписание резервирования</string>
+    <string name="cloud_backup_detail_frequence_every_7_day">Создавать копию каждые %d дней</string>
+    <string name="cloud_backup_detail_frequence_every_day">Создавать копию каждый день</string>
     <string name="cloud_backup_detail_manage">Управление резервными копиями</string>
     <string name="cloud_backup_detail_state">Авторезервирование</string>
     <string name="cloud_backup_detail_state_summary">Создавать резервные копии автоматически при подключении к Wi-Fi</string>
@@ -154,7 +170,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="download_home_data">Загрузка данных рабочего стола…</string>
     <string name="download_meta_again">Не удалось загрузить, повторите попытку</string>
     <string name="download_meta_failed">Не удалось загрузить данные</string>
-    <string name="download_settings">Загрузка настроек рабочего стола: %s%%</string>
+    <string name="download_settings">Загрузка настроек рабочего стола: %s %%</string>
     <string name="download_settings_fail">Не удалось загрузить настройки рабочего стола</string>
     <string name="error_num_placeholder">--</string>
     <string name="error_retry_later">Действие не выполнено. Подождите немного и повторите попытку…</string>
@@ -169,7 +185,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="lack_of_storage">Недостаточно места</string>
     <string name="latest_backup_time_loading">Загрузка…</string>
     <string name="load_backup_failed">Ошибка загрузки копий</string>
-    <string name="loading_progress_num">Загружено%s%%</string>
+    <string name="loading_progress_num">Загружено%s %%</string>
     <string name="loading_user_backup">Загрузка резервных копий…</string>
     <string name="managespace_delete_backup">Удалить</string>
     <string name="menu_item_managespace">Управление памятью</string>

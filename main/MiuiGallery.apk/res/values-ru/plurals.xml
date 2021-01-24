@@ -372,6 +372,18 @@
         <item quantity="few">%d ч</item>
         <item quantity="many">%d ч</item>
     </plurals>
+    <plurals name="pic_to_pdf_filter_count">
+        <item quantity="other">Отсортировано %d неподдерживаемых объектов</item>
+        <item quantity="one">Отсортирован %d неподдерживаемый объект</item>
+        <item quantity="few">Отсортировано %d неподдерживаемых объекта</item>
+        <item quantity="many">Отсортировано %d неподдерживаемых объектов</item>
+    </plurals>
+    <plurals name="pic_to_pdf_support_max_count">
+        <item quantity="other">PDF-файлы могут содержать не более %d изображений</item>
+        <item quantity="one">PDF-файлы могут содержать не более %d изображения</item>
+        <item quantity="few">PDF-файлы могут содержать не более %d изображений</item>
+        <item quantity="many">PDF-файлы могут содержать не более %d изображений</item>
+    </plurals>
     <plurals name="picker_all_image_need_download">
         <item quantity="other">Выбранных фото нет на устройстве. Загрузить через мобильный интернет?</item>
         <item quantity="one">Выбранных фото нет на устройстве. Загрузить через мобильный интернет?</item>
@@ -403,10 +415,10 @@
         <item quantity="many">Осталось загрузить %d файлов</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">Не удалось загрузить %1$d фото, подключитесь к сети и повторите попытку</item>
-        <item quantity="one">Не удалось загрузить %1$d фото, подключитесь к сети и повторите попытку</item>
-        <item quantity="few">Не удалось загрузить %1$d фото, подключитесь к сети и повторите попытку</item>
-        <item quantity="many">Не удалось загрузить %1$d фото, подключитесь к сети и повторите попытку</item>
+        <item quantity="other">Не удалось загрузить %1$d фото. Подключитесь к сети и повторите попытку.</item>
+        <item quantity="one">Не удалось загрузить %1$d фото. Подключитесь к сети и повторите попытку.</item>
+        <item quantity="few">Не удалось загрузить %1$d фото. Подключитесь к сети и повторите попытку.</item>
+        <item quantity="many">Не удалось загрузить %1$d фото. Подключитесь к сети и повторите попытку.</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
         <item quantity="other">Не удалось загрузить %1$d файлов (%2$d МБ). Подключитесь к сети и повторите попытку.</item>
@@ -421,16 +433,16 @@
         <item quantity="many">%1$d файлов (%2$d МБ) не были загружены. Загрузить через мобильный интернет?</item>
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
-        <item quantity="other">Не удалось загрузить %1$d фото, повторить?</item>
-        <item quantity="one">Не удалось загрузить %1$d фото, повторить?</item>
-        <item quantity="few">Не удалось загрузить %1$d фото, повторить?</item>
-        <item quantity="many">Не удалось загрузить %1$d фото, повторить?</item>
+        <item quantity="other">Не удалось загрузить %1$d фото. Повторить попытку?</item>
+        <item quantity="one">Не удалось загрузить %1$d фото. Повторить попытку?</item>
+        <item quantity="few">Не удалось загрузить %1$d фото. Повторить попытку?</item>
+        <item quantity="many">Не удалось загрузить %1$d фото. Повторить попытку?</item>
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
-        <item quantity="other">Не удалось загрузить %1$d фото (%2$d МБ), повторить?</item>
-        <item quantity="one">Не удалось загрузить %1$d фото (%2$d МБ), повторить?</item>
-        <item quantity="few">Не удалось загрузить %1$d фото (%2$d МБ), повторить?</item>
-        <item quantity="many">Не удалось загрузить %1$d фото (%2$d МБ), повторить?</item>
+        <item quantity="other">Не удалось загрузить %1$d фото (%2$d МБ). Повторить?</item>
+        <item quantity="one">Не удалось загрузить %1$d фото (%2$d МБ). Повторить?</item>
+        <item quantity="few">Не удалось загрузить %1$d фото (%2$d МБ). Повторить?</item>
+        <item quantity="many">Не удалось загрузить %1$d фото (%2$d МБ). Повторить?</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">Пропущено %d фото, которых нет на устройстве.</item>
@@ -480,11 +492,155 @@
         <item quantity="few">Удалено %1$d фото из \"%2$s\".</item>
         <item quantity="many">Удалено %1$d фото из \"%2$s\".</item>
     </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">%2$d установочных пакетов (%3$s) от %1$s.</item>
+        <item quantity="one">%2$d установочный пакет (%3$s) от %1$s.</item>
+        <item quantity="few">%2$d установочных пакета (%3$s) от %1$s.</item>
+        <item quantity="many">%2$d установочных пакетов (%3$s) от %1$s.</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">Получено %2$d установочных пакетов (%3$s) от %1$s.</item>
+        <item quantity="one">Получен %2$d установочный пакет (%3$s) от %1$s.</item>
+        <item quantity="few">Получено %2$d установочных пакета (%3$s) от %1$s.</item>
+        <item quantity="many">Получено %2$d установочных пакетов (%3$s) от %1$s.</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">Получение %2$d установочных пакетов (%3$s) от %1$s…</item>
+        <item quantity="one">Получение %2$d установочного пакета (%3$s) от %1$s…</item>
+        <item quantity="few">Получение %2$d установочных пакетов (%3$s) от %1$s…</item>
+        <item quantity="many">Получение %2$d установочных пакетов (%3$s) от %1$s…</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%2$d аудиофайлов (%3$s) от %1$s.</item>
+        <item quantity="one">%2$d аудиофайл (%3$s) от %1$s.</item>
+        <item quantity="few">%2$d аудиофайла (%3$s) от %1$s.</item>
+        <item quantity="many">%2$d аудиофайлов (%3$s) от %1$s.</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">Получено %2$d аудиофайлов (%3$s) от %1$s.</item>
+        <item quantity="one">Получен %2$d аудиофайл (%3$s) от %1$s.</item>
+        <item quantity="few">Получено %2$d аудиофайла (%3$s) от %1$s.</item>
+        <item quantity="many">Получено %2$d аудиофайлов (%3$s) от %1$s.</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">Получение %2$d аудиофайлов (%3$s) от %1$s…</item>
+        <item quantity="one">Получение %2$d аудиофайла (%3$s) от %1$s…</item>
+        <item quantity="few">Получение %2$d аудиофайлов (%3$s) от %1$s…</item>
+        <item quantity="many">Получение %2$d аудиофайлов (%3$s) от %1$s…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%2$d файлов %3$s (%4$s) от %1$s.</item>
+        <item quantity="one">%2$d файл %3$s (%4$s) от %1$s.</item>
+        <item quantity="few">%2$d файла %3$s (%4$s) от %1$s.</item>
+        <item quantity="many">%2$d файлов %3$s (%4$s) от %1$s.</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">Получено %2$d файлов %3$s (%4$s) от %1$s.</item>
+        <item quantity="one">Получен %2$d файл %3$s (%4$s) от %1$s.</item>
+        <item quantity="few">Получено %2$d файла %3$s (%4$s) от %1$s.</item>
+        <item quantity="many">Получено %2$d файлов %3$s (%4$s) от %1$s.</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">Получение %2$d файлов %3$s (%4$s) от %1$s…</item>
+        <item quantity="one">Получение %2$d файла %3$s (%4$s) от %1$s…</item>
+        <item quantity="few">Получение %2$d файлов %3$s (%4$s) от %1$s…</item>
+        <item quantity="many">Получение %2$d файлов %3$s (%4$s) от %1$s…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%2$d изображений от %1$s.</item>
+        <item quantity="one">%2$d изображение от %1$s.</item>
+        <item quantity="few">%2$d изображения от %1$s.</item>
+        <item quantity="many">%2$d изображений от %1$s.</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">Получено %2$d изображений от %1$s.</item>
+        <item quantity="one">Получено %2$d изображение от %1$s.</item>
+        <item quantity="few">Получено %2$d изображения от %1$s.</item>
+        <item quantity="many">Получено %2$d изображений от %1$s.</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">Получение %2$d изображений от %1$s…</item>
+        <item quantity="one">Получение %2$d изображения от %1$s…</item>
+        <item quantity="few">Получение %2$d изображений от %1$s…</item>
+        <item quantity="many">Получение %2$d изображений от %1$s…</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%2$d изображений или видео от %1$s.</item>
+        <item quantity="one">%2$d изображение или видео от %1$s.</item>
+        <item quantity="few">%2$d изображения или видео от %1$s.</item>
+        <item quantity="many">%2$d изображений или видео от %1$s.</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">Получено %2$d изображений или видео от %1$s.</item>
+        <item quantity="one">Получено %2$d изображение или видео от %1$s.</item>
+        <item quantity="few">Получено %2$d изображения или видео от %1$s.</item>
+        <item quantity="many">Получено %2$d изображений или видео от %1$s.</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">Получение %2$d изображений или видео от %1$s…</item>
+        <item quantity="one">Получение %2$d изображения или видео от %1$s…</item>
+        <item quantity="few">Получение %2$d изображений или видео от %1$s…</item>
+        <item quantity="many">Получение %2$d изображений или видео от %1$s…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%2$d файлов от %1$s.</item>
+        <item quantity="one">%2$d файл от %1$s.</item>
+        <item quantity="few">%2$d файла от %1$s.</item>
+        <item quantity="many">%2$d файлов от %1$s.</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">Получено %2$d файлов от %1$s.</item>
+        <item quantity="one">Получен %2$d файл от %1$s.</item>
+        <item quantity="few">Получено %2$d файла от %1$s.</item>
+        <item quantity="many">Получено %2$d файлов от %1$s.</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">Получение %2$d файлов от %1$s…</item>
+        <item quantity="one">Получение %2$d файла от %1$s…</item>
+        <item quantity="few">Получение %2$d файлов от %1$s…</item>
+        <item quantity="many">Получение %2$d файлов от %1$s…</item>
+    </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Не удалось отправить. Идет обработка %d фото…</item>
         <item quantity="one">Не удалось отправить. Идет обработка %d фото…</item>
         <item quantity="few">Не удалось отправить. Идет обработка %d фото…</item>
         <item quantity="many">Не удалось отправить. Идет обработка %d фото…</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%2$d видео от %1$s.</item>
+        <item quantity="one">%2$d видео от %1$s.</item>
+        <item quantity="few">%2$d видео от %1$s.</item>
+        <item quantity="many">%2$d видео от %1$s.</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">Получено %2$d видео от %1$s.</item>
+        <item quantity="one">Получено %2$d видео от %1$s.</item>
+        <item quantity="few">Получено %2$d видео от %1$s.</item>
+        <item quantity="many">Получено %2$d видео от %1$s.</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">Получение %2$d видео от %1$s…</item>
+        <item quantity="one">Получение %2$d видео от %1$s…</item>
+        <item quantity="few">Получение %2$d видео от %1$s…</item>
+        <item quantity="many">Получение %2$d видео от %1$s…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%2$d архивов (%3$s) от %1$s.</item>
+        <item quantity="one">%2$d архив (%3$s) от %1$s.</item>
+        <item quantity="few">%2$d архива (%3$s) от %1$s.</item>
+        <item quantity="many">%2$d архивов (%3$s) от %1$s.</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">Получено %2$d архивов (%3$s) от %1$s.</item>
+        <item quantity="one">Получен %2$d архив (%3$s) от %1$s.</item>
+        <item quantity="few">Получено %2$d архива (%3$s) от %1$s.</item>
+        <item quantity="many">Получено %2$d архивов (%3$s) от %1$s.</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">Получение %2$d архивов (%3$s) от %1$s…</item>
+        <item quantity="one">Получение %2$d архива (%3$s) от %1$s…</item>
+        <item quantity="few">Получение %2$d архивов (%3$s) от %1$s…</item>
+        <item quantity="many">Получение %2$d архивов (%3$s) от %1$s…</item>
     </plurals>
     <plurals name="slideshow_interval_value">
         <item quantity="other">%1$d секунд</item>

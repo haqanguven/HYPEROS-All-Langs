@@ -48,6 +48,7 @@
     <string name="cloud_find_device_off">Откл</string>
     <string name="cloud_find_device_on">Вкл</string>
     <string name="cloud_lab_title">Лаборатория</string>
+    <string name="cloud_space_full_gallery_notification_content_text">Обновите план подписки, чтобы получить больше места в облаке</string>
     <string name="cloud_storage_already_full">Облачное хранилище заполнено: %1$s/%2$s</string>
     <string name="cloud_storage_already_used">Занято: %1$s/%2$s</string>
     <string name="cloud_storage_default_title">Облачное хранилище</string>
@@ -67,6 +68,8 @@
     <string name="connect_wlan">Подключитесь к Wi-Fi</string>
     <string name="connect_wlan_china">Подключиться к WLAN</string>
     <string name="copy">Копировать</string>
+    <string name="cta_notification_content_text">Разрешите \"%s\" доступ к интернету для восстановления объектов</string>
+    <string name="cta_notification_content_title">Невозможно восстановить объекты приложения \"%s\"</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_more_than_two">Этот аккаунт был использован на другом устройстве. Объединить объекты из нескольких приложений (включая %1$s и %2$s) с объектами на этом устройстве?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_one">Этот аккаунт был использован на другом устройстве. Объединить объекты из %s с объектами на этом устройстве?</string>
     <string name="data_merge_dialog_alert_active_on_phone_msg_two">Этот аккаунт был использован на другом устройстве. Объединить объекты из %1$s и %2$s с объектами на этом устройстве?</string>
@@ -118,6 +121,7 @@
     <string name="ks_fingerprint_status">Статус услуги</string>
     <string name="ks_name_alipay">IFAA</string>
     <string name="ks_name_fido">FIDO</string>
+    <string name="ks_name_passpoint">Wi-Fi Passpoint</string>
     <string name="ks_name_soter">Soter</string>
     <string name="ks_name_widevine">Widevine (L1)</string>
     <string name="ks_status_available">Доступно</string>
@@ -167,11 +171,6 @@
     <string name="micloud_battery_low_notification_message">Подключите зарядное устройство</string>
     <string name="micloud_battery_low_notification_title">Батарея разряжена</string>
     <string name="micloud_buy_member_safe">Получить больше места</string>
-    <string name="micloud_check_sim_notify_text">"Вы заменили SIM-карту. Войдите в
-Mi аккаунт для повторной активации Xiaomi Cloud."</string>
-    <string name="micloud_check_sim_notify_title">Повторная активация</string>
-    <string name="micloud_check_sim_title">"Вы заменили SIM-карту. Войдите в
-Mi аккаунт для повторной активации Xiaomi Cloud."</string>
     <string name="micloud_confusion_account_hint">Изменения на этом устройстве будут синхронизированы со всеми вашими устройствами. В целях защиты аккаунта рекомендуем отключить синхронизацию для других устройств, если вы их не используете.</string>
     <string name="micloud_confusion_account_name">Аккаунт:</string>
     <string name="micloud_confusion_account_notify_text">Другое устройство изменяет ваш Mi аккаунт. Проверьте его.</string>
@@ -210,7 +209,7 @@ Mi аккаунт для повторной активации Xiaomi Cloud."</s
     <string name="micloud_dspt_provision_china">Use Xiaomi Cloud to sync data, locate your device, and share things with friends.</string>
     <string name="micloud_dspt_provision_xms">Используйте Xiaomi Cloud для синхронизации данных.</string>
     <string name="micloud_dspt_provision_xms_china">Use Xiaomi Cloud to sync data.</string>
-    <string name="micloud_find_device_close_alert_content">После отключения Поиска устройства вы не сможете найти свой телефон с помощью этой функции. Если ваш телефон поддерживает функции NFC, все ваши банковские карты и ключ-карты будут удалены из Mi Pay.</string>
+    <string name="micloud_find_device_close_alert_content">"If you turn off Find device, you won't be able to locate your device using this feature. If your device supports NFC, all your bank cards and keycards will be deleted from Mi Pay. People with whom you share location won't be able to receive updates on your whereabouts as well."</string>
     <string name="micloud_find_device_close_alert_negtive">Отключить</string>
     <string name="micloud_find_device_close_alert_positive">Не отключать</string>
     <string name="micloud_find_device_close_alert_title">Отключить Поиск устройства?</string>
@@ -290,6 +289,11 @@ Mi аккаунт для повторной активации Xiaomi Cloud."</s
     <string name="micloud_manual_pausing">Синхронизация остановлена</string>
     <string name="micloud_manual_pending">Ожидание…</string>
     <string name="micloud_manual_reactivate">Активировать</string>
+    <string name="micloud_manual_request_permission_cancel">Отмена</string>
+    <string name="micloud_manual_request_permission_confirm">Настройки</string>
+    <string name="micloud_manual_request_permission_content">Для использования наших служб предоставьте Xiaomi Cloud следующие разрешения в Настройках: \"%s\".</string>
+    <string name="micloud_manual_request_permission_content_on_provision">Сначала нужно предоставить все необходимые разрешения в приложении \"Безопасность\".</string>
+    <string name="micloud_manual_request_permission_title">Требуются разрешения</string>
     <string name="micloud_manual_sync_all">Синхронизировать</string>
     <string name="micloud_manual_sync_now">Синхр</string>
     <string name="micloud_manual_sync_now_retry">Повторить</string>
@@ -331,7 +335,7 @@ Mi аккаунт для повторной активации Xiaomi Cloud."</s
     <string name="micloud_privacy_warning_title">Внимание</string>
     <string name="micloud_proceed">Продолжить</string>
     <string name="micloud_request_permission_confirm">Понятно</string>
-    <string name="micloud_request_permission_content">Xiaomi Cloud требуются разрешения для синхронизации данных. Разрешите Xiaomi Cloud доступ к Календарю, Контактам, Mi аккаунту, статусу SIM-карты, журналу вызовов и сообщениям.</string>
+    <string name="micloud_request_permission_content">Для синхронизации событий календаря, списка контактов, сообщений, журнала вызовов, фото, видео и других объектов Xiaomi Cloud требуется разрешение на доступ к вашему календарю, списку контактов и аккаунтов, информации о состоянии SIM-карты, журналу вызовов, сообщениям, фото и видео.</string>
     <string name="micloud_request_permission_title">Xiaomi Cloud требуются разрешения</string>
     <string name="micloud_request_sync_too_frequent">Слишком много запросов. Подождите немного и повторите попытку.</string>
     <string name="micloud_setting_antispam_summary">Номера черного и белого списков</string>
@@ -394,6 +398,15 @@ Mi аккаунт для повторной активации Xiaomi Cloud."</s
     <string name="micloud_wipe_data_confirm_title">Некоторые данные следующих приложений были синхронизированы с Xiaomi Cloud. Вы можете удалить синхронизированные данные с этого устройства, оставив их копию в облаке.</string>
     <string name="micloud_wipe_data_remove">Удалить</string>
     <string name="micloud_wipe_data_retain">Оставить</string>
+    <string name="midrive_guide1_desc">Создавайте резервные копии данные в облаке, чтобы освободить место на устройстве.</string>
+    <string name="midrive_guide1_title">Безопасное резервирование</string>
+    <string name="midrive_guide2_desc">Загружайте данные с головокружительной скоростью.</string>
+    <string name="midrive_guide2_title">Быстрая загрузка</string>
+    <string name="midrive_guide3_desc">Mi Drive доступен на мобильных устройствах, компьютерах и даже через браузер.</string>
+    <string name="midrive_guide3_title">Доступ в любом месте</string>
+    <string name="midrive_guide_btn_install">Установить Mi Drive</string>
+    <string name="midrive_guide_btn_installed">Открыть Mi Drive</string>
+    <string name="midrive_guide_btn_installing">Установка…</string>
     <string name="mx_dspt">Mi сообщения</string>
     <string name="mx_dspt_provision">"Mi сообщения позволяют вам бесплатно отправлять сообщения другим пользователям MIUI при подключении к Wi-Fi.
 
@@ -415,7 +428,7 @@ Mi аккаунт для повторной активации Xiaomi Cloud."</s
     <string name="no_sim">SIM-карта не найдена</string>
     <string name="not_set">Не указано</string>
     <string name="pay_info_dialog_confirm_to_pay">Оплатить %s</string>
-    <string name="pay_info_dialog_mibi_balance_prefix">Использовать оставшиеся Mi Credits: %s</string>
+    <string name="pay_info_dialog_mibi_balance_prefix">Использовать доступные Mi Coins: %s</string>
     <string name="pay_info_dialog_title">Выберите способ оплаты</string>
     <string name="phone_number_required_dspt_provision">"Этот сервис запрашивает ваш номер телефона. "</string>
     <string name="picker_list_empty">Нет контактов</string>
@@ -435,6 +448,7 @@ Mi аккаунт для повторной активации Xiaomi Cloud."</s
     <string name="privacy_dialog_sync_all_purpose_china">Добро пожаловать в службы Xiaomi Cloud! Вы можете использовать Xiaomi Cloud для синхронизации сообщений, журнала вызовов, контактов, заметок, настроек Браузера, музыки, фото и видео, настроек WLAN, аудиозаписей, разметки рабочего стола, приложений, мероприятий, объектов Анти-спама и Ленты виджетов между всеми подключенными устройствами.</string>
     <string name="privacy_doc_cloudservice">Добро пожаловать в службы Xiaomi Cloud! Вы можете использовать Xiaomi Cloud для синхронизации сообщений, журнала вызовов, контактов, заметок, настроек Браузера, музыки, фото и видео, настроек Wi-Fi, аудиозаписей, разметки рабочего стола, приложений, мероприятий, объектов Анти-спама и Ленты виджетов между всеми подключенными устройствами. Получайте доступ ко всем синхронизированным объектам через любой браузер по адресу &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>/&lt;br />&lt;br />Для активации этих служб может потребоваться отправка SMS. Ваш оператор связи может взимать дополнительную плату за такие SMS. При смене SIM-карты для повторной активации этих служб сообщение может быть отправлено автоматически.&lt;br />&lt;br />Мы будем защищать вашу личную информацию в соответствии с действующим законодательством, правилами и политиками конфиденциальности.&lt;br />Для правильной работы этим службам требуется подключение к интернету, а также следующие разрешения для осуществления сбора вашей личной информации:&lt;br />• Календарь:&lt;br />Для синхронизации мероприятий&lt;br />• Доступ к сообщениям:&lt;br />Для синхронизации сообщений&lt;br />• Доступ к MMS:&lt;br />Для синхронизации сообщений&lt;br />• Доступ к контактам:&lt;br />Для синхронизации контактов&lt;br />• Редактирование контактов:&lt;br />Для синхронизации контактов&lt;br />• Память устройства:&lt;br />Для сохранения объектов на вашем устройстве (например изображений, видео, музыки)&lt;br />Если вы не согласны предоставлять такие разрешения или делиться своей личной информацией, вы не сможете воспользоваться данными службами. Вы можете удалить приложение, выйти из системы или ограничить разрешения в Настройках.&lt;br />Ознакомьтесь и согласитесь с нашими &lt;a href=%1$s>&lt;u>Условиями использования&lt;/u>&lt;/a> и &lt;a href=%2$s>&lt;u>Политикой конфиденциальности&lt;/u>&lt;/a> перед использованием Xiaomi Cloud.&lt;br /></string>
     <string name="privacy_doc_cloudservice_china">Добро пожаловать в службы Xiaomi Cloud! Вы можете использовать Xiaomi Cloud для синхронизации сообщений, журнала вызовов, контактов, заметок, настроек Браузера, музыки, фото и видео, настроек WLAN, аудиозаписей, разметки рабочего стола, приложений, мероприятий, объектов Анти-спама и Ленты виджетов между всеми подключенными устройствами. Получайте доступ ко всем синхронизированным объектам через любой браузер по адресу &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Для активации этих служб может потребоваться отправка SMS. Ваш оператор связи может взимать дополнительную плату за такие SMS. При смене SIM-карты для повторной активации этих служб сообщение может быть отправлено автоматически.&lt;br />&lt;br />Мы будем защищать вашу личную информацию в соответствии с действующим законодательством, правилами и политиками конфиденциальности.&lt;br />Для правильной работы этим службам требуется подключение к интернету, а также следующие разрешения для осуществления сбора вашей личной информации:&lt;br />• Календарь:&lt;br />Для синхронизации мероприятий&lt;br />• Доступ к сообщениям:&lt;br />Для синхронизации сообщений&lt;br />• Доступ к MMS:&lt;br />Для синхронизации сообщений&lt;br />• Доступ к контактам:&lt;br />Для синхронизации контактов&lt;br />• Редактирование контактов:&lt;br />Для синхронизации контактов&lt;br />• Память устройства:&lt;br />Для сохранения объектов на вашем устройстве (например изображений, видео, музыки)&lt;br />Если вы не согласны предоставлять такие разрешения или делиться своей личной информацией, вы не сможете воспользоваться данными службами. Вы можете удалить приложение, выйти из системы или ограничить разрешения в Настройках.&lt;br />Ознакомьтесь и согласитесь с нашими &lt;a href=%1$s>&lt;u>Условиями использования&lt;/u>&lt;/a> и &lt;a href=%2$s>&lt;u>Политикой конфиденциальности&lt;/u>&lt;/a> перед использованием Xiaomi Cloud.&lt;br /></string>
+    <string name="privacy_doc_cloudservice_global">Для правильной работы Xiaomi Cloud требуется подключение к интернету. Для синхронизации данных может потребоваться использование мобильных данных и включение Wi-Fi. Перед использованием служб Xiaomi Cloud, ознакомьтесь и согласитесь с нашими &lt;a href=%1$s>&lt;u>Условиями использования&lt;/u>&lt;/a> и &lt;a href=%2$s>&lt;u>Политикой конфиденциальности&lt;/u>&lt;/a>.</string>
     <string name="privacy_doc_finddevice_pad">Добро пожаловать в Поиск устройства! Вы можете использовать эту службу для поиска и блокировки ваших устройств, а также для удаления с них всех данных, если устройство было утеряно. Перейдите по адресу &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> для поиска, блокировки или сброса устройства.&lt;br />&lt;br />Мы будем защищать вашу личную информацию в соответствии с действующим законодательством, правилами и политиками конфиденциальности.&lt;br />Для правильной работы службе требуется подключение к интернету, а также следующие разрешения для осуществления сбора вашей личной информации:&lt;br />• Доступ к информации об устройстве:&lt;br />Для идентификации вашего устройства&lt;br />• Доступ к местоположению:&lt;br />Для определения местоположения устройства и активации режима утери&lt;br />Если вы не согласны предоставлять такие разрешения или делиться своей личной информацией, вы не сможете воспользоваться данной службой. Вы можете удалить приложение, выйти из системы или ограничить разрешения в Настройках&lt;br />Ознакомьтесь и согласитесь с нашими &lt;a href=%1$s>&lt;u>Условиями использования&lt;/u>&lt;/a> и &lt;a href=%2$s>&lt;u>Политикой конфиденциальности&lt;/u>&lt;/a> перед использованием функции Поиск устройства.&lt;br /></string>
     <string name="privacy_doc_finddevice_phone">Добро пожаловать в Поиск устройства! Вы можете использовать эту службу для поиска и блокировки ваших устройств, а также для удаления с них всех данных, если устройство было утеряно. Перейдите по адресу &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> для поиска, блокировки или сброса устройства.&lt;br />&lt;br />Мы будем защищать вашу личную информацию в соответствии с действующим законодательством, правилами и политиками конфиденциальности.&lt;br />Для правильной работы службе требуется подключение к интернету, а также следующие разрешения для осуществления сбора вашей личной информации:&lt;br />• Доступ к информации об устройстве:&lt;br />Для идентификации вашего устройства&lt;br />• Доступ к местоположению:&lt;br />Для определения местоположения устройства и активации режима утери&lt;br />Если вы не согласны предоставлять такие разрешения или делиться своей личной информацией, вы не сможете воспользоваться данной службой. Вы можете удалить приложение, выйти из системы или ограничить разрешения в Настройках.&lt;br />Ознакомьтесь и согласитесь с нашими &lt;a href=%1$s>&lt;u>Условиями использования&lt;/u>&lt;/a> и &lt;a href=%2$s>&lt;u>Политикой конфиденциальности&lt;/u>&lt;/a> перед использованием функции Поиск устройства.&lt;br /></string>
     <string name="privacy_doc_finddevice_with_telephony_feature_pad">Добро пожаловать в Поиск устройства! Вы можете использовать эту службу для поиска и блокировки ваших устройств, а также для удаления с них всех данных, если устройство было утеряно. Перейдите по адресу &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> для поиска, блокировки или сброса устройства.&lt;br />&lt;br />Для активации этой службы может потребоваться отправка SMS. Ваш оператор связи может взимать дополнительную плату за такие SMS. При смене SIM-карты для повторной активации этой службы сообщение может быть отправлено автоматически.&lt;br />&lt;br />Мы будем защищать вашу личную информацию в соответствии с действующим законодательством, правилами и политиками конфиденциальности.&lt;br />Для правильной работы службе требуется подключение к интернету, а также следующие разрешения для осуществления сбора вашей личной информации:&lt;br />• Доступ к информации об устройстве:&lt;br />Для идентификации вашего устройства&lt;br />• Доступ к местоположению:&lt;br />Для определения местоположения устройства и активации режима утери&lt;br />Если вы не согласны предоставлять такие разрешения или делиться своей личной информацией, вы не сможете воспользоваться данной службой. Вы можете удалить приложение, выйти из системы или ограничить разрешения в Настройках.&lt;br />Ознакомьтесь и согласитесь с нашими &lt;a href=%1$s>&lt;u>Условиями использования&lt;/u>&lt;/a> и &lt;a href=%2$s>&lt;u>Политикой конфиденциальности&lt;/u>&lt;/a> перед использованием функции Поиск устройства.&lt;br /></string>
@@ -459,9 +473,12 @@ Mi аккаунт для повторной активации Xiaomi Cloud."</s
     <string name="special_func_title">Особые возможности</string>
     <string name="starred_contact">Избранное</string>
     <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="storage_manage_cloud_data_title">Показать объекты в облаке</string>
     <string name="storage_manage_expansion">Добавить</string>
+    <string name="storage_manage_full_summary">Облачное хранилище заполнено.</string>
     <string name="storage_manage_list_title">Данные в облаке</string>
     <string name="storage_manage_list_title_action">Показать еще</string>
+    <string name="storage_manage_normal_summary">Изменение тарифа облачного хранилища.</string>
     <string name="storage_manage_renewal">Продлить</string>
     <string name="storage_manage_title">Изменение тарифа облачного хранилища</string>
     <string name="storage_manage_upgrade">Обновить</string>

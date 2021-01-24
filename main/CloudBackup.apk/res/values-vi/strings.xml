@@ -37,18 +37,32 @@
     <string name="back_up_task_in_process">Đang sao lưu…</string>
     <string name="back_up_task_unfinished">Không thể sao lưu</string>
     <string name="backing_up_to_micloud">Đang sao lưu…</string>
-    <string name="backup_failed_reason_cloud_space_not_enough">Không đủ dung lượng lưu trữ trên Xiaomi Cloud. Nâng cấp gói hoặc giải phóng dung lượng lưu trữ.</string>
+    <string name="backup_action_buy_cloud_space">Thêm dung lượng lưu trữ</string>
+    <string name="backup_action_check_network">Kiểm tra cài đặt mạng</string>
+    <string name="backup_action_clean_disk_space">Giải phóng dung lượng</string>
+    <string name="backup_action_retry_now">Thử lại</string>
+    <string name="backup_failed_reason_cloud_space_not_enough">Không còn đủ lưu trữ đám mây để lưu bản sao lưu này. Nâng cấp gói của bạn hoặc giải phóng dung lượng lưu trữ đám mây.</string>
     <string name="backup_failed_reason_disk_space_not_enough">Không đủ dung lượng lưu trữ. Giải phóng lưu trữ trước.</string>
-    <string name="backup_failed_reason_network_error">Lỗi mạng. Chờ một hoặc hai phút và thử lại.</string>
+    <string name="backup_failed_reason_network_error">Kiểm tra cài đặt mạng và thử lại</string>
     <string name="backup_finished_notification_content">Sao lưu ứng dụng Màn hình chính, cài đặt hệ thống..v.v.</string>
     <string name="backup_now">Sao lưu ngay</string>
     <string name="backup_progress_percent_unit">%</string>
+    <string name="backup_remind_buy_cloud_space">Nâng cấp gói lưu trữ đám mây</string>
+    <string name="backup_remind_clean_disk_space">Giải phóng dung lượng lưu trữ</string>
+    <string name="backup_remind_cloud_space_cost">Kích thước sao lưu: %s</string>
     <string name="backup_size">Kích thước: %s</string>
     <string name="backup_stopped_msg">Sao lưu hiện tại sẽ ghi đè lên bản sao lưu trước đó. Chạm để xem.</string>
     <string name="backup_stopped_title">Sao lưu đã tạm dừng</string>
     <string name="backup_success">Sao lưu thành công</string>
     <string name="backup_successfully">Sao lưu thành công</string>
     <string name="backup_to_cloud">Sao lưu ứng dụng</string>
+    <string name="backup_warning_reason_cloud_space_not_enough">Không thể sao lưu</string>
+    <string name="backup_warning_reason_disk_space_not_enough">"Không đủ lưu trữ
+Không thể sao lưu"</string>
+    <string name="backup_warning_reason_network_error">"Lỗi mạng
+Không thể sao lưu"</string>
+    <string name="backup_warning_reason_no_server_response">"Kết nối đã bị gián đoạn.
+Thử lại"</string>
     <string name="btn_back">Quay lại</string>
     <string name="btn_continue">Tiếp tục</string>
     <string name="btn_restore_abort">Hủy</string>
@@ -94,7 +108,7 @@ Chú ý: Dữ liệu ứng dụng bạn đã cài đặt sẽ không được sa
 *  MIUI and system settings 
 Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Lịch trình sao lưu</string>
-    <string name="cloud_back_up_frequence_long">Mỗi 7 ngày</string>
+    <string name="cloud_back_up_frequence_long">Mỗi %d ngày</string>
     <string name="cloud_back_up_frequence_short">Mỗi ngày</string>
     <string name="cloud_back_up_ok_btn">OK</string>
     <string name="cloud_back_up_opening">Vui lòng chờ…</string>
@@ -105,6 +119,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup">Sao lưu đám mây</string>
     <string name="cloud_backup_derail_size_summary">Kích thước: %s</string>
     <string name="cloud_backup_detail_frequence">Lịch trình sao lưu</string>
+    <string name="cloud_backup_detail_frequence_every_7_day">Sao lưu sau mỗi %d ngày</string>
+    <string name="cloud_backup_detail_frequence_every_day">Sao lưu mỗi ngày</string>
     <string name="cloud_backup_detail_manage">Quản lý sao lưu</string>
     <string name="cloud_backup_detail_state">Tự động sao lưu</string>
     <string name="cloud_backup_detail_state_summary">Tạo sao lưu Xiaomi Cloud tự động khi kết nối Wi-Fi.</string>

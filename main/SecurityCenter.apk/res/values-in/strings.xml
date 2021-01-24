@@ -161,9 +161,9 @@
     <string name="antivirus_none_engine_dialog_ok">Oke</string>
     <string name="antivirus_not_wlan">Anda tidak terhubung ke Wi-Fi. Menggunakan data seluler dapat dikenai biaya tambahan. Tetap lanjutkan?</string>
     <string name="antivirus_privacy_dialog_cloudscan">Unggah nama dan rincian apl</string>
-    <string name="antivirus_privacy_dialog_cloudscan_description">Unggah dan pindai nama dan rincian apl dengan definisi virus online.</string>
+    <string name="antivirus_privacy_dialog_cloudscan_description">Untuk mendeteksi dan menetralkan virus dengan lebih efektif, kami akan mengunggah nama dan properti paket aplikasi untuk memindai mereka menggunakan mesin cloud.</string>
     <string name="antivirus_privacy_dialog_ok">Oke</string>
-    <string name="antivirus_privacy_dialog_summary">Fitur ini mengenkripsi dan mengunggah ID perangkat ke server AVL, AVL, dan Tencent (%s).</string>
+    <string name="antivirus_privacy_dialog_summary"><Data>Fitur ini didukung oleh mesin antivirus pihak ketiga. Untuk mempelajari lebih lanjut, baca &lt;a href=\"%1$s\">Perjanjian Lisensi&lt;/a> yang disediakan oleh pihak ketiga.</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Kebijakan Privasi</string>
     <string name="antivirus_privacy_dialog_title">Kebijakan Privasi</string>
     <string name="antivirus_sec_network_unavailable">Apl Keamanan tidak dapat diperbarui karena koneksi internet dilarang. Izinkan Keamanan untuk terhubung ke internet?</string>
@@ -467,9 +467,16 @@ Anda tidak akan kehilangan data apl apapun."</string>
     <string name="application_item_already_permission">Diizinkan</string>
     <string name="application_item_disable">Dibatasi</string>
     <string name="applock_add_account">Tambah</string>
+    <string name="applock_add_account_ignore">Nanti</string>
+    <string name="applock_add_account_ignore_with_seconds">Nanti (%dd)</string>
     <string name="applock_add_account_info">Tambahkan Akun Mi Anda agar dapat setel ulang sandi jika Anda lupa.</string>
     <string name="applock_add_account_setting">Akun &amp; privasi</string>
+    <string name="applock_add_account_tips">Dengan Akun Mi, Anda dapat memulihkan Kunci aplikasi jika Anda lupa.</string>
+    <string name="applock_add_account_title">Tambahkan Akun Mi Anda</string>
+    <string name="applock_already_add_account">Akun saat ini: %s</string>
     <string name="applock_app_recommend_lock_title">Anda dapat mengunci aplikasi di bawah ini</string>
+    <string name="applock_bind_account_dialog_content">Akun Mi Anda adalah satu-satunya cara untuk memulihkan Kunci aplikasi jika Anda lupa. Masuk dan tambahkan Akun Mi Anda.</string>
+    <string name="applock_bind_account_dialog_title">Tambahkan Akun Mi Anda</string>
     <string name="applock_bind_account_title">Lupa sandi</string>
     <string name="applock_close_dialog_summary">Semua aplikasi tersembunyi akan ditampilkan, pintasan Layar utama mereka akan dipulihkan, dan sandi Kunci apl akan dihapus. Matikan Kunci apl?</string>
     <string name="applock_close_dialog_title">Matikan Kunci aplikasi?</string>
@@ -479,6 +486,8 @@ Anda tidak akan kehilangan data apl apapun."</string>
     <string name="applock_function_base_settings">Kunci apl</string>
     <string name="applock_function_pwd_settings">Sandi</string>
     <string name="applock_go_to">Setelan</string>
+    <string name="applock_guide_notification_summary">Lindungi privasi Anda dengan Kunci aplikasi</string>
+    <string name="applock_guide_notification_title">Orang lain mungkin dapat melihat info sensitif di layar Anda</string>
     <string name="applock_guide_open_applock">Hidupkan</string>
     <string name="applock_guide_tip1">Beragam pilihan tipe sandi tersedia. Buka aplikasi dengan sidik jari, wajah, atau masukkan sandi.</string>
     <string name="applock_guide_tip1_global">Buka kunci aplikasi dengan sidik jari, wajah, atau masukkan sandi.</string>
@@ -495,8 +504,18 @@ Anda tidak akan kehilangan data apl apapun."</string>
     <string name="applock_header_text_less_than_half">Terlalu kecil. Geser hingga pas.</string>
     <string name="applock_lock_all">Kunci semua</string>
     <string name="applock_login_and_add_account">Masuk &amp; tambah</string>
+    <string name="applock_no_account_login">Anda belum masuk ke Akun Mi Anda</string>
     <string name="applock_not_add_account"><u>Nanti</u></string>
     <string name="applock_not_login_account">Anda belum masuk</string>
+    <string name="applock_operate_faceunlock_summary">Buka kunci aplikasi dengan hanya melihat pada layar</string>
+    <string name="applock_operate_faceunlock_title">Gunakan data wajah</string>
+    <string name="applock_operate_fingerprint_summary">Kunci aplikasi mendukung penambahan beberapa sidik jari</string>
+    <string name="applock_operate_fingerprint_title">Gunakan sidik jari</string>
+    <string name="applock_operate_hidenoti_summary">Kunci aplikasi dapat melakukannya untuk apl yang ingin dilindungi</string>
+    <string name="applock_operate_hidenoti_title">Ingin menyembunyikan notifikasi yang sensitif?</string>
+    <string name="applock_recommend_tips">%s pengguna melindungi apl-apl ini</string>
+    <string name="applock_recommend_title">Pilih aplikasi</string>
+    <string name="applock_set_complete">Gunakan Kunci aplikasi</string>
     <string name="applock_set_password_title">Ganti tipe sandi</string>
     <string name="applock_settings_unlock_all_toast">Buka kunci seluruh aplikasi</string>
     <string name="applock_toast_tip">Kunci aplikasi berhasil diverifikasi</string>
@@ -604,7 +623,7 @@ Anda tidak akan kehilangan data apl apapun."</string>
     <string name="banner_optimizemanage_summary">Membebaskan memori</string>
     <string name="banner_red_money_assist_button">Hidupkan</string>
     <string name="banner_red_money_assist_summary">Buka angpao lebih cepat</string>
-    <string name="battery_and_property">Baterai &amp; performa</string>
+    <string name="battery_and_property">Baterai</string>
     <string name="battery_can_use_time">Sisa %s</string>
     <string name="battery_capacity_title">Kapasitas baterai</string>
     <string name="battery_charge_estimating">Menghitung</string>
@@ -772,12 +791,26 @@ Anda tidak akan kehilangan data apl apapun."</string>
     <string name="card_main_xspace_title">Aplikasi ganda</string>
     <string name="card_tc_failed">Kalibrasi gagal</string>
     <string name="cd_back">Kembali</string>
+    <string name="charger_detect_button_ok">Mengerti</string>
+    <string name="charger_detect_info1">Periksa apakah adaptor daya dan kabel tersambung dengan benar.</string>
+    <string name="charger_detect_info2">Pengisian daya juga dapat menjadi lambat, jika Anda menggunakan adaptor dan kabel yang bukan standar atau yang lama.</string>
+    <string name="charger_detect_no_remind">Jangan tampilkan lagi</string>
+    <string name="charger_detect_title">Pengisian daya lambat</string>
     <string name="charging_text_battery_full_time">"Terakhir diisi daya "</string>
     <string name="charging_text_battery_nearly_full">Hampir penuh</string>
     <string name="charging_text_battery_perfect">"Baterai penuh "</string>
     <string name="choose">Pilih</string>
     <string name="choose_gs_show_way">Pilih orientasi beranda</string>
     <string name="clean_immediately">Bersihkan</string>
+    <string name="clean_master_icon_recall_button_text">Tambahkan</string>
+    <string name="clean_master_icon_recall_dialog_button_negative">Tidak</string>
+    <string name="clean_master_icon_recall_dialog_button_positive">Tambah</string>
+    <string name="clean_master_icon_recall_dialog_summary">Buat pintasan di Layar utama untuk membersihkan sampah kapan saja.</string>
+    <string name="clean_master_icon_recall_dialog_title">Membersihkan sampah lebih cepat</string>
+    <string name="clean_master_icon_recall_hint">Tambah pintasan Layar utama</string>
+    <string name="clean_master_icon_recall_summary">Buat pintasan di Layar utama untuk membersihkan sampah kapan saja.</string>
+    <string name="clean_master_icon_recall_title">Membersihkan sampah lebih cepat</string>
+    <string name="clean_master_icon_recall_toast_text">Berhasil menambahkan pintasan di Layar utama untuk Pembersih</string>
     <string name="cleaned">Dibersihkan</string>
     <string name="clear_garbage">Hapus sampah untuk bebaskan ruang</string>
     <string name="clear_immediately">Bersihkan sekarang</string>
@@ -1129,6 +1162,13 @@ Nomor ini akan ditambahkan ke pengecualian, namun panggilan yang sebelumnya terb
     <string name="first_aid_scanning_item4">Memeriksa masalah baterai…</string>
     <string name="first_aid_scanning_item5">Memeriksa masalah lainnya…</string>
     <string name="first_aid_stop_scan">Berhenti memindai</string>
+    <string name="first_settings_default_camera_title">Berbagi tanpa metadata secara default</string>
+    <string name="first_settings_default_location_subtitle">Hilangkan info lokasi dari foto berbagi</string>
+    <string name="first_settings_default_location_title">Berbagi tanpa info lokasi secara default</string>
+    <string name="first_settings_share_enable">Tambahkan lencana \"Aman dalam berbagi\"</string>
+    <string name="first_settings_share_enable_subtitle">Item yang Anda bagikan di WeChat akan ditampilkan dengan lencana MIUI</string>
+    <string name="first_settings_subtitle">Berikut ini adalah pilihan aman dalam berbagi yang tersedia untuk Anda:</string>
+    <string name="first_settings_title">Melindungi privasi Anda</string>
     <string name="five_percent_total_pkg">%s (5%% dari data bulanan)</string>
     <string name="fod_authentication_shift_button">Batal</string>
     <string name="fod_button_finger">Gunakan sidik jari</string>
@@ -1153,6 +1193,11 @@ Nomor ini akan ditambahkan ke pengecualian, namun panggilan yang sebelumnya terb
     <string name="free_time_traffic_settings">Batas data di luar jam sibuk</string>
     <string name="free_time_traffic_title">Masukkan batas data luar jam sibuk</string>
     <string name="free_traffic_settings">Setelan guna data di luar jam sibuk</string>
+    <string name="function_auto_reject_detail">"Tentang fitur ini:
+1. Saat Anda bermain game, semua panggilan masuk ke kartu SIM tanpa layanan data seluler akan otomatis ditolak.
+2. Anda akan melihat notifikasi tentang panggilan tak terjawab dan orang lain akan mendengar pesan audio yang mengatakan bahwa Anda sedang sibuk.
+3. Fitur ini hanya didukung oleh operator seluler di China."</string>
+    <string name="function_auto_reject_title">Tolak panggilan VoLTE ke kartu SIM tanpa layanan data</string>
     <string name="function_close">Mati</string>
     <string name="function_gwsd_detail">"Tentang fitur ini: 
  1. Ketika Anda menggunakan data seluler pada SIM data atau kartu SIM biasa yang terhubung ke jaringan VoLTE, koneksi tidak akan terganggu oleh panggilan masuk hingga Anda mengangkatnya.
@@ -1266,6 +1311,11 @@ Nomor ini akan ditambahkan ke pengecualian, namun panggilan yang sebelumnya terb
     <string name="gb_description_image_button_answer">Jawab</string>
     <string name="gb_description_image_button_reject">Tolak</string>
     <string name="gb_description_image_button_video_answer">Panggilan video</string>
+    <string name="gb_dialog_game_uninstall_deleting">Menguninstal…</string>
+    <string name="gb_dialog_game_uninstall_loading">Memuat permainan…</string>
+    <string name="gb_dialog_game_uninstall_tips_message">Seluruh data apl akan dihapus.</string>
+    <string name="gb_dialog_game_uninstall_tips_message_xspace">Seluruh data apl dan apl ganda yang tertaut akan dihapus.</string>
+    <string name="gb_dialog_game_uninstall_tips_title">Uninstal %s</string>
     <string name="gb_dialog_record_way_ai">Rekaman AI disimpan dalam kotak permainan dan disimpan di sana selama 7 hari.</string>
     <string name="gb_dialog_record_way_finish">Selesai</string>
     <string name="gb_dialog_record_way_manual">Rekam video hingga 30 detik secara manual</string>
@@ -1297,6 +1347,10 @@ Nomor ini akan ditambahkan ke pengecualian, namun panggilan yang sebelumnya terb
     <string name="gb_game_video_type_manual">Manual</string>
     <string name="gb_get_gift_right_now">Masuk sekarang</string>
     <string name="gb_global_settings">Setelan umum</string>
+    <string name="gb_gpu_driver_btn_update">Periksa pembaruan</string>
+    <string name="gb_gpu_driver_update">GPU Driver Updater</string>
+    <string name="gb_gpu_driver_update_app">Perbarui</string>
+    <string name="gb_gpu_driver_update_app_tips">Versi sekarang sudah yang terbaru</string>
     <string name="gb_have_signed">Masuk hari ini</string>
     <string name="gb_manual_record_dialog_del_video_message">Hapus video terpilih secara permanen?</string>
     <string name="gb_msg_completely_shielded">Sembunyikan pesan</string>
@@ -1318,6 +1372,9 @@ Nomor ini akan ditambahkan ke pengecualian, namun panggilan yang sebelumnya terb
     <string name="gb_signed_gift_loading_summary">Tunggu sebentar…</string>
     <string name="gb_signed_title">Masuk bulan ini</string>
     <string name="gb_sound_audition">Coba</string>
+    <string name="gb_storage_game_uninstall">Uninstal permainan</string>
+    <string name="gb_storage_summary">Jangan tampilkan permainan yang ditambahkan ke kotak permainan pada Layar utama</string>
+    <string name="gb_storage_title">Pindahkan permainan yang ditambahkan dari Layar utama</string>
     <string name="gb_voice_change_settinged">Pengubah suara dihidupkan</string>
     <string name="gb_voice_changer_cartoon">Kartun</string>
     <string name="gb_voice_changer_dlg_button_agree">Izinkan</string>
@@ -1338,7 +1395,7 @@ Nomor ini akan ditambahkan ke pengecualian, namun panggilan yang sebelumnya terb
     <string name="gb_xunyou_gift_type_one">Fitur percepat 1 hari Xunyou</string>
     <string name="gb_xunyou_gift_type_three">Fitur percepat 3 hari Xunyou</string>
     <string name="gb_xunyou_gift_type_two">Fitur percepat 2 hari Xunyou</string>
-    <string name="gdpr_msg">&lt;Data>Untuk dapat menggunakan fitur dasar apl Keamanan, Anda harus menyetujui bahwa Xiaomi dapat mengumpulkan, memproses, dan menggunakan data pribadi Anda, termasuk info tentang cara Anda menggunakan fitur Keamanan (contoh: statistik penggunaan data seluler, info tentang malware, dan juga info dasar perangkat Anda) dan tipe info lainnya yang tercantum di &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Kebijakan Privasi&lt;/a> kami.&lt;/Data></string>
+    <string name="gdpr_msg"><Data>Untuk dapat mendeteksi risiko keamanan dan melindungi data Anda, kamu butuh untuk mengumpulkan informasi yang diperlukan mengenai perangkat Anda. Baca dan setujui &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Kebijakan Privasi&lt;/a> kami sebelum menggunakan layanan kami. Jika Anda tidak mengizinkan kami untuk mengumpulkan informasi tersebut, Anda tetap dapat menggunakan apl ini, namun beberapa fitur tidak tersedia untuk Anda.</Data></string>
     <string name="get_sys_info">Mendapatkan info…</string>
     <string name="gigabyteShort">GB</string>
     <string name="global_wa_setting_alert_dialog_content">Anda dapat membebaskan hingga %s</string>
@@ -1397,8 +1454,18 @@ Video akan disimpan di Game Turbo > Momen penting."</string>
     <string name="gs_show_way_vertical">Vertikal</string>
     <string name="gs_sign_notification">Ingatkan untuk masuk pukul 8 malam setiap harinya</string>
     <string name="gs_slip_gamebox_detail">Gunakan slider atau usap dari atas tepi layar untuk menampilkan panel pintasan</string>
+    <string name="gtb_dialog_btn_close">Matikan</string>
+    <string name="gtb_dialog_btn_open">Hidupkan</string>
+    <string name="gtb_dialog_hint_smart_5g">Anda dapat hidupkan dan matikan fitur ini di Game Turbo > Setelan.</string>
+    <string name="gtb_dialog_summary_smart_5g">Setiap kali Game Turbo mendeteksi jaringan 5G, itu dapat menghubungkan perangkat Anda ke jaringan terbaik yang tersedia untuk mengurangi penundaan jaringan. Hidupkan fitur ini sekarang?</string>
+    <string name="gtb_dialog_title_smart_5g">Optimalisasi jaringan 5G</string>
     <string name="gtb_exit_game_to_gtb">Buka kotak permainan</string>
     <string name="gtb_exit_game_to_home">Kembali ke Layar utama</string>
+    <string name="gtb_setting_item_summary_smart_5g">Setiap kali Game Turbo mendeteksi jaringan 5G, itu dapat menghubungkan perangkat Anda ke jaringan terbaik yang tersedia untuk mengurangi penundaan jaringan</string>
+    <string name="gtb_setting_item_summary_smart_wlan_speed" formatted="false">Meningkatkan kecepatan koneksi 10%-20% saat terhubung ke Mi/Redmi router</string>
+    <string name="gtb_setting_item_title_smart_5g">Optimalisasi jaringan 5G</string>
+    <string name="gtb_setting_item_title_smart_wlan_speed">Peningkat kecepatan Mi WiFi</string>
+    <string name="gtb_wlan_speed_tips">Menggunakan Mi WiFi…</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Operator salah?&lt;/U>&lt;/font>"</string>
     <string name="guide_operator_text">"Operator saat ini: "</string>
     <string name="guide_quck_open">Hidupkan</string>
@@ -1489,6 +1556,7 @@ Operator akan mengenakan biaya tambahan jika Anda menggunakan data seluler lagi.
     <string name="list_empty_text">Kosong</string>
     <string name="load_only_under_wlan">Hanya muat dengan Wi-Fi</string>
     <string name="loading">Tunggu sebentar…</string>
+    <string name="loading_text_format" formatted="false">Menghapus info pribadi dari foto (%d/%d)…</string>
     <string name="local_ip_exception_summary">Tidak bisa mendapatkan alamat IP lokal. Lapor masalah ini ke MIUI, pergi ke apl Masukan dan kirim log dari perangkat Anda.</string>
     <string name="lock_all_title">Kunci seluruh aplikasi</string>
     <string name="lock_mode_title">Setelan penguncian</string>
@@ -1617,6 +1685,7 @@ untuk respons"</string>
     <string name="memory_check_content">%s dibebaskan</string>
     <string name="memory_clean_memory_size_tip">Cache</string>
     <string name="memory_clean_no_need_clean">Semuanya terlihat baik</string>
+    <string name="memory_clean_no_need_clean_1" formatted="false">%s dibebaskan. Perangkat %d%% lebih cepat.</string>
     <string name="memory_clear_unused">Bersihkan cache (%s)</string>
     <string name="memory_title">Tersedia: %1$s\u0009\u0009Total: %2$s</string>
     <string name="menu_add">Tambah</string>
@@ -1657,11 +1726,14 @@ untuk respons"</string>
     <string name="menu_summary_antivirus">Cari virus di perangkat Anda</string>
     <string name="menu_summary_app_manager">Perbarui dan uninstal apl</string>
     <string name="menu_summary_garbage_cleanup">Tak ada sampah ditemukan</string>
-    <string name="menu_summary_garbage_cleanup_ex">Membersihkan %s sampah</string>
+    <string name="menu_summary_garbage_cleanup_ex">Membebaskan %s</string>
+    <string name="menu_summary_garbage_cleanup_new">%d%% dari ruang penyimpanan</string>
     <string name="menu_summary_networkassistants">Kelola paket data Anda</string>
     <string name="menu_summary_networkassistants_2">Melampaui batas</string>
     <string name="menu_summary_networkassistants_3">Cukup data tersisa</string>
     <string name="menu_summary_networkassistants_4">Kehabisan data</string>
+    <string name="menu_summary_optimize_manage">Bersihkan memori</string>
+    <string name="menu_summary_optimize_manage_1">Buat perangkat %d%% lebih cepat</string>
     <string name="menu_summary_power_manager">Penghemat baterai memberi Anda lebih banyak waktu di antara pengisian</string>
     <string name="menu_summary_power_manager_1">Baterai penuh</string>
     <string name="menu_summary_power_manager_2">%s tersisa</string>
@@ -1681,7 +1753,8 @@ untuk respons"</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_optimize_manage">Peningkat kecepatan</string>
-    <string name="menu_text_power_manager">Baterai &amp; performa</string>
+    <string name="menu_text_optimize_manage_1">Peningkat kecepatan</string>
+    <string name="menu_text_power_manager">Baterai</string>
     <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Hapus dari pengecualian</string>
     <string name="menu_white">Tambah ke pengecualian</string>
@@ -1797,6 +1870,9 @@ Coba gunakan kabel Ethernet lainnya untuk dihubungkan ke router. Jika Anda mencu
     <string name="notification_channel_battery">Baterai</string>
     <string name="notification_exit_power_save_mode">Penghemat baterai dimatikan</string>
     <string name="notification_exit_power_save_mode_subtitle">Baterai telah %s terisi daya.</string>
+    <string name="notification_garbage_clean_botton_text">Bersihkan</string>
+    <string name="notification_garbage_clean_hint">Bersihkan ruang penyimpanan</string>
+    <string name="notification_garbage_clean_size">Bebaskan %s</string>
     <string name="notification_garbage_cleanup_summary">Bersihkan sampah (%s) untuk mempercepat perangkat</string>
     <string name="notification_garbage_cleanup_title">Bersihkan berkas sampah</string>
     <string name="notification_low_battery_action_btn">Hidupkan</string>
@@ -1808,6 +1884,8 @@ Coba gunakan kabel Ethernet lainnya untuk dihubungkan ke router. Jika Anda mencu
     <string name="notification_masked_item">Bagaimana cara menyembunyikan konten notifikasi?</string>
     <string name="notification_masked_subtitle">Gunakan Kunci aplikasi untuk menyembunyikan konten notifikasi untuk aplikasi terpilih</string>
     <string name="notification_summary_cmcc_app_check">Sentuh untuk lihat rincian.</string>
+    <string name="notification_whatsapp_clean_button_text">Bersihkan</string>
+    <string name="notification_whatsapp_clean_size">Cache WhatsApp %s</string>
     <string name="notify_channel_mipush">Pesan dorong keamanan</string>
     <string name="notify_channel_name_behavior">Riwayat perilaku</string>
     <string name="notify_channel_name_security">Keamanan sistem</string>
@@ -1842,6 +1920,8 @@ Coba gunakan kabel Ethernet lainnya untuk dihubungkan ke router. Jika Anda mencu
     <string name="om_locked_apps_summary">Apl terkunci akan diabaikan oleh peningkat kecepatan.</string>
     <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">Peningkat kecepatan diperlukan</string>
+    <string name="om_optimzing_big_button_text">Tingkatkan kecepatan</string>
+    <string name="om_running_app_info_summary">Bebaskan %s</string>
     <string name="om_running_locked_apps">Apl berjalan terkunci</string>
     <string name="om_running_system_apps">Menjalankan apl sistem</string>
     <string name="om_running_third_apps">Menjalankan apl pihak ketiga</string>
@@ -1856,6 +1936,13 @@ Coba gunakan kabel Ethernet lainnya untuk dihubungkan ke router. Jika Anda mencu
     <string name="om_settings_notify_manage">Notifikasi</string>
     <string name="om_settings_speed_up_auto">Otomatis meningkatkan kecepatan</string>
     <string name="om_settings_title">Setelan</string>
+    <string name="om_shortcut_added_toast_text">Berhasil ditambahkan</string>
+    <string name="om_shortcut_dialog_summary">Dengan RAM Jet, Anda dapat membersihkan memori dan meningkatkan kecepatan perangkat dalam satu ketukan. Tambahkan RAM Jet ke Layar utama Anda?</string>
+    <string name="om_shortcut_dialog_title">RAM Jet</string>
+    <string name="once_settings_camera_ttile">Berbagi tanpa metadata</string>
+    <string name="once_settings_location_title">Berbagi tanpa info lokasi</string>
+    <string name="once_settings_subtitle">Anda ingin berbagi item terpilih dengan cara yang seperti apa?</string>
+    <string name="once_settings_title">Perlindungan privasi</string>
     <string name="one_address_choose_hint">%s1</string>
     <string name="open_activity_err">Tidak menemukan aplikasi</string>
     <string name="open_app">Buka</string>
@@ -1963,7 +2050,7 @@ Coba gunakan kabel Ethernet lainnya untuk dihubungkan ke router. Jika Anda mencu
     <string name="pc_search_keywords_battery_use">Konsumsi baterai</string>
     <string name="pc_search_keywords_capacity">Kapasitas baterai</string>
     <string name="pc_search_keywords_property">Performa</string>
-    <string name="pc_settings_title">Setelan Baterai &amp; performa</string>
+    <string name="pc_settings_title">Baterai</string>
     <string name="pc_statistics_battery_last_hour_minute">%1$dj %2$dm tersisa</string>
     <string name="pc_statistics_battery_use_hour_minute">%1$dj %2$dm sejak terakhir kali diisi daya</string>
     <string name="pc_statistics_battery_use_summary">%s sejak terakhir kali diisi daya</string>
@@ -2101,7 +2188,7 @@ Coba gunakan kabel Ethernet lainnya untuk dihubungkan ke router. Jika Anda mencu
     <string name="power_center_super_save_title_text">Penghemat baterai ultra</string>
     <string name="power_center_time_to_boot">Waktu daya hidup</string>
     <string name="power_center_time_to_shutdown">Waktu daya mati</string>
-    <string name="power_center_title">Baterai &amp; performa</string>
+    <string name="power_center_title">Baterai</string>
     <string name="power_consume_hardware_total_format">Perangkat keras: %s</string>
     <string name="power_consume_other">Lainnya</string>
     <string name="power_consume_rank_hardware">Perangkat keras</string>
@@ -2195,7 +2282,7 @@ Coba gunakan kabel Ethernet lainnya untuk dihubungkan ke router. Jika Anda mencu
     <string name="power_settings_number">Persentase</string>
     <string name="power_settings_saver_title">Penghemat daya</string>
     <string name="power_settings_shape">Grafik</string>
-    <string name="power_settings_title">Setel</string>
+    <string name="power_settings_title">Setelan</string>
     <string name="power_settings_top">Bar atas</string>
     <string name="power_superpower_title_systemui_highpower">Waktu tersisa</string>
     <string name="power_superpower_title_systemui_lowpower">Hubungkan pengisi daya</string>
@@ -2546,10 +2633,18 @@ Selama kalibrasi, MIUI akan kirim pesan teks ke operator untuk menerima templat 
     <string name="settings">Setelan penggunaan data</string>
     <string name="settings_battery_consume_abnormal_summary">Terima notifikasi sangat baterai cepat terkuras</string>
     <string name="settings_battery_consume_abnormal_title">Notifikasi pemborosan baterai</string>
+    <string name="settings_camera_subtitle_no">Tidak ada metadata</string>
     <string name="settings_category_other">Setelan lainnya</string>
     <string name="settings_category_overheat">Panas</string>
     <string name="settings_choice_no_notification">Mati</string>
+    <string name="settings_image_camera_summary">Model perangkat, metadata, dll.</string>
+    <string name="settings_location_subtitle_no">Tidak ada info lokasi</string>
     <string name="settings_power_save_ontime_title">Jadwal</string>
+    <string name="settings_share_enable_summary">Item yang Anda bagikan di WeChat akan ditampilkan dengan lencana MIUI</string>
+    <string name="settings_share_info">Berikut ini adalah pilihan aman dalam berbagi untuk item yang dibagikan dari Galeri dan File Manager:</string>
+    <string name="settings_show_detail">Lihat rincian</string>
+    <string name="settings_tip">Pergi ke Galeri > Setelan untuk melihat lebih banyak pilihan</string>
+    <string name="settings_title">Aman dalam berbagi</string>
     <string name="shield_keyboard_detail">Ketuk dua kali tombol untuk menghidupkan kembali</string>
     <string name="shield_keyboard_summary">Batasi tombol dan gerakan layar penuh selama permainan</string>
     <string name="shield_keyboard_title">Batasi tombol dan gerakan</string>
@@ -3009,6 +3104,8 @@ Proses format akan menghapus konten yang ada pada ^2. Untuk menghindari kehilang
     <string name="text_button">Mengerti</string>
     <string name="text_cycle_day">%s</string>
     <string name="text_day" />
+    <string name="text_done">Oke</string>
+    <string name="text_security">Privasi</string>
     <string name="thermal_tips_message">Bermain di mode Performa dapat menyebabkan masalah panas.</string>
     <string name="thermal_tips_title">Perhatian</string>
     <string name="third_application">Aplikasi terinstal</string>
@@ -3235,6 +3332,9 @@ Sisa data bulan ini adalah akumulasi sisa data bulan lalu dan paket data bulan i
     <string name="vb_advanced_settings_after_open">Setelah</string>
     <string name="vb_advanced_settings_before_open">Sebelum</string>
     <string name="vb_advanced_settings_pic_stronger_desc">Buat benda bergerak menjadi lebih tajam dengan peningkatan animasi. Fitur ini membutuhkan konsumsi daya yang lebih tinggi.</string>
+    <string name="vb_fps_settings">Rasio menyegarkan layar otomatis</string>
+    <string name="vb_fps_settings_tips">Fitur ini menyesuaikan rasio penyegaran layar ke kecepatan bingkai video, yang mana akan menghemat baterai dan membuat pemutaran menjadi lebih lancar. Mengaktifkan komentar mengambang akan mematikan \"Rasio menyegarkan layar otomatis\".</string>
+    <string name="vb_quick_func_auto_bgm">Mengenali musik latar belakang</string>
     <string name="vb_quick_func_hangup_listening">Mainkan suara video dengan layar mati</string>
     <string name="vb_quick_func_screen_capture">Screenshot</string>
     <string name="vb_quick_func_screen_record">Rekam</string>
@@ -3246,9 +3346,19 @@ Sisa data bulan ini adalah akumulasi sisa data bulan lalu dan paket data bulan i
     <string name="vb_video_effects_display_style">Gaya</string>
     <string name="vb_video_effects_setting_black_white">H&amp;P</string>
     <string name="vb_video_effects_setting_cinema">Bioskop</string>
+    <string name="vb_video_effects_setting_girl">Merona</string>
+    <string name="vb_video_effects_setting_gorgeous">Vibrant</string>
+    <string name="vb_video_effects_setting_green_orange">Jingga</string>
+    <string name="vb_video_effects_setting_grim">Dingin</string>
+    <string name="vb_video_effects_setting_hdr">HDR</string>
+    <string name="vb_video_effects_setting_knight">Logam</string>
+    <string name="vb_video_effects_setting_mecha">Robot</string>
+    <string name="vb_video_effects_setting_nostalgia">Nostalgia</string>
     <string name="vb_video_effects_setting_old_movie">Retro</string>
     <string name="vb_video_effects_setting_outside">Luar ruangan</string>
     <string name="vb_video_effects_setting_raw">Asli</string>
+    <string name="vb_video_effects_setting_solar">Pudar</string>
+    <string name="vb_video_effects_setting_warmth">Hangat</string>
     <string name="vb_video_effects_settings_liquid">Kejernihan</string>
     <string name="vb_video_effects_settings_stereo">Volume</string>
     <string name="vb_video_effects_srs_premium_sound">Suara</string>

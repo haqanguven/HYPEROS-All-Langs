@@ -65,6 +65,10 @@
     <string name="about">Informazioni</string>
     <string name="action_settings">Impostazioni</string>
     <string name="ad_install">Installa</string>
+    <string name="add_download_download">Scarica</string>
+    <string name="add_download_error_not_support">Questo collegamento non è supportato</string>
+    <string name="add_download_text_hint">Inserisci un collegamento HTTP/HTTPS</string>
+    <string name="add_download_title">Aggiungi URL</string>
     <string name="all_downloads">Tutti i download</string>
     <string name="all_fileter">Tutti</string>
     <string name="all_share_files_content">I file che hai selezionato sono già stati eliminati.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Annulla</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Impostazioni di rete</string>
+    <string name="dialog_clipboard_permission_message">Consentire a Download di accedere agli elementi negli appunti per aggiungere automaticamente gli URL copiati?</string>
+    <string name="dialog_clipboard_permission_title">Permessi richiesti</string>
     <string name="dialog_confirm_delete_checkbox_message">Elimina anche i file locali</string>
     <string name="dialog_confirm_delete_the_download_item_message">Elimina queste attività</string>
     <string name="dialog_file_missing_title">Impossibile aprire il file</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Scarica utilizzando la connessione dati mobile</string>
     <string name="downloaded">Download completato</string>
     <string name="downloaded_empty">Vuoto</string>
+    <string name="downloaded_tab_hint">Puoi visualizzare gli elementi scaricati in Gestore File</string>
     <string name="downloading">Download in corso…</string>
     <string name="downloading_empty">Vuoto</string>
     <string name="downloads_operating">Elaborazione…</string>
-    <string name="durationDayHour">%1$d g %2$d o</string>
-    <string name="durationDayHours">%1$d g %2$d o</string>
-    <string name="durationHourMinute">%1$d o %2$d min</string>
-    <string name="durationHourMinutes">%1$d o %2$d min</string>
-    <string name="durationMinute">%1$d minuto</string>
-    <string name="durationMinuteSecond">%1$d min %2$d sec</string>
-    <string name="durationMinuteSeconds">%1$d min %2$d sec</string>
-    <string name="durationMinutes">%1$d minuti</string>
-    <string name="durationSecond">%1$d secondo</string>
-    <string name="durationSeconds">%1$d secondi</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Elimina</string>
     <string name="editmode_menu_share">Condividi</string>
     <string name="extend">Altro</string>
@@ -148,7 +148,7 @@
     <string name="hint">Attenzione</string>
     <string name="info_download_details">Dettagli</string>
     <string name="info_download_progress">Mostra progressi download</string>
-    <string name="info_flow_only_load_wifi">Carica contenuti solo quando connesso a Wi-Fi</string>
+    <string name="info_flow_only_load_wifi">Carica contenuti solo quando connesso al Wi-Fi</string>
     <string name="info_flow_setting">Impostazioni contenuti</string>
     <string name="info_flow_show">Mostra i contenuti consigliati</string>
     <string name="install">Installa</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Limite dimensione download</string>
     <string name="pref_summary_any_bytes_popup">Utilizza sempre la connessione Wi-Fi per scaricare i file</string>
     <string name="pref_summary_enable_max_bytes_popup">Mostra una notifica quando viene utilizzata la connessione dati mobile per scaricare dei contenuti</string>
-    <string name="pref_summary_max_bytes_limit_format">Attendi il Wi-Fi se la dimensione del file supera %s</string>
     <string name="pref_summary_no_limit_popup">Illimitato</string>
     <string name="pref_title_enable_max_bytes_popup">Mostra avviso uso dati</string>
     <string name="preferences_title">Impostazioni</string>
+    <string name="privacy_agree_dialog_msg">"&lt;Data>Benvenuto in Download! Puoi utilizzare questa app per scaricare file.&lt;BR>Download deve raccogliere le informazioni personali necessarie per fornirti i servizi che generano statistiche sui download. Puoi scoprire come gestiamo le informazioni che raccogliamo nella nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a>.&lt;BR>Leggi e accetta il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a> e la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> prima di utilizzare Download.&lt;BR>Puoi revocare il tuo consenso all'Informativa sulla privacy di Download in qualsiasi momento nelle Impostazioni. Se non accetti la nostra Informativa sulla privacy, non sarai in grado di utilizzare alcune funzionalità di questa app; tuttavia, le sue funzionalità di base saranno comunque disponibili.&lt;/Data>"</string>
+    <string name="privacy_agree_dialog_title">Termini e condizioni</string>
+    <string name="privacy_revoke_dialog_later">Annulla</string>
+    <string name="privacy_revoke_dialog_msg">"Disattivando l'interruttore, ritiri il tuo consenso all'Informativa sulla privacy di Download. Cesseremo di raccogliere le tue informazioni personali. Le informazioni personali già raccolte e conservate saranno cancellate entro il periodo specifico come richiesto dalle leggi applicabili. Download deve raccogliere le informazioni personali necessarie per fornirti i servizi che generano statistiche di download. La revoca del consenso alla sua Informativa sulla privacy sarà considerata come rifiuto di accettare tali servizi basati sulle informazioni personali raccolte."</string>
+    <string name="privacy_revoke_dialog_ok">Revoca</string>
+    <string name="privacy_revoke_dialog_title">Revoca del consenso</string>
+    <string name="privacy_revoke_label">Revoca del consenso</string>
+    <string name="privacy_revoke_msg">"Disattivando l'interruttore, ritiri il tuo consenso all'Informativa sulla privacy di Download."</string>
+    <string name="privacy_revoke_nonetwork_msg">Il dispositivo deve connettersi alla rete per revocare il consenso. Verifica le impostazioni di rete e riprova.</string>
+    <string name="privacy_revoke_nonetwork_ok">Ho capito</string>
+    <string name="privacy_revoke_nonetwork_title">Impossibile connettersi alla rete</string>
     <string name="privacy_tip_cancel">Annulla</string>
     <string name="privacy_tip_ok">OK</string>
     <string name="rank">Classifica</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">Connettiti ad una rete Wi-Fi per scaricare questo elemento</string>
     <string name="total_speedup">Incremento velocità (totale)</string>
     <string name="version">Versione %s</string>
-    <string name="security_ui_title">Annunci di sicurezza</string>
 </resources>

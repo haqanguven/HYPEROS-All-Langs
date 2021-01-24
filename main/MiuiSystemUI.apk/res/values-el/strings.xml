@@ -771,7 +771,7 @@ Bits ανά δείγμα"</string>
     <string name="how_to_use_drawer">Πως να ανοίξετε το μενού ολίσθησης</string>
     <string name="how_to_use_drawer_summary">Σαρώστε προς τα δεξιά στο επάνω τμήμα της οθόνης</string>
     <string name="how_to_use_fsg">Μπορείτε να εκτελέστε τις ενέργειες αυτές με τις χειρονομίες:</string>
-    <string name="ime_security_warning">Αυτή η μέθοδος εισαγωγής ενδέχεται να έχει τη δυνατότητα συλλογής όλων των κειμένων που πληκτρολογείτε, συμπεριλαμβανομένων των προσωπικών δεδομένων, όπως κωδικών και αριθμών πιστωτικών καρτών. Αυτό προέρχεται από την εφαρμογή %1$s. Χρήση αυτής της μεθόδου εισαγωγής;</string>
+    <string name="ime_security_warning">Αυτή η μέθοδος εισαγωγής μπορεί να συλλέξει όλο το κείμενο που γράφετε, περιλαμβανομένων των προσωπικών δεδομένων, όπως τους κωδικούς και τους αριθμούς πιστωτικών καρτών. Προέρχεται από την εφαρμογή %1$s. Χρήση αυτής της μεθόδου εισαγωγής;</string>
     <string name="ime_security_warning_global">Οι μέθοδοι εισαγωγής ενδέχεται να συλλέγουν όλα τα στοιχεία που πληκτρολογείτε, συμπεριλαμβανομένων των προσωπικών δεδομένων, όπως κωδικών και αριθμών πιστωτικών καρτών. Χρήση της %1$s;</string>
     <string name="ime_security_warning_title_global">Ενεργοποίηση πληκτρολογίου</string>
     <string name="immediately_destroy_activities">Μην διατηρείτε δραστηριότητες</string>
@@ -1072,7 +1072,7 @@ d MMMM"</string>
     <string name="miui_ringer_standard_description">Σίγαση κουδουνίσματος για εισερχόμενες κλήσεις και ειδοποιήσεις</string>
     <string name="miui_ringer_total">Μην ενοχλείτε</string>
     <string name="miui_ringer_total_description">Σίγαση ήχων και απενεργοποίηση δονήσεων για όλα εκτός από το ξυπνητήρι</string>
-    <string name="miui_screen_rotation_freeze_message">Η αυτόματη περιστροφή είναι απενεργοποιημένη.</string>
+    <string name="miui_screen_rotation_freeze_message">Κατεύθυνση κλειδωμένης οθόνης σε οριζόντιο προσανατολισμό</string>
     <string name="miui_toast_zen_dnd_to_off">Το DND τώρα απενεργοποιήθηκε. Έγινε επαναφορά ήχων και δονήσεων σε κανονική κατάσταση.</string>
     <string name="miui_toast_zen_standard_to_off">Η Αθόρυβη λειτουργία απενεργοποιήθηκε. Έγινε επαναφορά ήχων κλήσης σε κανονική κατάσταση.</string>
     <string name="miui_toast_zen_standard_to_off_when_shield_media">Η Αθόρυβη λειτουργία απενεργοποιήθηκε. Οι ήχοι κλήσεων, καθώς και οι ήχοι ειδοποιήσεων και πολυμέσων θα αναπαραχθούν.</string>
@@ -1475,7 +1475,7 @@ d MMMM"</string>
     <string name="quick_settings_rssi_emergency_only">Μόνο κλήσεις έκτακτης ανάγκης</string>
     <string name="quick_settings_rssi_label">RSSI</string>
     <string name="quick_settings_screenbutton_label">Κουμπιά</string>
-    <string name="quick_settings_screenlock_label">Κλείδωμα οθόνης</string>
+    <string name="quick_settings_screenlock_label">Κλείδωμα</string>
     <string name="quick_settings_screenshot_label">Στιγμιότυπο οθόνης</string>
     <string name="quick_settings_secondary_label_until">Μέχρι %s</string>
     <string name="quick_settings_settings_label">Ρυθμίσεις</string>
@@ -1844,6 +1844,14 @@ d MMM"</string>
     <string name="usb_notification_mtp_ticker_text">Συνδέθηκε ως συσκευή πολυμέσων (αρχεία)</string>
     <string name="usb_notification_ptp_info">Γίνεται πρόσβαση σε φωτογραφίες αποθηκευμένες στην συσκευή</string>
     <string name="usb_notification_ptp_ticker_text">Συνδέθηκε ως συσκευή πολυμέσων (φωτογραφίες)</string>
+    <string name="usb_port_overheated_dialog_content">Η θύρα φόρτισης έχει υπερθερμανθεί. Αποσυνδέστε το φορτιστή από τη συσκευή σας και ελέγξτε κατά πόσο η θύρα φόρτισης είναι καθαρή.</string>
+    <string name="usb_port_overheated_notification_content">Αποσυνδέστε τον φορτιστή από τη συσκευή σας και ελέγξτε κατά πόσο η θύρα φόρτισης είναι καθαρή.</string>
+    <string name="usb_port_overheated_title">Η θύρα φόρτισης έχει υπερθερμανθεί. Αποσυνδέστε το φορτιστή.</string>
+    <string name="usb_port_short_circuit_dialog_content">Έχει περιοριστεί η φόρτιση της συσκευής σας. Αποσυνδέστε τον φορτιστή και σκουπίστε τη θύρα φόρτισης για αφαίρεση όλων των υγρών και επαναφορά δυνατότητας φόρτισης.</string>
+    <string name="usb_port_short_circuit_notification_content">Αποσυνδέστε τον φορτιστή και σκουπίστε τη θύρα φόρτισης για αφαίρεση όλων των υγρών.</string>
+    <string name="usb_port_short_circuit_recovered_content">Μπορείτε να την χρησιμοποιήσετε για φόρτιση ή σύνδεση με άλλες συσκευές.</string>
+    <string name="usb_port_short_circuit_recovered_title">Η θύρα φόρτισης λειτουργεί κανονικά τώρα</string>
+    <string name="usb_port_short_circuit_title">Υπάρχει ατμός στη θύρα φόρτισης</string>
     <string name="usb_preference_title">Επιλογές μεταφοράς αρχείων USB</string>
     <string name="usb_ptp_text">Φωτογραφίες</string>
     <string name="usb_share_net_info">Χρήση σύνδεσης Ίντερνετ του υπολογιστή</string>

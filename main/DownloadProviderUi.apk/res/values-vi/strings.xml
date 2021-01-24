@@ -65,6 +65,10 @@
     <string name="about">Giới thiệu</string>
     <string name="action_settings">Cài đặt</string>
     <string name="ad_install">Cài đặt</string>
+    <string name="add_download_download">Tải xuống</string>
+    <string name="add_download_error_not_support">Liên kết này không được hỗ trợ</string>
+    <string name="add_download_text_hint">Nhập liên kết HTTP/HTTPS</string>
+    <string name="add_download_title">Thêm URL</string>
     <string name="all_downloads">Tất cả tải xuống</string>
     <string name="all_fileter">Tất cả</string>
     <string name="all_share_files_content">Tập tin mà bạn chọn đã bị xóa.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Hủy</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Cài đặt mạng</string>
+    <string name="dialog_clipboard_permission_message">Cho phép Tải xuống truy cập các mục trong bộ nhớ tạm để tự động thêm các URL đã sao chép?</string>
+    <string name="dialog_clipboard_permission_title">Yêu cầu quyền</string>
     <string name="dialog_confirm_delete_checkbox_message">Xóa tập tin trên máy</string>
     <string name="dialog_confirm_delete_the_download_item_message">Xóa các tác vụ</string>
     <string name="dialog_file_missing_title">Không thể mở tập tin</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Tải xuống bằng mạng di động</string>
     <string name="downloaded">Tải xuống hoàn tất</string>
     <string name="downloaded_empty">Trống</string>
+    <string name="downloaded_tab_hint">Bạn có thể xem các mục đã tải xuống trong Quản lý Tập tin</string>
     <string name="downloading">Đang tải xuống…</string>
     <string name="downloading_empty">Trống</string>
     <string name="downloads_operating">Đang tiến hành…</string>
-    <string name="durationDayHour">%1$d ngày %2$d giờ</string>
-    <string name="durationDayHours">%1$d ngày %2$d giờ</string>
-    <string name="durationHourMinute">%1$d giờ %2$d phút</string>
-    <string name="durationHourMinutes">%1$d giờ %2$d phút</string>
-    <string name="durationMinute">%1$d phút</string>
-    <string name="durationMinuteSecond">%1$d phút %2$d giây</string>
-    <string name="durationMinuteSeconds">%1$d phút %2$d giây</string>
-    <string name="durationMinutes">%1$d phút</string>
-    <string name="durationSecond">%1$d giây</string>
-    <string name="durationSeconds">%1$d giây</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Xóa</string>
     <string name="editmode_menu_share">Chia sẻ</string>
     <string name="extend">Thêm</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Giới hạn kích thước tải xuống</string>
     <string name="pref_summary_any_bytes_popup">Luôn chờ kết nối Wi-Fi để tải xuống tập tin</string>
     <string name="pref_summary_enable_max_bytes_popup">Hiển thị thông báo popup khi sử dụng kết nối dữ liệu di động để tải nội dung</string>
-    <string name="pref_summary_max_bytes_limit_format">Chờ kết nối Wi-Fi khi kích thước tập tin vượt quá %s</string>
     <string name="pref_summary_no_limit_popup">Không giới hạn</string>
     <string name="pref_title_enable_max_bytes_popup">Hiển thị nhắc nhở sử dụng dữ liệu</string>
     <string name="preferences_title">Cài đặt</string>
+    <string name="privacy_agree_dialog_msg">&lt;Data>Chào mừng sử dụng Tải xuống! Bạn có thể sử dụng ứng dụng này để tải xuống tập tin.&lt;BR>Tải xuống cần thu thập thông tin cá nhân cần thiết để cung cấp cho bạn dịch vụ tạo thống kê tải xuống. Bạn có thể tìm hiểu cách chúng tôi xử lý thông tin thu thập được trong &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> của chúng tôi.&lt;BR>Đọc và đồng ý với &lt;a href=\"%2$s\">Thỏa thuận Người dùng&lt;/a> và &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> của chúng tôi trước khi sử dụng Tải xuống.&lt;BR>Bạn có thể rút lại chấp thuận của mình đối với Chính sách Riêng tư của Tải xuống trong Cài đặt bất cứ lúc nào. Nếu bạn không đồng ý với Chính sách Riêng tư của chúng tôi, bạn sẽ không thể sử dụng một số tính năng của ứng dụng này; tuy nhiên, chức năng cơ bản vẫn sẽ khả dụng cho bạn.&lt;/Data></string>
+    <string name="privacy_agree_dialog_title">Điều khoản và Điều kiện</string>
+    <string name="privacy_revoke_dialog_later">Hủy</string>
+    <string name="privacy_revoke_dialog_msg">Bằng cách tắt, bạn rút lại chấp thuận của mình đối với Chính sách Riêng tư của Tải xuống. Chúng tôi sẽ dừng thu thập thông tin cá nhân của bạn. Thông tin cá nhân đã được thu thập và lưu giữ sẽ bị xóa trong khoảng thời gian cụ thể theo yêu cầu của luật hiện hành. Tải xuống cần thu thập thông tin cá nhân cần thiết để cung cấp cho bạn dịch vụ tạo thống kê tải xuống. Rút lại chấp thuận đối với Chính sách Riêng tư được coi là từ chối chấp nhận các dịch vụ đó dựa trên thông tin cá nhân được thu thập.</string>
+    <string name="privacy_revoke_dialog_ok">Rút lại</string>
+    <string name="privacy_revoke_dialog_title">Rút lại chấp thuận</string>
+    <string name="privacy_revoke_label">Rút lại chấp thuận</string>
+    <string name="privacy_revoke_msg">Bằng cách tắt, bạn rút lại chấp thuận của mình đối với Chính sách Riêng tư của Tải xuống.</string>
+    <string name="privacy_revoke_nonetwork_msg">Thiết bị cần kết nối mạng để bạn có thể rút lại chấp thuận. Kiểm tra cài đặt mạng và thử lại.</string>
+    <string name="privacy_revoke_nonetwork_ok">Tôi biết</string>
+    <string name="privacy_revoke_nonetwork_title">Không thể kết nối mạng</string>
     <string name="privacy_tip_cancel">Hủy</string>
     <string name="privacy_tip_ok">OK</string>
     <string name="rank">Xếp hạng</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">Kết nối Wi-Fi để tải xuống mục này</string>
     <string name="total_speedup">Tăng tốc (tổng)</string>
     <string name="version">Phiên bản %s</string>
-    <string name="security_ui_title">Quảng cáo bảo mật</string>
 </resources>

@@ -65,6 +65,10 @@
     <string name="about">Σχετικά</string>
     <string name="action_settings">Ρυθμίσεις</string>
     <string name="ad_install">Εγκατάσταση</string>
+    <string name="add_download_download">Λήψη</string>
+    <string name="add_download_error_not_support">Αυτός ο σύνδεσμός δεν υποστηρίζεται</string>
+    <string name="add_download_text_hint">Εισαγωγή συνδέσμου HTTP/HTTPS</string>
+    <string name="add_download_title">Προσθήκη URL</string>
     <string name="all_downloads">Όλες οι λήψεις</string>
     <string name="all_fileter">Όλες</string>
     <string name="all_share_files_content">Τα επιλεγμένα αρχεία έχουν ήδη διαγραφεί.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Ακύρωση</string>
     <string name="dialog_btn_ok">ΟΚ</string>
     <string name="dialog_btn_ok_disabled_net">Ρυθμίσεις δικτύου</string>
+    <string name="dialog_clipboard_permission_message">Να επιτρέπεται οι Λήψεις να αποκτήσουν πρόσβαση σε στοιχεία στο πρόχειρο για αυτόματη προσθήκη αντιγραμμένων URL;</string>
+    <string name="dialog_clipboard_permission_title">Απαιτούνται άδειες</string>
     <string name="dialog_confirm_delete_checkbox_message">Διαγραφή τοπικών αρχείων επίσης</string>
     <string name="dialog_confirm_delete_the_download_item_message">Διαγραφή εργασιών</string>
     <string name="dialog_file_missing_title">Αδυναμία ανοίγματος αρχείου</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Λήψη με δεδομένα κινητής τηλεφωνίας</string>
     <string name="downloaded">Η λήψη ολοκληρώθηκε</string>
     <string name="downloaded_empty">Κενό</string>
+    <string name="downloaded_tab_hint">Μπορείτε να δείτε τα ληφθέντα στοιχεία στη Διαχείριση Αρχείων</string>
     <string name="downloading">Γίνεται λήψη…</string>
     <string name="downloading_empty">Κενό</string>
     <string name="downloads_operating">Σε λειτουργία…</string>
-    <string name="durationDayHour">%1$d ημέρα%2$d ώρα</string>
-    <string name="durationDayHours">%1$d ημέρα%2$d ώρες</string>
-    <string name="durationHourMinute">%1$d ώρα %2$d λεπτό</string>
-    <string name="durationHourMinutes">%1$d ώρα %2$d λεπτό</string>
-    <string name="durationMinute">%1$d λεπτό</string>
-    <string name="durationMinuteSecond">%1$d λεπτά %2$d δευ</string>
-    <string name="durationMinuteSeconds">%1$d λεπτό %2$d δευ</string>
-    <string name="durationMinutes">%1$d λεπτά</string>
-    <string name="durationSecond">%1$d δευτερόλεπτο</string>
-    <string name="durationSeconds">%1$d δευτερόλεπτα</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Διαγραφή</string>
     <string name="editmode_menu_share">Κοινοποίηση</string>
     <string name="extend">Περισσότερα</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Όριο μεγέθους λήψης</string>
     <string name="pref_summary_any_bytes_popup">Αναμονή πάντα για σύνδεση Wi-Fi πριν τη λήψη αρχείων</string>
     <string name="pref_summary_enable_max_bytes_popup">Προβολή αναδυόμενης ειδοποίησης κατά την λήψη αρχείων με σύνδεση δεδομένων κινητής τηλεφωνίας</string>
-    <string name="pref_summary_max_bytes_limit_format">Αναμονή για Wi-Fi εάν το μέγεθος αρχείου υπερβαίνει %s</string>
     <string name="pref_summary_no_limit_popup">Απεριόριστα</string>
     <string name="pref_title_enable_max_bytes_popup">Προβολή προειδοποίησης χρήσης δεδομένων</string>
     <string name="preferences_title">Ρυθμίσεις</string>
+    <string name="privacy_agree_dialog_msg">&lt;Data>Καλώς ορίσατε στην εφαρμογή Λήψεις! Μπορείτε να χρησιμοποιήσετε αυτή την εφαρμογή για λήψη αρχείων.&lt;BR>Η εφαρμογή Λήψεις πρέπει να συλλέξει απαραίτητα προσωπικά δεδομένα για να σας παρέχει υπηρεσίες που δημιουργούν στατιστικά στοιχεία για τις λήψεις. Μπορείτε να μάθετε πως διαχειριζόμαστε τα δεδομένα που συλλέγουμε στην &lt;a href=\"%1$s\">Πολιτική Απορρήτου&lt;/a>.&lt;BR>Διαβάστε και συμφωνήστε με το &lt;a href=\"%2$s\">Συμφωνητικό Χρήστη&lt;/a> και την &lt;a href=\"%1$s\">Πολιτική Απορρήτου&lt;/a> πριν χρησιμοποιήσετε την εφαρμογή Λήψεις.&lt;BR>Μπορείτε να ανακαλέσετε τη συναίνεσή σας στην Πολιτική Απορρήτου στις Ρυθμίσεις της εφαρμογής Λήψεις οποιαδήποτε στιγμή. Εάν δεν συμφωνήσετε με την Πολιτική Απορρήτου, δεν θα μπορείτε να χρησιμοποιείτε ορισμένες λειτουργίες αυτής της εφαρμογής. Ωστόσο, οι βασικές της λειτουργίες θα εξακολουθήσουν να είναι διαθέσιμες.&lt;/Data></string>
+    <string name="privacy_agree_dialog_title">Όροι και προϋποθέσεις</string>
+    <string name="privacy_revoke_dialog_later">Ακύρωση</string>
+    <string name="privacy_revoke_dialog_msg">Με εναλλαγή του διακόπτη σε ανενεργό, ανακαλείτε τη συγκατάθεσή σας στην Πολιτική Απορρήτου της εφαρμογής Λήψεις. Θα σταματήσουμε να συλλέγουμε τις προσωπικές σας πληροφορίες. Οι προσωπικές πληροφορίες που έχουν συλλεχθεί και διατηρηθεί μέχρι στιγμής θα διαγραφούν μέσα στη συγκεκριμένη περίοδο, όπως απαιτείται από τους ισχύοντες νόμους. Η εφαρμογή Λήψεις πρέπει να συλλέξει απαραίτητες προσωπικές πληροφορίες για να σας παρέχει υπηρεσίες που δημιουργούν στατιστικά στοιχεία για τις λήψεις. Η ανάκληση της συναίνεσής σας στην Πολιτική Απορρήτου του θα θεωρείται άρνηση της αποδοχής των υπηρεσιών του βάσει των συλλεγμένων προσωπικών δεδομένων.</string>
+    <string name="privacy_revoke_dialog_ok">Ανάκληση</string>
+    <string name="privacy_revoke_dialog_title">Ανάκληση συγκατάθεσης</string>
+    <string name="privacy_revoke_label">Ανάκληση συγκατάθεσης</string>
+    <string name="privacy_revoke_msg">Με εναλλαγή του διακόπτη σε ανενεργό, ανακαλείτε τη συγκατάθεσή σας στην Πολιτική Απορρήτου της εφαρμογής Λήψεις.</string>
+    <string name="privacy_revoke_nonetwork_msg">Η συσκευή πρέπει να συνδεθεί στο δίκτυο για να μπορείτε να ανακαλέσετε τη συγκατάθεσή σας. Ελέγξτε τις ρυθμίσεις του δικτύου σας και προσπαθήστε ξανά.</string>
+    <string name="privacy_revoke_nonetwork_ok">Κατάλαβα</string>
+    <string name="privacy_revoke_nonetwork_title">Αδυναμία σύνδεσης στο δίκτυο</string>
     <string name="privacy_tip_cancel">Ακύρωση</string>
     <string name="privacy_tip_ok">ΟΚ</string>
     <string name="rank">Κατατάξεις</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">Συνδεθείτε σε Wi-Fi για λήψη αυτού του αντικειμένου</string>
     <string name="total_speedup">Ενίσχυση ταχύτητας (σύνολο)</string>
     <string name="version">Έκδοση %s</string>
-    <string name="security_ui_title">Διαφημίσεις ασφαλείας</string>
 </resources>

@@ -65,6 +65,10 @@
     <string name="about">О приложении</string>
     <string name="action_settings">Настройки</string>
     <string name="ad_install">Установить</string>
+    <string name="add_download_download">Загрузить</string>
+    <string name="add_download_error_not_support">Эта ссылка не поддерживается</string>
+    <string name="add_download_text_hint">Введите ссылку HTTP/HTTPS</string>
+    <string name="add_download_title">Добавить URL</string>
     <string name="all_downloads">Все загрузки</string>
     <string name="all_fileter">Все</string>
     <string name="all_share_files_content">Выбранные файлы уже удалены.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Отмена</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Настройки сети</string>
+    <string name="dialog_clipboard_permission_message">Разрешить \"Загрузкам\" доступ к данным в буфере обмена для автоматической вставки скопированных URL-адресов?</string>
+    <string name="dialog_clipboard_permission_title">Требуются разрешения</string>
     <string name="dialog_confirm_delete_checkbox_message">Удалить также загруженные файлы</string>
     <string name="dialog_confirm_delete_the_download_item_message">Удалить эти загрузки?</string>
     <string name="dialog_file_missing_title">Не удалось открыть файл</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Загружать, используя мобильный интернет</string>
     <string name="downloaded">Загрузка завершена</string>
     <string name="downloaded_empty">Пусто</string>
+    <string name="downloaded_tab_hint">Загруженные объекты доступны в Проводнике</string>
     <string name="downloading">Загрузка…</string>
     <string name="downloading_empty">Пусто</string>
     <string name="downloads_operating">Обработка…</string>
-    <string name="durationDayHour">%1$d д %2$d ч</string>
-    <string name="durationDayHours">%1$d д %2$d ч</string>
-    <string name="durationHourMinute">%1$d ч %2$d мин</string>
-    <string name="durationHourMinutes">%1$d ч %2$d мин</string>
-    <string name="durationMinute">%1$d мин</string>
-    <string name="durationMinuteSecond">%1$d мин %2$d с</string>
-    <string name="durationMinuteSeconds">%1$d мин %2$d с</string>
-    <string name="durationMinutes">%1$d мин</string>
-    <string name="durationSecond">%1$d с</string>
-    <string name="durationSeconds">%1$d с</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Удалить</string>
     <string name="editmode_menu_share">Поделиться</string>
     <string name="extend">Еще</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Максимальный размер файла</string>
     <string name="pref_summary_any_bytes_popup">Всегда загружать файлы только при наличии подключения к Wi-Fi</string>
     <string name="pref_summary_enable_max_bytes_popup">Предупреждать при загрузке файлов через мобильный интернет</string>
-    <string name="pref_summary_max_bytes_limit_format">Ожидать подключения к Wi-Fi, если размер файла более %s</string>
     <string name="pref_summary_no_limit_popup">Без ограничений</string>
     <string name="pref_title_enable_max_bytes_popup">Предупреждать о лимите трафика</string>
     <string name="preferences_title">Настройки</string>
+    <string name="privacy_agree_dialog_msg">&lt;Data>Добро пожаловать в Загрузки! Вы можете использовать это приложение для загрузки файлов.&lt;BR>Приложению Загрузки требуется осуществлять сбор необходимой личной информации, чтобы предоставлять вам службы, генерирующие статистику загрузок. Вы можете подробнее узнать о том, как мы обрабатываем собираемую информацию в нашей &lt;a href=\"%1$s\">Политике конфиденциальности&lt;/a>.&lt;BR>Перед началом использования приложения Загрузки, ознакомьтесь и согласитесь с нашими &lt;a href=\"%2$s\">Условиями использования&lt;/a> и &lt;a href=\"%1$s\">Политикой конфиденциальности&lt;/a>.&lt;BR>Вы можете в любое время отозвать свое согласие с Политикой конфиденциальности приложения Загрузки в Настройках. Если вы не согласны с нашей Политикой конфиденциальности, вы не сможете использовать некоторые функции этого приложения, однако основные функции останутся доступны вам.&lt;/Data></string>
+    <string name="privacy_agree_dialog_title">Условия использования</string>
+    <string name="privacy_revoke_dialog_later">Отмена</string>
+    <string name="privacy_revoke_dialog_msg">Переводя выключатель в положение \"Выкл.\", вы отзываете свое согласие с Политикой конфиденциальности приложения \"Загрузки\". Мы прекратим осуществлять сбор вашей личной информации. Уже собранная и сохраненная личная информация будет удалена в течение определенного периода времени в соответствии с действующим законодательством. Приложению \"Загрузки\" требуется осуществлять сбор необходимой личной информации для предоставления вам основных услуг, генерирующих статистику загрузок . Отзыв согласия с Политикой конфиденциальности будет рассматриваться как отказ от служб приложения, функционирующих на основе сбора личной информации.</string>
+    <string name="privacy_revoke_dialog_ok">Отозвать</string>
+    <string name="privacy_revoke_dialog_title">Отзыв согласия</string>
+    <string name="privacy_revoke_label">Отзыв согласия</string>
+    <string name="privacy_revoke_msg">Переводя выключатель в положение \"Выкл.\", вы отзываете свое согласие с Политикой конфиденциальности приложения \"Загрузки\".</string>
+    <string name="privacy_revoke_nonetwork_msg">Для отзыва согласия ваше устройство должно быть подключено к сети. Проверьте настройки соединения и повторите попытку.</string>
+    <string name="privacy_revoke_nonetwork_ok">Понятно</string>
+    <string name="privacy_revoke_nonetwork_title">Не удалось подключиться к сети</string>
     <string name="privacy_tip_cancel">Отмена</string>
     <string name="privacy_tip_ok">OK</string>
     <string name="rank">Рейтинги</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">Для загрузки этого объекта подключитесь к Wi-Fi</string>
     <string name="total_speedup">Ускорение (всего)</string>
     <string name="version">Версия %s</string>
-    <string name="security_ui_title">Безопасная реклама</string>
 </resources>

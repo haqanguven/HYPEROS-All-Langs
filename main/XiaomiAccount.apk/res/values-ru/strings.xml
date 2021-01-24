@@ -47,7 +47,7 @@
     <string name="account_has_been_set">Изменить</string>
     <string name="account_invalid_user_avatar">Недопустимое фото. Выберите другое.</string>
     <string name="account_limit_update_birthday">Нельзя изменить дату рождения</string>
-    <string name="account_mibi_center">Mi Credits</string>
+    <string name="account_mibi_center">Mi Coins</string>
     <string name="account_mibi_charge">Пополнить</string>
     <string name="account_mipay_info">Mi Pay</string>
     <string name="account_no_set">Нет</string>
@@ -83,7 +83,7 @@ ID вашего аккаунта: %s"</string>
     <string name="activate_email_notice">Обязательно активируйте аккаунт в течение 24 часов</string>
     <string name="activity_not_found_notice">Приложение не найдено</string>
     <string name="add_account">Подключить аккаунт</string>
-    <string name="agreement_and_privacy">Условия использования и Политика конфиденциальности</string>
+    <string name="agreement_and_privacy">Условия использования</string>
     <string name="app_name">Mi аккаунт</string>
     <string name="auth_fail_warning">Сессия устарела, войдите повторно</string>
     <string name="authorize_title">Авторизация</string>
@@ -158,6 +158,7 @@ ID вашего аккаунта: %s"</string>
     <string name="confirm_unbundled_phone_dialog_message">Номер телефона %1$s связан с Mi аккаунтом %2$s. Если вы продолжите, он больше не будет связан с Mi аккаунтом %3$s. Продолжить?</string>
     <string name="continue_action">Продолжить</string>
     <string name="copy">Копировать</string>
+    <string name="copy_to_clipboard_successful">Скопировано</string>
     <string name="delete_action">Удалить</string>
     <string name="delete_bank_card_message">После выхода банковские карты Mi Pay и карты NFC будут удалены.</string>
     <string name="delete_bank_card_title">Внимание</string>
@@ -226,6 +227,7 @@ ID:%s
     <string name="health_state_not_activated">Не активировано</string>
     <string name="health_state_not_installed">Не установлено</string>
     <string name="health_state_not_support">Не поддерживается в этой версии</string>
+    <string name="help_center">Справка</string>
     <string name="i_agree">OK</string>
     <string name="i_agree_continue">Согласен</string>
     <string name="identity">Идентификация</string>
@@ -309,7 +311,7 @@ ID:%s
     <string name="passport_checking_input">Проверка данных…</string>
     <string name="passport_click_email_to_valid">Для активации аккаунта перейдите по ссылке, отправленной вам по электронной почте.</string>
     <string name="passport_completed">Готово</string>
-    <string name="passport_confirm_login">Продолжить</string>
+    <string name="passport_confirm_login">Войти</string>
     <string name="passport_confirm_recycle_account">Да</string>
     <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Похоже,&lt;/font> что номер %s был перевыпущен оператором, но с ним связан Mi аккаунт. Это ваш аккаунт?</string>
     <string name="passport_continue">Продолжить</string>
@@ -347,7 +349,7 @@ ID:%s
     <string name="passport_error_verify_activator_phone_title">Не удалось проверить номер телефона</string>
     <string name="passport_failed_to_send_activate_email">Не удалось отправить письмо активации</string>
     <string name="passport_find_password_on_web_msg">Посетите account.xiaomi.com для сброса пароля</string>
-    <string name="passport_first_login_prompt">Mi аккаунт будет создан автоматически при первом входе в систему.</string>
+    <string name="passport_first_login_prompt">Mi аккаунт будет создан автоматически при первом использовании номера телефона.</string>
     <string name="passport_forget_password"><u>Забыли пароль?</u></string>
     <string name="passport_forget_password_no_underline">Забыли пароль?</string>
     <string name="passport_get_back_pwd">Восстановить пароль</string>
@@ -403,9 +405,9 @@ ID:%s
     <string name="passport_pwd_generating">Создание пароля…</string>
     <string name="passport_querying_phone_info">Запрос данных аккаунта…</string>
     <string name="passport_quick_login">Войти</string>
-    <string name="passport_quick_login_dialog_step2_title">Двухэтапная авторизация</string>
+    <string name="passport_quick_login_dialog_step2_title">Двухэтапная проверка</string>
     <string name="passport_quick_login_dialog_title">Проверка пароля</string>
-    <string name="passport_quick_login_step2_title">Двухэтапная авторизация</string>
+    <string name="passport_quick_login_step2_title">Двухэтапная проверка</string>
     <string name="passport_quick_login_title">Введите пароль</string>
     <string name="passport_quick_register">Регистрация</string>
     <string name="passport_quick_register_notice"><u>Нет Mi аккаунта? Создайте его сейчас.</u></string>
@@ -462,8 +464,8 @@ ID:%s
     <string name="passport_setting">Настройка…</string>
     <string name="passport_skip_login">Пропустить</string>
     <string name="passport_skip_register">Пропустить регистрацию</string>
-    <string name="passport_skip_setup_account_msg">Вы можете настроить Mi аккаунт позже.</string>
-    <string name="passport_skip_setup_account_title">Не использовать Xiaomi Cloud?</string>
+    <string name="passport_skip_setup_account_msg">Вход в Mi аккаунт позволит вам использовать службы Xiaomi Cloud. Вы действительно хотите пропустить этот шаг?</string>
+    <string name="passport_skip_setup_account_title">Mi аккаунт и Xiaomi Cloud</string>
     <string name="passport_sms_send_success">Отправлено</string>
     <string name="passport_sms_verification_code_login">Войти через SMS</string>
     <string name="passport_sms_verification_code_login_or_register">Войти или создать аккаунт через SMS</string>
@@ -589,7 +591,7 @@ ID:%s
     <string name="update_email_address_dialog_title">Обновление адреса</string>
     <string name="update_phone_notice">Настройки безопасности</string>
     <string name="update_phone_number_notice_message">Перед обновлением номера телефона необходимо подтвердить вашу личность.</string>
-    <string name="used_cloud_storage_info">Занято %s</string>
+    <string name="used_cloud_storage_info">Используется %s</string>
     <string name="user_avatar_update_title">Изменение фото профиля</string>
     <string name="user_avatar_uploading">Секунду…</string>
     <string name="v7_preference_off">ВЫКЛ.</string>

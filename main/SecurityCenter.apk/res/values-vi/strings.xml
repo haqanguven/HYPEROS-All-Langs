@@ -161,9 +161,9 @@
     <string name="antivirus_none_engine_dialog_ok">OK</string>
     <string name="antivirus_not_wlan">Bạn chưa kết nối Wi-Fi. Sử dụng dữ liệu di động có thể phát sinh phí bổ sung. Vẫn tiếp tục?</string>
     <string name="antivirus_privacy_dialog_cloudscan">Tải lên tên và chi tiết ứng dụng</string>
-    <string name="antivirus_privacy_dialog_cloudscan_description">Tải lên và quét tên và chi tiết ứng dụng bằng cơ sở dữ liệu virus trực tuyến.</string>
+    <string name="antivirus_privacy_dialog_cloudscan_description">Để phát hiện và vô hiệu virus hiệu quả hơn, chúng tôi sẽ tải lên tên và thuộc tính gói của ứng dụng để quét bằng công cụ đám mây.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
-    <string name="antivirus_privacy_dialog_summary">Tính năng này sẽ mã hóa và tải ID thiết bị của bạn lên máy chủ của Avast, AVL và Tencent (%s).</string>
+    <string name="antivirus_privacy_dialog_summary"><Data>Tính năng này được cung cấp bởi công cụ diệt virus của bên thứ ba. Để tìm hiểu thêm, hãy đọc &lt;&lt;a href=\"%1$s\">Thỏa thuận Giấy phép&lt;/a> được cung cấp bởi bên thứ ba.</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Chính sách Riêng tư</string>
     <string name="antivirus_privacy_dialog_title">Chính sách Riêng tư</string>
     <string name="antivirus_sec_network_unavailable">Bảo mật không thể cập nhật do bạn đã giới hạn kết nối internet. Cho phép Bảo mật kết nối internet?</string>
@@ -467,9 +467,16 @@ Bạn sẽ không mất bất kỳ dữ liệu ứng dụng nào."</string>
     <string name="application_item_already_permission">Đã cho phép</string>
     <string name="application_item_disable">Đã giới hạn</string>
     <string name="applock_add_account">Thêm</string>
+    <string name="applock_add_account_ignore">Lần tới</string>
+    <string name="applock_add_account_ignore_with_seconds">Lần tới (%d giây)</string>
     <string name="applock_add_account_info">Thêm Tài khoản Mi của bạn để có thể đặt lại mật khẩu trong trường hợp bạn quên.</string>
     <string name="applock_add_account_setting">Tài khoản &amp; Chính sách riêng tư</string>
+    <string name="applock_add_account_tips">Với Tài khoản Mi, bạn sẽ có thể khôi phục khóa ứng dụng của mình nếu quên.</string>
+    <string name="applock_add_account_title">Thêm Tài khoản Mi của bạn</string>
+    <string name="applock_already_add_account">Tài khoản hiện tại: %s</string>
     <string name="applock_app_recommend_lock_title">Bạn có thể khóa các ứng dụng sau</string>
+    <string name="applock_bind_account_dialog_content">Tài khoản Mi là cách duy nhất để khôi phục Khóa ứng dụng trong trường hợp bạn quên. Đăng nhập để thêm Tài khoản Mi của bạn.</string>
+    <string name="applock_bind_account_dialog_title">Thêm Tài khoản Mi của bạn</string>
     <string name="applock_bind_account_title">Quên mật khẩu</string>
     <string name="applock_close_dialog_summary">Tất cả ứng dụng ẩn sẽ được bỏ ẩn, lối tắt Màn hình chính của ứng dụng ẩn sẽ được khôi phục và mật khẩu Khóa ứng dụng của bạn sẽ bị xóa. Tắt Khóa ứng dụng?</string>
     <string name="applock_close_dialog_title">Tắt Khóa ứng dụng?</string>
@@ -479,6 +486,8 @@ Bạn sẽ không mất bất kỳ dữ liệu ứng dụng nào."</string>
     <string name="applock_function_base_settings">Khóa ứng dụng</string>
     <string name="applock_function_pwd_settings">Mật khẩu</string>
     <string name="applock_go_to">Cài đặt</string>
+    <string name="applock_guide_notification_summary">Bảo vệ sự riêng tư của bạn bằng Khóa ứng dụng</string>
+    <string name="applock_guide_notification_title">Người khác có thể thấy thông tin nhạy cảm trên màn hình của bạn</string>
     <string name="applock_guide_open_applock">Bật</string>
     <string name="applock_guide_tip1">Tùy chọn loại mật khẩu hỗn hợp khả dụng. Mở khóa ứng dụng bằng vân tay, khuôn mặt hoặc nhập mật khẩu.</string>
     <string name="applock_guide_tip1_global">Mở khóa ứng dụng bằng vân tay, khuôn mặt hoặc nhập mật khẩu.</string>
@@ -495,8 +504,18 @@ Bạn sẽ không mất bất kỳ dữ liệu ứng dụng nào."</string>
     <string name="applock_header_text_less_than_half">Quá nhỏ. Kéo to hơn.</string>
     <string name="applock_lock_all">Khóa tất cả</string>
     <string name="applock_login_and_add_account">Đăng nhập &amp; thêm</string>
+    <string name="applock_no_account_login">Bạn chưa đăng nhập vào Tài khoản Mi</string>
     <string name="applock_not_add_account"><u>Không phải bây giờ</u></string>
     <string name="applock_not_login_account">Bạn chưa đăng nhập</string>
+    <string name="applock_operate_faceunlock_summary">Mở khóa ứng dụng chỉ bằng cách nhìn vào màn hình</string>
+    <string name="applock_operate_faceunlock_title">Sử dụng dữ liệu khuôn mặt</string>
+    <string name="applock_operate_fingerprint_summary">Khóa ứng dụng hỗ trợ thêm nhiều vân tay</string>
+    <string name="applock_operate_fingerprint_title">Sử dụng vân tay của bạn</string>
+    <string name="applock_operate_hidenoti_summary">Khóa ứng dụng có thể thực hiện việc này đối với các ứng dụng được bảo vệ</string>
+    <string name="applock_operate_hidenoti_title">Muốn ẩn các thông báo nhạy cảm?</string>
+    <string name="applock_recommend_tips">%s người dùng bảo vệ các ứng dụng này</string>
+    <string name="applock_recommend_title">Chọn ứng dụng</string>
+    <string name="applock_set_complete">Sử dụng Khóa ứng dụng</string>
     <string name="applock_set_password_title">Thay đổi loại mật khẩu</string>
     <string name="applock_settings_unlock_all_toast">Đã mở khóa tất cả ứng dụng</string>
     <string name="applock_toast_tip">Xác minh Khóa ứng dụng thành công</string>
@@ -604,7 +623,7 @@ Bạn sẽ không mất bất kỳ dữ liệu ứng dụng nào."</string>
     <string name="banner_optimizemanage_summary">Giải phóng bộ nhớ</string>
     <string name="banner_red_money_assist_button">Bật</string>
     <string name="banner_red_money_assist_summary">Mở bao lì xì nhanh hơn</string>
-    <string name="battery_and_property">Pin &amp; hiệu suất</string>
+    <string name="battery_and_property">Pin</string>
     <string name="battery_can_use_time">Còn lại %s</string>
     <string name="battery_capacity_title">Dung lượng pin</string>
     <string name="battery_charge_estimating">Đang tính</string>
@@ -772,12 +791,26 @@ Bạn sẽ không mất bất kỳ dữ liệu ứng dụng nào."</string>
     <string name="card_main_xspace_title">Ứng dụng kép</string>
     <string name="card_tc_failed">Hiệu chỉnh thất bại</string>
     <string name="cd_back">Quay lại</string>
+    <string name="charger_detect_button_ok">Tôi biết</string>
+    <string name="charger_detect_info1">Kiểm tra bộ sạc và cáp sạc được kết nối chính xác chưa.</string>
+    <string name="charger_detect_info2">Sạc cũng có thể chậm lại nếu bạn đang sử dụng cáp và bộ sạc cũ hoặc không đạt chuẩn.</string>
+    <string name="charger_detect_no_remind">Không hiển thị lại</string>
+    <string name="charger_detect_title">Sạc chậm</string>
     <string name="charging_text_battery_full_time">"Sạc lần trước "</string>
     <string name="charging_text_battery_nearly_full">Sắp đầy pin</string>
     <string name="charging_text_battery_perfect">Đã sạc đầy</string>
     <string name="choose">Chọn</string>
     <string name="choose_gs_show_way">Chọn hướng màn hình chính</string>
     <string name="clean_immediately">Xóa</string>
+    <string name="clean_master_icon_recall_button_text">Thêm</string>
+    <string name="clean_master_icon_recall_dialog_button_negative">Không, cảm ơn</string>
+    <string name="clean_master_icon_recall_dialog_button_positive">Thêm</string>
+    <string name="clean_master_icon_recall_dialog_summary">Thêm lối tắt Màn hình chính để dọn rác bất cứ khi nào bạn cần.</string>
+    <string name="clean_master_icon_recall_dialog_title">Dọn rác nhanh hơn</string>
+    <string name="clean_master_icon_recall_hint">Thêm lối tắt Màn hình chính</string>
+    <string name="clean_master_icon_recall_summary">Thêm lối tắt Màn hình chính để dọn rác bất cứ khi nào bạn cần.</string>
+    <string name="clean_master_icon_recall_title">Dọn rác nhanh hơn</string>
+    <string name="clean_master_icon_recall_toast_text">Thêm lối tắt Màn hình chính cho Dọn dẹp thành công</string>
     <string name="cleaned">Đã xóa</string>
     <string name="clear_garbage">Xóa rác để giải phóng dung lượng</string>
     <string name="clear_immediately">Dọn dẹp ngay</string>
@@ -1131,6 +1164,13 @@ Chúng sẽ được thêm vào danh sách ngoại lệ, nhưng các mục bị 
     <string name="first_aid_scanning_item4">Đang kiểm tra vấn đề về Pin…</string>
     <string name="first_aid_scanning_item5">Đang kiểm tra vấn đề khác…</string>
     <string name="first_aid_stop_scan">Dừng quét</string>
+    <string name="first_settings_default_camera_title">Chia sẻ mà không có siêu dữ liệu theo mặc định</string>
+    <string name="first_settings_default_location_subtitle">Xóa thông tin vị trí khỏi ảnh được chia sẻ</string>
+    <string name="first_settings_default_location_title">Chia sẻ mà không có thông tin vị trí theo mặc định</string>
+    <string name="first_settings_share_enable">Thêm biểu tượng \"Chia sẻ an toàn\"</string>
+    <string name="first_settings_share_enable_subtitle">Các mục bạn chia sẻ trên WeChat sẽ xuất hiện với biểu tượng MIUI</string>
+    <string name="first_settings_subtitle">Dưới đây là các tùy chọn chia sẻ an toàn khả dụng cho bạn:</string>
+    <string name="first_settings_title">Bảo vệ sự riêng tư của bạn</string>
     <string name="five_percent_total_pkg">%s (5%% dữ liệu hàng tháng)</string>
     <string name="fod_authentication_shift_button">Hủy</string>
     <string name="fod_button_finger">Sử dụng vân tay</string>
@@ -1155,6 +1195,11 @@ Chúng sẽ được thêm vào danh sách ngoại lệ, nhưng các mục bị 
     <string name="free_time_traffic_settings">Giới hạn dữ liệu ngoài giờ cao điểm</string>
     <string name="free_time_traffic_title">Nhập giới hạn dữ liệu ngoài giờ cao điểm</string>
     <string name="free_traffic_settings">Cài đặt sử dụng dữ liệu ngoài giờ cao điểm</string>
+    <string name="function_auto_reject_detail">"Giới thiệu về tính năng này:
+1. Khi bạn đang chơi game, tất cả các cuộc gọi đến thẻ SIM không có dịch vụ dữ liệu di động sẽ bị từ chối tự động.
+2. Bạn sẽ thấy thông báo về cuộc gọi nhỡ và người khác sẽ nghe thấy âm tin nhắn thông báo bạn đang bận.
+3. Tính năng này chỉ được hỗ trợ bởi các nhà cung cấp dịch vụ di động ở Trung Quốc."</string>
+    <string name="function_auto_reject_title">Từ chối cuộc VoLTE đến thẻ SIM không có dịch vụ dữ liệu</string>
     <string name="function_close">Tắt</string>
     <string name="function_gwsd_detail">"Giới thiệu về tính năng này: 
  1. Khi bạn đang sử dụng dữ liệu di động trên thẻ SIM dữ liệu hoặc thẻ SIM thông thường được kết nối với mạng VoLTE, kết nối sẽ không bị gián đoạn bởi cuộc gọi đến cho đến khi bạn nhấc máy. 
@@ -1268,6 +1313,11 @@ Chúng sẽ được thêm vào danh sách ngoại lệ, nhưng các mục bị 
     <string name="gb_description_image_button_answer">Trả lời</string>
     <string name="gb_description_image_button_reject">Từ chối</string>
     <string name="gb_description_image_button_video_answer">Gọi video</string>
+    <string name="gb_dialog_game_uninstall_deleting">Đang gỡ cài đặt…</string>
+    <string name="gb_dialog_game_uninstall_loading">Đang tải game…</string>
+    <string name="gb_dialog_game_uninstall_tips_message">Tất cả dữ liệu ứng dụng sẽ bị xóa.</string>
+    <string name="gb_dialog_game_uninstall_tips_message_xspace">Tất cả dữ liệu ứng dụng và ứng dụng kép liên quan sẽ bị xóa.</string>
+    <string name="gb_dialog_game_uninstall_tips_title">Gỡ cài đặt %s</string>
     <string name="gb_dialog_record_way_ai">Quay phim AI sẽ được lưu vào Gamebox và lưu trữ 7 ngày.</string>
     <string name="gb_dialog_record_way_finish">Hoàn tất</string>
     <string name="gb_dialog_record_way_manual">Quay video dài tối đa 30 giây theo cách thủ công</string>
@@ -1299,6 +1349,10 @@ Chúng sẽ được thêm vào danh sách ngoại lệ, nhưng các mục bị 
     <string name="gb_game_video_type_manual">Thủ công</string>
     <string name="gb_get_gift_right_now">Check in ngay</string>
     <string name="gb_global_settings">Cài đặt chung</string>
+    <string name="gb_gpu_driver_btn_update">Kiểm tra cập nhật</string>
+    <string name="gb_gpu_driver_update">Cập nhật Trình điều khiển GPU</string>
+    <string name="gb_gpu_driver_update_app">Cập nhật</string>
+    <string name="gb_gpu_driver_update_app_tips">Phiên bản hiện tại đã được cập nhật</string>
     <string name="gb_have_signed">Đã check in hôm nay</string>
     <string name="gb_manual_record_dialog_del_video_message">Xóa vĩnh viễn video đã chọn?</string>
     <string name="gb_msg_completely_shielded">Ẩn tin nhắn</string>
@@ -1320,6 +1374,9 @@ Chúng sẽ được thêm vào danh sách ngoại lệ, nhưng các mục bị 
     <string name="gb_signed_gift_loading_summary">Vui lòng chờ…</string>
     <string name="gb_signed_title">Đã check in tháng này</string>
     <string name="gb_sound_audition">Dùng thử</string>
+    <string name="gb_storage_game_uninstall">Gỡ cài đặt game</string>
+    <string name="gb_storage_summary">Không hiển thị game được thêm vào gamebox trên Màn hình chính</string>
+    <string name="gb_storage_title">Xóa game đã thêm từ Màn hình chính</string>
     <string name="gb_voice_change_settinged">Công cụ thay đổi giọng nói đang bật</string>
     <string name="gb_voice_changer_cartoon">Hoạt hình</string>
     <string name="gb_voice_changer_dlg_button_agree">Cho phép</string>
@@ -1340,7 +1397,7 @@ Chúng sẽ được thêm vào danh sách ngoại lệ, nhưng các mục bị 
     <string name="gb_xunyou_gift_type_one">Tăng tốc Xunyou 1 ngày</string>
     <string name="gb_xunyou_gift_type_three">Tăng tốc Xunyou 3 ngày</string>
     <string name="gb_xunyou_gift_type_two">Tăng tốc Xunyou 2 ngày</string>
-    <string name="gdpr_msg">&lt;Data>Để sử dụng các tính năng cơ bản của Bảo mật, bạn phải đồng ý để Xiaomi thu thập, xử lý và sử dụng dữ liệu cá nhân của bạn, bao gồm thông tin về cách bạn sử dụng các tính năng của Bảo mật (ví dụ, thống kê sử dụng dữ liệu, thông tin về phần mềm độc hại, cũng như thông tin cơ bản về thiết bị của bạn) và các loại thông tin khác được chỉ định trong &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Chính sách Riêng tư&lt;/a> của chúng tôi.&lt;/Data></string>
+    <string name="gdpr_msg"><Data>Để có thể phát hiện rủi ro bảo mật và bảo vệ dữ liệu của bạn, chúng tôi cần thu thập lượng thông tin cần thiết về thiết bị của bạn. Đọc và đồng ý với &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Chính sách Riêng tư&lt;/a> của chúng tôi trước khi sử dụng dịch vụ. Trong trường hợp bạn không cho phép chúng tôi thu thập thông tin đó, bạn vẫn có thể sử dụng ứng dụng, nhưng một số tính năng sẽ không khả dụng cho bạn. </Data></string>
     <string name="get_sys_info">Đang nhận thông tin…</string>
     <string name="gigabyteShort">GB</string>
     <string name="global_wa_setting_alert_dialog_content">Bạn có thể giải phóng %s</string>
@@ -1399,8 +1456,18 @@ Video sẽ được lưu vào khoảnh khắc Game Turbo > Khoảnh khắc đán
     <string name="gs_show_way_vertical">Dọc</string>
     <string name="gs_sign_notification">Nhắc nhở check in vào 20:00 hàng ngày</string>
     <string name="gs_slip_gamebox_detail">Sử dụng thanh trượt hoặc trượt từ cạnh trên của màn hình để làm cho bảng điều khiển lối tắt xuất hiện</string>
+    <string name="gtb_dialog_btn_close">Tắt</string>
+    <string name="gtb_dialog_btn_open">Bật</string>
+    <string name="gtb_dialog_hint_smart_5g">Bạn có thể bật và tắt tính năng này trong Game Turbo > Cài đặt.</string>
+    <string name="gtb_dialog_summary_smart_5g">Mỗi khi Game Turbo phát hiện mạng 5G, sẽ ưu tiên kết nối thiết bị với mạng khả dụng tốt nhất để giảm độ trễ. Bật tính năng này ngay?</string>
+    <string name="gtb_dialog_title_smart_5g">Tối ưu mạng 5G</string>
     <string name="gtb_exit_game_to_gtb">Mở gamebox</string>
     <string name="gtb_exit_game_to_home">Quay lại Màn hình chính</string>
+    <string name="gtb_setting_item_summary_smart_5g">Mỗi khi Game Turbo phát hiện mạng 5G, sẽ ưu tiên kết nối thiết bị với mạng khả dụng tốt nhất để giảm độ trễ.</string>
+    <string name="gtb_setting_item_summary_smart_wlan_speed" formatted="false">Tăng tốc độ kết nối lên 10%-20% khi kết nối với bộ định tuyến Mi/Redmi</string>
+    <string name="gtb_setting_item_title_smart_5g">Tối ưu mạng 5G</string>
+    <string name="gtb_setting_item_title_smart_wlan_speed">Tăng tốc Mi Wi-Fi</string>
+    <string name="gtb_wlan_speed_tips">Đang sử dụng Mi Wi-Fi…</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Sai nhà mạng?&lt;/U>&lt;/font>"</string>
     <string name="guide_operator_text">Nhà cung cấp hiện tại:</string>
     <string name="guide_quck_open">Bật</string>
@@ -1491,6 +1558,7 @@ Nhà cung cấp có thể tính thêm phí nếu bạn sử dụng kết nối d
     <string name="list_empty_text">Trống</string>
     <string name="load_only_under_wlan">Chỉ tải qua Wi-Fi</string>
     <string name="loading">Vui lòng chờ…</string>
+    <string name="loading_text_format" formatted="false">Đang xóa thông tin cá nhân khỏi ảnh (%d/%d)…</string>
     <string name="local_ip_exception_summary">Không thể lấy địa chỉ IP. Để báo cáo vấn đề này với MIUI, truy cập ứng dụng Phản hồi và gửi báo cáo lỗi từ thiết bị của bạn.</string>
     <string name="lock_all_title">Khóa tất cả ứng dụng</string>
     <string name="lock_mode_title">Cài đặt khóa</string>
@@ -1619,6 +1687,7 @@ phản hồi"</string>
     <string name="memory_check_content">Đã giải phóng %s</string>
     <string name="memory_clean_memory_size_tip">Bộ nhớ đệm</string>
     <string name="memory_clean_no_need_clean">Mọi thứ đều tốt</string>
+    <string name="memory_clean_no_need_clean_1" formatted="false">Đã giải phóng %s. Thiết bị của bạn nhanh hơn %d%%.</string>
     <string name="memory_clear_unused">Xóa bộ nhớ đệm (%s)</string>
     <string name="memory_title">Trống: %1$s\u0009\u0009Tổng: %2$s</string>
     <string name="menu_add">Thêm</string>
@@ -1659,11 +1728,14 @@ phản hồi"</string>
     <string name="menu_summary_antivirus">Quét virus trên thiết bị</string>
     <string name="menu_summary_app_manager">Cập nhật và gỡ cài đặt ứng dụng</string>
     <string name="menu_summary_garbage_cleanup">Không tìm thấy rác</string>
-    <string name="menu_summary_garbage_cleanup_ex">Xóa %s rác</string>
+    <string name="menu_summary_garbage_cleanup_ex">Giải phóng %s</string>
+    <string name="menu_summary_garbage_cleanup_new">%d%% dung lượng lưu trữ</string>
     <string name="menu_summary_networkassistants">Quản lý kế hoạch dữ liệu của bạn</string>
     <string name="menu_summary_networkassistants_2">Vượt quá giới hạn</string>
     <string name="menu_summary_networkassistants_3">Lưu lượng dữ liệu còn lại đầy đủ</string>
     <string name="menu_summary_networkassistants_4">Sắp hết lưu lượng dữ liệu</string>
+    <string name="menu_summary_optimize_manage">Xóa bộ nhớ</string>
+    <string name="menu_summary_optimize_manage_1">Tăng tốc thiết bị %d%%</string>
     <string name="menu_summary_power_manager">Tiết kiệm pin giúp bạn kéo dài thời gian sử dụng</string>
     <string name="menu_summary_power_manager_1">Pin đã được sạc đầy</string>
     <string name="menu_summary_power_manager_2">Còn lại %s</string>
@@ -1683,7 +1755,8 @@ phản hồi"</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_optimize_manage">Tăng tốc</string>
-    <string name="menu_text_power_manager">Pin &amp; hiệu suất</string>
+    <string name="menu_text_optimize_manage_1">Tăng tốc</string>
+    <string name="menu_text_power_manager">Pin</string>
     <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Xóa khỏi danh sách ngoại lệ</string>
     <string name="menu_white">Thêm vào d.sách ngoại lệ</string>
@@ -1800,6 +1873,9 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="notification_channel_battery">Pin</string>
     <string name="notification_exit_power_save_mode">Đã tắt Tiết kiệm pin</string>
     <string name="notification_exit_power_save_mode_subtitle">Đã sạc %s.</string>
+    <string name="notification_garbage_clean_botton_text">Dọn dẹp</string>
+    <string name="notification_garbage_clean_hint">Xóa dung lượng lưu trữ</string>
+    <string name="notification_garbage_clean_size">Giải phóng %s</string>
     <string name="notification_garbage_cleanup_summary">Dọn dẹp rác (%s) để tăng tốc thiết bị</string>
     <string name="notification_garbage_cleanup_title">Xóa tập tin rác</string>
     <string name="notification_low_battery_action_btn">Bật</string>
@@ -1811,6 +1887,8 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="notification_masked_item">Làm thế nào để ẩn nội dung thông báo?</string>
     <string name="notification_masked_subtitle">Sử dụng Khóa ứng dụng để ẩn nội dung thông báo cho các ứng dụng đã chọn</string>
     <string name="notification_summary_cmcc_app_check">Chạm để xem chi tiết.</string>
+    <string name="notification_whatsapp_clean_button_text">Dọn dẹp</string>
+    <string name="notification_whatsapp_clean_size">Bộ nhớ đệm WhatsApp đã đạt %s</string>
     <string name="notify_channel_mipush">Tin nhắn đẩy bảo mật</string>
     <string name="notify_channel_name_behavior">Lịch sử hành vi</string>
     <string name="notify_channel_name_security">Bảo mật hệ thống</string>
@@ -1845,6 +1923,8 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="om_locked_apps_summary">Tăng tốc sẽ bỏ qua các ứng dụng bị khóa.</string>
     <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">Yêu cầu tăng tốc</string>
+    <string name="om_optimzing_big_button_text">Tăng tốc</string>
+    <string name="om_running_app_info_summary">Giải phóng %s</string>
     <string name="om_running_locked_apps">Ứng dụng đang chạy bị khóa</string>
     <string name="om_running_system_apps">Ứng dụng hệ thống đang chạy</string>
     <string name="om_running_third_apps">Ứng dụng bên thứ ba đang chạy</string>
@@ -1859,6 +1939,13 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="om_settings_notify_manage">Thông báo</string>
     <string name="om_settings_speed_up_auto">Tăng tốc tự động</string>
     <string name="om_settings_title">Cài đặt</string>
+    <string name="om_shortcut_added_toast_text">Thêm thành công</string>
+    <string name="om_shortcut_dialog_summary">RAM Jet cho phép bạn xóa bộ nhớ và tăng tốc thiết bị chỉ bằng một cú chạm. Thêm RAM Jet vào Màn hình chính?</string>
+    <string name="om_shortcut_dialog_title">RAM Jet</string>
+    <string name="once_settings_camera_ttile">Chia sẻ mà không có siêu dữ liệu</string>
+    <string name="once_settings_location_title">Chia sẻ mà không có thông tin vị trí</string>
+    <string name="once_settings_subtitle">Bạn muốn chia sẻ các mục đã chọn như thế nào?</string>
+    <string name="once_settings_title">Bảo mật cá nhân</string>
     <string name="one_address_choose_hint">%s1</string>
     <string name="open_activity_err">Không tìm thấy ứng dụng này</string>
     <string name="open_app">Mở</string>
@@ -1966,7 +2053,7 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="pc_search_keywords_battery_use">Sử dụng Pin</string>
     <string name="pc_search_keywords_capacity">Dung lượng Pin</string>
     <string name="pc_search_keywords_property">Hiệu suất</string>
-    <string name="pc_settings_title">Cài đặt Pin &amp; hiệu suất</string>
+    <string name="pc_settings_title">Pin</string>
     <string name="pc_statistics_battery_last_hour_minute">Còn lại %1$d giờ %2$d phút</string>
     <string name="pc_statistics_battery_use_hour_minute">%1$d giờ %2$d phút kể từ lần sạc cuối</string>
     <string name="pc_statistics_battery_use_summary">%s kể từ lần sạc cuối</string>
@@ -2104,7 +2191,7 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="power_center_super_save_title_text">Tiết kiệm pin tối ưu</string>
     <string name="power_center_time_to_boot">Thời gian mở</string>
     <string name="power_center_time_to_shutdown">Thời gian tắt</string>
-    <string name="power_center_title">Pin &amp; hiệu suất</string>
+    <string name="power_center_title">Pin</string>
     <string name="power_consume_hardware_total_format">Phần cứng: %s</string>
     <string name="power_consume_other">Khác</string>
     <string name="power_consume_rank_hardware">Phần cứng</string>
@@ -2198,7 +2285,7 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="power_settings_number">Phần trăm</string>
     <string name="power_settings_saver_title">Tiết kiệm pin</string>
     <string name="power_settings_shape">Đồ họa</string>
-    <string name="power_settings_title">Đặt</string>
+    <string name="power_settings_title">Cài đặt</string>
     <string name="power_settings_top">Thanh trên cùng</string>
     <string name="power_superpower_title_systemui_highpower">Thời gian còn lại</string>
     <string name="power_superpower_title_systemui_lowpower">Kết nối bộ sạc</string>
@@ -2549,10 +2636,18 @@ Khi hiệu chỉnh, MIUI sẽ gửi tin nhắn đến nhà mạng để nhận m
     <string name="settings">Cài đặt sử dụng dữ liệu</string>
     <string name="settings_battery_consume_abnormal_summary">Nhận thông báo khi pin bị hao quá nhanh</string>
     <string name="settings_battery_consume_abnormal_title">Thông báo hao pin</string>
+    <string name="settings_camera_subtitle_no">Không có siêu dữ liệu</string>
     <string name="settings_category_other">Cài đặt khác</string>
     <string name="settings_category_overheat">Quá nóng</string>
     <string name="settings_choice_no_notification">Tắt</string>
+    <string name="settings_image_camera_summary">Mẫu thiết bị, siêu dữ liệu, v.v..</string>
+    <string name="settings_location_subtitle_no">Không có thông tin vị trí</string>
     <string name="settings_power_save_ontime_title">Hẹn giờ</string>
+    <string name="settings_share_enable_summary">Các mục bạn chia sẻ trên WeChat sẽ xuất hiện với biểu tượng MIUI</string>
+    <string name="settings_share_info">Dưới đây là các tùy chọn chia sẻ an toàn khả dụng cho các mục được chia sẻ từ Thư viện và Quản lý Tập tin:</string>
+    <string name="settings_show_detail">Xem chi tiết</string>
+    <string name="settings_tip">Vào Thư viện > Cài đặt để xem thêm tùy chọn</string>
+    <string name="settings_title">Chia sẻ an toàn</string>
     <string name="shield_keyboard_detail">Chạm hai lần vào phím để bật lại</string>
     <string name="shield_keyboard_summary">Giới hạn phím và cử chỉ toàn màn hình khi chơi game</string>
     <string name="shield_keyboard_title">Giới hạn phím và cử chỉ</string>
@@ -3012,6 +3107,8 @@ Khi hiệu chỉnh, MIUI sẽ gửi tin nhắn đến nhà mạng để nhận m
     <string name="text_button">Tôi biết</string>
     <string name="text_cycle_day">%s</string>
     <string name="text_day" />
+    <string name="text_done">OK</string>
+    <string name="text_security">Riêng tư</string>
     <string name="thermal_tips_message">Chơi game trong chế độ Hiệu suất có thể dẫn đến vấn đề quá nhiệt.</string>
     <string name="thermal_tips_title">Chú ý</string>
     <string name="third_application">Ứng dụng đã cài đặt</string>
@@ -3238,6 +3335,9 @@ Dữ liệu còn lại bao gồm dữ liệu đã gia hạn từ tháng trước
     <string name="vb_advanced_settings_after_open">Sau</string>
     <string name="vb_advanced_settings_before_open">Trước</string>
     <string name="vb_advanced_settings_pic_stronger_desc">Giúp các đối tượng chuyển động sắc nét hơn bằng cách tăng cường ảnh động. Tính năng này yêu cầu tiêu thụ pin cao hơn.</string>
+    <string name="vb_fps_settings">Tốc độ làm mới tự động</string>
+    <string name="vb_fps_settings_tips">Tính năng này điều chỉnh tốc độ làm mới màn hình thành tốc độ khung hình video, giúp tiết kiệm pin và chất lượng phát thêm mượt mà. Bật nhận xét nổi sẽ tắt tốc độ làm mới tự động.</string>
+    <string name="vb_quick_func_auto_bgm">Nhận biết nhạc nền</string>
     <string name="vb_quick_func_hangup_listening">Phát âm thanh video với màn hình tắt</string>
     <string name="vb_quick_func_screen_capture">Chụp ảnh màn hình</string>
     <string name="vb_quick_func_screen_record">Quay video</string>
@@ -3249,9 +3349,19 @@ Dữ liệu còn lại bao gồm dữ liệu đã gia hạn từ tháng trước
     <string name="vb_video_effects_display_style">Phong cách</string>
     <string name="vb_video_effects_setting_black_white">Đen&amp;Trắng</string>
     <string name="vb_video_effects_setting_cinema">Rạp chiếu phim</string>
+    <string name="vb_video_effects_setting_girl">Ửng đỏ</string>
+    <string name="vb_video_effects_setting_gorgeous">Sống động</string>
+    <string name="vb_video_effects_setting_green_orange">Cam</string>
+    <string name="vb_video_effects_setting_grim">Mát lạnh</string>
+    <string name="vb_video_effects_setting_hdr">HDR</string>
+    <string name="vb_video_effects_setting_knight">Kim loại</string>
+    <string name="vb_video_effects_setting_mecha">Robot</string>
+    <string name="vb_video_effects_setting_nostalgia">Nhạc buồn</string>
     <string name="vb_video_effects_setting_old_movie">Hoài cổ</string>
     <string name="vb_video_effects_setting_outside">Ngoài trời</string>
     <string name="vb_video_effects_setting_raw">Gốc</string>
+    <string name="vb_video_effects_setting_solar">Bạc màu</string>
+    <string name="vb_video_effects_setting_warmth">Ấm áp</string>
     <string name="vb_video_effects_settings_liquid">Trong trẻo</string>
     <string name="vb_video_effects_settings_stereo">Âm lượng</string>
     <string name="vb_video_effects_srs_premium_sound">Âm thanh</string>

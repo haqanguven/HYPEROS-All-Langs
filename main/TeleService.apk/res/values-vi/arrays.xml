@@ -122,11 +122,11 @@
         <item>1</item>
     </string-array>
     <string-array name="cdma_system_select_choices">
-        <item>Chỉ hệ thống trên máy</item>
+        <item>Chỉ nhà riêng</item>
         <item>Tự động</item>
     </string-array>
     <string-array name="clir_display_values">
-        <item>Mạng mặc định</item>
+        <item>Mặc định theo mạng</item>
         <item>Ẩn số</item>
         <item>Hiển thị số</item>
     </string-array>
@@ -146,7 +146,7 @@
         <item>Hiển thị các vùng mô phỏng mù màu lục</item>
     </string-array>
     <string-array name="dtmf_tone_entries">
-        <item>Bình thường</item>
+        <item>Thường</item>
         <item>Dài</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
@@ -198,19 +198,29 @@
         <item>720p, 1080p (màn hình đôi)</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>Toàn cầu</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Chỉ EvDo</item>
-        <item>CDMA w/o EvDo</item>
-        <item>CDMA/EvDo tự động</item>
-        <item>GSM/WCDMA tự động</item>
-        <item>Chỉ WCDMA</item>
+        <item>GSM/WCDMA được ưu tiên</item>
         <item>Chỉ GSM</item>
-        <item>Ưu tiên GSM/WCDMA</item>
+        <item>Chỉ WCDMA</item>
+        <item>GSM/WCDMA tự động</item>
+        <item>CDMA/EvDo tự động</item>
+        <item>CDMA không có EvDo</item>
+        <item>Chỉ EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>Toàn cầu</item>
+        <item>LTE</item>
+        <item>LTE / WCDMA</item>
+        <item>Chỉ TDSCDMA</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
     </string-array>
     <string-array name="preferred_network_mode_choices_world_mode">
         <item>Toàn cầu</item>
@@ -287,8 +297,8 @@
         <item>Nhanh nhất</item>
     </string-array>
     <string-array name="tty_mode_entries">
-        <item>TTY Tắt</item>
-        <item>TTY Đầy</item>
+        <item>Tắt TTY</item>
+        <item>TTY Đầy đủ</item>
         <item>TTY HCO</item>
         <item>TTY VCO</item>
     </string-array>

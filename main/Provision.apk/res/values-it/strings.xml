@@ -45,6 +45,7 @@
     <string name="disageement_abnormal_download">Se non accetti di concedere tali autorizzazioni o condividere e caricare le informazioni personali, non potrai utilizzare questo servizio.</string>
     <string name="disagree">Annulla</string>
     <string name="disagreement_abnormal_running">Se non accetti di concedere tali autorizzazioni o condividere e caricare le informazioni personali, non potrai utilizzare questa app. In questi casi puoi scegliere di non utilizzare la app o limitare le autorizzazioni nelle Impostazioni.</string>
+    <string name="disagreement_abnormal_running_fast_pairing">Se non accetti di concedere tali permessi, non potrai utilizzare questa app. Puoi scegliere di limitare i permessi e disattivare questa funzionalità nelle Impostazioni.</string>
     <string name="disagreement_donnot_use_application">Se non accetti di concedere tali autorizzazioni o condividere e caricare le informazioni personali, non potrai utilizzare questa app. Puoi scegliere di non usare questa app in questi casi.</string>
     <string name="disagreement_donnot_use_product">Se non accetti di concedere tali autorizzazioni o condividere e caricare le informazioni personali, non potrai utilizzare questo prodotto. Puoi scegliere di non usare questo prodotto in questi casi.</string>
     <string name="disagreement_donnot_use_service">Se non accetti di concedere tali autorizzazioni o condividere e caricare le informazioni personali, non potrai utilizzare questo servizio. Puoi scegliere di non usare questo servizio in questi casi.</string>
@@ -58,19 +59,23 @@
     <string name="enable_accessibility_dialog_negative_btn">Annulla</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>
     <string name="fast_application_introduction">Framework App rapide ti consente di creare e fornire servizi nelle App rapide.</string>
+    <string name="fast_pairing_introduction">Mi Link consente al dispositivo di connettersi ai dispositivi Bluetooth nelle vicinanze tramite il servizio Bluetooth MIUI. Per trovare dispositivi nelle vicinanze, consenti al servizio Bluetooth MIUI di connettersi a Internet.</string>
     <string name="font_hint_large">Dimensione del testo predefinita</string>
     <string name="font_hint_normal">Aumenta la dimensione del testo</string>
     <string name="framework_introduction">Mi Services Framework ti consente di utilizzare Mi Account, Mi Push, Mi Stats e MIUI BI.</string>
     <string name="framwork_base_service">Per fornirti questi servizi, Mi Services Framework (Mi Account, Mi Push, Mi Stats, MIUI BI) deve connettersi a Internet, accedere alla tua posizione, al tuo numero di telefono, IMEI e IMSI e consentire al tuo dispositivo di ricevere notifiche push</string>
     <string name="game_introduction">Plug-in Giochi ti consente di accedere, creare ordini, completare pagamenti, utilizzare coupon e partecipare a eventi promozionali.</string>
     <string name="google_service_introduction">Per poter funzionare correttamente, Google Play deve connettersi a Internet, accedere alla posizione, essere in grado di registrare audio, effettuare chiamate, accedere a eventi del calendario, cronologia delle chiamate, sensori, memoria, fotocamera, informazioni sul dispositivo e account.</string>
+    <string name="home_settings_miui_home">Classico</string>
+    <string name="home_settings_poco_launcher">Cassetto app</string>
+    <string name="home_settings_title">Seleziona il launcher predefinito</string>
     <string name="ime_privacy_policy">Informativa sulla privacy per la tastiera selezionata</string>
     <string name="ime_privacy_policy_no_network">"Nessuna connessione di rete. Leggi l'informativa sulla Privacy per questa tastiera su %s."</string>
     <string name="input_method_category">Scegli la tastiera predefinita che userai per scrivere messaggi, note e tutto il resto. Nota che potrai comunque installare tastiere di terze parti successivamente.</string>
     <string name="input_method_setting">Scegli la tastiera</string>
     <string name="install_preinstall_app">Caricamento delle applicazioni…</string>
     <string name="item_fingerprint">Impronta</string>
-    <string name="item_lock_screen_password">Schermata di blocco</string>
+    <string name="item_lock_screen_password">Solo blocco schermo</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Condivisione delle informazioni sulla posizione con le agenzie di soccorso di emergenza</string>
     <string name="language_picker_other_languages_title">Altre lingue</string>
@@ -101,8 +106,9 @@
     <string name="next_fingerprint">Avanti</string>
     <string name="note_introduction">Questa app ti consente di creare, visualizzare e modificare note.</string>
     <string name="other_settings">Impostazioni aggiuntive</string>
-    <string name="other_settings_ad_dialog_content">"Dopo aver disattivato questa funzionalità, non riceverai più annunci personalizzati. Tuttavia, riceverai comunque annunci irrilevanti per i tuoi interessi. Puoi scoprire di più sugli annunci personalizzati nell'Informativa sulla privacy di Xiaomi.
-Disattivare gli annunci personalizzati?"</string>
+    <string name="other_settings_ad_dialog_agree">Attiva</string>
+    <string name="other_settings_ad_dialog_content">Quando i consigli pubblicitari personalizzati sono disattivati, vedrai comunque la stessa quantità di annunci di quando la funzione è attiva. Gli annunci, tuttavia, non saranno più pertinenti in quanto non saranno basati sulle tue preferenze personali.</string>
+    <string name="other_settings_ad_dialog_disagree">Disattiva</string>
     <string name="other_settings_ad_disable_summary">Attiva per personalizzare gli annunci</string>
     <string name="other_settings_ad_enable">Annunci personalizzati</string>
     <string name="other_settings_ad_enable_summary">Personalizza gli annunci in base ai tuoi interessi</string>
@@ -253,13 +259,22 @@ Devi leggere e accettare l'Informativa sulla privacy di Mint Keyboard prima di u
     <string name="terms_privacy_policy_input_method_kika">Informativa sulla Privacy di Kika</string>
     <string name="title_fingerprint">Imposta la password</string>
     <string name="user_agreement">Accordo Utente</string>
-    <string name="user_agreement_declare">"Prima di utilizzare MIUI, devi leggere e accettare il nostro Accordo Utente e la nostra Informativa sulla privacy. Durante l'attivazione del dispositivo, il Servizio di attivazione Mi SIM, Xiaomi Cloud, Trova dispositivo, la schermata Home, le Frasi frequenti, il Servizio di traduzione, MIUI Daemon, HTML Viewer, Assistente AI, Batteria e prestazioni, Power Detector, Joyose, Impostazioni AI OS, Gestore permessi e Updater si collegheranno alla rete. Servizi smart si connetterà alla rete e accederà alla tua posizione."</string>
+    <string name="user_agreement_declare">"Prima di utilizzare MIUI, devi leggere e accettare il nostro Accordo Utente e la nostra Informativa sulla privacy. Durante l'attivazione del dispositivo, il Servizio di attivazione Mi SIM, Xiaomi Cloud, Trova dispositivo, la schermata Home, le Frasi frequenti, il Servizio di traduzione, MIUI Daemon, HTML Viewer, MIUI SDK, Assistente AI, Batteria e prestazioni, Power Detector, Joyose, Impostazioni AI OS, Gestore permessi e Updater si collegheranno alla rete. Servizi smart si connetterà alla rete e accederà alla tua posizione."</string>
     <string name="voice_assist_advice">Mi AI ti consente di utilizzare i comandi vocali, ma consuma più energia (+ 1% ogni ora).</string>
     <string name="voice_assist_condition">"Sarai in grado di utilizzare Mi AI in questi casi:r
 1. Quando lo schermo è acceso.r
 2. Quando ascolti musica con lo schermo spento."</string>
     <string name="voice_assist_desp">Pronuncia \"Mi AI\" al tuo telefono. Mi AI riconoscerà la tua voce e sarà in grado di controllare il tuo dispositivo.</string>
     <string name="voice_assist_title">Risveglia con la voce</string>
+    <string name="wc_dialog_agree">Accetto</string>
+    <string name="wc_dialog_reject">Non accetto</string>
+    <string name="wc_dialog_summary">Carosello Sfondi porta ogni giorno immagini straordinarie e storie emozionanti sulla tua schermata di blocco.</string>
+    <string name="wc_dialog_title">Schermata di blocco reinventata</string>
+    <string name="wc_double_check_agree">Prova</string>
+    <string name="wc_double_check_reject">No grazie</string>
+    <string name="wc_double_check_summary">Attiva Carosello Sfondi e scopri se fa per te. Ricorda che puoi sempre attivare e disattivare Carosello Sfondi in Impostazioni > Schermata di blocco.</string>
+    <string name="wc_double_check_title">Prova Carosello Sfondi</string>
+    <string name="wc_notice_link_announcement_summary">"Leggi e accetta l'&lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> e l'&lt;a href=\"%2$s\">Accordo Utente&lt;/a> del fornitore di contenuti di terze parti prima di utilizzare questa funzionalità."</string>
     <string name="welcome">Benvenuto</string>
     <string name="zone_picker_title">Scegli il fuso orario</string>
 </resources>

@@ -65,6 +65,10 @@
     <string name="about">Детально</string>
     <string name="action_settings">Налаштування</string>
     <string name="ad_install">Встановити</string>
+    <string name="add_download_download">Завантажити</string>
+    <string name="add_download_error_not_support">Це посилання не підтримується</string>
+    <string name="add_download_text_hint">Введіть посилання HTTP/HTTPS</string>
+    <string name="add_download_title">Додати URL</string>
     <string name="all_downloads">Всі завантаження</string>
     <string name="all_fileter">Все</string>
     <string name="all_share_files_content">Файли, які ви обрали, були видалені.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Скасувати</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Налаштування мережі</string>
+    <string name="dialog_clipboard_permission_message">Дозволити \"Завантаженням\" доступ до даних у буфері обміну для автоматичного вставлення скопійованих URL-адрес?</string>
+    <string name="dialog_clipboard_permission_title">Необхідні дозволи</string>
     <string name="dialog_confirm_delete_checkbox_message">Видалити також локальні файли</string>
     <string name="dialog_confirm_delete_the_download_item_message">Видалити ці завантаження?</string>
     <string name="dialog_file_missing_title">Неможливо відкрити файл</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Завантажувати, використовуючи мобільний інтернет</string>
     <string name="downloaded">Завантаження завершено</string>
     <string name="downloaded_empty">Порожньо</string>
+    <string name="downloaded_tab_hint">"завантажені об'єкти доступні у Провіднику"</string>
     <string name="downloading">Завантаження…</string>
     <string name="downloading_empty">Порожньо</string>
     <string name="downloads_operating">Обробка…</string>
-    <string name="durationDayHour">%1$d дн %2$d год</string>
-    <string name="durationDayHours">%1$d дн %2$d год</string>
-    <string name="durationHourMinute">%1$d год %2$dхв</string>
-    <string name="durationHourMinutes">%1$d год %2$dхв</string>
-    <string name="durationMinute">%1$d хв</string>
-    <string name="durationMinuteSecond">%1$d хв %2$d сек</string>
-    <string name="durationMinuteSeconds">%1$d хв %2$d сек</string>
-    <string name="durationMinutes">%1$d хв</string>
-    <string name="durationSecond">%1$d сек</string>
-    <string name="durationSeconds">%1$d сек</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Видалити</string>
     <string name="editmode_menu_share">Поділитися</string>
     <string name="extend">Ще</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Максимальний розмір файлів для завантаження</string>
     <string name="pref_summary_any_bytes_popup">Завжди очікувати підключення до Wi-Fi для завантаження файлів</string>
     <string name="pref_summary_enable_max_bytes_popup">Показувати спливаючі сповіщення, коли використовується мобільний інтернет для завантаження даних</string>
-    <string name="pref_summary_max_bytes_limit_format">Завантажувати через Wi-Fi, якщо файл більше %s</string>
     <string name="pref_summary_no_limit_popup">Без обмежень</string>
     <string name="pref_title_enable_max_bytes_popup">Показувати запити на використання інтернету</string>
     <string name="preferences_title">Налаштування</string>
+    <string name="privacy_agree_dialog_msg">&lt;Data>Ласкаво просимо до програми Завантаження! Ви можете користуватися цією програмою для завантаження файлів.&lt;BR>Програмі Завантаження потрібно здійснювати збір необхідної особистої інформації, щоб надавати вам служби, які генерують статистику завантажень. Ви можете докладніше дізнатися про те, як ми обробляємо інформацію у &lt;a href=\"%1$s\">Політиці конфіденційності&lt;/a>.&lt;BR>Перед початком використання програми Завантаження, ознайомтеся і погодьтеся з нашими &lt;a href=\"%2$s\">Умовами використання&lt;/a> та &lt;a href=\"%1$s\">Політикою конфіденційності&lt;/a>.&lt;BR>Ви можете в будь-який час відкликати свою згоду з Політикою конфіденційності програми Завантаження в Налаштуваннях. Якщо ви не згодні з нашою Політикою конфіденційності, ви не зможете використовувати деякі функції цієї програми, однак основні функції залишаться доступними.&lt;/Data></string>
+    <string name="privacy_agree_dialog_title">Правила та умови</string>
+    <string name="privacy_revoke_dialog_later">Скасувати</string>
+    <string name="privacy_revoke_dialog_msg">Переводячи перемикач в положення \"Викл\", ви відкликаєте свою згоду з Політикою конфіденційності програми \"Завантаження\". Ми припинимо здійснювати збір вашої особистої інформації. Вже зібрана і збережена особиста інформація буде видалена протягом певного періоду часу відповідно до чинного законодавства. Програмі \"Завантаження\" потрібно здійснювати збір необхідної особистої інформації для надання вам основних послуг, які генерують статистику завантажень . Відкликання згоди з Політикою конфіденційності буде розглядатися як відмова від служб програми, що функціонують на основі збору особистої інформації.</string>
+    <string name="privacy_revoke_dialog_ok">Відкликати</string>
+    <string name="privacy_revoke_dialog_title">Відкликання згоди</string>
+    <string name="privacy_revoke_label">Відкликання згоди</string>
+    <string name="privacy_revoke_msg">Переводячи перемикач в положення \"Викл\", ви відкликаєте свою згоду з Політикою конфіденційності програми \"Завантаження\".</string>
+    <string name="privacy_revoke_nonetwork_msg">Для відкликання згоди ваш пристрій повинен бути підключений до мережі. Перевірте налаштування підключення та повторіть спробу.</string>
+    <string name="privacy_revoke_nonetwork_ok">Зрозуміло</string>
+    <string name="privacy_revoke_nonetwork_title">Не вдалося підключитися до мережі</string>
     <string name="privacy_tip_cancel">Скасувати</string>
     <string name="privacy_tip_ok">OK </string>
     <string name="rank">Рейтинги</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">"Підключіться до Wi-Fi, щоб завантажити цей об'єкт"</string>
     <string name="total_speedup">Збільшена швидкість (всього)</string>
     <string name="version">Версія %s</string>
-    <string name="security_ui_title">Безпечна реклама</string>
 </resources>

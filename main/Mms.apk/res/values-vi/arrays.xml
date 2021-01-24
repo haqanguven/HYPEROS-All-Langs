@@ -15,8 +15,8 @@
         <item>Quan hệ</item>
     </string-array>
     <string-array name="dialog_choice_specific_correct_as_normal">
-        <item>Tin nhắn quảng cáo từ %s</item>
-        <item>Tin nhắn dịch vụ nhà cung cấp từ %s</item>
+        <item>Tin nhắn khuyễn mại từ %s</item>
+        <item>Tin nhắn dịch vụ nhà mạng từ %s</item>
         <item>Tin nhắn tài chính từ %s</item>
     </string-array>
     <string-array name="entries_mms_validity_period">
@@ -31,15 +31,40 @@
         <item>1 ngày</item>
         <item>Tối đa</item>
     </string-array>
+    <string-array name="message_sending_method">
+        <item>Dịch vụ Tin nhắn được đề xuất</item>
+        <item>SMS, MMS</item>
+        <item>RCS chat, Chuyển tệp RCS</item>
+    </string-array>
     <string-array name="prefEntries_vibrateWhen">
         <item>Luôn luôn</item>
-        <item>Chỉ ở Chế độ im lặng</item>
+        <item>Chỉ khi im lặng</item>
         <item>Không bao giờ</item>
     </string-array>
+    <string-array name="rcs_ft_fallback">
+        <item>Không bao giờ hỏi và luôn luôn gửi như đường dẫn SMS</item>
+        <item>Không bao giờ hỏi và không bao giờ gửi như đường dẫn SMS</item>
+        <item>Luôn hỏi</item>
+    </string-array>
+    <string-array name="rcs_message_fallback">
+        <item>Không bao giờ hỏi và luôn luôn gửi như SMS</item>
+        <item>Không bao giờ hỏi và không bao giờ gửi như SMS</item>
+        <item>Luôn hỏi</item>
+    </string-array>
+    <string-array name="rcs_picture_quality_setting">
+        <item>Luôn hỏi</item>
+        <item>Không bao giờ thay đổi kích thước</item>
+        <item>Luôn thay đổi kích thước theo tùy chọn đã chọn, sau đó lưu dưới dạng giá trị mặc định</item>
+    </string-array>
+    <string-array name="rcs_video_quality_setting">
+        <item>Luôn hỏi</item>
+        <item>Không bao giờ thay đổi kích thước</item>
+        <item>Luôn thay đổi kích thước theo tùy chọn đã chọn, sau đó lưu dưới dạng giá trị mặc định</item>
+    </string-array>
     <string-array name="recv_type">
-        <item>接收并通知</item>
-        <item>只接收</item>
-        <item>拒收</item>
+        <item>Nhận và thông báo</item>
+        <item>Chỉ nhận</item>
+        <item>Từ chối</item>
     </string-array>
     <string-array name="resent_via_entries_mms">
         <item>SMS</item>
@@ -65,9 +90,5 @@
     <string-array name="switch_sdk">
         <item>Tin nhắn Mi</item>
         <item>Tin nhắn Thông minh CMCC</item>
-    </string-array>
-    <string-array name="switch_sdk_value">
-        <item>0</item>
-        <item>1</item>
     </string-array>
 </resources>

@@ -65,6 +65,10 @@
     <string name="about">O</string>
     <string name="action_settings">Ustawienia</string>
     <string name="ad_install">Instaluj</string>
+    <string name="add_download_download">Pobierz</string>
+    <string name="add_download_error_not_support">Ten link nie jest obsługiwany</string>
+    <string name="add_download_text_hint">Wprowadź link HTTP/HTTPS</string>
+    <string name="add_download_title">Dodaj URL</string>
     <string name="all_downloads">Wszystkie pobrania</string>
     <string name="all_fileter">Wszystko</string>
     <string name="all_share_files_content">Wybrane pliki zostały już usunięte.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Anuluj</string>
     <string name="dialog_btn_ok">OK</string>
     <string name="dialog_btn_ok_disabled_net">Ustawienia sieci</string>
+    <string name="dialog_clipboard_permission_message">Zezwolić Pobranym na dostęp do elementów w schowku, aby automatycznie dodawać skopiowane adresy URL?</string>
+    <string name="dialog_clipboard_permission_title">Wymagane uprawnienia</string>
     <string name="dialog_confirm_delete_checkbox_message">Usuń także pliki lokalne</string>
     <string name="dialog_confirm_delete_the_download_item_message">Usuń te zadania</string>
     <string name="dialog_file_missing_title">Nie można otworzyć pliku</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Pobierz używając danych komórkowych</string>
     <string name="downloaded">Pobieranie ukończone</string>
     <string name="downloaded_empty">Pusta</string>
+    <string name="downloaded_tab_hint">Możesz przeglądać pobrane elementy w Menedżerze plików</string>
     <string name="downloading">Pobieranie…</string>
     <string name="downloading_empty">Pusta</string>
     <string name="downloads_operating">Pracuje…</string>
-    <string name="durationDayHour">%1$d dzień %2$d godz.</string>
-    <string name="durationDayHours">%1$d dzień %2$d godz.</string>
-    <string name="durationHourMinute">%1$d godz. %2$d min</string>
-    <string name="durationHourMinutes">%1$d godz. %2$d min</string>
-    <string name="durationMinute">%1$d min.</string>
-    <string name="durationMinuteSecond">%1$d min %2$d sek</string>
-    <string name="durationMinuteSeconds">%1$d min %2$d sek</string>
-    <string name="durationMinutes">%1$d min.</string>
-    <string name="durationSecond">%1$d sek.</string>
-    <string name="durationSeconds">%1$d sek.</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Usuń</string>
     <string name="editmode_menu_share">Udostępnij</string>
     <string name="extend">Więcej</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Limit rozmiaru pobierania</string>
     <string name="pref_summary_any_bytes_popup">Zawsze czekaj na połączenie Wi-Fi, aby pobrać pliki</string>
     <string name="pref_summary_enable_max_bytes_popup">Powiadom mnie, gdy przekroczę ustawiony limit pobierania plików z wykorzystaniem danych mobilnych</string>
-    <string name="pref_summary_max_bytes_limit_format">Jeśli rozmiar pliku przekracza %s pobierz tylko przy połączeniu Wi-Fi</string>
     <string name="pref_summary_no_limit_popup">Bez ograniczeń</string>
     <string name="pref_title_enable_max_bytes_popup">Pokaż powiadomienie zużycia danych</string>
     <string name="preferences_title">Ustawienia</string>
+    <string name="privacy_agree_dialog_msg">&lt;Data>Witamy w Pobranych! Możesz użyć tej aplikacji do pobierania plików.&lt;BR> Pobrane muszą gromadzić niezbędne dane osobowe w celu świadczenia usług generujących statystyki pobierania. Możesz dowiedzieć się, jak wykorzystujemy dane, które zbieramy w naszej &lt;a href=\"%1$s\">Polityce prywatności&lt;/a>.&lt;BR>Przeczytaj i zaakceptuj &lt;a href=\"%2$s\">Umowę użytkownika&lt;/a> i &lt;a href=\"%1$s\">Politykę prywatności&lt;/a> przed skorzystaniem z Pobranych.&lt;BR>W dowolnym momencie możesz wycofać swoją zgodę na Politykę prywatności w Ustawieniach. Jeśli nie zgadzasz się z naszą Polityką prywatności, nie będziesz mógł korzystać z niektórych funkcji tej aplikacji; jednak jego podstawowa funkcjonalność będzie nadal dostępna.&lt;/Data></string>
+    <string name="privacy_agree_dialog_title">Warunki użytkowania</string>
+    <string name="privacy_revoke_dialog_later">Anuluj</string>
+    <string name="privacy_revoke_dialog_msg">Wyłączając przełącznik, wycofujesz swoją zgodę na Politykę prywatności Pobranych. Przestaniemy gromadzić Twoje dane osobowe. Dane osobowe już zebrane i zachowane zostaną usunięte w określonym czasie zgodnie z obowiązującymi przepisami. Pobrane muszą gromadzić niezbędne dane osobowe w celu świadczenia usług generujących statystyki pobierania. Wycofanie zgody na Politykę prywatności będzie traktowane jako odmowa akceptacji usług w oparciu o zebrane dane osobowe.</string>
+    <string name="privacy_revoke_dialog_ok">Wycofaj</string>
+    <string name="privacy_revoke_dialog_title">Cofnięcie zgody</string>
+    <string name="privacy_revoke_label">Cofnięcie zgody</string>
+    <string name="privacy_revoke_msg">Wyłączając przełącznik, wycofujesz swoją zgodę na Politykę prywatności Pobranych.</string>
+    <string name="privacy_revoke_nonetwork_msg">Twoje urządzenie musi połączyć się z siecią, abyś mógł wycofać zgodę. Sprawdź ustawienia sieci i spróbuj ponownie.</string>
+    <string name="privacy_revoke_nonetwork_ok">Rozumiem</string>
+    <string name="privacy_revoke_nonetwork_title">Nie można połączyć się z siecią</string>
     <string name="privacy_tip_cancel">Anuluj</string>
     <string name="privacy_tip_ok">OK</string>
     <string name="rank">Rankingi</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">Połącz z Wi-Fi, aby pobrać ten element</string>
     <string name="total_speedup">Przyspieszenie prędkości (w sumie)</string>
     <string name="version">Wersja %s</string>
-    <string name="security_ui_title">Reklamy bezpieczeństwa</string>
 </resources>

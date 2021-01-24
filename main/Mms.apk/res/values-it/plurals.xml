@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">"un'ora fa"</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">"un'ora fa"</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">"mezz'ora fa"</item>
+        <item quantity="one">"mezz'ora fa"</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Tra 1 ora</item>
+        <item quantity="one">In 1 ora</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">"Tra mezz'ora"</item>
+        <item quantity="one">"In Mezz'ora"</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">adesso</item>
+        <item quantity="one">Immediatamente</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">in %d minuti</item>
+        <item quantity="one">in 1 minuto</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Proprio ora</item>
+        <item quantity="one">ora</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="other">Eliminare %1$s messaggi?</item>
         <item quantity="one">Eliminare %1$s messaggio?</item>
@@ -13,24 +49,48 @@
         <item quantity="one">%d messaggio non è stato sincronizzato</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Eliminare %1$s conversazioni selezionate?</item>
-        <item quantity="one">Eliminare %1$s conversazione selezionata?</item>
+        <item quantity="other">Eliminare le %1$s conversazioni selezionate?</item>
+        <item quantity="one">Eliminare questa %1$s conversazione?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d selezionati</item>
         <item quantity="one">%d selezionato</item>
     </plurals>
     <plurals name="delivery_toast_body_more_plurals">
-        <item quantity="other">Messaggio ricevuto da %1$s e %2$d altre persone</item>
-        <item quantity="one">Messaggio ricevuto da %1$s e %2$d altra persona</item>
+        <item quantity="other">Messaggio ricevuto da %1$s ed altre %2$d persone</item>
+        <item quantity="one">Messaggio ricevuto da %1$s ed %2$d altra persona</item>
     </plurals>
     <plurals name="group_message_failed_title">
         <item quantity="other">Impossibile inviare a %d contatti</item>
         <item quantity="one">Impossibile inviare a %d contatto</item>
     </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">"mezz'ora fa"</item>
+        <item quantity="one">"Mezz'ora fa"</item>
+    </plurals>
     <plurals name="hint_search_sms">
         <item quantity="other">%d messaggi</item>
         <item quantity="one">%d messaggio</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Tra 1 ora</item>
+        <item quantity="one">In 1 ora</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">"Tra mezz'ora"</item>
+        <item quantity="one">"In mezz'ora"</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">adesso</item>
+        <item quantity="one">Immediatamente</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">in %d minuti</item>
+        <item quantity="one">in 1 minuto</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">poco fa</item>
+        <item quantity="one">Ora</item>
     </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="other">Contrassegnato come %2$s da %1$d persone</item>
@@ -44,13 +104,17 @@
         <item quantity="other">"%s messaggi | "</item>
         <item quantity="one">"%s messaggio | "</item>
     </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
     <plurals name="rcs_group_notification_invitation_receive">
-        <item quantity="other">Hai ricevuto %d inviti alla chat di gruppo</item>
-        <item quantity="one">Hai ricevuto %d invito alla chat di gruppo</item>
+        <item quantity="other">Hai ricevuto %d inviti a chat di gruppo</item>
+        <item quantity="one">Hai ricevuto %d invito a chat di gruppo</item>
     </plurals>
     <plurals name="recipient_count">
-        <item quantity="other">%1$s persone</item>
-        <item quantity="one">%1$s persona</item>
+        <item quantity="other">%1$s contatti</item>
+        <item quantity="one">%1$s contatto</item>
     </plurals>
     <plurals name="search_results_title">
         <item quantity="other">%1$s risultati per \"%2$s\"</item>
@@ -61,16 +125,16 @@
         <item quantity="one">%1$s messaggio inviato</item>
     </plurals>
     <plurals name="slide_audio_duration">
-        <item quantity="other">%d secondi</item>
-        <item quantity="one">%d secondo</item>
+        <item quantity="other">%d sec</item>
+        <item quantity="one">%d sec</item>
     </plurals>
     <plurals name="slide_duration">
-        <item quantity="other">%d secondi</item>
-        <item quantity="one">%d secondo</item>
+        <item quantity="other">%d sec</item>
+        <item quantity="one">%d sec</item>
     </plurals>
     <plurals name="timed_message_expired_title">
-        <item quantity="other">%d messaggi programmati non inviati</item>
-        <item quantity="one">%d messaggio programmato non inviato</item>
+        <item quantity="other">%d messaggi programmati non sono stati inviati</item>
+        <item quantity="one">%d messaggio inviato non è stato programmato</item>
     </plurals>
     <plurals name="timed_message_in_total">
         <item quantity="other">(%d messaggi)</item>

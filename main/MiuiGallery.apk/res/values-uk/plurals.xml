@@ -97,10 +97,10 @@
         <item quantity="many">%1$d фото %2$s буде додано</item>
     </plurals>
     <plurals name="backup_after_hours">
-        <item quantity="other">Продовжити бекап через %d год</item>
-        <item quantity="one">Продовжити бекап через %d год</item>
-        <item quantity="few">Продовжити бекап через %d год</item>
-        <item quantity="many">Resume backup in %d hours</item>
+        <item quantity="other">Продовжити резервування через %d год</item>
+        <item quantity="one">Продовжити резервування через %d год</item>
+        <item quantity="few">Продовжити резервування через %d год</item>
+        <item quantity="many">Продовжити резервування через %d год</item>
     </plurals>
     <plurals name="backup_file_over_size_title">
         <item quantity="other">"%d об'єктів занадто великі"</item>
@@ -160,13 +160,13 @@
         <item quantity="other">%d фото</item>
         <item quantity="one">%d фото</item>
         <item quantity="few">%d фото</item>
-        <item quantity="many">%d photos</item>
+        <item quantity="many">%d фото</item>
     </plurals>
     <plurals name="cloud_storage_video_num">
         <item quantity="other">%d відео</item>
         <item quantity="one">%d відео</item>
         <item quantity="few">%d відео</item>
-        <item quantity="many">%d videos</item>
+        <item quantity="many">%d відео</item>
     </plurals>
     <plurals name="collage_select_image_dynamic_range">
         <item quantity="other">Колажі можуть містити 1-%d фото</item>
@@ -183,8 +183,8 @@
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">"Вибрано %d об'єктів"</item>
         <item quantity="one">"Вибрано %d об'єкт"</item>
-        <item quantity="few">"Вибрано %d об'єкти"</item>
-        <item quantity="many">%d items selected</item>
+        <item quantity="few">"Вибрано %d об'єкта"</item>
+        <item quantity="many">"Вибрано %d об'єктів"</item>
     </plurals>
     <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
         <item quantity="other">Видалити %d серійних зйомок з Xiaomi Cloud та з усіх синхронізованих пристроїв?</item>
@@ -295,10 +295,10 @@
         <item quantity="many">Processing photos…</item>
     </plurals>
     <plurals name="fast_share_auto_render_failed">
-        <item quantity="other">Пропущені %1$d фото, які не можуть бути надані.</item>
-        <item quantity="one">Пропущене фото, яке не може бути надане.</item>
-        <item quantity="few">Пропущені %1$d фото, які не можуть бути надані.</item>
-        <item quantity="many">"Skipped %1$d photos which couldn't be rendered."</item>
+        <item quantity="other">Пропущено %1$d фото, які не можуть бути передані.</item>
+        <item quantity="one">Пропущено %1$d фото, яке не може бути передано.</item>
+        <item quantity="few">Пропущено %1$d фото, які не можуть бути передані.</item>
+        <item quantity="many">Пропущено %1$d фото, які не можуть бути передані.</item>
     </plurals>
     <plurals name="file_type_detail_count">
         <item quantity="other">%1$d файлів</item>
@@ -314,9 +314,9 @@
     </plurals>
     <plurals name="number_of_images_synced">
         <item quantity="other">%1$d фото</item>
-        <item quantity="one">1 фото</item>
+        <item quantity="one">%1$d фото</item>
         <item quantity="few">%1$d фото</item>
-        <item quantity="many">%1$d photos</item>
+        <item quantity="many">%1$d фото</item>
     </plurals>
     <plurals name="number_of_images_to_upload">
         <item quantity="other">Очікування синхронизації: %1$d фото</item>
@@ -344,9 +344,9 @@
     </plurals>
     <plurals name="number_of_videos_synced">
         <item quantity="other">%1$d відео</item>
-        <item quantity="one">1 відео</item>
+        <item quantity="one">%1$d відео</item>
         <item quantity="few">%1$d відео</item>
-        <item quantity="many">%1$d videos</item>
+        <item quantity="many">%1$d відео</item>
     </plurals>
     <plurals name="number_of_videos_to_upload">
         <item quantity="other">Очікування синхронизації: %1$d відео</item>
@@ -372,6 +372,18 @@
         <item quantity="few">%d год</item>
         <item quantity="many">%d год</item>
     </plurals>
+    <plurals name="pic_to_pdf_filter_count">
+        <item quantity="other">"Відсортовано %d непідтримуваних об'єктів"</item>
+        <item quantity="one">"Відсортовано %d непідтримуваний об'єкт"</item>
+        <item quantity="few">"Відсортовано %d непідтримуваних об'єкта"</item>
+        <item quantity="many">"Відсортовано %d непідтримуваних об'єктів"</item>
+    </plurals>
+    <plurals name="pic_to_pdf_support_max_count">
+        <item quantity="other">PDF-файли можуть містити не більше %d зображень</item>
+        <item quantity="one">PDF-файли можуть містити не більше %d зображення</item>
+        <item quantity="few">PDF-файли можуть містити не більше %d зображень</item>
+        <item quantity="many">PDF-файли можуть містити не більше %d зображень</item>
+    </plurals>
     <plurals name="picker_all_image_need_download">
         <item quantity="other">Вибрані фото відсутні на пристрої. Завантажити через мобільний інтернет?</item>
         <item quantity="one">Вибране фото відсутнє на пристрої. Завантажити через мобільний інтернет?</item>
@@ -385,10 +397,10 @@
         <item quantity="many">Вибрані фото відсутні на пристрої. Вони будуть завантажені.</item>
     </plurals>
     <plurals name="picker_all_origin_need_download">
-        <item quantity="other">Вибрані фото (%dМБ) відсутні на пристрої. Завантажити через мобільний інтернет?</item>
-        <item quantity="one">Вибране фото (%dМБ) відсутнє на пристрої. Завантажити через мобільний інтернет?</item>
-        <item quantity="few">Вибрані фото (%dМБ) відсутні на пристрої, завантажити через мобільний інтернет?</item>
-        <item quantity="many">Вибрані фото (%dМБ) відсутні на пристрої. Завантажити через мобільний інтернет?</item>
+        <item quantity="other">Вибрані фото (%d МБ) відсутні на пристрої. Завантажити через мобільний інтернет?</item>
+        <item quantity="one">Вибране фото (%d МБ) відсутнє на пристрої. Завантажити через мобільний інтернет?</item>
+        <item quantity="few">Вибрані фото (%d МБ) відсутні на пристрої. Завантажити через мобільний інтернет?</item>
+        <item quantity="many">Вибрані фото (%d МБ) відсутні на пристрої. Завантажити через мобільний інтернет?</item>
     </plurals>
     <plurals name="picker_cancel_confirm_message">
         <item quantity="other">%d файлів ще не завантажені. Скасувати?</item>
@@ -403,10 +415,10 @@
         <item quantity="many">Завантаження %d файлів</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">"Не вдалося завантажити %1$d фото, під'єднайтесь до мережі та повторіть спробу"</item>
-        <item quantity="one">"Не вдалося завантажити фото, під'єднайтесь до мережі та повторіть спробу"</item>
-        <item quantity="few">"Не вдалося завантажити %1$d фото, під'єднайтесь до мережі та повторіть спробу"</item>
-        <item quantity="many">"Не вдалося завантажити %1$d фото, під'єднайтесь до мережі та повторіть спробу"</item>
+        <item quantity="other">Не вдалося завантажити %1$d фото, підключіться до мережі та повторіть спробу</item>
+        <item quantity="one">Не вдалося завантажити %1$d фото, підключіться до мережі та повторіть спробу</item>
+        <item quantity="few">Не вдалося завантажити %1$d фото, підключіться до мережі та повторіть спробу</item>
+        <item quantity="many">Не вдалося завантажити %1$d фото, підключіться до мережі та повторіть спробу</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
         <item quantity="other">Не вдалося завантажити %1$d файлів (%2$d МБ). Підключіться до мережі та повторіть спробу.</item>
@@ -422,15 +434,15 @@
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
         <item quantity="other">Не вдалося завантажити %1$d фото, повторити спробу ще раз?</item>
-        <item quantity="one">Не вдалося завантажити фото, повторити спробу ще раз?</item>
+        <item quantity="one">Не вдалося завантажити %1$d фото, повторити спробу ще раз?</item>
         <item quantity="few">Не вдалося завантажити %1$d фото, повторити спробу ще раз?</item>
         <item quantity="many">Не вдалося завантажити %1$d фото, повторити спробу ще раз?</item>
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
-        <item quantity="other">Не вдалося завантажити %1$d фото (%2$dМБ), спробувати ще раз?</item>
-        <item quantity="one">Не вдалося завантажити фото (%2$dМБ), повторити спробу ще раз?</item>
-        <item quantity="few">Не вдалося завантажити %1$d фото (%2$dМБ), повторити спробу ще раз?</item>
-        <item quantity="many">Не вдалося завантажити %1$d фото (%2$dМБ), повторити спробу ще раз?</item>
+        <item quantity="other">Не вдалося завантажити %1$d фото (%2$d МБ), повторити спробу?</item>
+        <item quantity="one">Не вдалося завантажити %1$d фото (%2$d МБ), повторити спробу?</item>
+        <item quantity="few">Не вдалося завантажити %1$d фото (%2$d МБ), повторити спробу?</item>
+        <item quantity="many">Не вдалося завантажити %1$d фото (%2$d МБ), повторити спробу?</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">Пропущено %d фото, яких немає на пристрої.</item>
@@ -440,7 +452,7 @@
     </plurals>
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">Знайдено %1$d нових фото</item>
-        <item quantity="one">Знайдено нове фото</item>
+        <item quantity="one">Знайдено %1$d нове фото</item>
         <item quantity="few">Знайдено %1$d нових фото</item>
         <item quantity="many">Знайдено %1$d нових фото</item>
     </plurals>
@@ -480,11 +492,155 @@
         <item quantity="few">Було видалено %1$d фото з \"%2$s\".</item>
         <item quantity="many">Removed %1$d photos from \"%2$s\".</item>
     </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">%2$d пакетів встановлення (%3$s) від %1$s</item>
+        <item quantity="one">%2$d пакет встановлення (%3$s) від %1$s</item>
+        <item quantity="few">%2$d пакета встановлення (%3$s) від %1$s</item>
+        <item quantity="many">%2$d пакетів встановлення (%3$s) від %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">Отримано %2$d пакетів встановлення (%3$s) від %1$s</item>
+        <item quantity="one">Отримано %2$d пакет встановлення (%3$s) від %1$s</item>
+        <item quantity="few">Отримано %2$d пакета встановлення (%3$s) від %1$s</item>
+        <item quantity="many">Отримано %2$d пакетів встановлення (%3$s) від %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">Отримання %2$d пакетів встановлення (%3$s) від %1$s…</item>
+        <item quantity="one">Отримання %2$d пакету встановлення (%3$s) від %1$s…</item>
+        <item quantity="few">Отримання %2$d пакетів встановлення (%3$s) від %1$s…</item>
+        <item quantity="many">Отримання %2$d пакетів встановлення (%3$s) від %1$s…</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%2$d aудіофайлів (%3$s) від %1$s</item>
+        <item quantity="one">%2$d aудіофайл (%3$s) від %1$s</item>
+        <item quantity="few">%2$d aудіофайла (%3$s) від %1$s</item>
+        <item quantity="many">%2$d aудіофайлів (%3$s) від %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">Отримано %2$d аудіофайлів (%3$s) від %1$s</item>
+        <item quantity="one">Отримано %2$d аудіофайл (%3$s) від %1$s</item>
+        <item quantity="few">Отримано %2$d аудіофайла (%3$s) від %1$s</item>
+        <item quantity="many">Отримано %2$d аудіофайлів (%3$s) від %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">Отримання %2$d аудіофайлів (%3$s) від %1$s…</item>
+        <item quantity="one">Отримання %2$d аудіофайлу (%3$s) від %1$s…</item>
+        <item quantity="few">Отримання %2$d аудіофайлів (%3$s) від %1$s…</item>
+        <item quantity="many">Отримання %2$d аудіофайлів (%3$s) від %1$s…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%2$d %3$s файлів (%4$s) від %1$s</item>
+        <item quantity="one">%2$d %3$s файл (%4$s) від %1$s</item>
+        <item quantity="few">%2$d %3$s файла (%4$s) від %1$s</item>
+        <item quantity="many">%2$d %3$s файлів (%4$s) від %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">Отримано %2$d %3$s файлів (%4$s) від %1$s</item>
+        <item quantity="one">Отримано %2$d %3$s файл (%4$s) від %1$s</item>
+        <item quantity="few">Отримано %2$d %3$s файла (%4$s) від %1$s</item>
+        <item quantity="many">Отримано %2$d %3$s файлів (%4$s) від %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">Отримання %2$d %3$s файлів (%4$s) від %1$s…</item>
+        <item quantity="one">Отримання %2$d %3$s файлу (%4$s) від %1$s…</item>
+        <item quantity="few">Отримання %2$d %3$s файлів (%4$s) від %1$s…</item>
+        <item quantity="many">Отримання %2$d %3$s файлів (%4$s) від %1$s…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%2$d зображень від %1$s</item>
+        <item quantity="one">%2$d зображення від %1$s</item>
+        <item quantity="few">%2$d зображення від %1$s</item>
+        <item quantity="many">%2$d зображень від %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">Отримано %2$d зображень від %1$s</item>
+        <item quantity="one">Отримано %2$d зображення від %1$s</item>
+        <item quantity="few">Отримано %2$d зображення від %1$s</item>
+        <item quantity="many">Отримано %2$d зображень від %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">Отримання %2$d зображень від %1$s…</item>
+        <item quantity="one">Отримання %2$d зображення від %1$s…</item>
+        <item quantity="few">Отримання %2$d зображення від %1$s…</item>
+        <item quantity="many">Отримання %2$d зображень від %1$s…</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%2$d зображень або відео від %1$s</item>
+        <item quantity="one">%2$d зображення або відео від %1$s</item>
+        <item quantity="few">%2$d зображення або відео від %1$s</item>
+        <item quantity="many">%2$d зображень або відео від %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">Отримано %2$d зображень та відео від %1$s</item>
+        <item quantity="one">Отримано %2$d зображення та відео від %1$s</item>
+        <item quantity="few">Отримано %2$d зображення та відео від %1$s</item>
+        <item quantity="many">Отримано %2$d зображень та відео від %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">Отримання %2$d зображень та відео від %1$s…</item>
+        <item quantity="one">Отримання %2$d зображення та відео від %1$s…</item>
+        <item quantity="few">Отримання %2$d зображення та відео від %1$s…</item>
+        <item quantity="many">Отримання %2$d зображень та відео від %1$s…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%2$d файлів від %1$s</item>
+        <item quantity="one">%2$d файл від %1$s</item>
+        <item quantity="few">%2$d файла від %1$s</item>
+        <item quantity="many">%2$d файлів від %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">Отримано %2$d файлів від %1$s</item>
+        <item quantity="one">Отримано %2$d файл від %1$s</item>
+        <item quantity="few">Отримано %2$d файла від %1$s</item>
+        <item quantity="many">Отримано %2$d файлів від %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">Отримання %2$d файлів від %1$s…</item>
+        <item quantity="one">Отримання %2$d файлу від %1$s…</item>
+        <item quantity="few">Отримання %2$d файлів від %1$s…</item>
+        <item quantity="many">Отримання %2$d файлів від %1$s…</item>
+    </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Не вдалося відправити. Обробка %d фото…</item>
         <item quantity="one">Не вдалося відправити. Обробка %d фото…</item>
         <item quantity="few">Не вдалося відправити. Обробка %d фото…</item>
-        <item quantity="many">"Couldn't share. Still processing %d photos…"</item>
+        <item quantity="many">Не вдалося відправити. Обробка %d фото…</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%2$d відео від %1$s</item>
+        <item quantity="one">%2$d відео від %1$s</item>
+        <item quantity="few">%2$d відео від %1$s</item>
+        <item quantity="many">%2$d відео від %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">Отримано %2$d відео від %1$s</item>
+        <item quantity="one">Отримано %2$d відео від %1$s</item>
+        <item quantity="few">Отримано %2$d відео від %1$s</item>
+        <item quantity="many">Отримано %2$d відео від %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">Отримання %2$d відео від %1$s…</item>
+        <item quantity="one">Отримання %2$d відео від %1$s…</item>
+        <item quantity="few">Отримання %2$d відео від %1$s…</item>
+        <item quantity="many">Отримання %2$d відео від %1$s…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%2$d архівів (%3$s) від %1$s</item>
+        <item quantity="one">%2$d архів (%3$s) від %1$s</item>
+        <item quantity="few">%2$d архіва (%3$s) від %1$s</item>
+        <item quantity="many">%2$d архівів (%3$s) від %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">Отримано %2$d архівів (%3$s) від %1$s</item>
+        <item quantity="one">Отримано %2$d архів (%3$s) від %1$s</item>
+        <item quantity="few">Отримано %2$d архіва (%3$s) від %1$s</item>
+        <item quantity="many">Отримано %2$d архівів (%3$s) від %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">Отримання %2$d архівів (%3$s) від %1$s…</item>
+        <item quantity="one">Отримання %2$d архіву (%3$s) від %1$s…</item>
+        <item quantity="few">Отримання %2$d архівів (%3$s) від %1$s…</item>
+        <item quantity="many">Отримання %2$d архівів (%3$s) від %1$s…</item>
     </plurals>
     <plurals name="slideshow_interval_value">
         <item quantity="other">%1$d сек</item>
@@ -508,13 +664,13 @@
         <item quantity="other">Залишилося фото: %d</item>
         <item quantity="one">Залишилося фото: %d</item>
         <item quantity="few">Залишилося фото: %d</item>
-        <item quantity="many">%d photos left</item>
+        <item quantity="many">Залишилося фото: %d</item>
     </plurals>
     <plurals name="sync_error_title">
-        <item quantity="other">Не вдалося створити бекап %d фото або відео</item>
-        <item quantity="one">Не вдалося створити бекап %d фото або відео</item>
+        <item quantity="other">Не вдалося створити резеврну копію %d фото або відео</item>
+        <item quantity="one">Не вдалося створити резеврну копію %d фото або відео</item>
         <item quantity="few">Не вдалося створити бекап %d фото або відео</item>
-        <item quantity="many">"Haven't backed up %d photos and videos"</item>
+        <item quantity="many">Не вдалося створити резеврну копію %d фото або відео</item>
     </plurals>
     <plurals name="sync_oversized_count">
         <item quantity="other">"%d об'єктів занадто великі"</item>
@@ -525,8 +681,8 @@
     <plurals name="sync_total_count">
         <item quantity="other">"%d об'єктів"</item>
         <item quantity="one">"%d об'єкт"</item>
-        <item quantity="few">"%d об'єкти"</item>
-        <item quantity="many">%d items</item>
+        <item quantity="few">"%d об'єкта"</item>
+        <item quantity="many">"%d об'єктів"</item>
     </plurals>
     <plurals name="trash_purge_dialog_message_image">
         <item quantity="other">"Ви не зможете відновити %d обраних об'єктів після видалення. Видалити?"</item>

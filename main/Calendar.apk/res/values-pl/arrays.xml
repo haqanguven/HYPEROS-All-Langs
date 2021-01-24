@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="aquarius_info">
-        <item>wodnik</item>
-        <item>Wodnik</item>
-        <item>20/1 - 18/2</item>
-    </string-array>
-    <string-array name="aries_info">
-        <item>baran</item>
-        <item>Baran</item>
-        <item>21/3 - 19/4</item>
-    </string-array>
-    <string-array name="cancer_info">
-        <item>rak</item>
-        <item>Rak</item>
-        <item>22/6 - 22/7</item>
-    </string-array>
-    <string-array name="capricorn_info">
-        <item>jednorożec</item>
-        <item>Koziorożec</item>
-        <item>22/12 - 19/1</item>
+    <string-array name="account_sync_frequency">
+        <item>Ręcznie</item>
+        <item>Co 15 minut</item>
+        <item>Co godzinę</item>
+        <item>Co 4 godziny</item>
+        <item>Co 12 godzin</item>
     </string-array>
     <string-array name="change_response_labels">
         <item>Tylko to wydarzenie</item>
@@ -33,12 +20,12 @@
         <item>Wstecz</item>
     </string-array>
     <string-array name="default_reminder_labels">
-        <item>W czasie wydarzenia</item>
+        <item>Natychmiast</item>
         <item>5 minut przed</item>
         <item>10 minut przed</item>
         <item>15 minut przed</item>
         <item>30 minut przed</item>
-        <item>1 godzinę przed</item>
+        <item>1 godzina przed</item>
         <item>1 dzień przed</item>
         <item>2 dni przed</item>
         <item>1 tydzień przed</item>
@@ -52,7 +39,7 @@
     </string-array>
     <string-array name="delete_repeating_labels">
         <item>Tylko to wydarzenie</item>
-        <item>Ten i przyszłe wydarzenia</item>
+        <item>To i przyszłe wydarzenia</item>
         <item>Wszystkie wydarzenia</item>
     </string-array>
     <string-array name="edit_event_dislike">
@@ -62,29 +49,9 @@
         <item>Po prostu się rozejrzyj</item>
         <item>Nie powiem</item>
     </string-array>
-    <string-array name="gemini_info">
-        <item>bliźnięta</item>
-        <item>Bliźnięta</item>
-        <item>21/5 - 21/6</item>
-    </string-array>
-    <string-array name="leo_info">
-        <item>lew</item>
-        <item>Lew</item>
-        <item>23/7 - 22/8</item>
-    </string-array>
-    <string-array name="libra_info">
-        <item>waga</item>
-        <item>Waga</item>
-        <item>23/9 - 23/10</item>
-    </string-array>
     <string-array name="open_alarm_repeating_labels">
         <item>Tylko tym razem</item>
         <item>Włącz powtarzanie</item>
-    </string-array>
-    <string-array name="pisces_info">
-        <item>ryby</item>
-        <item>Ryby</item>
-        <item>19/2 - 20/3</item>
     </string-array>
     <string-array name="prefEntries_alerts_popup_new">
         <item>Wyłączone</item>
@@ -93,11 +60,11 @@
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Zawsze</item>
-        <item>Tylko kiedy dźwięk dzwonka jest wyciszony</item>
+        <item>Tylko po wyciszeniu</item>
         <item>Nigdy</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
-        <item>Domyślne dla regionu</item>
+        <item>Domyślny dla regionu</item>
         <item>Sobota</item>
         <item>Niedziela</item>
         <item>Poniedziałek</item>
@@ -137,43 +104,43 @@
     </string-array>
     <string-array name="repeat_choose_end">
         <item>Nigdy</item>
-        <item>Czas</item>
-        <item>Ilość powtórzeń</item>
+        <item>Data</item>
+        <item>Powtórzenia</item>
     </string-array>
     <string-array name="repeat_choose_month">
-        <item>Sty.</item>
-        <item>Lut.</item>
-        <item>Mar.</item>
-        <item>Kwi.</item>
-        <item>Maj</item>
-        <item>Cze.</item>
-        <item>Lip.</item>
-        <item>Sie.</item>
-        <item>Wrz.</item>
-        <item>Paź.</item>
-        <item>Lis.</item>
-        <item>Gru.</item>
+        <item>sty.</item>
+        <item>lut.</item>
+        <item>mar.</item>
+        <item>kwi.</item>
+        <item>maj</item>
+        <item>cze.</item>
+        <item>lip.</item>
+        <item>sie.</item>
+        <item>wrz.</item>
+        <item>paź.</item>
+        <item>lis.</item>
+        <item>gru.</item>
     </string-array>
     <string-array name="repeat_choose_week_left">
-        <item>pierwszy</item>
-        <item>drugi</item>
-        <item>trzeci</item>
-        <item>czwarty</item>
-        <item>ostatni</item>
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>ostatni(a)</item>
     </string-array>
     <string-array name="repeat_choose_week_right">
-        <item>Pn-Pt</item>
+        <item>pn-pt</item>
         <item>Weekend</item>
         <item>Cały tydzień</item>
     </string-array>
     <string-array name="repeat_choose_weekday">
-        <item>Pon</item>
-        <item>Wto</item>
-        <item>Śro</item>
-        <item>Czw</item>
-        <item>Pią</item>
-        <item>Sob</item>
-        <item>Ndz</item>
+        <item>Pon.</item>
+        <item>Wto.</item>
+        <item>Śro.</item>
+        <item>Czw.</item>
+        <item>Pią.</item>
+        <item>Sob.</item>
+        <item>Nie.</item>
     </string-array>
     <string-array name="repeat_countdown">
         <item>Nigdy</item>
@@ -181,10 +148,10 @@
         <item>Co rok</item>
     </string-array>
     <string-array name="repeat_frequency_spinner">
-        <item>codziennie</item>
-        <item>co tydzień</item>
-        <item>co miesiąc</item>
-        <item>co rok</item>
+        <item>dnia</item>
+        <item>tygodnia</item>
+        <item>miesiąca</item>
+        <item>roku</item>
     </string-array>
     <string-array name="repeat_monthly_on_day_count_values">
         <item>pierwszy poniedziałek</item>
@@ -228,21 +195,6 @@
         <item>Tak</item>
         <item>Może</item>
         <item>Nie</item>
-    </string-array>
-    <string-array name="sagittarius_info">
-        <item>strzelec</item>
-        <item>Strzelec</item>
-        <item>23/11 - 21/12</item>
-    </string-array>
-    <string-array name="scorpio_info">
-        <item>skorpion</item>
-        <item>Skorpion</item>
-        <item>24/10 - 22/11</item>
-    </string-array>
-    <string-array name="taurus_info">
-        <item>byk</item>
-        <item>Byk</item>
-        <item>20/4 - 20/5</item>
     </string-array>
     <string-array name="timezone_labels_v3">
         <item>Wyspy Marshalla</item>
@@ -338,29 +290,24 @@
         <item>Tonga</item>
     </string-array>
     <string-array name="travel_reminder_minutes_labels">
-        <item>3 godziny przed</item>
-        <item>4 godziny przed</item>
-        <item>5 godzin przed</item>
-        <item>6 godzin przed</item>
-        <item>1 dzień przed</item>
-    </string-array>
-    <string-array name="virgo_info">
-        <item>panna</item>
-        <item>Panna</item>
-        <item>23/8 - 22/9</item>
+        <item>3 godziny</item>
+        <item>4 godziny</item>
+        <item>5 godzin</item>
+        <item>6 godzin</item>
+        <item>1 dzień</item>
     </string-array>
     <string-array name="week_header_name">
-        <item>NDZ</item>
-        <item>PON</item>
-        <item>WTO</item>
-        <item>ŚRO</item>
-        <item>CZW</item>
-        <item>PIĄ</item>
-        <item>SOB</item>
+        <item>NIEDZ.</item>
+        <item>PON.</item>
+        <item>WT.</item>
+        <item>ŚR.</item>
+        <item>CZW.</item>
+        <item>PT.</item>
+        <item>SOB.</item>
     </string-array>
     <string-array name="widget_style_list">
         <item>Przezroczysty</item>
-        <item>Białe tło</item>
+        <item>Biały</item>
     </string-array>
     <string-array name="year_view_week_header_name">
         <item>N</item>

@@ -148,7 +148,7 @@
         <item quantity="other">Memproses foto…</item>
     </plurals>
     <plurals name="fast_share_auto_render_failed">
-        <item quantity="other">Lewati %1$d foto yang tidak dapat digambar.</item>
+        <item quantity="other">Lewati %1$d foto yang tidak dapat dirender.</item>
     </plurals>
     <plurals name="file_type_detail_count">
         <item quantity="other">%1$d berkas</item>
@@ -186,6 +186,12 @@
     <plurals name="photo_remain_hours">
         <item quantity="other">%d jam</item>
     </plurals>
+    <plurals name="pic_to_pdf_filter_count">
+        <item quantity="other">Menyaring %d item yang tidak didukung</item>
+    </plurals>
+    <plurals name="pic_to_pdf_support_max_count">
+        <item quantity="other">Berkas PDF dapat berisi hingga %d gambar</item>
+    </plurals>
     <plurals name="picker_all_image_need_download">
         <item quantity="other">Foto yang dipilih tidak tersedia di perangkat ini. Unduh dengan data seluler?</item>
     </plurals>
@@ -193,7 +199,7 @@
         <item quantity="other">Foto yang dipilih tidak tersedia di perangkat ini. Foto yang dipilih akan segera diunduh.</item>
     </plurals>
     <plurals name="picker_all_origin_need_download">
-        <item quantity="other">Foto yang dipilih (%dMB) tidak tersedia di perangkat ini. Unduh dengan data seluler?</item>
+        <item quantity="other">Foto yang dipilih (%d MB) tidak ada di perangkat ini. Unduh dengan data seluler?</item>
     </plurals>
     <plurals name="picker_cancel_confirm_message">
         <item quantity="other">%d berkas belum diunduh. Tetap batalkan?</item>
@@ -202,19 +208,19 @@
         <item quantity="other">Mengunduh %d berkas lagi</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">Tidak dapat unduh %1$d foto, hubungkan ke jaringan dan coba lagi</item>
+        <item quantity="other">Tidak dapat mengunduh %1$d foto. Hubungkan ke jaringan dan coba lagi.</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
-        <item quantity="other">Tidak dapat mengunduh %1$d berkas (%2$dMB). Hubungkan ke jaringan dan coba lagi.</item>
+        <item quantity="other">Tidak dapat mengunduh %1$d berkas (%2$d MB). Hubungkan ke jaringan dan coba lagi.</item>
     </plurals>
     <plurals name="picker_origin_need_to_download">
-        <item quantity="other">%1$d berkas (%2$dMB) belum diunduh. Unduh dengan data seluler?</item>
+        <item quantity="other">%1$d berkas (%2$d MB) belum diunduh. Unduh dengan data seluler?</item>
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
         <item quantity="other">Tidak dapat mengunduh %1$d foto, coba lagi?</item>
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
-        <item quantity="other">Tidak dapat mengunduh %1$d foto (%2$dMB), coba lagi?</item>
+        <item quantity="other">Tidak dapat mengunduh %1$d foto (%2$d MB), coba lagi?</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">%d foto terlewati karena tidak ada di perangkat.</item>
@@ -240,8 +246,80 @@
     <plurals name="search_feedback_done_mark_false_positive">
         <item quantity="other">Hapus %1$d foto dari \"%2$s\".</item>
     </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">%2$d paket instalasi (%3$s) dari %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">%2$d paket instalasi (%3$s) dari %1$s telah diterima</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">Menerima %2$d paket instalasi (%3$s) dari %1$s…</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%2$d berkas audio (%3$s) dari %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">%2$d berkas audio (%3$s) dari %1$s telah diterima</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">Menerima %2$d berkas audio (%3$s) dari %1$s…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%2$d %3$s berkas (%4$s) dari %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">%2$d %3$s files (%4$s) dari %1$s telah diterima</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">Menerima %2$d %3$s berkas (%4$s) dari %1$s…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%2$d gambar dari %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">%2$d gambar dari %1$s telah diterima</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">Menerima %2$d gambar dari %1$s…</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%2$d gambar dan video dari %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">%2$d gambar dan video dari %1$s telah diterima</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">Menerima %2$d gambar dan video dari %1$s…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%2$d berkas dari %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">%2$d berkas dari %1$s telah diterima</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">Menerima %2$d berkas dari %1$s…</item>
+    </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Tidak dapat berbagi. Masih memproses %d foto…</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%2$d video dari %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">%2$d video dari %1$s telah diterima</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">Menerima %2$d video dari %1$s…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%2$d arsip (%3$s) dari %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">%2$d arsip (%3$s) dari %1$s telah diterima</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">Menerima %2$d arsip (%3$s) dari %1$s…</item>
     </plurals>
     <plurals name="slideshow_interval_value">
         <item quantity="other">%1$d detik</item>

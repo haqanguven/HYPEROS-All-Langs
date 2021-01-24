@@ -1,58 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="cloud_space_full_gallery_notification_content_title">
+        <item quantity="other">"Не вдалося синхронізувати %s об'єктів"</item>
+        <item quantity="one">"Не вдалося синхронізувати %s об'єкт"</item>
+        <item quantity="few">"Не вдалося синхронізувати %s об'єкта"</item>
+        <item quantity="many">"Не вдалося синхронізувати %s об'єктів"</item>
+    </plurals>
     <plurals name="dirty_blocklist_count">
         <item quantity="other">%d записів чорного списку</item>
         <item quantity="one">%d запис чорного списку</item>
-        <item quantity="few">%d записи чорного списку</item>
+        <item quantity="few">%d записа чорного списку</item>
         <item quantity="many">%d записів чорного списку</item>
     </plurals>
     <plurals name="dirty_browser_count">
-        <item quantity="other">%d даних браузера</item>
-        <item quantity="one">%d дані браузера</item>
+        <item quantity="other">"%d об'єктів браузера"</item>
+        <item quantity="one">"%d об'єкт браузера"</item>
+        <item quantity="few">"%d об'єкта браузера"</item>
+        <item quantity="many">"%d об'єктів браузера"</item>
     </plurals>
     <plurals name="dirty_calendar_count">
-        <item quantity="other">%d записів календаря</item>
-        <item quantity="one">%d запис календаря</item>
-        <item quantity="few">%d записи календаря</item>
-        <item quantity="many">%d записів календаря</item>
+        <item quantity="other">"%d об'єктів календаря"</item>
+        <item quantity="one">"%d об'єкт календаря"</item>
+        <item quantity="few">"%d об'єкта календаря"</item>
+        <item quantity="many">"%d об'єктів календаря"</item>
     </plurals>
     <plurals name="dirty_callog_count">
-        <item quantity="other">%d записів журналу викликів</item>
-        <item quantity="one">%d запис журналу викликів</item>
-        <item quantity="few">%d записи журналу викликів</item>
-        <item quantity="many">%d записів журналу викликів</item>
+        <item quantity="other">%d записів викликів</item>
+        <item quantity="one">%d запис виклику</item>
+        <item quantity="few">%d записи викликів</item>
+        <item quantity="many">%d записів викликів</item>
     </plurals>
     <plurals name="dirty_contacts_count">
-        <item quantity="other">"контактів: %d "</item>
-        <item quantity="one">контактів: %d</item>
+        <item quantity="other">Контактів: %d</item>
+        <item quantity="one">Контактів: %d</item>
+        <item quantity="few">Контактів: %d</item>
+        <item quantity="many">Контактів: %d</item>
     </plurals>
     <plurals name="dirty_image_count">
-        <item quantity="other">%d фото</item>
-        <item quantity="one">%d фото</item>
+        <item quantity="other">Фото: %d</item>
+        <item quantity="one">Фото: %d</item>
+        <item quantity="few">Фото: %d</item>
+        <item quantity="many">Фото: %d</item>
     </plurals>
     <plurals name="dirty_mms_count">
-        <item quantity="other">повідомлень: %d</item>
-        <item quantity="one">повідомлень: %d</item>
+        <item quantity="other">Повідомлень: %d</item>
+        <item quantity="one">Повідомлень: %d</item>
+        <item quantity="few">Повідомлень: %d</item>
+        <item quantity="many">Повідомлень: %d</item>
     </plurals>
     <plurals name="dirty_music_count">
-        <item quantity="other">%d треків</item>
-        <item quantity="one">%d трек</item>
-        <item quantity="few">%d треки</item>
-        <item quantity="many">%d треків</item>
+        <item quantity="other">%d пісні</item>
+        <item quantity="one">%d пісня</item>
+        <item quantity="few">%d пісні</item>
+        <item quantity="many">%d пісні</item>
     </plurals>
     <plurals name="dirty_note_count">
-        <item quantity="other">нотаток: %d</item>
-        <item quantity="one">нотаток: %d</item>
+        <item quantity="other">Нотаток: %d</item>
+        <item quantity="one">Нотаток: %d</item>
+        <item quantity="few">Нотаток: %d</item>
+        <item quantity="many">Нотаток: %d</item>
     </plurals>
     <plurals name="dirty_personalAssistant_count">
-        <item quantity="other">%d записів Mi помічника</item>
-        <item quantity="one">%d запис Mi помічника</item>
-        <item quantity="few">%d записи Mi помічника</item>
+        <item quantity="other">"%d об'єктів Стрічки віджетів"</item>
+        <item quantity="one">"%d об'єкт Стрічки віджетів"</item>
+        <item quantity="few">"%d об'єкта Стрічки віджетів"</item>
+        <item quantity="many">"%d об'єктів Стрічки віджетів"</item>
     </plurals>
     <plurals name="dirty_phrase_count">
-        <item quantity="other">%d шаблонів</item>
-        <item quantity="one">%d шаблон</item>
-        <item quantity="few">%d шаблону</item>
+        <item quantity="other">%d часто використовуваних фраз</item>
+        <item quantity="one">%d часто використовувана фраза</item>
+        <item quantity="few">%d часто використовувані фрази</item>
+        <item quantity="many">%d часто використовуваних фраз</item>
     </plurals>
     <plurals name="dirty_recorder_count">
         <item quantity="other">%d записів</item>
@@ -61,44 +79,57 @@
         <item quantity="many">%d записів</item>
     </plurals>
     <plurals name="dirty_secretphoto_count">
-        <item quantity="other">Не синхронізовано %d приватних фото. Якщо Ви вийдете з акаунту зараз, ці фото буде видалено</item>
-        <item quantity="one">Не синхронізовано %d приватне фото. Якщо Ви вийдете з акаунту зараз, це фото буде видалено</item>
-        <item quantity="few">Не синхронізовано %d приватні фото. Якщо Ви вийдете з акаунту зараз, ці фото буде видалено</item>
+        <item quantity="other">"%d прихованих фото не синхронізовані. Вийдіть після синхронізації всіх об'єктів, щоб зберегти їх; інакше об'єкти будуть видалені."</item>
+        <item quantity="one">"%d приховане фото не було синхронізовано. Вийдіть після синхронізації всіх об'єктів, щоб зберегти їх; інакше об'єкти будуть видалені."</item>
+        <item quantity="few">"%d прихованих фото не було синхронізовано. Вийдіть після синхронізації всіх об'єктів, щоб зберегти їх; інакше об'єкти будуть видалені."</item>
+        <item quantity="many">"%d прихованих фото не синхронізовані. Вийдіть після синхронізації всіх об'єктів, щоб зберегти їх; інакше об'єкти будуть видалені."</item>
     </plurals>
     <plurals name="dirty_wlan_count">
-        <item quantity="other">%d Wi-Fi мереж</item>
-        <item quantity="one">%d Wi-Fi мережа</item>
-        <item quantity="few">%d Wi-Fi мережі</item>
-        <item quantity="many">%d Wi-Fi мереж</item>
-    </plurals>
-    <plurals name="dirty_wlan_count_china">
         <item quantity="other">%d мереж Wi-Fi</item>
         <item quantity="one">%d мережа Wi-Fi</item>
         <item quantity="few">%d мережі Wi-Fi</item>
+        <item quantity="many">%d мереж Wi-Fi</item>
+    </plurals>
+    <plurals name="dirty_wlan_count_china">
+        <item quantity="other">%d мереж WLAN</item>
+        <item quantity="one">%d мережа WLAN</item>
+        <item quantity="few">%d мережі WLAN</item>
+        <item quantity="many">%d мереж WLAN</item>
     </plurals>
     <plurals name="items_unsynced">
-        <item quantity="other">Не синхронізовано: %d</item>
-        <item quantity="one">Не синхронізовано: %d</item>
+        <item quantity="other">"Об'єктів, очікуючих на синхронізацію: %d"</item>
+        <item quantity="one">"Об'єктів, очікуючих на синхронізацію: %d"</item>
+        <item quantity="few">"Об'єктів, очікуючих на синхронізацію: %d"</item>
+        <item quantity="many">"Об'єктів, очікуючих на синхронізацію: %d"</item>
     </plurals>
     <plurals name="last_sync_time_hours_ago">
-        <item quantity="other">%s г. назад</item>
-        <item quantity="one">%s г. назад</item>
+        <item quantity="other">%s год тому</item>
+        <item quantity="one">%s год тому</item>
+        <item quantity="few">%s год тому</item>
+        <item quantity="many">%s год тому</item>
     </plurals>
     <plurals name="last_sync_time_mins_ago">
-        <item quantity="other">%s хв. назад</item>
-        <item quantity="one">%s хв. назад</item>
+        <item quantity="other">%s хв тому</item>
+        <item quantity="one">%s хв тому</item>
+        <item quantity="few">%s хв тому</item>
+        <item quantity="many">%s хв тому</item>
     </plurals>
     <plurals name="micloud_manual_pause_and_resume">
-        <item quantity="other">Синхронізація продовжиться через %d хв.</item>
-        <item quantity="one">Синхронізація продовжиться через %d хв.</item>
+        <item quantity="other">Відновити синхронізацію через %d хв</item>
+        <item quantity="one">Відновити синхронізацію через %d хв</item>
+        <item quantity="few">Відновити синхронізацію через %d хв</item>
+        <item quantity="many">Відновити синхронізацію через %d хв</item>
     </plurals>
     <plurals name="provision_sync_items_status_title">
-        <item quantity="other">%s сервісів будуть синхронізовані з Mi Cloud</item>
-        <item quantity="one">%s сервіс буде синхронізований з Mi Cloud</item>
-        <item quantity="few">%s сервіси будуть синхронізовані з Mi Cloud</item>
+        <item quantity="other">%s послуг будуть синхронізовані з Xiaomi Cloud</item>
+        <item quantity="one">%s послуга буде синхронізована з Xiaomi Cloud</item>
+        <item quantity="few">%s послуги будуть синхронізовані з Xiaomi Cloud</item>
+        <item quantity="many">%s послуг будуть синхронізовані з Xiaomi Cloud</item>
     </plurals>
     <plurals name="select_no_more_than">
-        <item quantity="other">Неможливо обрати понад %d елементів</item>
-        <item quantity="one">Неможливо обрати понад %d елементу</item>
+        <item quantity="other">"Не можна вибрати більше %d об'єктів"</item>
+        <item quantity="one">"Не можна вибрати більше %d об'єкта"</item>
+        <item quantity="few">"Не можна вибрати більше %d об'єктів"</item>
+        <item quantity="many">"Не можна вибрати більше %d об'єктів"</item>
     </plurals>
 </resources>
