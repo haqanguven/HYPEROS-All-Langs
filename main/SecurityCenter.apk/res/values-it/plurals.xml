@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 ora fa</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 ora fa</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">"Mezz'ora fa"</item>
+        <item quantity="one">"Mezz'ora fa"</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Tra 1 ora</item>
+        <item quantity="one">Tra 1 ora</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">"Tra mezz'ora"</item>
+        <item quantity="one">"Tra mezz'ora"</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Adesso</item>
+        <item quantity="one">Adesso</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Poco fa</item>
+        <item quantity="one">Poco fa</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
     <plurals name="add_game_notification_title">
         <item quantity="other">%d giochi aggiunti</item>
         <item quantity="one">%d gioco aggiunto</item>
@@ -68,6 +104,10 @@
         <item quantity="other">%d volte</item>
         <item quantity="one">%d volta</item>
     </plurals>
+    <plurals name="app_manager_uninstall_notify_summary">
+        <item quantity="other">Disinstalla %d app</item>
+        <item quantity="one">Disinstalla %d app</item>
+    </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Usata %d giorni fa</item>
         <item quantity="one">Usata %d giorno fa</item>
@@ -104,6 +144,10 @@
         <item quantity="other">%d applicazioni protette</item>
         <item quantity="one">%d applicazione protetta</item>
     </plurals>
+    <plurals name="card_uninstall_title">
+        <item quantity="other">&lt;Data>Puoi disinstallare &lt;font color=#F22424>%d&lt;/font> app&lt;/Data></item>
+        <item quantity="one">&lt;Data>Puoi disinstallare &lt;font color=#F22424>%d&lt;/font> app&lt;/Data></item>
+    </plurals>
     <plurals name="daily_sim_over_limit_dialog_message">
         <item quantity="other">"Hai già usato %s di dati giornalieri.
 
@@ -119,6 +163,14 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
     <plurals name="deep_clean_auto_memory_clean">
         <item quantity="other">Tra %1$d minuti</item>
         <item quantity="one">Tra %1$d minuto</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Avanti di %d secondi</item>
+        <item quantity="one">Avanti di %d secondo</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Indietro di %d secondi</item>
+        <item quantity="one">Indietro di %d secondo</item>
     </plurals>
     <plurals name="find_applications">
         <item quantity="other">Cerca tra %d applicazioni</item>
@@ -168,6 +220,10 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
         <item quantity="other">Disinstalla %2$d giochi (incluso %1$s)</item>
         <item quantity="one">Disinstalla %2$d gioco (incluso %1$s)</item>
     </plurals>
+    <plurals name="gb_game_video_ai_record_finish_tips">
+        <item quantity="other">%d registrazioni AI salvate in Turbo videogiochi</item>
+        <item quantity="one">%d registrazione AI salvata in Turbo videogiochi</item>
+    </plurals>
     <plurals name="gb_record_time_title">
         <item quantity="other">%d sec</item>
         <item quantity="one">%d sec</item>
@@ -175,6 +231,38 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Ti sei registrato per %d giorni di fila</item>
         <item quantity="one">Ti sei registrato per %d giorno di fila</item>
+    </plurals>
+    <plurals name="gb_voice_changer_toast_tips_window_bubble">
+        <item quantity="other">"Prova subito Cambia voce
+per ottenere una prova gratuita di %d giorni!"</item>
+        <item quantity="one">"Prova subito Cambia voce
+per ottenere una prova gratuita di %d giorno!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_fail">
+        <item quantity="other">Impossibile ricevere una prova gratuita di %d giorni</item>
+        <item quantity="one">Impossibile ricevere una prova gratuita di %d giorno</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_success">
+        <item quantity="other">Hai ricevuto una prova gratuita di %d giorni</item>
+        <item quantity="one">Hai ricevuto una prova gratuita di %d giorno</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_trial_card">
+        <item quantity="other">Ottieni una prova gratuita di %d giorni</item>
+        <item quantity="one">Ottieni una prova gratuita di %d giorno</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+        <item quantity="other">"Il tuo abbonamento è scaduto.
+Ottieni subito una prova gratuita di %d giorni!"</item>
+        <item quantity="one">"Il tuo abbonamento è scaduto.
+Ottieni subito una prova gratuita di %d giorno!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_tips_info">
+        <item quantity="other">Ottieni una prova gratuita di %d giorni</item>
+        <item quantity="one">Ottieni una prova gratuita di %d giorno</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">"Mezz'ora fa"</item>
+        <item quantity="one">"Mezz'ora fa"</item>
     </plurals>
     <plurals name="hide_txt_hint_with_blank_2">
         <item quantity="other">    +%1$d altri caratteri</item>
@@ -236,9 +324,29 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
         <item quantity="other">Nessun monitoraggio dati per %d applicazioni</item>
         <item quantity="one">Nessun monitoraggio dati per %d applicazione</item>
     </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Tra 1 ora</item>
+        <item quantity="one">Tra 1 ora</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">"Tra mezz'ora"</item>
+        <item quantity="one">"Tra mezz'ora"</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Adesso</item>
+        <item quantity="one">Adesso</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 minuto</item>
+    </plurals>
     <plurals name="install_game_count_title">
         <item quantity="other">%d giochi aggiunti</item>
         <item quantity="one">%d gioco aggiunto</item>
+    </plurals>
+    <plurals name="intl_perm_privacy_control_message_count">
+        <item quantity="other">Puoi proteggere %d elementi</item>
+        <item quantity="one">Puoi proteggere %d elemento</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
         <item quantity="other">%s ore</item>
@@ -248,9 +356,17 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
         <item quantity="other">%s minuti</item>
         <item quantity="one">%s minuto</item>
     </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Poco fa</item>
+        <item quantity="one">Poco fa</item>
+    </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Collega almeno %d punti</item>
         <item quantity="one">Collega almeno %d punto</item>
+    </plurals>
+    <plurals name="lockpattern_recording_intro_header_new">
+        <item quantity="other">Unisci almeno %s punti</item>
+        <item quantity="one">Unisci almeno %s punto</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">"Attendi %d secondi e riprova. "</item>
@@ -280,6 +396,10 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
         <item quantity="other">%d aggiornamenti disponibili</item>
         <item quantity="one">%d aggiornamento disponibile</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementi selezionati</item>
+        <item quantity="one">%d elemento selezionato</item>
+    </plurals>
     <plurals name="mixed_recording_incorrect_too_short">
         <item quantity="other">Inserisci almeno %d caratteri</item>
         <item quantity="one">Inserisci almeno %d carattere</item>
@@ -292,6 +412,10 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
         <item quantity="other">"Accesso di rete limitato per &lt;font color='#ff0000'>%d&lt;/font> applicazioni"</item>
         <item quantity="one">"Accesso di rete limitato per &lt;font color='#ff0000'>%d&lt;/font> applicazione"</item>
     </plurals>
+    <plurals name="notification_antivirus_title">
+        <item quantity="other">%d giorni senza scansioni di sicurezza</item>
+        <item quantity="one">%d giorno senza scansioni di sicurezza</item>
+    </plurals>
     <plurals name="notification_battery_consume_abnormal_summary">
         <item quantity="other">Consumato %2$d%% di batteria negli ultimi %1$d minuti</item>
         <item quantity="one">"Consumato %2$d%% di batteria nell'ultimo %1$d minuto"</item>
@@ -300,9 +424,29 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
         <item quantity="other">%2$d app, fra cui %1$s, stanno scaricando la batteria</item>
         <item quantity="one">%2$d app, fra cui %1$s, sta scaricando la batteria</item>
     </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Elimina %d pacchetti di installazione</item>
+        <item quantity="one">Elimina %d pacchetto di installazione</item>
+    </plurals>
+    <plurals name="notification_link_cleaner_2006">
+        <item quantity="other">Elimina %d APK residui</item>
+        <item quantity="one">Elimina %d APK residuo</item>
+    </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">%d problemi di utilizzo della batteria</item>
+        <item quantity="one">%d problema di utilizzo della batteria</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">Ottimizza %d elementi per risparmiare energia</item>
+        <item quantity="one">Ottimizza %d elemento per risparmiare energia</item>
+    </plurals>
     <plurals name="notification_title_cmcc_app_check">
         <item quantity="other">"%d giorni dall'ultimo controllo"</item>
         <item quantity="one">"%d giorno dall'ultimo controllo"</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
     </plurals>
     <plurals name="number_locked">
         <item quantity="other">%d applicazioni bloccate</item>
@@ -412,9 +556,29 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
         <item quantity="other">Scaricato da %1$d persone</item>
         <item quantity="one">Scaricato da %1$d persona</item>
     </plurals>
+    <plurals name="power_20s_shutdown">
+        <item quantity="other">Il dispositivo si spegnerà tra %d sec</item>
+        <item quantity="one">Il dispositivo si spegnerà tra %d sec</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">volte</item>
+        <item quantity="one">volta</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">%d problemi di utilizzo della batteria</item>
+        <item quantity="one">%d problema di utilizzo della batteria</item>
+    </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d giorni "</item>
         <item quantity="one">"%d giorno "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">" ore"</item>
+        <item quantity="one">" ora"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">" min"</item>
+        <item quantity="one">" min"</item>
     </plurals>
     <plurals name="power_center_battery_hour">
         <item quantity="other">"%d ore "</item>
@@ -423,6 +587,26 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
     <plurals name="power_center_battery_minute">
         <item quantity="other">"%d min "</item>
         <item quantity="one">"%d min "</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">Risolvi %d problemi di utilizzo della batteria</item>
+        <item quantity="one">Risolvi %d problema di utilizzo della batteria</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">Puoi risolvere %d problemi di utilizzo della batteria</item>
+        <item quantity="one">Puoi risolvere %d problema di utilizzo della batteria</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">" %d elementi possono essere ottimizzati"</item>
+        <item quantity="one">" %d elemento può essere ottimizzato"</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">Ottimizza %d elementi per risparmiare energia</item>
+        <item quantity="one">Ottimizza %d elemento per risparmiare energia</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">Puoi ottimizzare %d elementi per risparmiare energia</item>
+        <item quantity="one">Puoi ottimizzare %d elemento per risparmiare energia</item>
     </plurals>
     <plurals name="power_center_battery_temperature">
         <item quantity="other">%d ℃</item>
@@ -460,6 +644,14 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
         <item quantity="other">Il dispositivo si spegnerà fra %d secondi. Connetti il caricabatterie.</item>
         <item quantity="one">Il dispositivo si spegnerà fra %d secondo. Connetti il caricabatterie.</item>
     </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">%d app si avviano automaticamente di frequente</item>
+        <item quantity="one">%d app si avvia automaticamente di frequente</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">%d app consumano batteria</item>
+        <item quantity="one">%d app consuma batteria</item>
+    </plurals>
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d icone app nascoste</item>
         <item quantity="one">%d icona app nascosta</item>
@@ -475,6 +667,50 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
     <plurals name="privacy_pop_times">
         <item quantity="other">%s volte</item>
         <item quantity="one">%s volta</item>
+    </plurals>
+    <plurals name="privacy_risk_app_count">
+        <item quantity="other">%d app</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="privacy_risk_dangerous_permissions_tip">
+        <item quantity="other">%d permessi ad alto rischio concessi</item>
+        <item quantity="one">%d permesso ad alto rischio concesso</item>
+    </plurals>
+    <plurals name="privacy_risk_install_app_tip">
+        <item quantity="other">%d app rischiose trovate</item>
+        <item quantity="one">%d app rischiosa trovata</item>
+    </plurals>
+    <plurals name="privacy_risk_photo_location_tip">
+        <item quantity="other">%d rischi di divulgazione delle informazioni sulla posizione rilevati</item>
+        <item quantity="one">%d rischio di divulgazione delle informazioni sulla posizione rilevato</item>
+    </plurals>
+    <plurals name="privacy_risk_result_item_error">
+        <item quantity="other">%d rischi rilevati</item>
+        <item quantity="one">%d rischio rilevato</item>
+    </plurals>
+    <plurals name="privacy_risk_result_msg">
+        <item quantity="other">%d possibili rischi trovati</item>
+        <item quantity="one">%d possibile rischio trovato</item>
+    </plurals>
+    <plurals name="privacy_risk_result_photo_sensitive_msg">
+        <item quantity="other">%d foto potrebbero contenere informazioni private o sensibili</item>
+        <item quantity="one">%d foto potrebbe contenere informazioni private o sensibili</item>
+    </plurals>
+    <plurals name="privacy_risk_result_protection_tip">
+        <item quantity="other">%d funzioni di protezione della privacy disattivate</item>
+        <item quantity="one">%d funzione di protezione della privacy disattivata</item>
+    </plurals>
+    <plurals name="privacy_risk_sensitive_permissions_tip">
+        <item quantity="other">%d permessi sensibili concessi</item>
+        <item quantity="one">%d permesso sensibile concesso</item>
+    </plurals>
+    <plurals name="privacy_risk_uninstall_btn">
+        <item quantity="other">Disinstalla %d app</item>
+        <item quantity="one">Disinstalla %d app</item>
+    </plurals>
+    <plurals name="privacy_risk_work_encryption_msg">
+        <item quantity="other">%d elementi necessitano di una protezione aggiuntiva</item>
+        <item quantity="one">%d elemento necessita di una protezione aggiuntiva</item>
     </plurals>
     <plurals name="quick_optimize_issue_count">
         <item quantity="other">%d problemi batteria</item>
@@ -552,6 +788,10 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
         <item quantity="other">%1$d elementi sicuri</item>
         <item quantity="one">%1$d elemento sicuro</item>
     </plurals>
+    <plurals name="title_app_update_cn">
+        <item quantity="other">&lt;Data>Aggiorna &lt;font color=#F22424>%d&lt;/font> app&lt;/Data></item>
+        <item quantity="one">&lt;Data>Aggiorna &lt;font color=#F22424>%d&lt;/font> app&lt;/Data></item>
+    </plurals>
     <plurals name="title_virus_clean">
         <item quantity="other">%d virus eliminati</item>
         <item quantity="one">%d virus eliminato</item>
@@ -563,6 +803,14 @@ Se attivi nuovamente i dati mobili , il tuo operatore potrebbe addebitarti dei c
     <plurals name="uninstall_game_count_title">
         <item quantity="other">%d giochi non aggiunti</item>
         <item quantity="one">%d gioco non aggiunto</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pattern_summary_new">
+        <item quantity="other">Unisci almeno %s punti</item>
+        <item quantity="one">Unisci almeno %s punto</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pin_summary_new">
+        <item quantity="other">Inserisci %s cifre</item>
+        <item quantity="one">Inserisci %s cifra</item>
     </plurals>
     <plurals name="videobox_settings_manager_apps_count">
         <item quantity="other">%d app</item>

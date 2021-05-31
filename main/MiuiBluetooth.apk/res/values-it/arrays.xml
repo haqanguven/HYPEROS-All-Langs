@@ -10,7 +10,7 @@
         <item>Animazione 10x</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Limite predefinito</item>
+        <item>Limite standard</item>
         <item>Nessun processo in background</item>
         <item>Al massimo 1 processo</item>
         <item>Al massimo 2 processi</item>
@@ -29,55 +29,55 @@
         <item>Xiaomi Wear</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Usa Selezione di Sistema (predefinito)</item>
-        <item>Campione a 16bit</item>
+        <item>Usa preferenze di sistema (Predefinito)</item>
+        <item>16 bit/campione</item>
         <item>Campione a 24bit</item>
         <item>Campione a 32bit</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Usa Selezione di Sistema (predefinito)</item>
-        <item>Campione a 16bit</item>
-        <item>Campione a 24bit</item>
-        <item>Campione a 32bit</item>
+        <item>Usa preferenze di sistema (Predefinito)</item>
+        <item>16 bit/campione</item>
+        <item>24 bit/campione</item>
+        <item>32 bit/campione</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Usa Selezione di Sistema (predefinito)</item>
+        <item>Usa preferenze di sistema (predefinito)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Usa Selezione di Sistema (predefinito)</item>
+        <item>Usa preferenze di sistema (predefinito)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Ottimizzato per la qualità Audio</item>
-        <item>Audio bilanciato e qualità della connessione</item>
+        <item>Ottimizzato per la qualità audio</item>
+        <item>Qualità audio e di connessione bilanciate</item>
         <item>Ottimizzato per la qualità della connessione</item>
-        <item>Best Effort (Bit rate adattivo)</item>
+        <item>Miglior risultato (Auto bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Ottimizzato per la qualità audio (990kbps/909kbps)</item>
         <item>Audio bilanciato e qualità della connessione (660kbps/606kbps)</item>
         <item>Ottimizzato per la qualità della connessione (330kbps/303kbps)</item>
-        <item>Best Effort (Bit rate adattivo)</item>
+        <item>Miglior risultato (Auto bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Usa Selezione di Sistema (predefinito)</item>
+        <item>Usa preferenze di sistema (Predefinito)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Usa Selezione di Sistema (predefinito)</item>
+        <item>Usa preferenze di sistema (Predefinito)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Usa Selezione di Sistema (predefinito)</item>
+        <item>Usa preferenze di sistema (Predefinito)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Audio Qualcomm® aptX™</item>
@@ -88,11 +88,9 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Abilita i codec opzionali</item>
-        <item>Disabilita i codec opzionali</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Usa Selezione di Sistema (predefinito)</item>
+        <item>Usa preferenze di sistema (Predefinito)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Audio Qualcomm® aptX™</item>
@@ -119,17 +117,27 @@
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (Default)</item>
+        <item>AVRCP 1.4 (Predefinito)</item>
         <item>AVRCP 1.3</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Predefinito)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Disattivato</item>
-        <item>Enabled Filtered</item>
+        <item>Filtrato</item>
         <item>Abilitato</item>
-        <item>Abilitato \"Intestazioni filtrate\"</item>
-        <item>Abilitato \"Pacchetti multimediali filtrati\"</item>
+        <item>Intestazioni filtrate</item>
+        <item>Pacchetti multimediali filtrati</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Colori migliorati</item>
@@ -144,7 +152,7 @@
     <string-array name="debug_hw_overdraw_entries">
         <item>Disattivato</item>
         <item>Mostra aree sovrascritte</item>
-        <item>Visualizza aree per Deuteranopia</item>
+        <item>Visualizza aree per deuteranomalia</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Nessuno</item>
@@ -178,37 +186,37 @@
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Disattivato</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Disattivato</item>
-        <item>64K per buffer di registro</item>
-        <item>256K per buffer di registro</item>
-        <item>1M per buffer di registro</item>
-        <item>4M per buffer di registro</item>
-        <item>16M per buffer di registro</item>
+        <item>64 KB per buffer di registro</item>
+        <item>256 KB per buffer di registro</item>
+        <item>1 MB per buffer di registro</item>
+        <item>4 MB per buffer di registro</item>
+        <item>16 MB per buffer di registro</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Disattivo</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Disattivato</item>
         <item>Tutti i buffer di registro</item>
         <item>Tutti tranne i buffer del registro radio</item>
-        <item>solo buffer del registro del kernel</item>
+        <item>Solo buffer del registro del kernel</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Disattivato</item>
         <item>Tutti</item>
         <item>Tutto tranne la radio</item>
-        <item>solo kernel</item>
+        <item>Solo kernel</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Disattivato</item>
@@ -256,7 +264,7 @@
         <item>MTP (Protocollo di Trasmissione dei Media)</item>
         <item>PTP (Protocollo di Trasmissione delle Immagini)</item>
         <item>RNDIS (USB Ethernet)</item>
-        <item>Fonte audio</item>
+        <item>Sorgente audio</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="wifi_status">
@@ -278,7 +286,7 @@
         <item>Scansione in corso…</item>
         <item>Connessione a %1$s…</item>
         <item>Autenticazione con %1$s…</item>
-        <item>"Ottenendo l'indirizzo IP da %1$s…"</item>
+        <item>"Ottenimento l'indirizzo IP da %1$s…"</item>
         <item>Connesso a %1$s</item>
         <item>Sospeso</item>
         <item>Disconnessione da %1$s…</item>

@@ -75,6 +75,7 @@
     <string name="btn_retry">Έλεγχος ξανά</string>
     <string name="btn_skip">Παράλειψη αυτού του βήματος</string>
     <string name="button_cancel">Ακύρωση</string>
+    <string name="button_confirm">Κατανοητό</string>
     <string name="button_delete">Διαγραφή</string>
     <string name="button_next">Επόμενο</string>
     <string name="can_not_backup_in_lite_mode">Αδυναμία δημιουργίας αντίγραφου ασφαλείας σε Απλή λειτουργία</string>
@@ -178,7 +179,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="expand_button_title">Σύνθετες</string>
     <string name="get_device_id_error">Αδυναμία απόκτησης ID συσκευής</string>
     <string name="help_and_feedback">Βοήθεια και σχόλια</string>
-    <string name="hint_restore_cross_space">Η διάταξη Αρχικής Οθόνης μπορεί να εμφανιστεί λανθασμένα εάν μεταφέρετε αντικείμενα μεταξύ χώρων.</string>
     <string name="home_hint_global_launcher">Εκκινητής POCO</string>
     <string name="home_hint_other_launcher">Άλλος εκκινητής</string>
     <string name="home_restore_error">Αδυναμία επαναφοράς Αρχική οθόνης</string>
@@ -192,7 +192,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="menu_item_sort">Ταξινόμηση κατά</string>
     <string name="menu_item_sort_name">Όνομα</string>
     <string name="menu_item_sort_size">Μέγεθος</string>
-    <string name="msg_alert_cancel_restore">Γίνεται επαναφορά αντικειμένων. Διακοπή τώρα;</string>
+    <string name="msg_alert_cancel_restore">Τα στοιχεία επαναφέρονται από το Xiaomi Cloud. Ακύρωση τώρα;</string>
     <string name="msg_alert_restore_error">Αδυναμία επαναφοράς αντικειμένων από το Xiaomi Cloud. Προσπαθήστε ξανά.</string>
     <string name="msg_restore_start_with_metered_network">"Η Αρχική Οθόνη σας θα επανεκκινηθεί. Θα γίνει αυτόματη λήψη εφαρμογών που έχουν αντίγραφα ασφαλείας. &lt;br />&lt;b>&lt;font color='red'>%s αρχείων θα κατέβουν.&lt;/font>&lt;/b>"</string>
     <string name="msg_restore_with_metered_network_hint">Εάν προχωρήσετε στην επαναφορά αυτών των στοιχείων, θα χρησιμοποιηθούν δεδομένα κινητής τηλεφωνίας για τη λήψη.</string>
@@ -208,12 +208,16 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="other_device_second_space">Δεύτερος χώρος</string>
     <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
     <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
+    <string name="pc_mode_not_support_restore_warning">Δεν είναι δυνατή η επαναφορά στοιχείων σε Λειτουργία ΗΥ. Απενεργοποιήστε τη Λειτουργία ΗΥ και δοκιμάστε ξανά.</string>
     <string name="preference_copied">Το \"%1$s\" αντιγράφηκε στο πρόχειρο.</string>
     <string name="process_whole_recovery">Γίνεται επαναφορά \"%s\"</string>
+    <string name="provision_back">Πίσω</string>
     <string name="provision_background_restore_more_data">Επαναφορά περισσότερων αντικειμένων στο παρασκήνιο</string>
     <string name="provision_error_connect_msg">Δοκιμάστε το δίκτυο και προσπαθήστε ξανά. Τα αντίγραφα ασφαλείας δεν είναι διαθέσιμα όταν η συσκευή σας είναι εκτός σύνδεσης.</string>
     <string name="provision_error_connect_title">Αδυναμία σύνδεσης</string>
+    <string name="provision_next">Επόμενο</string>
     <string name="provision_restore_data">Επαναφορά αντικειμένων</string>
+    <string name="provision_skip_underline">Παράλειψη</string>
     <string name="query_restore_description">Επαναφορά εφαρμογών και ρυθμίσεων Αρχική οθόνης με αυτό το αντίγραφο ασφαλείας. Αυτό θα αντικαταστήσει δεδομένα εφαρμογών για διπλότυπες εφαρμογές που έχουν εγκατατασταθεί ήδη στην συσκευή. Εφαρμογές που δεν περιλήφθηκαν στο αντίγραφο ασφαλείας θα μετακινηθούν στην τελευταία Αρχική οθόνη.</string>
     <string name="query_restore_summary">Βρέθηκε ένα αντίγραφο ασφαλείας Xiaomi Cloud για αυτήν την συσκευή. Επαναφορά εφαρμογών Αρχικής οθόνης και ρυθμίσεων ή χρήση ως νέα συσκευή και διαγραφή προηγούμενων αντιγράφων ασφαλείας Xiaomi Cloud;</string>
     <string name="recover_home_settings">Επαναφορά ρυθμίσεων Αρχικής οθόνης</string>
@@ -250,14 +254,14 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="restore_home_failed">Αδυναμία επαναφοράς Αρχική οθόνης.</string>
     <string name="restore_home_screen_apps">Επαναφορά από το αντίγραφο ασφαλείας στο νέφος</string>
     <string name="restore_init_description">Έναρξη επαναφοράς</string>
-    <string name="restore_network_pause">%s (Πατήστε για συνέχεια)</string>
+    <string name="restore_network_pause">Σε παύση για αποθήκευση δεδομένων κινητής τηλεφωνίας. Πατήστε για συνέχεια.</string>
     <string name="restore_network_unconnect">%s (Αναμονή για σύνδεση)</string>
     <string name="restore_task_cancelling">Ακύρωση…</string>
     <string name="restore_task_in_process">Γίνεται επαναφορά…</string>
     <string name="restore_task_unfinished">Αδυναμία επαναφοράς</string>
     <string name="restore_unfinished">Γίνεται επαναφορά, προσπαθήστε ξανά αργότερα</string>
     <string name="restoring_data">Γίνεται επαναφορά δεδομένων…</string>
-    <string name="restoring_file_title_no_progress">Γίνεται επαναφορά αρχείων…</string>
+    <string name="restoring_file_title_no_progress">Γίνεται επαναφορά εφαρμογών…</string>
     <string name="restoring_home_screen_apps">Γίνεται επαναφορά από Xiaomi Cloud…</string>
     <string name="restoring_settings">Γίνεται επαναφορά Ρυθμίσεων…</string>
     <string name="retry">Επανάληψη</string>

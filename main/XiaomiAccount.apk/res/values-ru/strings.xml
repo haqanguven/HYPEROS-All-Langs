@@ -148,7 +148,7 @@ ID вашего аккаунта: %s"</string>
     <string name="common_open_on_phone">Открыть на телефоне</string>
     <string name="common_signin_button_text">Войти</string>
     <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
-    <string name="completed">Настройка завершена!</string>
+    <string name="completed">Готово</string>
     <string name="confirm_activate_email">Проверено</string>
     <string name="confirm_bundled_phone_dialog_title">Подтвердите связанный номер телефона</string>
     <string name="confirm_new_pwd">Подтвердите новый пароль</string>
@@ -183,6 +183,7 @@ ID:%s
     <string name="expand_button_title">Дополнительно</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_app_id">2263965750590514</string>
+    <string name="facebook_login">Войти через Facebook</string>
     <string name="failed_dup_secure_phone_number">Этот номер телефона связан с другим Mi аккаунтом</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Поиск устройства</string>
@@ -219,6 +220,7 @@ ID:%s
     <string name="get_phone_bind_exceed_limit">С номером телефона можно связать до 3 аккаунтов. Невозможно добавить новый аккаунт.</string>
     <string name="get_phone_verifycode_exceed_limit">На этот номер отправлено слишком много кодов подтверждения. Подождите 24 часа и повторите попытку.</string>
     <string name="google">Google</string>
+    <string name="google_login">Войти через аккаунт Google</string>
     <string name="guest_account_label">Гостевой Mi аккаунт</string>
     <string name="health_action_activate">Активировать</string>
     <string name="health_action_install">Установить</string>
@@ -229,7 +231,7 @@ ID:%s
     <string name="health_state_not_support">Не поддерживается в этой версии</string>
     <string name="help_center">Справка</string>
     <string name="i_agree">OK</string>
-    <string name="i_agree_continue">Согласен</string>
+    <string name="i_agree_continue">Согласиться</string>
     <string name="identity">Идентификация</string>
     <string name="inconsistent_pwd">Пароли не совпадают</string>
     <string name="input_email_address_notice">Мы будем использовать этот адрес для подтверждения аккаунта</string>
@@ -301,7 +303,7 @@ ID:%s
     <string name="passport_area_code_title">Код страны</string>
     <string name="passport_auto_generate_pwd">Создать надежный пароль</string>
     <string name="passport_back">Назад</string>
-    <string name="passport_bad_authentication">Неверное имя пользователя или пароль</string>
+    <string name="passport_bad_authentication">Неверное имя пользователя или пароль.</string>
     <string name="passport_barcode_add_account_prompt">Для подключения аккаунта отсканируйте QR-код после авторизации.</string>
     <string name="passport_btn_change_account">Сменить аккаунт</string>
     <string name="passport_can_not_receive_verification_code">Не удалось получить код подтверждения?</string>
@@ -384,6 +386,7 @@ ID:%s
     <string name="passport_login_instead_reg">Использовать этот номер</string>
     <string name="passport_login_instead_reg_with_email">Использовать этот e-mail</string>
     <string name="passport_login_other_account">Другой аккаунт</string>
+    <string name="passport_login_other_way">Другие способы входа</string>
     <string name="passport_login_prompt">Один Mi аккаунт. Все Mi сервисы.</string>
     <string name="passport_login_recycle_account_no">Нет</string>
     <string name="passport_login_recycle_account_yes">Да</string>
@@ -401,6 +404,10 @@ ID:%s
     <string name="passport_prev">Назад</string>
     <string name="passport_privacy_policy">Политика конфиденциальности</string>
     <string name="passport_privacy_policy_required">Политика конфиденциальности (обязательно)</string>
+    <string name="passport_provision_activator_phone_summary_sim1_prefix">SIM <xliff id="sim1" refersto="1">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_activator_phone_summary_sim2_prefix">SIM <xliff id="sim2" refersto="2">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_input_email_register_prompt">Ваши личные данные будут сохранены в соответствии с законодательством и правилами выбранного вами региона.</string>
+    <string name="passport_provision_password_req_notice"><xliff id="min_pwd_len" refersto="8">%1$d</xliff>—<xliff id="max_pwd_len" refersto="16">%2$d</xliff> символов не менее <xliff id="min_pwd_type" refersto="2">%3$d</xliff> видов: буквы, цифры, специальные символы</string>
     <string name="passport_pwd_generate_failure">Не удалось создать пароль</string>
     <string name="passport_pwd_generating">Создание пароля…</string>
     <string name="passport_querying_phone_info">Запрос данных аккаунта…</string>
@@ -437,6 +444,7 @@ ID:%s
     <string name="passport_register_restricted_title">Невозможно использовать номер</string>
     <string name="passport_register_using_other_ways">Другие способы регистрации</string>
     <string name="passport_registered_phone_num">Телефон: %s</string>
+    <string name="passport_registered_phone_num_v2">Номер телефона</string>
     <string name="passport_registered_phone_user_ID">ID пользователя: %s</string>
     <string name="passport_registered_phone_user_name">Имя пользователя: %s</string>
     <string name="passport_reject_recycle_account">Нет</string>
@@ -513,6 +521,9 @@ ID:%s
     <string name="phone_num_use_for">Функции номера телефона:</string>
     <string name="photoPickerNotFoundText">Нет доступных фото.</string>
     <string name="preference_copied">Текст \"%1$s\" скопирован в буфер обмена</string>
+    <string name="provision_back">Назад</string>
+    <string name="provision_next">Далее</string>
+    <string name="provision_skip_underline">Пропустить</string>
     <string name="push_notification_content">Получить код</string>
     <string name="push_notification_title">Вы вошли в Mi аккаунт с неизвестного устройства</string>
     <string name="push_notify_dialog_message">Произведен вход в ваш Mi аккаунт с неизвестного устройства. Введите код подтверждения на этом устройстве. Если это были не вы, немедленно смените пароль от вашего Mi аккаунта. Не показывайте код подтверждения посторонним лицам.</string>

@@ -75,6 +75,7 @@ Spróbuj ponownie"</string>
     <string name="btn_retry">Sprawdź ponownie</string>
     <string name="btn_skip">Pomiń ten krok</string>
     <string name="button_cancel">Anuluj</string>
+    <string name="button_confirm">Rozumiem</string>
     <string name="button_delete">Usuń</string>
     <string name="button_next">Dalej</string>
     <string name="can_not_backup_in_lite_mode">Nie można wykonać kopii zapasowej w trybie Lite</string>
@@ -118,7 +119,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup">Kopie zapasowe w chmurze</string>
     <string name="cloud_backup_derail_size_summary">Rozmiar: %s</string>
     <string name="cloud_backup_detail_frequence">Planowana kopia</string>
-    <string name="cloud_backup_detail_frequence_every_7_day">Kopia zapasowa co %d dni</string>
+    <string name="cloud_backup_detail_frequence_every_7_day">Twórz kopię zapasową co %d dni</string>
     <string name="cloud_backup_detail_frequence_every_day">Twórz kopie zapasowe codziennie</string>
     <string name="cloud_backup_detail_manage">Zarządzaj kopiami zapasowymi</string>
     <string name="cloud_backup_detail_state">Automatyczna kopia zapasowa</string>
@@ -177,7 +178,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="expand_button_title">Zaawansowane</string>
     <string name="get_device_id_error">Nie udało się uzyskać ID urządzenia</string>
     <string name="help_and_feedback">Pomoc i opinie</string>
-    <string name="hint_restore_cross_space">Układ ekranu głównego może być wyświetlany nieprawidłowo, jeżeli przenosisz elementy pomiędzy przestrzeniami.</string>
     <string name="home_hint_global_launcher">Menadżer pulpitu POCO</string>
     <string name="home_hint_other_launcher">Inny menadżer pulpitu</string>
     <string name="home_restore_error">Nie udało się przywrócić Ekranu głównego</string>
@@ -191,7 +191,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="menu_item_sort">Sortuj według</string>
     <string name="menu_item_sort_name">Nazwy</string>
     <string name="menu_item_sort_size">Rozmiaru</string>
-    <string name="msg_alert_cancel_restore">Przywracanie elementów. Zatrzymać teraz?</string>
+    <string name="msg_alert_cancel_restore">Elementy są przywracane z Chmury Xiaomi. Anulować teraz?</string>
     <string name="msg_alert_restore_error">Nie udało się przywrócić elementów z Chmury Xiaomi. Spróbuj ponownie.</string>
     <string name="msg_restore_start_with_metered_network">"Twój Ekran główny zostanie uruchomiony ponownie. Kopie zapasowe aplikacji zostaną pobrane automatycznie. &lt;br />&lt;b>&lt;font color='red'>%s plików zostanie pobranych.&lt;/font>&lt;/b>"</string>
     <string name="msg_restore_with_metered_network_hint">Jeśli będziesz przywracać te elementy, dane mobilne zostaną wykorzystane do ich pobrania.</string>
@@ -207,12 +207,16 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="other_device_second_space">Druga przestrzeń</string>
     <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
     <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
+    <string name="pc_mode_not_support_restore_warning">Nie można przywrócić elementów w trybie PC. Wyłącz tryb PC i spróbuj ponownie.</string>
     <string name="preference_copied">Skopiowano „%1$s” do schowka.</string>
     <string name="process_whole_recovery">Przywracanie \"%s\"</string>
+    <string name="provision_back">Wstecz</string>
     <string name="provision_background_restore_more_data">Przywróć więcej elementów w tle</string>
     <string name="provision_error_connect_msg">Przetestuj sieć i spróbuj ponownie. Kopie zapasowe nie są dostępne, gdy nie jesteś podłączony do internetu.</string>
     <string name="provision_error_connect_title">Nie można połączyć</string>
+    <string name="provision_next">Dalej</string>
     <string name="provision_restore_data">Przywracanie elementów</string>
+    <string name="provision_skip_underline">Pomiń</string>
     <string name="query_restore_description">Przywróć aplikacje ekranu głównego oraz ustawienia z tej kopii. Istniejące dane aplikacji na tym urządzeniu zostaną nadpisane. Aplikacje, których nie ma w kopii, zostaną przeniesione na ostatni ekran główny.</string>
     <string name="query_restore_summary">Wykryto kopię zapasową w Chmurze Xiaomi dla tego urządzenia. Przywrócić aplikacje ekranu głównego i ustawienia czy wybrać nowe urządzenie i usunąć poprzednie kopie zapasowe Chmury Xiaomi?</string>
     <string name="recover_home_settings">Przywróć ustawienia ekranu głównego</string>
@@ -249,14 +253,14 @@ Sprawdź ustawienia sieci i spróbuj ponownie."</string>
     <string name="restore_home_failed">Nie udało się przywrócić Ekranu głównego.</string>
     <string name="restore_home_screen_apps">Przywróć z kopii zapasowej w chmurze</string>
     <string name="restore_init_description">Uruchom przywracanie</string>
-    <string name="restore_network_pause">%s (Dotknij, aby wznowić)</string>
+    <string name="restore_network_pause">Wstrzymano, aby oszczędzić dane mobilne. Dotknij, aby wznowić.</string>
     <string name="restore_network_unconnect">%s (Oczekiwanie na połączenie)</string>
     <string name="restore_task_cancelling">Anulowanie…</string>
     <string name="restore_task_in_process">Przywracanie…</string>
     <string name="restore_task_unfinished">Nie udało się przywrócić</string>
     <string name="restore_unfinished">Przywracanie, spróbuj ponownie później</string>
     <string name="restoring_data">Przywracanie danych…</string>
-    <string name="restoring_file_title_no_progress">Przywracanie plików…</string>
+    <string name="restoring_file_title_no_progress">Przywracanie aplikacji…</string>
     <string name="restoring_home_screen_apps">Przywracanie z Chmury Xiaomi…</string>
     <string name="restoring_settings">Przywracanie ustawień…</string>
     <string name="retry">Ponów</string>

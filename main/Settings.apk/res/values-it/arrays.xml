@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="aggregate_entries">
-        <item>Raggruppa</item>
-        <item>Raggruppa e abbassa la priorità</item>
-        <item>Non raggruppare</item>
-    </string-array>
-    <string-array name="aggregate_summaries">
-        <item>Le notifiche push promozionali e relative ai contenuti verranno raggruppate</item>
-        <item>Le notifiche push verranno raggruppate e mostrate sotto le altre notifiche</item>
-        <item>Le notifiche push non verranno raggruppate</item>
-    </string-array>
     <string-array name="agps_apn_entries">
         <item>CMWAP</item>
         <item>CMNET</item>
@@ -41,13 +31,13 @@
         <item>MSA</item>
     </string-array>
     <string-array name="ai_key_item_name">
-        <item>Parla con Assistente Google</item>
+        <item>"Parla con l'Assistente Google"</item>
         <item>Apri la ricerca di Google</item>
         <item>Apri la fotocamera posteriore</item>
         <item>Apri la fotocamera frontale</item>
         <item>Apri la app precedente</item>
         <item>Attiva la torcia</item>
-        <item>Attiva la Modalità lettura</item>
+        <item>Attiva la modalità lettura</item>
         <item>Nessuno</item>
     </string-array>
     <string-array name="alarm_repeat_type">
@@ -154,7 +144,7 @@
         <item>Aggiunta di un messaggio vocale</item>
         <item>Utilizzo di SIP</item>
         <item>Elaborazione della chiamata in uscita</item>
-        <item>Impronta digitale</item>
+        <item>Impronta</item>
         <item>Sensori per il corpo</item>
         <item>Lettura di cell broadcast</item>
         <item>Posizione fittizia</item>
@@ -221,7 +211,7 @@
         <item>aggiunta di un messaggio vocale</item>
         <item>utilizzo di SIP</item>
         <item>elaborazione della chiamata in uscita</item>
-        <item>impronta digitale</item>
+        <item>impronta</item>
         <item>sensori per il corpo</item>
         <item>lettura di cell broadcast</item>
         <item>posizione fittizia</item>
@@ -233,7 +223,7 @@
         <item>volume accessibilità</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Limite predefinito</item>
+        <item>Limite standard</item>
         <item>Nessun processo in background</item>
         <item>Al massimo 1 processo</item>
         <item>Al massimo 2 processi</item>
@@ -278,6 +268,7 @@
         <item>1xRTT</item>
         <item>IS95B</item>
         <item>IS95A</item>
+        <item>NR</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_summaries">
         <item>Modalità alta qualità (Predefinita)</item>
@@ -288,37 +279,37 @@
         <item>Modalità a bassa latenza</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Usa Selezione di Sistema (predefinito)</item>
-        <item>Campione a 16bit</item>
+        <item>Usa preferenze di sistema (Predefinito)</item>
+        <item>16 bit/campione</item>
         <item>Campione a 24bit</item>
         <item>Campione a 32bit</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Usa Selezione di Sistema (predefinito)</item>
-        <item>Campione a 16bit</item>
-        <item>Campione a 24bit</item>
-        <item>Campione a 32bit</item>
+        <item>Usa preferenze di sistema (Predefinito)</item>
+        <item>16 bit/campione</item>
+        <item>24 bit/campione</item>
+        <item>32 bit/campione</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Usa Selezione di Sistema (predefinito)</item>
+        <item>Usa preferenze di sistema (predefinito)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Usa Selezione di Sistema (predefinito)</item>
+        <item>Usa preferenze di sistema (predefinito)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Ottimizzato per la qualità Audio</item>
-        <item>Audio bilanciato e qualità della connessione</item>
+        <item>Ottimizzato per la qualità audio</item>
+        <item>Qualità audio e di connessione bilanciate</item>
         <item>Ottimizzato per la qualità della connessione</item>
-        <item>Best Effort (Bit rate adattivo)</item>
+        <item>Miglior risultato (Auto bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Ottimizzato per la qualità audio (990kbps/909kbps)</item>
-        <item>Audio bilanciato e qualità della connessione (660kbps/606kbps)</item>
-        <item>Ottimizzato per la qualità della connessione (330kbps/303kbps)</item>
+        <item>Ottimizzato per la qualità audio (990 kbps/909 kbps)</item>
+        <item>Qualità audio e di connessione bilanciate (660 kbps/606 kbps)</item>
+        <item>Ottimizzato per la qualità della connessione (330 kbps/303 kbps)</item>
         <item>Miglior effetto (Bit rate adattivo)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
@@ -346,14 +337,14 @@
         <item>Miglior risultato (Auto bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Usa Selezione di Sistema (predefinito)</item>
+        <item>Usa preferenze di sistema (Predefinito)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Usa Selezione di Sistema (predefinito)</item>
+        <item>Usa preferenze di sistema (Predefinito)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -375,7 +366,7 @@
         <item>Disabilita i codec opzionali</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Usa preferenze di sistema (predefinito)</item>
+        <item>Usa preferenze di sistema (Predefinito)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Audio Qualcomm® aptX™</item>
@@ -402,10 +393,20 @@
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (Default)</item>
+        <item>AVRCP 1.4 (Predefinito)</item>
         <item>AVRCP 1.3</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Predefinito)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
     </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
         <item>Usa i valori predefiniti del sistema: %1$d</item>
@@ -423,10 +424,10 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Disattivato</item>
-        <item>Enabled Filtered</item>
+        <item>Filtrato</item>
         <item>Abilitato</item>
-        <item>Abilitato \"Intestazioni filtrate\"</item>
-        <item>Abilitato \"Pacchetti multimediali filtrati\"</item>
+        <item>Intestazioni filtrate</item>
+        <item>Pacchetti multimediali filtrati</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 secondo</item>
@@ -444,10 +445,17 @@
         <item>In rilievo</item>
         <item>Incassato</item>
     </string-array>
+    <string-array name="captioning_font_size_selector_summaries">
+        <item>Dimensioni del testo molto piccole</item>
+        <item>Dimensioni del testo piccole</item>
+        <item>Dimensioni del testo predefinite</item>
+        <item>Dimensioni del testo grandi</item>
+        <item>Dimensioni del testo molto grandi</item>
+    </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Molto piccole</item>
         <item>Piccole</item>
-        <item>Normali</item>
+        <item>Predefinite</item>
         <item>Grandi</item>
         <item>Molto grandi</item>
     </string-array>
@@ -458,7 +466,7 @@
         <item>100%</item>
     </string-array>
     <string-array name="captioning_preset_selector_titles">
-        <item>Impostazioni predefinite app</item>
+        <item>"Impostato dall'app"</item>
         <item>Bianco su nero</item>
         <item>Nero su bianco</item>
         <item>Giallo su nero</item>
@@ -493,7 +501,7 @@
     <string-array name="city_name">
         <item>Abidjan</item>
         <item>Accra</item>
-        <item>Addis Ababa</item>
+        <item>Addis Abeba</item>
         <item>Algeri</item>
         <item>Blantyre</item>
         <item>Brazzaville</item>
@@ -502,18 +510,18 @@
         <item>Conakry</item>
         <item>Dakar</item>
         <item>Dar es Salaam</item>
-        <item>Djibouti</item>
+        <item>Gibuti</item>
         <item>Freetown</item>
         <item>Gaborone</item>
         <item>Harare</item>
         <item>Johannesburg</item>
         <item>Kampala</item>
-        <item>Khartoum</item>
+        <item>Khartum</item>
         <item>Kigali</item>
         <item>Kinshasa</item>
         <item>Lagos</item>
         <item>Maseru</item>
-        <item>Mogadishu</item>
+        <item>Mogadiscio</item>
         <item>Nairobi</item>
         <item>São Tomé</item>
         <item>Timbuktu</item>
@@ -559,7 +567,7 @@
         <item>Los Angeles</item>
         <item>Louisville</item>
         <item>Managua</item>
-        <item>Martinique</item>
+        <item>Martinica</item>
         <item>Metlakatla</item>
         <item>Città del Messico</item>
         <item>Monterrey</item>
@@ -571,7 +579,7 @@
         <item>New Salem</item>
         <item>Panama</item>
         <item>Phoenix</item>
-        <item>Porto di Spagna</item>
+        <item>Port of Spain</item>
         <item>Port-au-Prince</item>
         <item>Porto Rico</item>
         <item>Santo Domingo</item>
@@ -591,23 +599,23 @@
         <item>Anadyr</item>
         <item>Aqtau</item>
         <item>Baghdad</item>
-        <item>Bahrain</item>
+        <item>Bahrein</item>
         <item>Baku</item>
         <item>Bangkok</item>
         <item>Beirut</item>
         <item>Calcutta</item>
         <item>Damasco</item>
-        <item>Dhaka</item>
+        <item>Dacca</item>
         <item>Dubai</item>
         <item>Gaza</item>
         <item>Hebron</item>
         <item>Ho Chi Minh</item>
         <item>Hong Kong</item>
-        <item>Jakarta</item>
+        <item>Giacarta</item>
         <item>Gerusalemme</item>
         <item>Kabul</item>
         <item>Karachi</item>
-        <item>Kathmandu</item>
+        <item>Katmandu</item>
         <item>Kuala Lumpur</item>
         <item>Kuwait</item>
         <item>Macao</item>
@@ -617,12 +625,12 @@
         <item>Pyongyang</item>
         <item>Qatar</item>
         <item>Yangon</item>
-        <item>Riyadh</item>
+        <item>Riad</item>
         <item>Seoul</item>
         <item>Shanghai</item>
         <item>Singapore</item>
         <item>Taipei</item>
-        <item>Tehran</item>
+        <item>Teheran</item>
         <item>Tel Aviv</item>
         <item>Tokyo</item>
         <item>Ulan Bator</item>
@@ -666,7 +674,7 @@
         <item>Madrid</item>
         <item>Malta</item>
         <item>Minsk</item>
-        <item>Principato di Monaco</item>
+        <item>Monaco</item>
         <item>Mosca</item>
         <item>Oslo</item>
         <item>Parigi</item>
@@ -679,7 +687,7 @@
         <item>Skopje</item>
         <item>Sofia</item>
         <item>Stoccolma</item>
-        <item>Tallinn</item>
+        <item>Tallin</item>
         <item>Città del Vaticano</item>
         <item>Vienna</item>
         <item>Vilnius</item>
@@ -749,8 +757,8 @@
         <item>Francoforte</item>
         <item>Hanoi</item>
         <item>Ankara</item>
-        <item>Bengaluru</item>
-        <item>Brasília</item>
+        <item>Bangalore</item>
+        <item>Brasilia</item>
         <item>Cape Town</item>
         <item>Islamabad</item>
         <item>Rio de Janeiro</item>
@@ -759,7 +767,7 @@
         <item>Cambridge</item>
         <item>Kirkland</item>
         <item>Madison</item>
-        <item>Guangzhou</item>
+        <item>Canton</item>
         <item>Hyderabad</item>
         <item>Reston</item>
         <item>Belo Horizonte</item>
@@ -869,7 +877,7 @@
     <string-array name="debug_hw_overdraw_entries">
         <item>Disattivato</item>
         <item>Mostra aree sovrascritte</item>
-        <item>Visualizza aree per Deuteranopia</item>
+        <item>Visualizza aree per deuteranomalia</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Mai</item>
@@ -880,6 +888,12 @@
         <item>5 minuti</item>
         <item>10 minuti</item>
         <item>30 minuti</item>
+    </string-array>
+    <string-array name="eap_ocsp_type">
+        <item>Non convalidare</item>
+        <item>Chiedi stato dei certificati</item>
+        <item>Esigi stato dei certificati</item>
+        <item>Esigi stati di tutti i certificati non attendibili</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Nessuno</item>
@@ -904,16 +918,6 @@
     <string-array name="fluency_mode_summaries">
         <item>Aumenta le prestazioni del dispositivo</item>
         <item>Potrebbe rallentare le prestazioni del dispositivo</item>
-    </string-array>
-    <string-array name="fold_entries">
-        <item>Consigliati</item>
-        <item>Importanti</item>
-        <item>Non importanti</item>
-    </string-array>
-    <string-array name="fold_summaries">
-        <item>MIUI deciderà quali notifiche visualizzare</item>
-        <item>"Le notifiche appariranno nell'area delle notifiche"</item>
-        <item>Le notifiche appariranno in una cartella separata</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
         <item>4.5 pollici</item>
@@ -944,27 +948,6 @@
     <string-array name="hide_account_list">
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
-    </string-array>
-    <string-array name="input_method_function_des">
-        <item>@string/input_method_function_voice_des</item>
-        <item>@string/input_method_function_xiaoai_des</item>
-        <item>@string/input_method_function_switch_des</item>
-        <item>@string/input_method_function_clipboard_des</item>
-        <item>@string/input_method_function_no_function_des</item>
-    </string-array>
-    <array name="input_method_function_icons">
-        <item>@drawable/input_method_voice_function_selector</item>
-        <item>@drawable/input_method_xiaoai_function_selector</item>
-        <item>@drawable/input_method_switch_function_selector</item>
-        <item>@drawable/input_method_clipboard_function_selector</item>
-        <item>@drawable/input_method_no_function_selector</item>
-    </array>
-    <string-array name="input_method_function_title">
-        <item>@string/input_method_function_voice</item>
-        <item>@string/input_method_function_xiaoai</item>
-        <item>@string/input_method_function_switch</item>
-        <item>@string/input_method_function_clipboard</item>
-        <item>@string/input_method_function_no_function</item>
     </string-array>
     <string-array name="key_and_gesture_shortcut_action">
         <item>long_press_home_key</item>
@@ -1333,13 +1316,13 @@ Nota: Solo per Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="preferred_app_entries">
         <item>Launcher</item>
-        <item>Chiama</item>
+        <item>Componi</item>
         <item>Messaggi</item>
         <item>Browser</item>
         <item>Fotocamera</item>
         <item>Galleria</item>
         <item>Musica</item>
-        <item>Email</item>
+        <item>E-mail</item>
         <item>Riproduci video</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
@@ -1366,11 +1349,17 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>LTE/TDSCDMA/GSM/WCDMA</item>
         <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
         <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
-    </string-array>
-    <string-array name="preferred_network_mode_choices_world_mode">
-        <item>Globale</item>
-        <item>LTE/CDMA</item>
-        <item>LTE/GSM/UMTS</item>
+        <item>Solo NR</item>
+        <item>NR/LTE</item>
+        <item>NR/LTE/CDMA/EvDo</item>
+        <item>NR/LTE/GSM/WCDMA</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>NR/LTE/WCDMA</item>
+        <item>NR/LTE/TDSCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM</item>
+        <item>NR/LTE/TDSCDMA/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
     </string-array>
     <string-array name="priority_storage_entries">
         <item>Memoria interna</item>
@@ -1416,9 +1405,9 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>Modalità mano destra</item>
     </string-array>
     <string-array name="screen_color_title">
-        <item>Calda</item>
-        <item>Normale</item>
-        <item>Fredda</item>
+        <item>Caldo</item>
+        <item>Standard</item>
+        <item>Freddo</item>
     </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0.5 secondi</item>
@@ -1456,7 +1445,7 @@ Nota: Solo per Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="screen_saturation_title">
         <item>Brillante</item>
-        <item>Normale</item>
+        <item>Standard</item>
     </string-array>
     <string-array name="screen_timeout_entries">
         <item>15 secondi</item>
@@ -1479,37 +1468,37 @@ Nota: Solo per Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Disattivato</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Disattivato</item>
-        <item>64K per buffer di registro</item>
-        <item>256K per buffer di registro</item>
-        <item>1M per buffer di registro</item>
-        <item>4M per buffer di registro</item>
-        <item>16M per buffer di registro</item>
+        <item>64 KB per buffer di registro</item>
+        <item>256 KB per buffer di registro</item>
+        <item>1 MB per buffer di registro</item>
+        <item>4 MB per buffer di registro</item>
+        <item>16 MB per buffer di registro</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Disattivo</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Disattivato</item>
         <item>Tutti i buffer di registro</item>
         <item>Tutti tranne i buffer del registro radio</item>
-        <item>solo buffer del registro del kernel</item>
+        <item>Solo buffer del registro del kernel</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Disattivato</item>
         <item>Tutti</item>
         <item>Tutto tranne la radio</item>
-        <item>solo kernel</item>
+        <item>Solo kernel</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Disattivato</item>
@@ -1561,6 +1550,32 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>@drawable/threedrop04</item>
         <item>@drawable/threedrop05</item>
         <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
+    <array name="three_long_press">
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
@@ -1646,11 +1661,11 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>400</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
-        <item>Very slow</item>
-        <item>Slow</item>
-        <item>Normal</item>
-        <item>Fast</item>
-        <item>Faster</item>
+        <item>Molto lenta</item>
+        <item>Lenta</item>
+        <item>Normale</item>
+        <item>Veloce</item>
+        <item>Più veloce</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>Tempo di utilizzo</item>
@@ -1662,7 +1677,7 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>MTP (Protocollo di Trasmissione dei Media)</item>
         <item>PTP (Protocollo di Trasmissione delle Immagini)</item>
         <item>RNDIS (USB Ethernet)</item>
-        <item>Fonte audio</item>
+        <item>Sorgente audio</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_connection_mode_entries">
@@ -1688,8 +1703,8 @@ Nota: Solo per Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="vpn_states">
         <item>Disconnessa</item>
-        <item>Inizializzazione...</item>
-        <item>Connessione...</item>
+        <item>Inizializzazione…</item>
+        <item>Connessione…</item>
         <item>Connessa</item>
         <item>Timeout</item>
         <item>Operazione non riuscita</item>
@@ -1701,6 +1716,9 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>VPN IPSec con chiavi precondivise e autenticazione Xauth</item>
         <item>VPN IPSec con certificati e autenticazione Xauth</item>
         <item>VPN IPSec con certificati e autenticazione ibrida</item>
+        <item>VPN IKEv2/IPSec con certificati e autenticazione tramite nome utente/password</item>
+        <item>VPN IKEv2/IPSec con chiavi precondivise</item>
+        <item>VPN IKEv2/IPSec con certificati</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Avvio sessione…</item>
@@ -1730,6 +1748,10 @@ Nota: Solo per Ubuntu 8.04!"</item>
     <string-array name="wifi_ap_band_config_2G_5G">
         <item>@string/wifi_ap_choose_2G</item>
         <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_hidden_ssid_config">
+        <item>@string/wifi_ap_ssid_off</item>
+        <item>@string/wifi_ap_ssid_on</item>
     </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
@@ -1781,24 +1803,15 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>PIN da dispositivo</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
-        <item>Nessuno</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries_with_sim_auth">
-        <item>Nessuno</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
         <item>SIM</item>
         <item>AKA</item>
         <item>"AKA'"</item>
-    </string-array>
-    <string-array name="wifi_phase2_entries">
-        <item>Nessuna</item>
-        <item>PAP</item>
-        <item>MSCHAP</item>
-        <item>MSCHAPV2</item>
-        <item>GTC</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
         <item>Usa MAC randomizzato</item>
@@ -1822,13 +1835,13 @@ Nota: Solo per Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Scansione in corso...</item>
-        <item>Connessione...</item>
-        <item>Autenticazione...</item>
-        <item>Acquisizione indirizzo IP...</item>
+        <item>Scansione in corso…</item>
+        <item>Connessione…</item>
+        <item>Autenticazione…</item>
+        <item>Acquisizione indirizzo IP…</item>
         <item>Connessa</item>
         <item>Sospesa</item>
-        <item>Disconnessione...</item>
+        <item>Disconnessione…</item>
         <item>Disconnessa</item>
         <item>Operazione non riuscita</item>
         <item>Bloccato</item>
@@ -1836,17 +1849,23 @@ Nota: Solo per Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Scansione in corso...</item>
-        <item>Connessione a %1$s...</item>
-        <item>Autenticazione con %1$s...</item>
-        <item>Acquisizione indirizzo IP da %1$s...</item>
+        <item>Scansione in corso…</item>
+        <item>Connessione a %1$s…</item>
+        <item>Autenticazione con %1$s…</item>
+        <item>Acquisizione indirizzo IP da %1$s…</item>
         <item>Connessa a %1$s</item>
         <item>Sospesa</item>
-        <item>Disconnessione da %1$s...</item>
+        <item>Disconnessione da %1$s…</item>
         <item>Disconnessa</item>
         <item>Operazione non riuscita</item>
         <item>Bloccato</item>
         <item>Al momento vengono evitate connessioni deboli</item>
+    </string-array>
+    <string-array name="wifi_ttls_phase2_entries">
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animazione disattivata</item>

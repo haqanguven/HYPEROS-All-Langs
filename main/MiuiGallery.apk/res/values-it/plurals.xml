@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 ora fa</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 ora fa</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">"Mezz'ora fa"</item>
+        <item quantity="one">"Mezz'ora fa"</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Tra 1 ora</item>
+        <item quantity="one">Tra 1 ora</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">"Tra mezz'ora"</item>
+        <item quantity="one">"Tra mezz'ora"</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Adesso</item>
+        <item quantity="one">Adesso</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Poco fa</item>
+        <item quantity="one">Poco fa</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
     <plurals name="add_secret_ensure_message">
         <item quantity="other">"Aggiungere all'album privato?"</item>
         <item quantity="one">"Aggiungere all'album privato?"</item>
@@ -113,8 +149,8 @@
         <item quantity="one">%d video</item>
     </plurals>
     <plurals name="collage_select_image_dynamic_range">
-        <item quantity="other">I collage possono contenere da 1 a %d foto</item>
-        <item quantity="one">I collage possono contenere da 1 a %d foto</item>
+        <item quantity="other">I collage possono contenere %1$d-%2$d foto</item>
+        <item quantity="one">I collage possono contenere %1$d-%2$d foto</item>
     </plurals>
     <plurals name="creation_max_image">
         <item quantity="other">Seleziona fino a %d foto</item>
@@ -132,10 +168,6 @@
         <item quantity="other">Eliminare %d scatti a raffica?</item>
         <item quantity="one">Eliminare %d scatto a raffica?</item>
     </plurals>
-    <plurals name="delete_burst_photo_from_this_album_and_cloud_msg">
-        <item quantity="other">Eliminare %d scatti a raffica da Xiaomi Cloud e questo dispositivo?</item>
-        <item quantity="one">Eliminare %d scatto a raffica da Xiaomi Cloud e questo dispositivo?</item>
-    </plurals>
     <plurals name="delete_finish_format">
         <item quantity="other">%d elementi eliminati</item>
         <item quantity="one">%d elemento eliminato</item>
@@ -148,21 +180,9 @@
         <item quantity="other">Eliminare %d elementi?</item>
         <item quantity="one">Eliminare %d elemento?</item>
     </plurals>
-    <plurals name="delete_media_from_this_album_and_cloud_msg">
-        <item quantity="other">Eliminare %d elementi da questo album e da Xiaomi Cloud?</item>
-        <item quantity="one">Eliminare %d elemento da questo album e da Xiaomi Cloud?</item>
-    </plurals>
     <plurals name="delete_photo_from_all_devices_and_cloud_msg">
         <item quantity="other">Eliminare %d foto da tutti i dispositivi e da Xiaomi Cloud?</item>
         <item quantity="one">Eliminare %d foto da tutti i dispositivi e da Xiaomi Cloud?</item>
-    </plurals>
-    <plurals name="delete_photo_from_local">
-        <item quantity="other">Eliminare %d foto?</item>
-        <item quantity="one">Eliminare %d foto?</item>
-    </plurals>
-    <plurals name="delete_photo_from_this_album_and_cloud_msg">
-        <item quantity="other">Eliminare %d foto da questo album e da Xiaomi Cloud?</item>
-        <item quantity="one">Eliminare %d foto da questo album e da Xiaomi Cloud?</item>
     </plurals>
     <plurals name="delete_third_party_burst_photo">
         <item quantity="other">Eliminare %d scatti a raffica dal dispositivo?</item>
@@ -171,14 +191,6 @@
     <plurals name="delete_video_from_all_devices_and_cloud_msg">
         <item quantity="other">Eliminare %d video da tutti i dispositivi e da Xiaomi Cloud?</item>
         <item quantity="one">Eliminare %d video da tutti i dispositivi e da Xiaomi Cloud?</item>
-    </plurals>
-    <plurals name="delete_video_from_local">
-        <item quantity="other">Eliminare %d video?</item>
-        <item quantity="one">Eliminare %d video?</item>
-    </plurals>
-    <plurals name="delete_video_from_this_album_and_cloud_msg">
-        <item quantity="other">Eliminare %d video da questo album e da Xiaomi Cloud?</item>
-        <item quantity="one">Eliminare %d video da questo album e da Xiaomi Cloud?</item>
     </plurals>
     <plurals name="download_error">
         <item quantity="other">Impossibile scaricare %1$d file</item>
@@ -203,6 +215,38 @@
     <plurals name="file_type_detail_count">
         <item quantity="other">%1$d file</item>
         <item quantity="one">%1$d file</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">"Mezz'ora fa"</item>
+        <item quantity="one">"Mezz'ora fa"</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Tra 1 ora</item>
+        <item quantity="one">Tra 1 ora</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">"Tra mezz'ora"</item>
+        <item quantity="one">"Tra mezz'ora"</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Adesso</item>
+        <item quantity="one">Adesso</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 minuto</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Poco fa</item>
+        <item quantity="one">Poco fa</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d elementi selezionati</item>
+        <item quantity="one">%d elemento selezionato</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
     </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
         <item quantity="other">%1$d elementi da sincronizzare</item>
@@ -235,6 +279,10 @@
     <plurals name="number_of_videos_to_upload">
         <item quantity="other">%1$d video da sincronizzare</item>
         <item quantity="one">%1$d video da sincronizzare</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%d foto</item>
+        <item quantity="one">%d foto</item>
     </plurals>
     <plurals name="photo_count_format">
         <item quantity="other">%1$d elementi in totale</item>
@@ -456,6 +504,14 @@
         <item quantity="other">%d elementi</item>
         <item quantity="one">%d elemento</item>
     </plurals>
+    <plurals name="synced_photo_count">
+        <item quantity="other">%d foto sincronizzate</item>
+        <item quantity="one">%d foto sincronizzata</item>
+    </plurals>
+    <plurals name="synced_videos_count">
+        <item quantity="other">%d video sincronizzati</item>
+        <item quantity="one">%d video sincronizzato</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_image">
         <item quantity="other">Non potrai ripristinare %d elementi selezionati una volta eliminati. Eliminare comunque?</item>
         <item quantity="one">Non potrai ripristinare %d elemento selezionato una volta eliminato. Eliminare comunque?</item>
@@ -479,5 +535,9 @@
     <plurals name="video_count_format">
         <item quantity="other">%1$d file</item>
         <item quantity="one">%1$d file</item>
+    </plurals>
+    <plurals name="videos_count">
+        <item quantity="other">%d video</item>
+        <item quantity="one">%d video</item>
     </plurals>
 </resources>

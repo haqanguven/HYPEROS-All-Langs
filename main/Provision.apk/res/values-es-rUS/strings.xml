@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Navegar a la página principal</string>
+    <string name="abc_action_bar_up_description">Navegar hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="abc_action_mode_done">Listo</string>
+    <string name="abc_activity_chooser_view_see_all">Ver todas</string>
+    <string name="abc_activitychooserview_choose_application">Elegir una app</string>
+    <string name="abc_capital_off">DESACTIVAR</string>
+    <string name="abc_capital_on">ACTIVAR</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">borrar</string>
+    <string name="abc_menu_enter_shortcut_label">intro</string>
+    <string name="abc_menu_function_shortcut_label">Función+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Mayúscula+</string>
+    <string name="abc_menu_space_shortcut_label">espacio</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menú+</string>
+    <string name="abc_search_hint">Buscar…</string>
+    <string name="abc_searchview_description_clear">Borrar consulta</string>
+    <string name="abc_searchview_description_query">Búsqueda</string>
+    <string name="abc_searchview_description_search">Buscar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Búsqueda por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartir con</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
+    <string name="abc_toolbar_collapse_description">Contraer</string>
     <string name="accessibility_enabled">Accesibilidad activada.</string>
     <string name="agree">Aceptar</string>
     <string name="agree_and_next">Aceptar</string>
@@ -20,6 +47,8 @@
     <string name="application_permissions">Permisos de la aplicación</string>
     <string name="back">Anterior</string>
     <string name="backup_introduction">Puedes usar esta aplicación para hacer una copia de seguridad y restaurar elementos en su dispositivo.</string>
+    <string name="boot_video_replay">Volver a reproducir</string>
+    <string name="boot_video_skip">Saltar</string>
     <string name="calculator_introduction">Puede usar esta aplicación para realizar cálculos, convertir unidades y divisas, y estimar sus pagos de hipoteca.</string>
     <string name="camera_introduction">Puede usar la cámara para tomar fotos y grabar videos.</string>
     <string name="carrier_introduction">Para poder proporcionarle mejores servicios, su dispositivo podrá enviar periódicamente información de la versión del dispositivo, datos de identificación del dispositivo (incluyendo direcciones IMEI/IMSI/MSISDN/MAC, MEID/ICCID), información de ubicación aproximada (incluyendo ID fijo) hacia el operador vía Wi-Fi, red de datos móviles o SMS gratuito. El operador se compromete a analizar la información relevante solo para mejorar la calidad de los servicios o para proporcionar servicios o tecnologías personalizadas, y no revelará a terceros ninguna información relevante con la que pudiera ser identificado personalmente. La declaración particular del operador regirá. Consulte a su operador por información relacionada a los costos de uso de este servicio.</string>
@@ -32,7 +61,6 @@
     <string name="congratulation_swipe">Deslice hacia arriba para acceder al sistema</string>
     <string name="congratulation_title">Configuración completada</string>
     <string name="content_description_complete">Completado</string>
-    <string name="content_description_miui_version">MIUI 12</string>
     <string name="content_description_start">Inicio</string>
     <string name="content_introduction">El Centro de contenido agrega material y servicios de distintos canales. Aquí puede leer artículos, ver videos, contenido patrocinado y recibir recomendaciones de contenido.</string>
     <string name="continue_to_enable_accessibility">Mantenga presionados dos dedos para activar la accesibilidad.</string>
@@ -53,7 +81,7 @@
     <string name="disagreement_function">Si no acepta conceder estos permisos o compartir y subir su información personal, no podrá usar esta función. Puede elegir no usar este servicio.</string>
     <string name="disagreement_location_service">Si no acepta conceder estos permisos o compartir y subir su información personal, no podrá usar este servicio.</string>
     <string name="disagreement_terminate_service">Si no acepta conceder estos permisos o compartir y subir su información personal, no podrá usar esta aplicación. Puede elegir desinstalarla, cerrar sesión o restringir los permisos en Configuración.</string>
-    <string name="download_introduction">Esta aplicación administra todas sus descargas, incluidas aquellas de GetApps, Mi Video, Actualizador, Temas y Navegador.</string>
+    <string name="download_introduction">\"Descargas\" está usando Xunlei para descargar elementos en su dispositivo. Esta herramienta funciona para GetApps, aplicaciones del sistema, temas, vídeos y descargas del navegador.</string>
     <string name="enable_accessibility_canceled">Accesibilidad cancelada.</string>
     <string name="enable_accessibility_dialog_message">Activó TalkBack al tocar la pantalla con dos dedos por más de 10 segundos. TalkBack provee comentarios de voz de personas con discapacidad visual. Si lo activó por accidente, toque el botón Cancelar y luego doble toque en la pantalla.</string>
     <string name="enable_accessibility_dialog_negative_btn">Cancelar</string>
@@ -74,8 +102,12 @@
     <string name="input_method_category">Seleccione el teclado por defecto que usará para escribir texto en correos electrónicos, notas, y todo lo demás. Tenga en cuenta que podrá instalar teclados de terceros en el futuro.</string>
     <string name="input_method_setting">Seleccione un teclado</string>
     <string name="install_preinstall_app">Cargando aplicaciones…</string>
+    <string name="item_contents_wwarning">Si su dispositivo se pierde, no podrá evitar que otras personas lo usen y accedan a sus datos a menos que establezca un bloqueo de pantalla. ¿Saltar de todos modos?</string>
     <string name="item_fingerprint">Huella dactilar</string>
     <string name="item_lock_screen_password">Solo bloqueo de pantalla</string>
+    <string name="item_lock_screen_password_only">Pantalla de bloqueo</string>
+    <string name="item_return">Establecer</string>
+    <string name="item_skip">Saltar</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Compartir información de ubicación con agencias de rescate de emergencia</string>
     <string name="language_picker_other_languages_title">Más idiomas</string>
@@ -97,6 +129,8 @@
     <string name="move_data_dialog_cancel">Cancelar</string>
     <string name="move_data_dialog_title">Puede restringir la conexión de datos móviles en los Ajustes más adelante</string>
     <string name="move_data_dialog_use">Usar</string>
+    <string name="msim_setting_default_data">SIM de datos</string>
+    <string name="msim_setting_default_voice">SIM por defecto para llamadas</string>
     <string name="multisim_settings_category">Ajustes de la SIM</string>
     <string name="multisim_settings_title">Se han detectado 2 tarjetas SIM</string>
     <string name="navigation_picker_gesture_guide">Guía de gestos</string>
@@ -107,7 +141,7 @@
     <string name="note_introduction">Esta aplicación le permite crear, ver y editar notas.</string>
     <string name="other_settings">Ajustes adicionales</string>
     <string name="other_settings_ad_dialog_agree">Activar</string>
-    <string name="other_settings_ad_dialog_content">Cuando las recomendaciones de anuncios personalizados están desactivadas, seguirá viendo la misma cantidad de anuncios que cuando la función está activada. Sin embargo, los anuncios ya no serán relevantes, ya que no se basarán en sus preferencias personales.</string>
+    <string name="other_settings_ad_dialog_content">Cuando las recomendaciones personalizadas de publicidad están desactivadas, seguirá viendo la misma cantidad de anuncios que cuando la función está activada. Sin embargo, los anuncios ya no serán relevantes, ya que no se basarán en sus preferencias personales.</string>
     <string name="other_settings_ad_dialog_disagree">Desactivar</string>
     <string name="other_settings_ad_disable_summary">Activar para personalizar anuncios</string>
     <string name="other_settings_ad_enable">Publicidad personalizada</string>
@@ -126,6 +160,7 @@
     <string name="other_settings_user_experience">Programa de Experiencia del Usuario</string>
     <string name="other_settings_user_experience_summary">Ayúdenos a mejorar nuestros productos y servicios compartiendo con nosotros sus estadísticas de uso. Ver detalles</string>
     <string name="other_settings_user_experience_summary_index">Ver detalles</string>
+    <string name="permission_MIUIDaemon_introduction">MIUI Daemon allows you to transfer data from your device when its screen is damaged.</string>
     <string name="permission_account">Acceder a cuentas en el dispositivo:</string>
     <string name="permission_account_introduction">Para iniciar sesión con la Cuenta Mi</string>
     <string name="permission_application_package_introduction">Para accede al almacenamiento con el fin de analizar y escanear paquetes de instalación</string>
@@ -158,6 +193,10 @@
     <string name="permission_picture_introduction">Para guardar, editar y sincronizar fotos y videos</string>
     <string name="permission_read_call_records">Editar historial de llamadas:</string>
     <string name="permission_read_call_records_introduction">Para agregar elementos al historial de llamadas y eliminar llamadas bloqueadas</string>
+    <string name="permission_read_contacts">Accessing contacts</string>
+    <string name="permission_read_contacts_introduction">For verifying your identity</string>
+    <string name="permission_read_message">Accessing text messages</string>
+    <string name="permission_read_message_introduction">For verifying the ownership of your device</string>
     <string name="permission_read_note_introduction">Para acceder a notas y adjuntos</string>
     <string name="permission_read_write_file">Acceder y guardar archivos y fotos en su dispositivo:</string>
     <string name="permission_read_write_file_introduction">Para acceder, guardar y almacenar temporalmente elementos en su dispositivo</string>
@@ -178,16 +217,20 @@
     <string name="pref_title_voice_slot">Tarjeta SIM de voz preferida</string>
     <string name="privacy_policy">Política de Privacidad</string>
     <string name="protect_persoanl_info_statement">Protegeremos su información personal de acuerdo con las leyes, regulaciones y políticas de privacidad relevantes.</string>
-    <string name="provision_inputmethod_policy_description">"
-Ver la Política de Privacidad del teclado actual."</string>
+    <string name="provision_back">Atrás</string>
+    <string name="provision_inputmethod_policy_description">&lt;Data>Ver la &lt;a href=%1$s>Política de privacidad&lt;/a > del teclado seleccionado.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Política de Privacidad</string>
+    <string name="provision_next">Siguiente</string>
+    <string name="provision_skip_underline">Saltar</string>
     <string name="recorder_introduction">Puede usar esta aplicación para grabar audio y respaldar grabaciones en la nube.</string>
     <string name="require_authority_statement">Para poder proporcionarle servicios básicos, necesita conceder los siguientes permisos para recolectar su información personal:</string>
     <string name="require_network_authority_statement">Para poder proporcionarle servicios básicos, debe conectarse a internet y conceder los siguientes permisos para recolectar su información personal:</string>
     <string name="screen_recording_introduction">Esta aplicación le permite grabar lo que sucede en su pantalla.</string>
+    <string name="search_menu_title">Buscar</string>
     <string name="security_introduction">Puede usar esta aplicación para limpiar la basura en su dispositivo, encontrar y neutralizar virus, optimizar el rendimiento de juegos, ahorrar batería, administrar aplicaciones, permisos y más.</string>
     <string name="security_mobile_account_introduction">Para iniciar sesión y administrar cuentas del sistema</string>
     <string name="service_agreement">He leído y acepto los términos y condiciones.</string>
+    <string name="service_name_MIUIDaemon">MIUI Daemon</string>
     <string name="service_name_album">Galería</string>
     <string name="service_name_application_package">Instalador de paquetes</string>
     <string name="service_name_backup">Copias de seguridad</string>
@@ -199,6 +242,7 @@ Ver la Política de Privacidad del teclado actual."</string>
     <string name="service_name_content_center">Centro de contenido</string>
     <string name="service_name_download">Descargas</string>
     <string name="service_name_fast_application">Framework de aplicaciones rápidas</string>
+    <string name="service_name_fast_pairing">Mi Link</string>
     <string name="service_name_game">Complementos de juegos</string>
     <string name="service_name_google_service">Declaración sobre servicios de Google</string>
     <string name="service_name_location">Servicios basados en la ubicación</string>
@@ -209,14 +253,16 @@ Ver la Política de Privacidad del teclado actual."</string>
     <string name="service_name_security">Seguridad</string>
     <string name="service_name_service_framework">Framework de Servicios Mi</string>
     <string name="service_policy">&lt;Data>Lea y acepte nuestra &lt;a href=%1$s>Política de Privacidad&lt;/a >.&lt;/Data></string>
+    <string name="service_policy_download">&lt;Data>Antes de usar nuestros servicios, lea y acepte la &lt;a href=%1$s>Política de Privacidad de Xunlei&lt;/a >.&lt;/Data></string>
     <string name="service_privacy_index">Política de Privacidad</string>
+    <string name="service_security_over_r">&lt;Data>Lea y acepte nuestra &lt;a href=%1$s>Política de privacidad&lt;/a > antes de usar Seguridad. &lt;br/>&lt;br/>De acuerdo con los estándares de Android 11, El permiso único se retirará dentro de los 5 segundos posteriores a que la aplicación correspondiente deje de ejecutarse. Si abre la aplicación durante este breve período de tiempo, el permiso se retirará en ese momento&lt;/Data></string>
     <string name="servicestate_title">Declaración sobre servicios básicos</string>
     <string name="setting_locale">Estableciendo región…</string>
     <string name="shut_down">Apagar</string>
     <string name="sim_card_detecting">Comprobando SIM…</string>
     <string name="sim_card_detecting_check">No se pudo encontrar la tarjeta SIM. Asegúrese de que la tarjeta SIM está instalada correctamente y que tiene crédito suficiente en su línea.</string>
     <string name="sim_card_detecting_confirm_turn_on_network">¿Permitir la conexión a datos móviles? La tarjeta SIM que inserte será usada para conectarse a la red de datos móviles.</string>
-    <string name="sim_card_detecting_title">Compruebe la tarjeta SIM</string>
+    <string name="sim_card_detecting_title">Comprobando la tarjeta SIM…</string>
     <string name="sim_card_detection">Inserta tarjeta SIM</string>
     <string name="sim_card_detection_info">Lee las instrucciones de tu dispositivo para insertar la tarjeta SIM.</string>
     <string name="sim_card_detection_mobile_not_available">La tarjeta SIM no se pudo conectar a la red</string>
@@ -229,6 +275,7 @@ Ver la Política de Privacidad del teclado actual."</string>
     <string name="skip_gesture_guide_dialog_title">Gestos de pantalla completa</string>
     <string name="skip_underline">Omitir este paso</string>
     <string name="start_up_slogan">Solo el suyo</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_not_set">No establecido</string>
     <string name="system_navigation_mode">Modo de navegación del sistema</string>
     <string name="terms_of_use">Términos y condiciones</string>
@@ -242,7 +289,7 @@ Debe aceptar nuestro Acuerdo de Usuario y nuestra Política de Privacidad antes 
     <string name="terms_of_use_label_phrase">, frases frecuentes</string>
     <string name="terms_of_use_label_systemhelper">, servicio de auto-registro</string>
     <string name="terms_of_use_label_updater">, Actualizador</string>
-    <string name="terms_of_use_lable_apps">Servicios Mi, servicios de activación de Mi SIM, Xiaomi Cloud, Encontrar dispositivo, pantalla de inicio, juegos, MIUI Daemon, componentes MSA del sistema, servicios de traducción, MIUI SDK, aplicaciones rápidas, bóveda de aplicaciones, estadísticas, Mi Link</string>
+    <string name="terms_of_use_lable_apps">Servicios Mi, servicios de activación de Mi SIM, Xiaomi Cloud, Encontrar dispositivo, pantalla de inicio, juegos, MIUI Daemon, componentes MSA del sistema, servicios de traducción, MIUI SDK, aplicaciones rápidas, Bóveda de aplicaciones, estadísticas, Mi Link</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Debe aceptar la Política de Privacidad de Facemoji antes de utilizar esta función."</string>
@@ -258,6 +305,7 @@ Debe aceptar la Política de Privacidad del Teclado Mint antes de usar esta func
     <string name="terms_privacy_policy_input_method_facemoji">Política de Privacidad de Facemoji</string>
     <string name="terms_privacy_policy_input_method_kika">Política de Privacidad de Kika</string>
     <string name="title_fingerprint">Establecer contraseña</string>
+    <string name="title_set_fingerprint">Pantalla de bloqueo</string>
     <string name="user_agreement">Acuerdo de Usuario</string>
     <string name="user_agreement_declare">Antes de usar MIUI, debe leer y aceptar nuestro Acuerdo de Usuario y Política de Privacidad. Mientras su dispositivo es activado, el servicio de activación de Mi SIM, Xiaomi Cloud, Encontrar dispositivo, Pantalla de inicio, Frases frecuentes, Servicio de traducción, MIUI Daemon, Visualizador HTML, MIUI SDK, Asistente IA, Batería y rendimiento, Detector de potencia, Joyose, Ajustes OS IA, Gestor de permisos y Actualizador, se conectarán a la red. Los servicios inteligentes se conectarán a la red para acceder a su ubicación.</string>
     <string name="voice_assist_advice">Mi AI le permite utilizar controles de voz pero consume más energía (+1% cada hora).</string>

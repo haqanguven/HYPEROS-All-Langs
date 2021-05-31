@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="aggregate_entries">
-        <item>Групувати</item>
-        <item>Групувати і знижувати пріоритет</item>
-        <item>Не групувати</item>
-    </string-array>
-    <string-array name="aggregate_summaries">
-        <item>"Рекламні та пов'язані з контентом Push-сповіщення будуть згруповані"</item>
-        <item>Push-сповіщення будуть згруповані і показані нижче інших сповіщень</item>
-        <item>Push-сповіщення не будуть згруповані</item>
-    </string-array>
     <string-array name="agps_apn_entries">
         <item>CMWAP</item>
         <item>CMNET</item>
@@ -278,6 +268,7 @@
         <item>1xRTT</item>
         <item>IS95B</item>
         <item>IS95A</item>
+        <item>NR</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_summaries">
         <item>Висока якість (за замовчуванням)</item>
@@ -313,12 +304,12 @@
         <item>Оптимізувати якість звуку</item>
         <item>Баланс якості звуку та швидкості підключення</item>
         <item>Оптимізувати швидкість підключення</item>
-        <item>Найкращий можливий результат (адаптивний бітрейт)</item>
+        <item>Найкращий варіант (адаптивний бітрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Оптимізувати якість звуку (990 - 909 Кбіт/сек)</item>
-        <item>Баланс якості звуку та швидкості підключення (660/606 Кбіт/с)</item>
-        <item>Оптимізувати швидкість підключення (330 - 303 Кбіт/сек)</item>
+        <item>Оптимізовано якість звуку (990 - 909 Кбіт/сек)</item>
+        <item>Баланс якості звуку та швидкості підключення (660/606 Кбіт/сек)</item>
+        <item>Оптимізувано швидкість підключення (330 - 303 Кбіт/сек)</item>
         <item>Найкращий можливий результат (адаптивний бітрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
@@ -367,7 +358,7 @@
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>Qualcomm® aptX™ TWS+ аудіо</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
         <item>LHDC_V3</item>
         <item>LHDC_V2</item>
         <item>LHDC_V1</item>
@@ -382,11 +373,11 @@
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>Qualcomm® aptX™ TWS+ аудіо</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
         <item>LHDC_V3</item>
         <item>LHDC_V2</item>
         <item>LHDC_V1</item>
-        <item>Увімкнути додаткові кодеки</item>
+        <item>Вмикати додаткові кодеки</item>
         <item>Відключити додаткові кодеки</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
@@ -402,10 +393,20 @@
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (За замовчуванням)</item>
+        <item>AVRCP 1.4 (за замовчуванням)</item>
         <item>AVRCP 1.3</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (за замовчуванням)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
     </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
         <item>За умовчанням: %1$d</item>
@@ -423,10 +424,10 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Відключено</item>
-        <item>Увімкнено із фільтрацією</item>
+        <item>Відфільтровано</item>
         <item>Увімкнено</item>
-        <item>Увімкнено \"Фільтрацію заголовків\"</item>
-        <item>Увімкнено \"Фільтрацію медіапакетів\"</item>
+        <item>Фільтрація заголовків</item>
+        <item>Фільтрація медіапакетів</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 секунда</item>
@@ -444,10 +445,17 @@
         <item>Опуклий</item>
         <item>Втиснений</item>
     </string-array>
+    <string-array name="captioning_font_size_selector_summaries">
+        <item>Дуже малий шрифт</item>
+        <item>Малий шрифт</item>
+        <item>Шрифт за умовчанням</item>
+        <item>Великий шрифт</item>
+        <item>Дуже великий шрифт</item>
+    </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Дуже малий</item>
         <item>Малий</item>
-        <item>Звичайний</item>
+        <item>За умовчанням</item>
         <item>Великий</item>
         <item>Дуже великий</item>
     </string-array>
@@ -458,7 +466,7 @@
         <item>100%</item>
     </string-array>
     <string-array name="captioning_preset_selector_titles">
-        <item>За умовчанням</item>
+        <item>Налаштовано додатком</item>
         <item>Білий на чорному</item>
         <item>Чорний на білому</item>
         <item>Жовтий на чорному</item>
@@ -881,6 +889,12 @@
         <item>10 хвилин</item>
         <item>30 хвилин</item>
     </string-array>
+    <string-array name="eap_ocsp_type">
+        <item>Не перевіряти</item>
+        <item>Запит статусу сертифіката</item>
+        <item>Потрібен статус сертифіката</item>
+        <item>Потрібні статуси всіх несхвалених сертифікатів</item>
+    </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Вимкнено</item>
         <item>Logcat</item>
@@ -904,16 +918,6 @@
     <string-array name="fluency_mode_summaries">
         <item>Прискорити продуктивність пристрою</item>
         <item>Продуктивність може знизитися</item>
-    </string-array>
-    <string-array name="fold_entries">
-        <item>Приховувати неважливе</item>
-        <item>Показувати все</item>
-        <item>Приховувати все</item>
-    </string-array>
-    <string-array name="fold_summaries">
-        <item>Рішення про важливість сповіщень прийме MIUI</item>
-        <item>Всі сповіщення в шторці сповіщень</item>
-        <item>Всі сповіщення в окремій папці</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
         <item>4.5 дюймів</item>
@@ -944,27 +948,6 @@
     <string-array name="hide_account_list">
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
-    </string-array>
-    <string-array name="input_method_function_des">
-        <item>@string/input_method_function_voice_des</item>
-        <item>@string/input_method_function_xiaoai_des</item>
-        <item>@string/input_method_function_switch_des</item>
-        <item>@string/input_method_function_clipboard_des</item>
-        <item>@string/input_method_function_no_function_des</item>
-    </string-array>
-    <array name="input_method_function_icons">
-        <item>@drawable/input_method_voice_function_selector</item>
-        <item>@drawable/input_method_xiaoai_function_selector</item>
-        <item>@drawable/input_method_switch_function_selector</item>
-        <item>@drawable/input_method_clipboard_function_selector</item>
-        <item>@drawable/input_method_no_function_selector</item>
-    </array>
-    <string-array name="input_method_function_title">
-        <item>@string/input_method_function_voice</item>
-        <item>@string/input_method_function_xiaoai</item>
-        <item>@string/input_method_function_switch</item>
-        <item>@string/input_method_function_clipboard</item>
-        <item>@string/input_method_function_no_function</item>
     </string-array>
     <string-array name="key_and_gesture_shortcut_action">
         <item>long_press_home_key</item>
@@ -1090,11 +1073,11 @@
     </string-array>
     <string-array name="miui_entries_font_size">
         <item>XS</item>
-        <item>S</item>
+        <item>XS</item>
         <item>M</item>
         <item>L</item>
         <item>XL</item>
-        <item>XXL</item>
+        <item>XL</item>
     </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP та ранні версії</item>
@@ -1223,7 +1206,7 @@
         <item>720p, 1080p (два екрана)</item>
     </string-array>
     <string-array name="paper_color_values">
-        <item>Повні кольори</item>
+        <item>Всі кольори</item>
         <item>Світлі кольори</item>
         <item>Чорний та білий</item>
     </string-array>
@@ -1366,11 +1349,17 @@
         <item>LTE/TDSCDMA/GSM/WCDMA</item>
         <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
         <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
-    </string-array>
-    <string-array name="preferred_network_mode_choices_world_mode">
-        <item>Загальний</item>
-        <item>LTE/CDMA</item>
-        <item>LTE/GSM/UMTS</item>
+        <item>Лише NR</item>
+        <item>NR/LTE</item>
+        <item>NR/LTE/CDMA/EvDo</item>
+        <item>NR/LTE/GSM/WCDMA</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>NR/LTE/WCDMA</item>
+        <item>NR/LTE/TDSCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM</item>
+        <item>NR/LTE/TDSCDMA/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
     </string-array>
     <string-array name="priority_storage_entries">
         <item>"Внутрішня пам'ять"</item>
@@ -1571,6 +1560,32 @@
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
     </array>
+    <array name="three_long_press">
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="time_format_entries">
         <item>12-годинний 1:00 PM</item>
         <item>24-годинний 13:00</item>
@@ -1616,7 +1631,7 @@
     <string-array name="true_color_screen_optimize_summary">
         <item>Налаштовуйте кольори в залежності від освітлення</item>
         <item>Завжди покращувати кольори</item>
-        <item>Відновити стандартний колір змісту екрану з калібруванням кольорів</item>
+        <item>Відновити стандартний колір змісту екрана з калібруванням кольорів</item>
     </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Авто (рекомендовано)</item>
@@ -1701,6 +1716,9 @@
         <item>IPSec VPN зі спільними ключами й автентифікацією Xauth</item>
         <item>IPSec VPN із сертифікатами та автентифікацією Xauth</item>
         <item>IPSec VPN із сертифікатами та гібридною автентифікацією</item>
+        <item>VPN-підключення за протоколом IKEv2/IPSec із сертифікатами й автентифікацією імен користувачів або паролів</item>
+        <item>VPN-підключення за протоколом IKEv2/IPSec зі спільними ключами</item>
+        <item>VPN-підключення за протоколом IKEv2/IPSec із сертифікатами</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Пристрій підключений, створення сесії…</item>
@@ -1730,6 +1748,10 @@
     <string-array name="wifi_ap_band_config_2G_5G">
         <item>@string/wifi_ap_choose_2G</item>
         <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_hidden_ssid_config">
+        <item>@string/wifi_ap_ssid_off</item>
+        <item>@string/wifi_ap_ssid_on</item>
     </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
@@ -1781,24 +1803,15 @@
         <item>PIN із цього пристрою</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
-        <item>Нічого</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries_with_sim_auth">
-        <item>Немає</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
         <item>SIM</item>
         <item>AKA</item>
         <item>"AKA'"</item>
-    </string-array>
-    <string-array name="wifi_phase2_entries">
-        <item>Немає</item>
-        <item>PAP</item>
-        <item>MSCHAP</item>
-        <item>MSCHAPV2</item>
-        <item>GTC</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
         <item>Використовувати випадкову МАС-адресу</item>
@@ -1813,7 +1826,7 @@
         <item>Слабкий</item>
         <item>Слабкий</item>
         <item>Задовільний</item>
-        <item>Добрий</item>
+        <item>Хороший</item>
         <item>Відмінний</item>
     </string-array>
     <string-array name="wifi_ssid_type_entries">
@@ -1847,6 +1860,12 @@
         <item>Помилка</item>
         <item>Заблоковано</item>
         <item>Тимчасове уникнення слабкого з’єднання</item>
+    </string-array>
+    <string-array name="wifi_ttls_phase2_entries">
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Без анімації</item>

@@ -183,6 +183,7 @@ ID:%s
     <string name="expand_button_title">Σύνθετες</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_app_id">2263965750590514</string>
+    <string name="facebook_login">Σύνδεση με Facebook</string>
     <string name="failed_dup_secure_phone_number">Αυτός ο αριθμός σχετίζεται ήδη με έναν άλλον Mi Λογαριασμό</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Εύρεση συσκευής</string>
@@ -219,6 +220,7 @@ ID:%s
     <string name="get_phone_bind_exceed_limit">Μπορείτε να συσχετίσετε μέχρι και 3 Mi Λογαριασμούς με έναν αριθμό τηλεφώνου. Αδυναμία προσθήκης καινούργιων λογαριασμών.</string>
     <string name="get_phone_verifycode_exceed_limit">Πάρα πολλοί κωδικοί επαλήθευσης έχουν σταλεί σε αυτό τον αριθμό. Περιμένετε 24 ώρες και προσπαθήστε ξανά.</string>
     <string name="google">Google</string>
+    <string name="google_login">Σύνδεση με Google</string>
     <string name="guest_account_label">Λογαριασμός Mi Επισκέπτης</string>
     <string name="health_action_activate">Ενεργοποίηση</string>
     <string name="health_action_install">Εγκατάσταση</string>
@@ -384,6 +386,7 @@ ID:%s
     <string name="passport_login_instead_reg">Χρήση αυτού του αριθμού</string>
     <string name="passport_login_instead_reg_with_email">Χρήση αυτού του email</string>
     <string name="passport_login_other_account">Άλλος λογαριασμός</string>
+    <string name="passport_login_other_way">Άλλοι τρόποι σύνδεσης</string>
     <string name="passport_login_prompt">Όλες οι Υπηρεσίες Mi. Ένας Mi Λογαριασμός.</string>
     <string name="passport_login_recycle_account_no">Όχι</string>
     <string name="passport_login_recycle_account_yes">Ναι</string>
@@ -401,6 +404,10 @@ ID:%s
     <string name="passport_prev">Πίσω</string>
     <string name="passport_privacy_policy">Πολιτική Απορρήτου</string>
     <string name="passport_privacy_policy_required">Πολιτική Απορρήτου (υποχρεωτική)</string>
+    <string name="passport_provision_activator_phone_summary_sim1_prefix">SIM <xliff id="sim1" refersto="1">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_activator_phone_summary_sim2_prefix">SIM <xliff id="sim2" refersto="2">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_input_email_register_prompt">Τα προσωπικά σας δεδομένα θα αποθηκευτούν σύμφωνα με τους νόμους και τους κανονισμούς της περιοχής που επιλέγετε.</string>
+    <string name="passport_provision_password_req_notice"><xliff id="min_pwd_len" refersto="8">%1$d</xliff>-<xliff id="max_pwd_len" refersto="16">%2$d</xliff> χαρακτήρες με τουλάχιστον <xliff id="min_pwd_type" refersto="2">%3$d</xliff> των ακόλουθων τύπων: γράμματα, ψηφία, ειδικά σύμβολα</string>
     <string name="passport_pwd_generate_failure">Αδυναμία δημιουργίας κωδικού</string>
     <string name="passport_pwd_generating">Γίνεται δημιουργία…</string>
     <string name="passport_querying_phone_info">Γίνεται αίτηση για πληροφορίες λογαριασμού…</string>
@@ -425,7 +432,7 @@ ID:%s
     <string name="passport_reg_success_summary">%1$s έχει συσχετιστεί με το λογαριασμό σας. Μπορείτε να το χρησιμοποιήσετε για να συνδεθείτε ή για να επαναφέρετε τον κωδικό πρόσβασης σας.</string>
     <string name="passport_reg_type_email">Διεύθυνση email</string>
     <string name="passport_reg_using_other_phone"><u>Χρήση διαφορετικού αριθμού</u></string>
-    <string name="passport_reg_using_other_phone_number_prompt">"Δημιουργήστε νέο λογαριασμό με  "</string>
+    <string name="passport_reg_using_other_phone_number_prompt">"Δημιουργήστε νέο λογαριασμό με "</string>
     <string name="passport_reg_using_phone_number_prompt">Δημιουργία λογαριασμού με αριθμό τηλεφώνου</string>
     <string name="passport_reg_via_sms_alert">Ένα εξερχόμενο SMS μήνυμα μπορεί να απαιτείται για την ενεργοποίηση της υπηρεσίας. Ο πάροχός σας θα σας επιφέρει χρεώσεις για το μήνυμα αυτό.</string>
     <string name="passport_reging">Γίνεται δημιουργία λογαριασμού…</string>
@@ -437,6 +444,7 @@ ID:%s
     <string name="passport_register_restricted_title">Αδυναμία χρήσης αυτού του αριθμού τηλεφώνου</string>
     <string name="passport_register_using_other_ways">Άλλοι τρόποι δημιουργίας λογαριασμού</string>
     <string name="passport_registered_phone_num">Τηλέφωνο: %s</string>
+    <string name="passport_registered_phone_num_v2">Αριθμός τηλεφώνου</string>
     <string name="passport_registered_phone_user_ID">ID χρήστη: %s</string>
     <string name="passport_registered_phone_user_name">Όνομα χρήστη: %s</string>
     <string name="passport_reject_recycle_account">Όχι</string>
@@ -513,6 +521,9 @@ ID:%s
     <string name="phone_num_use_for">Ο αριθμός τηλεφώνου χρησιμοποιείται για:</string>
     <string name="photoPickerNotFoundText">Δεν υπάρχουν διαθέσιμες φωτογραφίες.</string>
     <string name="preference_copied">Το \"%1$s\" αντιγράφηκε στο πρόχειρο.</string>
+    <string name="provision_back">Πίσω</string>
+    <string name="provision_next">Επόμενο</string>
+    <string name="provision_skip_underline">Παράλειψη</string>
     <string name="push_notification_content">Απόκτηση κωδικού επαλήθευσης</string>
     <string name="push_notification_title">Συνδεθήκατε στο Mi λογαριασμό σας από μια άγνωστη συσκευή</string>
     <string name="push_notify_dialog_message">Μια άγνωστη συσκευή χρησιμοποιήθηκε για σύνδεση στο Mi Λογαριασμό σας. Εισαγάγετε αυτό το κωδικό επαλήθευσης στην συσκευή. Εάν δεν συνδεθήκατε εσείς, αλλάξτε αμέσως τον κωδικό του Mi Λογαριασμού σας. Μην γνωστοποιήσετε τον κωδικό επαλήθευσης σε άλλα άτομα.</string>

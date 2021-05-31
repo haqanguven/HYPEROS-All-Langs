@@ -24,35 +24,35 @@
         <item quantity="few">%1$d додатки мають повний доступ до вашого пристрою</item>
         <item quantity="many">%1$d додатків мають повний доступ до вашого пристрою</item>
     </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
-        <item quantity="other">Надзвичайно коротка затримка (%1$d мс)</item>
-        <item quantity="one">Надзвичайно коротка затримка (%1$d мс)</item>
-        <item quantity="few">Надзвичайно коротка затримка (%1$d мс)</item>
-        <item quantity="many">Надзвичайно коротка затримка (%1$d мс)</item>
+    <plurals name="accessibilty_autoclick_delay_unit_second">
+        <item quantity="other">%1$s секунди</item>
+        <item quantity="one">%1$s секунда</item>
+        <item quantity="few">%1$s секунди</item>
+        <item quantity="many">%1$s секунд</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
-        <item quantity="other">Довга затримка (%1$d мс)</item>
-        <item quantity="one">Довга затримка (%1$d мс)</item>
-        <item quantity="few">Довга затримка (%1$d мс)</item>
-        <item quantity="many">Довга затримка (%1$d мс)</item>
+        <item quantity="other">Довга (%1$s секунди)</item>
+        <item quantity="one">Довга (%1$s секунда)</item>
+        <item quantity="few">Довга (%1$s секунди)</item>
+        <item quantity="many">Довга (%1$s секунд)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">Середня (%1$s секунди)</item>
+        <item quantity="one">Середня (%1$s секунда)</item>
+        <item quantity="few">Середня (%1$s секунди)</item>
+        <item quantity="many">Середня (%1$s секунд)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
-        <item quantity="other">Коротка затримка (%1$d мс)</item>
-        <item quantity="one">Коротка затримка (%1$d мс)</item>
-        <item quantity="few">Коротка затримка (%1$d мс)</item>
-        <item quantity="many">Коротка затримка (%1$d мс)</item>
+        <item quantity="other">Коротка (%1$s секунди)</item>
+        <item quantity="one">Коротка (%1$s секунда)</item>
+        <item quantity="few">Коротка (%1$s секунди)</item>
+        <item quantity="many">Коротка (%1$s секунд)</item>
     </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
-        <item quantity="other">Дуже довга затримка (%1$d мс)</item>
-        <item quantity="one">Дуже довга затримка (%1$d мс)</item>
-        <item quantity="few">Дуже довга затримка (%1$d мс)</item>
-        <item quantity="many">Дуже довга затримка (%1$d мс)</item>
-    </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
-        <item quantity="other">Дуже коротка затримка (%1$d мс)</item>
-        <item quantity="one">Дуже коротка затримка (%1$d мс)</item>
-        <item quantity="few">Дуже коротка затримка (%1$d мс)</item>
-        <item quantity="many">Дуже коротка затримка (%1$d мс)</item>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">Додаток хоче відкрити %d посилання</item>
+        <item quantity="one">Додаток хоче відкрити %d посилання</item>
+        <item quantity="few">Додаток хоче відкрити %d посилання</item>
+        <item quantity="many">Додаток хоче відкрити %d посилань</item>
     </plurals>
     <plurals name="app_notification_listing_summary_others">
         <item quantity="other">Вимкнено для %d додатка</item>
@@ -62,13 +62,13 @@
     </plurals>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">Ніколи не вимикати для %d програм</item>
-        <item quantity="one">Ніколи не вимикати для 1 програми</item>
+        <item quantity="one">Ніколи не вимикати для %d програми</item>
         <item quantity="few">Ніколи не вимикати для %d програм</item>
         <item quantity="many">Ніколи не вимикати для %d програм</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_enabled_header_title">
         <item quantity="other">Завжди вимикати для %d програм</item>
-        <item quantity="one">Завжди вимикати для 1 програми</item>
+        <item quantity="one">Завжди вимикати для %d програми</item>
         <item quantity="few">Завжди вимикати для %d програм</item>
         <item quantity="many">Завжди вимикати для %d програм</item>
     </plurals>
@@ -228,6 +228,12 @@
         <item quantity="few">%s години</item>
         <item quantity="many">%s годин</item>
     </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">%d додатка підключено</item>
+        <item quantity="one">%d додаток підключено</item>
+        <item quantity="few">%d додатки підключено</item>
+        <item quantity="many">%d додатків підключено</item>
+    </plurals>
     <plurals name="location_app_permission_summary_location_on">
         <item quantity="other">Кількість додатків із доступом до геоданих: %1$d з %2$d</item>
         <item quantity="one">Кількість додатків із доступом до геоданих: %1$d з %2$d</item>
@@ -257,6 +263,12 @@
         <item quantity="one">Має містити принаймні %d символ, який не є літерою</item>
         <item quantity="few">Має містити принаймні %d символи, які не є літерами</item>
         <item quantity="many">Має містити принаймні %d символів, які не є літерами</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">Має містити принаймні %d символу, які не є цифрами</item>
+        <item quantity="one">Має містити принаймні %d символ, який не є цифрою</item>
+        <item quantity="few">Має містити принаймні %d символи, які не є цифрами</item>
+        <item quantity="many">Має містити принаймні %d символів, які не є цифрами</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric">
         <item quantity="other">Має містити принаймні %d цифри</item>
@@ -354,6 +366,12 @@
         <item quantity="few">%d додано</item>
         <item quantity="many">%d доданих</item>
     </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">Wi-Fi буде автоматично вмикатися, коли пристрій виявить поблизу одну зі збережених мереж і відключатися, якщо протягом %d хв підключення не буде встановлено.</item>
+        <item quantity="one">Wi-Fi буде автоматично вмикатися, коли пристрій виявить поблизу одну зі збережених мереж і відключатися, якщо протягом %d хв підключення не буде встановлено.</item>
+        <item quantity="few">Wi-Fi буде автоматично вмикатися, коли пристрій виявить поблизу одну зі збережених мереж і відключатися, якщо протягом %d хв підключення не буде встановлено.</item>
+        <item quantity="many">Wi-Fi буде автоматично вмикатися, коли пристрій виявить поблизу одну зі збережених мереж і відключатися, якщо протягом %d хв підключення не буде встановлено.</item>
+    </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d SIM-карти</item>
         <item quantity="one">%1$d SIM-карта</item>
@@ -366,17 +384,17 @@
         <item quantity="few">%1$d обмеження</item>
         <item quantity="many">%1$d обмежень</item>
     </plurals>
-    <plurals name="notification_few_channel_count_summary">
-        <item quantity="other">%1$d каналу сповіщень.</item>
-        <item quantity="one">%1$d канал сповіщень.</item>
-        <item quantity="few">%1$d канали сповіщень.</item>
-        <item quantity="many">%1$d каналів сповіщень.</item>
-    </plurals>
     <plurals name="notification_group_summary">
         <item quantity="other">%d категорії</item>
         <item quantity="one">%d категорія</item>
         <item quantity="few">%d категорії</item>
         <item quantity="many">%d категорій</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d сповіщення</item>
+        <item quantity="one">%d сповіщення</item>
+        <item quantity="few">%d сповіщення</item>
+        <item quantity="many">%d сповіщень</item>
     </plurals>
     <plurals name="notification_summary">
         <item quantity="other">Вимкнено для %d додатка</item>
@@ -444,6 +462,12 @@
         <item quantity="few">Увімкнено %1$d сервіс друку</item>
         <item quantity="many">Увімкнено %1$d сервісів друку</item>
     </plurals>
+    <plurals name="priority_conversation_count">
+        <item quantity="other">%d важливої розмови</item>
+        <item quantity="one">%d важлива розмова</item>
+        <item quantity="few">%d важливі розмови</item>
+        <item quantity="many">%d важливих розмов</item>
+    </plurals>
     <plurals name="restricted_app_summary">
         <item quantity="other">Обмежується споживання заряду акумулятора для %1$d додатка</item>
         <item quantity="one">Обмежується споживання заряду акумулятора для %1$d додатка</item>
@@ -480,29 +504,29 @@
         <item quantity="few">Налаштовано %1$d відбитки пальця</item>
         <item quantity="many">Налаштовано %1$d відбитків пальця</item>
     </plurals>
+    <plurals name="see_all_apps_title">
+        <item quantity="other">Показати всі %1$d додатка</item>
+        <item quantity="one">Показати всі %1$d додаток</item>
+        <item quantity="few">Показати всі %1$d додатки</item>
+        <item quantity="many">Показати всі %1$d додатків</item>
+    </plurals>
     <plurals name="settings_suggestion_header_summary_hidden_items">
         <item quantity="other">Показати %d схованого елемента</item>
         <item quantity="one">Показати %d схований елемент</item>
         <item quantity="few">Показати %d сховані елементи</item>
         <item quantity="many">Показати %d схованих елементів</item>
     </plurals>
-    <plurals name="show_bluetooth_devices">
-        <item quantity="other">Підключено %1$d пристрою</item>
-        <item quantity="one">Підключено %1$d пристрій</item>
-        <item quantity="few">Підключено %1$d пристрої</item>
-        <item quantity="many">Підключено %1$d пристроїв</item>
-    </plurals>
     <plurals name="show_cit_countdown">
-        <item quantity="other">Залишилося натиснень, для відкриття інженерного меню: %1$d.</item>
-        <item quantity="one">Залишилося натиснень, для відкриття інженерного меню: %1$d.</item>
-        <item quantity="few">Залишилося натиснень, для відкриття інженерного меню: %1$d.</item>
-        <item quantity="many">Залишилося натиснень, для відкриття інженерного меню: %1$d.</item>
+        <item quantity="other">Залишилося %1$d натиснень для відкриття інженерного меню.</item>
+        <item quantity="one">Залишилося %1$d натиснення для відкриття інженерного меню.</item>
+        <item quantity="few">Залишилося %1$d натиснення для відкриття інженерного меню.</item>
+        <item quantity="many">Залишилося %1$d натиснень для відкриття інженерного меню.</item>
     </plurals>
     <plurals name="show_dev_countdown">
-        <item quantity="other">Щоб стати розробником, залишилося ще %1$d кроку.</item>
-        <item quantity="one">Щоб стати розробником, залишився ще %1$d крок.</item>
-        <item quantity="few">Щоб стати розробником, залишилося ще %1$d кроки.</item>
-        <item quantity="many">Щоб стати розробником, залишилося ще %1$d кроків.</item>
+        <item quantity="other">Залишилося ще %1$d кроку, щоб стати розробником.</item>
+        <item quantity="one">Залишився ще %1$d крок, щоб стати розробником.</item>
+        <item quantity="few">Залишилося ще %1$d кроки, щоб стати розробником.</item>
+        <item quantity="many">Залишилося ще %1$d кроків, щоб стати розробником.</item>
     </plurals>
     <plurals name="show_number_hearingaid_count">
         <item quantity="other">Збережено %1$d слухового апарата</item>
@@ -511,16 +535,16 @@
         <item quantity="many">Збережено %1$d слухових апаратів</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">Залишилося натиснень, для відкриття інформації про телефон: %1$d.</item>
-        <item quantity="one">Залишилося натиснень, для відкриття інформації про телефон: %1$d.</item>
-        <item quantity="few">Залишилося натиснень, для відкриття інформації про телефон: %1$d.</item>
-        <item quantity="many">Залишилося натиснень, для відкриття інформації про телефон: %1$d.</item>
+        <item quantity="other">Залишилося кроків для відкриття інформації про телефон: %1$d.</item>
+        <item quantity="one">Залишилося кроків для відкриття інформації про телефон: %1$d.</item>
+        <item quantity="few">Залишилося кроків для відкриття інформації про телефон: %1$d.</item>
+        <item quantity="many">Залишилося кроків для відкриття інформації про телефон: %1$d.</item>
     </plurals>
     <plurals name="show_rep_countdown">
-        <item quantity="other">Залишилося натиснень, для відправки звіту про помилки: %1$d.</item>
-        <item quantity="one">Залишилося натиснень, для відправки звіту про помилки: %1$d.</item>
-        <item quantity="few">Залишилося натиснень, для відправки звіту про помилки: %1$d.</item>
-        <item quantity="many">Залишилося натиснень, для відправки звіту про помилки: %1$d.</item>
+        <item quantity="other">Залишилося %1$d натиснень для відправки звіту про помилки.</item>
+        <item quantity="one">Залишилося %1$d натиснення для відправки звіту про помилки.</item>
+        <item quantity="few">Залишилося %1$d натиснення для відправки звіту про помилки.</item>
+        <item quantity="many">Залишилося %1$d натиснень для відправки звіту про помилки.</item>
     </plurals>
     <plurals name="special_access_summary">
         <item quantity="other">%d додатка з необмеженим доступом до даних</item>
@@ -591,6 +615,12 @@
         <item quantity="one">%1$d пропозиція</item>
         <item quantity="few">%1$d пропозиції</item>
         <item quantity="many">%1$d пропозицій</item>
+    </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">Отримувати сповіщення, коли один із навушників знаходиться поза футляром для заряджання більше %d хвилин.</item>
+        <item quantity="one">Отримувати сповіщення, коли один із навушників знаходиться поза футляром для заряджання більше %d хвилини.</item>
+        <item quantity="few">Отримувати сповіщення, коли один із навушників знаходиться поза футляром для заряджання більше %d хвилин.</item>
+        <item quantity="many">Отримувати сповіщення, коли один із навушників знаходиться поза футляром для заряджання більше %d хвилин.</item>
     </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d елемента</item>
@@ -743,10 +773,22 @@
         <item quantity="many">Неправильний PIN-код SIM-карти. У вас залишилося %d спроб.</item>
     </plurals>
     <plurals name="zen_mode_bypassing_apps_subtext">
-        <item quantity="other">Сповіщення з %1$d додатка можуть замінювати режим \"Не турбувати\"</item>
-        <item quantity="one">Сповіщення з %1$d додатка можуть замінювати режим \"Не турбувати\"</item>
-        <item quantity="few">Сповіщення з %1$d додатків можуть замінювати режим \"Не турбувати\"</item>
-        <item quantity="many">Сповіщення з %1$d додатків можуть замінювати режим \"Не турбувати\"</item>
+        <item quantity="other">Додатки %s можуть переривати</item>
+        <item quantity="one">Додатки %s можуть переривати</item>
+        <item quantity="few">Додатки %s можуть переривати</item>
+        <item quantity="many">Додатки %s можуть переривати</item>
+    </plurals>
+    <plurals name="zen_mode_contacts_count">
+        <item quantity="other">%d контакта</item>
+        <item quantity="one">%d контакт</item>
+        <item quantity="few">%d контакти</item>
+        <item quantity="many">%d контактів</item>
+    </plurals>
+    <plurals name="zen_mode_conversations_count">
+        <item quantity="other">%d розмови</item>
+        <item quantity="one">%d розмова</item>
+        <item quantity="few">%d розмови</item>
+        <item quantity="many">%d розмов</item>
     </plurals>
     <plurals name="zen_mode_duration_summary_time_hours">
         <item quantity="other">%d години</item>
@@ -754,11 +796,17 @@
         <item quantity="few">%d години</item>
         <item quantity="many">%d годин</item>
     </plurals>
+    <plurals name="zen_mode_other_sounds_summary">
+        <item quantity="other">%s можуть переривати</item>
+        <item quantity="one">%s можуть переривати</item>
+        <item quantity="few">%s можуть переривати</item>
+        <item quantity="many">%s можуть переривати</item>
+    </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">Увімкнено: %d</item>
-        <item quantity="one">Увімкнено: %d</item>
-        <item quantity="few">Увімкнено: %d</item>
-        <item quantity="many">Увімкнено: %d</item>
+        <item quantity="other">Налаштовано %d розкладу</item>
+        <item quantity="one">Налаштовано %d розклад</item>
+        <item quantity="few">Налаштовано %d розклади</item>
+        <item quantity="many">Налаштовано %d розкладів</item>
     </plurals>
     <plurals name="zen_mode_sound_summary_summary_off_info">
         <item quantity="other">%d розкладу можуть вмикатись автоматично</item>

@@ -12,7 +12,7 @@
     <string-array name="app_process_limit_entries">
         <item>Standardowy limit</item>
         <item>Brak procesów w tle</item>
-        <item>Co najwyżej 1 proces</item>
+        <item>Maksymalnie 1 proces</item>
         <item>Co najwyżej 2 procesy</item>
         <item>Co najwyżej 3 procesy</item>
         <item>Co najwyżej 4 procesy</item>
@@ -29,55 +29,55 @@
         <item>Xiaomi Wear</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Użyj wyboru systemu (Domyślnie)</item>
+        <item>Użyj preferowanych przez system (Domyślnie)</item>
         <item>16 bitów/próbkę</item>
         <item>24 bity/próbkę</item>
         <item>32 bity/próbkę</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Użyj wyboru systemu (Domyślnie)</item>
+        <item>Użyj preferowanych przez system (Domyślnie)</item>
         <item>16 bitów/próbkę</item>
         <item>24 bity/próbkę</item>
         <item>32 bity/próbkę</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Użyj wyboru systemu (Domyślnie)</item>
+        <item>Użyj preferowanych przez system (Domyślnie)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Użyj wyboru systemu (Domyślnie)</item>
+        <item>Użyj preferowanych przez system (Domyślnie)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
         <item>Zoptymalizowany dla jakości dźwięku</item>
-        <item>Zbalansowana jakość dźwięku i połączenia</item>
+        <item>Zbalansowany dla jakości dźwięku i połączenia</item>
         <item>Zoptymalizowany dla jakości połączenia</item>
-        <item>Najlepszy wynik (Adaptacyjny Bit Rate)</item>
+        <item>Najlepszy efekt (automatyczna prędkość transmisji)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Zoptymalizowany dla jakości dźwięku (990kbps/909kbps)</item>
-        <item>Zbalansowana jakość dźwięku i połączenia (660kbps/606kbps)</item>
+        <item>Zbalansowany dla jakość dźwięku i połączenia (660kbps/606kbps)</item>
         <item>Zoptymalizowany dla jakości połączenia (330kbps/303kbps)</item>
-        <item>Najlepszy wynik (Adaptacyjny Bit Rate)</item>
+        <item>Najlepszy efekt (automatyczna prędkość transmisji)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Użyj wyboru systemu (Domyślnie)</item>
+        <item>Użyj preferowanych przez system (Domyślnie)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Użyj wyboru systemu (Domyślnie)</item>
+        <item>Użyj preferowanych przez system (Domyślnie)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Użyj wyboru systemu (Domyślnie)</item>
+        <item>Użyj preferowanych przez system (Domyślnie)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
@@ -88,11 +88,9 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Włącz opcjonalne kodeki</item>
-        <item>Wyłącz opcjonalne kodeki</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Użyj wyboru systemu (Domyślnie)</item>
+        <item>Użyj preferowanych przez system (Domyślnie)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm®aptX™ audio</item>
@@ -103,7 +101,7 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Wyłącz opcjonalne kodeki</item>
+        <item>Włącz opcjonalne kodeki</item>
         <item>Wyłącz opcjonalne kodeki</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
@@ -124,12 +122,22 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Domyślna)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Wyłączone</item>
-        <item>Włączono filtrowanie</item>
+        <item>Filtrowane</item>
         <item>Włączone</item>
-        <item>Włączono „Filtrowane nagłówki”</item>
-        <item>Włączono „Filtrowane pakiety mediów”</item>
+        <item>Filtrowane nagłówki</item>
+        <item>Filtrowane pakiety mediów</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Ulepszone kolory</item>
@@ -137,12 +145,12 @@
         <item>Kolory zoptymalizowane dla zawartości cyfrowej</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Vibrant (domyślny)</item>
+        <item>Intensywny (domyślny)</item>
         <item>Naturalny</item>
         <item>Standardowy</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Wyłączone</item>
+        <item>Wył.</item>
         <item>Pokaż przejaskrawione obszary</item>
         <item>Pokaż obszary Deuteranomalii</item>
     </string-array>
@@ -177,46 +185,46 @@
         <item>720p, 1080p (podwójny ekran)</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Wyłączony</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>Wył.</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Wyłączony</item>
-        <item>64K na bufor logu</item>
-        <item>256K na bufor logu</item>
-        <item>1M na bufor logu</item>
-        <item>4M na bufor logu</item>
-        <item>16M na bufor logu</item>
+        <item>Wył.</item>
+        <item>64 KB na bufor logu</item>
+        <item>256 KB na bufor logu</item>
+        <item>1 MB na bufor logu</item>
+        <item>4 MB na bufor logu</item>
+        <item>16 MB na bufor logu</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Wyłączony</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>Wył.</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Wyłączony</item>
+        <item>Wył.</item>
         <item>Wszystkie bufory logu</item>
         <item>Wszystkie bufory logu oprócz radia</item>
-        <item>tylko bufor logu jądra</item>
+        <item>Tylko bufor logu jądra</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Wyłączony</item>
+        <item>Wył.</item>
         <item>Wszystkie</item>
         <item>Wszystkie poza radiem</item>
-        <item>tylko jądro</item>
+        <item>Tylko jądro</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Wyłączone</item>
+        <item>Wył.</item>
         <item>Narysuj nie-prostokątny obszar klipu na niebiesko</item>
         <item>Podświetl na zielono przetestowane polecenia rysowania</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Wyłączone</item>
+        <item>Wył.</item>
         <item>Na ekranie jako paski</item>
         <item>W adb shell dumpsys gfxinfo</item>
     </string-array>

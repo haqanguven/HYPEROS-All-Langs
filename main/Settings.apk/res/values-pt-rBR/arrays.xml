@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="aggregate_entries">
-        <item>Agrupar</item>
-        <item>Agrupar e diminuir prioridade</item>
-        <item>Não agrupar</item>
-    </string-array>
-    <string-array name="aggregate_summaries">
-        <item>Notificações push promocionais e relacionadas ao conteúdo serão agrupadas</item>
-        <item>As notificações push serão agrupadas e exibidas abaixo de outras notificações</item>
-        <item>As notificações push não serão agrupadas</item>
-    </string-array>
     <string-array name="agps_apn_entries">
         <item>CMWAP</item>
         <item>CMNET</item>
@@ -278,6 +268,7 @@
         <item>1xRTT</item>
         <item>IS95B</item>
         <item>IS95A</item>
+        <item>NR</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_summaries">
         <item>Modo de alta qualidade (Padrão)</item>
@@ -288,24 +279,24 @@
         <item>Modo de baixa latência</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Seleção do sistema (Padrão)</item>
+        <item>Usar preferência do sistema (Padrão)</item>
         <item>16 bits/amostragem</item>
         <item>24 bits/amostragem</item>
         <item>32 bits/amostragem</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Seleção do sistema (Padrão)</item>
+        <item>Usar preferência do sistema (Padrão)</item>
         <item>16 bits/amostragem</item>
         <item>24 bits/amostragem</item>
         <item>32 bits/amostragem</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Seleção do sistema (Padrão)</item>
+        <item>Usar preferência do sistema (Padrão)</item>
         <item>Mono</item>
         <item>Estéreo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Seleção do sistema (Padrão)</item>
+        <item>Usar preferência do sistema (Padrão)</item>
         <item>Mono</item>
         <item>Estéreo</item>
     </string-array>
@@ -313,7 +304,7 @@
         <item>Otimizado para qualidade de áudio</item>
         <item>Qualidade de áudio e conexão balanceados</item>
         <item>Otimizado para qualidade de conexão</item>
-        <item>Melhor efeito (taxa de bits adaptável)</item>
+        <item>Melhor desempenho (Taxa de bits automática)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Otimizado para qualidade de áudio (990kbps/909kbps)</item>
@@ -346,14 +337,14 @@
         <item>Melhor desempenho (Taxa de bits automática)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Seleção do sistema (Padrão)</item>
+        <item>Usar preferência do sistema (Padrão)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Seleção do sistema (Padrão)</item>
+        <item>Usar preferência do sistema (Padrão)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -407,6 +398,16 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Padrão)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
         <item>Usar padrão do sistema: %1$d</item>
         <item>1</item>
@@ -423,10 +424,10 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Desativado</item>
-        <item>Ativado e Filtrado</item>
+        <item>Filtrado</item>
         <item>Ativado</item>
-        <item>\"Filtro de Cabeçalhos\" ativado</item>
-        <item>\"Filtro de pacotes multimídia\" ativado</item>
+        <item>Cabeçalhos filtrados</item>
+        <item>Pacotes de mídia filtrados</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 segundo</item>
@@ -444,10 +445,17 @@
         <item>Em relevo</item>
         <item>Baixo relevo</item>
     </string-array>
+    <string-array name="captioning_font_size_selector_summaries">
+        <item>Texto muito pequeno</item>
+        <item>Texto pequeno</item>
+        <item>Texto de tamanho padrão</item>
+        <item>Texto grande</item>
+        <item>Texto muito grande</item>
+    </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Muito pequeno</item>
         <item>Pequeno</item>
-        <item>Normal</item>
+        <item>Padrão</item>
         <item>Grande</item>
         <item>Muito grande</item>
     </string-array>
@@ -458,8 +466,8 @@
         <item>100%</item>
     </string-array>
     <string-array name="captioning_preset_selector_titles">
-        <item>Usar padrões do app</item>
-        <item>Branco em preto</item>
+        <item>Definido pelo app</item>
+        <item>Branco em fundo preto</item>
         <item>Preto em branco</item>
         <item>Amarelo em preto</item>
         <item>Amarelo em azul</item>
@@ -487,13 +495,13 @@
     <string-array name="change_security_lock_picker">
         <item>Desbloqueio facial</item>
         <item>Padrão</item>
-        <item>PIN</item>
+        <item>Fixar</item>
         <item>Senha</item>
     </string-array>
     <string-array name="city_name">
         <item>Abidijã</item>
         <item>Accra</item>
-        <item>Addis Ababa</item>
+        <item>Adis Abeba</item>
         <item>Argel</item>
         <item>Blantyre</item>
         <item>Brazavile</item>
@@ -502,7 +510,7 @@
         <item>Conacri</item>
         <item>Dacar</item>
         <item>Dar es Salaam</item>
-        <item>Djibouti</item>
+        <item>Djibuti</item>
         <item>Freetown</item>
         <item>Gaborone</item>
         <item>Harare</item>
@@ -548,7 +556,7 @@
         <item>Havana</item>
         <item>Indianápolis</item>
         <item>Knox City</item>
-        <item>Petersburg</item>
+        <item>Petersburgo</item>
         <item>Tell City</item>
         <item>Vevay</item>
         <item>Vincennes</item>
@@ -558,7 +566,7 @@
         <item>Lima</item>
         <item>Los Angeles</item>
         <item>Louisville</item>
-        <item>Managua</item>
+        <item>Manágua</item>
         <item>Martinica</item>
         <item>Metlakatla</item>
         <item>Cidade do México</item>
@@ -568,7 +576,7 @@
         <item>Nassau</item>
         <item>Nova Iorque</item>
         <item>Beulah</item>
-        <item>New Salem</item>
+        <item>Nova Salém</item>
         <item>Panamá</item>
         <item>Phoenix</item>
         <item>Porto de Espanha</item>
@@ -587,17 +595,17 @@
         <item>Pólo Sul</item>
         <item>Longyearbyen</item>
         <item>Almaty</item>
-        <item>Amman</item>
+        <item>Amã</item>
         <item>Anadyr</item>
         <item>Aqtau</item>
         <item>Bagdá</item>
-        <item>Bahrein</item>
+        <item>Barein</item>
         <item>Baku</item>
-        <item>Bangkok</item>
+        <item>Banguecoque</item>
         <item>Beirute</item>
         <item>Calcutá</item>
         <item>Damasco</item>
-        <item>Dhaka</item>
+        <item>Daca</item>
         <item>Dubai</item>
         <item>Gaza</item>
         <item>Hebron</item>
@@ -612,15 +620,15 @@
         <item>Kuwait</item>
         <item>Macau</item>
         <item>Manila</item>
-        <item>Muscat</item>
+        <item>Mascate</item>
         <item>Phnom Penh</item>
         <item>Pyongyang</item>
-        <item>Qatar</item>
-        <item>Rangoon</item>
-        <item>Riyadh</item>
+        <item>Catar</item>
+        <item>Rangum</item>
+        <item>Riade</item>
         <item>Seul</item>
         <item>Xangai</item>
-        <item>Cingapura</item>
+        <item>Singapura</item>
         <item>Taipei</item>
         <item>Teerã</item>
         <item>Tel Aviv</item>
@@ -629,18 +637,18 @@
         <item>Bermudas</item>
         <item>Ilhas Canárias</item>
         <item>Cabo Verde</item>
-        <item>Reykjavik</item>
+        <item>Reiquiavique</item>
         <item>Adelaide</item>
         <item>Brisbane</item>
         <item>Canberra</item>
         <item>Darwin</item>
         <item>Melbourne</item>
-        <item>New South Wales</item>
+        <item>Nova Gales do Sul</item>
         <item>Perth</item>
         <item>Queensland</item>
         <item>Sidney</item>
         <item>Victoria</item>
-        <item>Newfoundland</item>
+        <item>Terra Nova e Labrador</item>
         <item>Saskatchewan</item>
         <item>Ilha de Páscoa</item>
         <item>Amsterdã</item>
@@ -648,7 +656,7 @@
         <item>Atenas</item>
         <item>Belfast</item>
         <item>Belgrado</item>
-        <item>Berlin</item>
+        <item>Berlim</item>
         <item>Bratislava</item>
         <item>Bruxelas</item>
         <item>Bucareste</item>
@@ -659,7 +667,7 @@
         <item>Gibraltar</item>
         <item>Helsinque</item>
         <item>Ilha de Man</item>
-        <item>Istanbul</item>
+        <item>Istambul</item>
         <item>Lisboa</item>
         <item>Londres</item>
         <item>Luxemburgo</item>
@@ -681,7 +689,7 @@
         <item>Estocolmo</item>
         <item>Tallinn</item>
         <item>Cidade do Vaticano</item>
-        <item>Vienna</item>
+        <item>Viena</item>
         <item>Vilnius</item>
         <item>Varsóvia</item>
         <item>Zagreb</item>
@@ -697,7 +705,7 @@
         <item>Noumea</item>
         <item>Samoa</item>
         <item>Taiti</item>
-        <item>Antigua</item>
+        <item>Antígua</item>
         <item>Austin</item>
         <item>Boston</item>
         <item>Calgary</item>
@@ -706,12 +714,12 @@
         <item>Knoxville</item>
         <item>Memphis</item>
         <item>Miami</item>
-        <item>Minneapolis</item>
+        <item>Mineápolis</item>
         <item>Ottawa</item>
         <item>Filadélfia</item>
         <item>Portland</item>
         <item>San Diego</item>
-        <item>San Francisco</item>
+        <item>São Francisco</item>
         <item>Salt Lake City</item>
         <item>San Jose</item>
         <item>Seattle</item>
@@ -730,7 +738,7 @@
         <item>Sacramento</item>
         <item>Atlanta</item>
         <item>Cleveland</item>
-        <item>New Orleans</item>
+        <item>Nova Orleans</item>
         <item>Tampa</item>
         <item>Pittsburgh</item>
         <item>Cincinnati</item>
@@ -739,7 +747,7 @@
         <item>Doha</item>
         <item>Pequim</item>
         <item>Mumbai</item>
-        <item>Delhi</item>
+        <item>Délhi</item>
         <item>Osaka</item>
         <item>Lahore</item>
         <item>"Sana'a"</item>
@@ -751,7 +759,7 @@
         <item>Ankara</item>
         <item>Bengaluru</item>
         <item>Brasília</item>
-        <item>Cape Town</item>
+        <item>Cidade do Cabo</item>
         <item>Islamabad</item>
         <item>Rio de Janeiro</item>
         <item>Ann Arbor</item>
@@ -764,16 +772,16 @@
         <item>Reston</item>
         <item>Belo Horizonte</item>
         <item>Santiago</item>
-        <item>Monrovia</item>
+        <item>Monróvia</item>
         <item>Colombo</item>
         <item>Chihuahua</item>
         <item>Gurugram</item>
         <item>Manchester</item>
-        <item>Kyiv</item>
-        <item>St. Petersburg</item>
-        <item>Kraków</item>
-        <item>Wroclaw</item>
-        <item>Hamburg</item>
+        <item>Kiev</item>
+        <item>São Petersburgo</item>
+        <item>Cracóvia</item>
+        <item>Breslávia</item>
+        <item>Hamburgo</item>
         <item>Oulu</item>
         <item>Haifa</item>
         <item>San Juan</item>
@@ -881,6 +889,12 @@
         <item>10 minutos</item>
         <item>30 minutos</item>
     </string-array>
+    <string-array name="eap_ocsp_type">
+        <item>Não validar</item>
+        <item>Solicitar status de certificados</item>
+        <item>Exigir status de certificados</item>
+        <item>Exigir todos os status de certificados não confiáveis</item>
+    </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Nenhum</item>
         <item>Logcat</item>
@@ -904,16 +918,6 @@
     <string-array name="fluency_mode_summaries">
         <item>Acelera o desempenho do dispositivo</item>
         <item>Pode diminuir o desempenho do dispositivo</item>
-    </string-array>
-    <string-array name="fold_entries">
-        <item>Recomendado</item>
-        <item>Importante</item>
-        <item>Não importante</item>
-    </string-array>
-    <string-array name="fold_summaries">
-        <item>O MIUI vai decidir que notificações aparecerão diretamente</item>
-        <item>As notificações aparecerão na Área de notificações</item>
-        <item>As notificações aparecerão em uma pasta separada</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
         <item>4.5 polegadas</item>
@@ -944,27 +948,6 @@
     <string-array name="hide_account_list">
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
-    </string-array>
-    <string-array name="input_method_function_des">
-        <item>@string/input_method_function_voice_des</item>
-        <item>@string/input_method_function_xiaoai_des</item>
-        <item>@string/input_method_function_switch_des</item>
-        <item>@string/input_method_function_clipboard_des</item>
-        <item>@string/input_method_function_no_function_des</item>
-    </string-array>
-    <array name="input_method_function_icons">
-        <item>@drawable/input_method_voice_function_selector</item>
-        <item>@drawable/input_method_xiaoai_function_selector</item>
-        <item>@drawable/input_method_switch_function_selector</item>
-        <item>@drawable/input_method_clipboard_function_selector</item>
-        <item>@drawable/input_method_no_function_selector</item>
-    </array>
-    <string-array name="input_method_function_title">
-        <item>@string/input_method_function_voice</item>
-        <item>@string/input_method_function_xiaoai</item>
-        <item>@string/input_method_function_switch</item>
-        <item>@string/input_method_function_clipboard</item>
-        <item>@string/input_method_function_no_function</item>
     </string-array>
     <string-array name="key_and_gesture_shortcut_action">
         <item>long_press_home_key</item>
@@ -1366,11 +1349,17 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>LTE/TDSCDMA/GSM/WCDMA</item>
         <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
         <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
-    </string-array>
-    <string-array name="preferred_network_mode_choices_world_mode">
-        <item>Global</item>
-        <item>LTE / CDMA</item>
-        <item>LTE / GSM / UMTS</item>
+        <item>Apenas NR</item>
+        <item>NR/LTE</item>
+        <item>NR/LTE/CDMA/EvDo</item>
+        <item>NR/LTE/GSM/WCDMA</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>NR/LTE/WCDMA</item>
+        <item>NR/LTE/TDSCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM</item>
+        <item>NR/LTE/TDSCDMA/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
     </string-array>
     <string-array name="priority_storage_entries">
         <item>Armazenamento interno</item>
@@ -1479,25 +1468,25 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Desativado</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Desativado</item>
-        <item>64KB por buffer de log</item>
-        <item>256KB por buffer de log</item>
-        <item>1MB por buffer de log</item>
-        <item>4MB por buffer de log</item>
-        <item>16MB por buffer de log</item>
+        <item>64 KB por buffer de log</item>
+        <item>256 KB por buffer de log</item>
+        <item>1 MB por buffer de log</item>
+        <item>4 MB por buffer de log</item>
+        <item>16 MB por buffer de log</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Desativado</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
-        <item>4MB</item>
-        <item>16MB</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Desativado</item>
@@ -1561,6 +1550,32 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>@drawable/threedrop04</item>
         <item>@drawable/threedrop05</item>
         <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
+    <array name="three_long_press">
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
@@ -1701,6 +1716,9 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>VPN IPSec com chaves pré-compartilhadas e autenticação Xauth</item>
         <item>VPN IPSec com autenticação de certificados e Xauth</item>
         <item>VPN IPSec com certificados e autenticação híbrida</item>
+        <item>VPN IKEv2/IPSec com certificados e autenticação de nome de usuário/senha</item>
+        <item>VPN IKEv2/IPSec com chaves pré-compartilhadas</item>
+        <item>VPN IKEv2/IPSec com certificados</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Iniciando sessão…</item>
@@ -1730,6 +1748,10 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
     <string-array name="wifi_ap_band_config_2G_5G">
         <item>@string/wifi_ap_choose_2G</item>
         <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_hidden_ssid_config">
+        <item>@string/wifi_ap_ssid_off</item>
+        <item>@string/wifi_ap_ssid_on</item>
     </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
@@ -1781,24 +1803,15 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>PIN deste disposit.</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
-        <item>Nenhum</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries_with_sim_auth">
-        <item>Nenhum</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
-        <item>SIM</item>
+        <item>Chip</item>
         <item>AKA</item>
         <item>"AKA'"</item>
-    </string-array>
-    <string-array name="wifi_phase2_entries">
-        <item>Nenhum</item>
-        <item>PAP</item>
-        <item>MSCHAP</item>
-        <item>MSCHAPV2</item>
-        <item>GTC</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
         <item>Usar MAC aleatório</item>
@@ -1847,6 +1860,12 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>Falha</item>
         <item>Bloqueado</item>
         <item>Temporariamente evitando uma conexão ruim</item>
+    </string-array>
+    <string-array name="wifi_ttls_phase2_entries">
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animação desativada</item>

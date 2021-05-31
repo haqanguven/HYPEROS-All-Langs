@@ -17,33 +17,6 @@
         <item>Maksimal 3 proses</item>
         <item>Maksimal 4 proses</item>
     </string-array>
-    <string-array name="aqi_title">
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-    </string-array>
-    <string-array name="aqi_title_append">
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-    </string-array>
-    <string-array name="aqi_title_prefix">
-        <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
-        <item>IKU %1$s</item>
-        <item>IKU %1$s</item>
-        <item>IKU %1$s</item>
-        <item>IKU %1$s</item>
-        <item>IKU %1$s</item>
-    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -51,59 +24,59 @@
     </string-array>
     <string-array name="battery_options">
         <item>Selalu tampilkan persentase</item>
-        <item>Tampilkan persentase saat mengisi daya (bawaan)</item>
+        <item>Tampilkan persentase saat mengisi daya (default)</item>
         <item>Jangan tampilkan ikon ini</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Gunakan Pilihan Sistem (Bawaan)</item>
+        <item>Gunakan pilihan sistem (Bawaan)</item>
         <item>16 bit/sampel</item>
         <item>24 bit/sampel</item>
         <item>32 bit/sampel</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Gunakan Pilihan Sistem (Bawaan)</item>
+        <item>Gunakan pilihan sistem (Bawaan)</item>
         <item>16 bit/sampel</item>
         <item>24 bit/sampel</item>
         <item>32 bit/sampel</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Gunakan Pilihan Sistem (Bawaan)</item>
+        <item>Gunakan pilihan sistem (Bawaan)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Gunakan Pilihan Sistem (Bawaan)</item>
+        <item>Gunakan pilihan sistem (Bawaan)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Optimalkan untuk Kualitas Audio</item>
-        <item>Kualitas Audio dan Koneksi yang seimbang</item>
-        <item>Optimalkan untuk Kualitas Koneksi</item>
-        <item>Usaha optimal (Laju Bit Adaptif)</item>
+        <item>Dioptimalkan untuk kualitas audio</item>
+        <item>Kualitas audio dan koneksi yang seimbang</item>
+        <item>Dioptimalkan untuk kualitas koneksi</item>
+        <item>Usaha optimal (Laju bit otomatis)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimalkan untuk Kualitas Audio (990kbps/909kbps)</item>
-        <item>Kualitas Audio dan Koneksi yang seimbang (660kbps/606kbps)</item>
-        <item>Optimalkan untuk Kualitas Koneksi (330kbps/303kbps)</item>
-        <item>Usaha optimal (Laju Bit Adaptif)</item>
+        <item>Dioptimalkan untuk kualitas audio (990kbps/909kbps)</item>
+        <item>Kualitas audio dan koneksi yang seimbang (660kbps/606kbps)</item>
+        <item>Dioptimalkan untuk kualitas koneksi (330kbps/303kbps)</item>
+        <item>Usaha optimal (Laju bit otomatis)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Gunakan Pilihan Sistem (Bawaan)</item>
+        <item>Gunakan pilihan sistem (Bawaan)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Gunakan Pilihan Sistem (Bawaan)</item>
+        <item>Gunakan pilihan sistem (Bawaan)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Gunakan Pilihan Sistem (Bawaan)</item>
+        <item>Gunakan pilihan sistem (Bawaan)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
@@ -114,11 +87,9 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Aktifkan codec opsional</item>
-        <item>Nonaktifkan codec opsional</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Gunakan Pilihan Sistem (Bawaan)</item>
+        <item>Gunakan pilihan sistem (Bawaan)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ audio</item>
@@ -150,16 +121,26 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Bawaan)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Nonaktif</item>
-        <item>Filter diaktifkan</item>
+        <item>Telah difilter</item>
         <item>Diaktifkan</item>
-        <item>\"Filter Header\" diaktifkan</item>
-        <item>\"Filter paket media\" diaktifkan</item>
+        <item>Header telah difilter</item>
+        <item>Paket media telah difilter</item>
     </string-array>
     <string-array name="clock_options">
         <item>Tampilkan jam, menit, dan detik</item>
-        <item>Tampilkan jam dan menit (bawaan)</item>
+        <item>Tampilkan jam dan menit (default)</item>
         <item>Jangan tampilkan ikon ini</item>
     </string-array>
     <string-array name="color_mode_descriptions">
@@ -172,8 +153,6 @@
         <item>Natural</item>
         <item>Standar</item>
     </string-array>
-    <array name="data_type_name_mcc_mnc_key" />
-    <array name="data_type_name_mcc_mnc_value" />
     <string-array name="debug_hw_overdraw_entries">
         <item>Mati</item>
         <item>Tampilkan area overdraw</item>
@@ -195,24 +174,21 @@
         <item>Cek konten DRM saja</item>
         <item>Selalu cek</item>
     </string-array>
-    <string-array name="miui_volume_timer_segments_title">
-        <item>Mati</item>
-        <item>30 menit</item>
-        <item>1 jam</item>
-        <item>2 jam</item>
-        <item>8 jam</item>
+    <string-array name="miui_notification_aggregate_category">
+        <item>Ini adalah konten rekomendasi.</item>
+        <item>Ini adalah iklan.</item>
     </string-array>
     <string-array name="nav_bar_buttons">
         <item>Papan klip</item>
-        <item>Keycode</item>
-        <item>Pengganti keyboard</item>
-        <item>Tak ada</item>
+        <item>Kode tombol</item>
+        <item>Pengalih keyboard, konfirmasi putar</item>
+        <item>Tidak ada</item>
     </string-array>
     <string-array name="nav_bar_layouts">
-        <item>Normal</item>
-        <item>Kompak</item>
-        <item>Miring kiri</item>
-        <item>Miring kanan</item>
+        <item>Biasa</item>
+        <item>Rapat</item>
+        <item>Condong ke kiri</item>
+        <item>Condong ke kanan</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>Tak ada</item>
@@ -228,28 +204,27 @@
         <item>4K (ditingkatkan, aman)</item>
         <item>720p, 1080p (layar ganda)</item>
     </string-array>
-    <array name="recents_blacklist_array" />
     <string-array name="select_logd_size_lowram_titles">
         <item>Mati</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Mati</item>
-        <item>64KB per log buffer</item>
-        <item>256KB per log buffer</item>
-        <item>1MB per log buffer</item>
-        <item>4MB per log buffer</item>
-        <item>16MB per log buffer</item>
+        <item>64 KB per log buffer</item>
+        <item>256 KB per log buffer</item>
+        <item>1 MB per log buffer</item>
+        <item>4 MB per log buffer</item>
+        <item>16 MB per log buffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Mati</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Mati</item>
@@ -312,35 +287,6 @@
         <item>Sumber audio</item>
         <item>MIDI</item>
     </string-array>
-    <string-array name="weather_type">
-        <item>Cerah</item>
-        <item>Berawan</item>
-        <item>Mendung</item>
-        <item>Berkabut</item>
-        <item>Hujan badai berat</item>
-        <item>Hujan deras</item>
-        <item>Hujan badai</item>
-        <item>Badai petir</item>
-        <item>Hujan lebat</item>
-        <item>Hujan deras</item>
-        <item>Hujan sedang</item>
-        <item>Hujan ringan</item>
-        <item>Hujan dan salju</item>
-        <item>Badai salju</item>
-        <item>Salju</item>
-        <item>Salju deras</item>
-        <item>Salju sedang</item>
-        <item>Salju ringan</item>
-        <item>Badai pasir kuat</item>
-        <item>Badai pasir</item>
-        <item>Berpasir</item>
-        <item>Berangin</item>
-        <item>Hujan es</item>
-        <item>Debu</item>
-        <item>Kabut</item>
-        <item>Hujan yg dingin</item>
-        <item></item>
-    </string-array>
     <string-array name="wifi_status">
         <item></item>
         <item>Memindai…</item>
@@ -363,7 +309,7 @@
         <item>Memperoleh alamat IP dari %1$s…</item>
         <item>Terhubung ke %1$s</item>
         <item>Ditangguhkan</item>
-        <item>Memutuskan hubungan dengan %1$s…</item>
+        <item>Memutuskan koneksi dengan %1$s…</item>
         <item>Tidak terhubung</item>
         <item>Gagal</item>
         <item>Terblokir</item>

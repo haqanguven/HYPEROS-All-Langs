@@ -16,25 +16,25 @@
         <item quantity="other">%1$d εφαρμογές έχουν πλήρη πρόσβαση στη συσκευή σας</item>
         <item quantity="one">1 εφαρμογή έχει πλήρη πρόσβαση στη συσκευή σας</item>
     </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
-        <item quantity="other">Εξαιρετικά μικρή καθυστέρηση (%1$d χιλιοστά δευτερολέπτου)</item>
-        <item quantity="one">Εξαιρετικά μικρή καθυστέρηση (%1$d χιλιοστό δευτερολέπτου)</item>
+    <plurals name="accessibilty_autoclick_delay_unit_second">
+        <item quantity="other">%1$s δευτερόλεπτα</item>
+        <item quantity="one">%1$s δευτερόλεπτο</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
-        <item quantity="other">Μεγάλη καθυστέρηση (%1$d χιλιοστά δευτερολέπτου)</item>
-        <item quantity="one">Μεγάλη καθυστέρηση (%1$d χιλιοστό δευτερολέπτου)</item>
+        <item quantity="other">Μεγάλη καθυστέρηση (%1$s δευτερόλεπτα)</item>
+        <item quantity="one">Μεγάλη καθυστέρηση (%1$s δευτερόλεπτο)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">Μεσαία καθυστέρηση (%1$s δευτερόλεπτα)</item>
+        <item quantity="one">Μεσαία καθυστέρηση (%1$s δευτερόλεπτο)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
-        <item quantity="other">Σύντομη καθυστέρηση (%1$d χιλιοστά δευτερολέπτου)</item>
-        <item quantity="one">Σύντομη καθυστέρηση (%1$d χιλιοστό δευτερολέπτου)</item>
+        <item quantity="other">Μικρή καθυστέρηση (%1$s δευτερόλεπτα)</item>
+        <item quantity="one">Μικρή καθυστέρηση (%1$s δευτερόλεπτο)</item>
     </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
-        <item quantity="other">Πολύ μεγάλη καθυστέρηση (%1$d χιλιοστά δευτερολέπτου)</item>
-        <item quantity="one">Πολύ μεγάλη καθυστέρηση (%1$d χιλιοστό δευτερολέπτου)</item>
-    </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
-        <item quantity="other">Πολύ μικρή καθυστέρηση (%1$d χιλιοστά δευτερολέπτου)</item>
-        <item quantity="one">Πολύ μικρή καθυστέρηση (%1$d χιλιοστό δευτερολέπτου)</item>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">Η εφαρμογή ζητά να χρησιμοποιήσει %d συνδέσμους</item>
+        <item quantity="one">Η εφαρμογή ζητά να χρησιμοποιήσει %d σύνδεσμο</item>
     </plurals>
     <plurals name="app_notification_listing_summary_others">
         <item quantity="other">Ανενεργές για %d εφαρμογές</item>
@@ -42,11 +42,11 @@
     </plurals>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">Ποτέ απενεργοποίηση για %d εφαρμογές</item>
-        <item quantity="one">Ποτέ απενεργοποίηση για 1 εφαρμογή</item>
+        <item quantity="one">Ποτέ απενεργοποίηση για %d εφαρμογή</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_enabled_header_title">
         <item quantity="other">Πάντα απενεργοποίηση για %d εφαρμογές</item>
-        <item quantity="one">Πάντα απενεργοποίηση για 1 εφαρμογή</item>
+        <item quantity="one">Πάντα απενεργοποίηση για %d εφαρμογή</item>
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d εφαρμογές επιτρέπεται να ξεκινούν αυτόματα</item>
@@ -69,8 +69,8 @@
         <item quantity="one">%1$s περιορίστηκε πρόσφατα</item>
     </plurals>
     <plurals name="battery_tip_restrict_summary">
-        <item quantity="other">%2$d εφαρμογές παρουσιάζουν υψηλά επίπεδα χρήσης μπαταρίας στο παρασκήνιο</item>
-        <item quantity="one">%1$s παρουσιάζει υψηλά επίπεδα χρήσης μπαταρίας στο παρασκήνιο</item>
+        <item quantity="other">Οι εφαρμογές %2$d εφαρμογές παρουσιάζουν υψηλά επίπεδα χρήσης μπαταρίας στο παρασκήνιο</item>
+        <item quantity="one">Η εφαρμογή %1$s παρουσιάζει υψηλά επίπεδα χρήσης μπαταρίας στο παρασκήνιο</item>
     </plurals>
     <plurals name="battery_tip_restrict_title">
         <item quantity="other">Περιορισμός %1$d εφαρμογών</item>
@@ -152,6 +152,10 @@
         <item quantity="other">%s ώρες</item>
         <item quantity="one">1 ώρα</item>
     </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">%d συνδεδεμένες εφαρμογές</item>
+        <item quantity="one">%d συνδεδεμένες εφαρμογές</item>
+    </plurals>
     <plurals name="location_app_permission_summary_location_on">
         <item quantity="other">%1$d από %2$d εφαρμογές έχουν πρόσβαση στην τοποθεσία σας</item>
         <item quantity="one">%1$d από %2$d εφαρμογές έχουν πρόσβαση στην τοποθεσία σας</item>
@@ -171,6 +175,10 @@
     <plurals name="lockpassword_password_requires_nonletter">
         <item quantity="other">Πρέπει να περιέχει τουλάχιστον %d χαρακτήρες που δεν είναι γράμματα</item>
         <item quantity="one">Πρέπει να περιέχει τουλάχιστον 1 χαρακτήρα που δεν είναι γράμμα</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">Πρέπει να περιέχει τουλάχιστον %d μη αριθμητικούς χαρακτήρες</item>
+        <item quantity="one">Πρέπει να περιέχει τουλάχιστον 1 μη αριθμητικό χαρακτήρα</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric">
         <item quantity="other">Πρέπει να περιέχει τουλάχιστον %d αριθμητικά ψηφία</item>
@@ -236,6 +244,10 @@
         <item quantity="other">%d προστέθηκαν</item>
         <item quantity="one">%d προστέθηκε</item>
     </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">Η λειτουργία Wi-Fi θα ενεργοποιείται αυτόματα όταν η συσκευή σας εντοπίζει αποθηκευμένα κοντινά δίκτυα και θα απενεργοποιείται μετά από %d λεπτά εάν δεν πραγματοποιηθεί καμία σύνδεση</item>
+        <item quantity="one">Η λειτουργία Wi-Fi θα ενεργοποιείται αυτόματα όταν η συσκευή σας εντοπίζει αποθηκευμένα κοντινά δίκτυα και θα απενεργοποιείται μετά από %d λεπτό εάν δεν πραγματοποιηθεί καμία σύνδεση</item>
+    </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d SIM</item>
         <item quantity="one">%1$d SIM</item>
@@ -244,13 +256,13 @@
         <item quantity="other">%1$d περιορισμοί</item>
         <item quantity="one">1 περιορισμός</item>
     </plurals>
-    <plurals name="notification_few_channel_count_summary">
-        <item quantity="other">%1$d κανάλια ειδοποιήσεων.</item>
-        <item quantity="one">%1$d κανάλι ειδοποιήσεων.</item>
-    </plurals>
     <plurals name="notification_group_summary">
         <item quantity="other">%d κατηγορίες</item>
         <item quantity="one">%d κατηγορία</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d ειδοποιήσεις</item>
+        <item quantity="one">%d ειδοποίηση</item>
     </plurals>
     <plurals name="notification_summary">
         <item quantity="other">Ανενεργές για %d εφαρμογές</item>
@@ -296,6 +308,10 @@
         <item quantity="other">%1$d ενεργές υπηρεσίες εκτύπωσης</item>
         <item quantity="one">1 ενεργή υπηρεσία εκτύπωσης</item>
     </plurals>
+    <plurals name="priority_conversation_count">
+        <item quantity="other">%d συζητήσεις προτεραιότητας</item>
+        <item quantity="one">%d συζήτηση προτεραιότητας</item>
+    </plurals>
     <plurals name="restricted_app_summary">
         <item quantity="other">Περιορισμός χρήσης μπαταρίας για %1$d εφαρμογές</item>
         <item quantity="one">Περιορισμός χρήσης μπαταρίας για %1$d εφαρμογή</item>
@@ -317,16 +333,16 @@
         <item quantity="one">1 δευτερόλεπτο</item>
     </plurals>
     <plurals name="security_settings_fingerprint_preference_summary">
-        <item quantity="other">Ορίστηκαν %1$d μοναδικά χαρακτηριστικά</item>
-        <item quantity="one">Ορίστηκε %1$d μοναδικό χαρακτηριστικό</item>
+        <item quantity="other">Ορίστηκαν %1$d δακτυλικά αποτυπώματα</item>
+        <item quantity="one">Ορίστηκε %1$d δακτυλικό αποτύπωμα</item>
+    </plurals>
+    <plurals name="see_all_apps_title">
+        <item quantity="other">Εμφάνιση και των %1$d εφαρμογών</item>
+        <item quantity="one">Εμφάνιση όλων των εφαρμογών</item>
     </plurals>
     <plurals name="settings_suggestion_header_summary_hidden_items">
         <item quantity="other">Εμφάνιση %d κρυφών στοιχείων</item>
         <item quantity="one">Εμφάνιση %d κρυφού στοιχείου</item>
-    </plurals>
-    <plurals name="show_bluetooth_devices">
-        <item quantity="other">%1$d συνδεδεμένες συσκευές</item>
-        <item quantity="one">%1$d συνδεδεμένη συσκευή</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Είστε %1$d βήματα μακριά από την είσοδο στο CIT.</item>
@@ -341,8 +357,8 @@
         <item quantity="one">%1$d αποθηκευμένο ακουστικό βοήθημα</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">Είστε %1$d βήματα μακριά από την εισαγωγή πληροφοριών τηλεφώνου.</item>
-        <item quantity="one">Είστε %1$d βήμα μακριά από την εισαγωγή πληροφοριών τηλεφώνου.</item>
+        <item quantity="other">Είστε %1$d βήματα μακριά από το άνοιγμα των πληροφοριών συσκευής.</item>
+        <item quantity="one">Είστε %1$d βήμα μακριά από το άνοιγμα των πληροφοριών συσκευής.</item>
     </plurals>
     <plurals name="show_rep_countdown">
         <item quantity="other">Είστε %1$d βήματα μακριά από την υποβολή αναφοράς bug.</item>
@@ -391,6 +407,10 @@
     <plurals name="suggestions_collapsed_title">
         <item quantity="other">%1$d προτάσεις</item>
         <item quantity="one">1 πρόταση</item>
+    </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">Λάβετε μια ειδοποίηση κάθε φορά που ένα από τα ακουστικά σας βρίσκεται μακριά από το αυτί ή τη θήκη φόρτισης για περισσότερο από %d λεπτά</item>
+        <item quantity="one">Λάβετε μια ειδοποίηση κάθε φορά που ένα από τα ακουστικά σας βρίσκεται μακριά από το αυτί ή τη θήκη φόρτισης για περισσότερο από %d λεπτό</item>
     </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d στοιχεία</item>
@@ -493,16 +513,28 @@
         <item quantity="one">Λανθασμένος κωδικός PIN κάρτας SIM. Απομένει άλλη %d προσπάθεια. Στη συνέχεια, θα πρέπει να επικοινωνήσετε με τον πάροχο κινητής τηλεφωνίας σας για να ξεκλειδώσετε τη συσκευή σας.</item>
     </plurals>
     <plurals name="zen_mode_bypassing_apps_subtext">
-        <item quantity="other">Οι ειδοποιήσεις από %1$d εφαρμογές μπορούν να παρακάμψουν τη ρύθμιση \"Μην ενοχλείτε\"</item>
-        <item quantity="one">Οι ειδοποιήσεις από 1 εφαρμογή μπορούν να παρακάμψουν τη ρύθμιση \"Μην ενοχλείτε\"</item>
+        <item quantity="other">%s εφαρμογές μπορούν να διακόπτουν.</item>
+        <item quantity="one">%s εφαρμογή μπορεί να διακόπτει.</item>
+    </plurals>
+    <plurals name="zen_mode_contacts_count">
+        <item quantity="other">%d επαφές</item>
+        <item quantity="one">1 επαφή</item>
+    </plurals>
+    <plurals name="zen_mode_conversations_count">
+        <item quantity="other">%d συζητήσεις</item>
+        <item quantity="one">1 συζήτηση</item>
     </plurals>
     <plurals name="zen_mode_duration_summary_time_hours">
         <item quantity="other">%d ώρες</item>
         <item quantity="one">1 ώρα</item>
     </plurals>
+    <plurals name="zen_mode_other_sounds_summary">
+        <item quantity="other">%s ήχοι μπορούν να διακόπτουν.</item>
+        <item quantity="one">%s ήχος μπορεί να διακόπτει.</item>
+    </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d ενεργοί</item>
-        <item quantity="one">1 ενεργός</item>
+        <item quantity="other">Ορίστηκαν %d προγράμματα.</item>
+        <item quantity="one">Ορίστηκε 1 πρόγραμμα.</item>
     </plurals>
     <plurals name="zen_mode_sound_summary_summary_off_info">
         <item quantity="other">%d πργράμματα μπορούν να ενεργοποιηθούν αυτόματα</item>

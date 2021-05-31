@@ -13,10 +13,83 @@
         <item>По буднях</item>
         <item>Власний</item>
     </string-array>
+    <string-array name="alphabet_table">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Ґ</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Є</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>І</item>
+        <item>Ї</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ь</item>
+        <item>Ю</item>
+        <item>Я</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Ґ</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Є</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>І</item>
+        <item>Ї</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ь</item>
+        <item>Ю</item>
+        <item>Я</item>
+        <item>\#</item>
+    </string-array>
     <string-array name="app_behavior_type_menu">
         <item>Всі записи</item>
         <item>Автозапуск</item>
-        <item>Ланцюжковий запуск</item>
+        <item>Взаємний запуск</item>
         <item>Використання дозволів</item>
         <item>Конфіденційні дії</item>
     </string-array>
@@ -25,11 +98,27 @@
         <item>PIN-код</item>
         <item>Пароль</item>
     </string-array>
+    <string-array name="cellular_data_unit">
+        <item>ГБ</item>
+        <item>МБ</item>
+    </string-array>
+    <string-array name="cellular_package_type">
+        <item>Місячний пакет</item>
+        <item>Без обмежень</item>
+        <item>Добовий пакет</item>
+    </string-array>
     <string-array name="daily_brand">
         <item>Власний</item>
         <item>Карта Мі фана</item>
         <item>Карта Xiao Tiansheng</item>
         <item>Карта Tencent King</item>
+    </string-array>
+    <string-array name="daily_rent_card_brands">
+        <item>Власний</item>
+        <item>Mi Mobile</item>
+        <item>Карта Мі фана</item>
+        <item>Карта Tianshen</item>
+        <item>Карта Tencent</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>"Вчора (3G/4G) "</item>
@@ -53,7 +142,7 @@
         <item>"За місяць "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix">
-        <item>"Вчора% "</item>
+        <item>"Вчора: "</item>
         <item>"Сьогодні: "</item>
         <item>"За минулий місяць: "</item>
         <item>"За місяць: "</item>
@@ -68,6 +157,13 @@
         <item>Буде дозволено встановлення програм на вашому пристрої без вашого явного дозволу</item>
         <item>Ви зможете віддалено контролювати і записувати вміст вашого екрану.</item>
         <item>Буде можливо отримати детальну інформацію про ваш пристрій.</item>
+    </string-array>
+    <string-array name="gb_adv_touch_custom_level">
+        <item>Дуже низька</item>
+        <item>Низька</item>
+        <item>Нормальна</item>
+        <item>Висока</item>
+        <item>Дуже висока</item>
     </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>
@@ -119,6 +215,16 @@
     </string-array>
     <string-array name="pc_battery_history_spinner_choice">
         <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice_new">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
         <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_settings_thermal_entries">

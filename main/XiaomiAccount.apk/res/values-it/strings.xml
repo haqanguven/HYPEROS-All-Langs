@@ -34,7 +34,7 @@
     <string name="account_bind_devices">Dispositivi</string>
     <string name="account_bind_secure_email_title">Aggiungi email</string>
     <string name="account_bind_secure_phone_title">Aggiungi un numero di telefono</string>
-    <string name="account_bind_settings">Collega account</string>
+    <string name="account_bind_settings">Account collegati</string>
     <string name="account_crop_user_avatar">Ritaglia la foto</string>
     <string name="account_empty_user_name">Inserisci il nome utente del tuo Mi Account</string>
     <string name="account_error_all_space_user_name">Il nome non può contenere solo spazi vuoti</string>
@@ -88,7 +88,7 @@
     <string name="auth_fail_warning">"Sessione scaduta, esegui l'accesso più tardi"</string>
     <string name="authorize_title">Autorizzazione</string>
     <string name="bind_facebook">Connetti il tuo account Facebook</string>
-    <string name="bind_google">Connetti il tuo account Google</string>
+    <string name="bind_google">Connetti il tuo Account Google</string>
     <string name="bind_qq">QQ</string>
     <string name="bind_safe_phone_msg">Aggiungi il tuo numero di telefono per essere in grado di accedere al tuo Mi Account la prossima volta.</string>
     <string name="bind_sina_weibo">Connetti un account Sina Weibo</string>
@@ -183,6 +183,7 @@ Invia questo codice al supervisore."</string>
     <string name="expand_button_title">Avanzate</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_app_id">2263965750590514</string>
+    <string name="facebook_login">Accedi con Facebook</string>
     <string name="failed_dup_secure_phone_number">Questo numero di telefono è già associato ad un altro Mi Account</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Trova dispositivo</string>
@@ -210,7 +211,7 @@ Invia questo codice al supervisore."</string>
     <string name="find_device_remote_exception">Errore RPC</string>
     <string name="find_device_request_error">Si è verificato un errore del server, attendi un minuto o due e riprova</string>
     <string name="find_device_request_prepare_error">Impossibile ottenere lo stato, riprova più tardi</string>
-    <string name="find_device_set_lost_model">Modalità smarrito</string>
+    <string name="find_device_set_lost_model">Modalità telefono smarrito</string>
     <string name="find_device_title">Trova dispositivo</string>
     <string name="find_device_unknown_error">Impossibile ottenere lo stato del dispositivo, attendi un minuto o due e riprova</string>
     <string name="for_diagnosis_usage_only">Utilizzato solo per individuare i problemi.</string>
@@ -219,6 +220,7 @@ Invia questo codice al supervisore."</string>
     <string name="get_phone_bind_exceed_limit">Puoi associare fino a 3 Mi Account con un numero di telefono. Impossibile aggiungere nuovi account.</string>
     <string name="get_phone_verifycode_exceed_limit">Troppi codici di verifica inviati a questo numero. Attendi 24 ore e riprova.</string>
     <string name="google">Google</string>
+    <string name="google_login">Accedi con Google</string>
     <string name="guest_account_label">Mi Guest Account</string>
     <string name="health_action_activate">Attiva</string>
     <string name="health_action_install">Installa</string>
@@ -332,7 +334,7 @@ Invia questo codice al supervisore."</string>
     <string name="passport_error_empty_pwd">Inserisci la tua password</string>
     <string name="passport_error_empty_username">Inserisci il tuo ID account</string>
     <string name="passport_error_empty_vcode">Inserisci il codice di verifica</string>
-    <string name="passport_error_empty_voice_code">Inserisci codice captcha</string>
+    <string name="passport_error_empty_voice_code">Inserisci il captcha</string>
     <string name="passport_error_illegal_pwd">Password non valida</string>
     <string name="passport_error_invalid_dev_id">"L'ID del tuo dispositivo non è valido."</string>
     <string name="passport_error_invalid_phone_num">Numero di telefono non valido</string>
@@ -360,7 +362,7 @@ Invia questo codice al supervisore."</string>
     <string name="passport_get_verify_code">Ottieni codice</string>
     <string name="passport_getting_activator_phone">Recupero informazioni SIM…</string>
     <string name="passport_getting_verify_code">Ricezione</string>
-    <string name="passport_google_login">"Accedere con l'account Google utilizzato in precedenza?"</string>
+    <string name="passport_google_login">"Accedere con l'Account Google utilizzato in precedenza?"</string>
     <string name="passport_google_login_agree">Account Google</string>
     <string name="passport_google_login_disagree">Mi Account</string>
     <string name="passport_google_login_failed">Impossibile accedere con Google. Accedi direttamente al tuo Mi Account.</string>
@@ -382,8 +384,9 @@ Invia questo codice al supervisore."</string>
     <string name="passport_login">Accedi</string>
     <string name="passport_login_failed">Impossibile accedere</string>
     <string name="passport_login_instead_reg">Usa questo numero</string>
-    <string name="passport_login_instead_reg_with_email">Usa questa email</string>
+    <string name="passport_login_instead_reg_with_email">Usa questa e-mail</string>
     <string name="passport_login_other_account">Un altro account</string>
+    <string name="passport_login_other_way">Altri modi per accedere</string>
     <string name="passport_login_prompt">Tutti i Servizi Mi. Un solo Mi Account.</string>
     <string name="passport_login_recycle_account_no">No</string>
     <string name="passport_login_recycle_account_yes">Sì</string>
@@ -401,8 +404,12 @@ Invia questo codice al supervisore."</string>
     <string name="passport_prev">Indietro</string>
     <string name="passport_privacy_policy">Informativa sulla Privacy</string>
     <string name="passport_privacy_policy_required">Informativa sulla privacy (obbligatorio)</string>
+    <string name="passport_provision_activator_phone_summary_sim1_prefix">SIM <xliff id="sim1" refersto="1">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_activator_phone_summary_sim2_prefix">SIM <xliff id="sim2" refersto="2">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_input_email_register_prompt">I tuoi dati personali saranno archiviati in conformità con le leggi e i regolamenti della regione selezionata.</string>
+    <string name="passport_provision_password_req_notice"><xliff id="min_pwd_len" refersto="8">%1$d</xliff>-<xliff id="max_pwd_len" refersto="16">%2$d</xliff> caratteri di almeno <xliff id="min_pwd_type" refersto="2">%3$d</xliff> dei seguenti tipi: lettere, cifre, simboli speciali</string>
     <string name="passport_pwd_generate_failure">Impossibile generare la password</string>
-    <string name="passport_pwd_generating">Generando la password2026</string>
+    <string name="passport_pwd_generating">Generando la password…</string>
     <string name="passport_querying_phone_info">Richiesta informazioni account…</string>
     <string name="passport_quick_login">Accedi</string>
     <string name="passport_quick_login_dialog_step2_title">Verifica in 2 passaggi</string>
@@ -437,6 +444,7 @@ Invia questo codice al supervisore."</string>
     <string name="passport_register_restricted_title">Impossibile usare questo numero di telefono</string>
     <string name="passport_register_using_other_ways">Altri modi per creare un account</string>
     <string name="passport_registered_phone_num">Telefono: %s</string>
+    <string name="passport_registered_phone_num_v2">Numero di telefono</string>
     <string name="passport_registered_phone_user_ID">ID utente: %s</string>
     <string name="passport_registered_phone_user_name">Nome utente: %s</string>
     <string name="passport_reject_recycle_account">No</string>
@@ -513,6 +521,9 @@ Invia questo codice al supervisore."</string>
     <string name="phone_num_use_for">Il numero di telefono è usato per:</string>
     <string name="photoPickerNotFoundText">Nessuna foto disponibile.</string>
     <string name="preference_copied">\"%1$s\"copiato negli appunti.</string>
+    <string name="provision_back">Indietro</string>
+    <string name="provision_next">Avanti</string>
+    <string name="provision_skip_underline">Salta</string>
     <string name="push_notification_content">Ottieni il codice di verifica</string>
     <string name="push_notification_title">"Hai eseguito l'accesso al tuo Mi Account su un dispositivo sconosciuto"</string>
     <string name="push_notify_dialog_message">"Un dispositivo sconosciuto ha effettuato l'accesso al tuo Mi Account. Inserisci questo codice di verifica nel dispositivo. In caso non fossi stato te, modifica subito la password del tuo account. Non fornire il codice di verifica a nessun altro."</string>
@@ -529,7 +540,7 @@ Invia questo codice al supervisore."</string>
     <string name="resend_email_success">Email inviata di nuovo</string>
     <string name="restart_action">Ricomincia</string>
     <string name="restart_phone_bind_message">"Può volerci un po' di tempo per ricevere l'SMS. Ricominciare lo stesso?"</string>
-    <string name="restart_phone_bind_title">Cambia recupero telefono</string>
+    <string name="restart_phone_bind_title">Cambia il telefono di recupero</string>
     <string name="risky_pwd_not_allow">La nuova password non è sicura. Impostane una diversa.</string>
     <string name="same_new_and_old_pwd">La nuova password deve essere diversa da quella precedente</string>
     <string name="scan_barcode_title">Per accedere al tuo Mi Account, scansiona il codice QR</string>

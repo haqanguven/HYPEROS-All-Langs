@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="aggregate_entries">
-        <item>Nhóm</item>
-        <item>Phân nhóm và ưu tiên thấp hơn</item>
-        <item>Không nhóm</item>
-    </string-array>
-    <string-array name="aggregate_summaries">
-        <item>Quảng cáo và thông báo đẩy liên quan đến nội dung sẽ được nhóm lại</item>
-        <item>Thông báo đẩy sẽ được nhóm và hiển thị bên dưới các thông báo khác</item>
-        <item>Thông báo đẩy sẽ không được nhóm</item>
-    </string-array>
     <string-array name="agps_apn_entries">
         <item>CMWAP</item>
         <item>CMNET</item>
@@ -135,8 +125,8 @@
         <item>Âm lượng chính</item>
         <item>Âm lượng thoại</item>
         <item>Âm lượng chuông</item>
-        <item>Âm lượng phương tiện</item>
-        <item>Âm lượng báo thức</item>
+        <item>Âm lượng nội dung nghe nhìn</item>
+        <item>Âm lượng chuông báo</item>
         <item>Âm lượng thông báo</item>
         <item>Âm lượng bluetooth</item>
         <item>Không khóa màn hình</item>
@@ -202,8 +192,8 @@
         <item>âm lượng chính</item>
         <item>âm lượng thoại</item>
         <item>âm lượng chuông</item>
-        <item>âm lượng phương tiện</item>
-        <item>âm lượng báo thức</item>
+        <item>âm lượng nội dung nghe nhìn</item>
+        <item>âm lượng chuông báo</item>
         <item>âm lượng thông báo</item>
         <item>âm lượng bluetooth</item>
         <item>không khóa màn hình</item>
@@ -278,6 +268,7 @@
         <item>1xRTT</item>
         <item>IS95B</item>
         <item>IS95A</item>
+        <item>NR</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_summaries">
         <item>Chế độ chất lượng cao (Mặc định)</item>
@@ -288,38 +279,38 @@
         <item>Chế độ trễ thấp</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Sử dụng Lựa chọn Hệ thống (Mặc định)</item>
+        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
         <item>16 bit/mẫu</item>
         <item>24 bit/mẫu</item>
         <item>32 bit/mẫu</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Sử dụng Lựa chọn Hệ thống (Mặc định)</item>
+        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
         <item>16 bit/mẫu</item>
         <item>24 bit/mẫu</item>
         <item>32 bit/mẫu</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Sử dụng Lựa chọn Hệ thống (Mặc định)</item>
+        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
         <item>Đơn sắc</item>
         <item>Lập thể</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Sử dụng Lựa chọn Hệ thống (Mặc định)</item>
+        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
         <item>Đơn âm</item>
         <item>Lập thể</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Tối ưu Chất lượng Âm thanh</item>
-        <item>Chất lượng Kết nối và Âm thanh Cân bằng</item>
-        <item>Tối ưu Chất lượng Kết nối</item>
-        <item>Nhấn mạnh (Tốc độ Truyền Thích ứng)</item>
+        <item>Tối ưu chất lượng âm thanh</item>
+        <item>Chất lượng kết nối và âm thanh cân bằng</item>
+        <item>Tối ưu chất lượng kết nối</item>
+        <item>Nhấn mạnh (Tốc độ truyền tự động)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Tối ưu chất lượng âm thanh (990kbps/909kbps)</item>
         <item>Chất lượng kết nối và âm thanh cân bằng (660kbps/606kbps)</item>
         <item>Tối ưu chất lượng kết nối (330kbps/303kbps)</item>
-        <item>Nhấn mạnh (Tốc độ truyền thích ứng)</item>
+        <item>Hiệu ứng tốt nhất (Tốc độ truyền thích ứng)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
         <item>Độ trễ ngắn</item>
@@ -346,14 +337,14 @@
         <item>Nhấn mạnh (Tốc độ truyền tự động)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Sử dụng lựa chọn hệ thống (Mặc định)</item>
+        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Sử dụng Lựa chọn Hệ thống (Mặc định)</item>
+        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -371,8 +362,8 @@
         <item>LHDC_V3</item>
         <item>LHDC_V2</item>
         <item>LHDC_V1</item>
-        <item>Bật Codec tùy chọn</item>
-        <item>Tắt Codec tùy chọn</item>
+        <item>Bật bộ giải mã tùy chọn</item>
+        <item>Tắt bộ giải mã tùy chọn</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
@@ -386,8 +377,8 @@
         <item>LHDC_V3</item>
         <item>LHDC_V2</item>
         <item>LHDC_V1</item>
-        <item>Bật Codec tùy chọn</item>
-        <item>Tắt Codec tùy chọn</item>
+        <item>Bật bộ giải mã tùy chọn</item>
+        <item>Tắt codec tùy chọn</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -407,6 +398,16 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (Mặc định)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
         <item>Sử dụng cài đặt mặc định của hệ thống: %1$d</item>
         <item>1</item>
@@ -423,10 +424,10 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Đã tắt</item>
-        <item>Đã bật Lọc</item>
+        <item>Đã lọc</item>
         <item>Đã bật</item>
-        <item>Đã bật \"Lọc Tiêu đề\"</item>
-        <item>Đã bật \"Lọc Phương tiện\"</item>
+        <item>Tiêu đề đã lọc</item>
+        <item>Gói phương tiện đã lọc</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 giây</item>
@@ -444,10 +445,17 @@
         <item>Tăng</item>
         <item>Giảm</item>
     </string-array>
+    <string-array name="captioning_font_size_selector_summaries">
+        <item>Cỡ chữ rất nhỏ</item>
+        <item>Cỡ chữ nhỏ</item>
+        <item>Cỡ chữ mặc định</item>
+        <item>Cỡ chữ lớn</item>
+        <item>Cỡ chữ rất lớn</item>
+    </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Rất nhỏ</item>
         <item>Nhỏ</item>
-        <item>Bình thường</item>
+        <item>Mặc định</item>
         <item>Lớn</item>
         <item>Rất lớn</item>
     </string-array>
@@ -458,7 +466,7 @@
         <item>100%</item>
     </string-array>
     <string-array name="captioning_preset_selector_titles">
-        <item>Mặc định của ứng dụng</item>
+        <item>Thiết lập theo ứng dụng</item>
         <item>Chữ trắng trên nền đen</item>
         <item>Chữ đen trên nền trắng</item>
         <item>Chữ vàng trên nền đen</item>
@@ -808,7 +816,7 @@
     </array>
     <string-array name="color_mode_descriptions">
         <item>Tăng cường màu sắc</item>
-        <item>Màu tự nhiên giống như xem bằng mắt thường</item>
+        <item>Màu tự nhiên giống như nhìn bằng mắt thường</item>
         <item>Tối ưu màu sắc cho nội dung số</item>
     </string-array>
     <string-array name="color_mode_names">
@@ -881,6 +889,12 @@
         <item>10 phút</item>
         <item>30 phút</item>
     </string-array>
+    <string-array name="eap_ocsp_type">
+        <item>Không xác thực</item>
+        <item>Yêu cầu trạng thái chứng chỉ</item>
+        <item>Cần có trạng thái chứng chỉ</item>
+        <item>Cần có tất cả trạng thái chứng chỉ không đáng tin cậy</item>
+    </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Không</item>
         <item>Logcat</item>
@@ -905,20 +919,10 @@
         <item>Tăng hiệu suất thiết bị</item>
         <item>Có thể làm giảm hiệu suất thiết bị</item>
     </string-array>
-    <string-array name="fold_entries">
-        <item>Kiến nghị</item>
-        <item>Quan trọng</item>
-        <item>Không quan trọng</item>
-    </string-array>
-    <string-array name="fold_summaries">
-        <item>MIUI sẽ quyết định thông báo nào nên xuất hiện trực tiếp</item>
-        <item>Thông báo sẽ xuất hiện trên Thanh thông báo</item>
-        <item>Thông báo sẽ xuất hiện trong thư mục riêng</item>
-    </string-array>
     <string-array name="handy_mode_size_text_entries">
-        <item>4.5 inch</item>
-        <item>4.0 inch</item>
-        <item>3.5 inch</item>
+        <item>4,5 inch</item>
+        <item>4,0 inch</item>
+        <item>3,5 inch</item>
     </string-array>
     <string-array name="handy_mode_size_value_entries">
         <item>4.5</item>
@@ -944,27 +948,6 @@
     <string-array name="hide_account_list">
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
-    </string-array>
-    <string-array name="input_method_function_des">
-        <item>@string/input_method_function_voice_des</item>
-        <item>@string/input_method_function_xiaoai_des</item>
-        <item>@string/input_method_function_switch_des</item>
-        <item>@string/input_method_function_clipboard_des</item>
-        <item>@string/input_method_function_no_function_des</item>
-    </string-array>
-    <array name="input_method_function_icons">
-        <item>@drawable/input_method_voice_function_selector</item>
-        <item>@drawable/input_method_xiaoai_function_selector</item>
-        <item>@drawable/input_method_switch_function_selector</item>
-        <item>@drawable/input_method_clipboard_function_selector</item>
-        <item>@drawable/input_method_no_function_selector</item>
-    </array>
-    <string-array name="input_method_function_title">
-        <item>@string/input_method_function_voice</item>
-        <item>@string/input_method_function_xiaoai</item>
-        <item>@string/input_method_function_switch</item>
-        <item>@string/input_method_function_clipboard</item>
-        <item>@string/input_method_function_no_function</item>
     </string-array>
     <string-array name="key_and_gesture_shortcut_action">
         <item>long_press_home_key</item>
@@ -1089,12 +1072,12 @@
         <item>Tía</item>
     </string-array>
     <string-array name="miui_entries_font_size">
-        <item>XS</item>
-        <item>S</item>
-        <item>M</item>
-        <item>L</item>
-        <item>XL</item>
-        <item>XXL</item>
+        <item>Rất nhỏ</item>
+        <item>Nhỏ</item>
+        <item>Trung bình</item>
+        <item>Lớn</item>
+        <item>Rất lớn</item>
+        <item>Cực lớn</item>
     </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP và cũ hơn</item>
@@ -1366,11 +1349,17 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>LTE/TDSCDMA/GSM/WCDMA</item>
         <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
         <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
-    </string-array>
-    <string-array name="preferred_network_mode_choices_world_mode">
-        <item>Toàn cầu</item>
-        <item>LTE/CDMA</item>
-        <item>LTE/GSM/UMTS</item>
+        <item>Chỉ NR</item>
+        <item>NR/LTE</item>
+        <item>NR/LTE/CDMA/EvDo</item>
+        <item>NR/LTE/GSM/WCDMA</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>NR/LTE/WCDMA</item>
+        <item>NR/LTE/TDSCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM</item>
+        <item>NR/LTE/TDSCDMA/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
     </string-array>
     <string-array name="priority_storage_entries">
         <item>Bộ nhớ trong</item>
@@ -1421,7 +1410,7 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Mát lạnh</item>
     </string-array>
     <string-array name="screen_key_long_press_timeout">
-        <item>0.5 giây</item>
+        <item>0,5 giây</item>
         <item>1 giây</item>
         <item>1.5 giây</item>
         <item>2 giây</item>
@@ -1479,37 +1468,37 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Tắt</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Tắt</item>
-        <item>Bộ đệm nhật ký 64K</item>
-        <item>Bộ đệm nhật ký 256K</item>
-        <item>Bộ đệm nhật ký 1M</item>
-        <item>Bộ đệm nhật ký 4M</item>
-        <item>Bộ đệm nhật ký 16M</item>
+        <item>Bộ đệm nhật ký 64 KB</item>
+        <item>Bộ đệm nhật ký 256 KB</item>
+        <item>Bộ đệm nhật ký 1 MB</item>
+        <item>Bộ đệm nhật ký 4 MB</item>
+        <item>Bộ đệm nhật ký 16 MB</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Tắt</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Tắt</item>
         <item>Tất cả bộ đệm nhật ký</item>
         <item>Tất cả trừ bộ đệm nhật ký sóng vô tuyến</item>
-        <item>chỉ bộ đệm nhật ký kernel</item>
+        <item>Chỉ bộ đệm nhật ký kernel</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Tắt</item>
         <item>Tất cả</item>
         <item>Tất cả trừ sóng vô tuyến</item>
-        <item>chỉ kernel</item>
+        <item>Chỉ kernel</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Tắt</item>
@@ -1561,6 +1550,32 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>@drawable/threedrop04</item>
         <item>@drawable/threedrop05</item>
         <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
+    <array name="three_long_press">
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
@@ -1646,11 +1661,11 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>400</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
-        <item>Very slow</item>
-        <item>Slow</item>
-        <item>Normal</item>
-        <item>Fast</item>
-        <item>Faster</item>
+        <item>Rất chậm</item>
+        <item>Chậm</item>
+        <item>Bình thường</item>
+        <item>Nhanh</item>
+        <item>Nhanh hơn</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>Thời gian sử dụng</item>
@@ -1701,6 +1716,9 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>IPSec VPN có khóa được chia sẻ trước và xác thực Xauth</item>
         <item>IPSec VPN có chứng chỉ và xác thực Xauth</item>
         <item>IPSec VPN có chứng chỉ và xác thực kết hợp</item>
+        <item>VPN IKEv2/IPSec có chứng chỉ và thông tin xác thực tên người dùng/mật khẩu</item>
+        <item>VPN IKEv2/IPSec có khóa chia sẻ trước</item>
+        <item>VPN IKEv2/IPSec có chứng chỉ</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Bắt đầu dịch vụ…</item>
@@ -1730,6 +1748,10 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
     <string-array name="wifi_ap_band_config_2G_5G">
         <item>@string/wifi_ap_choose_2G</item>
         <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_hidden_ssid_config">
+        <item>@string/wifi_ap_ssid_off</item>
+        <item>@string/wifi_ap_ssid_on</item>
     </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>
@@ -1781,24 +1803,15 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Mã PIN từ th.bị này</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
-        <item>Không có</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries_with_sim_auth">
-        <item>Không có</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
         <item>SIM</item>
         <item>AKA</item>
         <item>"AKA'"</item>
-    </string-array>
-    <string-array name="wifi_phase2_entries">
-        <item>Không</item>
-        <item>PAP</item>
-        <item>MSCHAP</item>
-        <item>MSCHAPV2</item>
-        <item>GTC</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
         <item>Sử dụng MAC ngẫu nhiên</item>
@@ -1848,6 +1861,12 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Bị chặn</item>
         <item>Tạm thời tránh kết nối kém</item>
     </string-array>
+    <string-array name="wifi_ttls_phase2_entries">
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Tắt ảnh động</item>
         <item>Tỷ lệ ảnh động 0.5x</item>
@@ -1859,8 +1878,8 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
     </string-array>
 	<string-array name="statusbar_style_entries">
 		<item>Mặc định</item>
-		<item>Đồng hồ giữa</item>
-		<item>Kiểu AOSP</item>
+		<item>Phong cách 1</item>
+		<item>Phong cách 2</item>
 	</string-array>
 	<string-array name="switch_control_panel_entries">
 		<item>Phải</item>

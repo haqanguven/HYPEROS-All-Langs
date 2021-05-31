@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">Час назад</item>
+        <item quantity="one">Час назад</item>
+        <item quantity="few">Час назад</item>
+        <item quantity="many">Час назад</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">Час назад</item>
+        <item quantity="one">Час назад</item>
+        <item quantity="few">Час назад</item>
+        <item quantity="many">Час назад</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Полчаса назад</item>
+        <item quantity="one">Полчаса назад</item>
+        <item quantity="few">Полчаса назад</item>
+        <item quantity="many">Полчаса назад</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Через 1 час</item>
+        <item quantity="one">Через 1 час</item>
+        <item quantity="few">Через 1 час</item>
+        <item quantity="many">Через 1 час</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Через полчаса</item>
+        <item quantity="one">Через полчаса</item>
+        <item quantity="few">Через полчаса</item>
+        <item quantity="many">Через полчаса</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Немедленно</item>
+        <item quantity="one">Немедленно</item>
+        <item quantity="few">Немедленно</item>
+        <item quantity="many">Немедленно</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">через %d мин</item>
+        <item quantity="one">через 1 мин</item>
+        <item quantity="few">через %d мин</item>
+        <item quantity="many">через %d мин</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Только что</item>
+        <item quantity="one">Только что</item>
+        <item quantity="few">Только что</item>
+        <item quantity="many">Только что</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d мин назад</item>
+        <item quantity="one">1 мин назад</item>
+        <item quantity="few">%d мин назад</item>
+        <item quantity="many">%d мин назад</item>
+    </plurals>
     <plurals name="add_secret_ensure_message">
         <item quantity="other">Добавить объекты в личный альбом?</item>
         <item quantity="one">Добавить объект в личный альбом?</item>
@@ -169,10 +223,10 @@
         <item quantity="many">%d видео</item>
     </plurals>
     <plurals name="collage_select_image_dynamic_range">
-        <item quantity="other">Коллажи могут содержать 1-%d фото</item>
-        <item quantity="one">Коллажи могут содержать 1-%d фото</item>
-        <item quantity="few">Коллажи могут содержать 1-%d фото</item>
-        <item quantity="many">Коллажи могут содержать 1-%d фото</item>
+        <item quantity="other">Коллаж может содержать от %1$d-%2$d фото</item>
+        <item quantity="one">Коллаж может содержать от %1$d до %2$d фото</item>
+        <item quantity="few">Коллаж может содержать от %1$d-%2$d фото</item>
+        <item quantity="many">Коллаж может содержать от %1$d-%2$d фото</item>
     </plurals>
     <plurals name="creation_max_image">
         <item quantity="other">Выберите до %d фото</item>
@@ -198,12 +252,6 @@
         <item quantity="few">Удалить %d снимка?</item>
         <item quantity="many">Удалить %d снимков?</item>
     </plurals>
-    <plurals name="delete_burst_photo_from_this_album_and_cloud_msg">
-        <item quantity="other">Удалить %d снимков из Xiaomi Cloud и с этого устройства?</item>
-        <item quantity="one">Удалить %d снимок из Xiaomi Cloud и с этого устройства?</item>
-        <item quantity="few">Удалить %d снимка из Xiaomi Cloud и с этого устройства?</item>
-        <item quantity="many">Удалить %d снимков из Xiaomi Cloud и с этого устройства?</item>
-    </plurals>
     <plurals name="delete_finish_format">
         <item quantity="other">Удалено %d объектов</item>
         <item quantity="one">Удален %d объект</item>
@@ -222,29 +270,11 @@
         <item quantity="few">Удалить %d объекта?</item>
         <item quantity="many">Удалить %d объектов?</item>
     </plurals>
-    <plurals name="delete_media_from_this_album_and_cloud_msg">
-        <item quantity="other">Удалить %d объектов из этого альбома и из Xiaomi Cloud?</item>
-        <item quantity="one">Удалить %d объект из этого альбома и из Xiaomi Cloud?</item>
-        <item quantity="few">Удалить %d объекта из этого альбома и из Xiaomi Cloud?</item>
-        <item quantity="many">Удалить %d объектов из этого альбома и из Xiaomi Cloud?</item>
-    </plurals>
     <plurals name="delete_photo_from_all_devices_and_cloud_msg">
         <item quantity="other">Удалить %d фото со всех устройств и из Xiaomi Cloud?</item>
         <item quantity="one">Удалить %d фото со всех устройств и из Xiaomi Cloud?</item>
         <item quantity="few">Удалить %d фото со всех устройств и из Xiaomi Cloud?</item>
         <item quantity="many">Удалить %d фото со всех устройств и из Xiaomi Cloud?</item>
-    </plurals>
-    <plurals name="delete_photo_from_local">
-        <item quantity="other">Удалить %d фото?</item>
-        <item quantity="one">Удалить %d фото?</item>
-        <item quantity="few">Удалить %d фото?</item>
-        <item quantity="many">Удалить %d фото?</item>
-    </plurals>
-    <plurals name="delete_photo_from_this_album_and_cloud_msg">
-        <item quantity="other">Удалить %d фото из этого альбома и из Xiaomi Cloud?</item>
-        <item quantity="one">Удалить %d фото из этого альбома и из Xiaomi Cloud?</item>
-        <item quantity="few">Удалить %d фото из этого альбома и из Xiaomi Cloud?</item>
-        <item quantity="many">Удалить %d фото из этого альбома и из Xiaomi Cloud?</item>
     </plurals>
     <plurals name="delete_third_party_burst_photo">
         <item quantity="other">Удалить %d снимков с вашего устройства?</item>
@@ -257,18 +287,6 @@
         <item quantity="one">Удалить %d видео со всех устройств и из Xiaomi Cloud?</item>
         <item quantity="few">Удалить %d видео со всех устройств и из Xiaomi Cloud?</item>
         <item quantity="many">Удалить %d видео со всех устройств и из Xiaomi Cloud?</item>
-    </plurals>
-    <plurals name="delete_video_from_local">
-        <item quantity="other">Удалить %d видео?</item>
-        <item quantity="one">Удалить %d видео?</item>
-        <item quantity="few">Удалить %d видео?</item>
-        <item quantity="many">Удалить %d видео?</item>
-    </plurals>
-    <plurals name="delete_video_from_this_album_and_cloud_msg">
-        <item quantity="other">Удалить %d видео из этого альбома и из Xiaomi Cloud?</item>
-        <item quantity="one">Удалить %d видео из этого альбома и из Xiaomi Cloud?</item>
-        <item quantity="few">Удалить %d видео из этого альбома и из Xiaomi Cloud?</item>
-        <item quantity="many">Удалить %d видео из этого альбома и из Xiaomi Cloud?</item>
     </plurals>
     <plurals name="download_error">
         <item quantity="other">Не удалось загрузить %1$d файлов</item>
@@ -305,6 +323,54 @@
         <item quantity="one">%1$d файл</item>
         <item quantity="few">%1$d файла</item>
         <item quantity="many">%1$d файлов</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Полчаса назад</item>
+        <item quantity="one">Полчаса назад</item>
+        <item quantity="few">Полчаса назад</item>
+        <item quantity="many">Полчаса назад</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Через 1 час</item>
+        <item quantity="one">Через 1 час</item>
+        <item quantity="few">Через 1 час</item>
+        <item quantity="many">Через 1 час</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Через полчаса</item>
+        <item quantity="one">Через полчаса</item>
+        <item quantity="few">Через полчаса</item>
+        <item quantity="many">Через полчаса</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Немедленно</item>
+        <item quantity="one">Немедленно</item>
+        <item quantity="few">Немедленно</item>
+        <item quantity="many">Немедленно</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">через %d мин</item>
+        <item quantity="one">через 1 мин</item>
+        <item quantity="few">через %d мин</item>
+        <item quantity="many">через %d мин</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Только что</item>
+        <item quantity="one">Только что</item>
+        <item quantity="few">Только что</item>
+        <item quantity="many">Только что</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">Выбрано: %d</item>
+        <item quantity="one">Выбрано: %d</item>
+        <item quantity="few">Выбрано: %d</item>
+        <item quantity="many">Выбрано: %d</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d мин назад</item>
+        <item quantity="one">1 мин назад</item>
+        <item quantity="few">%d мин назад</item>
+        <item quantity="many">%d мин назад</item>
     </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
         <item quantity="other">%1$d объектов ожидают синхронизации</item>
@@ -353,6 +419,12 @@
         <item quantity="one">%1$d видео ожидает синхронизации</item>
         <item quantity="few">%1$d видео ожидают синхронизации</item>
         <item quantity="many">%1$d видео ожидают синхронизации</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%d фото</item>
+        <item quantity="one">%d фото</item>
+        <item quantity="few">%d фото</item>
+        <item quantity="many">%d фото</item>
     </plurals>
     <plurals name="photo_count_format">
         <item quantity="other">%1$d объектов</item>
@@ -684,6 +756,18 @@
         <item quantity="few">%d объекта</item>
         <item quantity="many">%d объектов</item>
     </plurals>
+    <plurals name="synced_photo_count">
+        <item quantity="other">Синхронизированно %d фото</item>
+        <item quantity="one">Синхронизированно %d фото</item>
+        <item quantity="few">Синхронизированно %d фото</item>
+        <item quantity="many">Синхронизированно %d фото</item>
+    </plurals>
+    <plurals name="synced_videos_count">
+        <item quantity="other">Синхронизированно %d видео</item>
+        <item quantity="one">Синхронизированно %d видео</item>
+        <item quantity="few">Синхронизированно %d видео</item>
+        <item quantity="many">Синхронизированно %d видео</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_image">
         <item quantity="other">Вы не сможете восстановить %d выбранных объектов после удаления. Удалить?</item>
         <item quantity="one">Вы не сможете восстановить %d выбранный объект после удаления. Удалить?</item>
@@ -719,5 +803,11 @@
         <item quantity="one">%1$d файл</item>
         <item quantity="few">%1$d файла</item>
         <item quantity="many">%1$d файлов</item>
+    </plurals>
+    <plurals name="videos_count">
+        <item quantity="other">%d видео</item>
+        <item quantity="one">%d видео</item>
+        <item quantity="few">%d видео</item>
+        <item quantity="many">%d видео</item>
     </plurals>
 </resources>

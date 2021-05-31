@@ -17,33 +17,6 @@
         <item>Не более 3 процессов</item>
         <item>Не более 4 процессов</item>
     </string-array>
-    <string-array name="aqi_title">
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-    </string-array>
-    <string-array name="aqi_title_append">
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-    </string-array>
-    <string-array name="aqi_title_prefix">
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
-    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -80,13 +53,13 @@
         <item>Оптимизировать качество звука</item>
         <item>Баланс качества звука и скорости подключения</item>
         <item>Оптимизировать скорость подключения</item>
-        <item>Наилучший результат (адаптивный битрейт)</item>
+        <item>Наилучший результат (автоматический битрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Оптимизировать качество звука (990/909 Кбит/с)</item>
         <item>Баланс качества звука и скорости подключения (660/606 Кбит/с)</item>
         <item>Оптимизировать скорость подключения (330/303 Кбит/с)</item>
-        <item>Наилучший результат (адаптивный битрейт)</item>
+        <item>Наилучший результат (автоматический битрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
         <item>Выбор системы (по умолчанию)</item>
@@ -109,13 +82,11 @@
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Аудиокодек: Qualcomm® aptX™ Adaptive</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Включить дополнительные кодеки</item>
-        <item>Отключить дополнительные кодеки</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Выбор системы (по умолчанию)</item>
@@ -150,12 +121,22 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (по умолчанию)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Отключено</item>
-        <item>Включен с фильтрацией</item>
+        <item>Отсортировано</item>
         <item>Включен</item>
-        <item>Включен с фильтрацией заголовков</item>
-        <item>Включен с фильтрацией медиапакетов</item>
+        <item>Заголовки отсортированы</item>
+        <item>Медиапакеты отсортированы</item>
     </string-array>
     <string-array name="clock_options">
         <item>Часы, минуты и секунды</item>
@@ -172,8 +153,6 @@
         <item>Естественный</item>
         <item>Стандартный</item>
     </string-array>
-    <array name="data_type_name_mcc_mnc_key" />
-    <array name="data_type_name_mcc_mnc_value" />
     <string-array name="debug_hw_overdraw_entries">
         <item>Отключено</item>
         <item>Показывать области наложения</item>
@@ -195,17 +174,14 @@
         <item>Проверять только DRM-контент</item>
         <item>Всегда проверять</item>
     </string-array>
-    <string-array name="miui_volume_timer_segments_title">
-        <item>Откл</item>
-        <item>30 минут</item>
-        <item>1 час</item>
-        <item>2 часа</item>
-        <item>8 часов</item>
+    <string-array name="miui_notification_aggregate_category">
+        <item>Это рекомендуемые материалы.</item>
+        <item>Это реклама.</item>
     </string-array>
     <string-array name="nav_bar_buttons">
         <item>Буфер обмена</item>
-        <item>Код кнопки</item>
-        <item>Переключение раскладки</item>
+        <item>Код клавиши</item>
+        <item>Подтвердить поворот, переключить раскладку</item>
         <item>Нет</item>
     </string-array>
     <string-array name="nav_bar_layouts">
@@ -228,7 +204,6 @@
         <item>4K (масштаб, защита)</item>
         <item>720p, 1080p (два экрана)</item>
     </string-array>
-    <array name="recents_blacklist_array" />
     <string-array name="select_logd_size_lowram_titles">
         <item>Отключен</item>
         <item>64 КБ</item>
@@ -312,41 +287,12 @@
         <item>Источник звука</item>
         <item>MIDI</item>
     </string-array>
-    <string-array name="weather_type">
-        <item>Ясно</item>
-        <item>Облачно</item>
-        <item>Пасмурно</item>
-        <item>Туман</item>
-        <item>Сильный ливень</item>
-        <item>Ливень</item>
-        <item>Ливень</item>
-        <item>Гроза</item>
-        <item>Дождь</item>
-        <item>Сильный дождь</item>
-        <item>Умеренный дождь</item>
-        <item>Небольшой дождь</item>
-        <item>Мокрый снег</item>
-        <item>Метель</item>
-        <item>Снег</item>
-        <item>Сильный снег</item>
-        <item>Умеренный снег</item>
-        <item>Небольшой снег</item>
-        <item>Сильная пыльная буря</item>
-        <item>Пыльная буря</item>
-        <item>Небольшая пыльная буря</item>
-        <item>Ветрено</item>
-        <item>Град</item>
-        <item>Пыль</item>
-        <item>Смог</item>
-        <item>Изморозь</item>
-        <item></item>
-    </string-array>
     <string-array name="wifi_status">
         <item></item>
         <item>Поиск сетей…</item>
         <item>Подключение…</item>
         <item>Аутентификация…</item>
-        <item>Получение IP адреса…</item>
+        <item>Получение IP-адреса…</item>
         <item>Подключено</item>
         <item>Приостановлено</item>
         <item>Отключение…</item>
@@ -360,7 +306,7 @@
         <item>Поиск сетей…</item>
         <item>Подключение к %1$s…</item>
         <item>Аутентификация в %1$s…</item>
-        <item>Получение IP адреса от %1$s…</item>
+        <item>Получение IP-адреса от %1$s…</item>
         <item>Подключено к %1$s</item>
         <item>Приостановлено</item>
         <item>Отключение от %1$s…</item>

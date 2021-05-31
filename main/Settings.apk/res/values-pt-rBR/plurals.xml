@@ -16,25 +16,25 @@
         <item quantity="other">%1$d apps com acesso total ao seu dispositivo</item>
         <item quantity="one">%1$d app com acesso total ao seu dispositivo</item>
     </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
-        <item quantity="other">Atraso extremamente curto (%1$d ms)</item>
-        <item quantity="one">Atraso extremamente curto (%1$d ms)</item>
+    <plurals name="accessibilty_autoclick_delay_unit_second">
+        <item quantity="other">%1$s segundos</item>
+        <item quantity="one">%1$s segundo</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
-        <item quantity="other">Atraso longo (%1$d ms)</item>
-        <item quantity="one">Atraso longo (%1$d ms)</item>
+        <item quantity="other">Longo (%1$s segundos)</item>
+        <item quantity="one">Longo (%1$s segundo)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_medium_delay">
+        <item quantity="other">Médio (%1$s segundos)</item>
+        <item quantity="one">Médio (%1$s segundo)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
-        <item quantity="other">Atraso curto (%1$d ms)</item>
-        <item quantity="one">Atraso curto (%1$d ms)</item>
+        <item quantity="other">Curto (%1$s segundos)</item>
+        <item quantity="one">Curto (%1$s segundo)</item>
     </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
-        <item quantity="other">Atraso muito longo (%1$d ms)</item>
-        <item quantity="one">Atraso muito longo (%1$d ms)</item>
-    </plurals>
-    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
-        <item quantity="other">Atraso muito curto (%1$d ms)</item>
-        <item quantity="one">Atraso muito curto (%1$d ms)</item>
+    <plurals name="app_link_open_always_summary">
+        <item quantity="other">O app processará %d links</item>
+        <item quantity="one">O app processará %d link</item>
     </plurals>
     <plurals name="app_notification_listing_summary_others">
         <item quantity="other">Desativadas para %d apps</item>
@@ -42,11 +42,11 @@
     </plurals>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">Nunca desativar para %d apps</item>
-        <item quantity="one">Nunca desativar para 1 app</item>
+        <item quantity="one">Nunca desativar para %d app</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_enabled_header_title">
         <item quantity="other">Sempre desativar para %d apps</item>
-        <item quantity="one">Sempre desativar para 1 app</item>
+        <item quantity="one">Sempre desativar para %d app</item>
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d apps com permissão de iniciar automaticamente</item>
@@ -58,7 +58,7 @@
     </plurals>
     <plurals name="battery_tip_restrict_app_dialog_title">
         <item quantity="other">Restringir %1$d apps?</item>
-        <item quantity="one">Restringir %1$d app?</item>
+        <item quantity="one">Restringir app?</item>
     </plurals>
     <plurals name="battery_tip_restrict_handled_summary">
         <item quantity="other">Não é possível executar estes apps em segundo plano</item>
@@ -97,8 +97,8 @@
         <item quantity="one">%d dispositivo</item>
     </plurals>
     <plurals name="data_saver_unrestricted_summary">
-        <item quantity="other">%1$d apps autorizados a usar dados irrestritos quando a Economia de dados estiver ativada</item>
-        <item quantity="one">%1$d app autorizado a usar dados irrestritos quando a Economia de dados estiver ativada</item>
+        <item quantity="other">%1$d apps autorizados a usar dados ilimitados quando a Economia de dados estiver ativada</item>
+        <item quantity="one">%1$d app autorizado a usar dados ilimitados quando a Economia de dados estiver ativada</item>
     </plurals>
     <plurals name="default_camera_app_title">
         <item quantity="other">Apps de câmera</item>
@@ -152,6 +152,10 @@
         <item quantity="other">%s horas</item>
         <item quantity="one">%s horas</item>
     </plurals>
+    <plurals name="interact_across_profiles_number_of_connected_apps">
+        <item quantity="other">%d apps conectados</item>
+        <item quantity="one">%d app conectado</item>
+    </plurals>
     <plurals name="location_app_permission_summary_location_on">
         <item quantity="other">%1$d de %2$d apps têm acesso à localização</item>
         <item quantity="one">%1$d de %2$d apps tem acesso à localização</item>
@@ -171,6 +175,10 @@
     <plurals name="lockpassword_password_requires_nonletter">
         <item quantity="other">Precisa ter pelo menos %d caracteres que não sejam letras</item>
         <item quantity="one">Precisa ter pelo menos %d caractere que não seja letra</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonnumerical">
+        <item quantity="other">Precisa ter pelo menos %d caracteres não numéricos</item>
+        <item quantity="one">Precisa ter pelo menos %d caractere não numérico</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric">
         <item quantity="other">Precisa ter pelo menos %d dígitos numéricos</item>
@@ -236,6 +244,10 @@
         <item quantity="other">%d adicionados</item>
         <item quantity="one">%d adicionado</item>
     </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">O Wi-Fi será ativado automaticamente quando seu dispositivo detectar redes salvas por perto, e será desativado após %d minutos se nenhuma conexão for estabelecida</item>
+        <item quantity="one">O Wi-Fi será ativado automaticamente quando seu dispositivo detectar redes salvas por perto, e será desativado após %d minuto se nenhuma conexão for estabelecida</item>
+    </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d chips</item>
         <item quantity="one">%1$d chip</item>
@@ -244,13 +256,13 @@
         <item quantity="other">%1$d restrições</item>
         <item quantity="one">%1$d restrição</item>
     </plurals>
-    <plurals name="notification_few_channel_count_summary">
-        <item quantity="other">%1$d canais de notificação.</item>
-        <item quantity="one">%1$d canal de notificação.</item>
-    </plurals>
     <plurals name="notification_group_summary">
         <item quantity="other">%d categorias</item>
         <item quantity="one">%d categoria</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d notificações</item>
+        <item quantity="one">%d notificação</item>
     </plurals>
     <plurals name="notification_summary">
         <item quantity="other">Desativadas para %d apps</item>
@@ -266,7 +278,7 @@
     </plurals>
     <plurals name="notifications_sent_weekly">
         <item quantity="other">Cerca de %d notificações por semana</item>
-        <item quantity="one">Cerca de %d notificação por semana</item>
+        <item quantity="one">%d notificação por semana</item>
     </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d apps ativos</item>
@@ -296,6 +308,10 @@
         <item quantity="other">%1$d serviços de impressão ativados</item>
         <item quantity="one">%1$d serviço de impressão ativado</item>
     </plurals>
+    <plurals name="priority_conversation_count">
+        <item quantity="other">%d conversas prioritárias</item>
+        <item quantity="one">%d conversa prioritária</item>
+    </plurals>
     <plurals name="restricted_app_summary">
         <item quantity="other">Limitando o uso da bateria para %1$d apps</item>
         <item quantity="one">Limitando o uso da bateria para %1$d app</item>
@@ -320,13 +336,13 @@
         <item quantity="other">%1$d impressões digitais configuradas</item>
         <item quantity="one">%1$d impressão digital configurada</item>
     </plurals>
+    <plurals name="see_all_apps_title">
+        <item quantity="other">Ver todos os %1$d apps</item>
+        <item quantity="one">Ver todos os apps</item>
+    </plurals>
     <plurals name="settings_suggestion_header_summary_hidden_items">
         <item quantity="other">Mostrar %d itens ocultos</item>
         <item quantity="one">Mostrar %d item oculto</item>
-    </plurals>
-    <plurals name="show_bluetooth_devices">
-        <item quantity="other">%1$d dispositivos conectados</item>
-        <item quantity="one">%1$d dispositivo conectado</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Faltam %1$d etapas para você acessar o diagnóstico de hardware.</item>
@@ -341,16 +357,16 @@
         <item quantity="one">%1$d aparelho auditivo salvo</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">Faltam %1$d etapas para você acessar as informações do telefone.</item>
-        <item quantity="one">Falta %1$d etapa para você acessar as informações do telefone.</item>
+        <item quantity="other">Você está a %1$d passos de abrir as informações do dispositivo.</item>
+        <item quantity="one">Você está a %1$d passo de abrir as informações do dispositivo.</item>
     </plurals>
     <plurals name="show_rep_countdown">
         <item quantity="other">Faltam %1$d etapas para você gerar o relatório de erros.</item>
         <item quantity="one">Falta %1$d etapa para você gerar o relatório de erros.</item>
     </plurals>
     <plurals name="special_access_summary">
-        <item quantity="other">%d apps podem usar dados irrestritos</item>
-        <item quantity="one">%d app pode usar dados irrestritos</item>
+        <item quantity="other">%d apps podem usar dados ilimitados</item>
+        <item quantity="one">%d app pode usar dados ilimitados</item>
     </plurals>
     <plurals name="ssl_ca_cert_dialog_title">
         <item quantity="other">Confiar ou remover certificados</item>
@@ -391,6 +407,10 @@ Para ver mais informações sobre esses certificados, entre em contato com seu a
     <plurals name="suggestions_collapsed_title">
         <item quantity="other">%1$d sugestões</item>
         <item quantity="one">%1$d sugestão</item>
+    </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">Receber um alerta sempre que um dos seus fones de ouvido estiver fora do ouvido ou da caixa de carregamento por mais de %d minutos</item>
+        <item quantity="one">Receber um alerta sempre que um dos seus fones de ouvido estiver fora do ouvido ou da caixa de carregamento por mais de %d minuto</item>
     </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d itens</item>
@@ -493,16 +513,28 @@ Para ver mais informações sobre esses certificados, entre em contato com seu a
         <item quantity="one">Código PIN do chip incorreto. Tentativas restantes: %d.</item>
     </plurals>
     <plurals name="zen_mode_bypassing_apps_subtext">
-        <item quantity="other">As notificações de %1$d apps podem modificar o \"Não perturbe\"</item>
-        <item quantity="one">As notificações de %1$d app podem modificar o \"Não perturbe\"</item>
+        <item quantity="other">%s podem interromper</item>
+        <item quantity="one">%s pode interromper</item>
+    </plurals>
+    <plurals name="zen_mode_contacts_count">
+        <item quantity="other">%d contatos</item>
+        <item quantity="one">%d contato</item>
+    </plurals>
+    <plurals name="zen_mode_conversations_count">
+        <item quantity="other">%d conversas</item>
+        <item quantity="one">%d conversa</item>
     </plurals>
     <plurals name="zen_mode_duration_summary_time_hours">
         <item quantity="other">%d horas</item>
         <item quantity="one">%d hora</item>
     </plurals>
+    <plurals name="zen_mode_other_sounds_summary">
+        <item quantity="other">%s podem interromper</item>
+        <item quantity="one">%s pode interromper</item>
+    </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d ativadas</item>
-        <item quantity="one">%d ativada</item>
+        <item quantity="other">%d programações definidas</item>
+        <item quantity="one">%d programação definida</item>
     </plurals>
     <plurals name="zen_mode_sound_summary_summary_off_info">
         <item quantity="other">%d programações podem ser ativadas automaticamente</item>

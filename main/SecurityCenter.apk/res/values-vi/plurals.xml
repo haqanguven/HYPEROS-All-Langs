@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 giờ trước</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 giờ trước</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Nửa giờ trước</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Trong 1 giờ</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Trong nửa giờ</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Tức thì</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">sau %d phút</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Vừa xong</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d phút trước</item>
+    </plurals>
     <plurals name="add_game_notification_title">
         <item quantity="other">Đã thêm %d trò chơi</item>
     </plurals>
@@ -51,6 +78,9 @@
     <plurals name="app_manager_start_count">
         <item quantity="other">%d lần</item>
     </plurals>
+    <plurals name="app_manager_uninstall_notify_summary">
+        <item quantity="other">Gỡ cài đặt %d ứng dụng</item>
+    </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Đã sử dụng %d ngày trước</item>
     </plurals>
@@ -78,6 +108,9 @@
     <plurals name="cache_check_content">
         <item quantity="other">Đang bảo vệ %d ứng dụng</item>
     </plurals>
+    <plurals name="card_uninstall_title">
+        <item quantity="other">&lt;Data>Bạn có thể gỡ cài đặt &lt;font color=#F22424>%d&lt;/font> ứng dụng&lt;/Data></item>
+    </plurals>
     <plurals name="daily_sim_over_limit_dialog_message">
         <item quantity="other">"Bạn đã sử dụng giới hạn dữ liệu hàng ngày %s.
 
@@ -88,6 +121,14 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
     </plurals>
     <plurals name="deep_clean_auto_memory_clean">
         <item quantity="other">Sau %1$d phút</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Tua nhanh %d giây</item>
+        <item quantity="one">Tua nhanh %d giây</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Tua lại %d giây</item>
+        <item quantity="one">Tua lại %d giây</item>
     </plurals>
     <plurals name="find_applications">
         <item quantity="other">Tìm kiếm trong %d ứng dụng</item>
@@ -125,11 +166,37 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
     <plurals name="gb_dialog_game_uninstall_multi_tips_title">
         <item quantity="other">Gỡ cài đặt %2$d game (bao gồm %1$s)</item>
     </plurals>
+    <plurals name="gb_game_video_ai_record_finish_tips">
+        <item quantity="other">Đã lưu %d quay video AI đến Game Turbo</item>
+    </plurals>
     <plurals name="gb_record_time_title">
         <item quantity="other">%d giây</item>
     </plurals>
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Đã check in %d ngày liên tục</item>
+    </plurals>
+    <plurals name="gb_voice_changer_toast_tips_window_bubble">
+        <item quantity="other">"Thử sử dụng Trình thay đổi giọng nói ngay
+để nhận %d ngày dùng thử miễn phí!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_fail">
+        <item quantity="other">Không thể nhận %d-ngày dùng thử miễn phí</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_success">
+        <item quantity="other">Nhận %d-ngày dùng thử miễn phí thành công</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_trial_card">
+        <item quantity="other">Nhận %d-ngày dùng thử miễn phí</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+        <item quantity="other">"Đăng ký của bạn hết hạn.
+Hiện bạn có thể nhận %d ngày dùng thử miễn phí!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_tips_info">
+        <item quantity="other">Nhận %d-ngày dùng thử miễn phí</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Nửa giờ trước</item>
     </plurals>
     <plurals name="hide_txt_hint_with_blank_2">
         <item quantity="other">    +%1$d ký tự khác</item>
@@ -176,8 +243,23 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
     <plurals name="hints_traffic_enable_title">
         <item quantity="other">Không theo dõi sử dụng dữ liệu của %d ứng dụng</item>
     </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Trong 1 giờ</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Trong nửa giờ</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Tức thì</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">trong %d phút</item>
+    </plurals>
     <plurals name="install_game_count_title">
         <item quantity="other">Đã thêm %d trò chơi</item>
+    </plurals>
+    <plurals name="intl_perm_privacy_control_message_count">
+        <item quantity="other">Bạn có thể bạo vệ %d mục</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
         <item quantity="other">%s giờ</item>
@@ -185,8 +267,14 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
     <plurals name="keyguard_charging_info_drained_min_time_format">
         <item quantity="other">%s phút</item>
     </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Vừa mới</item>
+    </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Nối ít nhất %d điểm</item>
+    </plurals>
+    <plurals name="lockpattern_recording_intro_header_new">
+        <item quantity="other">Kết nối ít nhất %s điểm</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">"Chờ %d giây và thử lại. "</item>
@@ -209,6 +297,9 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
     <plurals name="menu_text_app_manager_ex">
         <item quantity="other">%d cập nhật khả dụng</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">Đã chọn %d mục</item>
+    </plurals>
     <plurals name="mixed_recording_incorrect_too_short">
         <item quantity="other">Nhập ít nhất %d ký tự</item>
     </plurals>
@@ -218,14 +309,32 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
     <plurals name="network_restrict_count">
         <item quantity="other">"Quyền truy cập mạng bị giới hạn cho &lt;font color='#ff0000'>%d:&lt;/font> ứng dụng"</item>
     </plurals>
+    <plurals name="notification_antivirus_title">
+        <item quantity="other">%d ngày không quét bảo mật</item>
+    </plurals>
     <plurals name="notification_battery_consume_abnormal_summary">
         <item quantity="other">Đã hao %2$d%% pin trong %1$d phút</item>
     </plurals>
     <plurals name="notification_battery_scan_consume_abnormal_title_split">
         <item quantity="other">%2$d ứng dụng, bao gồm %1$s, đang tiêu hao pin</item>
     </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Xóa %d gói cài đặt</item>
+    </plurals>
+    <plurals name="notification_link_cleaner_2006">
+        <item quantity="other">Xóa %d tập tin APK còn lại</item>
+    </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">%d vấn đề sử dụng pin</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">Tối ưu %d mục để tiết kiệm pin</item>
+    </plurals>
     <plurals name="notification_title_cmcc_app_check">
         <item quantity="other">%d ngày kể từ ngày kiểm tra cuối</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d phút trước</item>
     </plurals>
     <plurals name="number_locked">
         <item quantity="other">%d ứng dụng đã khóa</item>
@@ -308,14 +417,44 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
     <plurals name="people_million">
         <item quantity="other">Được tải xuống bởi %1$d người</item>
     </plurals>
+    <plurals name="power_20s_shutdown">
+        <item quantity="other">Thiết bị của bạn sẽ tắt nguồn sau %d giây</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">lần</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">%d vấn đề sử dụng pin</item>
+    </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d ngày "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">" giờ"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">" phút"</item>
     </plurals>
     <plurals name="power_center_battery_hour">
         <item quantity="other">"%d giờ "</item>
     </plurals>
     <plurals name="power_center_battery_minute">
         <item quantity="other">"%d phút "</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">Sửa %d vấn đề sử dụng pin</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">Bạn có thể sửa %d vấn đề sử dụng pin</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">" %d mục có thể được tối ưu"</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">Tối ưu %d mục để tiết kiệm pin</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">Bạn có thể tối ưu %d mục để tiết kiệm pin</item>
     </plurals>
     <plurals name="power_center_battery_temperature">
         <item quantity="other">%d ℃</item>
@@ -344,6 +483,12 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
     <plurals name="power_off_warning_notification_message">
         <item quantity="other">Thiết bị của bạn sẽ tắt trong %d giây. Kết nối bộ sạc.</item>
     </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">%d ứng dụng tự khởi chạy thường xuyên</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">%d ứng dụng hao pin</item>
+    </plurals>
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d biểu tượng ứng dụng đã được ẩn</item>
     </plurals>
@@ -355,6 +500,39 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
     </plurals>
     <plurals name="privacy_pop_times">
         <item quantity="other">%s lần</item>
+    </plurals>
+    <plurals name="privacy_risk_app_count">
+        <item quantity="other">%d ứng dụng</item>
+    </plurals>
+    <plurals name="privacy_risk_dangerous_permissions_tip">
+        <item quantity="other">Đã cấp %d quyền rủi ro cao</item>
+    </plurals>
+    <plurals name="privacy_risk_install_app_tip">
+        <item quantity="other">%d ứng dụng nguy hiểm được tìm thấy</item>
+    </plurals>
+    <plurals name="privacy_risk_photo_location_tip">
+        <item quantity="other">%d nguy cơ tiết lộ thông tin vị trí được phát hiện</item>
+    </plurals>
+    <plurals name="privacy_risk_result_item_error">
+        <item quantity="other">%d nguy cơ được phát hiện</item>
+    </plurals>
+    <plurals name="privacy_risk_result_msg">
+        <item quantity="other">%d nguy cơ tiềm ẩn được tìm thấy</item>
+    </plurals>
+    <plurals name="privacy_risk_result_photo_sensitive_msg">
+        <item quantity="other">%d ảnh có thể chứa thông tin riêng tư hoặc nhạy cảm</item>
+    </plurals>
+    <plurals name="privacy_risk_result_protection_tip">
+        <item quantity="other">%d tính năng bảo vệ tính riêng tư đã tắt</item>
+    </plurals>
+    <plurals name="privacy_risk_sensitive_permissions_tip">
+        <item quantity="other">%d quyền nhạy cảm đã được cấp</item>
+    </plurals>
+    <plurals name="privacy_risk_uninstall_btn">
+        <item quantity="other">Gỡ cài đặt %d ứng dụng</item>
+    </plurals>
+    <plurals name="privacy_risk_work_encryption_msg">
+        <item quantity="other">%d mục cần tăng cường bảo vệ</item>
     </plurals>
     <plurals name="quick_optimize_issue_count">
         <item quantity="other">%d vấn đề pin</item>
@@ -413,6 +591,9 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
     <plurals name="system_check_content">
         <item quantity="other">%1$d mục an toàn</item>
     </plurals>
+    <plurals name="title_app_update_cn">
+        <item quantity="other">&lt;Data>Cập nhật &lt;font color=#F22424>%d&lt;/font> ứng dụng&lt;/Data></item>
+    </plurals>
     <plurals name="title_virus_clean">
         <item quantity="other">Đã xóa %d virus</item>
     </plurals>
@@ -421,6 +602,12 @@ Nếu bạn bật dữ liệu di động lại, nhà mạng sẽ tính phí bổ
     </plurals>
     <plurals name="uninstall_game_count_title">
         <item quantity="other">Chưa thêm %d trò chơi</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pattern_summary_new">
+        <item quantity="other">Kết nối ít nhất %s điểm</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pin_summary_new">
+        <item quantity="other">Nhập %s chữ số</item>
     </plurals>
     <plurals name="videobox_settings_manager_apps_count">
         <item quantity="other">%d ứng dụng</item>
