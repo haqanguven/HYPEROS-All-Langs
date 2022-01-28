@@ -35,7 +35,7 @@
     <string name="CLIRPermanent">Δεν μπορείτε να αλλάξετε τη ρύθμιση του αναγνωριστικού καλούντος.</string>
     <string name="CfMmi">Προώθηση κλήσεων</string>
     <string name="ClipMmi">Εισερχόμενη αναγνώριση κλήσης</string>
-    <string name="ClirMmi">Εξερχόμενη αναγνώριση κλήσης</string>
+    <string name="ClirMmi">Απόκρυψη εξερχόμενης αναγνώρισης κλήσης</string>
     <string name="CndMmi">Παράδοση καλούμενου αριθμού</string>
     <string name="CnipMmi">Υπάρχει αριθμός κλήσης</string>
     <string name="CnirMmi">Απόκρυψη αριθμού κλήσης</string>
@@ -201,17 +201,18 @@
 Τρέχουσες λειτουργίες:
 %1$s
 Μπορείτε να αλλάξετε τις επιλεγμένες λειτουργίες στις Ρυθμίσεις > Προσβασιμότητα."</string>
-    <string name="accessibility_shortcut_multiple_service_warning_title">Θέλετε να ενεργοποιήσετε τις λειτουργίες προσβασιμότητας;</string>
+    <string name="accessibility_shortcut_multiple_service_warning_title">Ενεργοποίηση συντόμευσης για λειτουργίες προσβασιμότητας;</string>
     <string name="accessibility_shortcut_off">Να μην ενεργοποιηθούν</string>
     <string name="accessibility_shortcut_on">Ενεργοποίηση</string>
     <string name="accessibility_shortcut_single_service_warning">"Μπορείτε να ενεργοποιήσετε τη λειτουργία %1$s, η οποία είναι μία από τις λειτουργίες προσβασιμότητας, πατώντας παρατεταμένα ταυτόχρονα τα δύο πλήκτρα έντασης ήχου για μερικά δευτερόλεπτα. Αυτό ενδέχεται να αλλάξει τον τρόπο λειτουργίας της συσκευής σας.
 
 Μπορείτε να αλλάξετε αυτή τη συντόμευση σε μια άλλη λειτουργία στις Ρυθμίσεις > Προσβασιμότητα."</string>
-    <string name="accessibility_shortcut_single_service_warning_title">Θέλετε να ενεργοποιήσετε τη λειτουργία %1$s;</string>
+    <string name="accessibility_shortcut_single_service_warning_title">Ενεργοποίηση συντόμευσης %1$s;</string>
     <string name="accessibility_shortcut_spoken_feedback">Πατήστε παρατεταμένα και τα δύο κουμπιά έντασης ήχου για τρία δευτερόλεπτα, ώστε να χρησιμοποιήσετε την υπηρεσία %1$s</string>
     <string name="accessibility_shortcut_toogle_warning">Όταν η συντόμευση είναι ενεργοποιημένη, το πάτημα και των δύο κουμπιών έντασης ήχου για 3 δευτερόλεπτα θα ξεκινήσει μια λειτουργία προσβασιμότητας.</string>
     <string name="accessibility_shortcut_warning_dialog_title">Να χρησιμοποιείται η συντόμευση προσβασιμότητας;</string>
     <string name="accessibility_system_action_back_label">Επιστροφή</string>
+    <string name="accessibility_system_action_dismiss_notification_shade">Παράβλεψη πλαισίου σκίασης ειδοποιήσεων</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Συντόμευση προσβασιμότητας</string>
     <string name="accessibility_system_action_home_label">Αρχική οθόνη</string>
     <string name="accessibility_system_action_lock_screen_label">Οθόνη κλειδώματος</string>
@@ -278,6 +279,7 @@
     <string name="anr_title" />
     <string name="app_blocked_message">Η εφαρμογή %1$s δεν είναι διαθέσιμη αυτήν τη στιγμή.</string>
     <string name="app_blocked_title">Η εφαρμογή δεν είναι διαθέσιμη</string>
+    <string name="app_category_accessibility">Προσβασιμότητα</string>
     <string name="app_category_audio">Μουσική και ήχος</string>
     <string name="app_category_game">Παιχνίδια</string>
     <string name="app_category_image">Φωτογραφίες και εικόνες</string>
@@ -344,25 +346,22 @@
     <string name="badPin">Το παλιό PIN που πληκτρολογήσατε είναι λάθος.</string>
     <string name="badPuk">Ο κωδικός PUK που πληκτρολογήσατε είναι λάθος.</string>
     <string name="battery_saver_charged_notification_summary">Το τηλέφωνο είναι αρκετά φορτισμένο. Οι λειτουργίες δεν περιορίζονται πλέον.</string>
-    <string name="battery_saver_description">"Για την επέκταση της διάρκειας ζωής της μπαταρίας, η Εξοικονόμηση μπαταρίας:
-
-•Ενεργοποιεί το Σκούρο θέμα
-•Απενεργοποιεί ή περιορίζει τη δραστηριότητα παρασκηνίου, ορισμένα οπτικά εφέ και άλλες λειτουργίες όπως την εντολή Hey Google."</string>
-    <string name="battery_saver_description_with_learn_more">"Για την επέκταση της διάρκειας ζωής της μπαταρίας σας, η Εξοικονόμηση μπαταρίας:
-
-•Ενεργοποιεί το Σκούρο θέμα
-•Απενεργοποιεί ή περιορίζει τη δραστηριότητα παρασκηνίου, ορισμένα οπτικά εφέ και άλλες λειτουργίες όπως την εντολή Hey Google
-
-"<annotation id="url">Μάθετε περισσότερα</annotation></string>
+    <string name="battery_saver_description">Η Εξοικονόμηση μπαταρίας ενεργοποιεί το Σκούρο θέμα και περιορίζει ή απενεργοποιεί τη δραστηριότητα στο παρασκήνιο, ορισμένα οπτικά εφέ, συγκεκριμένες λειτουργίες και ορισμένες συνδέσεις δικτύου.</string>
+    <string name="battery_saver_description_with_learn_more">Η Εξοικονόμηση μπαταρίας ενεργοποιεί το Σκούρο θέμα και περιορίζει ή απενεργοποιεί τη δραστηριότητα στο παρασκήνιο, ορισμένα οπτικά εφέ, συγκεκριμένες λειτουργίες και κάποιες συνδέσεις δικτύου.</string>
     <string name="battery_saver_notification_channel_name">Εξοικονόμηση μπαταρίας</string>
     <string name="battery_saver_off_notification_title">Η Εξοικονόμηση μπαταρίας απενεργοποιήθηκε</string>
     <string name="beforeOneMonthDurationPast">Παλαιότερα από 1 μήνα</string>
+    <string name="biometric_app_setting_name">Χρήση βιομετρικών</string>
+    <string name="biometric_dialog_default_subtitle">Χρησιμοποιήστε βιομετρικά για να συνεχίσετε</string>
     <string name="biometric_dialog_default_title">Επαλήθευση ταυτότητας</string>
     <string name="biometric_error_canceled">Ο έλεγχος ταυτότητας ακυρώθηκε</string>
     <string name="biometric_error_device_not_secured">Δεν έχει οριστεί PIN, μοτίβο ή κωδικός πρόσβασης</string>
+    <string name="biometric_error_generic">Σφάλμα κατά τον έλεγχο ταυτότητας</string>
     <string name="biometric_error_hw_unavailable">Δεν υπάρχει διαθέσιμος βιομετρικός εξοπλισμός</string>
     <string name="biometric_error_user_canceled">Ο έλεγχος ταυτότητας ακυρώθηκε</string>
     <string name="biometric_not_recognized">Δεν αναγνωρίστηκε</string>
+    <string name="biometric_or_screen_lock_app_setting_name">Χρήση βιομετρικών ή κλειδώματος οθόνης</string>
+    <string name="biometric_or_screen_lock_dialog_default_subtitle">Χρήση βιομετρικών στοιχείων ή κλειδώματος οθόνης για συνέχεια</string>
     <string name="bluetooth_a2dp_audio_route_name">Ήχος Bluetooth</string>
     <string name="bluetooth_airplane_mode_toast">Το Bluetooth θα παραμείνει ενεργό κατά τη λειτουργία πτήσης.</string>
     <string name="bugreport_message">Θα συλλέξει πληροφορίες σχετικά με την τρέχουσα κατάσταση της συσκευής σας και θα τις στείλει μέσω μηνύματος ηλεκτρονικού ταχυδρομείου. Απαιτείται λίγος χρόνος για τη σύνταξη της αναφοράς σφάλματος και την αποστολή της. Κάντε λίγη υπομονή.</string>
@@ -374,6 +373,13 @@
     <string name="bugreport_screenshot_success_toast">Έγινε λήψη στιγμιότυπου οθόνης με αναφορά σφάλματος</string>
     <string name="bugreport_title">Αναφορά σφάλματος</string>
     <string name="byteShort">B</string>
+    <string name="call_notification_answer_action">Απάντηση</string>
+    <string name="call_notification_answer_video_action">Βίντεο</string>
+    <string name="call_notification_decline_action">Απόρριψη</string>
+    <string name="call_notification_hang_up_action">Τερματισμός</string>
+    <string name="call_notification_incoming_text">Εισερχόμενη κλήση</string>
+    <string name="call_notification_ongoing_text">Κλήση σε εξέλιξη</string>
+    <string name="call_notification_screening_text">Διαλογή εισερχόμενης κλήσης</string>
     <string name="capability_desc_canCaptureFingerprintGestures">Μπορεί να αναγνωρίσει κινήσεις που εκτελούνται στον αισθητήρα δακτυλικού αποτυπώματος της συσκευής.</string>
     <string name="capability_desc_canControlMagnification">Ελέγξτε το επίπεδο ζουμ και τη θέση της οθόνης.</string>
     <string name="capability_desc_canPerformGestures">Επιτρέπει το πάτημα, την ολίσθηση, το πλησίασμα και άλλες κινήσεις.</string>
@@ -434,6 +440,7 @@
     <string name="country_selection_title">Προτίμηση περιοχής</string>
     <string name="create_contact_using">"Δημιουργία επαφής
 με τη χρήση του %s"</string>
+    <string name="crossSimFormat_spn_cross_sim_calling">%s Δημιουργία αντιγράφων ασφαλείας κλήσεων</string>
     <string name="data_saver_description">Προκειμένου να μειωθεί η χρήση δεδομένων, η Εξοικονόμηση δεδομένων αποτρέπει την αποστολή ή λήψη δεδομένων από ορισμένες εφαρμογές στο παρασκήνιο. Μια εφαρμογή που χρησιμοποιείτε αυτήν τη στιγμή μπορεί να χρησιμοποιήσει δεδομένα αλλά με μικρότερη συχνότητα. Για παράδειγμα, οι εικόνες μπορεί να μην εμφανίζονται μέχρι να τις πατήσετε.</string>
     <string name="data_saver_enable_button">Ενεργοποίηση</string>
     <string name="data_saver_enable_title">Ενεργ.Εξοικονόμησης δεδομένων;</string>
@@ -488,6 +495,7 @@
     <string name="dial_number_using">"Κλήση αριθμού
 με τη χρήση %s"</string>
     <string name="disable_accessibility_shortcut">Απενεργοποίηση συντόμευσης</string>
+    <string name="dismiss_action">Παράβλεψη</string>
     <string name="display_manager_built_in_display_name">Ενσωματωμένη οθόνη</string>
     <string name="display_manager_hdmi_display_name">Οθόνη HDMI</string>
     <string name="display_manager_overlay_display_name">Επικάλυψη #%1$d</string>
@@ -583,7 +591,7 @@
     <string name="face_acquired_recalibrate">Καταχωρίστε ξανά το πρόσωπό σας.</string>
     <string name="face_acquired_roll_too_extreme">Στρέψτε λιγότερο το κεφάλι σας.</string>
     <string name="face_acquired_sensor_dirty">Καθαρίστε το επάνω μέρος της οθόνης σας, συμπεριλαμβανομένης της μαύρης γραμμής</string>
-    <string name="face_acquired_tilt_too_extreme">Στρέψτε λιγότερο το κεφάλι σας.</string>
+    <string name="face_acquired_tilt_too_extreme">Γείρετε λιγότερο το κεφάλι σας.</string>
     <string name="face_acquired_too_bright">Υπερβολικά έντονος φωτισμός. Δοκιμάστε πιο ήπιο.</string>
     <string name="face_acquired_too_close">Απομακρύνετε περισσότερο το τηλέφωνο.</string>
     <string name="face_acquired_too_dark">Πολύ σκοτεινό περιβάλλον. Φροντίστε τον φωτισμό.</string>
@@ -595,25 +603,32 @@
     <string name="face_acquired_too_much_motion">Πάρα πολλή κίνηση. Κρατήστε σταθερό το τηλέφωνο.</string>
     <string name="face_acquired_too_right">Μετακινήστε το τηλέφωνο στα αριστερά.</string>
     <string name="face_acquired_too_similar">Πολύ παρόμοιο, αλλάξτε την πόζα σας.</string>
+    <string name="face_app_setting_name">Χρήση Ξεκλειδώματος με το πρόσωπο</string>
     <string name="face_authenticated_confirmation_required">Έγινε έλεγχος ταυτότητας προσώπου, πατήστε \"Επιβεβαίωση\"</string>
     <string name="face_authenticated_no_confirmation_required">Έγινε έλεγχος ταυτότητας προσώπου</string>
+    <string name="face_dialog_default_subtitle">Χρησιμοποιήστε το πρόσωπό σας για να συνεχίσετε</string>
     <string name="face_error_canceled">Η ενέργεια προσώπου ακυρώθηκε.</string>
     <string name="face_error_hw_not_available">Αδύν. επαλήθ. προσώπου. Μη διαθέσιμος εξοπλισμός.</string>
-    <string name="face_error_hw_not_present">Το Face Unlock δεν υποστηρίζεται σε αυτήν τη συσκευή.</string>
+    <string name="face_error_hw_not_present">Αυτή η συσκευή δεν υποστηρίζει το Ξεκλείδωμα με το πρόσωπο</string>
     <string name="face_error_lockout">Πάρα πολλές προσπάθειες. Δοκιμάστε ξανά αργότερα.</string>
-    <string name="face_error_lockout_permanent">Υπερβολικά πολλές προσπάθειες. Το Face Unlock απενεργοποιήθηκε.</string>
+    <string name="face_error_lockout_permanent">Πάρα πολλές προσπάθειες. Το Ξεκλείδωμα με το πρόσωπο απενεργοποιήθηκε.</string>
+    <string name="face_error_lockout_screen_lock">Πάρα πολλές προσπάθειες. Χρησιμοποιήστε εναλλακτικά το κλείδωμα οθόνης.</string>
     <string name="face_error_no_space">Η αποθήκ. νέων δεδομ. προσώπ. είναι αδύν. Διαγρ. ένα παλιό.</string>
-    <string name="face_error_not_enrolled">Δεν έχετε ρυθμίσει το Face Unlock.</string>
+    <string name="face_error_not_enrolled">Δεν έχετε ρυθμίσει το Ξεκλείδωμα με το πρόσωπο</string>
     <string name="face_error_security_update_required">Ο αισθητήρας απενεργοποιήθηκε προσωρινά.</string>
-    <string name="face_error_timeout">Δοκιμάστε ξανά το Face Unlock.</string>
+    <string name="face_error_timeout">Δοκιμάστε ξανά το Ξεκλείδωμα με το πρόσωπο</string>
     <string name="face_error_unable_to_process">Αδύνατη επαλήθευση του προσώπου. Επανάληψη.</string>
-    <string name="face_error_user_canceled">Το Face Unlock ακυρώθηκε από τον χρήστη.</string>
+    <string name="face_error_user_canceled">Το Ξεκλείδωμα με το πρόσωπο ακυρώθηκε από τον χρήστη</string>
     <string name="face_icon_content_description">Εικ. προσ.</string>
     <string name="face_name_template">Πρόσωπο %d</string>
-    <string name="face_recalibrate_notification_content">Για να βελτιώσετε την αναγνώριση, εγγράψτε ξανά το πρόσωπό σας</string>
-    <string name="face_recalibrate_notification_name">Face Unlock</string>
-    <string name="face_recalibrate_notification_title">Εγγράψτε ξανά το πρόσωπό σας</string>
-    <string name="faceunlock_multiple_failures">Έγινε υπέρβαση του μέγιστου αριθμού προσπαθειών Face Unlock</string>
+    <string name="face_or_screen_lock_app_setting_name">Χρήση προσώπου ή κλειδώματος οθόνης</string>
+    <string name="face_or_screen_lock_dialog_default_subtitle">Χρησιμοποιήστε το πρόσωπό σας ή το κλείδωμα οθόνης για συνέχεια</string>
+    <string name="face_recalibrate_notification_content">Πατήστε για να διαγράψετε το μοντέλο προσώπου και, στη συνέχεια, προσθέστε το πρόσωπό σας ξανά.</string>
+    <string name="face_recalibrate_notification_name">Ξεκλείδωμα με το πρόσωπο</string>
+    <string name="face_recalibrate_notification_title">Πρόβλημα με το Ξεκλείδωμα με το πρόσωπο</string>
+    <string name="face_setup_notification_content">Ξεκλειδώστε το τηλέφωνό σας απλώς κοιτώντας το</string>
+    <string name="face_setup_notification_title">Ρύθμιση της λειτουργίας Ξεκλείδωμα με το πρόσωπο</string>
+    <string name="faceunlock_multiple_failures">Έγινε υπέρβαση του μέγιστου αριθμού προσπαθειών για Ξεκλείδωμα με το πρόσωπο</string>
     <string name="factory_reset_message">"Δεν είναι δυνατή η χρήση της εφαρμογής διαχειριστή. Η συσκευή σας θα διαγραφεί.
 
 Εάν έχετε ερωτήσεις, επικοινωνήστε με τον διαχειριστή του οργανισμού σας."</string>
@@ -632,24 +647,38 @@
     <string name="find_next">Εύρεση επόμενου</string>
     <string name="find_on_page">Εύρεση στη σελίδα</string>
     <string name="find_previous">Εύρεση προηγούμενου</string>
-    <string name="fingerprint_acquired_imager_dirty">Ο αισθητήρας δακτυλικού αποτυπώματος δεν είναι καθαρός. Καθαρίστε τον και δοκιμάστε ξανά.</string>
+    <string name="fingerprint_acquired_already_enrolled">Δοκιμάστε άλλο δακτυλικό αποτύπωμα</string>
+    <string name="fingerprint_acquired_imager_dirty">Καθαρίστε τον αισθητήρα</string>
+    <string name="fingerprint_acquired_immobile">Αλλάζετε ελαφρώς τη θέση του δακτύλου σας κάθε φορά.</string>
     <string name="fingerprint_acquired_insufficient">Δεν ήταν δυνατή η επεξεργασία του δακτυλικού αποτυπώματος. Δοκιμάστε ξανά.</string>
-    <string name="fingerprint_acquired_partial">Εντοπίστηκε μόνο μέρος του δακτυλικού αποτυπώματος. Δοκιμάστε ξανά.</string>
-    <string name="fingerprint_acquired_too_fast">Κινηθήκατε πολύ γρήγορα. Δοκιμάστε ξανά.</string>
+    <string name="fingerprint_acquired_partial">Εντοπίστηκε μέρους του δακτυλικού αποτυπώματος</string>
+    <string name="fingerprint_acquired_too_bright">Υπερβολικά έντονος φωτισμός</string>
+    <string name="fingerprint_acquired_too_fast">Κρατήστε για λίγο ακόμη</string>
     <string name="fingerprint_acquired_too_slow">Πολύ αργή κίνηση δαχτύλου. Δοκιμάστε ξανά.</string>
+    <string name="fingerprint_acquired_try_adjusting">Δοκιμάστε να το προσαρμόσετε</string>
+    <string name="fingerprint_app_setting_name">Χρήση δακτυλικού αποτυπώματος</string>
     <string name="fingerprint_authenticated">Η ταυτότητα του δακτυλικού αποτυπώματος ελέγχθηκε</string>
+    <string name="fingerprint_dialog_default_subtitle">Χρησιμοποιήστε το δακτυλικό αποτύπωμά σας για να συνεχίσετε</string>
+    <string name="fingerprint_error_bad_calibration">Δεν είναι δυνατή η χρήση του αισθητήρα δακτυλικών αποτυπωμάτων. Επισκεφτείτε έναν πάροχο υπηρεσιών επισκευής.</string>
     <string name="fingerprint_error_canceled">Η λειτουργία δακτυλικού αποτυπώματος ακυρώθηκε.</string>
     <string name="fingerprint_error_hw_not_available">Ο εξοπλισμός δακτυλικού αποτυπώματος δεν είναι διαθέσιμος.</string>
     <string name="fingerprint_error_hw_not_present">Αυτή η συσκευή δεν διαθέτει αισθητήρα δακτυλικού αποτυπώματος.</string>
     <string name="fingerprint_error_lockout">Πάρα πολλές προσπάθειες. Δοκιμάστε ξανά αργότερα.</string>
     <string name="fingerprint_error_lockout_permanent">Πάρα πολλές προσπάθειες. Ο αισθητήρας δακτυλικών αποτυπωμάτων απενεργοποιήθηκε.</string>
     <string name="fingerprint_error_no_fingerprints">Δεν έχουν καταχωριστεί δακτυλικά αποτυπώματα.</string>
-    <string name="fingerprint_error_no_space">Δεν είναι δυνατή η αποθήκευση του δακτυλικού αποτυπώματος. Καταργήστε το υπάρχον δακτυλικό αποτύπωμα.</string>
+    <string name="fingerprint_error_no_space">Δεν είναι δυνατή η ρύθμιση του δακτυλικού αποτυπώματος</string>
     <string name="fingerprint_error_security_update_required">Ο αισθητήρας απενεργοποιήθηκε προσωρινά.</string>
     <string name="fingerprint_error_timeout">Λήξη χρονικού ορίου δακτυλικού αποτυπώματος. Δοκιμάστε ξανά.</string>
     <string name="fingerprint_error_unable_to_process">Δοκιμάστε ξανά.</string>
     <string name="fingerprint_error_user_canceled">Η λειτουργία δακτυλικού αποτυπώματος ακυρώθηκε από τον χρήστη.</string>
     <string name="fingerprint_name_template">Δάχτυλο %d</string>
+    <string name="fingerprint_or_screen_lock_app_setting_name">Χρήση δακτυλικού αποτυπώματος ή κλειδώματος οθόνης</string>
+    <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Χρησιμοποιήστε το δακτυλικό σας αποτύπωμα ή το κλείδωμα οθόνης για να συνεχίσετε</string>
+    <string name="fingerprint_recalibrate_notification_content">Επισκεφτείτε έναν πάροχο υπηρεσιών επισκευής.</string>
+    <string name="fingerprint_recalibrate_notification_name">Ξεκλείδωμα με δακτυλικό αποτύπωμα</string>
+    <string name="fingerprint_recalibrate_notification_title">Δεν είναι δυνατή η χρήση του αισθητήρα δακτυλικών αποτυπωμάτων</string>
+    <string name="fingerprint_setup_notification_content">Πατήστε για να προσθέσετε δακτυλικό αποτύπωμα</string>
+    <string name="fingerprint_setup_notification_title">Ρυθμίστε περισσότερους τρόπους ξεκλειδώματος</string>
     <string name="fingerprints">Αποτυπώματα</string>
     <string name="floating_toolbar_close_overflow_description">Κλείσιμο υπερχείλισης</string>
     <string name="floating_toolbar_open_overflow_description">Περισσότερες επιλογές</string>
@@ -660,7 +689,14 @@
     <string name="foreground_service_tap_for_details">Πατήστε για λεπτομέρειες σχετικά με τη χρήση μπαταρίας και δεδομένων</string>
     <string name="forward_intent_to_owner">Χρησιμοποιείτε αυτήν την εφαρμογή εκτός του προφίλ εργασίας σας</string>
     <string name="forward_intent_to_work">Χρησιμοποιείτε αυτήν την εφαρμογή στο προφίλ εργασίας</string>
+    <string name="fp_enrollment_powerbutton_intent_message">"Κατά τη ρύθμιση του δακτυλικού σας αποτυπώματος, πατήσατε το κουμπί λειτουργίας.
+
+Αυτό απενεργοποιεί συνήθως την οθόνη."</string>
+    <string name="fp_enrollment_powerbutton_intent_negative_button">Ακύρωση</string>
+    <string name="fp_enrollment_powerbutton_intent_positive_button">Απενεργοποίηση</string>
+    <string name="fp_enrollment_powerbutton_intent_title">Απενεργοποίηση οθόνης;</string>
     <string name="gadget_host_error_inflating">Δεν ήταν δυνατή η προσθήκη του γραφικού στοιχείου.</string>
+    <string name="geofencing_service">Υπηρεσία γεωγραφικής οριοθέτησης</string>
     <string name="gigabyteShort">GB</string>
     <string name="global_action_assist">Βοήθεια</string>
     <string name="global_action_bug_report">Αναφορά σφαλμάτων</string>
@@ -681,9 +717,8 @@
     <string name="global_actions_airplane_mode_off_status">Λειτ. πτήσης είναι ανενεργή</string>
     <string name="global_actions_airplane_mode_on_status">Η λειτουργία πτήσης είναι ενεργοποιημένη.</string>
     <string name="global_actions_toggle_airplane_mode">Λειτουργία πτήσης</string>
-    <string name="gnss_nfw_notification_message_carrier">Η εταιρεία κινητής τηλεφωνίας σας απέκτησε πρόσβαση στην τοποθεσία σας κατά τη διάρκεια μιας πρόσφατης περιόδου λειτουργίας έκτακτης ανάγκης.</string>
-    <string name="gnss_nfw_notification_message_oem">Ο κατασκευαστής της συσκευής σας απέκτησε πρόσβαση στην τοποθεσία σας κατά τη διάρκεια μιας πρόσφατης περιόδου λειτουργίας έκτακτης ανάγκης.</string>
-    <string name="gnss_nfw_notification_title">Πρόσβαση στην τοποθεσία έκτακτης ανάγκης</string>
+    <string name="gnss_service">Υπηρεσία GNSS</string>
+    <string name="gnss_time_update_service">Υπηρεσία ενημέρωσης ώρας GNSS</string>
     <string name="gpsNotifMessage">Ζητήθηκε από %1$s (%2$s)</string>
     <string name="gpsNotifTicker">Αίτημα τοποθεσίας από %s</string>
     <string name="gpsNotifTitle">Αίτημα τοποθεσίας</string>
@@ -778,7 +813,7 @@
     <string name="keyguard_accessibility_add_widget">Προσθήκη γραφικού στοιχείου</string>
     <string name="keyguard_accessibility_camera">Φωτογραφική μηχανή</string>
     <string name="keyguard_accessibility_expand_lock_area">Ανάπτυξη περιοχής ξεκλειδώματος.</string>
-    <string name="keyguard_accessibility_face_unlock">Face unlock.</string>
+    <string name="keyguard_accessibility_face_unlock">Ξεκλείδωμα με το πρόσωπο.</string>
     <string name="keyguard_accessibility_password_unlock">Ξεκλείδωμα κωδικού πρόσβασης.</string>
     <string name="keyguard_accessibility_pattern_area">Περιοχή μοτίβου.</string>
     <string name="keyguard_accessibility_pattern_unlock">Ξεκλείδωμα μοτίβου.</string>
@@ -1027,8 +1062,19 @@
     <string name="mediasize_japanese_jis_exec">JIS Exec</string>
     <string name="mediasize_japanese_kahu">Kahu</string>
     <string name="mediasize_japanese_kaku2">Kaku2</string>
+    <string name="mediasize_japanese_l">Μ</string>
     <string name="mediasize_japanese_oufuku">Oufuku</string>
     <string name="mediasize_japanese_you4">You4</string>
+    <string name="mediasize_na_ansi_c">ANSI C</string>
+    <string name="mediasize_na_ansi_d">ANSI D</string>
+    <string name="mediasize_na_ansi_e">ANSI E</string>
+    <string name="mediasize_na_ansi_f">ANSI F</string>
+    <string name="mediasize_na_arch_a">Arch A</string>
+    <string name="mediasize_na_arch_b">Arch B</string>
+    <string name="mediasize_na_arch_c">Arch C</string>
+    <string name="mediasize_na_arch_d">Arch D</string>
+    <string name="mediasize_na_arch_e">Arch E</string>
+    <string name="mediasize_na_arch_e1">Arch E1</string>
     <string name="mediasize_na_foolscap">Foolscap</string>
     <string name="mediasize_na_gvrnmt_letter">Κρατική επιστολή</string>
     <string name="mediasize_na_index_3x5">Index Card 3x5</string>
@@ -1040,6 +1086,7 @@
     <string name="mediasize_na_letter">Επιστολή</string>
     <string name="mediasize_na_monarch">Monarch</string>
     <string name="mediasize_na_quarto">Quarto</string>
+    <string name="mediasize_na_super_b">Super B</string>
     <string name="mediasize_na_tabloid">Tabloid</string>
     <string name="mediasize_unknown_landscape">Άγνωστος οριζόντιος προσανατολισμός</string>
     <string name="mediasize_unknown_portrait">Άγνωστος κατακόρυφος προσανατολισμός</string>
@@ -1073,6 +1120,10 @@
     <string name="mime_type_spreadsheet_ext">Υπολογιστικό φύλλο %1$s</string>
     <string name="mime_type_video">Βίντεο</string>
     <string name="mime_type_video_ext">Βίντεο %1$s</string>
+    <string name="miniresolver_open_in_personal">Άνοιγμα εφαρμογής %s στο προσωπικό προφίλ;</string>
+    <string name="miniresolver_open_in_work">Άνοιγμα εφαρμογής %s στο προφίλ εργασίας;</string>
+    <string name="miniresolver_use_personal_browser">Χρήση προσωπικού προγράμματος περιήγησης</string>
+    <string name="miniresolver_use_work_browser">Χρήση προγράμματος περιήγησης εργασίας</string>
     <string name="minute">λεπτά</string>
     <string name="minute_picker_description">Κυκλικό ρυθμιστικό λεπτών</string>
     <string name="minutes">λεπτά</string>
@@ -1092,7 +1143,16 @@
     <string name="mobile_no_internet">Το δίκτυο κινητής τηλεφωνίας δεν έχει πρόσβαση στο διαδίκτυο.</string>
     <string name="month_day_year" formatted="false">%d %B %Y</string>
     <string name="more_item_label">Περισσότερα</string>
+    <string name="music_recognition_manager_service">Υπηρεσία διαχείρισης αναγνώρισης μουσικής</string>
     <string name="muted_by">Το τρίτο μέρος %1$s θέτει ορισμένους ήχους σε σίγαση</string>
+    <string name="nas_upgrade_notification_content">Οι προτεινόμενες ενέργειες και απαντήσεις παρέχονται πλέον από βελτιωμένες ειδοποιήσεις. Δεν υποστηρίζονται πλέον οι Προσαρμοστικές ειδοποιήσεις Android.</string>
+    <string name="nas_upgrade_notification_disable_action">Απενεργοποίηση</string>
+    <string name="nas_upgrade_notification_enable_action">ΟΚ</string>
+    <string name="nas_upgrade_notification_learn_more_action">Μάθετε περισσότερα</string>
+    <string name="nas_upgrade_notification_learn_more_content">"Στο Android 12, οι Βελτιωμένες ειδοποιήσεις αντικατέστησαν τις Προσαρμοστικές ειδοποιήσεις Android. Αυτή η λειτουργία εμφανίζει προτεινόμενες ενέργειες και απαντήσεις και οργανώνει τις ειδοποιήσεις σας.
+
+Οι Βελτιωμένες ειδοποιήσεις μπορούν να αποκτήσουν πρόσβαση σε περιεχόμενο ειδοποιήσεων, συμπεριλαμβανομένων προσωπικών στοιχείων, όπως ονομάτων επαφών και μηνυμάτων Αυτή η λειτουργία παρέχει επίσης τη δυνατότητα παράβλεψης ειδοποιήσεων ή απάντησης σε αυτές, όπως η απάντηση σε τηλεφωνικές κλήσεις και ο έλεγχος της λειτουργίας Μην ενοχλείτε."</string>
+    <string name="nas_upgrade_notification_title">Βελτιωμένες ειδοποιήσεις</string>
     <string name="needPuk">Η κάρτα SIM έχει κλειδωθεί με κωδικό PUK. Πληκτρολογήστε τον κωδικό PUK για να την ξεκλειδώσετε.</string>
     <string name="needPuk2">Πληκτρολογήστε τον κωδικό PUK2 για την κατάργηση αποκλεισμού της κάρτας SIM.</string>
     <string name="negative_duration">−%1$s</string>
@@ -1117,12 +1177,15 @@
     <string name="no_recent_tasks">Δεν υπάρχουν πρόσφατες εφαρμογές.</string>
     <string name="noon">μεσημέρι</string>
     <string name="not_checked">μη επιλεγμένο</string>
+    <string name="not_selected">μη επιλεγμένο</string>
     <string name="notification_alerted_content_description">Ειδοποιήθηκε</string>
     <string name="notification_app_name_settings">Ρυθμίσεις</string>
     <string name="notification_app_name_system">Σύστημα</string>
     <string name="notification_appops_camera_active">Κάμερα</string>
     <string name="notification_appops_microphone_active">Μικρόφωνο</string>
     <string name="notification_appops_overlay_active">εμφανίζεται πάνω σε άλλες εφαρμογές στην οθόνη σας</string>
+    <string name="notification_channel_accessibility_magnification">Μεγιστοποίηση</string>
+    <string name="notification_channel_accessibility_security_policy">Χρήση προσβασιμότητας</string>
     <string name="notification_channel_account">Κατάσταση λογαριασμού</string>
     <string name="notification_channel_alerts">Ειδοποιήσεις</string>
     <string name="notification_channel_call_forward">Προώθηση κλήσης</string>
@@ -1152,13 +1215,20 @@
     <string name="notification_channel_voice_mail">Μηνύματα αυτόματου τηλεφωνητή</string>
     <string name="notification_channel_vpn">Κατάσταση VPN</string>
     <string name="notification_channel_wfc">Κλήση Wi-Fi</string>
+    <string name="notification_feedback_indicator">Υποβολή σχολίων</string>
+    <string name="notification_feedback_indicator_alerted">Αυτή η ειδοποίηση προωθήθηκε στις Προεπιλεγμένες. Πατήστε για να υποβάλετε σχόλια.</string>
+    <string name="notification_feedback_indicator_demoted">Αυτή η ειδοποίηση κατατάχθηκε χαμηλότερα. Πατήστε για να υποβάλετε σχόλια.</string>
+    <string name="notification_feedback_indicator_promoted">Αυτή η ειδοποίηση κατατάχθηκε ψηλότερα. Πατήστε για να υποβάλετε σχόλια.</string>
+    <string name="notification_feedback_indicator_silenced">Αυτή η ειδοποίηση υποβιβάστηκε στις Αθόρυβες. Πατήστε για να υποβάλετε σχόλια.</string>
     <string name="notification_hidden_text">Νέα ειδοποίηση</string>
     <string name="notification_history_title_placeholder">Προσαρμοσμένη ειδοποίηση εφαρμογής</string>
     <string name="notification_listener_binding_label">Υπηρεσία ακρόασης ειδοποίησης</string>
     <string name="notification_messaging_title_template">%1$s: %2$s</string>
+    <string name="notification_phishing_alert_content_description">Ειδοποίηση ηλεκτρονικού ψαρέματος (phishing)</string>
     <string name="notification_ranker_binding_label">Υπηρεσία κατάταξης ειδοποιήσεων</string>
     <string name="notification_reply_button_accessibility">Απάντηση</string>
     <string name="notification_title">Σφάλμα σύνδεσης για τον λογαριασμό %1$s</string>
+    <string name="notification_verified_content_description">Επαληθεύτηκε</string>
     <string name="notification_work_profile_content_description">Προφίλ εργασίας</string>
     <string name="now_string_shortest">τώρα</string>
     <string name="number_picker_decrement_button">Μείωση</string>
@@ -1168,6 +1238,7 @@
     <string name="old_app_action">Επιστρέψτε στην εφαρμογή %1$s</string>
     <string name="older">Παλαιότερα</string>
     <string name="oneMonthDurationPast">πριν από 1 μήνα</string>
+    <string name="one_handed_mode_feature_name">Λειτουργία ενός χεριού</string>
     <string name="open_permission_deny">Δεν έχετε άδεια για να ανοίξετε αυτήν τη σελίδα.</string>
     <string name="orgTypeCustom">Προσαρμοσμένο</string>
     <string name="orgTypeOther">Άλλο</string>
@@ -1183,6 +1254,11 @@
     <string name="password_keyboard_label_alpha_key">ΑΒΓ</string>
     <string name="password_keyboard_label_alt_key">ALT</string>
     <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="pasted_content">Η εφαρμογή %1$s επικόλλησε περιεχόμενο που αντιγράψατε</string>
+    <string name="pasted_from_app">Η εφαρμογή %1$s έκανε επικόλληση από την εφαρμογή %2$s</string>
+    <string name="pasted_from_clipboard">Η εφαρμογή %1$s επικόλλησε δεδομένα από το πρόχειρο</string>
+    <string name="pasted_image">Η εφαρμογή %1$s επικόλλησε την εικόνα που αντιγράψατε</string>
+    <string name="pasted_text">Η εφαρμογή %1$s επικόλλησε το κείμενο που αντιγράψατε</string>
     <string name="peerTtyModeFull">Αίτημα peer για TTY ΠΛΗΡΗΣ Λειτουργία</string>
     <string name="peerTtyModeHco">Αίτημα peer για TTY Λειτουργία HCO</string>
     <string name="peerTtyModeOff">Αίτημα peer για TTY Λειτουργία ΑΝΕΝΕΡΓΗ</string>
@@ -1205,6 +1281,7 @@
     <string name="permdesc_addVoicemail">Επιτρέπει στην εφαρμογή να προσθέτει μηνύματα στα εισερχόμενα του αυτόματου τηλεφωνητή σας.</string>
     <string name="permdesc_answerPhoneCalls">Επιτρέπει στην εφαρμογή να απαντά σε μια εισερχόμενη τηλεφωνική κλήση.</string>
     <string name="permdesc_audioWrite">Επιτρέπει στην εφαρμογή να τροποποιήσει τη μουσική συλλογή σας.</string>
+    <string name="permdesc_backgroundCamera">Αυτή η εφαρμογή μπορεί να τραβάει φωτογραφίες και να εγγράφει βίντεο μέσω της κάμερας, ανά πάσα στιγμή.</string>
     <string name="permdesc_bindCarrierMessagingService">Επιτρέπει στον κάτοχο τη δέσμευση στη διεπαφή ανωτάτου επιπέδου μιας υπηρεσίας ανταλλαγής μηνυμάτων εταιρείας κινητής τηλεφωνίας. Δεν απαιτείται για συνήθεις εφαρμογές.</string>
     <string name="permdesc_bindCarrierServices">Δίνει στον κάτοχο τη δυνατότητα δέσμευσης σε υπηρεσίες εταιρείας κινητής τηλεφωνίας. Δεν απαιτείται ποτέ για κανονικές εφαρμογές.</string>
     <string name="permdesc_bindCellBroadcastService">Επιτρέπει στην εφαρμογή να συνδέεται στη λειτουργική μονάδα εκπομπής κινητής τηλεφωνίας, προκειμένου να προωθεί τα μηνύματα εκπομπής κινητής τηλεφωνίας κατά τη λήψη τους. Οι ειδοποιήσεις εκπομπής κινητής τηλεφωνίας προβάλλονται σε ορισμένες τοποθεσίες, για να σας προειδοποιήσουν σχετικά με καταστάσεις έκτακτης ανάγκης. Οι κακόβουλες εφαρμογές μπορεί να επηρεάσουν την απόδοση ή τη λειτουργία της συσκευής σας κατά τη λήψη μιας εκπομπής κινητής τηλεφωνίας έκτακτης ανάγκης.</string>
@@ -1215,11 +1292,14 @@
     <string name="permdesc_bind_incall_service">Επιτρέπει στην εφαρμογή να ελέγχει πότε και πώς βλέπει ο χρήστης την οθόνη κατά τη διάρκεια κλήσης.</string>
     <string name="permdesc_bluetooth">Επιτρέπει στην εφαρμογή να προβάλλει τη διαμόρφωση του Bluetooth στο τηλέφωνο, καθώς και να πραγματοποιεί και να αποδέχεται συνδέσεις με συνδεδεμένες συσκευές.</string>
     <string name="permdesc_bluetoothAdmin">Επιτρέπει στην εφαρμογή τη διαμόρφωση του τοπικού tablet Bluetooth, τον εντοπισμό και τη σύζευξη με απομακρυσμένες συσκευές.</string>
+    <string name="permdesc_bluetooth_advertise">Επιτρέπει στην εφαρμογή να προβάλλει διαφημίσεις σε κοντινές συσκευές Bluetooth</string>
+    <string name="permdesc_bluetooth_connect">Επιτρέπει στην εφαρμογή τη σύνδεση σε συζευγμένες συσκευές Bluetooth</string>
+    <string name="permdesc_bluetooth_scan">Επιτρέπει στην εφαρμογή την ανακάλυψη και τη σύζευξη κοντινών συσκευών Bluetooth</string>
     <string name="permdesc_bodySensors">Επιτρέπει στην εφαρμογή να αποκτήσει πρόσβαση στα δεδομένα των αισθητήρων που παρακολουθούν τη φυσική σας κατάσταση, όπως τον καρδιακό ρυθμό σας.</string>
     <string name="permdesc_broadcastSticky">Επιτρέπει στην εφαρμογή την αποστολή εκπομπών sticky, οι οποίες παραμένουν μετά το τέλος της εκπομπής. Η υπερβολική χρήση ενδέχεται να καταστήσει τη λειτουργία του τηλεφώνου αργή ή ασταθή, προκαλώντας τη χρήση μεγάλου τμήματος της μνήμης.</string>
     <string name="permdesc_callCompanionApp">Επιτρέπει στην εφαρμογή να βλέπει και να ελέγχει τις εισερχόμενες κλήσεις στη συσκευή. Αυτό περιλαμβάνει πληροφορίες όπως τους αριθμούς κλήσεων για τις κλήσεις και την κατάσταση των κλήσεων.</string>
     <string name="permdesc_callPhone">Επιτρέπει στην εφαρμογή την κλήση αριθμών τηλεφώνου χωρίς δική σας παρέμβαση. Αυτό μπορεί να προκαλέσει μη αναμενόμενες χρεώσεις ή κλήσεις. Έχετε υπόψη ότι δεν επιτρέπεται στην εφαρμογή η κλήση αριθμών έκτακτης ανάγκης. Οι κακόβουλες εφαρμογές ενδέχεται να σας κοστίσουν χρήματα, πραγματοποιώντας κλήσεις χωρίς την έγκρισή σας.</string>
-    <string name="permdesc_camera">Αυτή η εφαρμογή μπορεί να τραβήξει φωτογραφίες και βίντεο χρησιμοποιώντας την κάμερα, ανά πάσα στιγμή.</string>
+    <string name="permdesc_camera">Αυτή η εφαρμογή μπορεί να τραβάει φωτογραφίες και να εγγράφει βίντεο μέσω της κάμερας, όταν τη χρησιμοποιείτε.</string>
     <string name="permdesc_cameraOpenCloseListener">Αυτή η εφαρμογή μπορεί να λαμβάνει επανακλήσεις κατά το άνοιγμα οποιασδήποτε συσκευής κάμερας (από οποιαδήποτε εφαρμογή) ή κατά το κλείσιμο.</string>
     <string name="permdesc_changeNetworkState">Επιτρέπει στην εφαρμογή την αλλαγή της κατάστασης συνδεσιμότητας δικτύου.</string>
     <string name="permdesc_changeTetherState">Επιτρέπει στην εφαρμογή την αλλαγή της κατάστασης συνδεσιμότητας δικτύου.</string>
@@ -1234,17 +1314,19 @@
     <string name="permdesc_exemptFromAudioRecordRestrictions">Εξαιρέστε την εφαρμογή από περιορισμούς για την εγγραφή ήχου.</string>
     <string name="permdesc_expandStatusBar">Επιτρέπει στην εφαρμογή να αναπτύξει ή να συμπτύξει τη γραμμή κατάστασης.</string>
     <string name="permdesc_foregroundService">Επιτρέπει στην εφαρμογή να χρησιμοποιεί υπηρεσίες προσκηνίου.</string>
+    <string name="permdesc_fullScreenIntent">Επιτρέπει στην εφαρμογή να προβάλει ειδοποιήσεις ως δραστηριότητες πλήρους οθόνης σε μια κλειδωμένη συσκευή</string>
     <string name="permdesc_getAccounts">Επιτρέπει στην εφαρμογή τη λήψη της λίστας λογαριασμών που υπάρχουν στο τηλέφωνο. Μπορεί να περιλαμβάνονται τυχόν λογαριασμοί που δημιουργήθηκαν από εφαρμογές που έχετε εγκαταστήσει.</string>
     <string name="permdesc_getPackageSize">Επιτρέπει στην εφαρμογή να ανακτήσει τα μεγέθη κώδικα, δεδομένων και προσωρινής μνήμης</string>
     <string name="permdesc_getTasks">Επιτρέπει στην εφαρμογή την ανάκτηση πληροφοριών σχετικά με τρέχουσες και πρόσφατα εκτελούμενες εργασίες. Αυτό μπορεί να δίνει τη δυνατότητα στην εφαρμογή να ανακαλύπτει πληροφορίες σχετικά με το ποιες εφαρμογές χρησιμοποιούνται στη συσκευή.</string>
     <string name="permdesc_handoverStatus">Επιτρέπει σε αυτήν την εφαρμογή να λαμβάνει πληροφορίες σχετικά με τις τρέχουσες μεταφορές Android Beam</string>
+    <string name="permdesc_highSamplingRateSensors">Επιτρέπει στην εφαρμογή τη δειγματοληψία των δεδομένων αισθητήρα με ρυθμό μεγαλύτερο από 200 Hz.</string>
     <string name="permdesc_imagesWrite">Επιτρέπει στην εφαρμογή να τροποποιήσει τη συλλογή φωτογραφιών σας.</string>
     <string name="permdesc_install_shortcut">Επιτρέπει σε μια εφαρμογή την προσθήκη συντομεύσεων στην Αρχική οθόνη χωρίς την παρέμβαση του χρήστη.</string>
     <string name="permdesc_invokeCarrierSetup">Επιτρέπει στον κάτοχο την κλήση της εφαρμογής διαμόρφωσης που παρέχεται από την εταιρεία κινητής τηλεφωνίας. Δεν απαιτείται για κανονικές εφαρμογές.</string>
     <string name="permdesc_killBackgroundProcesses">Επιτρέπει στην εφαρμογή τον τερματισμό των διεργασιών παρασκηνίου άλλων εφαρμογών. Αυτό μπορεί να προκαλεί τη διακοπή λειτουργίας άλλων εφαρμογών.</string>
-    <string name="permdesc_manageFace">Επιτρέπει στην εφαρμογή να επικαλείται μεθόδους προσθήκης/διαγραφής προτύπων για χρήση.</string>
     <string name="permdesc_manageFingerprint">Επιτρέπει στην εφαρμογή να επικαλείται μεθόδους για την προσθήκη και τη διαγραφή προτύπων δακτυλικών αποτυπωμάτων για χρήση.</string>
     <string name="permdesc_manageNetworkPolicy">Επιτρέπει στην εφαρμογή τη διαχείριση των πολιτικών δικτύου και τον ορισμό κανόνων για ορισμένες εφαρμογές.</string>
+    <string name="permdesc_manageOngoingCalls">Επιτρέπει σε μια εφαρμογή να βλέπει λεπτομέρειες σχετικά με τις κλήσεις σε εξέλιξη στη συσκευή σας και να τις ελέγχει.</string>
     <string name="permdesc_manageOwnCalls">Επιτρέπει στην εφαρμογή να δρομολογεί τις κλήσεις της μέσω του συστήματος για να βελτιώσει την εμπειρία κλήσης.</string>
     <string name="permdesc_manageProfileAndDeviceOwners">Επιτρέπει σε εφαρμογές να ορίζουν τους κατόχους προφίλ και τον κάτοχο της συσκευής.</string>
     <string name="permdesc_mediaLocation">Επιτρέπει στην εφαρμογή να διαβάσει τοποθεσίες από τη συλλογή πολυμέσων σας.</string>
@@ -1254,6 +1336,7 @@
     <string name="permdesc_persistentActivity">Επιτρέπει στην εφαρμογή να δημιουργεί μόνιμα τμήματα του εαυτού της στη μνήμη. Αυτό μπορεί να περιορίζει τη μνήμη που διατίθεται σε άλλες εφαρμογές, καθυστερώντας τη λειτουργία του τηλεφώνου.</string>
     <string name="permdesc_preferredPaymentInfo">Επιτρέπει στην εφαρμογή να λαμβάνει πληροφορίες προτιμώμενης υπηρεσίας πληρωμής NFC, όπως καταχωρημένα βοηθήματα και προορισμό διαδρομής.</string>
     <string name="permdesc_processOutgoingCalls">Επιτρέπει στην εφαρμογή να βλέπει τον αριθμό που καλέσατε κατά τη διάρκεια μιας εξερχόμενης κλήσης με επιλογή ανακατεύθυνσης της κλήσης σε έναν διαφορετικό αριθμό ή διακοπής της κλήσης.</string>
+    <string name="permdesc_queryAllPackages">Επιτρέπει σε μια εφαρμογή να βλέπει όλα τα εγκατεστημένα πακέτα.</string>
     <string name="permdesc_readCalendar">Αυτή η εφαρμογή μπορεί να διαβάσει όλα τα συμβάντα ημερολογίου που είναι αποθηκευμένα στο τηλέφωνό σας και να μοιραστεί ή να αποθηκεύσει τα δεδομένα ημερολογίου σας.</string>
     <string name="permdesc_readCallLog">Αυτή η εφαρμογή μπορεί να διαβάσει το ιστορικό κλήσεων.</string>
     <string name="permdesc_readCellBroadcasts">Επιτρέπει στην εφαρμογή την ανάγνωση μηνυμάτων που έχουν μεταδοθεί μέσω κινητού τηλεφώνου και έχουν ληφθεί από τη συσκευή σας. Ειδοποιήσεις που μεταδίδονται μέσω κινητού παραδίδονται σε ορισμένες τοποθεσίες για να σας προειδοποιήσουν για καταστάσεις έκτακτης ανάγκης. Κακόβουλες εφαρμογές ενδέχεται να παρεμποδίσουν την απόδοση ή τη λειτουργία της συσκευής σας κατά τη λήψη μετάδοσης μέσω κινητού σχετικά με μια επείγουσα κατάσταση.</string>
@@ -1270,7 +1353,8 @@
     <string name="permdesc_receiveMms">Επιτρέπει στην εφαρμογή τη λήψη και την επεξεργασία μηνυμάτων MMS. Αυτό σημαίνει ότι η εφαρμογή θα μπορούσε να παρακολουθήσει ή να διαγράψει τα μηνύματα που αποστέλλονται στη συσκευή σας χωρίς αυτά να εμφανιστούν σε εσάς.</string>
     <string name="permdesc_receiveSms">Επιτρέπει στην εφαρμογή τη λήψη και την επεξεργασία μηνυμάτων SMS. Αυτό σημαίνει ότι η εφαρμογή θα μπορούσε να παρακολουθήσει ή να διαγράψει τα μηνύματα που αποστέλλονται στη συσκευή σας χωρίς αυτά να εμφανιστούν σε εσάς.</string>
     <string name="permdesc_receiveWapPush">Επιτρέπει στην εφαρμογή τη λήψη και την επεξεργασία μηνυμάτων WAP. Αυτό σημαίνει ότι η εφαρμογή θα μπορούσε να παρακολουθήσει ή να διαγράψει τα μηνύματα που αποστέλλονται στη συσκευή σας χωρίς αυτά να εμφανιστούν σε εσάς.</string>
-    <string name="permdesc_recordAudio">Αυτή η εφαρμογή μπορεί να κάνει εγγραφή ήχου χρησιμοποιώντας το μικρόφωνο, ανά πάσα στιγμή.</string>
+    <string name="permdesc_recordAudio">Αυτή η εφαρμογή μπορεί να εγγράφει ήχο μέσω του μικροφώνου, όταν τη χρησιμοποιείτε.</string>
+    <string name="permdesc_recordBackgroundAudio">Αυτή η εφαρμογή μπορεί να εγγράφει ήχο μέσω του μικροφώνου, ανά πάσα στιγμή.</string>
     <string name="permdesc_register_call_provider">Επιτρέπει στην εφαρμογή την εγγραφή νέων συνδέσεων τηλεπικοινωνιών.</string>
     <string name="permdesc_register_sim_subscription">Επιτρέπει στην εφαρμογή την εγγραφή νέων συνδέσεων SIM τηλεπικοινωνιών.</string>
     <string name="permdesc_removeDrmCertificates">Επιτρέπει σε μια εφαρμογή την κατάργηση πιστοποιητικών DRM. Δεν χρειάζεται ποτέ για κανονικές εφαρμογές.</string>
@@ -1300,9 +1384,9 @@
     <string name="permdesc_uninstall_shortcut">Επιτρέπει στην εφαρμογή την κατάργηση συντομεύσεων από την Αρχική οθόνη χωρίς την παρέμβαση του χρήστη.</string>
     <string name="permdesc_useBiometric">Επιτρέπει στην εφαρμογή να χρησιμοποιεί βιομετρικό εξοπλισμό για έλεγχο ταυτότητας</string>
     <string name="permdesc_useDataInBackground">Αυτή η εφαρμογή μπορεί να χρησιμοποιεί δεδομένα στο παρασκήνιο. Αυτό μπορεί να αυξήσει τη χρήση δεδομένων.</string>
-    <string name="permdesc_useFaceAuthentication">Επιτρέπει στην εφαρμογή να χρησιμοποιεί εξοπλισμό Face Unlock για έλεγχο ταυτότητας</string>
     <string name="permdesc_useFingerprint">Επιτρέπει στην εφαρμογή να χρησιμοποιεί εξοπλισμό δακτυλικού αποτυπώματος για έλεγχο ταυτότητας</string>
     <string name="permdesc_use_sip">Επιτρέπει στην εφαρμογή να πραγματοποιεί και να λαμβάνει κλήσεις SIP.</string>
+    <string name="permdesc_uwb_ranging">Επιτρέψτε στην εφαρμογή να προσδιορίζει τη σχετική θέση μεταξύ κοντινών συσκευών Ultra-Wideband</string>
     <string name="permdesc_vibrate">Επιτρέπει στην εφαρμογή τον έλεγχο της δόνησης.</string>
     <string name="permdesc_vibrator_state">Επιτρέπει στην εφαρμογή να έχει πρόσβαση στην κατάσταση δόνησης.</string>
     <string name="permdesc_videoWrite">Επιτρέπει στην εφαρμογή να τροποποιήσει τη συλλογή βίντεό σας.</string>
@@ -1321,6 +1405,7 @@
     <string name="permgroupdesc_contacts">πρόσβαση στις επαφές σας</string>
     <string name="permgroupdesc_location">έχει πρόσβαση στην τοποθεσία της συσκευής</string>
     <string name="permgroupdesc_microphone">ηχογραφεί</string>
+    <string name="permgroupdesc_nearby_devices">ανακάλυψη και σύνδεση σε κοντινές συσκευές</string>
     <string name="permgroupdesc_phone">πραγματοποιεί και να διαχειρίζεται τηλ/κές κλήσεις</string>
     <string name="permgroupdesc_sensors">πρόσβαση στα δεδομένα αισθητήρα σχετικά με τις ζωτικές ενδείξεις σας</string>
     <string name="permgroupdesc_sms">στέλνει και να διαβάζει μηνύματα SMS</string>
@@ -1332,10 +1417,13 @@
     <string name="permgrouplab_contacts">Επαφές</string>
     <string name="permgrouplab_location">Τοποθεσία</string>
     <string name="permgrouplab_microphone">Μικρόφωνο</string>
+    <string name="permgrouplab_nearby_devices">Συσκευές σε κοντινή απόσταση</string>
     <string name="permgrouplab_phone">Τηλέφωνο</string>
     <string name="permgrouplab_sensors">Αισθητήρες σώματος</string>
     <string name="permgrouplab_sms">SMS</string>
     <string name="permgrouplab_storage">Αρχεία και μέσα</string>
+    <string name="permission_request_notification_for_app_with_subtitle">"Ζητήθηκε άδεια από την εφαρμογή %1$s
+για πρόσβαση στον λογαριασμό %2$s."</string>
     <string name="permission_request_notification_title">Απαιτείται άδεια</string>
     <string name="permission_request_notification_with_subtitle">"Ζητήθηκε άδεια
 για τον λογαριασμό %s."</string>
@@ -1356,6 +1444,7 @@
     <string name="permlab_addVoicemail">προσθέτει τηλεφωνητή</string>
     <string name="permlab_answerPhoneCalls">απάντηση σε τηλεφωνικές κλήσεις</string>
     <string name="permlab_audioWrite">τροποποίηση της μουσικής συλλογής σας</string>
+    <string name="permlab_backgroundCamera">λήψη φωτογραφιών και βίντεο στο παρασκήνιο</string>
     <string name="permlab_bindCarrierMessagingService">δεσμεύεται σε υπηρεσία ανταλλαγής μηνυμάτων παρόχου κινητής τηλεφωνίας</string>
     <string name="permlab_bindCarrierServices">δεσμεύεται σε υπηρεσίες του παρόχου κινητής τηλεφωνίας</string>
     <string name="permlab_bindCellBroadcastService">Προώθηση μηνυμάτων εκπομπής κινητής τηλεφωνίας</string>
@@ -1366,6 +1455,9 @@
     <string name="permlab_bind_incall_service">αλληλεπιδρά με την οθόνη κατά τη διάρκεια κλήσης</string>
     <string name="permlab_bluetooth">πραγματοποιεί σύζευξη με συσκευές Bluetooth</string>
     <string name="permlab_bluetoothAdmin">διαβάζει τις ρυθμίσεις Bluetooth</string>
+    <string name="permlab_bluetooth_advertise">προβολή διαφημίσεων σε κοντινές συσκευές Bluetooth</string>
+    <string name="permlab_bluetooth_connect">σύνδεση σε συζευγμένες συσκευές Bluetooth</string>
+    <string name="permlab_bluetooth_scan">ανακάλυψη και σύζευξη κοντινών συσκευών Bluetooth</string>
     <string name="permlab_bodySensors">πρόσβαση στους αισθητήρες λειτουργιών (π.χ. παρακολούθηση καρδιακού παλμού)</string>
     <string name="permlab_broadcastSticky">στέλνει εκπομπή sticky</string>
     <string name="permlab_callCompanionApp">προβολή και έλεγχος κλήσεων μέσω του συστήματος.</string>
@@ -1385,17 +1477,19 @@
     <string name="permlab_exemptFromAudioRecordRestrictions">εξαίρεση από περιορισμούς εγγραφής ήχου</string>
     <string name="permlab_expandStatusBar">αναπτύσσει/συμπτύσσει τη γραμμή κατάστασης</string>
     <string name="permlab_foregroundService">εκτέλεση υπηρεσίας προσκηνίου</string>
+    <string name="permlab_fullScreenIntent">προβολή ειδοποιήσεων ως δραστηριότητες πλήρους οθόνης σε μια κλειδωμένη συσκευή</string>
     <string name="permlab_getAccounts">βρίσκει λογαριασμούς στη συσκευή</string>
     <string name="permlab_getPackageSize">υπολογίζει τον αποθηκευτικό χώρο εφαρμογής</string>
     <string name="permlab_getTasks">ανακτά εκτελούμενες εφαρμογές</string>
     <string name="permlab_handoverStatus">λήψη κατάστασης μεταφοράς Android Beam</string>
+    <string name="permlab_highSamplingRateSensors">πρόσβαση σε δεδομένα αισθητήρα με υψηλό ρυθμό δειγματοληψίας</string>
     <string name="permlab_imagesWrite">τροποποίηση της συλλογής φωτογραφιών σας</string>
     <string name="permlab_install_shortcut">εγκαθιστά συντομεύσεις</string>
     <string name="permlab_invokeCarrierSetup">καλέι την εφαρμογή διαμόρφωσης του παρόχου κινητής τηλεφωνίας</string>
     <string name="permlab_killBackgroundProcesses">κλείνει άλλες εφαρμογές</string>
-    <string name="permlab_manageFace">διαχείριση εξοπλισμού Face Unlock</string>
     <string name="permlab_manageFingerprint">διαχείριση εξοπλισμού δακτυλικού αποτυπώματος</string>
     <string name="permlab_manageNetworkPolicy">διαχειρίζεται την πολιτική δικτύου</string>
+    <string name="permlab_manageOngoingCalls">Διαχείριση κλήσεων σε εξέλιξη</string>
     <string name="permlab_manageOwnCalls">δρομολόγηση κλήσεων μέσω του συστήματος</string>
     <string name="permlab_manageProfileAndDeviceOwners">διαχειρίζεται το προφίλ και τους κατόχους συσκευής</string>
     <string name="permlab_mediaLocation">ανάγνωση τοποθεσιών από τη συλλογή πολυμέσων σας</string>
@@ -1405,6 +1499,7 @@
     <string name="permlab_persistentActivity">επιτρέπει στην εφαρμογή να εκτελείται συνεχώς</string>
     <string name="permlab_preferredPaymentInfo">Πληροφορίες προτιμώμενης υπηρεσίας πληρωμών NFC</string>
     <string name="permlab_processOutgoingCalls">αναδρομολογεί τις εξερχόμενες κλήσεις</string>
+    <string name="permlab_queryAllPackages">υποβολή ερωτήματος σε όλα τα πακέτα</string>
     <string name="permlab_readCalendar">Ανάγνωση συμβάντων ημερολογίου και λεπτομερειών</string>
     <string name="permlab_readCallLog">διαβάζει το αρχείο καταγραφής κλήσεων</string>
     <string name="permlab_readCellBroadcasts">διαβάζει μηνύματα που έχουν μεταδοθεί μέσω κινητού τηλεφώνου</string>
@@ -1422,6 +1517,7 @@
     <string name="permlab_receiveSms">λαμβάνει μηνύματα κειμένου (SMS)</string>
     <string name="permlab_receiveWapPush">λαμβάνει μηνύματα κειμένου (WAP)</string>
     <string name="permlab_recordAudio">εγγράφει ήχο</string>
+    <string name="permlab_recordBackgroundAudio">εγγραφή ήχου στο παρασκήνιο</string>
     <string name="permlab_register_call_provider">πραγματοποιεί εγγραφή των νέων συνδέσεων τηλεπικοινωνιών</string>
     <string name="permlab_register_sim_subscription">πραγματοποιεί εγγραφή νέων συνδέσεων SIM τηλεπικοινωνιών</string>
     <string name="permlab_removeDrmCertificates">καταργεί πιστοποιητικά DRM</string>
@@ -1451,9 +1547,9 @@
     <string name="permlab_uninstall_shortcut">απεγκατάσταση συντομεύσεων</string>
     <string name="permlab_useBiometric">χρήση βιομετρικού εξοπλισμού</string>
     <string name="permlab_useDataInBackground">χρήση δεδομένων στο παρασκήνιο</string>
-    <string name="permlab_useFaceAuthentication">χρήση εξοπλισμού Face Unlock</string>
     <string name="permlab_useFingerprint">χρήση εξοπλισμού δακτυλικού αποτυπώματος</string>
     <string name="permlab_use_sip">πραγματοποιεί/λαμβάνει κλήσεις SIP</string>
+    <string name="permlab_uwb_ranging">προσδιορισμός σχετ. θέσης μεταξύ κοντινών συσκευών Ultra-Wideband</string>
     <string name="permlab_vibrate">ελέγχει τη δόνηση</string>
     <string name="permlab_videoWrite">τροποποίηση της συλλογής βίντεό σας</string>
     <string name="permlab_wakeLock">αποτρέπει το τηλεφώνο να μεταβεί σε κατάσταση αδράνειας</string>
@@ -1500,7 +1596,7 @@
     <string name="policydesc_expirePassword">Αλλάξτε τη συχνότητας αλλαγής του κωδικού πρόσβασης κλειδώματος οθόνης, του PIN ή του μοτίβου.</string>
     <string name="policydesc_forceLock">Έλεγχος του τρόπου και του χρόνου κλειδώματος της οθόνης.</string>
     <string name="policydesc_limitPassword">Ελέγξτε την έκταση και τους επιτρεπόμενους χαρακτήρες σε κωδικούς πρόσβασης κλειδώματος οθόνης και PIN.</string>
-    <string name="policydesc_resetPassword">Αλλαγή του κλειδώματος οθόνης</string>
+    <string name="policydesc_resetPassword">Αλλαγή του κλειδώματος οθόνης.</string>
     <string name="policydesc_setGlobalProxy">Ρυθμίστε τη χρήση του γενικού διακομιστή μεσολάβησης της συσκευής, ενώ η πολιτική είναι ενεργοποιημένη. Μόνο ο κάτοχος της συσκευής μπορεί να ρυθμίσει τον γενικό διακομιστής μεσολάβησης.</string>
     <string name="policydesc_watchLogin">Παρακολούθηση του αριθμού λανθασμένων κωδικών πρόσβασης που πληκτρολογούνται κατά το ξεκλείδωμα της οθόνης και κλείδωμα του τηλεφώνου ή διαγραφή όλων των δεδομένων του σε περίπτωση πληκτρολόγησης πάρα πολλών εσφαλμένων κωδικών πρόσβασης.</string>
     <string name="policydesc_watchLogin_secondaryUser">Παρακολουθήστε τον αριθμό των εσφαλμένων κωδικών πρόσβασης που πληκτρολογούνται κατά το ξεκλείδωμα της οθόνης και κλειδώστε το τηλέφωνο ή διαγράψτε όλα τα δεδομένα του χρήστη, σε περίπτωση εισαγωγής πάρα πολλών εσφαλμένων κωδικών πρόσβασης.</string>
@@ -1549,6 +1645,7 @@
     <string name="reboot_to_update_title">Ενημέρωση συστήματος Android</string>
     <string name="recent_tasks_title">Πρόσφατα</string>
     <string name="redo">Επανάληψη</string>
+    <string name="reduce_bright_colors_feature_name">Επιπλέον μείωση φωτεινότητας</string>
     <string name="region_picker_section_all">Όλες οι περιοχές</string>
     <string name="relationTypeAssistant">Βοηθός</string>
     <string name="relationTypeBrother">Αδερφός</string>
@@ -1569,21 +1666,16 @@
     <string name="replace">Αντικατάσταση...</string>
     <string name="report">Αναφορά</string>
     <string name="reset">Επαναφορά</string>
-    <string name="resolver_cant_access_personal_apps">Δεν είναι δυνατό το άνοιγμα με προσωπικές εφαρμογές</string>
-    <string name="resolver_cant_access_personal_apps_explanation">Ο διαχειριστής IT δεν σας επιτρέπει να ανοίξετε αυτό το περιεχόμενο με εφαρμογές στο προσωπικό προφίλ σας.</string>
-    <string name="resolver_cant_access_work_apps">Δεν είναι δυνατό το άνοιγμα με εφαρμογές εργασίας</string>
-    <string name="resolver_cant_access_work_apps_explanation">Ο διαχειριστής IT δεν σας επιτρέπει να ανοίξετε αυτό το περιεχόμενο με εφαρμογές στο προφίλ εργασίας σας.</string>
-    <string name="resolver_cant_share_with_personal_apps">Δεν είναι δυνατή η κοινοποίηση αυτού του περιεχομένου με προσωπικές εφαρμογές</string>
-    <string name="resolver_cant_share_with_personal_apps_explanation">Ο διαχειριστής IT δεν σας επιτρέπει να κοινοποιήσετε αυτό το περιεχόμενο με εφαρμογές στο προσωπικό προφίλ σας.</string>
-    <string name="resolver_cant_share_with_work_apps">Δεν είναι δυνατή η κοινοποίηση αυτού του περιεχομένου με εφαρμογές εργασίας</string>
-    <string name="resolver_cant_share_with_work_apps_explanation">Ο διαχειριστής IT δεν σας επιτρέπει να κοινοποιήσετε αυτό το περιεχόμενο με εφαρμογές στο προφίλ εργασίας σας.</string>
-    <string name="resolver_no_personal_apps_available_resolve">Καμία προσωπική εφαρμογή δεν μπορεί να ανοίξει αυτό το περιεχόμενο.</string>
-    <string name="resolver_no_personal_apps_available_share">Καμία προσωπική εφαρμογή δεν μπορεί να υποστηρίξει αυτό το περιεχόμενο.</string>
-    <string name="resolver_no_work_apps_available_resolve">Καμία εφαρμογή εργασίας δεν μπορεί να ανοίξει αυτό το περιεχόμενο.</string>
-    <string name="resolver_no_work_apps_available_share">Καμία εφαρμογή εργασίας δεν μπορεί να υποστηρίξει αυτό το περιεχόμενο.</string>
+    <string name="resolver_cant_access_personal_apps_explanation">Δεν είναι δυνατό το άνοιγμα αυτού του περιεχομένου με προσωπικές εφαρμογές</string>
+    <string name="resolver_cant_access_work_apps_explanation">Δεν είναι δυνατό το άνοιγμα αυτού του περιεχομένου με εφαρμογές εργασιών</string>
+    <string name="resolver_cant_share_with_personal_apps_explanation">Δεν είναι δυνατή η κοινοποίηση αυτού του περιεχομένου με προσωπικές εφαρμογές</string>
+    <string name="resolver_cant_share_with_work_apps_explanation">Δεν είναι δυνατή η κοινοποίηση αυτού του περιεχομένου με εφαρμογές εργασιών</string>
+    <string name="resolver_cross_profile_blocked">Αποκλείστηκε από τον διαχειριστή IT</string>
+    <string name="resolver_no_personal_apps_available">Δεν υπάρχουν προσωπικές εφαρμογές</string>
+    <string name="resolver_no_work_apps_available">Δεν υπάρχουν εφαρμογές εργασιών</string>
     <string name="resolver_personal_tab">Προσωπικό</string>
     <string name="resolver_personal_tab_accessibility">Προσωπική προβολή</string>
-    <string name="resolver_switch_on_work">Ενεργοποίηση</string>
+    <string name="resolver_switch_on_work">Πατήστε για ενεργοποίηση</string>
     <string name="resolver_turn_on_work_apps">Το προφίλ εργασίας σας έχει τεθεί σε παύση.</string>
     <string name="resolver_work_tab">Εργασία</string>
     <string name="resolver_work_tab_accessibility">Προβολή εργασίας</string>
@@ -1632,6 +1724,8 @@
     <string name="screen_compat_mode_scale">Κλίμακα</string>
     <string name="screen_compat_mode_show">Να εμφανίζονται πάντα</string>
     <string name="screen_lock">Κλείδωμα οθόνης</string>
+    <string name="screen_lock_app_setting_name">Χρήση κλειδώματος οθόνης</string>
+    <string name="screen_lock_dialog_default_subtitle">Χρησιμοποιήστε το κλείδωμα οθόνης για να συνεχίσετε</string>
     <string name="screenshot_edit">Επεξεργασία</string>
     <string name="search_hint">Αναζήτηση…</string>
     <string name="search_language_hint">Εισαγ. όνομα γλώσσας</string>
@@ -1650,9 +1744,15 @@
     <string name="select_keyboard_layout_notification_title">Διαμόρφωση φυσικού πληκτρολογίου</string>
     <string name="select_minutes">Επιλογή λεπτών</string>
     <string name="select_year">Επιλογή έτους</string>
+    <string name="selected">επιλεγμένο</string>
     <string name="sendText">Επιλέξτε μια ενέργεια για το κείμενο</string>
     <string name="sending">Γίνεται αποστολή…</string>
     <string name="sensor_notification_service">Υπηρεσία ειδοποίησης αισθητήρα</string>
+    <string name="sensor_privacy_notification_channel_label">Απόρρητο αισθητήρα</string>
+    <string name="sensor_privacy_start_use_camera_notification_content_title">Κατάργηση αποκλεισμού κάμερας συσκευής</string>
+    <string name="sensor_privacy_start_use_dialog_turn_on_button">Κατάργηση αποκλεισμού</string>
+    <string name="sensor_privacy_start_use_mic_notification_content_title">Κατάργηση αποκλεισμού μικροφώνου συσκευής</string>
+    <string name="sensor_privacy_start_use_notification_content_text">Για την εφαρμογή &lt;b>%s&lt;/b> και όλες τις εφαρμογές και υπηρεσίες</string>
     <string name="serial_number">Σειριακός αριθμός:</string>
     <string name="serviceClassData">Δεδομένα</string>
     <string name="serviceClassDataAsync">Μη συγχρονισμένα</string>
@@ -1720,6 +1820,8 @@
     <string name="sms_short_code_remember_undo_instruction">Μπορ.να το αλλάξ.αργ.στις Ρυθ. > Εφ.</string>
     <string name="smv_application">Η εφαρμογή %1$s (διεργασία %2$s) παραβίασε την αυτοεπιβαλλόμενη πολιτική StrictMode.</string>
     <string name="smv_process">Η διεργασία %1$s παραβίασε την αυτοεπιβαλόμενη πολιτική StrictMode.</string>
+    <string name="splash_screen_view_branding_description">Εικόνα επωνυμίας εφαρμογής</string>
+    <string name="splash_screen_view_icon_description">Εικονίδιο εφαρμογής</string>
     <string name="ssl_ca_cert_noti_by_administrator">Από τον διαχειριστή του προφίλ εργασίας σας</string>
     <string name="ssl_ca_cert_noti_by_unknown">Από ένα άγνωστο τρίτο μέρος</string>
     <string name="ssl_ca_cert_noti_managed">Από %s</string>
@@ -1753,6 +1855,7 @@
     <string name="terabyteShort">TB</string>
     <string name="test_harness_mode_notification_message">Εκτελέστε επαναφορά εργοστασιακών ρυθμίσεων για να απενεργοποιήσετε τη λειτουργία περιβάλλοντος δοκιμών.</string>
     <string name="test_harness_mode_notification_title">Η λειτουργία περιβάλλοντος δοκιμών ενεργοποιήθηκε</string>
+    <string name="tethered_notification_message">Πατήστε για ρύθμιση.</string>
     <string name="tethered_notification_multi_device_message">Συνδεδεμένες συσκευές: %1$s</string>
     <string name="tethered_notification_no_device_message">Δεν υπάρχουν συνδεδεμένες συσκευές</string>
     <string name="tethered_notification_one_device_message">Συνδεδεμένες συσκευές: %1$s</string>
@@ -1777,9 +1880,12 @@
     <string name="toolbar_collapse_description">Σύμπτυξη</string>
     <string name="tooltip_popup_title">Επεξήγηση εργαλείου</string>
     <string name="turn_off_radio">Απενεργοποίηση ασύρματου</string>
+    <string name="turn_on_magnification_settings_action">Ενεργοποίηση στις Ρυθμίσεις</string>
     <string name="turn_on_radio">Ενεργοποίηση ασύρματου</string>
     <string name="tutorial_double_tap_to_zoom_message_short">Πατήστε δύο φορές για έλεγχο εστίασης</string>
     <string name="twilight_service">Υπηρεσία Twilight</string>
+    <string name="ui_translation_accessibility_translated_text">Μεταφράστηκε το μήνυμα %1$s.</string>
+    <string name="ui_translation_accessibility_translation_finished">Μήνυμα που έχει μεταφραστεί από τα %1$s στα %2$s.</string>
     <string name="undo">Αναίρεση</string>
     <string name="unpin_specific_target">Ξεκαρφίτσωμα %1$s</string>
     <string name="unpin_target">Ξεκαρφίτσωμα</string>
@@ -1819,6 +1925,8 @@
     <string name="user_switched">Τρέχων χρήστης %1$s.</string>
     <string name="user_switching_message">Εναλλαγή σε %1$s…</string>
     <string name="validity_period">Ισχύς:</string>
+    <string name="view_and_control_notification_content">Η υπηρεσία %s μπορεί να βλέπει και να ελέγχει την οθόνη σας. Πατήστε για έλεγχο.</string>
+    <string name="view_and_control_notification_title">Ελέγξτε τις ρυθμίσεις προσβασιμότητας</string>
     <string name="volume_alarm">Ένταση ήχου ξυπνητηριού</string>
     <string name="volume_bluetooth_call">Ένταση ήχου για εισερχόμενη κληση μέσω Bluetooth</string>
     <string name="volume_call">Ένταση ήχου κλήσης</string>
@@ -1898,9 +2006,11 @@
     <string name="wifi_calling_off_summary">Ανενεργό</string>
     <string name="wifi_no_internet">Η εφαρμογή %1$s δεν έχει πρόσβαση στο διαδίκτυο</string>
     <string name="wifi_no_internet_detailed">Πατήστε για να δείτε τις επιλογές</string>
+    <string name="window_magnification_prompt_content">Μπορείτε πλέον να μεγεθύνετε μέρος της οθόνης σας</string>
+    <string name="window_magnification_prompt_title">Νέες ρυθμίσεις μεγιστοποίησης</string>
     <string name="wireless_display_route_description">Ασύρματη οθόνη</string>
-    <string name="work_mode_off_message">Οι εφαρμογές, οι ειδοποιήσεις και τα δεδομένα εργασίας σας, καθώς και άλλες λειτουργίες του προφίλ εργασίας, θα ενεργοποιηθούν</string>
-    <string name="work_mode_off_title">Ενεργοποίηση προφίλ εργασίας;</string>
+    <string name="work_mode_off_message">Αποκτήστε πρόσβαση στις εφαρμογές εργασιών και τις ειδοποιήσεις</string>
+    <string name="work_mode_off_title">Ενεργοπ. εφαρμογών εργασιών;</string>
     <string name="work_mode_turn_on">Ενεργοποίηση</string>
     <string name="work_profile_deleted">Το προφίλ εργασίας διαγράφηκε</string>
     <string name="work_profile_deleted_description_dpm_wipe">Το προφίλ εργασίας σας δεν είναι πια διαθέσιμο σε αυτήν τη συσκευή</string>
@@ -1921,6 +2031,7 @@
     <string name="zen_mode_forever_dnd">Μέχρι να απενεργοποιήσετε \"Μην ενοχλείτε\"</string>
     <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
     <string name="zen_mode_until">Έως τις %1$s</string>
+    <string name="zen_mode_until_next_day">Έως %1$s</string>
     <string name="zen_upgrade_notification_content">Πατήστε για να ελέγξετε το περιεχόμενο που έχει αποκλειστεί.</string>
     <string name="zen_upgrade_notification_title">Η λειτουργία \"Μην ενοχλείτε\" άλλαξε</string>
     <string name="zen_upgrade_notification_visd_content">Πατήστε για να μάθετε περισσότερα και να κάνετε αλλαγές.</string>

@@ -73,10 +73,10 @@
         <item quantity="many">%2$d elementów nie może zostać dodanych do albumu. %1$s.</item>
     </plurals>
     <plurals name="add_to_secret_failed_with_reason_and_count">
-        <item quantity="other">%2$d elementy nie mogą być dodane do prywatnego albumu. %1$s.</item>
+        <item quantity="other">%2$d elementów nie może być dodanych do prywatnego albumu. %1$s.</item>
         <item quantity="one">%2$d element nie może być dodany do prywatnego albumu. %1$s.</item>
         <item quantity="few">%2$d elementy nie mogą być dodane do prywatnego albumu. %1$s.</item>
-        <item quantity="many">%2$d elementy nie mogą być dodane do prywatnego albumu. %1$s.</item>
+        <item quantity="many">%2$d elementów nie może być dodanych do prywatnego albumu. %1$s.</item>
     </plurals>
     <plurals name="age_day">
         <item quantity="other">%d dni</item>
@@ -222,6 +222,12 @@
         <item quantity="few">%d wideo</item>
         <item quantity="many">%d wideo</item>
     </plurals>
+    <plurals name="cloud_storage_warn_title_link">
+        <item quantity="other">Nie można zsynchronizować %d elementów z powodu niewystarczającej ilości miejsca w chmurze</item>
+        <item quantity="one">Nie można zsynchronizować %d elementu z powodu niewystarczającej ilości miejsca w chmurze</item>
+        <item quantity="few">Nie można zsynchronizować %d elementów z powodu niewystarczającej ilości miejsca w chmurze</item>
+        <item quantity="many">Nie można zsynchronizować %d elementów z powodu niewystarczającej ilości miejsca w chmurze</item>
+    </plurals>
     <plurals name="collage_select_image_dynamic_range">
         <item quantity="other">Kolaże mogą zawierać %1$d-%2$d zdjęć</item>
         <item quantity="one">Kolaże mogą zawierać %1$d-%2$d zdjęcie</item>
@@ -299,6 +305,12 @@
         <item quantity="one">Nie udało się pobrać %1$d pliku, sprawdź połączenie z siecią i spróbuj ponownie</item>
         <item quantity="few">Nie udało się pobrać %1$d plików, sprawdź połączenie z siecią i spróbuj ponownie</item>
         <item quantity="many">Nie udało się pobrać %1$d plików, sprawdź połączenie z siecią i spróbuj ponownie</item>
+    </plurals>
+    <plurals name="downloading_title_link">
+        <item quantity="other">Pobieranie elementów z chmury (%2$d/%1$d)</item>
+        <item quantity="one">Pobieranie elementu z chmury (%2$d/%1$d)</item>
+        <item quantity="few">Pobieranie elementów z chmury (%2$d/%1$d)</item>
+        <item quantity="many">Pobieranie elementów z chmury (%2$d/%1$d)</item>
     </plurals>
     <plurals name="face_count">
         <item quantity="other">W sumie %d zdjęć</item>
@@ -432,6 +444,12 @@
         <item quantity="few">W sumie %1$d elementy</item>
         <item quantity="many">W sumie %1$d elementów</item>
     </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">Obróć %d stopni</item>
+        <item quantity="one">Obróć %d stopień</item>
+        <item quantity="few">Obróć %d stopnie</item>
+        <item quantity="many">Obróć %d stopni</item>
+    </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d dni</item>
         <item quantity="one">%d dzień</item>
@@ -535,10 +553,10 @@
         <item quantity="many">W sumie %d zdjęć</item>
     </plurals>
     <plurals name="remove_from_secret_failed_with_reason_and_count">
-        <item quantity="other">%2$d elementy nie mogą zostać usunięte z prywatnego albumu. %1$s.</item>
+        <item quantity="other">%2$d elementów nie może zostać usuniętych z prywatnego albumu. %1$s.</item>
         <item quantity="one">%2$d element nie może zostać usunięty z prywatnego albumu. %1$s.</item>
         <item quantity="few">%2$d elementy nie mogą zostać usunięte z prywatnego albumu. %1$s.</item>
-        <item quantity="many">%2$d elementy nie mogą zostać usunięte z prywatnego albumu. %1$s.</item>
+        <item quantity="many">%2$d elementów nie może zostać usuniętych z prywatnego albumu. %1$s.</item>
     </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">Dodano %1$d zdjęć do \"%2$s\" oraz do bazy danych.</item>
@@ -726,17 +744,47 @@
         <item quantity="few">Zoptymalizowano %d zdjęcia</item>
         <item quantity="many">Zoptymalizowano %d zdjęć</item>
     </plurals>
+    <plurals name="slim_complete_photo_count_v2">
+        <item quantity="other">Zoptymalizowano %d zdjęć</item>
+        <item quantity="one">Zoptymalizowano %d zdjęcie</item>
+        <item quantity="few">Zoptymalizowano %d zdjęcia</item>
+        <item quantity="many">Zoptymalizowano %d zdjęć</item>
+    </plurals>
+    <plurals name="slim_complete_video_count">
+        <item quantity="other">Zoptymalizowano %d filmów</item>
+        <item quantity="one">Zoptymalizowano %d film</item>
+        <item quantity="few">Zoptymalizowano %d filmy</item>
+        <item quantity="many">Zoptymalizowano %d filmów</item>
+    </plurals>
     <plurals name="slim_exit_dialog_message">
         <item quantity="other">%d zdjęć nie zostało zoptymalizowanych. Zatrzymać teraz?</item>
         <item quantity="one">%d zdjęcie nie zostało zoptymalizowane. Zatrzymać teraz?</item>
         <item quantity="few">%d zdjęcia nie zostały zoptymalizowane. Zatrzymać teraz?</item>
         <item quantity="many">%d zdjęć nie zostało zoptymalizowanych. Zatrzymać teraz?</item>
     </plurals>
+    <plurals name="slim_photo_count">
+        <item quantity="other">%d zdjęć</item>
+        <item quantity="one">%d zdjęcie</item>
+        <item quantity="few">%d zdjęcia</item>
+        <item quantity="many">%d zdjęć</item>
+    </plurals>
     <plurals name="slim_remain_photo_count">
         <item quantity="other">%d zdjęć pozostało</item>
         <item quantity="one">%d zdjęcie pozostało</item>
         <item quantity="few">%d zdjęcie pozostały</item>
         <item quantity="many">%d zdjęć pozostało</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count_v2">
+        <item quantity="other">Pozostało %d elementów do optymalizacji</item>
+        <item quantity="one">Pozostało %d element do optymalizacji</item>
+        <item quantity="few">Pozostało %d elementy do optymalizacji</item>
+        <item quantity="many">Pozostało %d elementów do optymalizacji</item>
+    </plurals>
+    <plurals name="slim_videos_count">
+        <item quantity="other">%d filmów</item>
+        <item quantity="one">%d film</item>
+        <item quantity="few">%d filmy</item>
+        <item quantity="many">%d filmów</item>
     </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">Nie utworzono kopii %d zdjęć lub wideo</item>
@@ -768,11 +816,41 @@
         <item quantity="few">Synchronizowano %d wideo</item>
         <item quantity="many">Synchronizowano %d wideo</item>
     </plurals>
+    <plurals name="syncing_gprs_title_link">
+        <item quantity="other">Synchronizowanie %d elementów przy użyciu komórkowej transmisji danych</item>
+        <item quantity="one">Synchronizowanie %d elementu przy użyciu komórkowej transmisji danych</item>
+        <item quantity="few">Synchronizowanie %d elementów przy użyciu komórkowej transmisji danych</item>
+        <item quantity="many">Synchronizowanie %d elementów przy użyciu komórkowej transmisji danych</item>
+    </plurals>
+    <plurals name="syncing_title_link">
+        <item quantity="other">Synchronizowanie %d elementów</item>
+        <item quantity="one">Synchronizowanie %d elementu</item>
+        <item quantity="few">Synchronizowanie %d elementów</item>
+        <item quantity="many">Synchronizowanie %d elementów</item>
+    </plurals>
+    <plurals name="talkback_album_item_content">
+        <item quantity="other">%1$s, %2$s elementów</item>
+        <item quantity="one">%1$s, %2$s element</item>
+        <item quantity="few">%1$s, %2$s elementy</item>
+        <item quantity="many">%1$s, %2$s elementów</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_cloud">
+        <item quantity="other">%d wybrane elementy zostaną usunięte na stałe z chmury i wszystkich zsynchronizowanych urządzeń. Usunąć?</item>
+        <item quantity="one">%d wybrany element zostanie usunięty na stałe z chmury i wszystkich zsynchronizowanych urządzeń. Usunąć?</item>
+        <item quantity="few">%d wybrane elementy zostaną usunięte na stałe z chmury i wszystkich zsynchronizowanych urządzeń. Usunąć?</item>
+        <item quantity="many">%d wybrane elementy zostaną usunięte na stałe z chmury i wszystkich zsynchronizowanych urządzeń. Usunąć?</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_image">
         <item quantity="other">Nie będzie można przywrócić %d wybranych elementów, jeśli je usuniesz. Usunąć mimo to?</item>
         <item quantity="one">Nie będzie można przywrócić %d wybranego elementu, jeśli go usuniesz. Usunąć mimo to?</item>
         <item quantity="few">Nie będzie można przywrócić %d wybranych elementów, jeśli je usuniesz. Usunąć mimo to?</item>
         <item quantity="many">Nie będzie można przywrócić %d wybranych elementów, jeśli je usuniesz. Usunąć mimo to?</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_local">
+        <item quantity="other">%d wybrane elementy zostaną usunięte na stałe. Usunąć?</item>
+        <item quantity="one">%d wybrany element zostanie usunięty na stałe. Usunąć?</item>
+        <item quantity="few">%d wybrane elementy zostaną usunięte na stałe. Usunąć?</item>
+        <item quantity="many">%d wybrane elementy zostaną usunięte na stałe. Usunąć?</item>
     </plurals>
     <plurals name="trash_purge_dialog_message_media">
         <item quantity="other">Nie będzie można przywrócić %d wybranych elementów, jeśli je usuniesz. Usunąć mimo to?</item>

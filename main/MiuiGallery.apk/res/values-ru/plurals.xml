@@ -75,7 +75,7 @@
     <plurals name="add_to_secret_failed_with_reason_and_count">
         <item quantity="other">Не удается добавить %2$d объектов в личный альбом. %1$s.</item>
         <item quantity="one">Не удается добавить %2$d объект в личный альбом. %1$s.</item>
-        <item quantity="few">Не удается добавить %2$d объектов в личный альбом. %1$s.</item>
+        <item quantity="few">Не удается добавить %2$d объекта в личный альбом. %1$s.</item>
         <item quantity="many">Не удается добавить %2$d объектов в личный альбом. %1$s.</item>
     </plurals>
     <plurals name="age_day">
@@ -222,6 +222,12 @@
         <item quantity="few">%d видео</item>
         <item quantity="many">%d видео</item>
     </plurals>
+    <plurals name="cloud_storage_warn_title_link">
+        <item quantity="other">Не удалось синхронизировать %d объектов из-за нехватки места в облаке.</item>
+        <item quantity="one">Не удалось синхронизировать %d объект из-за нехватки места в облаке.</item>
+        <item quantity="few">Не удалось синхронизировать %d объекта из-за нехватки места в облаке.</item>
+        <item quantity="many">Не удалось синхронизировать %d объектов из-за нехватки места в облаке.</item>
+    </plurals>
     <plurals name="collage_select_image_dynamic_range">
         <item quantity="other">Коллаж может содержать от %1$d-%2$d фото</item>
         <item quantity="one">Коллаж может содержать от %1$d до %2$d фото</item>
@@ -299,6 +305,12 @@
         <item quantity="one">Не удалось загрузить %1$d файл, проверьте подключение и повторите попытку</item>
         <item quantity="few">Не удалось загрузить %1$d файла, проверьте подключение и повторите попытку</item>
         <item quantity="many">Не удалось загрузить %1$d файлов, проверьте подключение и повторите попытку</item>
+    </plurals>
+    <plurals name="downloading_title_link">
+        <item quantity="other">Загрузка объектов из облака (%2$d из %1$d)</item>
+        <item quantity="one">Загрузка объектов из облака (%2$d из %1$d)</item>
+        <item quantity="few">Загрузка объектов из облака (%2$d из %1$d)</item>
+        <item quantity="many">Загрузка объектов из облака (%2$d из %1$d)</item>
     </plurals>
     <plurals name="face_count">
         <item quantity="other">Всего %d фото</item>
@@ -431,6 +443,12 @@
         <item quantity="one">%1$d объект</item>
         <item quantity="few">%1$d объекта</item>
         <item quantity="many">%1$d объектов</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">Поворот на %d градусов</item>
+        <item quantity="one">Поворот на %d градус</item>
+        <item quantity="few">Поворот на %d градуса</item>
+        <item quantity="many">Поворот на %d градусов</item>
     </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d дней</item>
@@ -726,17 +744,47 @@
         <item quantity="few">Оптимизировано %d фото</item>
         <item quantity="many">Оптимизировано %d фото</item>
     </plurals>
+    <plurals name="slim_complete_photo_count_v2">
+        <item quantity="other">Оптимизировано %d фото</item>
+        <item quantity="one">Оптимизировано %d фото</item>
+        <item quantity="few">Оптимизировано %d фото</item>
+        <item quantity="many">Оптимизировано %d фото</item>
+    </plurals>
+    <plurals name="slim_complete_video_count">
+        <item quantity="other">Оптимизировано %d видео</item>
+        <item quantity="one">Оптимизировано %d видео</item>
+        <item quantity="few">Оптимизировано %d видео</item>
+        <item quantity="many">Оптимизировано %d видео</item>
+    </plurals>
     <plurals name="slim_exit_dialog_message">
         <item quantity="other">%d фото не оптимизировано. Остановить?</item>
         <item quantity="one">%d фото не оптимизировано. Остановить?</item>
         <item quantity="few">%d фото не оптимизировано. Остановить?</item>
         <item quantity="many">%d фото не оптимизировано. Остановить?</item>
     </plurals>
+    <plurals name="slim_photo_count">
+        <item quantity="other">%d фото</item>
+        <item quantity="one">%d фото</item>
+        <item quantity="few">%d фото</item>
+        <item quantity="many">%d фото</item>
+    </plurals>
     <plurals name="slim_remain_photo_count">
         <item quantity="other">Осталось %d фото</item>
         <item quantity="one">Осталось %d фото</item>
         <item quantity="few">Осталось %d фото</item>
         <item quantity="many">Осталось %d фото</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count_v2">
+        <item quantity="other">Можно оптимизировать еще %d объектов</item>
+        <item quantity="one">Можно оптимизировать еще %d объект</item>
+        <item quantity="few">Можно оптимизировать еще %d объекта</item>
+        <item quantity="many">Можно оптимизировать еще %d объектов</item>
+    </plurals>
+    <plurals name="slim_videos_count">
+        <item quantity="other">%d видео</item>
+        <item quantity="one">%d видео</item>
+        <item quantity="few">%d видео</item>
+        <item quantity="many">%d видео</item>
     </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">Не выгружено %d фото или видео</item>
@@ -768,11 +816,41 @@
         <item quantity="few">Синхронизированно %d видео</item>
         <item quantity="many">Синхронизированно %d видео</item>
     </plurals>
+    <plurals name="syncing_gprs_title_link">
+        <item quantity="other">Синхронизация %d объектов через мобильный интернет</item>
+        <item quantity="one">Синхронизация %d объекта через мобильный интернет</item>
+        <item quantity="few">Синхронизация %d объектов через мобильный интернет</item>
+        <item quantity="many">Синхронизация %d объектов через мобильный интернет</item>
+    </plurals>
+    <plurals name="syncing_title_link">
+        <item quantity="other">Синхронизция %d объектов</item>
+        <item quantity="one">Синхронизция %d объекта</item>
+        <item quantity="few">Синхронизция %d объектов</item>
+        <item quantity="many">Синхронизция %d объектов</item>
+    </plurals>
+    <plurals name="talkback_album_item_content">
+        <item quantity="other">%1$s, %2$s объектов</item>
+        <item quantity="one">%1$s, %2$s объект</item>
+        <item quantity="few">%1$s, %2$s объекта</item>
+        <item quantity="many">%1$s, %2$s объектов</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_cloud">
+        <item quantity="other">%d выбранных объектов будут удалены из облака и со всех синхронизированных устройств без возможности восстановления. Удалить их?</item>
+        <item quantity="one">%d выбранный объект будет удален из облака и со всех синхронизированных устройств без возможности восстановления. Удалить его?</item>
+        <item quantity="few">%d выбранных объекта будут удалены из облака и со всех синхронизированных устройств без возможности восстановления. Удалить их?</item>
+        <item quantity="many">%d выбранных объектов будут удалены из облака и со всех синхронизированных устройств без возможности восстановления. Удалить их?</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_image">
         <item quantity="other">Вы не сможете восстановить %d выбранных объектов после удаления. Удалить?</item>
         <item quantity="one">Вы не сможете восстановить %d выбранный объект после удаления. Удалить?</item>
         <item quantity="few">Вы не сможете восстановить %d выбранных объекта после удаления. Удалить?</item>
         <item quantity="many">Вы не сможете восстановить %d выбранных объектов после удаления. Удалить?</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_local">
+        <item quantity="other">%d выбранных объектов будут удалены без возможности восстановления. Удалить их?</item>
+        <item quantity="one">%d выбранный объект будет удален без возможности восстановления. Удалить его?</item>
+        <item quantity="few">%d выбранных объекта будут удалены без возможности восстановления. Удалить их?</item>
+        <item quantity="many">%d выбранных объектов будут удалены без возможности восстановления. Удалить их?</item>
     </plurals>
     <plurals name="trash_purge_dialog_message_media">
         <item quantity="other">Вы не сможете восстановить %d выбранных объектов после удаления. Удалить?</item>

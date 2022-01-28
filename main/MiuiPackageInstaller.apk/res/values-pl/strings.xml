@@ -19,6 +19,7 @@
     <string name="abc_shareactionprovider_share_with_application">Udostępnij przez %s</string>
     <string name="abc_toolbar_collapse_description">Zwiń</string>
     <string name="action_bar_report_link_des">Alert dot. aplikacji</string>
+    <string name="actionbar_button_up_description">Wstecz</string>
     <string name="adb_install_no_network">Nie można połączyć się z siecią. Sprawdź swoje ustawienia sieci i spróbuj ponownie.</string>
     <string name="adb_install_open">Otwieranie…</string>
     <string name="adb_install_open_error">Nie udało się otworzyć. Srawdź swoje ustawienia sieci i spróbuj ponownie.</string>
@@ -35,6 +36,7 @@
     <string name="all_permissions">Wszystkie uprawnienia</string>
     <string name="anonymous_source_continue">Kontynuuj</string>
     <string name="anonymous_source_warning">Twój telefon i dane osobiste są bardziej podatne na ataki przez nieznane aplikacje. Instalując tą aplikację, jesteś odpowiedzialny za wszelkie uszkodzenia telefonu lub utratę danych, które mogą wynikać z jej użytkowania.</string>
+    <string name="anonymous_source_warning_tablet">Twoje urządzenia i dane są bardziej narażone na atak przez nieznane aplikacje. Instalując tę aplikację zgadzasz się na to, że ponosisz pełną odpowiedzialność za uszkodzenia urządzeń lub utratę danych w wyniku korzystania z tej aplikacji.</string>
     <string name="app_install_failed_button_text">Wyszukaj aplikacje</string>
     <string name="app_name">Instalator aplikacji</string>
     <string name="app_name_unknown">Nieznana</string>
@@ -47,7 +49,6 @@
     <string name="app_permissions_group_summary">%1$d z %2$d aplikacji jest dozwolonych</string>
     <string name="app_store_install_hint">Instaluj teraz</string>
     <string name="app_store_installing_message">Instalacja…</string>
-    <string name="app_store_missing_message">Wygląda na to, że nie zainstalowałeś naszego oficjalnego App Store. Czy chcesz go teraz zainstalować?</string>
     <string name="app_store_missing_title">App Store nie jest zainstalowany</string>
     <string name="application_detail_tips">Szczegóły dot. aplikacji i uprawnień</string>
     <string name="auto_startup_dialog_msg">Ta aplikacja może uruchomić się bez Twoich pozwoleń.</string>
@@ -59,12 +60,16 @@
     <string name="btn_text_security_install">Zastąp bezpieczną wersją</string>
     <string name="caller_app">Żądanie uprawnień od %1$s</string>
     <string name="cancel">Zakończ</string>
+    <string name="clearable_edittext_clear_description">Wyczyść</string>
+    <string name="close">Zamknij</string>
     <string name="copy">Kopiuj</string>
     <string name="cta_button_text_cancel">Wyjdź</string>
     <string name="cta_dialog_msg">Panel sterowania wymaga połączenia z Internetem, aby uzyskać aktualizacje, a także dostępu do lokalizacji, aby działać normalnie.</string>
     <string name="cta_dialog_title">Łączność z Internetem</string>
     <string name="current_permission_template">%1$s z %2$s</string>
     <string name="current_permissions_category">Obecne uprawnienia</string>
+    <string name="date_picker_lunar">Tradycyjny chiński kalendarz</string>
+    <string name="date_time_picker_dialog_title">Ustaw datę i czas</string>
     <string name="default_permission_description">wykonać nieznaną akcję</string>
     <string name="devicePerms">Dostęp do urządzenia</string>
     <string name="dlg_app_replacement_statement">"Aplikacja, którą instalujesz, zastąpi już istniejącą aplikację.
@@ -96,6 +101,7 @@ Wszystkie dane zostaną zachowane."</string>
     <string name="install_confirm_dialog_title">Uwaga</string>
     <string name="install_confirm_question">Czy chcesz zainstalować tą aplikację? Uzyska ona dostęp do:</string>
     <string name="install_confirm_question_des_10">Jeśli akceptujesz ryzyko i chcesz kontynuować instalację, zautoryzuj ją w Panelu sterowania > Zarządzaj aplikacjami > Uprawnienia > Aplikacje z potencjalnym ryzykiem. Jeśli nie możesz odnaleźć tej opcji, zaktualizuj Panel sterowania i spróbuj ponownie.</string>
+    <string name="install_confirm_question_des_10_tablet">Jeśli akceptujesz ryzyko i chcesz kontynuować instalację, zautoryzuj ją w Panelu sterowania > Zarządzaj aplikacjami > Uprawnienia > Aplikacje z potencjalnym ryzykiem. Jeśli nie możesz odnaleźć tej opcji, zaktualizuj Panel sterowania i spróbuj ponownie.</string>
     <string name="install_confirm_question_no_perms">Czy chcesz zainstalować tą aplikację? Nie wymaga ona specjalnych uprawnień.</string>
     <string name="install_confirm_question_update">Czy chcesz zainstalować aktualizację istniejącej aplikacji? Istniejące dane nie zostaną utracone. Zaktualizowana aplikacja uzyska uprawnienia do:</string>
     <string name="install_confirm_question_update_no_perms">Czy chcesz zainstalować aktualizację istniejącej aplikacji? Istniejące dane nie zostaną utracone. Nie wymaga ona specjalnych uprawnień.</string>
@@ -116,8 +122,10 @@ Możesz także wyłączyć tryb Lite i spróbować zainstalować aplikację pono
     <string name="install_failed_blocked">Pakiet został zablokowany przed instalacją.</string>
     <string name="install_failed_conflict">Pakiet jest w konflikcie z istniejącym pakietem o tej samej nazwie.</string>
     <string name="install_failed_incompatible">Ta aplikacja nie jest kompatybilna z Twoim urządzeniem.</string>
+    <string name="install_failed_incompatible_tablet">Ta aplikacja nie jest kompatybilna z Twoim urządzeniem.</string>
     <string name="install_failed_invalid_apk">Pakiet wydaje się być uszkodzony.</string>
     <string name="install_failed_msg">%1$s nie może być zainstalowane na twoim telefonie.</string>
+    <string name="install_failed_msg_tablet">Aplikacja %1$s nie mogła zostać zainstalowana na Twoim urządzeniu.</string>
     <string name="install_failed_system_incompatible">Ta aplikacja nie jest kompatybilna z MIUI</string>
     <string name="install_finished_notification_summary">Kliknij, aby wyczyścić</string>
     <string name="install_finished_notification_title">Ukończono instalację %1$s. Można wyczyścić %2$s śmieci</string>
@@ -219,6 +227,20 @@ Możesz także wyłączyć tryb Lite i spróbować zainstalować aplikację pono
     <string name="miui_virus_scanning_2">Skanowanie antywirusowe.. </string>
     <string name="miui_virus_scanning_3">Skanowanie antywirusowe...</string>
     <string name="miui_virus_title">Wysokie ryzyko</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Odznacz wszystko</string>
+    <string name="miuix_appcompat_action_mode_select_all">Zaznacz wszystko</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Zaznacz elementy</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">Więcej</string>
+    <string name="miuix_appcompat_cancel_description">Anuluj</string>
+    <string name="miuix_appcompat_confirm_description">Potwierdź</string>
+    <string name="miuix_appcompat_delete_description">Usuń</string>
+    <string name="miuix_appcompat_deselect_all">Odznacz</string>
+    <string name="miuix_appcompat_deselect_all_description">Odznacz wszystko</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">Anuluj</string>
+    <string name="miuix_appcompat_search_input_description">Szukaj</string>
+    <string name="miuix_appcompat_select_all">Zaznacz wszystko</string>
+    <string name="miuix_appcompat_select_all_description">Wybierz wszystko</string>
+    <string name="miuix_appcompat_select_item">Wybierz elementy</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pociągnij w dół, aby odświeżyć</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Pomyślnie odświeżono</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Odświeżanie...</string>
@@ -227,6 +249,7 @@ Możesz także wyłączyć tryb Lite i spróbować zainstalować aplikację pono
     <string name="miuix_sbl_tracking_progress_labe_up_none">Na razie to wszystko</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Chwileczkę…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nie udało się załadować elementów</string>
+    <string name="more">Więcej</string>
     <string name="never_ask_again">Nie pytaj ponownie</string>
     <string name="newPerms">Nowe</string>
     <string name="new_permissions_category">Nowe uprawnienia</string>
@@ -275,7 +298,6 @@ Możesz także wyłączyć tryb Lite i spróbować zainstalować aplikację pono
     <string name="preference_copied">Skopiowano \"%1$s\" do schowka.</string>
     <string name="privacyPerms">Prywatność</string>
     <string name="privacy_relative">Prywatność</string>
-    <string name="reboot_time">Udzielanie pozwolenia na restart… (%1$s)</string>
     <string name="replace_app_des_text">Czy chcesz nadpisać obecną wersję tej aplikacji?</string>
     <string name="review_button_cancel">Zakończ</string>
     <string name="review_button_continue">Kontynuuj</string>
@@ -290,12 +312,14 @@ Możesz także wyłączyć tryb Lite i spróbować zainstalować aplikację pono
     <string name="screen_overlay_title">Wykryto nakładkę ekranową</string>
     <string name="search_menu_title">Szukaj</string>
     <string name="security_settings_desc">Pozwól tej aplikacji na:</string>
+    <string name="send">Wyślij</string>
     <string name="settings">Ustawienia</string>
     <string name="settings_warning_dialog_detail">"Zostaniesz powiadomiony o takiej możliwości w następujących przypadkach:
 "<li>gdy aplikacja zawiera wirusy,</li>"
 "<li>gdy dostępna jest nowsza wersja aplikacji,</li>"
 "<li>gdy paczka instalacji pochodzi z nieznanego źródła.</li></string>
     <string name="settings_warning_dialog_msg">Twoje urządzenie jest narażone na zagrożenia bezpieczeństwa. Nie będziesz powiadamiany o możliwości pobrania bezpiecznej wersji aplikacji. Wyłączyć tę funkcję mimo to?</string>
+    <string name="settings_warning_dialog_msg_tablet">Twoje urządzenie jest narażone na zagrożenia bezpieczeństwa. Nie będziesz powiadamiany o możliwości pobrania bezpiecznej wersji aplikacji. Wyłączyć tę funkcję mimo to?</string>
     <string name="settings_warning_dialog_title">Uwaga</string>
     <string name="spannable_continue_text">Rozumiem ryzyko. Zainstaluj mimo to.</string>
     <string name="system_warning">Jeśli odmówisz tego pozwolenia, podstawowe funkcje Twojego urządzenia mogą przestać działać zgodnie z przeznaczeniem.</string>
@@ -322,15 +346,14 @@ Możesz także wyłączyć tryb Lite i spróbować zainstalować aplikację pono
     <string name="uninstalling">Deinstalacja trwa…</string>
     <string name="unknown">Nieznane</string>
     <string name="unknown_apps_admin_dlg_text">Twój administrator nie zezwala na instalowanie aplikacji uzyskanych z nieznanych źródeł.</string>
-    <string name="unknown_apps_dlg_text">Ze względów bezpieczeństwa Twój telefon ma ustawione blokowanie instalacji aplikacji uzyskanych z nieznanych źródeł.</string>
     <string name="unknown_installer">Niezidentyfikowane narzędzia z komputera</string>
     <string name="unlike">Nie, dziękuję</string>
     <string name="untrusted_external_source_always_click">Zawsze zezwalaj</string>
     <string name="untrusted_external_source_title">Zezwolić \"%1$s\" na instalację aplikacji?</string>
-    <string name="untrusted_external_source_warning">Ze względów bezpieczeństwa nie możesz instalować aplikacji z tego źródła.</string>
     <string name="untrusted_external_source_warning_summary">"Aplikacje z nieznanych źródeł mogą być szkodliwe dla Twojego urządzenia. Instalując je, ponosisz pełną odpowiedzialność za potencjalne uszkodzenie urządzenia lub utratę danych.
 
 "<font size="15">Możesz nadać bądź cofnąć uprawnienia w Ustawieniach > Hasła i bezpieczeństwo > Prywatność > Specjalny dostęp > Instalacja nieznanych aplikacji.</font></string>
+    <string name="untrusted_external_source_warning_summary_tablet">Aplikacje z nieznanych źródeł mogą być szkodliwe dla Twojego urządzenia. Instalując je, ponosisz pełną odpowiedzialność za potencjalne uszkodzenie urządzenia lub utratę danych.</string>
     <string name="user_is_not_allowed_dlg_text">Bieżący użytkownik nie może wykonać tej dezinstalacji.</string>
     <string name="user_is_not_allowed_dlg_title">Brak pozwolenia</string>
     <string name="v7_preference_off">WYŁ.</string>

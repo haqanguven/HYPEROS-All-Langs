@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">Godzinę temu</item>
+        <item quantity="one">Godzinę temu</item>
+        <item quantity="few">Godzinę temu</item>
+        <item quantity="many">Godzinę temu</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">Godzinę temu</item>
+        <item quantity="one">Godzinę temu</item>
+        <item quantity="few">Godzinę temu</item>
+        <item quantity="many">Godzinę temu</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Pół godziny temu</item>
+        <item quantity="one">Pół godziny temu</item>
+        <item quantity="few">Pół godziny temu</item>
+        <item quantity="many">Pół godziny temu</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Za godzinę</item>
+        <item quantity="one">Za godzinę</item>
+        <item quantity="few">Za godzinę</item>
+        <item quantity="many">Za godzinę</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Za pół godziny</item>
+        <item quantity="one">Za pół godziny</item>
+        <item quantity="few">Za pół godziny</item>
+        <item quantity="many">Za pół godziny</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Natychmiast</item>
+        <item quantity="one">Natychmiast</item>
+        <item quantity="few">Natychmiast</item>
+        <item quantity="many">Natychmiast</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">za %d min</item>
+        <item quantity="one">za 1 min</item>
+        <item quantity="few">za %d min</item>
+        <item quantity="many">za %d min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Teraz</item>
+        <item quantity="one">Teraz</item>
+        <item quantity="few">Teraz</item>
+        <item quantity="many">Teraz</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d min temu</item>
+        <item quantity="one">1 min temu</item>
+        <item quantity="few">%d min temu</item>
+        <item quantity="many">%d min temu</item>
+    </plurals>
     <plurals name="abc_slice_duration_days">
         <item quantity="other">%d dnia temu</item>
         <item quantity="one">%d dzień temu</item>
@@ -48,6 +102,24 @@
         <item quantity="few">Krótkie (%1$s sekundy)</item>
         <item quantity="many">Krótkie (%1$s sekund)</item>
     </plurals>
+    <plurals name="app_launch_supported_links_title">
+        <item quantity="other">%d obsługiwanego linku</item>
+        <item quantity="one">%d obsługiwany link</item>
+        <item quantity="few">%d obsługiwane linki</item>
+        <item quantity="many">%d obsługiwanych linków</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_message">
+        <item quantity="other">Te linki są zweryfikowane i otwierają się automatycznie w tej aplikacji.</item>
+        <item quantity="one">Ten link jest zweryfikowany i otwiera się automatycznie w tej aplikacji.</item>
+        <item quantity="few">Te linki są zweryfikowane i otwierają się automatycznie w tej aplikacji.</item>
+        <item quantity="many">Te linki są zweryfikowane i otwierają się automatycznie w tej aplikacji.</item>
+    </plurals>
+    <plurals name="app_launch_verified_links_title">
+        <item quantity="other">%d zweryfikowanego linku</item>
+        <item quantity="one">%d zweryfikowany link</item>
+        <item quantity="few">%d zweryfikowane linki</item>
+        <item quantity="many">%d zweryfikowanych linków</item>
+    </plurals>
     <plurals name="app_link_open_always_summary">
         <item quantity="other">Aplikacja chce obsługiwać%d linku</item>
         <item quantity="one">Aplikacja chce obsługiwać %d link</item>
@@ -61,10 +133,10 @@
         <item quantity="many">Wył. dla %d aplikacji</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
-        <item quantity="other">Nie wyłączaj dla %d aplikacji</item>
-        <item quantity="one">Nie wyłączaj dla %d aplikacji</item>
-        <item quantity="few">Nie wyłączaj dla %d aplikacji</item>
-        <item quantity="many">Nie wyłączaj dla %d aplikacji</item>
+        <item quantity="other">Nigdy nie wyłączaj dla %d aplikacji</item>
+        <item quantity="one">Nigdy nie wyłączaj dla %d aplikacji</item>
+        <item quantity="few">Nigdy nie wyłączaj dla %d aplikacji</item>
+        <item quantity="many">Nigdy nie wyłączaj dla %d aplikacji</item>
     </plurals>
     <plurals name="auto_disable_screenbuttons_enabled_header_title">
         <item quantity="other">Zawsze wyłączaj dla %d aplikacji</item>
@@ -77,6 +149,12 @@
         <item quantity="one">%d aplikacja ma zezwolenie na autostart</item>
         <item quantity="few">%d aplikacje mają zezwolenie na autostart</item>
         <item quantity="many">%d aplikacji ma zezwolenie na autostart</item>
+    </plurals>
+    <plurals name="autofill_passwords_count">
+        <item quantity="other">%1$d hasła</item>
+        <item quantity="one">%1$d hasło</item>
+        <item quantity="few">%1$d hasła</item>
+        <item quantity="many">%1$d haseł</item>
     </plurals>
     <plurals name="battery_manager_app_restricted">
         <item quantity="other">Dla %1$d aplikacji wprowadzono ograniczenia</item>
@@ -137,6 +215,12 @@
         <item quantity="one">%d dostępne urządzenie</item>
         <item quantity="few">%d dostępne urządzenia</item>
         <item quantity="many">%d dostępnych urządzeń</item>
+    </plurals>
+    <plurals name="color_game_led_freq_entries">
+        <item quantity="other">Co %d sekund</item>
+        <item quantity="one">Co %d sekundę</item>
+        <item quantity="few">Co %d sekundy</item>
+        <item quantity="many">Co %d sekund</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d urządzeń</item>
@@ -222,17 +306,53 @@
         <item quantity="few">%1$d osoby podłączone</item>
         <item quantity="many">%1$d osób podłączonych</item>
     </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Pół godziny temu</item>
+        <item quantity="one">Pół godziny temu</item>
+        <item quantity="few">Pół godziny temu</item>
+        <item quantity="many">Pół godziny temu</item>
+    </plurals>
     <plurals name="hours">
         <item quantity="other">%s godziny</item>
         <item quantity="one">1 godzina</item>
         <item quantity="few">%s godziny</item>
         <item quantity="many">%s godzin</item>
     </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Za godzinę</item>
+        <item quantity="one">Za godzinę</item>
+        <item quantity="few">Za godzinę</item>
+        <item quantity="many">Za godzinę</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Za pół godziny</item>
+        <item quantity="one">Za pół godziny</item>
+        <item quantity="few">Za pół godziny</item>
+        <item quantity="many">Za pół godziny</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Natychmiast</item>
+        <item quantity="one">Natychmiast</item>
+        <item quantity="few">Natychmiast</item>
+        <item quantity="many">Natychmiast</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">za %d minut</item>
+        <item quantity="one">za 1 minutę</item>
+        <item quantity="few">za %d minuty</item>
+        <item quantity="many">za %d minut</item>
+    </plurals>
     <plurals name="interact_across_profiles_number_of_connected_apps">
         <item quantity="other">Połączono %d aplikacji</item>
         <item quantity="one">Połączono %d aplikację</item>
         <item quantity="few">Połączono %d aplikacje</item>
         <item quantity="many">Połączono %d aplikacji</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Teraz</item>
+        <item quantity="one">Teraz</item>
+        <item quantity="few">Teraz</item>
+        <item quantity="many">Teraz</item>
     </plurals>
     <plurals name="location_app_permission_summary_location_on">
         <item quantity="other">%1$d z %2$d aplikacji ma dostęp do lokalizacji</item>
@@ -301,16 +421,16 @@
         <item quantity="many">Wprowadź co najmniej %d znaków</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN musi składać się z %d cyfr</item>
-        <item quantity="one">PIN musi składać się z %d cyfry</item>
-        <item quantity="few">PIN musi składać się z %d cyfr</item>
-        <item quantity="many">PIN musi składać się z %d cyfr</item>
+        <item quantity="other">Kod PIN musi składać się z %d cyfr</item>
+        <item quantity="one">Kod PIN musi składać się z %dcyfry</item>
+        <item quantity="few">Kod PIN musi składać się z %d cyfr</item>
+        <item quantity="many">Kod PIN musi składać się z %d cyfr</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">Możesz wpisać do %d cyfr</item>
-        <item quantity="one">Możesz wpisać do %d cyfry</item>
-        <item quantity="few">Możesz wpisać do %d cyfr</item>
-        <item quantity="many">Możesz wpisać do %d cyfr</item>
+        <item quantity="other">Możesz wprowadzić do %d cyfr</item>
+        <item quantity="one">Możesz wprowadzić do %d cyfry</item>
+        <item quantity="few">Możesz wprowadzić do %d cyfr</item>
+        <item quantity="many">Możesz wprowadzić do %d cyfr</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
         <item quantity="other">Wprowadź co najmniej %d cyfr</item>
@@ -320,15 +440,15 @@
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Połącz co najmniej %d kropek. Spróbuj ponownie.</item>
-        <item quantity="one">Połącz przynajmniej %d kropkę. Spróbuj ponownie.</item>
-        <item quantity="few">Połącz przynajmniej %d kropki. Spróbuj ponownie.</item>
-        <item quantity="many">Połącz przynajmniej %d kropkek. Spróbuj ponownie.</item>
+        <item quantity="one">Połącz co najmniej %d kropkę. Spróbuj ponownie.</item>
+        <item quantity="few">Połącz co najmniej %d kropki. Spróbuj ponownie.</item>
+        <item quantity="many">Połącz co najmniej %d kropek. Spróbuj ponownie.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
-        <item quantity="other">Zbyt wiele niepoprawnych prób. Spróbuj ponownie po %d sekundach.</item>
-        <item quantity="one">Zbyt wiele niepoprawnych prób. Spróbuj ponownie po %d sekundzie.</item>
-        <item quantity="few">Zbyt wiele niepoprawnych prób. Spróbuj ponownie po %d sekundach.</item>
-        <item quantity="many">Zbyt wiele niepoprawnych prób. Spróbuj ponownie po %d sekundach.</item>
+        <item quantity="other">Zbyt wiele nieudanych prób. Spróbuj ponownie za %d sekund.</item>
+        <item quantity="one">Zbyt wiele nieudanych prób. Spróbuj ponownie za %d sekundę.</item>
+        <item quantity="few">Zbyt wiele nieudanych prób. Spróbuj ponownie za %d sekundy.</item>
+        <item quantity="many">Zbyt wiele nieudanych prób. Spróbuj ponownie za %d sekund.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">Odczekaj %d sekund i spróbuj ponownie.</item>
@@ -372,11 +492,23 @@
         <item quantity="few">Wi-Fi włączy się automatycznie, gdy urządzenie wykryje pobliskie zapisane sieci i wyłączy się po %d minutach, jeśli nie zostanie nawiązane połączenie</item>
         <item quantity="many">Wi-Fi włączy się automatycznie, gdy urządzenie wykryje pobliskie zapisane sieci i wyłączy się po %d minutach, jeśli nie zostanie nawiązane połączenie</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d zaznaczonych elementów</item>
+        <item quantity="one">%d zaznaczony element</item>
+        <item quantity="few">%d zaznaczone elementy</item>
+        <item quantity="many">%d zaznaczonych elementów</item>
+    </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d karty SIM</item>
         <item quantity="one">%1$d karta SIM</item>
         <item quantity="few">%1$d karty SIM</item>
         <item quantity="many">%1$d kart SIM</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nowego powiadomienia</item>
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
     </plurals>
     <plurals name="network_restrictions_summary">
         <item quantity="other">%1$d ograniczenia</item>
@@ -420,11 +552,23 @@
         <item quantity="few">~%d powiadomienia tygodniowo</item>
         <item quantity="many">~%d powiadomień tygodniowo</item>
     </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minut temu</item>
+        <item quantity="one">1 minutę temu</item>
+        <item quantity="few">%d minuty temu</item>
+        <item quantity="many">%d minut temu</item>
+    </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d aktywnej aplikacji</item>
         <item quantity="one">%d aktywna aplikacja</item>
         <item quantity="few">%d aktywne aplikacje</item>
         <item quantity="many">%d aktywnych aplikacji</item>
+    </plurals>
+    <plurals name="number_of_urls">
+        <item quantity="other">%d adresu URL</item>
+        <item quantity="one">%d adres URL</item>
+        <item quantity="few">%d adresy URL</item>
+        <item quantity="many">%d adresów URL</item>
     </plurals>
     <plurals name="permission_bar_chart_label">
         <item quantity="other">%s aplikacji</item>
@@ -499,10 +643,10 @@
         <item quantity="many">%s sekund</item>
     </plurals>
     <plurals name="security_settings_fingerprint_preference_summary">
-        <item quantity="other">Ustawiono %1$d odcisku palca</item>
-        <item quantity="one">Ustawiono %1$d odcisk palca</item>
-        <item quantity="few">Ustawiono %1$d odciski palców</item>
-        <item quantity="many">Ustawiono %1$d odcisków palców</item>
+        <item quantity="other">Dodano %1$d odcisku palca</item>
+        <item quantity="one">Dodano odcisk palca</item>
+        <item quantity="few">Dodano %1$d odciski palca</item>
+        <item quantity="many">Dodano %1$d odcisków palca</item>
     </plurals>
     <plurals name="see_all_apps_title">
         <item quantity="other">Wyświetl wszystkie aplikacje (%1$d)</item>
@@ -559,16 +703,16 @@
         <item quantity="many">Zaufaj certyfikatom lub je usuń</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message">
-        <item quantity="other">"Domena %s zainstalowała na Twoim profilu do pracy certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.
+        <item quantity="other">"Domena %s zainstalowała na Twoim profilu służbowym certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.
 
 Aby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem."</item>
-        <item quantity="one">"Domena %s zainstalowała na Twoim profilu do pracy certyfikat, który może zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.
+        <item quantity="one">"Domena %s zainstalowała na Twoim profilu służbowym certyfikat, który może zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.
 
 Aby dowiedzieć się więcej o tym certyfikacie, skontaktuj się z administratorem."</item>
-        <item quantity="few">"Domena %s zainstalowała na Twoim profilu do pracy certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.
+        <item quantity="few">"Domena %s zainstalowała na Twoim profilu służbowym certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.
 
 Aby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem."</item>
-        <item quantity="many">"Domena %s zainstalowała na Twoim profilu do pracy certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.
+        <item quantity="many">"Domena %s zainstalowała na Twoim profilu służbowym certyfikaty, które mogą zezwolić jej na monitorowanie aktywności w sieci firmowej, w tym e-maili, aplikacji i bezpiecznych stron internetowych.
 
 Aby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administratorem."</item>
     </plurals>
@@ -621,6 +765,12 @@ Aby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administrat
         <item quantity="one">Otrzymuj ostrzeżenie, gdy jedna ze słuchawek znajduje się z dala od ucha lub etui ładującego przez ponad %d minutę</item>
         <item quantity="few">Otrzymuj ostrzeżenie, gdy jedna ze słuchawek znajduje się z dala od ucha lub etui ładującego przez ponad %d minuty</item>
         <item quantity="many">Otrzymuj ostrzeżenie, gdy jedna ze słuchawek znajduje się z dala od ucha lub etui ładującego przez ponad %d minut</item>
+    </plurals>
+    <plurals name="unused_apps_summary">
+        <item quantity="other">%d nieużywanej aplikacji</item>
+        <item quantity="one">%d nieużywana aplikacja</item>
+        <item quantity="few">%d nieużywane aplikacje</item>
+        <item quantity="many">%d nieużywanych aplikacji</item>
     </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d elementu</item>
@@ -771,54 +921,6 @@ Aby dowiedzieć się więcej o tych certyfikatach, skontaktuj się z administrat
         <item quantity="one">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d próbę, zanim będziesz musiał skontaktować się z operatorem, by odblokować swoje urządzenie.</item>
         <item quantity="few">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d próby.</item>
         <item quantity="many">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d prób.</item>
-    </plurals>
-    <plurals name="zen_mode_bypassing_apps_subtext">
-        <item quantity="other">Aplikacje %s mogą ignorować tryb Nie przeszkadzać</item>
-        <item quantity="one">Aplikacja %s może ignorować tryb Nie przeszkadzać</item>
-        <item quantity="few">Aplikacje %s mogą ignorować tryb Nie przeszkadzać</item>
-        <item quantity="many">Aplikacje %s mogą ignorować tryb Nie przeszkadzać</item>
-    </plurals>
-    <plurals name="zen_mode_contacts_count">
-        <item quantity="other">%d kontaktu</item>
-        <item quantity="one">1 kontakt</item>
-        <item quantity="few">%d kontakty</item>
-        <item quantity="many">%d kontaktów</item>
-    </plurals>
-    <plurals name="zen_mode_conversations_count">
-        <item quantity="other">%d rozmowy</item>
-        <item quantity="one">1 rozmowa</item>
-        <item quantity="few">%d rozmowy</item>
-        <item quantity="many">%d rozmów</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d godziny</item>
-        <item quantity="one">1 godzina</item>
-        <item quantity="few">%d godziny</item>
-        <item quantity="many">%d godzin</item>
-    </plurals>
-    <plurals name="zen_mode_other_sounds_summary">
-        <item quantity="other">Dźwięki z kategorii %s mogą ignorować tryb Nie przeszkadzać</item>
-        <item quantity="one">Dźwięki z kategorii %s mogą ignorować tryb Nie przeszkadzać</item>
-        <item quantity="few">Dźwięki z kategorii %s mogą ignorować tryb Nie przeszkadzać</item>
-        <item quantity="many">Dźwięki z kategorii %s mogą ignorować tryb Nie przeszkadzać</item>
-    </plurals>
-    <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">Ustawiono %d harmonogramu</item>
-        <item quantity="one">Ustawiono 1 harmonogram</item>
-        <item quantity="few">Ustawiono %d harmonogramy</item>
-        <item quantity="many">Ustawiono %d harmonogramów</item>
-    </plurals>
-    <plurals name="zen_mode_sound_summary_summary_off_info">
-        <item quantity="other">%d harmonogramu może włączać się automatycznie</item>
-        <item quantity="one">1 harmonogram może włączać się automatycznie</item>
-        <item quantity="few">%d harmonogramy mogą włączać się automatycznie</item>
-        <item quantity="many">%d harmonogramów może włączać się automatycznie</item>
-    </plurals>
-    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
-        <item quantity="other">%d innej osoby</item>
-        <item quantity="one">1 inna osoba.</item>
-        <item quantity="few">%d inne osoby</item>
-        <item quantity="many">%d innych osób</item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour">
         <item quantity="other">Zmień na same alarmy przez %1$d godziny, do %2$s</item>

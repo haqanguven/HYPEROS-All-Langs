@@ -21,16 +21,20 @@
         <item>Blokowanie swojego urządzenia zdalnie, w przypadku utraty</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china">
-        <item>Sync your contacts, messages, notes, calendar, and more</item>
-        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Synchronizuj swoje kontakty, wiadomości, notatki, kalendarz i więcej</item>
+        <item>Kopia zapasowa aplikacji, układu ekranu głównego oraz tapety</item>
         <item>Back up important settings, including WLAN and display</item>
-        <item>"Lock your device remotely if it's lost"</item>
+        <item>Blokowanie swojego urządzenia zdalnie, w przypadku utraty</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china_v2">
-        <item>Sync your contacts, messages, notes, calendar, and more</item>
-        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Synchronizuj swoje kontakty, wiadomości, notatki, kalendarz i więcej</item>
+        <item>Kopia zapasowa aplikacji, układu Ekranu głównego oraz tapety</item>
         <item>Back up important settings, including WLAN and display</item>
-        <item>"Lock your device remotely if it's lost"</item>
+        <item>Zablokuj urządzenie zdalnie, jeśli zostanie utracone</item>
+    </string-array>
+    <string-array name="micloud_entrance_subtitleArray_pad">
+        <item>Synchronizuj swoje zdjęcia, notatki, nagrania i nie tylko</item>
+        <item>Zablokuj urządzenie zdalnie, jeśli zostanie utracone</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_v2">
         <item>Synchronizuj swoje kontakty, wiadomości, notatki, kalendarz i więcej</item>
@@ -44,9 +48,18 @@
         <item>Kopia zapasowa ustawień systemu</item>
         <item>Znajdź urządzenie</item>
     </string-array>
+    <string-array name="micloud_entrance_titleArray_pad">
+        <item>Synchronizowanie danych aplikacji</item>
+        <item>Znajdź urządzenie</item>
+    </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
         <item>Do identyfikacji urządzenia</item>
-        <item>Do zlokalizowania urządzenia i przejścia do trybu zgubienia</item>
+        <item>Do zlokalizowania urządzenia i przejścia do Trybu zaginięcia</item>
+    </string-array>
+    <string-array name="privacy_dialog_finddevice_runtime_perm_desc_new">
+        <item>Do zlokalizowania urządzenia i przejścia do Trybu zaginięcia</item>
+        <item>Do zlokalizowania urządzenia, gdy nie jest połączone z internetem</item>
+        <item>Do uzyskiwania numerów telefonów w celu zlokalizowania tego urządzenia, gdy nie jest połączone z internetem</item>
     </string-array>
     <string-array name="privacy_dialog_sync_runtime_perm_desc">
         <item>Do synchronizacji wydarzeń</item>
@@ -55,6 +68,14 @@
         <item>Do synchronizacji kontaktów</item>
         <item>Do synchronizacji kontaktów</item>
         <item>Do zapisywania elementów na urządzeniu (np. zdjęć, filmów, utworów)</item>
+    </string-array>
+    <string-array name="privacy_dialog_sync_runtime_perm_title">
+        <item>Dostęp do wydarzeń w kalendarzu</item>
+        <item>Wysyłanie SMS-ów</item>
+        <item>Czytanie MMS-ów</item>
+        <item>Dostęp do kontaktów</item>
+        <item>Edytuj i usuwaj kontakty</item>
+        <item>Dostęp do zdjęć i plików na urządzeniu</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Kopie zapasowe</item>
@@ -136,12 +157,22 @@
         <item>Przywróć kontakty, zdjęcia, wiadomości i więcej</item>
         <item>Śmieci;Usunięte elementy;Kosz;Przywróć;Usługi w Chmurze;Chmura Xiaomi</item>
     </string-array>
+    <string-array name="settings_search_recycle_bin_pad">
+        <item>Elementy usunięte w Chmurze Xiaomi</item>
+        <item>Przywróć zdjęcia, notatki i nie tylko</item>
+        <item>Śmieci;Usunięte elementy;Kosz;Przywróć;Usługi w Chmurze;Chmura Xiaomi</item>
+    </string-array>
     <string-array name="settings_search_restore_device">
         <item>Przywracanie elementów z Chmury Xiaomi</item>
         <item>Pobierz elementy kopii zapasowej na swoje urządzenie</item>
         <item>Chmura;Kopie zapasowa;Kopia zapasowe;Przywracanie;Usługi w Chmurze;Chmura Xiaomi</item>
     </string-array>
     <string-array name="settings_search_security">
+        <item>Synchronizacja panelu sterowania chmury</item>
+        <item>Włącz synchronizację</item>
+        <item>Panel sterowania;Chmura;Chmura Xiaomi;Synchronizacja;Usługi Chmury</item>
+    </string-array>
+    <string-array name="settings_search_security_pad">
         <item>Synchronizacja panelu sterowania chmury</item>
         <item>Włącz synchronizację</item>
         <item>Panel sterowania;Chmura;Chmura Xiaomi;Synchronizacja;Usługi Chmury</item>
@@ -159,6 +190,11 @@
     <string-array name="settings_search_sync_manage">
         <item>Chmura Xiaomi. Wszystkie usługi Xiaomi w jednym miejscu.</item>
         <item>Dostęp do swoich zdjęć, kontaktów, wiadomości i urządzeń, gdziekolwiek jesteś</item>
+        <item>Niewystarczająca ilość miejsca;Członkostwo;Przestrzeń;Miejsce;Chmura;Synchronizacja;Usługi w Chmurze;Chmura Xiaomi;Śmieci;Usunięte elementy;Panel sterowania</item>
+    </string-array>
+    <string-array name="settings_search_sync_manage_pad">
+        <item>Chmura Xiaomi. Wszystkie usługi Xiaomi w jednym miejscu.</item>
+        <item>Dostęp do swoich zdjęć, notatek i urządzeń, gdziekolwiek jesteś</item>
         <item>Niewystarczająca ilość miejsca;Członkostwo;Przestrzeń;Miejsce;Chmura;Synchronizacja;Usługi w Chmurze;Chmura Xiaomi;Śmieci;Usunięte elementy;Panel sterowania</item>
     </string-array>
     <string-array name="settings_search_wlan">

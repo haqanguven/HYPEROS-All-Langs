@@ -40,6 +40,14 @@
         <item quantity="other">%d jogos adicionados</item>
         <item quantity="one">%d jogo adicionado</item>
     </plurals>
+    <plurals name="app_behavior_dashboard_title_desc">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_total_usage_item">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
     <plurals name="app_behavior_desc_allow">
         <item quantity="other">Permitido %3$d vezes entre %1$s e %2$s</item>
         <item quantity="one">Permitido %3$d vez entre %1$s e %2$s</item>
@@ -55,6 +63,18 @@
     <plurals name="app_behavior_desc_deny_minute">
         <item quantity="other">Recusado %2$d vezes às %1$s</item>
         <item quantity="one">Recusado %2$d vez às %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage">
+        <item quantity="other">Permitido %3$d vezes entre %1$s e %2$s</item>
+        <item quantity="one">Permitido %3$d vez entre %1$s e %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time">
+        <item quantity="other">Usado por %1$d minutos</item>
+        <item quantity="one">Usado por %1$d minuto</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time_end">
+        <item quantity="other">Usado por %1$d minutos até %2$s</item>
+        <item quantity="one">Usado por %1$d minuto até %2$s</item>
     </plurals>
     <plurals name="app_behavior_desc_virtual">
         <item quantity="other">%3$d mensagens em branco retornadas entre %1$s e %2$s</item>
@@ -132,6 +152,14 @@
         <item quantity="other">%s apps serão protegidos com o Bloqueio de apps</item>
         <item quantity="one">%s app será protegido com o Bloqueio de apps</item>
     </plurals>
+    <plurals name="behavior_widget_app_text">
+        <item quantity="other">%2$d apps incluindo %1$s</item>
+        <item quantity="one">%2$d app incluindo %1$s</item>
+    </plurals>
+    <plurals name="behavior_widget_perm_counts">
+        <item quantity="other">%d vezes</item>
+        <item quantity="one">%d vez</item>
+    </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d apps podem conectar-se à rede em segundo plano</item>
         <item quantity="one">%d app pode conectar-se à rede em segundo plano</item>
@@ -164,9 +192,17 @@ Se você reativar os dados móveis, sua operadora poderá cobrar pelo uso excede
         <item quantity="other">Em %1$d minutos</item>
         <item quantity="one">Em %1$d minuto</item>
     </plurals>
+    <plurals name="exit_dialog_scan_message_new">
+        <item quantity="other">A pontuação de desempenho do seu dispositivo é menor que %d pontos. Otimizar agora?</item>
+        <item quantity="one">A pontuação de desempenho do seu dispositivo é menor que %d ponto. Otimizar agora?</item>
+    </plurals>
     <plurals name="find_applications">
         <item quantity="other">Pesquisar entre %d apps</item>
         <item quantity="one">Pesquisar entre %d app</item>
+    </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">%d riscos relacionados à privacidade</item>
+        <item quantity="one">%d risco relacionado à privacidade</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d problemas requerem otimização</item>
@@ -224,6 +260,10 @@ Se você reativar os dados móveis, sua operadora poderá cobrar pelo uso excede
         <item quantity="other">Check-in feito %d dias seguidos</item>
         <item quantity="one">Check-in feito %d vez</item>
     </plurals>
+    <plurals name="gb_toolbox_guide_known">
+        <item quantity="other">Entendido (%ds)</item>
+        <item quantity="one">Entendido (%ds)</item>
+    </plurals>
     <plurals name="gb_voice_changer_toast_tips_window_bubble">
         <item quantity="other">"Experimente o Alterador de voz agora
 e teste gratuitamente por %d dia!"</item>
@@ -251,6 +291,22 @@ Você pode testar gratuitamente por %d dia agora!"</item>
     <plurals name="gb_voice_changer_user_tips_info">
         <item quantity="other">Ganhe um teste de %d dias</item>
         <item quantity="one">Ganhe um teste de %d dia</item>
+    </plurals>
+    <plurals name="gd_app_edit_desc_new">
+        <item quantity="other">Adicione até %d apps. Pressione e segure para reordenar.</item>
+        <item quantity="one">Adicione até %d app. Pressione e segure para reordenar.</item>
+    </plurals>
+    <plurals name="gtb_brightness_dialog_message">
+        <item quantity="other">Este recurso diminui o brilho da tela após %d minutos de inatividade automaticamente para economizar energia. Manter este recurso ativado?</item>
+        <item quantity="one">Este recurso diminui o brilho da tela após %d minuto de inatividade automaticamente para economizar energia. Manter este recurso ativado?</item>
+    </plurals>
+    <plurals name="gtb_setting_item_summary_brightness">
+        <item quantity="other">Diminui o brilho da tela automaticamente para economizar energia após %d minutos de inatividade</item>
+        <item quantity="one">Diminui o brilho da tela automaticamente para economizar energia após %d minuto de inatividade</item>
+    </plurals>
+    <plurals name="gtb_spring_festival_colored_egg">
+        <item quantity="other">"Congrats! You've unlocked %s Easter eggs."</item>
+        <item quantity="one">"Congrats! You've unlocked %s Easter egg."</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Meia hora atrás</item>
@@ -305,8 +361,8 @@ Você pode testar gratuitamente por %d dia agora!"</item>
         <item quantity="one">%d app encontrado</item>
     </plurals>
     <plurals name="hints_scan_danger_result_with_number">
-        <item quantity="other">%d riscos encontrados, corrija agora</item>
-        <item quantity="one">%d risco encontrado, corrija agora</item>
+        <item quantity="other">%d riscos detectados</item>
+        <item quantity="one">%d risco detectado</item>
     </plurals>
     <plurals name="hints_traffic_disable_title">
         <item quantity="other">Monitorando uso de dados para %d apps</item>
@@ -616,6 +672,10 @@ Você pode testar gratuitamente por %d dia agora!"</item>
         <item quantity="other">itens</item>
         <item quantity="one">item</item>
     </plurals>
+    <plurals name="power_center_unoffical_battery_dialog_negative">
+        <item quantity="other">Cancelar (%ds)</item>
+        <item quantity="one">Cancelar (%ds)</item>
+    </plurals>
     <plurals name="power_main_battery_last_day">
         <item quantity="other">%s dias restantes</item>
         <item quantity="one">%s dia restante</item>
@@ -729,8 +789,8 @@ Você pode testar gratuitamente por %d dia agora!"</item>
         <item quantity="one">%d app não oficial encontrado</item>
     </plurals>
     <plurals name="result_virus_header">
-        <item quantity="other">%d apps com vírus ou inseguros encontrados</item>
-        <item quantity="one">%d app com vírus encontrado</item>
+        <item quantity="other">%d apps maliciosos detectados</item>
+        <item quantity="one">%d app malicioso detectado</item>
     </plurals>
     <plurals name="search_app_count_txt_na">
         <item quantity="other">Pesquisar %d apps</item>
@@ -808,9 +868,19 @@ Você pode testar gratuitamente por %d dia agora!"</item>
         <item quantity="other">%d apps</item>
         <item quantity="one">%d app</item>
     </plurals>
+    <plurals name="videobox_settings_timing_bubble">
+        <item quantity="other">"Você está assistindo a vídeos por %d horas.
+Faça uma pausa!"</item>
+        <item quantity="one">"Você está assistindo a vídeos por %d hora.
+Faça uma pausa!"</item>
+    </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d visualizações</item>
         <item quantity="one">%1$d visualização</item>
+    </plurals>
+    <plurals name="virus_clear_dialog_content">
+        <item quantity="other">Limpar %d apps selecionados?</item>
+        <item quantity="one">Limpar %d app selecionado?</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Apps perigosos: %d</item>

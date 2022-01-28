@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alphabet_table">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Ґ</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Є</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>І</item>
+        <item>Ї</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ь</item>
+        <item>Ю</item>
+        <item>Я</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Ґ</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Є</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>І</item>
+        <item>Ї</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ь</item>
+        <item>Ю</item>
+        <item>Я</item>
+        <item>\#</item>
+    </string-array>
     <string-array name="korea_permission_groups_descriptions">
         <item>"Визначення об'єктів синхронізації"</item>
         <item>Синхронізація повідомлень</item>
@@ -16,21 +89,25 @@
     </string-array>
     <string-array name="micloud_entrance_subtitleArray">
         <item>Синхронізовуйте контакти, повідомлення, нотатки, календар та багато іншого</item>
-        <item>Створюйте бекап програм, розкладки робочого столу та шпалер</item>
-        <item>Створюйте бекап важливих налаштувань, включаючи Wi-Fi та екран</item>
+        <item>Створюйте резервну копію програм, розкладок робочого столу та шпалер</item>
+        <item>Створюйте резервну копію важливих налаштувань, включаючи Wi-Fi та екран</item>
         <item>Блокуйте пристрій віддалено, у випадку його втрати</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china">
         <item>Синхронізовуйте контакти, повідомлення, нотатки, календар та багато іншого</item>
         <item>Створюйте резервну копію програм, розкладки робочого столу та шпалер</item>
-        <item>Створюйте резервну копію важливих налаштувань, включаючи Wi-Fi та екран</item>
-        <item>Блокуйте пристрій віддалено, якщо його було втрачено</item>
+        <item>Back up important settings, including WLAN and display</item>
+        <item>Блокуйте пристрій віддалено, у випадку його втрати</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china_v2">
         <item>Синхронізовуйте контакти, повідомлення, нотатки, календар та багато іншого</item>
         <item>Створюйте резервну копію програм, розкладок робочого столу та шпалер</item>
-        <item>Створюйте резервну копію важливих налаштувань, включаючи Wi-Fi та екран</item>
+        <item>Back up important settings, including WLAN and display</item>
         <item>Блокуйте пристрій віддалено, у випадку його втрати</item>
+    </string-array>
+    <string-array name="micloud_entrance_subtitleArray_pad">
+        <item>Синхронізовуйте фото, нотатки, записи і т.д.</item>
+        <item>Блокуйте пристрій віддалено, якщо його було втрачено</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_v2">
         <item>Синхронізовуйте контакти, повідомлення, нотатки, календар та багато іншого</item>
@@ -39,14 +116,23 @@
         <item>Блокуйте пристрій віддалено, у випадку його втрати</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray">
-        <item>Синхронізація даних</item>
-        <item>Бекап робочого столу</item>
-        <item>Бекап системних налаштувань</item>
+        <item>Синхронізовуйте дані програми</item>
+        <item>Створюйте резервну копію розкладок робочого столу</item>
+        <item>Резервна копія налаштувань системи</item>
+        <item>Пошук пристрою</item>
+    </string-array>
+    <string-array name="micloud_entrance_titleArray_pad">
+        <item>Синхронізовуйте дані програми</item>
         <item>Пошук пристрою</item>
     </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
         <item>Ідентифікація вашого пристрою</item>
-        <item>Визначення місцезнаходження пристрою та переходу в режим Втраченого телефону</item>
+        <item>Визначення місцезнаходження пристрою та переходу в Режим втрати</item>
+    </string-array>
+    <string-array name="privacy_dialog_finddevice_runtime_perm_desc_new">
+        <item>Визначення місцезнаходження пристрою та переходу в Режим втрати</item>
+        <item>Для визначення місцезнаходження пристрою, коли його не підключено до інтернету</item>
+        <item>Для доступу до номера телефону для визначення місцезнаходження пристрою, коли його не підключено до інтернету.</item>
     </string-array>
     <string-array name="privacy_dialog_sync_runtime_perm_desc">
         <item>Синхронізація подій</item>
@@ -55,6 +141,14 @@
         <item>Синхронізація контактів</item>
         <item>Синхронізація контактів</item>
         <item>"Зберігання об'єктів на вашому пристрої (наприклад, зображення, відео, пісні)"</item>
+    </string-array>
+    <string-array name="privacy_dialog_sync_runtime_perm_title">
+        <item>Доступ до календаря</item>
+        <item>Відправляти SMS</item>
+        <item>Читати MMS</item>
+        <item>Доступ до контактів</item>
+        <item>Редагувати та видаляти контакти</item>
+        <item>Доступ до фото та файлів на пристрої</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Бекапи</item>
@@ -79,12 +173,12 @@
     <string-array name="settings_search_contacts">
         <item>Синхронізувати контакти із Xiaomi Cloud</item>
         <item>Увімкнути/налаштувати синхронізацію</item>
-        <item>Контакти;Історія викликів;Хмара;Синхронізація;Хмарні послуги;Xiaomi Cloud</item>
+        <item>Контакти;Журнал викликів;Хмара;Синхронізація;Хмарні послуги;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_dial">
-        <item>Синхронізація історії викликів із Xiaomi Cloud</item>
+        <item>Синхронізація журналу викликів із Xiaomi Cloud</item>
         <item>Увімкнути/налаштувати синхронізацію</item>
-        <item>Історія викликів;Хмара;Синхронізація;Хмарні послуги;Xiaomi Cloud</item>
+        <item>Журнал викликів;Хмара;Синхронізація;Хмарні послуги;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_find_pad">
         <item>Пошук пристрою</item>
@@ -136,6 +230,11 @@
         <item>Відновити контакти, фото, повідомлення і т.д.</item>
         <item>"Сміття;Видалені об'єкти;Кошик;Відновити;Хмарні послуги;Xiaomi Cloud"</item>
     </string-array>
+    <string-array name="settings_search_recycle_bin_pad">
+        <item>"Видалені об'єкти в Xiaomi Cloud"</item>
+        <item>Відновлюйте фото, нотатки і т.д.</item>
+        <item>"Сміття;Видалені об'єкти;Кошик;Відновити;Хмарні послуги;Xiaomi Cloud"</item>
+    </string-array>
     <string-array name="settings_search_restore_device">
         <item>"Віддновити об'єкти з Xiaomi Cloud"</item>
         <item>Завантажити резервні копії на пристрій</item>
@@ -145,6 +244,11 @@
         <item>Хмарна синхронізація безпеки</item>
         <item>Увімкнути синхронізацію</item>
         <item>Безпека;Хмара;Хмара Xiaomi;Синхронізація;Хмарні послуги</item>
+    </string-array>
+    <string-array name="settings_search_security_pad">
+        <item>Хмарна синхронізація безпеки</item>
+        <item>Увімкніть синхронізацію</item>
+        <item>Безпека;Хмара;Xiaomi Cloud;Синхронізація;Хмарні послуги</item>
     </string-array>
     <string-array name="settings_search_sms">
         <item>Синхронізація повідомлень із Xiaomi Cloud</item>
@@ -160,6 +264,11 @@
         <item>Xiaomi Cloud. Всі послуги Мі в одному місці.</item>
         <item>Доступ до фото, контактів, повідомлень і пристроїв з будь-якого місця</item>
         <item>"Недостатньо місця;Підписка;Пам'ять;Вільне місце;Хмара;Синхронізація;Хмарні послуги;Xiaomi Cloud;Кошик;Видалені об'єкти;Безпека"</item>
+    </string-array>
+    <string-array name="settings_search_sync_manage_pad">
+        <item>Xiaomi Cloud. Всі послуги Мі в одному місці.</item>
+        <item>Доступ до фото, нотаток та пристроїв з будь-якого місця</item>
+        <item>"Недостатньо місця;Підписка;Пам'ять;Сховище;Хмара;Синхронізація;Хмарні послуги;Xiaomi Cloud;Кошик;Видалені об'єкти;Безпека"</item>
     </string-array>
     <string-array name="settings_search_wlan">
         <item>Синхронізація налаштувань Wi-Fi з Xiaomi Cloud</item>

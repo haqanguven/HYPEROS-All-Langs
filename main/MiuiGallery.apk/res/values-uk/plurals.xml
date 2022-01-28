@@ -75,7 +75,7 @@
     <plurals name="add_to_secret_failed_with_reason_and_count">
         <item quantity="other">"Не вдається додати %2$d об'єктів до особистого альбому. %1$s."</item>
         <item quantity="one">"Не вдається додати %2$d об'єкт до особистого альбому. %1$s."</item>
-        <item quantity="few">"Не вдається додати %2$d об'єктів до особистого альбому. %1$s."</item>
+        <item quantity="few">"Не вдається додати %2$d об'єкта до особистого альбому. %1$s."</item>
         <item quantity="many">"Не вдається додати %2$d об'єктів до особистого альбому. %1$s."</item>
     </plurals>
     <plurals name="age_day">
@@ -222,6 +222,12 @@
         <item quantity="few">%d відео</item>
         <item quantity="many">%d відео</item>
     </plurals>
+    <plurals name="cloud_storage_warn_title_link">
+        <item quantity="other">"Не вдалося синхронізувати %d об'єктів через недостатню кількість вільного місця у хмарі"</item>
+        <item quantity="one">"Не вдалося синхронізувати %d об'єкт через недостатню кількість вільного місця у хмарі"</item>
+        <item quantity="few">"Не вдалося синхронізувати %d об'єкта через недостатню кількість вільного місця у хмарі"</item>
+        <item quantity="many">"Не вдалося синхронізувати %d об'єктів через недостатню кількість вільного місця у хмарі"</item>
+    </plurals>
     <plurals name="collage_select_image_dynamic_range">
         <item quantity="other">Колажі можуть містити %1$d-%2$d фото</item>
         <item quantity="one">Колажі можуть містити %1$d-%2$d фото</item>
@@ -299,6 +305,12 @@
         <item quantity="one">Не вдалося завантажити %1$d файл, перевірте налаштування мережі та повторіть спробу</item>
         <item quantity="few">Не вдалося завантажити %1$d файли, перевірте налаштування мережі та повторіть спробу</item>
         <item quantity="many">Не вдалося завантажити %1$d файлів, перевірте налаштування мережі та повторіть спробу</item>
+    </plurals>
+    <plurals name="downloading_title_link">
+        <item quantity="other">"Завантаження об'єктів із хмари (%2$d/%1$d)"</item>
+        <item quantity="one">"Завантаження об'єкту із хмари (%2$d/%1$d)"</item>
+        <item quantity="few">"Завантаження об'єктів із хмари (%2$d/%1$d)"</item>
+        <item quantity="many">"Завантаження об'єктів із хмари (%2$d/%1$d)"</item>
     </plurals>
     <plurals name="face_count">
         <item quantity="other">Всього %d фото</item>
@@ -432,6 +444,12 @@
         <item quantity="few">"Всього %1$d об/'єкта"</item>
         <item quantity="many">"Всього %1$d об/'єктів"</item>
     </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">Поворот на %d градусів</item>
+        <item quantity="one">Поворот на %d градус</item>
+        <item quantity="few">Поворот на %d градуси</item>
+        <item quantity="many">Поворот на %d градусів</item>
+    </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d днів</item>
         <item quantity="one">%d день</item>
@@ -537,7 +555,7 @@
     <plurals name="remove_from_secret_failed_with_reason_and_count">
         <item quantity="other">"%2$d об'єктів неможливо видалити з особистого альбому. %1$s."</item>
         <item quantity="one">"%2$d об'єкт неможливо видалити з особистого альбому. %1$s."</item>
-        <item quantity="few">"%2$d об'єктів неможливо видалити з особистого альбому. %1$s."</item>
+        <item quantity="few">"%2$d об'єкта неможливо видалити з особистого альбому. %1$s."</item>
         <item quantity="many">"%2$d об'єктів неможливо видалити з особистого альбому. %1$s."</item>
     </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
@@ -726,17 +744,47 @@
         <item quantity="few">Оптимізовано фото: %d</item>
         <item quantity="many">Оптимізовано фото: %d</item>
     </plurals>
+    <plurals name="slim_complete_photo_count_v2">
+        <item quantity="other">Оптимізовано %d фото</item>
+        <item quantity="one">Оптимізовано %d фото</item>
+        <item quantity="few">Оптимізовано %d фото</item>
+        <item quantity="many">Оптимізовано %d фото</item>
+    </plurals>
+    <plurals name="slim_complete_video_count">
+        <item quantity="other">Оптимізовано %d відео</item>
+        <item quantity="one">Оптимізовано %d відео</item>
+        <item quantity="few">Оптимізовано %d відео</item>
+        <item quantity="many">Оптимізовано %d відео</item>
+    </plurals>
     <plurals name="slim_exit_dialog_message">
         <item quantity="other">%d фото не було оптимізовано. Зупинити зараз?</item>
         <item quantity="one">%d фото не було оптимізовано. Зупинити зараз?</item>
         <item quantity="few">%d фото не було оптимізовано. Зупинити зараз?</item>
         <item quantity="many">%d фото не було оптимізовано. Зупинити зараз?</item>
     </plurals>
+    <plurals name="slim_photo_count">
+        <item quantity="other">%d фото</item>
+        <item quantity="one">%d фото</item>
+        <item quantity="few">%d фото</item>
+        <item quantity="many">%d фото</item>
+    </plurals>
     <plurals name="slim_remain_photo_count">
         <item quantity="other">Залишилося фото: %d</item>
         <item quantity="one">Залишилося фото: %d</item>
         <item quantity="few">Залишилося фото: %d</item>
         <item quantity="many">Залишилося фото: %d</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count_v2">
+        <item quantity="other">"Можна оптимізувати ще %d об'єктів"</item>
+        <item quantity="one">"Можна оптимізувати ще %d об'єкт"</item>
+        <item quantity="few">"Можна оптимізувати ще %d об'єкта"</item>
+        <item quantity="many">"Можна оптимізувати ще %d об'єктів"</item>
+    </plurals>
+    <plurals name="slim_videos_count">
+        <item quantity="other">%d відео</item>
+        <item quantity="one">%d відео</item>
+        <item quantity="few">%d відео</item>
+        <item quantity="many">%d відео</item>
     </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">Не вдалося створити резеврну копію %d фото або відео</item>
@@ -768,11 +816,41 @@
         <item quantity="few">Синхронізовано %d відео</item>
         <item quantity="many">Синхронізовано %d відео</item>
     </plurals>
+    <plurals name="syncing_gprs_title_link">
+        <item quantity="other">"Синхронізація %d об'єктів через мобільний інтернет"</item>
+        <item quantity="one">"Синхронізація %d об'єкта через мобільний інтернет"</item>
+        <item quantity="few">"Синхронізація %d об'єктів через мобільний інтернет"</item>
+        <item quantity="many">"Синхронізація %d об'єктів через мобільний інтернет"</item>
+    </plurals>
+    <plurals name="syncing_title_link">
+        <item quantity="other">"Синхронізація %d об'єктів"</item>
+        <item quantity="one">"Синхронізація %d об'єкта"</item>
+        <item quantity="few">"Синхронізація %d об'єктів"</item>
+        <item quantity="many">"Синхронізація %d об'єктів"</item>
+    </plurals>
+    <plurals name="talkback_album_item_content">
+        <item quantity="other">"%1$s, %2$s об'єктів"</item>
+        <item quantity="one">"%1$s, %2$s об'єкт"</item>
+        <item quantity="few">"%1$s, %2$s об'єкта"</item>
+        <item quantity="many">"%1$s, %2$s об'єктів"</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_cloud">
+        <item quantity="other">"%d вибраних об'єктів будуть назавжди видалені із хмари та всіх синхронізованих пристроїв. Видалити?"</item>
+        <item quantity="one">"%d вибраний об'єкт буде назавжди видалено із хмари та всіх синхронізованих пристроїв. Видалити?"</item>
+        <item quantity="few">"%d вибраних об'єкта будуть назавжди видалені із хмари та всіх синхронізованих пристроїв. Видалити?"</item>
+        <item quantity="many">"%d вибраних об'єктів будуть назавжди видалені із хмари та всіх синхронізованих пристроїв. Видалити?"</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_image">
         <item quantity="other">"Ви не зможете відновити %d обраних об'єктів після видалення. Видалити?"</item>
         <item quantity="one">"Ви не зможете відновити %d обраний об'єкт після видалення. Видалити?"</item>
         <item quantity="few">"Ви не зможете відновити %d обраних об'єкта після видалення. Видалити?"</item>
         <item quantity="many">"Ви не зможете відновити %d обраних об'єктів після видалення. Видалити?"</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_local">
+        <item quantity="other">"%d вибраних об'єктів будуть видалені назавжди. Видалити?"</item>
+        <item quantity="one">"%d вибраний об'єкт буде видалено назавжди. Видалити?"</item>
+        <item quantity="few">"%d вибраних об'єкта будуть видалені назавжди. Видалити?"</item>
+        <item quantity="many">"%d вибраних об'єктів будуть видалені назавжди. Видалити?"</item>
     </plurals>
     <plurals name="trash_purge_dialog_message_media">
         <item quantity="other">"Ви не зможете відновити %d обраних об'єктів після видалення. Видалити?"</item>

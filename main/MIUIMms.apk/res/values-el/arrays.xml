@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alphabet_table">
+        <item>Α</item>
+        <item>Β</item>
+        <item>Γ</item>
+        <item>Δ</item>
+        <item>Ε</item>
+        <item>Ζ</item>
+        <item>Η</item>
+        <item>Θ</item>
+        <item>Ι</item>
+        <item>Κ</item>
+        <item>Λ</item>
+        <item>Μ</item>
+        <item>Ν</item>
+        <item>Ξ</item>
+        <item>Ο</item>
+        <item>Π</item>
+        <item>Ρ</item>
+        <item>Σ</item>
+        <item>Τ</item>
+        <item>Υ</item>
+        <item>Φ</item>
+        <item>Χ</item>
+        <item>Ψ</item>
+        <item>Ω</item>
+        <item>\#</item>
+        <item>.</item>
+        <item>.</item>
+    </string-array>
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>Α</item>
+        <item>Β</item>
+        <item>Γ</item>
+        <item>Δ</item>
+        <item>Ε</item>
+        <item>Ζ</item>
+        <item>Η</item>
+        <item>Θ</item>
+        <item>Ι</item>
+        <item>Κ</item>
+        <item>Λ</item>
+        <item>Μ</item>
+        <item>Ν</item>
+        <item>Ξ</item>
+        <item>Ο</item>
+        <item>Π</item>
+        <item>Ρ</item>
+        <item>Σ</item>
+        <item>Τ</item>
+        <item>Υ</item>
+        <item>Φ</item>
+        <item>Χ</item>
+        <item>Ψ</item>
+        <item>Ω</item>
+        <item>\#</item>
+        <item>.</item>
+        <item>.</item>
+    </string-array>
     <string-array name="contact_entries">
         <item>Όνομα</item>
         <item>Ψευδώνυμο</item>
@@ -14,6 +73,11 @@
         <item>Σημείωση</item>
         <item>Σχέση</item>
     </string-array>
+    <string-array name="dialog_choice_specific_correct_as_normal">
+        <item>Προωθητικά μηνύματα από %s</item>
+        <item>Μηνύματα υπηρεσίας παρόχου από %s</item>
+        <item>Οικονομικά μηνύματα από %s</item>
+    </string-array>
     <string-array name="entries_mms_validity_period">
         <item>Μέγιστη</item>
         <item>2 ημέρες</item>
@@ -26,15 +90,64 @@
         <item>1 ημέρα</item>
         <item>Μέγιστη</item>
     </string-array>
+    <string-array name="message_sending_method">
+        <item>Προτεινόμενη Υπηρεσία Μηνυμάτων</item>
+        <item>SMS, MMS</item>
+        <item>Συζήτηση RCS, μεταφορά αρχείου RCS</item>
+    </string-array>
+    <string-array name="passport_alphabet_table">
+        <item>Α</item>
+        <item>Β</item>
+        <item>Γ</item>
+        <item>Δ</item>
+        <item>Ε</item>
+        <item>Ζ</item>
+        <item>Η</item>
+        <item>Θ</item>
+        <item>Ι</item>
+        <item>Κ</item>
+        <item>Λ</item>
+        <item>Μ</item>
+        <item>Ν</item>
+        <item>Ξ</item>
+        <item>Ο</item>
+        <item>Π</item>
+        <item>Ρ</item>
+        <item>Σ</item>
+        <item>Τ</item>
+        <item>Υ</item>
+        <item>Φ</item>
+        <item>Χ</item>
+        <item>Ψ</item>
+        <item>Ω</item>
+        <item>\#</item>
+        <item>.</item>
+        <item>.</item>
+    </string-array>
     <string-array name="prefEntries_vibrateWhen">
         <item>Πάντα</item>
         <item>Μόνο κατά την Αθόρυβη λειτουργία</item>
         <item>Ποτέ</item>
     </string-array>
-    <string-array name="recv_type">
-        <item>接收并通知</item>
-        <item>只接收</item>
-        <item>拒收</item>
+    <string-array name="rcs_ft_fallback">
+        <item>Ποτέ μην ρωτάτε και στέλνετε πάντα ως Σύνδεσμος SMS</item>
+        <item>Ποτέ μην ρωτάτε και μην στέλνετε ποτέ ως Σύνδεσμος SMS</item>
+        <item>Ερώτηση πάντα</item>
+    </string-array>
+    <string-array name="rcs_message_fallback">
+        <item>Ποτέ μην ρωτάτε και στέλνετε πάντα ως SMS</item>
+        <item>Ποτέ μην ρωτάτε και μην στέλνετε ποτέ ως SMS</item>
+        <item>Ερώτηση πάντα</item>
+    </string-array>
+    <string-array name="rcs_picture_quality_setting">
+        <item>πάντα ερώτηση</item>
+        <item>ποτέ δεν αλλαγή μεγέθους</item>
+        <item>πάντα να αλλάζει μέγεθος μια επιλεγμένη επιλογή η οποία στη συνέχεια αποθηκεύεται ως προεπιλεγμένη τιμή</item>
+    </string-array>
+    <string-array name="rcs_video_quality_setting">
+        <item>πάντα ερώτηση</item>
+        <item>ποτέ δεν αλλαγή μεγέθους</item>
+        <item>πάντα να αλλάζει μέγεθος μια επιλεγμένη επιλογή η οποία στη συνέχεια αποθηκεύεται ως προεπιλεγμένη τιμή</item>
     </string-array>
     <string-array name="resent_via_entries_mms">
         <item>SMS</item>
@@ -60,9 +173,5 @@
     <string-array name="switch_sdk">
         <item>Mi Μηνύματα</item>
         <item>CMCC Έξυπνο SMS</item>
-    </string-array>
-    <string-array name="switch_sdk_value">
-        <item>0</item>
-        <item>1</item>
     </string-array>
 </resources>

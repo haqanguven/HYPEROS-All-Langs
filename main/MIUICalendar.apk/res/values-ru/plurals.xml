@@ -130,6 +130,11 @@
         <item quantity="one">%1$d день назад</item>
         <item quantity="few">%1$d дня назад</item>
     </plurals>
+    <plurals name="day_index">
+        <item quantity="other">%1$d дней</item>
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дня</item>
+    </plurals>
     <plurals name="edit_date_calculate_days_error_hint">
         <item quantity="other">Можно ввести до %1$d дней</item>
         <item quantity="one">Можно ввести до %1$d дня</item>
@@ -142,6 +147,11 @@
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Полчаса назад</item>
+    </plurals>
+    <plurals name="hide_completed_notes">
+        <item quantity="other">Скрыть %d завершенных задач</item>
+        <item quantity="one">Скрыть %d завершенную задачу</item>
+        <item quantity="few">Скрыть %d завершенные задачи</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Через час</item>
@@ -159,53 +169,53 @@
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Прямо сейчас</item>
     </plurals>
+    <plurals name="mesens_card_title_day_in_predict">
+        <item quantity="other">%1$d день (расчетный)</item>
+        <item quantity="one">%1$d день (расчетный)</item>
+    </plurals>
+    <plurals name="mesens_card_title_days">
+        <item quantity="other">%1$d день</item>
+        <item quantity="one">%1$d день</item>
+    </plurals>
+    <plurals name="mesens_card_title_predict_date">
+        <item quantity="other">След. через %1$d дней</item>
+        <item quantity="one">След. через %1$d день</item>
+        <item quantity="few">След. через %1$d дня</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">Выбрано %d объектов</item>
+        <item quantity="one">Выбран %d объект</item>
+        <item quantity="few">Выбрано %d объекта</item>
+    </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
-        <item quantity="one">1.0</item>
+        <item quantity="one">+1</item>
         <item quantity="few">+%d</item>
         <item quantity="many">+%d</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d новых уведомлений</item>
-        <item quantity="one">%d новое уведомление</item>
     </plurals>
     <plurals name="n_attendees">
         <item quantity="other">%d уведомлений</item>
         <item quantity="one">%d уведомление</item>
     </plurals>
-    <plurals name="n_weeks">
-        <item quantity="other">%d</item>
-        <item quantity="one">%d</item>
+    <plurals name="notes_custom_repeat_days">
+        <item quantity="other">дней</item>
+        <item quantity="one">день</item>
+        <item quantity="few">дня</item>
+    </plurals>
+    <plurals name="notes_custom_repeat_weeks">
+        <item quantity="other">недель</item>
+        <item quantity="one">неделя</item>
+        <item quantity="few">недели</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d минут назад</item>
         <item quantity="one">1 минуту назад</item>
         <item quantity="few">%d минуты назад</item>
     </plurals>
-    <plurals name="other_all_day_events">
-        <item quantity="other">Еще %d событий</item>
-        <item quantity="one">Еще %d событие</item>
-        <item quantity="few">Еще %d события</item>
-    </plurals>
-    <plurals name="reminder_custom_unit_day">
+    <plurals name="num_picker_hint">
         <item quantity="other">" дней"</item>
         <item quantity="one">" день"</item>
         <item quantity="few">" дня"</item>
-    </plurals>
-    <plurals name="reminder_custom_unit_hour">
-        <item quantity="other">" часов"</item>
-        <item quantity="one">" час"</item>
-        <item quantity="few">" часа"</item>
-    </plurals>
-    <plurals name="reminder_custom_unit_minute">
-        <item quantity="other">" минут"</item>
-        <item quantity="one">" минута"</item>
-        <item quantity="few">" минуты"</item>
-    </plurals>
-    <plurals name="reminder_later_toast">
-        <item quantity="other">Следующее напоминание через %1$d минут</item>
-        <item quantity="one">Следующее напоминание через %1$d минуту</item>
-        <item quantity="few">Следующее напоминание через %1$d минуты</item>
     </plurals>
     <plurals name="repeat_custom_prompt">
         <item quantity="other">%1$s: %2$s</item>
@@ -231,15 +241,43 @@
         <item quantity="one">%1$d год</item>
         <item quantity="few">%1$d года</item>
     </plurals>
-    <plurals name="travel_time_range_hours">
-        <item quantity="other">%d часов</item>
-        <item quantity="one">%d час</item>
-        <item quantity="few">%d часа</item>
+    <plurals name="show_completed_notes">
+        <item quantity="other">Показать %d завершенных задач</item>
+        <item quantity="one">Показать %d завершенную задачу</item>
+        <item quantity="few">Показать %d завершенные задачи</item>
     </plurals>
-    <plurals name="travel_time_range_mins">
-        <item quantity="other">%d минут</item>
-        <item quantity="one">%d минута</item>
-        <item quantity="few">%d минуты</item>
+    <plurals name="subtitle_add_record">
+        <item quantity="other">Вы не делали записи %1$d дней. Записывайте свои периоды для более точных прогнозов.</item>
+        <item quantity="one">Вы не делали записи %1$d день. Записывайте свои периоды для более точных прогнозов.</item>
+        <item quantity="few">Вы не делали записи %1$d дня. Записывайте свои периоды для более точных прогнозов.</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_continued_days">
+        <item quantity="other">Период длится %1$d дней</item>
+        <item quantity="one">Период длится %1$d день</item>
+        <item quantity="few">Период длится %1$d дня</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_cycle_days">
+        <item quantity="other">%1$d день менструального цикла</item>
+        <item quantity="one">%1$d день менструального цикла</item>
+    </plurals>
+    <plurals name="title_menstruation_day">
+        <item quantity="other">%1$d день периода</item>
+        <item quantity="one">%1$d день периода</item>
+    </plurals>
+    <plurals name="title_menstruation_margin_next_time_days">
+        <item quantity="other">%1$d дней до периода</item>
+        <item quantity="one">%1$d день до периода</item>
+        <item quantity="few">%1$d дня до периода</item>
+    </plurals>
+    <plurals name="title_menstruation_predict_period">
+        <item quantity="other">Расчетный период: %1$d дней</item>
+        <item quantity="one">Расчетный период: %1$d день</item>
+        <item quantity="few">Расчетный период: %1$d дня</item>
+    </plurals>
+    <plurals name="travel_eta_advice">
+        <item quantity="other">%2$s минут езды до %1$s.</item>
+        <item quantity="one">%2$s минута езды до %1$s.</item>
+        <item quantity="few">%2$s минуты езды до %1$s.</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other">Неделя %d</item>

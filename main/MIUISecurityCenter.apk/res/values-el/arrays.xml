@@ -137,7 +137,7 @@
     <string-array name="debug_open_intercept">
         <item>Θα υπάρχει δυνατότητα πρόσβασης και επεξεργασίας αρχείων στη συσκευή σας με χρήση υπολογιστή.</item>
         <item>Θα επιτρέπεται η εγκατάσταση εφαρμογών στη συσκευή σας χωρίς τη ρητή σας άδεια.</item>
-        <item>Θα έχετε τη δυνατότητα να παρακολουθείτε και να καταγράφετε το περιεχόμενο της οθόνης σας απομακρυσμένα.</item>
+        <item>Θα έχετε τη δυνατότητα να παρακολουθείτε και να καταγράφετε το περιεχόμενο της οθόνης σας εξ αποστάσεως.</item>
         <item>Θα έχετε δυνατότητα πρόσβασης στις λεπτομερείς πληροφορίες της συσκευής σας.</item>
     </string-array>
     <string-array name="gb_adv_touch_custom_level">
@@ -145,7 +145,16 @@
         <item>Χαμηλή</item>
         <item>Κανονική</item>
         <item>Υψηλή</item>
-        <item>Υψηλότατη</item>
+        <item>Υψηλότερη</item>
+    </string-array>
+    <string-array name="gb_voice_change_gender">
+        <item>@string/gb_voice_changer_gender_man</item>
+        <item>@string/gb_voice_changer_gender_female</item>
+    </string-array>
+    <string-array name="input_package_names">
+        <item>com.baidu.input_mi</item>
+        <item>com.iflytek.inputmethod.miui</item>
+        <item>com.sohu.inputmethod.sogou.xiaomi</item>
     </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>
@@ -197,17 +206,31 @@
     </string-array>
     <string-array name="pc_battery_history_spinner_choice">
         <item>@string/pc_battery_history_consume_rank_menu_item</item>
-        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_all</item>
         <item>@string/power_center_battery_software</item>
         <item>@string/power_center_battery_hardware</item>
         <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_battery_history_spinner_choice_new">
         <item>@string/pc_battery_history_consume_rank_menu_item</item>
-        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_all</item>
         <item>@string/power_center_battery_software</item>
         <item>@string/power_center_battery_hardware</item>
         <item>@string/pc_battery_history_battery_detail_menu_item</item>
+    </string-array>
+    <string-array name="pc_fast_charge_entry">
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+    </string-array>
+    <string-array name="pc_fast_charge_entry_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
     <string-array name="pc_settings_thermal_entries">
         <item>Προεπιλογή</item>
@@ -246,7 +269,7 @@
     </string-array>
     <string-array name="sort_title">
         <item>Ταξινόμηση κατά κατάσταση</item>
-        <item>Ταξινόμηση κατά εφαρμογή</item>
+        <item>Ταξινόμηση κατά όνομα εφαρμογής</item>
         <item>Ταξινόμηση κατά συχνότητα χρήσης</item>
         <item>Ταξινόμηση κατά χώρο αποθήκευσης</item>
         <item>Ταξινόμηση κατά χρόνο εγκατάστασης</item>

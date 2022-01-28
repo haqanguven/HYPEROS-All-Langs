@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alphabet_table">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Ё</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ъ</item>
+        <item>Ы</item>
+        <item>Ь</item>
+        <item>Э</item>
+        <item>Ю</item>
+        <item>Я</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Ё</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ъ</item>
+        <item>Ы</item>
+        <item>Ь</item>
+        <item>Э</item>
+        <item>Ю</item>
+        <item>Я</item>
+        <item>\#</item>
+    </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Без анимации</item>
         <item>Анимация 0.5x</item>
@@ -83,11 +156,6 @@
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Аудиокодек: Qualcomm® aptX™ Adaptive</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC V3</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Выбор системы (по умолчанию)</item>
@@ -96,13 +164,6 @@
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
-        <item>LHDC V3</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
-        <item>Включить дополнительные кодеки</item>
-        <item>Отключить дополнительные кодеки</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -136,13 +197,11 @@
         <item>Отключено</item>
         <item>Отсортировано</item>
         <item>Включен</item>
-        <item>Заголовки отсортированы</item>
-        <item>Медиапакеты отсортированы</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Улучшенные цвета</item>
-        <item>Натуральные цвета, привычные глазу</item>
-        <item>Цвета, оптимизированные для цифрового контента</item>
+        <item>Натуральные цвета, привычные глазу.</item>
+        <item>Цвета, оптимизированные для цифрового контента.</item>
     </string-array>
     <string-array name="color_mode_names">
         <item>Насыщенный (по умолчанию)</item>
@@ -150,13 +209,13 @@
         <item>Стандартный</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Отключено</item>
+        <item>Откл.</item>
         <item>Показывать области наложения</item>
         <item>Показывать области для дейтераномалии</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Нет</item>
-        <item>Logcat</item>
+        <item>Журнал Logcat</item>
         <item>Systrace (графика)</item>
         <item>Стек вызовов на glGetError</item>
     </string-array>
@@ -185,13 +244,13 @@
         <item>720p, 1080p (два экрана)</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Отключен</item>
+        <item>Откл.</item>
         <item>64 КБ</item>
         <item>256 КБ</item>
         <item>1 МБ</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Отключен</item>
+        <item>Откл.</item>
         <item>64 КБ на буфер</item>
         <item>256 КБ на буфер</item>
         <item>1 МБ на буфер</item>
@@ -199,7 +258,7 @@
         <item>16 МБ на буфер</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Отключен</item>
+        <item>Откл.</item>
         <item>64 КБ</item>
         <item>256 КБ</item>
         <item>1 МБ</item>
@@ -207,24 +266,24 @@
         <item>16 МБ</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Отключено</item>
+        <item>Откл.</item>
         <item>Все буферы журналов</item>
         <item>Все, кроме буферов журнала радио</item>
         <item>Только буфер журнала ядра</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Отключено</item>
+        <item>Откл.</item>
         <item>Все</item>
         <item>Все, кроме радио</item>
         <item>Только ядро</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Отключено</item>
+        <item>Откл.</item>
         <item>Рисовать область усечения синим</item>
         <item>Подсвечивать команды рисования зеленым</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Отключено</item>
+        <item>Откл.</item>
         <item>На экране в виде полос</item>
         <item>В adb shell dumpsys gfxinfo</item>
     </string-array>
@@ -294,6 +353,20 @@
         <item>Ошибка</item>
         <item>Заблокировано</item>
         <item>Нестабильное соединение</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Поиск…</item>
+        <item>Подключение…</item>
+        <item>Аутентификация…</item>
+        <item>Получение IP-адреса…</item>
+        <item>Подключено</item>
+        <item>Приостановлено</item>
+        <item>Отключение…</item>
+        <item>Не подключено</item>
+        <item>Сбой</item>
+        <item>Заблокировано</item>
+        <item>Временно отключено из-за плохого соединения</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Без анимации</item>

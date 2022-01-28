@@ -1,70 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">Godzinę temu</item>
+        <item quantity="one">Godzinę temu</item>
+        <item quantity="few">Godzinę temu</item>
+        <item quantity="many">Godzinę temu</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">Godzinę temu</item>
+        <item quantity="one">Godzinę temu</item>
+        <item quantity="few">Godzinę temu</item>
+        <item quantity="many">Godzinę temu</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Pół godziny temu</item>
+        <item quantity="one">Pół godziny temu</item>
+        <item quantity="few">Pół godziny temu</item>
+        <item quantity="many">Pół godziny temu</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Za godzinę</item>
+        <item quantity="one">Za godzinę</item>
+        <item quantity="few">Za godzinę</item>
+        <item quantity="many">Za godzinę</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Za pół godziny</item>
+        <item quantity="one">Za pół godziny</item>
+        <item quantity="few">Za pół godziny</item>
+        <item quantity="many">Za pół godziny</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Natychmiast</item>
+        <item quantity="one">Natychmiast</item>
+        <item quantity="few">Natychmiast</item>
+        <item quantity="many">Natychmiast</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">za %d min</item>
+        <item quantity="one">za 1 min</item>
+        <item quantity="few">za %d min</item>
+        <item quantity="many">za %d min</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Teraz</item>
+        <item quantity="one">Teraz</item>
+        <item quantity="few">Teraz</item>
+        <item quantity="many">Teraz</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d min temu</item>
+        <item quantity="one">1 min temu</item>
+        <item quantity="few">%d min temu</item>
+        <item quantity="many">%d min temu</item>
+    </plurals>
     <plurals name="activity_main_update_time_in_one_day">
-        <item quantity="other">%d godz. temu</item>
+        <item quantity="other">%d godzin temu</item>
         <item quantity="one">%d godzinę temu</item>
+        <item quantity="few">%d godziny temu</item>
+        <item quantity="many">%d godzin temu</item>
     </plurals>
     <plurals name="activity_main_update_time_in_one_hour">
-        <item quantity="other">%d min temu</item>
+        <item quantity="other">%d minut temu</item>
         <item quantity="one">%d minutę temu</item>
+        <item quantity="few">%d minuty temu</item>
+        <item quantity="many">%d minut temu</item>
     </plurals>
     <plurals name="activity_main_update_time_one_day_ago">
         <item quantity="other">%d dni temu</item>
         <item quantity="one">%d dzień temu</item>
+        <item quantity="few">%d dni temu</item>
+        <item quantity="many">%d dni temu</item>
     </plurals>
     <plurals name="aqi_all_city_cur_num">
-        <item quantity="other">Średnia z %1$s stacji</item>
-        <item quantity="one">Średnia z %1$s stacji</item>
+        <item quantity="other">Średnia dla %1$s stacji</item>
+        <item quantity="one">Średnia dla %1$s stacja</item>
+        <item quantity="few">Średnia dla %1$s stacji</item>
+        <item quantity="many">Średnia dla %1$s stacji</item>
     </plurals>
     <plurals name="daily_forcast_drawer_on_home">
-        <item quantity="other">%1$s-dniowa prognoza</item>
-        <item quantity="one">%1$s-dniowa prognoza</item>
+        <item quantity="other">Prognoza %1$s-dniowa</item>
+        <item quantity="one">Prognoza %1$s-dniowa</item>
+        <item quantity="few">Prognoza %1$s-dniowa</item>
+        <item quantity="many">Prognoza %1$s-dniowa</item>
     </plurals>
     <plurals name="daily_forcast_drawer_on_top">
-        <item quantity="other">%1$s-dniowa prognoza</item>
-        <item quantity="one">Prognoza na %1$s dzień</item>
+        <item quantity="other">Prognoza %1$s-dniowa</item>
+        <item quantity="one">Prognoza %1$s-dniowa</item>
+        <item quantity="few">Prognoza %1$s-dniowa</item>
+        <item quantity="many">Prognoza %1$s-dniowa</item>
     </plurals>
     <plurals name="feedback_result_interval_time_too_short_minute">
-        <item quantity="other">Możesz przekazać raport ponownie za %1$s minut</item>
-        <item quantity="one">Możesz przekazać raport ponownie za minutę</item>
-        <item quantity="few">Możesz przekazać raport ponownie za %1$s minuty</item>
+        <item quantity="other">Można przesłać opinię ponownie w ciągu %1$s minut</item>
+        <item quantity="one">Można przesłać opinię ponownie w ciągu %1$s minuty</item>
+        <item quantity="few">Można przesłać opinię ponownie w ciągu %1$s minut</item>
+        <item quantity="many">Można przesłać opinię ponownie w ciągu %1$s minut</item>
     </plurals>
     <plurals name="feedback_result_interval_time_too_short_second">
-        <item quantity="other">Możesz przekazać raport ponownie za %1$s sekund</item>
-        <item quantity="one">Możesz przekazać raport ponownie za sekundę</item>
-        <item quantity="few">Możesz przekazać raport ponownie za %1$s sekundy</item>
+        <item quantity="other">Można przesłać opinię ponownie w ciągu %1$s sekund</item>
+        <item quantity="one">Można przesłać opinię ponownie w ciągu %1$s sekundy</item>
+        <item quantity="few">Można przesłać opinię ponownie w ciągu %1$s sekund</item>
+        <item quantity="many">Można przesłać opinię ponownie w ciągu %1$s sekund</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Pół godziny temu</item>
+        <item quantity="one">Pół godziny temu</item>
+        <item quantity="few">Pół godziny temu</item>
+        <item quantity="many">Pół godziny temu</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Za godzinę</item>
+        <item quantity="one">Za godzinę</item>
+        <item quantity="few">Za godzinę</item>
+        <item quantity="many">Za godzinę</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Za pół godziny</item>
+        <item quantity="one">Za pół godziny</item>
+        <item quantity="few">Za pół godziny</item>
+        <item quantity="many">Za pół godziny</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Natychmiast</item>
+        <item quantity="one">Natychmiast</item>
+        <item quantity="few">Natychmiast</item>
+        <item quantity="many">Natychmiast</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">za %d minut</item>
+        <item quantity="one">za 1 minutę</item>
+        <item quantity="few">za %d minuty</item>
+        <item quantity="many">za %d minut</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Teraz</item>
+        <item quantity="one">Teraz</item>
+        <item quantity="few">Teraz</item>
+        <item quantity="many">Teraz</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d zaznaczonych elementów</item>
+        <item quantity="one">%d zaznaczony element</item>
+        <item quantity="few">%d zaznaczone elementy</item>
+        <item quantity="many">%d zaznaczonych elementów</item>
     </plurals>
     <plurals name="no_vote_num">
-        <item quantity="other">%1$s osób | </item>
-        <item quantity="one">%1$s osoba | </item>
-        <item quantity="few">%1$s osoby | </item>
+        <item quantity="other">%1$s osób | </item>
+        <item quantity="one">%1$s osoba | </item>
+        <item quantity="few">%1$s osoby | </item>
+        <item quantity="many">%1$s osób | </item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minut temu</item>
+        <item quantity="one">1 minutę temu</item>
+        <item quantity="few">%d minuty temu</item>
+        <item quantity="many">%d minut temu</item>
     </plurals>
     <plurals name="total_voted_num_text">
-        <item quantity="other">"Zagłosowało &lt;font color='#20a7ff'>%1$s&lt;/font> osób"</item>
-        <item quantity="one">"Zagłosowała &lt;font color='#20a7ff'>%1$s&lt;/font> osoba"</item>
-        <item quantity="few">"Zagłosowały &lt;font color='#20a7ff'>%1$s&lt;/font> osoby"</item>
+        <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> osób zagłosowało"</item>
+        <item quantity="one">"&lt;font color='#20a7ff'>%1$s&lt;/font> osoba zagłosowała"</item>
+        <item quantity="few">"&lt;font color='#20a7ff'>%1$s&lt;/font> osoby zagłosowały"</item>
+        <item quantity="many">"&lt;font color='#20a7ff'>%1$s&lt;/font> osób zagłosowało"</item>
     </plurals>
     <plurals name="tts_report_temperature_high_centigrade">
-        <item quantity="other">Najwyższa temperatura: %1$s°C</item>
-        <item quantity="one">Najwyższa temperatura: %1$s°C</item>
+        <item quantity="other">Najwyższa temperatura: %1$s stopnie Celsjusza</item>
+        <item quantity="one">Najwyższa temperatura: %1$s stopień Celsjusza</item>
+        <item quantity="few">Najwyższa temperatura: %1$s stopnie Celsjusza</item>
+        <item quantity="many">Najwyższa temperatura: %1$s stopni Celsjusza</item>
     </plurals>
     <plurals name="tts_report_temperature_high_fahrenheit">
-        <item quantity="one">Najwyższa temperatura: %1$s°F</item>
+        <item quantity="other">Najwyższa temperatura: %1$s stopni Fahrenheita</item>
+        <item quantity="one">Najwyższa temperatura: %1$s stopień Fahrenheita</item>
+        <item quantity="few">Najwyższa temperatura: %1$s stopnie Fahrenheita</item>
+        <item quantity="many">Najwyższa temperatura: %1$s stopni Fahrenheita</item>
     </plurals>
     <plurals name="tts_report_temperature_low_centigrade">
-        <item quantity="other">Najniższa temperatura: %1$s°C</item>
-        <item quantity="one">Najniższa temperatura: %1$s°C</item>
+        <item quantity="other">Najniższa temperatura: %1$s stopni Celsjusza</item>
+        <item quantity="one">Najniższa temperatura: %1$s stopień Celsjusza</item>
+        <item quantity="few">Najniższa temperatura: %1$s stopnie Celsjusza</item>
+        <item quantity="many">Najniższa temperatura: %1$s stopni Celsjusza</item>
     </plurals>
     <plurals name="tts_report_temperature_low_fahrenheit">
-        <item quantity="one">Najniższa temperatura: %1$s°F</item>
+        <item quantity="other">Najniższa temperatura: %1$s stopni Fahrenheita</item>
+        <item quantity="one">Najniższa temperatura: %1$s stopień Fahrenheita</item>
+        <item quantity="few">Najniższa temperatura: %1$s stopnie Fahrenheita</item>
+        <item quantity="many">Najniższa temperatura: %1$s stopni Fahrenheita</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Pogodnie</item>
         <item quantity="one">Pogodnie</item>
+        <item quantity="few">Pogodnie</item>
+        <item quantity="many">Pogodnie</item>
     </plurals>
     <plurals name="yes_vote_num">
         <item quantity="other"> | %1$s osób</item>
         <item quantity="one"> | %1$s osoba</item>
         <item quantity="few"> | %1$s osoby</item>
+        <item quantity="many"> | %1$s osób</item>
     </plurals>
 </resources>

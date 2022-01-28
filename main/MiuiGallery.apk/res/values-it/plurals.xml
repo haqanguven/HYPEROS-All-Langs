@@ -49,7 +49,7 @@
         <item quantity="one">"%2$d elemento non può essere aggiunto all'album. %1$s."</item>
     </plurals>
     <plurals name="add_to_secret_failed_with_reason_and_count">
-        <item quantity="other">"%2$d elementi non possono essere aggiunti all'album nascosto. %1$s."</item>
+        <item quantity="other">"%2$d elementi non possono essere aggiunti all'album privato. %1$s."</item>
         <item quantity="one">"%2$d elemento non può essere aggiunto all'album privato. %1$s."</item>
     </plurals>
     <plurals name="age_day">
@@ -148,6 +148,10 @@
         <item quantity="other">%d video</item>
         <item quantity="one">%d video</item>
     </plurals>
+    <plurals name="cloud_storage_warn_title_link">
+        <item quantity="other">Impossibile sincronizzare %d elementi, spazio sul cloud insufficiente</item>
+        <item quantity="one">Impossibile sincronizzare %d elemento, spazio sul cloud insufficiente</item>
+    </plurals>
     <plurals name="collage_select_image_dynamic_range">
         <item quantity="other">I collage possono contenere %1$d-%2$d foto</item>
         <item quantity="one">I collage possono contenere %1$d-%2$d foto</item>
@@ -199,6 +203,10 @@
     <plurals name="download_retry_message">
         <item quantity="other">Impossibile scaricare %1$d file, controlla la connessione e riprova</item>
         <item quantity="one">Impossibile scaricare %1$d file, controlla la connessione e riprova</item>
+    </plurals>
+    <plurals name="downloading_title_link">
+        <item quantity="other">Download elementi dal cloud (%2$d/%1$d)</item>
+        <item quantity="one">Download elementi dal cloud (%2$d/%1$d)</item>
     </plurals>
     <plurals name="face_count">
         <item quantity="other">%d foto in totale</item>
@@ -287,6 +295,10 @@
     <plurals name="photo_count_format">
         <item quantity="other">%1$d elementi in totale</item>
         <item quantity="one">%1$d elemento in totale</item>
+    </plurals>
+    <plurals name="photo_editor_talkback_crop_scale_value">
+        <item quantity="other">Ruota di %d gradi</item>
+        <item quantity="one">Ruota di %d grado</item>
     </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d giorni</item>
@@ -484,13 +496,33 @@
         <item quantity="other">Ottimizzate %d foto</item>
         <item quantity="one">Ottimizzata %d foto</item>
     </plurals>
+    <plurals name="slim_complete_photo_count_v2">
+        <item quantity="other">%d foto ottimizzate</item>
+        <item quantity="one">%d foto ottimizzata</item>
+    </plurals>
+    <plurals name="slim_complete_video_count">
+        <item quantity="other">%d video ottimizzati</item>
+        <item quantity="one">%d video ottimizzato</item>
+    </plurals>
     <plurals name="slim_exit_dialog_message">
         <item quantity="other">%d foto non sono state ottimizzate. Interrompere ora?</item>
         <item quantity="one">%d foto non è stata ottimizzata. Interrompere ora?</item>
     </plurals>
+    <plurals name="slim_photo_count">
+        <item quantity="other">%d foto</item>
+        <item quantity="one">%d foto</item>
+    </plurals>
     <plurals name="slim_remain_photo_count">
         <item quantity="other">rimangono %d foto</item>
         <item quantity="one">rimane %d foto</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count_v2">
+        <item quantity="other">%d elementi da ottimizzare</item>
+        <item quantity="one">%d elemento da ottimizzare</item>
+    </plurals>
+    <plurals name="slim_videos_count">
+        <item quantity="other">%d video</item>
+        <item quantity="one">%d video</item>
     </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">Non è stato eseguito il backup di %d foto e video</item>
@@ -512,9 +544,29 @@
         <item quantity="other">%d video sincronizzati</item>
         <item quantity="one">%d video sincronizzato</item>
     </plurals>
+    <plurals name="syncing_gprs_title_link">
+        <item quantity="other">Sincronizzazione di %d elementi utilizzando i dati mobili</item>
+        <item quantity="one">Sincronizzazione di %d elemento utilizzando i dati mobili</item>
+    </plurals>
+    <plurals name="syncing_title_link">
+        <item quantity="other">Sincronizzazione di %d elementi</item>
+        <item quantity="one">Sincronizzazione di %d elemento</item>
+    </plurals>
+    <plurals name="talkback_album_item_content">
+        <item quantity="other">%1$s, %2$s elementi</item>
+        <item quantity="one">%1$s, %2$s elemento</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_cloud">
+        <item quantity="other">%d elementi selezionati verranno eliminati definitivamente dal cloud e da tutti i dispositivi sincronizzati. Eliminare comunque?</item>
+        <item quantity="one">%d elemento selezionato verrà eliminato definitivamente dal cloud e da tutti i dispositivi sincronizzati. Eliminare comunque?</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_image">
         <item quantity="other">Non potrai ripristinare %d elementi selezionati una volta eliminati. Eliminare comunque?</item>
         <item quantity="one">Non potrai ripristinare %d elemento selezionato una volta eliminato. Eliminare comunque?</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_local">
+        <item quantity="other">%d elementi selezionati verranno eliminati definitivamente. Eliminare comunque?</item>
+        <item quantity="one">%d elemento selezionato verrà eliminato definitivamente. Eliminare comunque?</item>
     </plurals>
     <plurals name="trash_purge_dialog_message_media">
         <item quantity="other">Non potrai ripristinare %d elementi selezionati una volta eliminati. Eliminare comunque?</item>
