@@ -3,7 +3,7 @@
     <string name="cancel">Скасувати</string>
     <string name="copy">Копіювати</string>
     <string name="copyUrl">Копіювати URL</string>
-    <string name="cut">Вирізати</string>
+    <string name="cut">Виріз.</string>
     <string name="defaultVoiceMailAlphaTag">Голосова пошта</string>
     <string name="defaultMsisdnAlphaTag">MSISDN1</string>
     <string name="emptyPhoneNumber">(Немає номера тел.)</string>
@@ -35,7 +35,7 @@
     <string name="CLIRPermanent">Ви не можете змінювати налаштування ідентифікатора абонента.</string>
     <string name="CfMmi">Переадресація виклику</string>
     <string name="ClipMmi">Вхідн. ід. абонента</string>
-    <string name="ClirMmi">Приховати ідентифікатор абонента для вихідних викликів</string>
+    <string name="ClirMmi">Вихід. ід. абонента</string>
     <string name="CndMmi">Отрим. номера абонента</string>
     <string name="CnipMmi">Номер дзвінка присутній</string>
     <string name="CnirMmi">Номер виклику обмежено</string>
@@ -186,7 +186,7 @@
     <string name="accessibility_magnification_chooser_text">Збільшення</string>
     <string name="accessibility_select_shortcut_menu_title">Натисніть функцію, щоб почати використовувати її:</string>
     <string name="accessibility_service_action_perform_description">Цей сервіс може відстежувати вашу взаємодію з додатком чи апаратним датчиком, а також взаємодіяти з додатками від вашого імені.</string>
-    <string name="accessibility_service_action_perform_title">Перегляд і виконання дій</string>
+    <string name="accessibility_service_action_perform_title">Переглянути й виконати дії</string>
     <string name="accessibility_service_screen_control_description">Цей сервіс може переглядати всі дані на екрані й показувати вміст над іншими додатками.</string>
     <string name="accessibility_service_screen_control_title">Перегляд і контроль екрана</string>
     <string name="accessibility_service_warning_description">Повний доступ доречний для додатків, які надають спеціальні можливості, але його не варто відкривати для більшості інших додатків.</string>
@@ -201,18 +201,17 @@
 Поточні функції:
 %1$s
 Вибрані функції можна змінити в налаштуваннях у меню спеціальних можливостей."</string>
-    <string name="accessibility_shortcut_multiple_service_warning_title">Увімкнути засіб спеціальних можливостей?</string>
+    <string name="accessibility_shortcut_multiple_service_warning_title">Увімкнути спеціальні можливості?</string>
     <string name="accessibility_shortcut_off">Не вмикати</string>
     <string name="accessibility_shortcut_on">Увімкнути</string>
     <string name="accessibility_shortcut_single_service_warning">"Якщо втримувати обидві клавіші гучності впродовж кількох секунд, буде ввімкнено спеціальні можливості – %1$s. Це може вплинути на роботу пристрою.
 
 Для цієї комбінації клавіш можна вибрати іншу функцію в меню \"Налаштування > Спеціальні можливості\"."</string>
-    <string name="accessibility_shortcut_single_service_warning_title">Увімкнути засіб швидкого доступу до сервісу %1$s?</string>
+    <string name="accessibility_shortcut_single_service_warning_title">Увімкнути %1$s?</string>
     <string name="accessibility_shortcut_spoken_feedback">Щоб скористатися службою %1$s, утримуйте обидві клавіші гучності впродовж трьох секунд</string>
     <string name="accessibility_shortcut_toogle_warning">Якщо цей засіб увімкнено, ви можете активувати спеціальні можливості, утримуючи обидві кнопки гучності протягом трьох секунд.</string>
     <string name="accessibility_shortcut_warning_dialog_title">Використовувати швидке ввімкнення?</string>
     <string name="accessibility_system_action_back_label">Назад</string>
-    <string name="accessibility_system_action_dismiss_notification_shade">Закрити панель сповіщень</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Засіб спеціальних можливостей</string>
     <string name="accessibility_system_action_home_label">На головний екран</string>
     <string name="accessibility_system_action_lock_screen_label">Заблокувати екран</string>
@@ -238,7 +237,7 @@
     <string name="activity_resolver_work_profiles_support">%1$s не підтримує робочий профіль</string>
     <string name="activitychooserview_choose_application">Вибір додатка</string>
     <string name="activitychooserview_choose_application_error">Не вдалося запустити програму %s</string>
-    <string name="adb_active_notification_message">Торкніться, щоб вимкнути його</string>
+    <string name="adb_active_notification_message">Торкніться, щоб вимкнути налагодження через USB</string>
     <string name="adb_active_notification_title">USB-налагодження увімкнено</string>
     <string name="adb_debugging_notification_channel_tv">Налагодження USB</string>
     <string name="adbwifi_active_notification_message">Натисніть, щоб вимкнути налагодження через Wi-Fi</string>
@@ -279,7 +278,6 @@
     <string name="anr_title" />
     <string name="app_blocked_message">Додаток %1$s зараз недоступний.</string>
     <string name="app_blocked_title">Додаток недоступний</string>
-    <string name="app_category_accessibility">Спеціальні можливості</string>
     <string name="app_category_audio">Музика й аудіо</string>
     <string name="app_category_game">Ігри</string>
     <string name="app_category_image">Фотографії та зображення</string>
@@ -346,22 +344,25 @@
     <string name="badPin">Введений попередній PIN-код не правильний.</string>
     <string name="badPuk">Введений PUK-код не правильний.</string>
     <string name="battery_saver_charged_notification_summary">Телефон має достатньо заряду акумулятора. Функції вже не обмежено.</string>
-    <string name="battery_saver_description">У режимі енергозбереження вмикається темна тема й обмежуються чи вимикаються дії у фоновому режимі, а також деякі візуальні ефекти, функції та з’єднання з мережами.</string>
-    <string name="battery_saver_description_with_learn_more">У режимі енергозбереження вмикається темна тема й обмежуються чи вимикаються дії у фоновому режимі, а також деякі візуальні ефекти, функції та з’єднання з мережами.</string>
+    <string name="battery_saver_description">"Щоб подовжити час роботи акумулятора, режим енергозбереження:
+
+•вмикає темну тему;
+•припиняє або обмежує фонову активність, вимикає деякі візуальні ефекти та інші енергозатратні функції, зокрема команду \"Ok Google\"."</string>
+    <string name="battery_saver_description_with_learn_more">"Щоб подовжити час роботи акумулятора, режим енергозбереження:
+
+•вмикає темну тему;
+•припиняє або обмежує фонову активність, вимикає деякі візуальні ефекти та інші енергозатратні функції, зокрема команду \"Ok Google\".
+
+"<annotation id="url">Докладніше</annotation></string>
     <string name="battery_saver_notification_channel_name">Режим енергозбереження</string>
     <string name="battery_saver_off_notification_title">Режим енергозбереження вимкнено.</string>
     <string name="beforeOneMonthDurationPast">Раніше 1 місяця тому</string>
-    <string name="biometric_app_setting_name">Доступ через біометрію</string>
-    <string name="biometric_dialog_default_subtitle">Щоб продовжити, скористайтеся біометрією</string>
     <string name="biometric_dialog_default_title">Підтвердьте, що це ви</string>
     <string name="biometric_error_canceled">Автентифікацію скасовано</string>
     <string name="biometric_error_device_not_secured">Не вказано PIN-код, ключ або пароль</string>
-    <string name="biometric_error_generic">Помилка автентифікації</string>
     <string name="biometric_error_hw_unavailable">Біометричне апаратне забезпечення недоступне</string>
     <string name="biometric_error_user_canceled">Автентифікацію скасовано</string>
     <string name="biometric_not_recognized">Не розпізнано</string>
-    <string name="biometric_or_screen_lock_app_setting_name">Використовувати біометрію або дані для розблокування екрана</string>
-    <string name="biometric_or_screen_lock_dialog_default_subtitle">Щоб продовжити, скористайтеся біометрією або даними для розблокування екрана</string>
     <string name="bluetooth_a2dp_audio_route_name">Аудіо Bluetooth</string>
     <string name="bluetooth_airplane_mode_toast">У режимі польоту Bluetooth залишатиметься ввімкненим</string>
     <string name="bugreport_message">Інформація про поточний стан вашого пристрою буде зібрана й надіслана електронною поштою. Підготовка звіту триватиме певний час.</string>
@@ -373,13 +374,6 @@
     <string name="bugreport_screenshot_success_toast">Знімок екрана зі звітом про помилку зроблено</string>
     <string name="bugreport_title">Звіт про помилку</string>
     <string name="byteShort">Б</string>
-    <string name="call_notification_answer_action">Відповісти</string>
-    <string name="call_notification_answer_video_action">Відео</string>
-    <string name="call_notification_decline_action">Відхилити</string>
-    <string name="call_notification_hang_up_action">Завершити</string>
-    <string name="call_notification_incoming_text">Вхідний виклик</string>
-    <string name="call_notification_ongoing_text">Активний виклик</string>
-    <string name="call_notification_screening_text">Вхідний виклик (Фільтр)</string>
     <string name="capability_desc_canCaptureFingerprintGestures">Може фіксувати жести на сканері відбитків пальців.</string>
     <string name="capability_desc_canControlMagnification">Контролювати масштаб і розташування екрана.</string>
     <string name="capability_desc_canPerformGestures">Можна торкатися, проводити пальцем, стискати пальці та виконувати інші жести.</string>
@@ -440,7 +434,6 @@
     <string name="country_selection_title">Вибір регіону</string>
     <string name="create_contact_using">"Створ. контакт
  викор. %s"</string>
-    <string name="crossSimFormat_spn_cross_sim_calling">%s: резервний спосіб здійснення викликів</string>
     <string name="data_saver_description">Щоб зменшити використання трафіку, функція \"Заощадження трафіку\" не дозволяє деяким додаткам надсилати чи отримувати дані у фоновому режимі. Поточний додаток зможе отримувати доступ до таких даних, але рідше. Наприклад, зображення не відображатиметься, доки ви не торкнетеся його.</string>
     <string name="data_saver_enable_button">Увімкнути</string>
     <string name="data_saver_enable_title">Увімкнути заощадження трафіку?</string>
@@ -495,7 +488,6 @@
     <string name="dial_number_using">"Набр. номер
  викор. %s"</string>
     <string name="disable_accessibility_shortcut">Вимкнути ярлик</string>
-    <string name="dismiss_action">Закрити</string>
     <string name="display_manager_built_in_display_name">Вбудований екран</string>
     <string name="display_manager_hdmi_display_name">Екран HDMI</string>
     <string name="display_manager_overlay_display_name">Накладання №%1$d</string>
@@ -591,7 +583,7 @@
     <string name="face_acquired_recalibrate">Повторно проскануйте обличчя.</string>
     <string name="face_acquired_roll_too_extreme">Трохи поверніть обличчя.</string>
     <string name="face_acquired_sensor_dirty">Очистьте верхню частину екрана, зокрема чорну панель</string>
-    <string name="face_acquired_tilt_too_extreme">Трохи зменште нахил голови.</string>
+    <string name="face_acquired_tilt_too_extreme">Трохи перемістіть обличчя.</string>
     <string name="face_acquired_too_bright">Занадто яскраво. Потрібно менше світла.</string>
     <string name="face_acquired_too_close">Тримайте телефон далі від обличчя.</string>
     <string name="face_acquired_too_dark">Занадто темно. Потрібно більше світла.</string>
@@ -603,31 +595,24 @@
     <string name="face_acquired_too_much_motion">Забагато рухів. Тримайте телефон нерухомо.</string>
     <string name="face_acquired_too_right">Тримайте телефон лівіше.</string>
     <string name="face_acquired_too_similar">Надто схоже на попередню спробу, змініть позу.</string>
-    <string name="face_app_setting_name">Доступ через фейсконтроль</string>
     <string name="face_authenticated_confirmation_required">Обличчя автентифіковано. Натисніть \"Підтвердити\"</string>
     <string name="face_authenticated_no_confirmation_required">Обличчя автентифіковано</string>
-    <string name="face_dialog_default_subtitle">Щоб продовжити, скористайтеся фейсконтролем</string>
     <string name="face_error_canceled">Дію з обличчям скасовано.</string>
     <string name="face_error_hw_not_available">Не вдається перевірити обличчя. Апаратне забезпечення недоступне.</string>
-    <string name="face_error_hw_not_present">Фейсконтроль не підтримується на цьому пристрої</string>
+    <string name="face_error_hw_not_present">На цьому пристрої не підтримується Фейсконтроль.</string>
     <string name="face_error_lockout">Забагато спроб. Повторіть пізніше.</string>
     <string name="face_error_lockout_permanent">Забагато спроб. Фейсконтроль вимкнено.</string>
-    <string name="face_error_lockout_screen_lock">Забагато спроб. Розблокуйте екран іншим способом.</string>
     <string name="face_error_no_space">Не вдається зберегти нові дані про обличчя. Видаліть старі.</string>
-    <string name="face_error_not_enrolled">Ви не налаштували фейсконтроль</string>
+    <string name="face_error_not_enrolled">Ви не налаштували Фейсконтроль</string>
     <string name="face_error_security_update_required">Датчик тимчасово вимкнено.</string>
-    <string name="face_error_timeout">Скористайтеся фейсконтролем ще раз</string>
+    <string name="face_error_timeout">Скористайтеся Фейсконтролем ще раз.</string>
     <string name="face_error_unable_to_process">Не вдається перевірити обличчя. Повторіть спробу.</string>
-    <string name="face_error_user_canceled">Користувач скасував операцію фейсконтролю</string>
+    <string name="face_error_user_canceled">Користувач скасував Фейсконтроль.</string>
     <string name="face_icon_content_description">Значок обличчя</string>
     <string name="face_name_template">Обличчя %d</string>
-    <string name="face_or_screen_lock_app_setting_name">Використовувати фейсконтроль або дані для розблокування екрана</string>
-    <string name="face_or_screen_lock_dialog_default_subtitle">Щоб продовжити, скористайтеся фейсконтролем або даними для розблокування екрана</string>
-    <string name="face_recalibrate_notification_content">Натисніть, щоб видалити свою модель обличчя, а потім знову додайте її</string>
+    <string name="face_recalibrate_notification_content">Повторно проскануйте обличчя для ефективнішого розпізнавання</string>
     <string name="face_recalibrate_notification_name">Фейсконтроль</string>
-    <string name="face_recalibrate_notification_title">Сталася помилка з фейсконтролем</string>
-    <string name="face_setup_notification_content">Ви зможете розблоковувати телефон, подивившись на нього</string>
-    <string name="face_setup_notification_title">Налаштування фейсконтролю</string>
+    <string name="face_recalibrate_notification_title">Повторно проскануйте обличчя</string>
     <string name="faceunlock_multiple_failures">Перевищено максимальну кількість спроб розблокування за допомогою функції \"Фейсконтроль\"</string>
     <string name="factory_reset_message">"Не можна запускати додаток для адміністраторів. Буде відновлено заводські налаштування пристрою.
 
@@ -647,38 +632,24 @@
     <string name="find_next">Знайти наступне</string>
     <string name="find_on_page">Знайти на сторінці</string>
     <string name="find_previous">Знайти попереднє</string>
-    <string name="fingerprint_acquired_already_enrolled">Спробуйте інший відбиток пальця</string>
-    <string name="fingerprint_acquired_imager_dirty">Очистьте сканер</string>
-    <string name="fingerprint_acquired_immobile">Щоразу трохи змінюйте положення пальця</string>
+    <string name="fingerprint_acquired_imager_dirty">Датчик відбитків пальців забруднився. Очистьте його та повторіть спробу.</string>
     <string name="fingerprint_acquired_insufficient">Не вдалось обробити відбиток пальця. Повторіть спробу.</string>
-    <string name="fingerprint_acquired_partial">Виявлено частковий відбиток пальця</string>
-    <string name="fingerprint_acquired_too_bright">Надто яскраво</string>
-    <string name="fingerprint_acquired_too_fast">Тримайте палець трохи довше</string>
+    <string name="fingerprint_acquired_partial">Відбиток пальця розпізнано частково. Повторіть спробу.</string>
+    <string name="fingerprint_acquired_too_fast">Ви забрали палець надто швидко. Повторіть спробу.</string>
     <string name="fingerprint_acquired_too_slow">Ви провели пальцем надто повільно. Повторіть спробу.</string>
-    <string name="fingerprint_acquired_try_adjusting">Спробуйте відкоригувати відбиток пальця</string>
-    <string name="fingerprint_app_setting_name">Доступ за відбитком пальця</string>
     <string name="fingerprint_authenticated">Відбиток пальця автентифіковано</string>
-    <string name="fingerprint_dialog_default_subtitle">Щоб продовжити, скористайтеся своїм відбитком пальця</string>
-    <string name="fingerprint_error_bad_calibration">Не вдається скористатися сканером відбитків пальців. Зверніться до постачальника послуг із ремонту.</string>
     <string name="fingerprint_error_canceled">Дію з відбитком пальця скасовано.</string>
     <string name="fingerprint_error_hw_not_available">Сканер відбитків пальців недоступний.</string>
     <string name="fingerprint_error_hw_not_present">На цьому пристрої немає сканера відбитків пальців.</string>
     <string name="fingerprint_error_lockout">Забагато спроб. Спробуйте пізніше.</string>
     <string name="fingerprint_error_lockout_permanent">Забагато спроб. Сканер відбитків пальців вимкнено.</string>
     <string name="fingerprint_error_no_fingerprints">Відбитки пальців не зареєстровано.</string>
-    <string name="fingerprint_error_no_space">Не вдалося створити відбиток пальця</string>
+    <string name="fingerprint_error_no_space">Не вдалося зберегти відбиток пальця. Видаліть наявний відбиток.</string>
     <string name="fingerprint_error_security_update_required">Датчик тимчасово вимкнено.</string>
     <string name="fingerprint_error_timeout">Час очікування відбитка пальця минув. Повторіть спробу.</string>
     <string name="fingerprint_error_unable_to_process">Повторіть спробу.</string>
     <string name="fingerprint_error_user_canceled">Користувач скасував дію з відбитком пальця.</string>
     <string name="fingerprint_name_template">Відбиток пальця %d</string>
-    <string name="fingerprint_or_screen_lock_app_setting_name">Використовувати відбиток пальця або дані для розблокування екрана</string>
-    <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Щоб продовжити, скористайтеся відбитком пальця або даними для розблокування екрана</string>
-    <string name="fingerprint_recalibrate_notification_content">Зверніться до постачальника послуг із ремонту.</string>
-    <string name="fingerprint_recalibrate_notification_name">Розблокування відбитком пальця</string>
-    <string name="fingerprint_recalibrate_notification_title">Не вдається скористатися сканером відбитків пальців</string>
-    <string name="fingerprint_setup_notification_content">Натисніть, щоб додати відбиток пальця</string>
-    <string name="fingerprint_setup_notification_title">Налаштуйте більше способів розблокування</string>
     <string name="fingerprints">Відбитки:</string>
     <string name="floating_toolbar_close_overflow_description">Закрити розширені інструменти</string>
     <string name="floating_toolbar_open_overflow_description">Більше опцій</string>
@@ -689,14 +660,7 @@
     <string name="foreground_service_tap_for_details">Торкніться, щоб перевірити використання акумулятора й трафік</string>
     <string name="forward_intent_to_owner">Ви використовуєте цей додаток за межами робочого профілю</string>
     <string name="forward_intent_to_work">Ви використовуєте цей додаток у своєму робочому профілі</string>
-    <string name="fp_enrollment_powerbutton_intent_message">"Налаштовуючи відбиток пальця, ви натиснули кнопку живлення.
-
-Зазвичай після цього вимикається екран."</string>
-    <string name="fp_enrollment_powerbutton_intent_negative_button">Скасувати</string>
-    <string name="fp_enrollment_powerbutton_intent_positive_button">Вимкнути</string>
-    <string name="fp_enrollment_powerbutton_intent_title">Вимкнути екран?</string>
     <string name="gadget_host_error_inflating">Не вдалося додати віджет.</string>
-    <string name="geofencing_service">Сервіс геозонування</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="global_action_assist">Підказки</string>
     <string name="global_action_bug_report">Звіт про помилки</string>
@@ -717,8 +681,9 @@
     <string name="global_actions_airplane_mode_off_status">Режим польоту ВИМК.</string>
     <string name="global_actions_airplane_mode_on_status">Режим польоту ВВІМК.</string>
     <string name="global_actions_toggle_airplane_mode">Режим польоту</string>
-    <string name="gnss_service">Сервіс GNSS</string>
-    <string name="gnss_time_update_service">Сервіс оновлення часу GNSS</string>
+    <string name="gnss_nfw_notification_message_carrier">Оператор отримав доступ до ваших геоданих під час нещодавнього екстреного звернення</string>
+    <string name="gnss_nfw_notification_message_oem">Виробник пристрою отримав доступ до ваших геоданих під час нещодавнього екстреного звернення</string>
+    <string name="gnss_nfw_notification_title">Переглянуто геодані в екстреній ситуації</string>
     <string name="gpsNotifMessage">Запит зроблено користувачем %1$s (%2$s)</string>
     <string name="gpsNotifTicker">Запит про місцезнаходження від користувача %s</string>
     <string name="gpsNotifTitle">Запит про місцезнаходження</string>
@@ -813,7 +778,7 @@
     <string name="keyguard_accessibility_add_widget">Додати віджет.</string>
     <string name="keyguard_accessibility_camera">Камера</string>
     <string name="keyguard_accessibility_expand_lock_area">Розгорнути область розблокування.</string>
-    <string name="keyguard_accessibility_face_unlock">Фейсконтроль.</string>
+    <string name="keyguard_accessibility_face_unlock">Фейсконтроль</string>
     <string name="keyguard_accessibility_password_unlock">Розблокування паролем.</string>
     <string name="keyguard_accessibility_pattern_area">Область ключа.</string>
     <string name="keyguard_accessibility_pattern_unlock">Розблокування ключем.</string>
@@ -1062,19 +1027,8 @@
     <string name="mediasize_japanese_jis_exec">JIS Exec (Японія)</string>
     <string name="mediasize_japanese_kahu">Kahu (Японія)</string>
     <string name="mediasize_japanese_kaku2">Kaku2 (Японія)</string>
-    <string name="mediasize_japanese_l">L</string>
     <string name="mediasize_japanese_oufuku">Oufuku (Японія)</string>
     <string name="mediasize_japanese_you4">You4 (Японія)</string>
-    <string name="mediasize_na_ansi_c">ANSI C</string>
-    <string name="mediasize_na_ansi_d">ANSI D</string>
-    <string name="mediasize_na_ansi_e">ANSI E</string>
-    <string name="mediasize_na_ansi_f">ANSI F</string>
-    <string name="mediasize_na_arch_a">Arch A</string>
-    <string name="mediasize_na_arch_b">Arch B</string>
-    <string name="mediasize_na_arch_c">Arch C</string>
-    <string name="mediasize_na_arch_d">Arch D</string>
-    <string name="mediasize_na_arch_e">Arch E</string>
-    <string name="mediasize_na_arch_e1">Arch E1</string>
     <string name="mediasize_na_foolscap">Foolscap (Пн. Америка)</string>
     <string name="mediasize_na_gvrnmt_letter">Government Letter (Пн. Америка)</string>
     <string name="mediasize_na_index_3x5">Index Card 3x5 (Пн. Америка)</string>
@@ -1086,7 +1040,6 @@
     <string name="mediasize_na_letter">Letter (Пн. Америка)</string>
     <string name="mediasize_na_monarch">Monarch (Пн. Америка)</string>
     <string name="mediasize_na_quarto">Quarto (Пн. Америка)</string>
-    <string name="mediasize_na_super_b">Super B</string>
     <string name="mediasize_na_tabloid">Tabloid (Пн. Америка)</string>
     <string name="mediasize_unknown_landscape">Невідома альбомна орієнтація</string>
     <string name="mediasize_unknown_portrait">Невідома книжкова орієнтація</string>
@@ -1120,10 +1073,6 @@
     <string name="mime_type_spreadsheet_ext">Таблиця у форматі %1$s</string>
     <string name="mime_type_video">Відео</string>
     <string name="mime_type_video_ext">Відео у форматі %1$s</string>
-    <string name="miniresolver_open_in_personal">Відкрити в додатку %s в особистому профілі?</string>
-    <string name="miniresolver_open_in_work">Відкрити в додатку %s у робочому профілі?</string>
-    <string name="miniresolver_use_personal_browser">Використати особистий веб-переглядач</string>
-    <string name="miniresolver_use_work_browser">Використати робочий веб-переглядач</string>
     <string name="minute">хв.</string>
     <string name="minute_picker_description">Вибір хвилин на циферблаті</string>
     <string name="minutes">хв.</string>
@@ -1143,16 +1092,7 @@
     <string name="mobile_no_internet">Мобільна мережа не має доступу до Інтернету</string>
     <string name="month_day_year" formatted="false">%-e %B %Y р.</string>
     <string name="more_item_label">Більше</string>
-    <string name="music_recognition_manager_service">Сервіс Music Recognition Manager</string>
     <string name="muted_by">%1$s вимикає деякі звуки</string>
-    <string name="nas_upgrade_notification_content">Тепер пропоновані дії та відповіді відображаються в покращених сповіщеннях. Адаптивні сповіщення Android більше не підтримуються.</string>
-    <string name="nas_upgrade_notification_disable_action">Вимкнути</string>
-    <string name="nas_upgrade_notification_enable_action">OK</string>
-    <string name="nas_upgrade_notification_learn_more_action">Докладніше</string>
-    <string name="nas_upgrade_notification_learn_more_content">"В Android 12 адаптивні сповіщення замінено на покращені. Ця функція допомагає впорядковувати сповіщення й показує в них пропоновані дії та відповіді.
-
-Покращені сповіщення надають доступ до вмісту сповіщень, зокрема до такої особистої інформації, як повідомлення й імена контактів. Ця функція може автоматично закривати сповіщення чи реагувати на них, наприклад відповідати на телефонні дзвінки або керувати режимом \"Не турбувати\"."</string>
-    <string name="nas_upgrade_notification_title">Покращені сповіщення</string>
     <string name="needPuk">SIM-карта заблок. PUK-кодом. Введіть PUK-код, щоб її розблок.</string>
     <string name="needPuk2">Введ. PUK2, щоб розбл. SIM-карту.</string>
     <string name="negative_duration">-%1$s</string>
@@ -1177,15 +1117,12 @@
     <string name="no_recent_tasks">Жодних останніх програм</string>
     <string name="noon">полуд.</string>
     <string name="not_checked">не вибрано</string>
-    <string name="not_selected">не вибрано</string>
     <string name="notification_alerted_content_description">Зі звуком</string>
     <string name="notification_app_name_settings">Налаштування</string>
     <string name="notification_app_name_system">Система</string>
     <string name="notification_appops_camera_active">Камера</string>
     <string name="notification_appops_microphone_active">Мікрофон</string>
     <string name="notification_appops_overlay_active">показ поверх інших додатків на екрані</string>
-    <string name="notification_channel_accessibility_magnification">Збільшення</string>
-    <string name="notification_channel_accessibility_security_policy">Використання спеціальних можливостей</string>
     <string name="notification_channel_account">Статус облікового запису</string>
     <string name="notification_channel_alerts">Сповіщення</string>
     <string name="notification_channel_call_forward">Переадресація виклику</string>
@@ -1215,20 +1152,13 @@
     <string name="notification_channel_voice_mail">Повідомлення голосової пошти</string>
     <string name="notification_channel_vpn">Статус мережі VPN</string>
     <string name="notification_channel_wfc">Дзвінки через Wi-Fi</string>
-    <string name="notification_feedback_indicator">Надати відгук</string>
-    <string name="notification_feedback_indicator_alerted">Важливість цього сповіщення підвищено до рівня \"За умовчанням\". Натисніть, щоб надіслати відгук.</string>
-    <string name="notification_feedback_indicator_demoted">Важливість цього сповіщення знижено. Натисніть, щоб надіслати відгук.</string>
-    <string name="notification_feedback_indicator_promoted">Важливість цього сповіщення підвищено. Натисніть, щоб надіслати відгук.</string>
-    <string name="notification_feedback_indicator_silenced">Важливість цього сповіщення знижено до рівня \"Без звуку\". Натисніть, щоб надіслати відгук.</string>
     <string name="notification_hidden_text">Нове сповіщення</string>
     <string name="notification_history_title_placeholder">Користувацьке сповіщення додатка</string>
     <string name="notification_listener_binding_label">Служба читання сповіщень</string>
     <string name="notification_messaging_title_template">%1$s: %2$s</string>
-    <string name="notification_phishing_alert_content_description">Попередження про фішинг</string>
     <string name="notification_ranker_binding_label">Служба встановлення пріоритетності сповіщень</string>
     <string name="notification_reply_button_accessibility">Відповісти</string>
     <string name="notification_title">Помилка входу для облікового запису %1$s</string>
-    <string name="notification_verified_content_description">Підтверджено</string>
     <string name="notification_work_profile_content_description">Робочий профіль</string>
     <string name="now_string_shortest">зараз</string>
     <string name="number_picker_decrement_button">Зменшити</string>
@@ -1238,7 +1168,6 @@
     <string name="old_app_action">Назад у додаток %1$s</string>
     <string name="older">Давніше</string>
     <string name="oneMonthDurationPast">1 міс. тому</string>
-    <string name="one_handed_mode_feature_name">Режим керування однією рукою</string>
     <string name="open_permission_deny">У вас немає дозволу на відкривання цієї сторінки.</string>
     <string name="orgTypeCustom">Указати</string>
     <string name="orgTypeOther">Інше</string>
@@ -1254,11 +1183,6 @@
     <string name="password_keyboard_label_alpha_key">ABC</string>
     <string name="password_keyboard_label_alt_key">ALT</string>
     <string name="password_keyboard_label_symbol_key">\?123</string>
-    <string name="pasted_content">Скопійований контент вставлено в додатку %1$s</string>
-    <string name="pasted_from_app">Дані з додатка %2$s вставлено в %1$s</string>
-    <string name="pasted_from_clipboard">Дані з буфера обміну вставлено в додатку %1$s</string>
-    <string name="pasted_image">Скопійоване зображення вставлено в додатку %1$s</string>
-    <string name="pasted_text">Скопійований текст вставлено в додатку %1$s</string>
     <string name="peerTtyModeFull">Пристрій змінив режим TTY на FULL</string>
     <string name="peerTtyModeHco">Пристрій змінив режим TTY на HCO</string>
     <string name="peerTtyModeOff">Пристрій змінив режим TTY на OFF</string>
@@ -1281,7 +1205,6 @@
     <string name="permdesc_addVoicemail">Дозволяє програмі додавати повідомлення в папку \"Вхідні\" голосової пошти.</string>
     <string name="permdesc_answerPhoneCalls">Додаток може відповідати на телефонні виклики.</string>
     <string name="permdesc_audioWrite">Додаток зможе змінювати вашу колекцію музики.</string>
-    <string name="permdesc_backgroundCamera">Цей додаток може будь-коли робити фотографії та записувати відео за допомогою камери.</string>
     <string name="permdesc_bindCarrierMessagingService">Додаток зможе підключатися до інтерфейсу верхнього рівня служби надсилання повідомлень через оператора. Звичайні додатки ніколи не використовують цей дозвіл.</string>
     <string name="permdesc_bindCarrierServices">Власник може підключатися до служб оператора. Звичайні додатки ніколи не використовують цей дозвіл.</string>
     <string name="permdesc_bindCellBroadcastService">"Дозволяє додатку зв'язуватися з модулем Cell Broadcast, щоб переадресувати відповідні вхідні повідомлення. У деяких місцеположеннях сповіщення Cell Broadcast надсилаються для попередження про надзвичайні ситуації. Після повідомлення Cell Broadcast шкідливі додатки можуть перешкоджати роботі вашого пристрою."</string>
@@ -1292,14 +1215,11 @@
     <string name="permdesc_bind_incall_service">Додаток може контролювати, коли та як користувач бачить екран вхідного дзвінка.</string>
     <string name="permdesc_bluetooth">Дозволяє програмі переглядати конфігурацію Bluetooth на телефоні, а також створювати та приймати з’єднання зі спареними пристроями.</string>
     <string name="permdesc_bluetoothAdmin">Дозволяє програмі налаштовувати телефон із локальним Bluetooth, а також знаходити віддалені пристрої та створювати з ними пару.</string>
-    <string name="permdesc_bluetooth_advertise">Додаток зможе показувати рекламу на пристроях із Bluetooth поблизу</string>
-    <string name="permdesc_bluetooth_connect">Дозволяє додатку підключатися до пристроїв із Bluetooth, з якими створено пару</string>
-    <string name="permdesc_bluetooth_scan">Дозволяє додатку знаходити поблизу пристрої Bluetooth і створювати з ними пару</string>
     <string name="permdesc_bodySensors">Додаток має доступ до даних із датчиків, які відстежують фізичний стан, зокрема пульс.</string>
     <string name="permdesc_broadcastSticky">Дозволяє програмі надсилати закріплені широкомовні повідомлення, які залишаються після відтворення широкомовного повідомлення. Надмірне використання може сповільнювати роботу телефону або порушувати її стабільність, спричиняючи завелике використання пам’яті.</string>
     <string name="permdesc_callCompanionApp">Додаток може переглядати поточні виклики на пристрої та керувати ними. Це стосується такої інформації, як номери та стан викликів.</string>
     <string name="permdesc_callPhone">Дозволяє програмі набирати номери телефону без вашого відома. Це може спричинити неочікуване стягнення плати чи здійснення дзвінків. Зауважте, що це не дозволяє програмі набирати екстрені номери. Шкідливі програми можуть здійснювати дзвінки без вашого підтвердження, за що з вас стягуватимуться кошти.</string>
-    <string name="permdesc_camera">Цей додаток може робити фотографії та записувати відео за допомогою камери, коли ви використовуєте його.</string>
+    <string name="permdesc_camera">Цей додаток може будь-коли робити фотографії та записувати відео за допомогою камери.</string>
     <string name="permdesc_cameraOpenCloseListener">Цей додаток може отримувати зворотні виклики, коли одна з камер вмикається (певним додатком) чи вимикається.</string>
     <string name="permdesc_changeNetworkState">Дозволяє програмі змінювати стан під’єднання до мережі.</string>
     <string name="permdesc_changeTetherState">Дозволяє програмі змінювати стан під’єднання до мережі в режимі модема.</string>
@@ -1314,19 +1234,17 @@
     <string name="permdesc_exemptFromAudioRecordRestrictions">Зняти для додатка обмеження на запис аудіо.</string>
     <string name="permdesc_expandStatusBar">Дозволяє програмі розгортати чи згортати рядок стану.</string>
     <string name="permdesc_foregroundService">Додаток може використовувати пріоритетні служби.</string>
-    <string name="permdesc_fullScreenIntent">Додаток зможе показувати сповіщення як активності на весь екран заблокованого пристрою</string>
     <string name="permdesc_getAccounts">Дозволяє програмі отримувати список облікових записів, відомих телефону. Він може включати всі облікові записи, створені встановленими програмами.</string>
     <string name="permdesc_getPackageSize">Дозволяє програмі отримувати її код, дані та розміри кеш-пам’яті</string>
     <string name="permdesc_getTasks">Дозволяє програмі отримувати інформацію про поточні й останні запущені завдання. Це може дозволити програмі виявляти інформацію про програми, які використовуються на пристрої.</string>
     <string name="permdesc_handoverStatus">Додаток може отримувати інформацію про поточне передавання даних за допомогою функції Передавання даних Android</string>
-    <string name="permdesc_highSamplingRateSensors">Додаток зможе дискретизувати дані даних датчиків із частотою понад 200 Гц</string>
     <string name="permdesc_imagesWrite">Додаток зможе змінювати вашу колекцію фотографій.</string>
     <string name="permdesc_install_shortcut">Дозволяє програмі самостійно додавати ярлики на головний екран.</string>
     <string name="permdesc_invokeCarrierSetup">Дозволяє власнику викликати надану оператором програму конфігурації. Ніколи не застосовується для звичайних програм.</string>
     <string name="permdesc_killBackgroundProcesses">Дозволяє програмі припиняти фонові процеси інших програм. Це може зупиняти запущені програми.</string>
+    <string name="permdesc_manageFace">Додаток може активувати способи додавання й видалення шаблонів облич.</string>
     <string name="permdesc_manageFingerprint">Увімкнути в додатку функції для додавання й видалення шаблонів відбитків пальців.</string>
     <string name="permdesc_manageNetworkPolicy">Дозволяє програмі керувати політикою мережі та визначити спеціальні правила для програм.</string>
-    <string name="permdesc_manageOngoingCalls">Дає змогу додатку переглядати поточні дзвінки на пристрої та керувати ними.</string>
     <string name="permdesc_manageOwnCalls">Дозволяє додатку маршрутизувати виклики через систему, щоб було зручніше телефонувати.</string>
     <string name="permdesc_manageProfileAndDeviceOwners">Додатки можуть вибирати власника профілю та пристрою.</string>
     <string name="permdesc_mediaLocation">Додаток зможе розпізнавати геодані з вашої колекції медіа-вмісту.</string>
@@ -1336,7 +1254,6 @@
     <string name="permdesc_persistentActivity">Дозволяє програмі робити свої частини сталими в пам’яті. Це може зменшувати обсяг пам’яті, доступної для інших програм, і сповільнювати роботу телефону.</string>
     <string name="permdesc_preferredPaymentInfo">"Дозволяє додатку отримувати доступ до інформації потрібного платіжного NFC-сервісу (наприклад, пов'язаних ідентифікаторів чи даних про маршрутизацію трансакцій)."</string>
     <string name="permdesc_processOutgoingCalls">Дозволяє додатку читати номер вихідного дзвінка, переспрямовувати дзвінок на інший номер або переривати його.</string>
-    <string name="permdesc_queryAllPackages">Дозволяє додатку переглядати всі встановлені пакети.</string>
     <string name="permdesc_readCalendar">Цей додаток може переглядати всі події календаря, збережені на вашому телефоні, а також надсилати та зберігати дані календаря.</string>
     <string name="permdesc_readCallLog">Цей додаток може переглядати історію викликів.</string>
     <string name="permdesc_readCellBroadcasts">Дозволяє програмі читати широкомовні повідомлення мережі, отримані пристроєм. Широкомовні сповіщення мережі надсилаються в деяких країнах для попередження про надзвичайні ситуації. Шкідливі програми можуть втручатися у швидкодію чи роботу пристрою під час отримання широкомовного повідомлення мережі про надзвичайну ситуацію.</string>
@@ -1353,8 +1270,7 @@
     <string name="permdesc_receiveMms">Дозволяє програмі отримувати й обробляти MMS-повідомлення. Це означає, що програма може відстежувати чи видаляти повідомлення, надіслані на ваш пристрій, навіть не показуючи їх вам.</string>
     <string name="permdesc_receiveSms">Дозволяє програмі отримувати й обробляти SMS-повідомлення. Це означає, що програма може відстежувати чи видаляти повідомлення, надіслані на ваш пристрій, навіть не показуючи їх вам.</string>
     <string name="permdesc_receiveWapPush">Дозволяє програмі отримувати й обробляти WAP-повідомлення. Це означає, що програма може відстежувати чи видаляти повідомлення, надіслані на ваш пристрій, навіть не показуючи їх вам.</string>
-    <string name="permdesc_recordAudio">Цей додаток може записувати звук за допомогою мікрофона, коли ви використовуєте його.</string>
-    <string name="permdesc_recordBackgroundAudio">Цей додаток може будь-коли записувати звук за допомогою мікрофона.</string>
+    <string name="permdesc_recordAudio">Цей додаток може будь-коли записувати звук за допомогою мікрофона.</string>
     <string name="permdesc_register_call_provider">Додаток може реєструвати нові телекомунікаційні з’єднання.</string>
     <string name="permdesc_register_sim_subscription">Додаток може реєструвати нові телекомунікаційні з’єднання SIM-карт.</string>
     <string name="permdesc_removeDrmCertificates">Власник може видаляти сертифікати DRM. Ніколи не застосовується для звичайних додатків.</string>
@@ -1384,9 +1300,9 @@
     <string name="permdesc_uninstall_shortcut">Дозволяє програмі самостійно вилучати ярлики з головного екрана.</string>
     <string name="permdesc_useBiometric">Додаток може використовувати біометричне апаратне забезпечення для автентифікації</string>
     <string name="permdesc_useDataInBackground">Цей додаток може використовувати трафік у фоновому режимі. Можливо, використання трафіку збільшиться.</string>
+    <string name="permdesc_useFaceAuthentication">Додаток може використовувати апаратне забезпечення для Фейсконтролю</string>
     <string name="permdesc_useFingerprint">Дозволити додатку використовувати сканер відбитків пальців для автентифікації</string>
     <string name="permdesc_use_sip">Додаток зможе здійснювати й отримувати дзвінки через протокол SIP.</string>
-    <string name="permdesc_uwb_ranging">З цим дозволом додаток може визначати відстань між розташованими поблизу пристроями з надширокосмуговим зв’язком</string>
     <string name="permdesc_vibrate">Дозволяє програмі контролювати вібросигнал.</string>
     <string name="permdesc_vibrator_state">Надає додатку доступ до стану вібрації.</string>
     <string name="permdesc_videoWrite">Додаток зможе змінювати вашу колекцію відео.</string>
@@ -1405,7 +1321,6 @@
     <string name="permgroupdesc_contacts">отримувати доступ до контактів</string>
     <string name="permgroupdesc_location">доступ до геоданих пристрою</string>
     <string name="permgroupdesc_microphone">записувати аудіо</string>
-    <string name="permgroupdesc_nearby_devices">пошук пристроїв поблизу й підключення до них</string>
     <string name="permgroupdesc_phone">телефонувати та керувати дзвінками</string>
     <string name="permgroupdesc_sensors">отримувати доступ до інформації датчиків про ваші життєві показники</string>
     <string name="permgroupdesc_sms">надсилати та переглядати SMS-повідомлення</string>
@@ -1417,7 +1332,6 @@
     <string name="permgrouplab_contacts">Контакти</string>
     <string name="permgrouplab_location">Геодані</string>
     <string name="permgrouplab_microphone">Мікрофон</string>
-    <string name="permgrouplab_nearby_devices">Пристрої поблизу</string>
     <string name="permgrouplab_phone">Телефон</string>
     <string name="permgrouplab_sensors">Датчики на тілі</string>
     <string name="permgrouplab_sms">SMS</string>
@@ -1444,7 +1358,6 @@
     <string name="permlab_addVoicemail">додавати голосову пошту</string>
     <string name="permlab_answerPhoneCalls">відповідати на телефонні виклики</string>
     <string name="permlab_audioWrite">змінювати колекцію музики</string>
-    <string name="permlab_backgroundCamera">робити фотографії та записувати відео у фоновому режимі</string>
     <string name="permlab_bindCarrierMessagingService">підключатися до служби надсилання повідомлень через оператора</string>
     <string name="permlab_bindCarrierServices">підключатися до служб оператора</string>
     <string name="permlab_bindCellBroadcastService">Переадресувати повідомлення Cell Broadcast</string>
@@ -1455,9 +1368,6 @@
     <string name="permlab_bind_incall_service">взаємодіяти з екраном вхідного дзвінка</string>
     <string name="permlab_bluetooth">створення пари з пристроями Bluetooth</string>
     <string name="permlab_bluetoothAdmin">доступ до налаштувань Bluetooth</string>
-    <string name="permlab_bluetooth_advertise">показувати рекламу на пристроях із Bluetooth поблизу</string>
-    <string name="permlab_bluetooth_connect">підключатися до пристроїв із Bluetooth, з якими є пара</string>
-    <string name="permlab_bluetooth_scan">знаходити пристрої з Bluetooth і створювати пару</string>
     <string name="permlab_bodySensors">отримувати дані з датчиків на тілі (наприклад, з пульсометра)</string>
     <string name="permlab_broadcastSticky">надсилати закріпл. запис</string>
     <string name="permlab_callCompanionApp">Переглядати виклики через систему й керувати ними.</string>
@@ -1477,19 +1387,17 @@
     <string name="permlab_exemptFromAudioRecordRestrictions">зняти обмеження на запис аудіо</string>
     <string name="permlab_expandStatusBar">розгорнути/згорн. рядок стану</string>
     <string name="permlab_foregroundService">запускати пріоритетну службу</string>
-    <string name="permlab_fullScreenIntent">Показувати сповіщення як активності на весь екран заблокованого пристрою</string>
     <string name="permlab_getAccounts">знаходити облікові записи на пристрої</string>
     <string name="permlab_getPackageSize">визначати об’єм пам’яті програми</string>
     <string name="permlab_getTasks">отримувати запущені програми</string>
     <string name="permlab_handoverStatus">отримувати дані про стан функції Передавання даних Android</string>
-    <string name="permlab_highSamplingRateSensors">доступ до даних датчиків із високою частотою дикретизації</string>
     <string name="permlab_imagesWrite">змінювати колекцію фотографій</string>
     <string name="permlab_install_shortcut">створення ярликів</string>
     <string name="permlab_invokeCarrierSetup">викликати надану оператором програму конфігурації</string>
     <string name="permlab_killBackgroundProcesses">закривати інші програми</string>
+    <string name="permlab_manageFace">керувати апаратним забезпечення для Фейсконтролю</string>
     <string name="permlab_manageFingerprint">керувати сканером відбитків пальців</string>
     <string name="permlab_manageNetworkPolicy">керувати політикою мережі</string>
-    <string name="permlab_manageOngoingCalls">Керування поточними дзвінками</string>
     <string name="permlab_manageOwnCalls">маршрутизувати виклики через систему</string>
     <string name="permlab_manageProfileAndDeviceOwners">керувати власниками профілів і пристроїв</string>
     <string name="permlab_mediaLocation">розпізнавати геодані з колекції медіа-вмісту</string>
@@ -1499,7 +1407,6 @@
     <string name="permlab_persistentActivity">заставляти програму постійно функціонувати</string>
     <string name="permlab_preferredPaymentInfo">Використання інформації з платіжного NFC-сервісу</string>
     <string name="permlab_processOutgoingCalls">переадресовувати вихідні виклики</string>
-    <string name="permlab_queryAllPackages">подавати запити на всі пакети</string>
     <string name="permlab_readCalendar">Переглядати події календаря й додаткову інформацію</string>
     <string name="permlab_readCallLog">читати журнал викликів</string>
     <string name="permlab_readCellBroadcasts">читати широкомовні повідомлення мережі</string>
@@ -1517,7 +1424,6 @@
     <string name="permlab_receiveSms">отримувати текстові повідомлення (SMS)</string>
     <string name="permlab_receiveWapPush">отримувати текстові повідомлення (WAP)</string>
     <string name="permlab_recordAudio">запис-ти аудіо</string>
-    <string name="permlab_recordBackgroundAudio">записувати звук у фоновому режимі</string>
     <string name="permlab_register_call_provider">реєструвати нові телекомунікаційні з’єднання</string>
     <string name="permlab_register_sim_subscription">реєструвати нові телекомунікаційні з’єднання SIM-карт</string>
     <string name="permlab_removeDrmCertificates">видаляти сертифікати DRM</string>
@@ -1547,9 +1453,9 @@
     <string name="permlab_uninstall_shortcut">видаляти ярлики</string>
     <string name="permlab_useBiometric">використовувати біометричне апаратне забезпечення</string>
     <string name="permlab_useDataInBackground">використовувати трафік у фоновому режимі</string>
+    <string name="permlab_useFaceAuthentication">використовувати апаратне забезпечення для Фейсконтролю</string>
     <string name="permlab_useFingerprint">використання сканера відбитків пальців</string>
     <string name="permlab_use_sip">здійснювати й отримувати дзвінки через протокол SIP</string>
-    <string name="permlab_uwb_ranging">визначення відстані між пристроями поблизу з надширокосмуговим зв’язком</string>
     <string name="permlab_vibrate">контролювати вібросигнал</string>
     <string name="permlab_videoWrite">змінювати колекцію відео</string>
     <string name="permlab_wakeLock">Вимкнення режиму сну</string>
@@ -1633,7 +1539,7 @@
     <string name="profile_encrypted_title">Деякі функції може бути обмежено</string>
     <string name="progress_erasing">Стирання спільної пам’яті…</string>
     <string name="quick_contacts_not_available">Не знайдено програму для перегляду цього контакта.</string>
-    <string name="reason_service_unavailable">Сервіс друку не ввімкнено</string>
+    <string name="reason_service_unavailable">Службу друку не ввімкнено</string>
     <string name="reason_unknown">невідомо</string>
     <string name="reboot_safemode_confirm">Дійсно перейти в безпечний режим? Усі встановлені програми третіх сторін буде вимкнено. Вони відновляться після повторного перезавантаження.</string>
     <string name="reboot_safemode_title">Перейти в безпечний режим</string>
@@ -1645,7 +1551,6 @@
     <string name="reboot_to_update_title">Оновлення системи Android</string>
     <string name="recent_tasks_title">Останні</string>
     <string name="redo">Повторити</string>
-    <string name="reduce_bright_colors_feature_name">Додаткове зменшення яскравості</string>
     <string name="region_picker_section_all">Усі регіони</string>
     <string name="relationTypeAssistant">Помічник</string>
     <string name="relationTypeBrother">Брат</string>
@@ -1666,16 +1571,21 @@
     <string name="replace">Замінити...</string>
     <string name="report">Звіт</string>
     <string name="reset">Скинути</string>
-    <string name="resolver_cant_access_personal_apps_explanation">Цей контент не можна відкривати в особистих додатках</string>
-    <string name="resolver_cant_access_work_apps_explanation">Цей контент не можна відкривати в робочих додатках</string>
-    <string name="resolver_cant_share_with_personal_apps_explanation">Цим контентом не можна ділитися в особистих додатках</string>
-    <string name="resolver_cant_share_with_work_apps_explanation">Цим контентом не можна ділитися в робочих додатках</string>
-    <string name="resolver_cross_profile_blocked">Заблоковано адміністратором</string>
-    <string name="resolver_no_personal_apps_available">Немає особистих додатків</string>
-    <string name="resolver_no_work_apps_available">Немає робочих додатків</string>
+    <string name="resolver_cant_access_personal_apps">Цей контент не можна відкривати в особистих додатках</string>
+    <string name="resolver_cant_access_personal_apps_explanation">Ваш ІТ-адміністратор не дозволяє відкривати цей контент у додатках в особистому профілі</string>
+    <string name="resolver_cant_access_work_apps">Цей контент не можна відкривати в робочих додатках</string>
+    <string name="resolver_cant_access_work_apps_explanation">Ваш ІТ-адміністратор не дозволяє відкривати цей контент у додатках у робочому профілі</string>
+    <string name="resolver_cant_share_with_personal_apps">Цей контент не можна надсилати в особистих додатках</string>
+    <string name="resolver_cant_share_with_personal_apps_explanation">Ваш ІТ-адміністратор не дозволяє надсилати цей контент у додатках в особистому профілі</string>
+    <string name="resolver_cant_share_with_work_apps">Цей контент не можна надсилати в робочих додатках</string>
+    <string name="resolver_cant_share_with_work_apps_explanation">Ваш ІТ-адміністратор не дозволяє надсилати цей контент у додатках у робочому профілі</string>
+    <string name="resolver_no_personal_apps_available_resolve">Особисті додатки не можуть відкривати цей контент</string>
+    <string name="resolver_no_personal_apps_available_share">Особисті додатки не можуть підтримувати цей контент</string>
+    <string name="resolver_no_work_apps_available_resolve">Немає робочих додатків, щоб відкрити цей контент</string>
+    <string name="resolver_no_work_apps_available_share">Немає робочих додатків для цього контенту</string>
     <string name="resolver_personal_tab">Особисте</string>
     <string name="resolver_personal_tab_accessibility">Особистий перегляд</string>
-    <string name="resolver_switch_on_work">Торкніться, щоб увімкнути</string>
+    <string name="resolver_switch_on_work">Увімкнути</string>
     <string name="resolver_turn_on_work_apps">Робочий профіль призупинено</string>
     <string name="resolver_work_tab">Робоче</string>
     <string name="resolver_work_tab_accessibility">Робочий перегляд</string>
@@ -1724,8 +1634,6 @@
     <string name="screen_compat_mode_scale">Масштаб</string>
     <string name="screen_compat_mode_show">Завжди показувати</string>
     <string name="screen_lock">Блокування екрана</string>
-    <string name="screen_lock_app_setting_name">Доступ розблокуванням екрана</string>
-    <string name="screen_lock_dialog_default_subtitle">Щоб продовжити, введіть дані для розблокування екрана</string>
     <string name="screenshot_edit">Редагувати</string>
     <string name="search_hint">Пошук…</string>
     <string name="search_language_hint">Введіть назву мови</string>
@@ -1744,15 +1652,9 @@
     <string name="select_keyboard_layout_notification_title">Налаштуйте фізичну клавіатуру</string>
     <string name="select_minutes">Виберіть хвилини</string>
     <string name="select_year">Виберіть рік</string>
-    <string name="selected">вибрано</string>
     <string name="sendText">Виберіть дію для тексту</string>
     <string name="sending">Надсилання…</string>
     <string name="sensor_notification_service">Сервіс \"Сповіщення датчика\"</string>
-    <string name="sensor_privacy_notification_channel_label">Конфіденційність датчиків</string>
-    <string name="sensor_privacy_start_use_camera_notification_content_title">Розблокуйте камеру пристрою</string>
-    <string name="sensor_privacy_start_use_dialog_turn_on_button">Розблокувати</string>
-    <string name="sensor_privacy_start_use_mic_notification_content_title">Розблокуйте мікрофон пристрою</string>
-    <string name="sensor_privacy_start_use_notification_content_text">Для &lt;b>%s&lt;/b> та всіх додатків і сервісів</string>
     <string name="serial_number">Серійний номер:</string>
     <string name="serviceClassData">Дані</string>
     <string name="serviceClassDataAsync">Асинхр.</string>
@@ -1820,8 +1722,6 @@
     <string name="sms_short_code_remember_undo_instruction">Можна змінити згодом у Налаштування > Програми</string>
     <string name="smv_application">Програма %1$s (процес %2$s) порушила свою самозастосовну політику StrictMode.</string>
     <string name="smv_process">Процес %1$s порушив свою самозастосовну політику StrictMode.</string>
-    <string name="splash_screen_view_branding_description">Зображення фірмової символіки додатка</string>
-    <string name="splash_screen_view_icon_description">Значок додатка</string>
     <string name="ssl_ca_cert_noti_by_administrator">Адміністратор робочого профілю</string>
     <string name="ssl_ca_cert_noti_by_unknown">Невідомою третьою стороною</string>
     <string name="ssl_ca_cert_noti_managed">Доменом %s</string>
@@ -1855,7 +1755,6 @@
     <string name="terabyteShort">ТБ</string>
     <string name="test_harness_mode_notification_message">Щоб вимкнути режим автоматизованого тестування, відновіть заводські налаштування.</string>
     <string name="test_harness_mode_notification_title">Увімкнено режим автоматизованого тестування</string>
-    <string name="tethered_notification_message">Натисніть для налаштування.</string>
     <string name="tethered_notification_multi_device_message">%1$s підключених пристроїв</string>
     <string name="tethered_notification_no_device_message">Підключені пристрої відсутні</string>
     <string name="tethered_notification_one_device_message">%1$s підключений пристрій</string>
@@ -1880,12 +1779,9 @@
     <string name="toolbar_collapse_description">Згорнути</string>
     <string name="tooltip_popup_title">Спливаюча підказка</string>
     <string name="turn_off_radio">Вимкнути радіо</string>
-    <string name="turn_on_magnification_settings_action">Увімкнути в налаштуваннях</string>
     <string name="turn_on_radio">Увімкнути радіо</string>
     <string name="tutorial_double_tap_to_zoom_message_short">Двічі натис. для кер. масшт.</string>
     <string name="twilight_service">Сервіс \"Сутінки\"</string>
-    <string name="ui_translation_accessibility_translated_text">%1$s (перекладене повідомлення).</string>
-    <string name="ui_translation_accessibility_translation_finished">Повідомлення перекладено (мова оригіналу: %1$s, мова перекладу: %2$s).</string>
     <string name="undo">Відмінити</string>
     <string name="unpin_specific_target">Відкріпити додаток %1$s</string>
     <string name="unpin_target">Відкріпити</string>
@@ -1923,13 +1819,11 @@
     <string name="user_logging_out_message">Вихід з облікового запису користувача %1$s…</string>
     <string name="user_owner_label">Перейти в особистий профіль</string>
     <string name="user_switched">Поточний користувач: %1$s.</string>
-    <string name="user_switching_message">Перехід у режим \"%1$s\"…</string>
+    <string name="user_switching_message">Перехід в обліковий запис \"%1$s\"…</string>
     <string name="validity_period">Чинність:</string>
-    <string name="view_and_control_notification_content">%s може переглядати екран вашого пристрою та керувати ним. Натисніть, щоб переглянути.</string>
-    <string name="view_and_control_notification_title">Перевірте налаштування доступу</string>
-    <string name="volume_alarm">Гучність будильника</string>
-    <string name="volume_bluetooth_call">Гучність у викликах Bluetooth</string>
-    <string name="volume_call">Гучність під час розмови</string>
+    <string name="volume_alarm">Гучн. сповіщ.</string>
+    <string name="volume_bluetooth_call">Обсяг вхідних Bluetooth</string>
+    <string name="volume_call">Обсяг вхідних</string>
     <string name="volume_dialog_ringer_guidance_silent">Звуковий сигнал для викликів і сповіщень вимкнено</string>
     <string name="volume_dialog_ringer_guidance_vibrate">Вібросигнал для викликів і сповіщень увімкнено</string>
     <string name="volume_icon_description_bluetooth">Bluetooth</string>
@@ -1976,7 +1870,7 @@
     <string name="wfc_mode_cellular_preferred_summary">Телефонувати через мобільну мережу</string>
     <string name="wfc_mode_wifi_only_summary">Лише Wi-Fi</string>
     <string name="wfc_mode_wifi_preferred_summary">Телефонувати через Wi-Fi</string>
-    <string name="whichApplication">Що використовувати?</string>
+    <string name="whichApplication">Завершити дію за доп.</string>
     <string name="whichApplicationLabel">Завершити дію</string>
     <string name="whichApplicationNamed">Завершити дію за допомогою %1$s</string>
     <string name="whichEditApplication">Редагувати за допомогою</string>
@@ -2006,11 +1900,9 @@
     <string name="wifi_calling_off_summary">Вимкнено</string>
     <string name="wifi_no_internet">Мережа %1$s не має доступу до Інтернету</string>
     <string name="wifi_no_internet_detailed">Торкніться, щоб відкрити опції</string>
-    <string name="window_magnification_prompt_content">Тепер можна збільшувати частину екрана</string>
-    <string name="window_magnification_prompt_title">Нові налаштування збільшення</string>
     <string name="wireless_display_route_description">Бездротовий екран</string>
-    <string name="work_mode_off_message">Отримайте доступ до своїх робочих додатків і сповіщень</string>
-    <string name="work_mode_off_title">Увімкнути робочі додатки?</string>
+    <string name="work_mode_off_message">Додатки, сповіщення, дані й інші функції робочого профілю буде ввімкнено</string>
+    <string name="work_mode_off_title">Увімкнути робочий профіль?</string>
     <string name="work_mode_turn_on">Увімкнути</string>
     <string name="work_profile_deleted">Робочий профіль видалено</string>
     <string name="work_profile_deleted_description_dpm_wipe">Робочий профіль більше не доступний на цьому пристрої</string>
@@ -2031,7 +1923,6 @@
     <string name="zen_mode_forever_dnd">Доки ввімкнено режим \"Не турбувати\"</string>
     <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
     <string name="zen_mode_until">До %1$s</string>
-    <string name="zen_mode_until_next_day">До: %1$s</string>
     <string name="zen_upgrade_notification_content">Торкніться, щоб перевірити, що заблоковано.</string>
     <string name="zen_upgrade_notification_title">Налаштування режиму \"Не турбувати\" змінено</string>
     <string name="zen_upgrade_notification_visd_content">Торкніться, щоб дізнатися більше та змінити.</string>

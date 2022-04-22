@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="accessibility_button_gesture_selector_titles">
-        <item>Кнопка</item>
-        <item>Жест</item>
+    <string-array name="agps_apn_entries">
+        <item>CMWAP</item>
+        <item>CMNET</item>
     </string-array>
-    <string-array name="accessibility_button_location_selector_titles">
-        <item>Поверх других приложений</item>
-        <item>Панель навигации</item>
+    <string-array name="agps_apn_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
-    <string-array name="accessibility_button_size_selector_titles">
-        <item>Маленькая кнопка</item>
-        <item>Большая кнопка</item>
+    <string-array name="agps_network_entries">
+        <item>Домашняя сеть</item>
+        <item>Все сети</item>
+    </string-array>
+    <string-array name="agps_network_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="agps_reset_type_entries">
+        <item>ГОРЯЧИЙ</item>
+        <item>ТЕПЛЫЙ</item>
+        <item>ХОЛОДНЫЙ</item>
+    </string-array>
+    <string-array name="agps_reset_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="agps_si_mode_entries">
+        <item>MSB</item>
+        <item>MSA</item>
     </string-array>
     <string-array name="ai_key_item_name">
         <item>Поговорить с Google Ассистентом</item>
@@ -409,7 +427,7 @@
         <item>Выбор системы (по умолчанию)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>Qualcomm® aptX™</item>
+        <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
@@ -481,6 +499,8 @@
         <item>Отключено</item>
         <item>Отсортировано</item>
         <item>Включен</item>
+        <item>Заголовки отсортированы</item>
+        <item>Медиапакеты отсортированы</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 секунда</item>
@@ -501,7 +521,7 @@
     <string-array name="captioning_font_size_selector_summaries">
         <item>Очень мелкий шрифт</item>
         <item>Мелкий шрифт</item>
-        <item>Обычный шрифт</item>
+        <item>Размер шрифта по умолчанию</item>
         <item>Крупный шрифт</item>
         <item>Очень крупный шрифт</item>
     </string-array>
@@ -928,7 +948,7 @@
         <item>"За прошлый месяц: "</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Откл.</item>
+        <item>Отключено</item>
         <item>Показывать области наложения</item>
         <item>Показывать области для дейтераномалии</item>
     </string-array>
@@ -946,10 +966,11 @@
         <item>Не проверять</item>
         <item>Запрашивать статус сертификата</item>
         <item>Требовать статус сертификата</item>
+        <item>Требовать статусы всех ненадежных сертификатов</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Нет</item>
-        <item>Журнал Logcat</item>
+        <item>Logcat</item>
         <item>Systrace (графика)</item>
         <item>Стек вызовов на glGetError</item>
     </string-array>
@@ -976,8 +997,13 @@
         <item>4 дюйма</item>
         <item>3,5 дюйма</item>
     </string-array>
+    <string-array name="handy_mode_size_value_entries">
+        <item>4.5</item>
+        <item>4.0</item>
+        <item>3.5</item>
+    </string-array>
     <string-array name="haptic_feedback_level_texts">
-        <item>Откл.</item>
+        <item>Нет</item>
         <item>Слабый</item>
         <item>Средний</item>
         <item>Сильный</item>
@@ -1031,14 +1057,14 @@
     </string-array>
     <string-array name="lock_after_timeout_entries">
         <item>Сразу</item>
-        <item>Через 5 секунд</item>
-        <item>Через 15 секунд</item>
-        <item>Через 30 секунд</item>
-        <item>Через 1 минуту</item>
-        <item>Через 2 минуты</item>
-        <item>Через 5 минут</item>
-        <item>Через 10 минут</item>
-        <item>Через 30 минут</item>
+        <item>Через 5 сек.</item>
+        <item>Через 15 сек.</item>
+        <item>Через 30 сек.</item>
+        <item>Через 1 мин.</item>
+        <item>Через 2 мин.</item>
+        <item>Через 5 мин.</item>
+        <item>Через 10 мин.</item>
+        <item>Через 30 мин.</item>
     </string-array>
     <string-array name="lock_screen_secure_after_timeout_entries">
         <item>Немедленно</item>
@@ -1085,11 +1111,6 @@
         <item>@drawable/clickbottom01</item>
         <item>@drawable/clickbottom01</item>
     </array>
-    <string-array name="long_press_timeout_selector_list_titles">
-        <item>Короткая задержка</item>
-        <item>Средняя задержка</item>
-        <item>Длительная задержка</item>
-    </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Небольшая</item>
         <item>Средняя</item>
@@ -1097,8 +1118,8 @@
     </string-array>
     <string-array name="long_press_volume_down_action">
         <item>Нет действий</item>
-        <item>Быстрая съемка (фото)</item>
-        <item>Быстрая съемка (видео)</item>
+        <item>Быстрые снимки (фото)</item>
+        <item>Быстрые снимки (видео)</item>
         <item>Ярлыки общественного транспорта</item>
     </string-array>
     <string-array name="max_number_titles">
@@ -1175,6 +1196,7 @@
         <item>SPN</item>
         <item>IMSI</item>
         <item>GID</item>
+        <item>ICCID</item>
     </string-array>
     <string-array name="network_speed_slow_summary">
         <item>Низкая скорость из-за большой нагрузки</item>
@@ -1387,7 +1409,7 @@
         <item>CDMA/EvDo/GSM/WCDMA</item>
         <item>CDMA и LTE/EvDo</item>
         <item>GSM/WCDMA/LTE</item>
-        <item>LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>Весь мир</item>
         <item>LTE</item>
         <item>LTE/WCDMA</item>
         <item>Только TDSCDMA</item>
@@ -1404,7 +1426,7 @@
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
-        <item>Весь мир</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>
         <item>NR/LTE/TDSCDMA/GSM</item>
@@ -1482,7 +1504,7 @@
     <string-array name="screen_optimize_title">
         <item>Яркий (рекомендуется)</item>
         <item>Насыщенные</item>
-        <item>По умолчанию</item>
+        <item>Стандарт</item>
     </string-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
@@ -1518,13 +1540,13 @@
         <item>Разрешать всегда</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Откл.</item>
+        <item>Отключен</item>
         <item>64 КБ</item>
         <item>256 КБ</item>
         <item>1 МБ</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Откл.</item>
+        <item>Отключен</item>
         <item>64 КБ на буфер</item>
         <item>256 КБ на буфер</item>
         <item>1 МБ на буфер</item>
@@ -1532,7 +1554,7 @@
         <item>16 МБ на буфер</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Откл.</item>
+        <item>Отключен</item>
         <item>64 КБ</item>
         <item>256 КБ</item>
         <item>1 МБ</item>
@@ -1540,19 +1562,19 @@
         <item>16 МБ</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Откл.</item>
+        <item>Отключено</item>
         <item>Все буферы журналов</item>
         <item>Все, кроме буферов журнала радио</item>
         <item>Только буфер журнала ядра</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Откл.</item>
+        <item>Отключено</item>
         <item>Все</item>
         <item>Все, кроме радио</item>
         <item>Только ядро</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Откл.</item>
+        <item>Отключено</item>
         <item>Рисовать область усечения синим</item>
         <item>Подсвечивать команды рисования зеленым</item>
     </string-array>
@@ -1611,6 +1633,32 @@
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
     </array>
+    <array name="three_long_press">
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="time_format_entries">
         <item>12-часовой 1:00 PM</item>
         <item>24-часовой 13:00</item>
@@ -1626,12 +1674,12 @@
         <item>Все</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Откл.</item>
+        <item>Отключено</item>
         <item>На экране в виде полос</item>
         <item>В adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="traffic_balance_entries">
-        <item>Откл.</item>
+        <item>Нет</item>
         <item>Обычный</item>
         <item>Жесткий</item>
     </string-array>
@@ -1754,10 +1802,16 @@
         <item>Устройство подключено</item>
     </string-array>
     <string-array name="whetstone_level_entries">
-        <item>Откл.</item>
+        <item>Отключено</item>
         <item>Низкая</item>
         <item>Средняя</item>
         <item>Высокая</item>
+    </string-array>
+    <string-array name="whetstone_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="wide_notch_battery_indicator_style_entries">
         <item>Графический</item>
@@ -1778,12 +1832,12 @@
     </string-array>
     <string-array name="wifi_calling_mode_choices_v2">
         <item>Wi-Fi</item>
-        <item>Мобильный интернет</item>
+        <item>Мобильный Интернет</item>
         <item>Только Wi-Fi</item>
     </string-array>
     <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
         <item>Wi-Fi</item>
-        <item>Мобильный интернет</item>
+        <item>Мобильный Интернет</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
         <item>Подключаться автоматически</item>
@@ -1813,7 +1867,7 @@
         <item>Совмещать сигнал Wi-Fi и мобильный интернет для увеличения скорости соединения.</item>
     </string-array>
     <string-array name="wifi_metered_entries">
-        <item>Определить автоматически</item>
+        <item>Определять автоматически</item>
         <item>С тарификацией</item>
         <item>Без тарификации</item>
     </string-array>
@@ -1841,13 +1895,13 @@
         <item>"AKA'"</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
-        <item>Случайный MAC-адрес</item>
-        <item>MAC-адрес устройства</item>
+        <item>Использовать случайный MAC-адрес</item>
+        <item>Использовать MAC-адрес устройства</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
         <item>Нет</item>
         <item>Ручная настройка</item>
-        <item>Автонастройка</item>
+        <item>Автоконфигурация</item>
     </string-array>
     <string-array name="wifi_signal">
         <item>Слабый</item>
@@ -1893,20 +1947,6 @@
         <item>MSCHAP</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
-    </string-array>
-    <string-array name="wifitrackerlib_wifi_status">
-        <item></item>
-        <item>Поиск…</item>
-        <item>Подключение…</item>
-        <item>Аутентификация…</item>
-        <item>Получение IP-адреса…</item>
-        <item>Подключено</item>
-        <item>Приостановлено</item>
-        <item>Отключение…</item>
-        <item>Не подключено</item>
-        <item>Сбой</item>
-        <item>Заблокировано</item>
-        <item>Временно отключено из-за плохого соединения</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Без анимации</item>

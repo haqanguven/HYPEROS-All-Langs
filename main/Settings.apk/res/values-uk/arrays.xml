@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="accessibility_button_gesture_selector_titles">
-        <item>Кнопка</item>
-        <item>Жест</item>
+    <string-array name="agps_apn_entries">
+        <item>CMWAP</item>
+        <item>CMNET</item>
     </string-array>
-    <string-array name="accessibility_button_location_selector_titles">
-        <item>Плаває поверх інших додатків</item>
-        <item>Панель навігації</item>
+    <string-array name="agps_apn_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
-    <string-array name="accessibility_button_size_selector_titles">
-        <item>Мала</item>
-        <item>Велика</item>
+    <string-array name="agps_network_entries">
+        <item>Домашня мережа</item>
+        <item>Всі мережі</item>
+    </string-array>
+    <string-array name="agps_network_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="agps_reset_type_entries">
+        <item>ГАРЯЧИЙ</item>
+        <item>ТЕПЛИЙ</item>
+        <item>ХОЛОДНИЙ</item>
+    </string-array>
+    <string-array name="agps_reset_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="agps_si_mode_entries">
+        <item>MSB</item>
+        <item>MSA</item>
     </string-array>
     <string-array name="ai_key_item_name">
         <item>Переговорити з Google Асистентом</item>
@@ -181,7 +199,7 @@
         <item>Гучність голосу</item>
         <item>Гучність дзвінка</item>
         <item>Гучність медіа</item>
-        <item>Гучність будильника</item>
+        <item>Гучність будильник</item>
         <item>Гучність сповіщення</item>
         <item>Гучність Bluetooth</item>
         <item>Залишати активним</item>
@@ -481,6 +499,8 @@
         <item>Відключено</item>
         <item>Відфільтровано</item>
         <item>Увімкнено</item>
+        <item>Фільтрація заголовків</item>
+        <item>Фільтрація медіапакетів</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 секунда</item>
@@ -499,11 +519,11 @@
         <item>Втиснений</item>
     </string-array>
     <string-array name="captioning_font_size_selector_summaries">
-        <item>Дуже дрібний</item>
-        <item>Дрібний</item>
-        <item>Розмір за замовчуванням</item>
-        <item>Великий</item>
-        <item>Дуже великий</item>
+        <item>Дуже малий шрифт</item>
+        <item>Малий шрифт</item>
+        <item>Шрифт за умовчанням</item>
+        <item>Великий шрифт</item>
+        <item>Дуже великий шрифт</item>
     </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Дуже малий</item>
@@ -548,7 +568,7 @@
     <string-array name="change_security_lock_picker">
         <item>Розблокування обличчям</item>
         <item>Графічний ключ</item>
-        <item>PIN-код</item>
+        <item>PIN</item>
         <item>Пароль</item>
     </string-array>
     <string-array name="city_name">
@@ -881,7 +901,7 @@
         <item>Бірюзовий</item>
         <item>Синій</item>
         <item>Індиго</item>
-        <item>Фіолетовий</item>
+        <item>Пурпуровий</item>
         <item>Рожевий</item>
         <item>Червоний</item>
     </string-array>
@@ -928,7 +948,7 @@
         <item>"За минулий місяць: "</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>Показувати області накладення</item>
         <item>Показувати області для дейтераномалії</item>
     </string-array>
@@ -946,9 +966,10 @@
         <item>Не перевіряти</item>
         <item>Запит статусу сертифіката</item>
         <item>Потрібен статус сертифіката</item>
+        <item>Потрібні статуси всіх несхвалених сертифікатів</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Немає</item>
+        <item>Вимкнено</item>
         <item>Logcat</item>
         <item>Systrace (графіка)</item>
         <item>Стек викликів на glGetError</item>
@@ -976,8 +997,13 @@
         <item>4,0 дюйма</item>
         <item>3,5 дюймів</item>
     </string-array>
+    <string-array name="handy_mode_size_value_entries">
+        <item>4.5</item>
+        <item>4.0</item>
+        <item>3.5</item>
+    </string-array>
     <string-array name="haptic_feedback_level_texts">
-        <item>Вимк.</item>
+        <item>Немає</item>
         <item>Слабкий</item>
         <item>Середній</item>
         <item>Сильний</item>
@@ -1085,11 +1111,6 @@
         <item>@drawable/clickbottom01</item>
         <item>@drawable/clickbottom01</item>
     </array>
-    <string-array name="long_press_timeout_selector_list_titles">
-        <item>Коротка</item>
-        <item>Середня</item>
-        <item>Довга</item>
-    </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Коротка</item>
         <item>Середня</item>
@@ -1175,6 +1196,7 @@
         <item>SPN</item>
         <item>IMSI</item>
         <item>GID</item>
+        <item>ICCID</item>
     </string-array>
     <string-array name="network_speed_slow_summary">
         <item>Повільна швидкість через великі навантаження</item>
@@ -1387,7 +1409,7 @@
         <item>CDMA/EvDo/GSM/WCDMA</item>
         <item>CDMA + LTE/EvDo</item>
         <item>GSM/WCDMA/LTE</item>
-        <item>LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>Загальний</item>
         <item>LTE</item>
         <item>LTE/WCDMA</item>
         <item>Лише TDSCDMA</item>
@@ -1404,7 +1426,7 @@
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
-        <item>Загальні</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>
         <item>NR/LTE/TDSCDMA/GSM</item>
@@ -1518,13 +1540,13 @@
         <item>Завжди дозволяти</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Вимк.</item>
+        <item>Вимк</item>
         <item>64 кБ</item>
         <item>256 кБ</item>
         <item>1 МБ</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Вимк.</item>
+        <item>Вимк</item>
         <item>64 кБ на буфер</item>
         <item>256 кБ на буфер</item>
         <item>1 МБ на буфер</item>
@@ -1532,7 +1554,7 @@
         <item>16 МБ на буфер</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>64 кБ</item>
         <item>256 кБ</item>
         <item>1 МБ</item>
@@ -1540,19 +1562,19 @@
         <item>16 МБ</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Вимк.</item>
+        <item>Вимк</item>
         <item>Всі буфери журналу</item>
         <item>Все, крім буферів системного журналу</item>
         <item>Тільки буфер журналу ядра</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>Всі</item>
         <item>Все, крім системних</item>
         <item>Тільки ядро</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>Малювати непрямокутну область усічення синім</item>
         <item>Підсвічувати команди малювання зеленим</item>
     </string-array>
@@ -1611,6 +1633,32 @@
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
     </array>
+    <array name="three_long_press">
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="time_format_entries">
         <item>12-годинний 1:00 PM</item>
         <item>24-годинний 13:00</item>
@@ -1626,12 +1674,12 @@
         <item>Усі</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>На екрані у вигляді смуг</item>
         <item>У adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="traffic_balance_entries">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>Звичайний</item>
         <item>Екстремальний</item>
     </string-array>
@@ -1708,7 +1756,7 @@
     <string-array name="usb_connection_mode_entries">
         <item>Запит при підключенні</item>
         <item>Тільки заряджання</item>
-        <item>Підключити SD-карту</item>
+        <item>USB-накопичувач</item>
     </string-array>
     <string-array name="vip_mode_text">
         <item>Всі</item>
@@ -1754,10 +1802,16 @@
         <item>Пристрій підключений</item>
     </string-array>
     <string-array name="whetstone_level_entries">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>Низька</item>
         <item>Середня</item>
         <item>Висока</item>
+    </string-array>
+    <string-array name="whetstone_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="wide_notch_battery_indicator_style_entries">
         <item>Графічний</item>
@@ -1893,20 +1947,6 @@
         <item>MSCHAP</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
-    </string-array>
-    <string-array name="wifitrackerlib_wifi_status">
-        <item></item>
-        <item>Пошук…</item>
-        <item>Підключення…</item>
-        <item>Автентифікація…</item>
-        <item>Отримання ІР-адреси…</item>
-        <item>Підключено</item>
-        <item>Заблоковано</item>
-        <item>Відключення…</item>
-        <item>Відключено</item>
-        <item>Помилка</item>
-        <item>Заблоковано</item>
-        <item>Перевірка підключення</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Без анімації</item>

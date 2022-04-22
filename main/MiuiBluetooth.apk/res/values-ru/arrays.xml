@@ -156,6 +156,11 @@
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
+        <item>Аудиокодек: Qualcomm® aptX™ Adaptive</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC V3/V4</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Выбор системы (по умолчанию)</item>
@@ -164,6 +169,13 @@
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC V3/V4</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
+        <item>Включить дополнительные кодеки</item>
+        <item>Отключить дополнительные кодеки</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -197,6 +209,8 @@
         <item>Отключено</item>
         <item>Отсортировано</item>
         <item>Включен</item>
+        <item>Заголовки отсортированы</item>
+        <item>Медиапакеты отсортированы</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Улучшенные цвета</item>
@@ -209,13 +223,13 @@
         <item>Стандартный</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Откл.</item>
+        <item>Отключено</item>
         <item>Показывать области наложения</item>
         <item>Показывать области для дейтераномалии</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Нет</item>
-        <item>Журнал Logcat</item>
+        <item>Logcat</item>
         <item>Systrace (графика)</item>
         <item>Стек вызовов на glGetError</item>
     </string-array>
@@ -244,13 +258,13 @@
         <item>720p, 1080p (два экрана)</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Откл.</item>
+        <item>Отключен</item>
         <item>64 КБ</item>
         <item>256 КБ</item>
         <item>1 МБ</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Откл.</item>
+        <item>Отключен</item>
         <item>64 КБ на буфер</item>
         <item>256 КБ на буфер</item>
         <item>1 МБ на буфер</item>
@@ -258,7 +272,7 @@
         <item>16 МБ на буфер</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Откл.</item>
+        <item>Отключен</item>
         <item>64 КБ</item>
         <item>256 КБ</item>
         <item>1 МБ</item>
@@ -266,24 +280,24 @@
         <item>16 МБ</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Откл.</item>
+        <item>Отключено</item>
         <item>Все буферы журналов</item>
         <item>Все, кроме буферов журнала радио</item>
         <item>Только буфер журнала ядра</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Откл.</item>
+        <item>Отключено</item>
         <item>Все</item>
         <item>Все, кроме радио</item>
         <item>Только ядро</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Откл.</item>
+        <item>Отключено</item>
         <item>Рисовать область усечения синим</item>
         <item>Подсвечивать команды рисования зеленым</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Откл.</item>
+        <item>Отключено</item>
         <item>На экране в виде полос</item>
         <item>В adb shell dumpsys gfxinfo</item>
     </string-array>
@@ -353,20 +367,6 @@
         <item>Ошибка</item>
         <item>Заблокировано</item>
         <item>Нестабильное соединение</item>
-    </string-array>
-    <string-array name="wifitrackerlib_wifi_status">
-        <item></item>
-        <item>Поиск…</item>
-        <item>Подключение…</item>
-        <item>Аутентификация…</item>
-        <item>Получение IP-адреса…</item>
-        <item>Подключено</item>
-        <item>Приостановлено</item>
-        <item>Отключение…</item>
-        <item>Не подключено</item>
-        <item>Сбой</item>
-        <item>Заблокировано</item>
-        <item>Временно отключено из-за плохого соединения</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Без анимации</item>

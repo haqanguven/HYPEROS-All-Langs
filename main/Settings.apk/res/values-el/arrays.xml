@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="accessibility_button_gesture_selector_titles">
-        <item>Κουμπί</item>
-        <item>Κίνηση</item>
+    <string-array name="agps_apn_entries">
+        <item>CMWAP</item>
+        <item>CMNET</item>
     </string-array>
-    <string-array name="accessibility_button_location_selector_titles">
-        <item>Κινούμενο πάνω από άλλες εφαρμογές</item>
-        <item>Γραμμή πλοήγησης</item>
+    <string-array name="agps_apn_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
-    <string-array name="accessibility_button_size_selector_titles">
-        <item>Μικρό</item>
-        <item>Μεγάλο</item>
+    <string-array name="agps_network_entries">
+        <item>Δίκτυο οικίας</item>
+        <item>Όλα τα δίκτυα</item>
+    </string-array>
+    <string-array name="agps_network_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="agps_reset_type_entries">
+        <item>ΚΑΥΤΟ</item>
+        <item>ΖΕΣΤΟ</item>
+        <item>ΚΡΥΟ</item>
+    </string-array>
+    <string-array name="agps_reset_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="agps_si_mode_entries">
+        <item>MSB</item>
+        <item>MSA</item>
     </string-array>
     <string-array name="ai_key_item_name">
         <item>Μιλήστε με τον Βοηθό Google</item>
@@ -463,6 +481,8 @@
         <item>Απενεργοποιημένο</item>
         <item>Έγινε φιλτράρισμα</item>
         <item>Ενεργοποιήθηκε</item>
+        <item>Έγινε φιλτράρισμα επικεφαλίδων</item>
+        <item>Έγινε φιλτράρισμα πακέτων πολυμέσων</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 δευτερόλεπτο</item>
@@ -925,15 +945,16 @@
         <item>30 λεπτά</item>
     </string-array>
     <string-array name="eap_ocsp_type">
-        <item>Να μην γίνει επαλήθευση</item>
+        <item>Χωρίς επικύρωση</item>
         <item>Αίτημα κατάστασης πιστοποιητικού</item>
         <item>Απαίτηση κατάστασης πιστοποιητικού</item>
+        <item>Απαίτηση των καταστάσεων όλων των μη αξιόπιστων πιστοποιητικών</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Χωρίς</item>
         <item>Logcat</item>
         <item>Systrace (Graphics)</item>
-        <item>Στοίβα κλήσης στο glGetError</item>
+        <item>Call stack on glGetError</item>
     </string-array>
     <string-array name="entries_font_size">
         <item>Μικρό μέγεθος</item>
@@ -957,6 +978,11 @@
         <item>4.5 ίντσες</item>
         <item>4.0 ίντσες</item>
         <item>3.5 ίντσες</item>
+    </string-array>
+    <string-array name="handy_mode_size_value_entries">
+        <item>4.5</item>
+        <item>4.0</item>
+        <item>3.5</item>
     </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Ανενεργό</item>
@@ -1067,11 +1093,6 @@
         <item>@drawable/clickbottom01</item>
         <item>@drawable/clickbottom01</item>
     </array>
-    <string-array name="long_press_timeout_selector_list_titles">
-        <item>Σύντομο</item>
-        <item>Μεσαίο</item>
-        <item>Μεγάλο</item>
-    </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Σύντομο</item>
         <item>Μεσαίο</item>
@@ -1115,7 +1136,7 @@
     </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP και παλαιότερα</item>
-        <item>Windows Vista και νεότερα</item>
+        <item>Windows Vista και πιο καινούργια</item>
         <item>OSX</item>
         <item>Linux</item>
     </string-array>
@@ -1132,7 +1153,7 @@
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_retry_linux">
-        <item>Εγκατάσταση εργαλείου: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
+        <item>Install tool: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
         <item>Δημιουργία καταλόγου: mkdir /media/mtp</item>
         <item>Επιβεβαίωση αδειών ομάδας χρήστη στην τρέχουσα ομάδα χρήστη</item>
         <item>Συνδεθείτε ξανά</item>
@@ -1157,6 +1178,7 @@
         <item>SPN</item>
         <item>IMSI</item>
         <item>GID</item>
+        <item>ICCID</item>
     </string-array>
     <string-array name="network_speed_slow_summary">
         <item>Το δίκτυο είναι αργό λόγω μεγάλης κατανάλωσης δεδομένων</item>
@@ -1351,7 +1373,7 @@
         <item>Εκκινητής</item>
         <item>Κλήση</item>
         <item>Μηνύματα</item>
-        <item>Πρόγραμμα περιήγησης</item>
+        <item>Φυλλομετρητής</item>
         <item>Κάμερα</item>
         <item>Συλλογή</item>
         <item>Μουσική</item>
@@ -1369,7 +1391,7 @@
         <item>CDMA/EvDo/GSM/WCDMA</item>
         <item>CDMA + LTE/EvDo</item>
         <item>GSM/WCDMA/LTE</item>
-        <item>LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>Παγκόσμιο</item>
         <item>LTE</item>
         <item>LTE/WCDMA</item>
         <item>Μόνο TDSCDMA</item>
@@ -1386,7 +1408,7 @@
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
-        <item>Παγκόσμιο</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>
         <item>NR/LTE/TDSCDMA/GSM</item>
@@ -1593,10 +1615,36 @@
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
     </array>
+    <array name="three_long_press">
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/three_fingers_long_press</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="time_format_entries">
         <item>12 ώρες 1:00 μ.μ.</item>
         <item>24 ώρες 13:00</item>
-        <item>Αυτόματα (βάσει γλώσσας συστήματος)</item>
+        <item>Αυτόματα (βάσει τη γλώσσα συστήματος)</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>Αμερική</item>
@@ -1736,10 +1784,16 @@
         <item>Η συσκευή συνδέθηκε</item>
     </string-array>
     <string-array name="whetstone_level_entries">
-        <item>Απενεργοποιημένο</item>
+        <item>Ανενεργό</item>
         <item>Χαμηλή</item>
         <item>Μέτρια</item>
         <item>Υψηλή</item>
+    </string-array>
+    <string-array name="whetstone_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="wide_notch_battery_indicator_style_entries">
         <item>Γραφικός</item>
@@ -1875,20 +1929,6 @@
         <item>MSCHAP</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
-    </string-array>
-    <string-array name="wifitrackerlib_wifi_status">
-        <item></item>
-        <item>Σάρωση…</item>
-        <item>Σύνδεση…</item>
-        <item>Έλεγχος ταυτότητας…</item>
-        <item>Λήψη διεύθυνσης IP…</item>
-        <item>Συνδέθηκε</item>
-        <item>Σε αναστολή</item>
-        <item>Αποσύνδεση…</item>
-        <item>Αποσυνδέθηκε</item>
-        <item>Ανεπιτυχής</item>
-        <item>Αποκλείστηκε</item>
-        <item>Προσωρινή αποφυγή αδύναμης σύνδεσης</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Κινούμενα σχέδια ανενεργά</item>

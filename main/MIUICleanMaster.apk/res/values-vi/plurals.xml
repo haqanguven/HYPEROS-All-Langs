@@ -19,13 +19,15 @@
         <item quantity="other">Tức thì</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">sau %d phút</item>
+        <item quantity="other">trong %d phút</item>
+        <item quantity="one">trong 1 phút</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Vừa xong</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d phút trước</item>
+        <item quantity="one">1 phút trước</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Chưa sử dụng %d ngày</item>
@@ -37,29 +39,28 @@
         <item quantity="other">Chưa sử dụng %d năm</item>
     </plurals>
     <plurals name="clean_long_msg_p1">
-        <item quantity="other">"Đang dọn dẹp %1$d tập tin (%2$d%%)
-"</item>
+        <item quantity="other">Đang dọn dẹp %1$d tập tin (%2$d%%)</item>
     </plurals>
     <plurals name="clean_long_msg_p2">
         <item quantity="other">%1$d mục/ giây | Thời gian còn lại: %2$s</item>
     </plurals>
     <plurals name="dc_group_title_normal">
-        <item quantity="other">Thực hiện %1$d bước để giải phóng %2$s</item>
+        <item quantity="other">Cần %1$d bước để giải phóng %2$s</item>
     </plurals>
     <plurals name="dc_item_summary_apk">
         <item quantity="other">&lt;Data>Bạn có thể xóa &lt;font color=#0097FF>%d&lt;/font> gói cài đặt&lt;/Data></item>
     </plurals>
     <plurals name="dc_item_summary_app_data">
-        <item quantity="other">&lt;Data>Bạn có thể xóa dữ liệu cho &lt;font color=#0097FF>%d&lt;/font> ứng dụng&lt;/Data></item>
+        <item quantity="other">&lt;Data>Bạn có thể xóa dữ liệu của &lt;font color=#0097FF>%d&lt;/font> ứng dụng&lt;/Data></item>
     </plurals>
     <plurals name="dc_item_summary_image">
         <item quantity="other">&lt;Data>Bạn có thể xóa &lt;font color=#0097FF>%d&lt;/font> ảnh không cần thiết&lt;/Data></item>
     </plurals>
     <plurals name="dc_item_summary_large_file">
-        <item quantity="other">&lt;Data>Bạn có thể xóa &lt;font color=#0097FF>%d&lt;/font> tập tin lớn&lt;/Data></item>
+        <item quantity="other">&lt;Data>Bạn có thể xóa &lt;font color=#0097FF>%d&lt;/font> tệp tin lớn&lt;/Data></item>
     </plurals>
     <plurals name="dc_item_summary_uninstall_app">
-        <item quantity="other">&lt;Data>Bạn có thể gỡ cài đặt &lt;font color=#0097FF>%d&lt;/font> ứng dụng ít được sử dụng&lt;/Data></item>
+        <item quantity="other">&lt;Data>Bạn có thể gỡ cài đặt &lt;font color=#0097FF>%d&lt;/font> ứng dụng không thường dùng&lt;/Data></item>
     </plurals>
     <plurals name="dc_item_summary_video">
         <item quantity="other">&lt;Data>Bạn có thể xóa &lt;font color=#0097FF>%d&lt;/font> video&lt;/Data></item>
@@ -104,10 +105,10 @@
         <item quantity="other">%1$d mục</item>
     </plurals>
     <plurals name="global_wa_video">
-        <item quantity="other">%1$d mục</item>
+        <item quantity="other">%1$d items</item>
     </plurals>
     <plurals name="global_wa_voice">
-        <item quantity="other">&lt;Data>Tìm thấy &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> tin nhắn thoại&lt;/Data></item>
+        <item quantity="other">&lt;Data>Đã tìm thấy &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> tin nhắn thoại&lt;/Data></item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Nửa giờ trước</item>
@@ -129,27 +130,29 @@
     </plurals>
     <plurals name="in_num_minutes">
         <item quantity="other">trong %d phút</item>
+        <item quantity="one">trong 1 phút</item>
     </plurals>
     <plurals name="install_find_application">
         <item quantity="other">Tìm kiếm trong %d ứng dụng</item>
     </plurals>
     <plurals name="install_find_application_num">
-        <item quantity="other">Đã tìm thấy %d ứng dụng</item>
-    </plurals>
-    <plurals name="last_x_day">
-        <item quantity="other">%d ngày qua</item>
+        <item quantity="other">Tìm thấy %d ứng dụng</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
-        <item quantity="other">Vừa mới</item>
+        <item quantity="other">Vừa xong</item>
     </plurals>
     <plurals name="minute">
         <item quantity="other">%1$d phút</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
-        <item quantity="other">Đã chọn %d mục</item>
+        <item quantity="other">%d mục đã chọn</item>
+    </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Xóa %d gói cài đặt</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d phút trước</item>
+        <item quantity="one">1 phút trước</item>
     </plurals>
     <plurals name="people">
         <item quantity="other">Được tải xuống bởi %1$d người</item>
@@ -158,10 +161,19 @@
         <item quantity="other">Được tải xuống bởi %1$d người</item>
     </plurals>
     <plurals name="resutl_function_install_app_summary">
-        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> ứng dụng không sử dụng trong thời gian dài, hãy kiểm tra.&lt;/Data></item>
+        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> ứng dụng không sử dụng trong thời gian dài, hãy kiểm tra.;&lt;/Data></item>
+    </plurals>
+    <plurals name="rs_clean_size_hint_image">
+        <item quantity="other">Đủ cho %d ảnh</item>
+    </plurals>
+    <plurals name="rs_clean_size_hint_song">
+        <item quantity="other">Đủ cho %d bài hát</item>
     </plurals>
     <plurals name="second">
         <item quantity="other">%1$d giây</item>
+    </plurals>
+    <plurals name="video_clean_scan_app_result">
+        <item quantity="other">%d ứng dụng có bộ đệm video</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$s lượt xem</item>
@@ -175,13 +187,10 @@
     <plurals name="wechat_video_time_p1">
         <item quantity="other">%1$s:</item>
     </plurals>
-    <plurals name="wechat_video_time_p2">
-        <item quantity="other">%1$s</item>
-    </plurals>
     <plurals name="whatsapp_delete_files">
         <item quantity="other">Xóa %1$d mục?</item>
     </plurals>
     <plurals name="whatsapp_file_audio_dec">
-        <item quantity="other">%1$s tập tin âm thanh</item>
+        <item quantity="other">%1$s tệp âm thanh</item>
     </plurals>
 </resources>

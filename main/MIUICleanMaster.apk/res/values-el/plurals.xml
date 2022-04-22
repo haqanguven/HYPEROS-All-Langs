@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="a_hour_ago">
-        <item quantity="other">1 ώρα πριν</item>
-        <item quantity="one">1 ώρα πριν</item>
+        <item quantity="other">πριν από 1 ώρα</item>
+        <item quantity="one">πριν από 1 ώρα</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 ώρα πριν</item>
-        <item quantity="one">1 ώρα πριν</item>
+        <item quantity="other">πριν από 1 ώρα</item>
+        <item quantity="one">πριν από 1 ώρα</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Μισή ώρα πριν</item>
@@ -21,8 +21,8 @@
         <item quantity="one">Σε μισή ώρα</item>
     </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="other">Αμέσως</item>
-        <item quantity="one">Αμέσως</item>
+        <item quantity="other">Άμεσα</item>
+        <item quantity="one">Άμεσα</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
         <item quantity="other">σε %d λεπτά</item>
@@ -33,7 +33,7 @@
         <item quantity="one">Μόλις τώρα</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d λεπτά πριν</item>
+        <item quantity="other">%d λ πριν</item>
         <item quantity="one">1 λεπτό πριν</item>
     </plurals>
     <plurals name="app_usage_day">
@@ -122,10 +122,6 @@
         <item quantity="other">Διαγραφή %1$s φωτογραφιών από όλες τις συσκευές σας;</item>
         <item quantity="one">Διαγραφή %1$s φωτογραφίας από όλες τις συσκευές σας;</item>
     </plurals>
-    <plurals name="every_x_day">
-        <item quantity="other">Κάθε %d ημέρες</item>
-        <item quantity="one">Κάθε %d ημέρα</item>
-    </plurals>
     <plurals name="global_wa_clean_finish_audio">
         <item quantity="other">&lt;Data>Ελευθερώσατε &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (αρκετά για &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> τραγούδια)&lt;/Data></item>
         <item quantity="one">&lt;Data>Ελευθερώσατε &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (αρκετά για &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> τραγούδι)&lt;/Data></item>
@@ -167,8 +163,8 @@
         <item quantity="one">Σε μισή ώρα</item>
     </plurals>
     <plurals name="in_less_than_one_minute">
-        <item quantity="other">Αμέσως</item>
-        <item quantity="one">Αμέσως</item>
+        <item quantity="other">Άμεσα</item>
+        <item quantity="one">Άμεσα</item>
     </plurals>
     <plurals name="in_num_minutes">
         <item quantity="other">σε %d λεπτά</item>
@@ -182,10 +178,6 @@
         <item quantity="other">Βρέθηκαν %d εφαρμογές</item>
         <item quantity="one">Βρέθηκε %d εφαρμογή</item>
     </plurals>
-    <plurals name="last_x_day">
-        <item quantity="other">Τελευταίες %d ημέρες</item>
-        <item quantity="one">Τελευταία %d ημέρα</item>
-    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Μόλις τώρα</item>
         <item quantity="one">Μόλις τώρα</item>
@@ -195,8 +187,12 @@
         <item quantity="one">%1$d λεπτό</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
-        <item quantity="other">%d αντικείμενα επιλέχθηκαν</item>
-        <item quantity="one">%d αντικείμενο επιλέχθηκε</item>
+        <item quantity="other">%d επιλεγμένα στοιχεία</item>
+        <item quantity="one">%d επιλεγμένο στοιχείο</item>
+    </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Διαγραφή %d πακέτων εγκατάστασης</item>
+        <item quantity="one">Διαγραφή %d πακέτου εγκατάστασης</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d λεπτά πριν</item>
@@ -214,9 +210,21 @@
         <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> εφαρμογές δεν έχουν χρησιμοποιηθεί για μεγάλη περίοδο, ρίξτε μια ματιά.&lt;/Data></item>
         <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> εφαρμογή δεν έχει χρησιμοποιηθεί για μεγάλη περίοδο, ρίξτε μια ματιά.&lt;/Data></item>
     </plurals>
+    <plurals name="rs_clean_size_hint_image">
+        <item quantity="other">Αρκετά για %d φωτογραφίες</item>
+        <item quantity="one">Αρκετά για %d φωτογραφία</item>
+    </plurals>
+    <plurals name="rs_clean_size_hint_song">
+        <item quantity="other">Αρκετά για %d τραγούδια</item>
+        <item quantity="one">Αρκετά για %d τραγούδι</item>
+    </plurals>
     <plurals name="second">
         <item quantity="other">%1$d δευτερόλεπτα</item>
         <item quantity="one">%1$d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="video_clean_scan_app_result">
+        <item quantity="other">%d εφαρμογές με προσωρινά αποθηκευμένα βίντεο</item>
+        <item quantity="one">%d εφαρμογή με προσωρινά αποθηκευμένα βίντεο</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$s προβολές</item>

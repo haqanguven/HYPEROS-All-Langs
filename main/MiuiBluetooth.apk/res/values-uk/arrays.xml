@@ -156,6 +156,11 @@
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC V3/V4</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Вибір системи (за замовчуванням)</item>
@@ -164,6 +169,13 @@
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC V3/V4</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
+        <item>Вмикати додаткові кодеки</item>
+        <item>Відключити додаткові кодеки</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -197,6 +209,8 @@
         <item>Відключено</item>
         <item>Відфільтровано</item>
         <item>Увімкнено</item>
+        <item>Фільтрація заголовків</item>
+        <item>Фільтрація медіапакетів</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Покращені кольори</item>
@@ -209,12 +223,12 @@
         <item>Натуральний</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>Показувати області накладення</item>
         <item>Показувати області для дейтераномалії</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Немає</item>
+        <item>Вимкнено</item>
         <item>Logcat</item>
         <item>Systrace (графіка)</item>
         <item>Стек викликів на glGetError</item>
@@ -244,13 +258,13 @@
         <item>720p, 1080p (два екрана)</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Вимк.</item>
+        <item>Вимк</item>
         <item>64 кБ</item>
         <item>256 кБ</item>
         <item>1 МБ</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Вимк.</item>
+        <item>Вимк</item>
         <item>64 кБ на буфер</item>
         <item>256 кБ на буфер</item>
         <item>1 МБ на буфер</item>
@@ -258,7 +272,7 @@
         <item>16 МБ на буфер</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>64 кБ</item>
         <item>256 кБ</item>
         <item>1 МБ</item>
@@ -266,24 +280,24 @@
         <item>16 МБ</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Вимк.</item>
+        <item>Вимк</item>
         <item>Всі буфери журналу</item>
         <item>Все, крім буферів системного журналу</item>
         <item>Тільки буфер журналу ядра</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>Всі</item>
         <item>Все, крім системних</item>
         <item>Тільки ядро</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>Малювати непрямокутну область усічення синім</item>
         <item>Підсвічувати команди малювання зеленим</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>На екрані у вигляді смуг</item>
         <item>У adb shell dumpsys gfxinfo</item>
     </string-array>
@@ -353,20 +367,6 @@
         <item>Помилка</item>
         <item>Заблоковано</item>
         <item>Нестабільне підключення</item>
-    </string-array>
-    <string-array name="wifitrackerlib_wifi_status">
-        <item></item>
-        <item>Пошук…</item>
-        <item>Підключення…</item>
-        <item>Автентифікація…</item>
-        <item>Отримання ІР-адреси…</item>
-        <item>Підключено</item>
-        <item>Заблоковано</item>
-        <item>Відключення…</item>
-        <item>Відключено</item>
-        <item>Помилка</item>
-        <item>Заблоковано</item>
-        <item>Перевірка підключення</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Без анімації</item>
