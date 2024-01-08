@@ -1,34 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="agps_apn_entries">
-        <item>CMWAP</item>
-        <item>CMNET</item>
+    <string-array name="accessibility_button_gesture_selector_titles">
+        <item>Tombol</item>
+        <item>Gestur</item>
     </string-array>
-    <string-array name="agps_apn_values">
-        <item>0</item>
-        <item>1</item>
+    <string-array name="accessibility_button_location_selector_titles">
+        <item>Mengambang di atas aplikasi lain</item>
+        <item>Menu navigasi</item>
     </string-array>
-    <string-array name="agps_network_entries">
-        <item>Jaringan rumah</item>
-        <item>Semua jaringan</item>
-    </string-array>
-    <string-array name="agps_network_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="agps_reset_type_entries">
-        <item>PANAS</item>
-        <item>HANGAT</item>
-        <item>DINGIN</item>
-    </string-array>
-    <string-array name="agps_reset_type_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="agps_si_mode_entries">
-        <item>MSB</item>
-        <item>MSA</item>
+    <string-array name="accessibility_button_size_selector_titles">
+        <item>Kecil</item>
+        <item>Besar</item>
     </string-array>
     <string-array name="ai_key_item_name">
         <item>Bicara ke Asisten Google</item>
@@ -75,18 +57,6 @@
         <item>IPv4</item>
         <item>IPv6</item>
         <item>IPv4/IPv6</item>
-    </string-array>
-    <string-array name="app_install_location_entries">
-        <item>Penyimpanan perangkat internal</item>
-        <item>Kartu SD yang dapat dicopot</item>
-        <item>Biarkan sistem menentukan</item>
-    </string-array>
-    <string-array name="app_ops_categories">
-        <item>Lokasi</item>
-        <item>Pribadi</item>
-        <item>Pesan</item>
-        <item>Media</item>
-        <item>Perangkat</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Lokasi</item>
@@ -224,7 +194,7 @@
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Batas standar</item>
-        <item>Tidak ada proses latar belakang</item>
+        <item>Tanpa proses latar belakang</item>
         <item>Maksimal 1 proses</item>
         <item>Maksimal 2 proses</item>
         <item>Maksimal 3 proses</item>
@@ -240,11 +210,18 @@
         <item>Lebih dari 60 hari</item>
         <item>Lebih dari 90 hari</item>
     </string-array>
+    <array name="avatar_image_descriptions" />
     <string-array name="battery_indicator_style_entries">
         <item>Grafik</item>
         <item>Persentase (di ikon)</item>
         <item>Persentase (sebelah ikon)</item>
-        <item>Bar atas</item>
+        <item>Bilah atas</item>
+    </string-array>
+    <string-array name="battery_indicator_style_summaries">
+        <item>Grafik</item>
+        <item>Persentase (di ikon)</item>
+        <item>Persentase (sebelah ikon)</item>
+        <item>Bilah progres</item>
     </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
@@ -279,37 +256,37 @@
         <item>Mode latensi rendah</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Gunakan pilihan sistem (Bawaan)</item>
+        <item>Gunakan Pilihan Sistem (Default)</item>
         <item>16 bit/sampel</item>
         <item>24 bit/sampel</item>
         <item>32 bit/sampel</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Gunakan pilihan sistem (Bawaan)</item>
+        <item>Gunakan Pilihan Sistem (Default)</item>
         <item>16 bit/sampel</item>
         <item>24 bit/sampel</item>
         <item>32 bit/sampel</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Gunakan pilihan sistem (Bawaan)</item>
+        <item>Gunakan Pilihan Sistem (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Gunakan pilihan sistem (Bawaan)</item>
+        <item>Gunakan Pilihan Sistem (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Dioptimalkan untuk kualitas audio</item>
-        <item>Kualitas audio dan koneksi yang seimbang</item>
-        <item>Dioptimalkan untuk kualitas koneksi</item>
-        <item>Usaha optimal (Laju bit otomatis)</item>
+        <item>Dioptimalkan untuk Kualitas Audio</item>
+        <item>Kualitas Audio dan Sambungan Seimbang</item>
+        <item>Dioptimalkan untuk Kualitas Sambungan</item>
+        <item>Best Effort (Kecepatan Bit Adaptif)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Dioptimalkan untuk kualitas audio (990kbps/909kbps)</item>
+        <item>Optimalkan untuk kualitas audio (990kbps/909kbps)</item>
         <item>Kualitas audio dan koneksi yang seimbang (660kbps/606kbps)</item>
-        <item>Dioptimalkan untuk kualitas koneksi (330kbps/303kbps)</item>
+        <item>Optimalkan untuk kualitas koneksi (330kbps/303kbps)</item>
         <item>Efek terbaik (Laju bit adaptif)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
@@ -336,20 +313,6 @@
         <item>Dioptimalkan untuk kualitas audio (900kbps)</item>
         <item>Usaha optimal (Laju bit otomatis)</item>
     </string-array>
-    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Gunakan pilihan sistem (Bawaan)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Gunakan pilihan sistem (Bawaan)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
-    </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Gunakan pilihan sistem (Bawaan)</item>
         <item>SBC</item>
@@ -359,6 +322,7 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptif audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
@@ -374,6 +338,7 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptif audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
@@ -386,16 +351,21 @@
         <item>" | Aktif (media)"</item>
         <item>" | Aktif (telepon)"</item>
     </string-array>
+    <string-array name="bluetooth_audio_routing_titles">
+        <item>Gunakan default aplikasi</item>
+        <item>Putar di alat bantu dengar</item>
+        <item>Putar di speaker ponsel</item>
+    </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp14</item>
-        <item>avrcp13</item>
         <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (Standar)</item>
+        <item>AVRCP 1.5 (Default)</item>
         <item>AVRCP 1.3</item>
-        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.4</item>
         <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
@@ -404,7 +374,7 @@
         <item>map14</item>
     </string-array>
     <string-array name="bluetooth_map_versions">
-        <item>MAP 1.2 (Bawaan)</item>
+        <item>MAP 1.2 (Default)</item>
         <item>MAP 1.3</item>
         <item>MAP 1.4</item>
     </string-array>
@@ -416,18 +386,21 @@
         <item>4</item>
         <item>5</item>
     </string-array>
-    <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 menit</item>
-        <item>5 menit</item>
-        <item>1 jam</item>
-        <item>Tanpa waktu tunggu</item>
-    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Nonaktif</item>
-        <item>Telah difilter</item>
+        <item>Diaktifkan Difilter</item>
         <item>Diaktifkan</item>
-        <item>Header telah difilter</item>
-        <item>Paket media telah difilter</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_filters_entries">
+        <item>Hanya tinggalkan header ACL</item>
+        <item>Filter paket media A2DP</item>
+        <item>Filter saluran RFCOMM</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_profile_filter_entries">
+        <item>Nonaktifkan</item>
+        <item>Isi dengan string karakter</item>
+        <item>Hanya tinggalkan header</item>
+        <item>Hapus sepenuhnya</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 detik</item>
@@ -448,14 +421,14 @@
     <string-array name="captioning_font_size_selector_summaries">
         <item>Ukuran teks sangat kecil</item>
         <item>Ukuran teks kecil</item>
-        <item>Ukuran teks default</item>
+        <item>Ukuran teks bawaan</item>
         <item>Ukuran teks besar</item>
         <item>Ukuran teks sangat besar</item>
     </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Sangat kecil</item>
         <item>Kecil</item>
-        <item>Default</item>
+        <item>Sedang</item>
         <item>Besar</item>
         <item>Sangat besar</item>
     </string-array>
@@ -498,297 +471,6 @@
         <item>PIN</item>
         <item>Sandi</item>
     </string-array>
-    <string-array name="city_name">
-        <item>Abidjan</item>
-        <item>Accra</item>
-        <item>Addis Ababa</item>
-        <item>Algiers</item>
-        <item>Blantyre</item>
-        <item>Brazzaville</item>
-        <item>Kairo</item>
-        <item>Kasablanka</item>
-        <item>Conakry</item>
-        <item>Dakar</item>
-        <item>Dar es Salaam</item>
-        <item>Djibouti</item>
-        <item>Freetown</item>
-        <item>Gaborone</item>
-        <item>Harare</item>
-        <item>Johannesburg</item>
-        <item>Kampala</item>
-        <item>Khartoum</item>
-        <item>Kigali</item>
-        <item>Kinshasa</item>
-        <item>Lagos</item>
-        <item>Maseru</item>
-        <item>Mogadishu</item>
-        <item>Nairobi</item>
-        <item>São Tomé</item>
-        <item>Timbuktu</item>
-        <item>Tripoli</item>
-        <item>Tunis</item>
-        <item>Anchorage</item>
-        <item>Mendoza</item>
-        <item>Aruba</item>
-        <item>Asunción</item>
-        <item>Barbados</item>
-        <item>Belize</item>
-        <item>Bogotá</item>
-        <item>Buenos Aires</item>
-        <item>Cancun</item>
-        <item>Caracas</item>
-        <item>Kepulauan Cayman</item>
-        <item>Chicago</item>
-        <item>Kosta Rika</item>
-        <item>Curaçao</item>
-        <item>Dawson Creek</item>
-        <item>Denver</item>
-        <item>Detroit</item>
-        <item>Dominika</item>
-        <item>Edmonton</item>
-        <item>El Salvador</item>
-        <item>Fortaleza</item>
-        <item>Grand Turk</item>
-        <item>Grenada</item>
-        <item>Guatemala</item>
-        <item>Guyana</item>
-        <item>Halifax</item>
-        <item>Havana</item>
-        <item>Indianapolis</item>
-        <item>Knox City</item>
-        <item>Petersburg</item>
-        <item>Tell City</item>
-        <item>Vevay</item>
-        <item>Vincennes</item>
-        <item>Winamac</item>
-        <item>Kingston</item>
-        <item>Nuestra Señora de La Paz</item>
-        <item>Lima</item>
-        <item>Los Angeles</item>
-        <item>Louisville</item>
-        <item>Managua</item>
-        <item>Martinique</item>
-        <item>Metlakatla</item>
-        <item>Mexico City</item>
-        <item>Monterrey</item>
-        <item>Montevideo</item>
-        <item>Montreal</item>
-        <item>Nassau</item>
-        <item>New York</item>
-        <item>Beulah</item>
-        <item>New Salem</item>
-        <item>Panama</item>
-        <item>Phoenix</item>
-        <item>Port of Spain</item>
-        <item>Port-au-Prince</item>
-        <item>Puerto Riko</item>
-        <item>Santo Domingo</item>
-        <item>São Paulo</item>
-        <item>St. Johns</item>
-        <item>St. Kitts</item>
-        <item>St. Lucia</item>
-        <item>St. Thomas</item>
-        <item>Tijuana</item>
-        <item>Toronto</item>
-        <item>Vancouver</item>
-        <item>Winnipeg</item>
-        <item>Kutub Selatan</item>
-        <item>Longyearbyen</item>
-        <item>Almaty</item>
-        <item>Amman</item>
-        <item>Anadyr</item>
-        <item>Aqtau</item>
-        <item>Baghdad</item>
-        <item>Bahrain</item>
-        <item>Baku</item>
-        <item>Bangkok</item>
-        <item>Beirut</item>
-        <item>Kolkata</item>
-        <item>Damaskus</item>
-        <item>Dhaka</item>
-        <item>Dubai</item>
-        <item>Gaza</item>
-        <item>Hebron</item>
-        <item>Ho Chi Minh</item>
-        <item>Hong Kong</item>
-        <item>Jakarta</item>
-        <item>Yerusalem</item>
-        <item>Kabul</item>
-        <item>Karachi</item>
-        <item>Kathmandu</item>
-        <item>Kuala Lumpur</item>
-        <item>Kuwait</item>
-        <item>Makau</item>
-        <item>Manila</item>
-        <item>Muscat</item>
-        <item>Phnom Penh</item>
-        <item>Pyongyang</item>
-        <item>Qatar</item>
-        <item>Yangon</item>
-        <item>Riyadh</item>
-        <item>Seoul</item>
-        <item>Shanghai</item>
-        <item>Singapura</item>
-        <item>Taipei</item>
-        <item>Tehran</item>
-        <item>Tel Aviv</item>
-        <item>Tokyo</item>
-        <item>Ulaanbaatar</item>
-        <item>Bermuda</item>
-        <item>Kepulauan Canaria</item>
-        <item>Tanjung Verde</item>
-        <item>Reykjavik</item>
-        <item>Adelaide</item>
-        <item>Brisbane</item>
-        <item>Canberra</item>
-        <item>Darwin</item>
-        <item>Melbourne</item>
-        <item>New South Wales</item>
-        <item>Perth</item>
-        <item>Queensland</item>
-        <item>Sydney</item>
-        <item>Victoria</item>
-        <item>Newfoundland</item>
-        <item>Saskatchewan</item>
-        <item>Pulau Paskah</item>
-        <item>Amsterdam</item>
-        <item>Andorra</item>
-        <item>Athena</item>
-        <item>Belfast</item>
-        <item>Belgrade</item>
-        <item>Berlin</item>
-        <item>Bratislava</item>
-        <item>Brussels</item>
-        <item>Bukares</item>
-        <item>Budapest</item>
-        <item>Chisinau</item>
-        <item>Copenhagen</item>
-        <item>Dublin</item>
-        <item>Gibraltar</item>
-        <item>Helsinki</item>
-        <item>Isle of Man</item>
-        <item>Istanbul</item>
-        <item>Lisbon</item>
-        <item>London</item>
-        <item>Luksemburg</item>
-        <item>Madrid</item>
-        <item>Malta</item>
-        <item>Minsk</item>
-        <item>Monako</item>
-        <item>Moskow</item>
-        <item>Oslo</item>
-        <item>Paris</item>
-        <item>Praha</item>
-        <item>Riga</item>
-        <item>Roma</item>
-        <item>San Marino</item>
-        <item>Sarajevo</item>
-        <item>Simferopol</item>
-        <item>Skopje</item>
-        <item>Sofia</item>
-        <item>Stockholm</item>
-        <item>Tallinn</item>
-        <item>Vatikan</item>
-        <item>Vienna</item>
-        <item>Vilnius</item>
-        <item>Warsaw</item>
-        <item>Zagreb</item>
-        <item>Zurich</item>
-        <item>Antananarivo</item>
-        <item>Maladewa</item>
-        <item>Mauritius</item>
-        <item>Auckland</item>
-        <item>Fiji</item>
-        <item>Guam</item>
-        <item>Honolulu</item>
-        <item>Kiritimati</item>
-        <item>Noumea</item>
-        <item>Samoa</item>
-        <item>Tahiti</item>
-        <item>Antigua</item>
-        <item>Austin</item>
-        <item>Boston</item>
-        <item>Calgary</item>
-        <item>Columbus</item>
-        <item>Dallas</item>
-        <item>Knoxville</item>
-        <item>Memphis</item>
-        <item>Miami</item>
-        <item>Minneapolis</item>
-        <item>Ottawa</item>
-        <item>Philadelphia</item>
-        <item>Portland</item>
-        <item>San Diego</item>
-        <item>San Francisco</item>
-        <item>Salt Lake City</item>
-        <item>San Jose</item>
-        <item>Seattle</item>
-        <item>St. Louis</item>
-        <item>Washington D.C.</item>
-        <item>Houston</item>
-        <item>San Antonio</item>
-        <item>Jacksonville</item>
-        <item>Baltimore</item>
-        <item>Nashville</item>
-        <item>Milwaukee</item>
-        <item>Oklahoma City</item>
-        <item>Las Vegas</item>
-        <item>Albuquerque</item>
-        <item>Tucson</item>
-        <item>Sakramento</item>
-        <item>Atlanta</item>
-        <item>Cleveland</item>
-        <item>New Orleans</item>
-        <item>Tampa</item>
-        <item>Pittsburgh</item>
-        <item>Cincinnati</item>
-        <item>Mountain View</item>
-        <item>Reno</item>
-        <item>Doha</item>
-        <item>Beijing</item>
-        <item>Mumbai</item>
-        <item>Delhi</item>
-        <item>Osaka</item>
-        <item>Lahore</item>
-        <item>"Sana'a"</item>
-        <item>Barcelona</item>
-        <item>Munich</item>
-        <item>Milan</item>
-        <item>Frankfurt</item>
-        <item>Hanoi</item>
-        <item>Ankara</item>
-        <item>Bengaluru</item>
-        <item>Brasília</item>
-        <item>Cape Town</item>
-        <item>Islamabad</item>
-        <item>Rio de Janeiro</item>
-        <item>Ann Arbor</item>
-        <item>Boulder</item>
-        <item>Cambridge</item>
-        <item>Kirkland</item>
-        <item>Madison</item>
-        <item>Guangzhou</item>
-        <item>Hyderabad</item>
-        <item>Reston</item>
-        <item>Belo Horizonte</item>
-        <item>Santiago</item>
-        <item>Monrovia</item>
-        <item>Colombo</item>
-        <item>Chihuahua</item>
-        <item>Gurugram</item>
-        <item>Manchester</item>
-        <item>Kyiv</item>
-        <item>St. Petersburg</item>
-        <item>Kraków</item>
-        <item>Wroclaw</item>
-        <item>Hamburg</item>
-        <item>Oulu</item>
-        <item>Haifa</item>
-        <item>San Juan</item>
-        <item>Tegucigalpa</item>
-        <item>Paramaribo</item>
-        <item>Quito</item>
-    </string-array>
     <array name="click_bottom">
         <item>@drawable/clickbottom01</item>
         <item>@drawable/clickbottom01</item>
@@ -815,22 +497,22 @@
         <item>@drawable/clickbottom01</item>
     </array>
     <string-array name="color_mode_descriptions">
-        <item>Warna yang ditingkatkan</item>
-        <item>Warna alami seperti yang dilihat oleh mata</item>
-        <item>Pengoptimalan warna untuk konten digital</item>
+        <item>Warna yang disempurnakan</item>
+        <item>Warna-warni alami seperti yang dilihat oleh mata</item>
+        <item>Warna yang dioptimalkan untuk konten digital</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Cerah (default)</item>
-        <item>Natural</item>
+        <item>Terang (default)</item>
+        <item>Alami</item>
         <item>Standar</item>
     </string-array>
     <string-array name="color_picker">
-        <item>Hijau kebiruan</item>
+        <item>Sian</item>
         <item>Biru</item>
-        <item>Nila</item>
+        <item>Hijau</item>
         <item>Ungu</item>
         <item>Merah Muda</item>
-        <item>Merah</item>
+        <item>Oranye</item>
     </string-array>
     <string-array name="common_password_business_names">
         <item>Layar kunci</item>
@@ -850,11 +532,7 @@
     </string-array>
     <string-array name="dark_ui_mode_entries">
         <item>Gelap</item>
-        <item>Cerah</item>
-    </string-array>
-    <string-array name="data_usage_data_range">
-        <item>30 hari terakhir</item>
-        <item>Setel alur penggunaan...</item>
+        <item>Terang</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>"Hari ini (data seluler) "</item>
@@ -875,37 +553,20 @@
         <item>"Bulan lalu: "</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Mati</item>
+        <item>Nonaktif</item>
         <item>Tampilkan area overdraw</item>
-        <item>Tampilkan area untuk Deuteranomali</item>
-    </string-array>
-    <string-array name="dream_timeout_entries">
-        <item>Tidak pernah</item>
-        <item>15 detik</item>
-        <item>30 detik</item>
-        <item>1 menit</item>
-        <item>2 menit</item>
-        <item>5 menit</item>
-        <item>10 menit</item>
-        <item>30 menit</item>
+        <item>Tampilkan area untuk Buta Warna</item>
     </string-array>
     <string-array name="eap_ocsp_type">
-        <item>Jangan validasi</item>
+        <item>Jangan verifikasi</item>
         <item>Minta status sertifikat</item>
         <item>Wajibkan status sertifikat</item>
-        <item>Wajibkan semua status sertifikat yang tidak dipercaya</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Tak ada</item>
+        <item>Tidak ada</item>
         <item>Logcat</item>
-        <item>Systrace (Grafik)</item>
-        <item>Call stack di glGetError</item>
-    </string-array>
-    <string-array name="entries_font_size">
-        <item>Kecil</item>
-        <item>Default</item>
-        <item>Besar</item>
-        <item>Terbesar</item>
+        <item>Systrace (Grafis)</item>
+        <item>Telepon tumpukan di glGetError</item>
     </string-array>
     <string-array name="fluency_mode_confirms">
         <item>Mulai ulang perangkat untuk terapkan setelan ini?</item>
@@ -924,11 +585,6 @@
         <item>4,0 inci</item>
         <item>3,5 inci</item>
     </string-array>
-    <string-array name="handy_mode_size_value_entries">
-        <item>4.5</item>
-        <item>4.0</item>
-        <item>3.5</item>
-    </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Mati</item>
         <item>Ringan</item>
@@ -941,13 +597,18 @@
         <item>Selalu gunakan pemeriksaan HDCP</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Jangan pernah cek</item>
-        <item>Cek konten DRM saja</item>
-        <item>Selalu cek</item>
+        <item>Jangan periksa</item>
+        <item>Hanya periksa konten DRM</item>
+        <item>Selalu periksa</item>
     </string-array>
     <string-array name="hide_account_list">
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
+    </string-array>
+    <string-array name="input_method_selector_titles">
+        <item>@string/input_method_selector_show_automatically_title</item>
+        <item>@string/input_method_selector_always_show_title</item>
+        <item>@string/input_method_selector_always_hide_title</item>
     </string-array>
     <string-array name="key_and_gesture_shortcut_action">
         <item>long_press_home_key</item>
@@ -983,7 +644,7 @@
         <item>9 detik</item>
     </string-array>
     <string-array name="lock_after_timeout_entries">
-        <item>Segera</item>
+        <item>Seketika</item>
         <item>5 detik</item>
         <item>15 detik</item>
         <item>30 detik</item>
@@ -1038,6 +699,11 @@
         <item>@drawable/clickbottom01</item>
         <item>@drawable/clickbottom01</item>
     </array>
+    <string-array name="long_press_timeout_selector_list_titles">
+        <item>Singkat</item>
+        <item>Sedang</item>
+        <item>Lama</item>
+    </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Singkat</item>
         <item>Sedang</item>
@@ -1130,8 +796,29 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Jaringan lambat karena sinyal terlalu lemah</item>
         <item>Memindahkan…</item>
     </string-array>
+    <string-array name="nfc_notification_mode_summaries">
+        <item>Pembayaran, akses, dan kartu rumah cerdas</item>
+        <item>Pemasangan Bluetooth, koneksi nirkabel, dan kartu rumah cerdas</item>
+    </string-array>
+    <string-array name="nfc_notification_mode_titles">
+        <item>Semua kartu</item>
+        <item>Kartu dikenali oleh sistem</item>
+    </string-array>
+    <string-array name="nfc_payment_favor">
+        <item>Selalu</item>
+        <item>Kecuali jika aplikasi pembayaran lain dibuka</item>
+    </string-array>
+    <string-array name="nfc_payment_favor_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="notch_battery_indicator_style_entries">
         <item>Grafis</item>
+        <item>Persentase (di ikon)</item>
+        <item>Persentase (sebelah ikon)</item>
+    </string-array>
+    <string-array name="notch_battery_indicator_style_summaries">
+        <item>Grafik</item>
         <item>Persentase (di ikon)</item>
         <item>Persentase (sebelah ikon)</item>
     </string-array>
@@ -1192,7 +879,7 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>zw</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
-        <item>Tak ada</item>
+        <item>Tidak ada</item>
         <item>480p</item>
         <item>480p (aman)</item>
         <item>720p</item>
@@ -1336,7 +1023,7 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>CDMA/EvDo/GSM/WCDMA</item>
         <item>CDMA + LTE/EvDo</item>
         <item>GSM/WCDMA/LTE</item>
-        <item>Global</item>
+        <item>LTE/CDMA/EvDo/GSM/WCDMA</item>
         <item>LTE</item>
         <item>LTE/WCDMA</item>
         <item>Hanya TDSCDMA</item>
@@ -1353,7 +1040,7 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
-        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>Global</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>
         <item>NR/LTE/TDSCDMA/GSM</item>
@@ -1370,28 +1057,6 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Foto</item>
         <item>Berkas</item>
         <item>Catatan</item>
-    </string-array>
-    <string-array name="proc_stats_memory_states">
-        <item>Normal</item>
-        <item>Sedang</item>
-        <item>Rendah</item>
-        <item>Kritis</item>
-    </string-array>
-    <string-array name="proc_stats_process_states">
-        <item>Tetap</item>
-        <item>Aktivitas teratas</item>
-        <item>Penting (latar depan)</item>
-        <item>Penting (latar belakang)</item>
-        <item>Cadangan</item>
-        <item>Beban berat</item>
-        <item>Layanan (berjalan)</item>
-        <item>Layanan (memulai ulang)</item>
-        <item>Penerima</item>
-        <item>Beranda</item>
-        <item>Aktivitas terakhir</item>
-        <item>Disimpan dalam cache (aktivitas)</item>
-        <item>Disimpan dalam cache (klien aktivitas)</item>
-        <item>Disimpan dalam cache (kosong)</item>
     </string-array>
     <string-array name="ram_states">
         <item>Normal</item>
@@ -1420,8 +1085,8 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Tombol Kembali di kiri, tombol Menu di kanan</item>
     </string-array>
     <string-array name="screen_key_press_action">
-        <item>Tampil apl terkini</item>
-        <item>Tampil menu</item>
+        <item>Tampilkan aplikasi terkini</item>
+        <item>Tampilkan menu</item>
     </string-array>
     <string-array name="screen_optimize_summary">
         <item>Sesuaikan warna berdasarkan konten yang ditampilkan</item>
@@ -1466,44 +1131,56 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Jangan pernah izinkan</item>
         <item>Selalu izinkan</item>
     </string-array>
-    <string-array name="select_logd_size_lowram_titles">
+    <string-array name="select_gpo_version_summaries">
         <item>Mati</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
+        <item>GPO4</item>
+        <item>GPO5</item>
+        <item>GPO6</item>
+    </string-array>
+    <string-array name="select_gpo_version_titles">
+        <item>Mati</item>
+        <item>GPO4</item>
+        <item>GPO5</item>
+        <item>GPO6</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Nonaktif</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Mati</item>
-        <item>64 KB per log buffer</item>
-        <item>256 KB per log buffer</item>
-        <item>1 MB per log buffer</item>
-        <item>4 MB per log buffer</item>
-        <item>16 MB per log buffer</item>
+        <item>Nonaktif</item>
+        <item>64 K/buffer log</item>
+        <item>256 K/buffer log</item>
+        <item>1 M/buffer log</item>
+        <item>4 M/buffer log</item>
+        <item>8 M/buffer log</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Mati</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
-        <item>4 MB</item>
-        <item>16 MB</item>
+        <item>Nonaktif</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>8 M</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Mati</item>
-        <item>Semua log buffer</item>
-        <item>Semua kecuali log buffer radio</item>
-        <item>Hanya log buffer kernel</item>
+        <item>Nonaktif</item>
+        <item>Semua buffer log</item>
+        <item>Semua kecuali penyangga log radio</item>
+        <item>khusus buffer log kernel</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Mati</item>
+        <item>Nonaktif</item>
         <item>Semua</item>
-        <item>Semua kecuali radio</item>
-        <item>Hanya kernel</item>
+        <item>Selain radio</item>
+        <item>khusus kernel</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Mati</item>
-        <item>Gambar daerah klip non-persegi panjang dengan warna biru</item>
-        <item>Beri highlight hijau untuk perintah gambar yang teruji</item>
+        <item>Nonaktif</item>
+        <item>Gambar wilayah non-kotak biru</item>
+        <item>Sorot perintah gambar teruji hijau</item>
     </string-array>
     <string-array name="silent_entries">
         <item>@string/standard</item>
@@ -1527,6 +1204,24 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>4</item>
         <item>1</item>
     </string-array>
+    <string-array name="smart_device_control_entries">
+        <item>@string/mi_smart_hub_entry_title</item>
+        <item>Rumah cerdas</item>
+        <item>Tidak ada</item>
+    </string-array>
+    <string-array name="smart_device_control_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="smart_home_entries">
+        <item>Rumah cerdas</item>
+        <item>Tidak ada</item>
+    </string-array>
+    <string-array name="smart_home_values">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="startup_hips_action">
         <item>Izinkan</item>
         <item>Tolak</item>
@@ -1534,6 +1229,26 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
     <string-array name="swipe_direction_values">
         <item>1</item>
         <item>0</item>
+    </string-array>
+    <string-array name="switch_to_dock_user_when_docked_timeout_entries">
+        <item>Tidak pernah</item>
+        <item>Setelah 1 menit</item>
+        <item>Setelah 5 menit</item>
+    </string-array>
+    <string-array name="tabs_taptic_detail">
+        <item>Crisp</item>
+        <item>Base</item>
+        <item>Pop</item>
+    </string-array>
+    <string-array name="tabs_taptic_detail_m2">
+        <item>Crisp</item>
+        <item>Solid</item>
+    </string-array>
+    <string-array name="tare_modifiers_subfactors">
+        <item>Mengisi daya</item>
+        <item>Istirahatkan</item>
+        <item>Mode Hemat Daya</item>
+        <item>Status Proses</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1560,50 +1275,15 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
     </array>
-    <array name="three_long_press">
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-    </array>
     <string-array name="time_format_entries">
         <item>12-jam 1:00 PM</item>
         <item>24-jam 13:00</item>
         <item>Otomatis (berdasarkan bahasa sistem)</item>
     </string-array>
-    <string-array name="timezone_filters">
-        <item>Amerika</item>
-        <item>Eropa</item>
-        <item>Afrika</item>
-        <item>Asia</item>
-        <item>Australia</item>
-        <item>Pasifik</item>
-        <item>Semua</item>
-    </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Mati</item>
-        <item>Di layar sebagai bar</item>
-        <item>Di adb shell dumpsys gfxinfo</item>
+        <item>Nonaktif</item>
+        <item>Di layar dalam bentuk batang</item>
+        <item>Dalam adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="traffic_balance_entries">
         <item>Mati</item>
@@ -1639,26 +1319,15 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Warna awal</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Sangat lambat</item>
-        <item>Lambat</item>
-        <item>Normal</item>
-        <item>Cepat</item>
-        <item>Lebih cepat</item>
-        <item>Sangat cepat</item>
-        <item>Cepat</item>
-        <item>Sangat cepat</item>
-        <item>Paling cepat</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
+        <item>60%</item>
+        <item>80%</item>
+        <item>100%</item>
+        <item>150%</item>
+        <item>200%</item>
+        <item>250%</item>
+        <item>300%</item>
+        <item>350%</item>
+        <item>400%</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
         <item>Sangat lambat</item>
@@ -1667,17 +1336,23 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Cepat</item>
         <item>Lebih cepat</item>
     </string-array>
-    <string-array name="usage_stats_display_order_types">
-        <item>Waktu penggunaan</item>
-        <item>Terakhir kali digunakan</item>
-        <item>Nama apl</item>
+    <string-array name="typing_style_entries">
+        <item>Standar</item>
+        <item>Sentuh</item>
+        <item>Sentuh langsung</item>
+    </string-array>
+    <string-array name="udfps_accessibility_touch_hints">
+        <item>Pindah ke kiri</item>
+        <item>Pindah ke bawah</item>
+        <item>Pindah ke kanan</item>
+        <item>Pindah ke atas</item>
     </string-array>
     <string-array name="usb_configuration_titles">
         <item>Mengisi daya</item>
-        <item>MTP (Protokol Transfer Media)</item>
-        <item>PTP (Protokol Transfer Gambar)</item>
-        <item>RNDIS (USB Ethernet)</item>
-        <item>Sumber audio</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (Ethernet USB)</item>
+        <item>Sumber Audio</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_connection_mode_entries">
@@ -1704,21 +1379,14 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
     <string-array name="vpn_states">
         <item>Terputus</item>
         <item>Memulai...</item>
-        <item>Menyambung…</item>
+        <item>Menghubungkan…</item>
         <item>Terhubung</item>
-        <item>Waktu habis</item>
+        <item>Waktu tunggu</item>
         <item>Gagal</item>
     </string-array>
-    <string-array name="vpn_types_long">
-        <item>PPTP VPN</item>
-        <item>L2TP/IPSec VPN dengan kunci pra-bagi</item>
-        <item>L2TP/IPSec VPN dengan sertifikat</item>
-        <item>IPSec VPN dengan kunci pra-bagi dan autentikasi Xauth</item>
-        <item>IPSec VPN dengan sertifikat dan autentikasi Xauth</item>
-        <item>IPSec VPN dengan sertifikat dan autentikasi hibrida</item>
-        <item>VPN IKEv2/IPSec dengan sertifikat dan autentikasi nama pengguna/sandi</item>
-        <item>VPN IKEv2/IPSec dengan kunci pra-bagi</item>
-        <item>VPN IKEv2/IPSec dengan sertifikat</item>
+    <string-array name="wapi_psk_type">
+        <item>@string/wapi_psk_type_ascii</item>
+        <item>@string/wapi_psk_type_hex</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Memulai sesi…</item>
@@ -1733,12 +1401,6 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Rendah</item>
         <item>Sedang</item>
         <item>Tinggi</item>
-    </string-array>
-    <string-array name="whetstone_level_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
     <string-array name="wide_notch_battery_indicator_style_entries">
         <item>Grafis</item>
@@ -1768,14 +1430,8 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
         <item>Otomatis hubungkan</item>
-        <item>Hubungkan dengan manual</item>
+        <item>Hubungkan secara manual</item>
         <item>Selalu tanya</item>
-    </string-array>
-    <string-array name="wifi_eap_entries">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Tidak</item>
@@ -1795,20 +1451,15 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="wifi_metered_entries">
         <item>Deteksi otomatis</item>
-        <item>Perlakukan sebagai berbayar</item>
-        <item>Perlakukan sebagai tidak berbayar</item>
+        <item>Perlakukan sebagai berkuota</item>
+        <item>Perlakukan sebagai tanpa kuota</item>
     </string-array>
     <string-array name="wifi_p2p_status">
-        <item>Tersambung</item>
+        <item>Terhubung</item>
         <item>Diundang</item>
         <item>Gagal</item>
         <item>Tersedia</item>
         <item>Di luar jangkauan</item>
-    </string-array>
-    <string-array name="wifi_p2p_wps_setup">
-        <item>Tekan tombol</item>
-        <item>PIN dari perangkat rekan</item>
-        <item>PIN dari perangkat ini</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
         <item>MSCHAPV2</item>
@@ -1830,6 +1481,12 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Manual</item>
         <item>Konfig. Otomatis Proxy</item>
     </string-array>
+    <string-array name="wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wep</item>
+        <item>@string/wifi_security_psk_generic</item>
+        <item>@string/wifi_security_eap</item>
+    </string-array>
     <string-array name="wifi_signal">
         <item>Buruk</item>
         <item>Buruk</item>
@@ -1839,12 +1496,12 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="wifi_ssid_type_entries">
         <item>Otomatis hubungkan</item>
-        <item>Hubungkan dengan manual</item>
+        <item>Hubungkan secara manual</item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>
         <item>Memindai...</item>
-        <item>Menyambung…</item>
+        <item>Menghubungkan…</item>
         <item>Mengautentikasi…</item>
         <item>Mendapatkan alamat IP…</item>
         <item>Terhubung</item>
@@ -1852,13 +1509,13 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Memutus sambungan...</item>
         <item>Sambungan terputus</item>
         <item>Gagal</item>
-        <item>Dicekal</item>
+        <item>Diblokir</item>
         <item>Menghindari sambungan buruk untuk sementara</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
         <item>Memindai...</item>
-        <item>Menyambung ke %1$s…</item>
+        <item>Menghubungkan ke %1$s…</item>
         <item>Mengautentikasi dengan %1$s…</item>
         <item>Mendapatkan alamat IP dari %1$s…</item>
         <item>Terhubung ke %1$s</item>
@@ -1874,6 +1531,20 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>MSCHAP</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Memindai …</item>
+        <item>Menghubungkan …</item>
+        <item>Mengautentikasi …</item>
+        <item>Mendapatkan alamat IP …</item>
+        <item>Terhubung</item>
+        <item>Ditangguhkan</item>
+        <item>Memutus koneksi …</item>
+        <item>Koneksi terputus</item>
+        <item>Gagal</item>
+        <item>Diblokir</item>
+        <item>Menghindari koneksi buruk untuk sementara</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animasi mati</item>

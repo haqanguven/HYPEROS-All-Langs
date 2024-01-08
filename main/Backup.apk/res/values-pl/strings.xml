@@ -34,6 +34,8 @@
     <string name="account_summary">Kopia zapasowa konta Google, konta Xiaomi i innych danych użytkownika</string>
     <string name="actionbar_button_up_description">Wstecz</string>
     <string name="afternoon">Popołudnie</string>
+    <string name="agree_button">Zgadzam się</string>
+    <string name="agree_revoke_permission_title">Wycofywanie uprawnień</string>
     <string name="alert_button_agree_and_continue">Zezwól</string>
     <string name="alert_button_deny">Odmów</string>
     <string name="alert_message_backup_to_miasist">Mi PC Suite żąda uprawnień do utworzenia kopii zapasowej na komputerze. Zezwolić?</string>
@@ -45,6 +47,7 @@
     <string name="alert_title_backup_to_miasist">Wykonać kopię zapasową elementów za pomocą Mi PC Suite?</string>
     <string name="alert_title_restore_from_miasist">Przywrócić elementy na twoim telefonie?</string>
     <string name="already_enable_encrypt">Szyfrowanie jest już włączone</string>
+    <string name="alternative_ui_content">Ta funkcja umożliwia tworzenie kopii zapasowych i przywracanie elementów za pomocą urządzenia mobilnego i komputera. Wymaga ona połączenia z internetem i następujących obowiązkowych uprawnień, aby móc normalnie działać:</string>
     <string name="am">AM</string>
     <string name="app_name">Kopia zapasowa</string>
     <string name="apps_and_data_item_desc">Aplikacje i dane</string>
@@ -74,17 +77,42 @@
     <string name="backup_failed">Nie udało się wykonać kopii</string>
     <string name="backup_file_error">Nie udało się wykonać kopii</string>
     <string name="backup_finished">Kopia utworzona</string>
+    <string name="backup_for_broken_screen">Tworzenie kopii zapasowych z uszkodzonym ekranem</string>
     <string name="backup_hint">Nie wyłączaj urządzenia</string>
     <string name="backup_hint_onpad">Nie wyłączaj urządzenia</string>
     <string name="backup_hint_pad">Nie wyłączaj urządzenia</string>
     <string name="backup_is_running">Kopia w toku</string>
     <string name="backup_new">Nowa kopia:</string>
+    <string name="backup_notice_content">Twoje kopie zapasowe nie będą szyfrowane, co oznacza, że aplikacje innych firm mogą mieć do nich dostęp lub je modyfikować. Mogą również pojawić się inne zagrożenia bezpieczeństwa. Upewnij się, że kopie zapasowe przechowujesz w dobrze chronionym środowisku.</string>
+    <string name="backup_notice_title">Uwaga</string>
+    <string name="backup_notification_title">\"Kopia zapasowa\" pracuje w tej chwili…</string>
     <string name="backup_progress">Tworzenie kopii zapasowej…</string>
     <string name="backup_report">Szczegóły</string>
     <string name="backup_security_tips_message">W przypadku niektórych aplikacji może nie być możliwe wykonanie kopii zapasowej lub przywrócenie.</string>
     <string name="backup_security_tips_title">Kopie zapasowe mogą nie działać</string>
     <string name="backup_update">Aktualizuj</string>
     <string name="batch_delete_backup_confirm">Usunąć zaznaczone kopie?</string>
+    <string name="bottomsheet_action_expand_halfway">Rozwiń do połowy</string>
+    <string name="broken_screen_rescue_service">Tworzenie kopii zapasowych z uszkodzonym ekranem</string>
+    <string name="broken_screen_rescue_service_content">Ta funkcja umożliwia tworzenie kopii zapasowych elementów za pomocą kabla USB, gdy ekran urządzenia jest uszkodzony lub nie odpowiada. Aby móc tworzyć kopie zapasowe elementów, gdy ekran nie reaguje, należy włączyć tę funkcję, gdy ekran nadal działa poprawnie.</string>
+    <string name="broken_screen_rescue_service_disable">Wyłącz tworzenie kopii zapasowych z uszkodzonym ekranem</string>
+    <string name="broken_screen_rescue_service_enable">Włącz tworzenie kopii zapasowych z uszkodzonym ekranem</string>
+    <string name="broken_screen_rescue_service_learn_subcontent1">Poproś dowolną osobę z Twoich kontaktów, aby wysłała Ci wiadomość SMS w następującym formacie, zastępując litery blokadą ekranu: *#*#BLOKADA EKRANU#*#*.</string>
+    <string name="broken_screen_rescue_service_learn_subcontent2">Po wysłaniu wiadomości podłącz to urządzenie do komputera przez USB, aby rozpocząć tworzenie kopii zapasowych elementów.</string>
+    <string name="broken_screen_rescue_service_learn_subtitle1">Aktywuj tę funkcję</string>
+    <string name="broken_screen_rescue_service_learn_subtitle2">Utwórz kopie zapasowe elementów</string>
+    <string name="broken_screen_rescue_service_learn_title">Jak korzystać z tej funkcji</string>
+    <string name="broken_screen_rescue_service_tips_1">"%1$d. If your screen lock is %2$d, the message should look like this: *#*#%3$d#*#*. If you're using a password that contains both letters and digits, ask the other person to include it in the message without omissions."</string>
+    <string name="broken_screen_rescue_service_tips_2">"%1$d. If you're using a pattern, it can be represented by digits in the message. The dot in the upper left corner is %2$d. The numbering goes from left to right, line after line, and ends with %3$d in the lower right corner."</string>
+    <string name="broken_screen_rescue_service_tips_3">%1$d. Jeśli nie używasz blokady ekranu, użyj „nopassword” zamiast znaków, które ją reprezentują w wiadomości.</string>
+    <string name="broken_screen_rescue_service_tips_4">%1$d. Będziesz mieć tylko %2$d prób, aby aktywować tę funkcję. Aby aktywować, upewnij się, że wiadomość SMS wysyłana przez drugą osobę jest poprawna, a osoba ta jest w Twoich kontaktach.</string>
+    <string name="broken_screen_rescue_service_tips_5">%1$d. Zalecamy korzystanie z tej funkcji w obecności naszego personelu obsługi klienta.</string>
+    <string name="broken_screen_rescue_service_tips_6">"%1$d. If you can't back up items to your computer, you can learn how to solve this issue in our help documentation."</string>
+    <string name="broken_screen_rescue_service_tips_title">Wskazówki</string>
+    <string name="broken_screen_rescue_service_turn_off">Wyłącz</string>
+    <string name="broken_screen_rescue_service_turn_off_confirm">Wyłączyć tworzenie kopii zapasowych z uszkodzonym ekranem?</string>
+    <string name="broken_screen_rescue_service_turn_on">Włącz</string>
+    <string name="broken_screen_rescue_service_turn_on_confirm">Włączyć tworzenie kopii zapasowych z uszkodzonym ekranem?</string>
     <string name="btn_got_it">Rozumiem</string>
     <string name="button_backup">Utwórz kopię zapasową</string>
     <string name="button_cancel">Anuluj</string>
@@ -106,6 +134,12 @@
     <string name="cancel_moving_dialog_message">Zatrzymać importowanie teraz?</string>
     <string name="cancel_moving_dialog_title">Zatrzymaj importowanie</string>
     <string name="cancel_restore">Zatrzymaj</string>
+    <string name="category_contacts">Kontakty</string>
+    <string name="category_message_contacts">Wiadomości i Kontakty</string>
+    <string name="character_counter_content_description">%1$d z %2$d znaków</string>
+    <string name="character_counter_overflowed_content_description">Przekroczono limit znaków (%1$d z %2$d)</string>
+    <string name="check_privacy_policy">Wyświetl Politykę Prywatności</string>
+    <string name="clear_text_end_icon_content_description">Wyczyść tekst</string>
     <string name="clearable_edittext_clear_description">Wyczyść</string>
     <string name="click_soft_ap_to_link">Wybierz hotspot do połączenia</string>
     <string name="click_to_view">Dotknij, aby wyświetlić</string>
@@ -114,7 +148,7 @@
     <string name="close_twice_auth_note">"Informacja:
 Po utworzeniu nowego pytania bezpieczeństwa i potwierdzeniu daty urodzin, autoryzacja dwu-składnikowa zostanie wyłączona. Jeśli nie widzisz opcji wyłączenia dwu-składnikowej weryfikacji na stronie konta Apple ID, oznacz to, że nie możesz jej wyłączyć."</string>
     <string name="close_twice_auth_operation">"URL:
-https://appleid.apple.com/#!&amp;page=signin to close"</string>
+https://appleid.apple.com/#!&amp;page=signin, aby wyłączyć"</string>
     <string name="close_twice_auth_step_1">1. Otwórz przeglądarkę na komputerze i przejdź na appleid.apple.com.</string>
     <string name="close_twice_auth_step_2">2. Zaloguj się za pomocą Apple ID, dla którego chcesz wyłączyć dwu-składnikową autoryzację. Przejdź do sekcji \"Bezpieczeństwo\" w ustawieniach konta i wybierz \"Edytuj\".</string>
     <string name="close_twice_auth_step_3">3. Wybierz \"Wyłącz autoryzację dwu-składnikową\". Kliknij ponownie, aby potwierdzić.</string>
@@ -191,6 +225,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="enable_local_backup">Włącz lokalne kopie zapasowe</string>
     <string name="enable_local_backup_and_restore">Włącz lokalne kopie zapasowe</string>
     <string name="enable_local_backup_tips">Włącz tę funkcję, aby móc zapisywać kopie zapasowe na tym urządzeniu i kopiować je na komputer lub urządzenie pamięci masowej USB. Włączyć teraz?</string>
+    <string name="enable_local_backup_tips_global">Włącz tę funkcję, aby móc zapisywać kopie zapasowe na tym urządzeniu i kopiować je na komputer. Włączyć teraz?</string>
     <string name="eras_ad">n.e</string>
     <string name="eras_bc">p.n.e</string>
     <string name="err_acquire_system_service">Nie udało się uruchomić usługi systemowej.</string>
@@ -209,11 +244,13 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="err_user_abort">Anulowane przez użytkownika.</string>
     <string name="err_version_too_old">Plik kopii jest stary.</string>
     <string name="err_version_unsupported">Wersja kopii nie jest wspierana.</string>
+    <string name="error_icon_content_description">Błąd</string>
     <string name="error_permissions">Aplikacja nie ma uprawnień wymaganych do uzyskania dostępu do Kalendarza. Przejdź do Ustawień i sprawdź uprawnienia, aby kontynuować.</string>
     <string name="evening">Popołudnie</string>
     <string name="every_day">Codziennie</string>
     <string name="exchange_account">Przełącz konto</string>
     <string name="expand_button_title">Zaawansowane</string>
+    <string name="exposed_dropdown_menu_content_description">Pokaż menu</string>
     <string name="fail">Nieudane</string>
     <string name="failed_description">Niepowodzenie</string>
     <string name="feature_title_account">Konto Xiaomi</string>
@@ -291,6 +328,8 @@ Nie zmieniaj plików i nazw kopii zapasowych."</string>
     <string name="friday_short">Pt</string>
     <string name="friday_shortest">Pt</string>
     <string name="gallery_summary">Ustawienia Galerii (bez zdjęć)</string>
+    <string name="grant_all_permission_content">Przyznaj wszystkie obowiązkowe uprawnienia, aby móc przywracać i tworzyć kopie zapasowe elementów.</string>
+    <string name="grant_all_permission_title">Wymagane uprawnienia</string>
     <string name="guarded_mode_dialog_backup_message">Kopie zapasowe niedozwolone w Trybie gościa.</string>
     <string name="guarded_mode_dialog_title">Jesteś w Trybie gościa</string>
     <string name="guarded_mode_dialog_transfer_message">Nie można użyć Przenoszenia danych w trybie Gościa.</string>
@@ -325,16 +364,14 @@ Nie zmieniaj plików i nazw kopii zapasowych."</string>
 musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="icloud_need_wifi_message">Nie jesteś teraz podłączony do Wi-Fi. Aby zaimportować dane z iCloud, podłącz się do Wi-Fi.</string>
     <string name="icloud_need_wifi_title">Połącz z Wi-Fi</string>
+    <string name="icon_content_description">Ikona okna</string>
     <string name="import_again">Importuj ponownie</string>
     <string name="import_data_from_icloud">Importuj dane z iCloud</string>
-    <string name="import_from_xiaomi_account_hint1">"1.\u0009Zainstaluj Mi Talk i zaloguj się.
-\u0009http://www.miliao.com
-
-2.\u0009Wejdź w ustawienia Mi Talk i wybierz \"Kopiuj kontakty na konto Xiaomi\""</string>
     <string name="import_from_xiaomi_account_hint2">Jeśli już masz kopię zapasową, dotknij Dalej.</string>
     <string name="import_from_xiaomi_account_hint_title">Użyj Mi Talk do utworzenia kopii kontaktów na innych urządzeniach.</string>
     <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Ze względu na problemy z kompatybilnością, możesz tylko przesłać część danych z urządzenia z iOS. Upewnij się, że utworzyłeś kopię zapasową iCloud, przed rozpoczęciem przesyłania.</string>
+    <string name="item_view_role_description">Karta</string>
     <string name="lack_perm_msg">Przenoszenie danych wymaga następujących uprawnień: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Wymagane uprawnienia</string>
     <string name="list_footer_tip_title">Wskazówki:</string>
@@ -383,9 +420,22 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="login">Zaloguj się</string>
     <string name="login_failed">Nie udało się zalogować. Spróbuj ponownie.</string>
     <string name="logining">Logowanie…</string>
+    <string name="material_clock_toggle_content_description">Wybierz: przed południem czy po południu</string>
+    <string name="material_hour_selection">Wybierz godzinę</string>
+    <string name="material_hour_suffix">%1$s</string>
+    <string name="material_minute_selection">Wybierz minuty</string>
+    <string name="material_minute_suffix">%1$s minut</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Aby wprowadzić czas, włącz tryb zegara.</string>
+    <string name="material_timepicker_hour">Godzina</string>
+    <string name="material_timepicker_minute">Minuta</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Określ czas</string>
+    <string name="material_timepicker_text_input_mode_description">Aby wprowadzić czas, włącz tryb wprowadzania tekstu.</string>
     <string name="midnight">Noc</string>
     <string name="miliao_account_guide">Użyj swojego konta Xiaomi, aby zalogować się do Chmury Xiaomi, Sklepu z motywami MIUI oraz innych usług Xiaomi, z dowolnego miejsca.</string>
     <string name="miliao_account_login">Zaloguj do Mi Talk</string>
+    <string name="miuix_access_state_desc">Wybrane</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Odznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_select_all">Zaznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_title_empty">Zaznacz elementy</string>
@@ -393,7 +443,7 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="miuix_appcompat_cancel_description">Anuluj</string>
     <string name="miuix_appcompat_confirm_description">Potwierdź</string>
     <string name="miuix_appcompat_delete_description">Usuń</string>
-    <string name="miuix_appcompat_deselect_all">Odznacz</string>
+    <string name="miuix_appcompat_deselect_all">Odznacz wszystko</string>
     <string name="miuix_appcompat_deselect_all_description">Odznacz wszystko</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Anuluj</string>
     <string name="miuix_appcompat_search_input_description">Szukaj</string>
@@ -450,6 +500,39 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="month_september_shortest">Wrz</string>
     <string name="more">Więcej</string>
     <string name="morning">Poranek</string>
+    <string name="mtrl_badge_numberless_content_description">Nowe powiadomienie</string>
+    <string name="mtrl_chip_close_icon_content_description">Usuń: (%1$s)</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Liczba nowych powiadomień przekracza %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Zmień na następny miesiąc</string>
+    <string name="mtrl_picker_a11y_prev_month">Zmień na poprzedni miesiąc</string>
+    <string name="mtrl_picker_announce_current_selection">Bieżący wybór: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Wybierz datę</string>
+    <string name="mtrl_picker_date_header_unselected">Wybrana data</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolumna z dniami: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Nieprawidłowy format.</string>
+    <string name="mtrl_picker_invalid_format_example">Przykład: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Użyj formatu: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Nieprawidłowy zakres.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Przejdź do roku %1$s</string>
+    <string name="mtrl_picker_out_of_range">Poza zakresem: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data rozpoczęcia – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – data zakończenia</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Wybierz zakres</string>
+    <string name="mtrl_picker_range_header_unselected">Data rozpoczęcia – data zakończenia</string>
+    <string name="mtrl_picker_save">Zapisz</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data zakończenia</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data rozpoczęcia</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Włącz kalendarzowy tryb wprowadzania</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Kliknij, by wybrać dzień</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Włącz tekstowy tryb wprowadzania</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Kliknij, by wybrać rok</string>
     <string name="multi_select_title">Wybranych %1$s</string>
     <string name="multi_user_mode_backup_message">Nie można użyć Kopii zapasowej w Trybie wielu użytkowników. Wyłącz Tryb wielu użytkowników, aby kontynuować.</string>
     <string name="multi_user_mode_dialog_message">Nie można użyć Przenoszenia danych w Trybie wielu użytkowników. Wyłącz Tryb wielu użytkowników, aby kontynuować.</string>
@@ -470,6 +553,10 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="new_local_detail_description">"Uwaga:
 %1$d. Skopiuj kopie zapasowe na komputer, aby uniknąć utraty danych. %2$s.
 %3$d. Kopie zapasowe zostaną zapisane w MIUI-Backup-AllBackup."</string>
+    <string name="new_local_detail_description_global">"Uwaga:
+%1$d. Skopiuj kopie zapasowe na swój komputer, aby uniknąć utraty danych. %2$s.
+%3$d. Kopie zapasowe zostaną zapisane w MIUI-Backup-AllBackup.
+%4$d. Niektóre aplikacje mogą nie obsługiwać kopii zapasowych."</string>
     <string name="new_local_tab_backup">Utwórz kopię zapasową</string>
     <string name="new_local_tab_backup_pad">Utwórz kopię zapasową</string>
     <string name="new_local_tab_restore">Przywróć</string>
@@ -553,6 +640,7 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="page_loading">Chwileczkę…</string>
     <string name="password">Hasło</string>
     <string name="password_null">Hasło nie może być puste</string>
+    <string name="password_toggle_content_description">Pokaż hasło</string>
     <string name="pause">Wstrzymaj</string>
     <string name="perm_camera">Aparat</string>
     <string name="perm_location">Lokalizacja</string>
@@ -561,6 +649,48 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="perm_read_phone_state">Odczytywanie stanu telefonu</string>
     <string name="perm_read_sms">Czytanie SMS</string>
     <string name="perm_storage">Odczyt i zapis na nośniku zewnętrznym</string>
+    <string name="permission_admitted">Przyznano</string>
+    <string name="permission_backup_calendar">Do tworzenia kopii zapasowych wydarzeń w kalendarzu</string>
+    <string name="permission_backup_calendar_desc">Zezwól aplikacji na edytowanie wydarzeń w kalendarzu, aby móc tworzyć ich kopie zapasowe.</string>
+    <string name="permission_backup_calllog">Do tworzenia kopii zapasowych historii połączeń</string>
+    <string name="permission_backup_calllog_desc">Zezwól aplikacji na dostęp do historii połączeń, aby móc tworzyć ich kopie zapasowe.</string>
+    <string name="permission_backup_contacts">Do tworzenia kopii zapasowych kontaktów</string>
+    <string name="permission_backup_contacts_desc">Zezwól aplikacji na dostęp do kontaktów, aby móc tworzyć ich kopie zapasowe.</string>
+    <string name="permission_backup_file">Do tworzenia kopii zapasowych plików</string>
+    <string name="permission_backup_sms">Do tworzenia kopii zapasowych wiadomości</string>
+    <string name="permission_backup_sms_desc">Zezwól aplikacji na dostęp do wiadomości, aby móc tworzyć ich kopie zapasowe.</string>
+    <string name="permission_content_title">Wymagane uprawnienia</string>
+    <string name="permission_dialog_positive_btn">Ustawienia</string>
+    <string name="permission_intro">Szczegóły uprawnień</string>
+    <string name="permission_management_entrance">Zarządzaj uprawnieniami</string>
+    <string name="permission_not_admit">Nie przyznano</string>
+    <string name="permission_purpose">Ta funkcja pozwala na tworzenie kopii zapasowych i przywracani elementów za pomocą twojego urządzenia mobilnego, komputerów i dysków USB.</string>
+    <string name="permission_purpose_pad">"Ta funkcja pozwala na tworzenie kopii zapasowych i przywracani elementów za pomocą twojego urządzenia mobilnego, komputerów i pendrive'ów."</string>
+    <string name="permission_read_apps">Dostęp do listy aplikacji zainstalowanych na tym urządzeniu</string>
+    <string name="permission_read_calendar">Dostęp do wydarzeń w kalendarzu</string>
+    <string name="permission_read_calllog">Dostęp do historii połączeń</string>
+    <string name="permission_read_contacts">Dostęp do kontaktów</string>
+    <string name="permission_read_sms">Dostęp do wiadomości</string>
+    <string name="permission_read_storage">Dostęp i zapisywanie plików w pamięci</string>
+    <string name="permission_read_storage_global">Dostęp do pamięci</string>
+    <string name="permission_read_storage_global_pad">Dostęp do pamięci</string>
+    <string name="permission_read_write_storage">Zezwól tej funkcji na dostęp do pamięci, aby móc tworzyć kopie zapasowe elementów.</string>
+    <string name="permission_read_write_sys_app">Zezwól tej funkcji na dostęp do tych elementów, aby móc tworzyć kopie zapasowe i przywracać wiadomości, kontakty i historię połączeń.</string>
+    <string name="permission_read_write_sys_app1">Zezwól aplikacji na dostęp do wiadomości i kontaktów, aby móc tworzyć kopie zapasowe i przywracać te elementy.</string>
+    <string name="permission_read_write_sys_app2">Zezwól aplikacji na dostęp do kontaktów, aby móc tworzyć kopie zapasowe i przywracać te elementy.</string>
+    <string name="permission_related">Uprawnienia</string>
+    <string name="permission_restore_calendar">Do przywracania wydarzeń w kalendarzu</string>
+    <string name="permission_restore_calendar_desc">Zezwól aplikacji na edytowanie wydarzeń w kalendarzu, aby móc je przywracać.</string>
+    <string name="permission_restore_calllog">Do przywracania historii połączeń</string>
+    <string name="permission_restore_calllog_desc">Zezwól aplikacji na edytowanie historii połączeń, aby móc ją przywracać.</string>
+    <string name="permission_restore_contacts">Do przywracania kontaktów</string>
+    <string name="permission_restore_contacts_desc">Zezwól aplikacji na dostęp do kontaktów, aby móc je przywracać.</string>
+    <string name="permission_show_all_apps">Do wyświetlania aplikacji, którym można utworzyć kopię zapasową</string>
+    <string name="permission_show_all_apps_desc">Zezwól tej aplikacji na dostęp do listy aplikacji zainstalowanych na tym urządzeniu, aby móc wyświetlić aplikacje, którym można utworzyć kopie zapasowe.</string>
+    <string name="permission_write_calllog">Edytuj historię połączeń</string>
+    <string name="permission_write_contacts">Edytowanie kontaktów</string>
+    <string name="permission_write_storage">Zapisz elementy w pamięci</string>
+    <string name="permission_write_storage_pad">Zapisz elementy w pamięci</string>
     <string name="phone_title">Ustawienia telefonu</string>
     <string name="platform_chooser_item_android_mi">Telefon Xiaomi</string>
     <string name="platform_chooser_item_android_others">Inna marka</string>
@@ -568,6 +698,10 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="platform_chooser_title">Wybierz stare urządzenie</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Skopiowano „%1$s” do schowka.</string>
+    <string name="privacy_policy_link"><Data>"Aby dowiedzieć się więcej o naszych praktykach przetwarzania danych osobowych i Twoich prawach jako użytkownika, przeczytaj i zaakceptuj naszą &lt;a href='%1s'>Politykę Prywatności&lt;/a>, zanim przejdziesz dalej."</Data></string>
+    <string name="privacy_settings">Prywatność</string>
+    <string name="privacy_settings_title">Polityka Prywatności</string>
+    <string name="private_policy_text">Polityka Prywatności</string>
     <string name="progress_backup_hint">Tworzenie kopii zapasowej…</string>
     <string name="progress_restore_hint">Przywracanie…</string>
     <string name="prompt_reading">Odczytywanie…</string>
@@ -586,6 +720,7 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="restore_counts">Przywracanie:</string>
     <string name="restore_data">Wybierz elementy do przywrócenia</string>
     <string name="restore_failed">Nie udało się przywrócić</string>
+    <string name="restore_files">Do przywracania elementów</string>
     <string name="restore_finished">Przywracanie zakończone</string>
     <string name="restore_is_running">Przywracanie urządzenia</string>
     <string name="restore_launcher_layout_hit">Przywróć ustawienia menadżera pulpitu</string>
@@ -594,6 +729,7 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="restore_telephony_hit">Przywracanie kopii zrestartuje aplikację Telefon.</string>
     <string name="retry">Spróbuj ponownie</string>
     <string name="reverse_all">Wyczyść wszystko</string>
+    <string name="revoke_permission_dialog_content">Bez wszystkich obowiązkowych uprawnień nie będzie można tworzyć kopii zapasowych ani przywracać elementów. Wycofać uprawnienia mimo to?</string>
     <string name="router_backup_hint">Nie wyłączaj urządzenia</string>
     <string name="saturday">Sobota</string>
     <string name="saturday_short">Sob</string>
@@ -958,6 +1094,7 @@ Zwolnij miejsce lub przeprowadź więcej mniejszych transferów."</string>
     <string name="usb_trans_select_data_no_space">"Dostępne jest tylko %s na nośniku USB.
 Zwolnij miejsce lub przenieś tylko ważne elementy."</string>
     <string name="user_feedback">Opinia</string>
+    <string name="user_know_button_text">Rozumiem</string>
     <string name="user_name">Apple ID lub e-mail</string>
     <string name="user_name_null">Nazwa użytkownika nie może być pusta</string>
     <string name="user_notice_declaration_ignore">Nie pokazuj ponownie</string>
@@ -974,17 +1111,7 @@ Nie zamykaj tej strony, dopóki połączenie nie zostanie nawiązane."</string>
     <string name="wednesday_short">Śr</string>
     <string name="wednesday_shortest">Śr</string>
     <string name="wifi_title">Ustawienia Wi-Fi</string>
-    <string name="xiaomi_bytes_unit">%1$sB</string>
-    <string name="xiaomi_connect_download_manager_fail">Nie udało się uruchomić pobierania. Upewnij się, że Menadżer pobierania pracuje normalnie.</string>
-    <string name="xiaomi_external_storage_unavailable">Nośnik danych jest niedostępny. Sprawdź kartę SD.</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Mi Router</string>
     <string name="xiaomi_router_location">Mi Router %s</string>
-    <string name="xiaomi_update_dialog_message">"Wprowadzenie wersji %1$s
-Rozmiar: %2$s"</string>
-    <string name="xiaomi_update_dialog_message_diff">"Wprowadzenie wersji %1$s
-Rozmiar aktualizacji różnicowej: %2$s"</string>
-    <string name="xiaomi_update_dialog_title">Dostępna aktualizacja</string>
     <string name="yesterday">Wczoraj</string>
 </resources>

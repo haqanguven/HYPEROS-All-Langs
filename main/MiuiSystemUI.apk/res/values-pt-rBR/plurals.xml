@@ -1,180 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">1 hora atrás</item>
-        <item quantity="one">1 hora atrás</item>
-    </plurals>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 hora atrás</item>
-        <item quantity="one">1 hora atrás</item>
-    </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="other">Meia hora atrás</item>
-        <item quantity="one">Meia hora atrás</item>
-    </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Em 1 hora</item>
-        <item quantity="one">Em 1 hora</item>
-    </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="other">Em meia hora</item>
-        <item quantity="one">Em meia hora</item>
-    </plurals>
-    <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="other">Imediatamente</item>
-        <item quantity="one">Imediatamente</item>
-    </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">Em %d min</item>
-        <item quantity="one">Em 1 min</item>
-    </plurals>
-    <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="other">Agora mesmo</item>
-        <item quantity="one">Agora mesmo</item>
-    </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d min atrás</item>
-        <item quantity="one">1 min atrás</item>
-    </plurals>
     <plurals name="abc_slice_duration_days">
         <item quantity="other">%d dias atrás</item>
         <item quantity="one">%d dia atrás</item>
+        <item quantity="many">%d days ago</item>
     </plurals>
     <plurals name="abc_slice_duration_min">
-        <item quantity="other">%d min atrás</item>
-        <item quantity="one">%d min atrás</item>
+        <item quantity="other">Há %dmin</item>
+        <item quantity="one">Há %dmin</item>
+        <item quantity="many">%d min ago</item>
     </plurals>
     <plurals name="abc_slice_duration_years">
-        <item quantity="other">%d anos atrás</item>
-        <item quantity="one">%d ano atrás</item>
+        <item quantity="other">Há %d anos</item>
+        <item quantity="one">Há %d ano</item>
+        <item quantity="many">%d yr ago</item>
     </plurals>
-    <plurals name="controls_number_of_favorites">
-        <item quantity="other">%s controles adicionados.</item>
-        <item quantity="one">%s controle adicionado.</item>
+    <plurals name="atmospheric_pressure_desc">
+        <item quantity="other">Pressão atmosférica: %s hectopascais</item>
+        <item quantity="one">Pressão atmosférica: %s hectopascal</item>
     </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="other">Meia hora atrás</item>
-        <item quantity="one">Meia hora atrás</item>
+    <plurals name="health_chart_calories_burned_schedule_format_desc">
+        <item quantity="other">Queimou %1$s calorias</item>
+        <item quantity="one">Queimou %1$s caloria</item>
     </plurals>
-    <plurals name="in_a_hour">
-        <item quantity="other">Em 1 hora</item>
-        <item quantity="one">Em 1 hora</item>
+    <plurals name="health_chart_calories_goal_schedule_format_desc">
+        <item quantity="other">Meta de calorias: %1$s calorias</item>
+        <item quantity="one">Meta de calorias: %1$s caloria</item>
     </plurals>
-    <plurals name="in_half_hour">
-        <item quantity="other">Em meia hora</item>
-        <item quantity="one">Em meia hora</item>
+    <plurals name="health_chart_calories_schedule_format">
+        <item quantity="other">%1$s/%2$s kcal</item>
+        <item quantity="one">%1$s/%2$s kcal</item>
     </plurals>
-    <plurals name="in_less_than_one_minute">
-        <item quantity="other">Imediatamente</item>
-        <item quantity="one">Imediatamente</item>
+    <plurals name="health_chart_sport_time_current_schedule_format_desc">
+        <item quantity="other">Duração de atividade: %1$s minutos</item>
+        <item quantity="one">Duração de atividade: %1$s minuto</item>
     </plurals>
-    <plurals name="in_num_minutes">
-        <item quantity="other">em %d minutos</item>
-        <item quantity="one">em 1 minuto</item>
+    <plurals name="health_chart_sport_time_goal_schedule_format_desc">
+        <item quantity="other">Meta de atividade: %1$s minutos</item>
+        <item quantity="one">Meta de atividade: %1$s minuto</item>
     </plurals>
-    <plurals name="incorrect_pincode_remaining_attempts">
-        <item quantity="other">Código PIN incorreto, %d tentativas restando</item>
-        <item quantity="one">Código PIN incorreto, %d tentativa restante</item>
+    <plurals name="health_chart_sport_time_schedule_format">
+        <item quantity="other">%1$s/%2$s min</item>
+        <item quantity="one">%1$s/%2$s min</item>
     </plurals>
-    <plurals name="incorrect_pukcode_remaining_attempts">
-        <item quantity="other">Código PUK incorreto, %d tentativas restando</item>
-        <item quantity="one">Código PUK incorreto, %d tentativa restante</item>
+    <plurals name="health_chart_stand_count_schedule_format_desc">
+        <item quantity="other">Ficou em pé dentro de %1$s horas</item>
+        <item quantity="one">Ficou em pé dentro de %1$s hora</item>
     </plurals>
-    <plurals name="input_password_after_timeout_msg">
-        <item quantity="other">Insira sua senha pelo menos uma vez a cada %d horas para sempre lembrar-se dela</item>
-        <item quantity="one">Insira sua senha pelo menos uma vez a cada %d hora para sempre lembrar-se dela</item>
+    <plurals name="health_chart_stand_goal_schedule_format_desc">
+        <item quantity="other">Meta de Tempo em pé: %1$s horas</item>
+        <item quantity="one">Meta de Tempo em pé: %1$s hora</item>
+    </plurals>
+    <plurals name="health_chart_stand_schedule_format">
+        <item quantity="other">%1$s/%2$s h</item>
+        <item quantity="one">%1$s/%2$s h</item>
+    </plurals>
+    <plurals name="health_chart_step_count_current_schedule_format_desc">
+        <item quantity="other">Contagem de passos atual: %1$s passos</item>
+        <item quantity="one">Contagem de passos atual: %1$s passo</item>
+    </plurals>
+    <plurals name="health_chart_step_count_goal_schedule_format_desc">
+        <item quantity="other">Meta de passos: %1$s passos</item>
+        <item quantity="one">Meta de passos: %1$s passo</item>
+    </plurals>
+    <plurals name="health_chart_step_count_schedule_format">
+        <item quantity="other">%1$s/%2$s passos</item>
+        <item quantity="one">%1$s/%2$s passo</item>
     </plurals>
     <plurals name="input_pattern_after_timeout_msg">
         <item quantity="other">Insira sua senha pelo menos uma vez a cada %d horas para sempre lembrar-se dela</item>
         <item quantity="one">Insira sua senha pelo menos uma vez a cada %d hora para sempre lembrar-se dela</item>
     </plurals>
-    <plurals name="keyguard_charging_info_could_use_hour_time_text">
-        <item quantity="other">Cerca de %d horas restantes</item>
-        <item quantity="one">Cerca de %d hora restante</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_could_use_min_time_text">
-        <item quantity="other">Cerca de %d minutos restantes</item>
-        <item quantity="one">Cerca de %d minuto restante</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_could_use_time_text">
-        <item quantity="other">Cerca de %1$d h %2$d m restantes</item>
-        <item quantity="one">Cerca de %1$d h %2$d m restantes</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_drained_hour_time_format">
-        <item quantity="other">%d horas</item>
-        <item quantity="one">%d hora</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_drained_min_time_format">
-        <item quantity="other">%d minutos</item>
-        <item quantity="one">%d minuto</item>
-    </plurals>
-    <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">%1$d h %2$d m</item>
-        <item quantity="one">%1$d h %2$d m</item>
-    </plurals>
-    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
-        <item quantity="other">%d horas restantes</item>
-        <item quantity="one">%d hora restante</item>
-    </plurals>
-    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
-        <item quantity="other">%d minutos restantes</item>
-        <item quantity="one">%d minuto restante</item>
-    </plurals>
-    <plurals name="keyguard_extreme_power_info_could_use_time_text">
-        <item quantity="other">"%1$dh  e %2$dm  restantes"</item>
-        <item quantity="one">"%1$dh  e %2$dm  restantes"</item>
-    </plurals>
-    <plurals name="kg_password_default_pin_message">
-        <item quantity="other">Informe o PIN do chip. Você tem %d tentativas restantes.</item>
-        <item quantity="one">Informe o PIN do chip. Você tem %d tentativa restante.</item>
-    </plurals>
-    <plurals name="kg_password_default_puk_message">
-        <item quantity="other">O chip agora está desativado. Informe o código PUK para continuar. Você tem %d tentativas restantes antes de o chip se tornar permanentemente inutilizável. Entre em contato com a operadora para saber mais detalhes.</item>
-        <item quantity="one">O chip agora está desativado. Informe o código PUK para continuar. Você tem %d tentativa restante antes de o chip se tornar permanentemente inutilizável. Entre em contato com a operadora para saber mais detalhes.</item>
-    </plurals>
-    <plurals name="kg_password_wrong_pin_code">
-        <item quantity="other">Código PIN do chip incorreto. Tentativas restantes: %d.</item>
-        <item quantity="one">Código PIN do chip incorreto. Tentativas restantes: %d.</item>
-    </plurals>
-    <plurals name="kg_password_wrong_puk_code">
-        <item quantity="other">Código PUK do chip incorreto. Tentativas restantes: %d. Caso o código correto não seja digitado, o chip se tornará permanentemente inutilizável.</item>
-        <item quantity="one">Código PUK do chip incorreto. Tentativas restantes: %d. Caso o código correto não seja digitado, o chip se tornará permanentemente inutilizável.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_password">
-        <item quantity="other">O dispositivo não é desbloqueado há %d horas. Confirme a senha.</item>
-        <item quantity="one">O dispositivo não é desbloqueado há %d hora. Confirme a senha.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pattern">
-        <item quantity="other">O dispositivo não é desbloqueado há %d horas. Confirme o padrão.</item>
-        <item quantity="one">O dispositivo não é desbloqueado há %d hora. Confirme o padrão.</item>
-    </plurals>
-    <plurals name="kg_prompt_reason_time_pin">
-        <item quantity="other">O dispositivo não é desbloqueado há %d horas. Confirme o PIN.</item>
-        <item quantity="one">O dispositivo não é desbloqueado há %d hora. Confirme o PIN.</item>
-    </plurals>
-    <plurals name="kg_too_many_failed_attempts_countdown">
-        <item quantity="other">Tente novamente em %d segundos.</item>
-        <item quantity="one">Tente novamente em %d segundo.</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="other">Agora mesmo</item>
-        <item quantity="one">Agora mesmo</item>
-    </plurals>
-    <plurals name="miuix_appcompat_items_selected">
-        <item quantity="other">%d itens selecionados</item>
-        <item quantity="one">%d item selecionado</item>
-    </plurals>
-    <plurals name="new_notifications_msg">
+    <plurals name="mtrl_badge_content_description">
         <item quantity="other">%d novas notificações</item>
         <item quantity="one">%d nova notificação</item>
-    </plurals>
-    <plurals name="notification_group_overflow_description">
-        <item quantity="other">Mais %s notificações no grupo.</item>
-        <item quantity="one">Mais %s notificações no grupo.</item>
-    </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">%d minutos atrás</item>
-        <item quantity="one">1 minuto atrás</item>
     </plurals>
     <plurals name="phone_locked_timeout_minutes_string">
         <item quantity="other">Tente novamente em %d minutos</item>
@@ -184,24 +83,8 @@
         <item quantity="other">Tente novamente em %d segundos</item>
         <item quantity="one">Tente novamente em %d segundo</item>
     </plurals>
-    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
-        <item quantity="other">%d dispositivos</item>
-        <item quantity="one">%d dispositivo</item>
-    </plurals>
-    <plurals name="snoozeHourOptions">
-        <item quantity="other">%d horas</item>
-        <item quantity="one">%d hora</item>
-    </plurals>
-    <plurals name="snoozeMinuteOptions">
-        <item quantity="other">%d minutos</item>
-        <item quantity="one">%d minuto</item>
-    </plurals>
-    <plurals name="user_limit_reached_message">
-        <item quantity="other">É possível adicionar até %d usuários.</item>
-        <item quantity="one">É possível adicionar até %d usuário.</item>
-    </plurals>
-    <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d dispositivos conectados</item>
-        <item quantity="one">%1$d dispositivo conectado</item>
+    <plurals name="weather_temperature_desc">
+        <item quantity="other">Temperatura: %1$s graus, %2$s</item>
+        <item quantity="one">Temperatura: %1$s grau, %2$s</item>
     </plurals>
 </resources>

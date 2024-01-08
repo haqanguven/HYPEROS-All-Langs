@@ -1,44 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alphabet_table">
+    <string-array name="alphabet_sub_table_with_starred">
+        <item>!</item>
         <item>А</item>
         <item>Б</item>
         <item>В</item>
-        <item>Г</item>
-        <item>Д</item>
-        <item>Е</item>
+        <item>Є</item>
         <item>Ж</item>
         <item>З</item>
         <item>И</item>
-        <item>К</item>
-        <item>Л</item>
-        <item>М</item>
-        <item>Н</item>
-        <item>О</item>
-        <item>П</item>
-        <item>Р</item>
-        <item>С</item>
-        <item>Т</item>
-        <item>У</item>
-        <item>Ф</item>
-        <item>Х</item>
-        <item>Ц</item>
-        <item>Ч</item>
-        <item>Ш</item>
-        <item>Э</item>
-        <item>Ю</item>
-        <item>Я</item>
-    </string-array>
-    <string-array name="alphabet_table_with_starred">
-        <item>А</item>
-        <item>Б</item>
-        <item>В</item>
-        <item>Г</item>
-        <item>Д</item>
-        <item>Е</item>
-        <item>Ж</item>
-        <item>З</item>
-        <item>И</item>
+        <item>І</item>
+        <item>Ї</item>
+        <item>Й</item>
         <item>К</item>
         <item>Л</item>
         <item>М</item>
@@ -55,9 +28,46 @@
         <item>Ч</item>
         <item>Ш</item>
         <item>Щ</item>
-        <item>Э</item>
+        <item>Ь</item>
         <item>Ю</item>
         <item>Я</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="alphabet_table">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Ґ</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Є</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>І</item>
+        <item>Ї</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ь</item>
+        <item>Ю</item>
+        <item>Я</item>
+        <item>\#</item>
     </string-array>
     <string-array name="aqi_detail_title">
         <item>Нормальне</item>
@@ -66,6 +76,22 @@
         <item>Шкідливе</item>
         <item>Дуже шкідливе</item>
         <item>Ризиковане</item>
+    </string-array>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
     </string-array>
     <string-array name="aqi_title_prefix">
         <item>ІЯП %1$s</item>
@@ -113,6 +139,37 @@
         <item>Середній</item>
         <item>Невеликий</item>
     </string-array>
+    <string-array name="realtime_humidity_status">
+        <item>Сухо</item>
+        <item>Комфортно</item>
+        <item>Волого</item>
+    </string-array>
+    <string-array name="realtime_pressure_status">
+        <item>Високий</item>
+        <item>Середній</item>
+        <item>Низький</item>
+    </string-array>
+    <string-array name="realtime_temperature_status">
+        <item>Холодно</item>
+        <item>Прохолодно</item>
+        <item>Комфортно</item>
+        <item>Тепло</item>
+        <item>Жарко</item>
+    </string-array>
+    <string-array name="realtime_uv_level">
+        <item>Слабкий</item>
+        <item>Помірний</item>
+        <item>Сильний</item>
+        <item>Дуже сильний</item>
+        <item>Небезпечний</item>
+    </string-array>
+    <string-array name="settings_atmospheric_pressure_unit_detail">
+        <item>@string/settings_atmospheric_pressure_hpa</item>
+        <item>@string/settings_atmospheric_pressure_mbar</item>
+        <item>@string/settings_atmospheric_pressure_mmhg</item>
+        <item>@string/settings_atmospheric_pressure_inhg</item>
+        <item>@string/settings_atmospheric_pressure_atm</item>
+    </string-array>
     <string-array name="weather_type">
         <item>Ясно</item>
         <item>Хмарно</item>
@@ -135,7 +192,7 @@
         <item>Сильна піщана буря</item>
         <item>Піщана буря</item>
         <item>Легка піщана буря</item>
-        <item>Вітряно</item>
+        <item>Пилова буря</item>
         <item>Град</item>
         <item>Пил</item>
         <item>Імла</item>

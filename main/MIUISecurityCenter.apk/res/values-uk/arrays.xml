@@ -13,14 +13,11 @@
         <item>У будні</item>
         <item>Власний</item>
     </string-array>
-    <string-array name="alphabet_table">
+    <string-array name="alphabet_sub_table_with_starred">
+        <item>!</item>
         <item>А</item>
         <item>Б</item>
         <item>В</item>
-        <item>Г</item>
-        <item>Ґ</item>
-        <item>Д</item>
-        <item>Е</item>
         <item>Є</item>
         <item>Ж</item>
         <item>З</item>
@@ -49,8 +46,7 @@
         <item>Я</item>
         <item>\#</item>
     </string-array>
-    <string-array name="alphabet_table_with_starred">
-        <item>!</item>
+    <string-array name="alphabet_table">
         <item>А</item>
         <item>Б</item>
         <item>В</item>
@@ -98,6 +94,10 @@
         <item>PIN-код</item>
         <item>Пароль</item>
     </string-array>
+    <string-array name="cache_sort_type">
+        <item>Розмір</item>
+        <item>"Ім'я"</item>
+    </string-array>
     <string-array name="cellular_data_unit">
         <item>ГБ</item>
         <item>МБ</item>
@@ -109,14 +109,14 @@
     </string-array>
     <string-array name="daily_brand">
         <item>Власний</item>
-        <item>Карта Мі фана</item>
+        <item>Карта Xiaomi фана</item>
         <item>Карта Xiao Tiansheng</item>
         <item>Карта Tencent King</item>
     </string-array>
     <string-array name="daily_rent_card_brands">
         <item>Власний</item>
         <item>Mi Mobile</item>
-        <item>Карта Мі фана</item>
+        <item>Карта Xiaomi фана</item>
         <item>Карта Tianshen</item>
         <item>Карта Tencent</item>
     </string-array>
@@ -158,6 +158,15 @@
         <item>Ви зможете віддалено контролювати і записувати вміст вашого екрана.</item>
         <item>Буде можливо отримати детальну інформацію про ваш пристрій.</item>
     </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Звичайна</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
     <string-array name="gb_adv_touch_custom_level">
         <item>Дуже низький</item>
         <item>Низький</item>
@@ -184,11 +193,6 @@
         <item>Коли пристрій заблоковано</item>
         <item>Коли пристрій заблоковано або після виходу з програми</item>
         <item>Коли пристрій заблоковано або через 1 хвилину після виходу з програми</item>
-    </string-array>
-    <string-array name="lock_mode_value">
-        <item>1</item>
-        <item>0</item>
-        <item>2</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
         <item>"Трафік 3G/4G "</item>
@@ -285,18 +289,16 @@
         <item>Використання даних</item>
         <item>Баланс</item>
     </string-array>
-    <string-array name="sort_title">
-        <item>Сортувати за статусом</item>
-        <item>Сортувати за іменем програми</item>
-        <item>Сортувати за частотою використання</item>
-        <item>Сортувати за зайнятим місцем</item>
-        <item>Сортувати за часом встановлення</item>
+    <string-array name="sort_title_new">
+        <item>"Сортування за ім'ям програми"</item>
+        <item>Сортування за останнім використанням</item>
+        <item>Сортування за використаним сховищем</item>
+        <item>Сортування за часом встановлення</item>
     </string-array>
-    <string-array name="sort_type">
-        <item>Статус</item>
+    <string-array name="sort_type_new">
         <item>"Ім'я програми"</item>
-        <item>Частота використання</item>
-        <item>Займане місце</item>
+        <item>Нещодавно запускалася</item>
+        <item>Використане сховище</item>
         <item>Час встановлення</item>
     </string-array>
     <string-array name="tether_limit_warn_type">

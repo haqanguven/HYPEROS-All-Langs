@@ -25,6 +25,10 @@
         <item>PIN</item>
         <item>Password</item>
     </string-array>
+    <string-array name="cache_sort_type">
+        <item>Dimensioni</item>
+        <item>Nome</item>
+    </string-array>
     <string-array name="cellular_data_unit">
         <item>GB</item>
         <item>MB</item>
@@ -36,14 +40,14 @@
     </string-array>
     <string-array name="daily_brand">
         <item>Personalizzata</item>
-        <item>Scheda Mi Fan</item>
+        <item>Xiaomi Fan card</item>
         <item>Scheda Xiao Tiansheng</item>
         <item>Scheda Tencent King</item>
     </string-array>
     <string-array name="daily_rent_card_brands">
         <item>Personalizzato</item>
         <item>Mi Mobile</item>
-        <item>Mi Fan card</item>
+        <item>Xiaomi Fan card</item>
         <item>Tianshen card</item>
         <item>Tencent card</item>
     </string-array>
@@ -85,6 +89,15 @@
         <item>Sarai in grado di monitorare e registrare i contenuti dello schermo in remoto.</item>
         <item>Sarà possibile accedere alle informazioni dettagliate sul dispositivo.</item>
     </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normale</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
     <string-array name="gb_adv_touch_custom_level">
         <item>Minima</item>
         <item>Bassa</item>
@@ -109,13 +122,8 @@
     </string-array>
     <string-array name="lock_mode">
         <item>Quando il dispositivo è bloccato</item>
-        <item>"Quando il dispositivo è bloccato o dopo essere usciti dall'applicazione"</item>
-        <item>"Quando il dispositivo è bloccato o 1 minuto dopo essere usciti dall'applicazione"</item>
-    </string-array>
-    <string-array name="lock_mode_value">
-        <item>1</item>
-        <item>0</item>
-        <item>2</item>
+        <item>"Quando il dispositivo è bloccato o dopo aver chiuso l'app"</item>
+        <item>"Quando il dispositivo è bloccato o 1 minuto dopo aver chiuso l'app"</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
         <item>"Utilizzo dati mobili "</item>
@@ -212,19 +220,17 @@
         <item>Utilizzo dei dati</item>
         <item>Saldo telefonico</item>
     </string-array>
-    <string-array name="sort_title">
-        <item>Ordina per stato</item>
+    <string-array name="sort_title_new">
         <item>Ordina per nome app</item>
-        <item>"Ordina per frequenza d'utilizzo"</item>
-        <item>Ordina per memoria usata</item>
-        <item>"Ordina per tempo d'installazione"</item>
+        <item>Ordina per utilizzate più di recente</item>
+        <item>Ordina per memoria utilizzata</item>
+        <item>Ordina per data di installazione</item>
     </string-array>
-    <string-array name="sort_type">
-        <item>Stato</item>
-        <item>Nome applicazione</item>
-        <item>"Frequenza d'utilizzo"</item>
-        <item>Memoria usata</item>
-        <item>"Tempo d'installazione"</item>
+    <string-array name="sort_type_new">
+        <item>Nome app</item>
+        <item>Utilizzata di recente</item>
+        <item>Memoria utilizzata</item>
+        <item>Data e ora di installazione</item>
     </string-array>
     <string-array name="tether_limit_warn_type">
         <item>Disattiva e avvisami</item>
@@ -242,7 +248,7 @@
         <item>Piano dati illimitato</item>
     </string-array>
     <string-array name="traffic_type">
-        <item>"Utilizzo della connessione dati  "</item>
+        <item>"Utilizzo della connessione dati "</item>
         <item>"Utlizzo Wi-Fi "</item>
     </string-array>
 </resources>

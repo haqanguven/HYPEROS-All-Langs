@@ -4,13 +4,13 @@
         <item quantity="other">Час назад</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Час назад</item>
+        <item quantity="other">%d час назад</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Полчаса назад</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Через час</item>
+        <item quantity="other">Через %d час</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Через полчаса</item>
@@ -20,18 +20,34 @@
     </plurals>
     <plurals name="abbrev_in_num_minutes">
         <item quantity="other">Через %d мин.</item>
-        <item quantity="one">Через 1 мин.</item>
+        <item quantity="one">Через %d мин.</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Только что</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d мин. назад</item>
-        <item quantity="one">1 мин. назад</item>
+        <item quantity="one">%d мин. назад</item>
     </plurals>
-    <plurals name="additional_permissions_more">
-        <item quantity="other">Еще %1$d</item>
-        <item quantity="one">Еще %1$d</item>
+    <plurals name="app_info_permission_count">
+        <item quantity="other">%1$s разрешений.</item>
+        <item quantity="one">%1$s разрешение.</item>
+        <item quantity="few">%1$s разрешения.</item>
+    </plurals>
+    <plurals name="app_info_permission_count_">
+        <item quantity="other">%1$s разрешений,</item>
+        <item quantity="one">%1$s разрешение,</item>
+        <item quantity="few">%1$s разрешения,</item>
+    </plurals>
+    <plurals name="app_info_private_permission_count">
+        <item quantity="other">%1$s связаны с безопасностью</item>
+        <item quantity="one">%1$s связано с безопасностью</item>
+        <item quantity="few">%1$s связаны с безопасностью</item>
+    </plurals>
+    <plurals name="comment_count">
+        <item quantity="other">%1$s отзывов</item>
+        <item quantity="one">%1$s отзыв</item>
+        <item quantity="few">%1$s отзыва</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Полчаса назад</item>
@@ -53,29 +69,47 @@
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Только что</item>
     </plurals>
-    <plurals name="miui_app_all_permission_number">
-        <item quantity="other">%d разрешений</item>
-        <item quantity="one">%d разрешение</item>
-        <item quantity="few">%d разрешения</item>
-    </plurals>
-    <plurals name="miui_app_privacy_permission_number">
-        <item quantity="other">&lt;Data>&lt;font color=#0D84FF>%d&lt;/font> разрешений, связанных с конфиденциальностью&lt;/Data></item>
-        <item quantity="one">&lt;Data>&lt;font color=#0D84FF>%d&lt;/font> разрешение, связанное с конфиденциальностью&lt;/Data></item>
-        <item quantity="few">&lt;Data>&lt;font color=#0D84FF>%d&lt;/font> разрешения, связанных с конфиденциальностью&lt;/Data></item>
-    </plurals>
-    <plurals name="miui_permission_detail">
-        <item quantity="other">%d разрешений</item>
-        <item quantity="one">%d разрешение</item>
-        <item quantity="few">%d разрешения</item>
-    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">Выбрано %d объектов</item>
         <item quantity="one">Выбран %d объект</item>
         <item quantity="few">Выбрано %d объекта</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d новых уведомлений</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d минут назад</item>
         <item quantity="one">1 минуту назад</item>
         <item quantity="few">%d минуты назад</item>
+    </plurals>
+    <plurals name="password_wrong_retry_msg">
+        <item quantity="other">Слишком много неудачных попыток. Повторите попытку через %1$S сек.</item>
+        <item quantity="one">Слишком много неудачных попыток. Повторите попытку через %1$S сек.</item>
+    </plurals>
+    <plurals name="pure_mode_guard_day">
+        <item quantity="other">Безопасный режим активен %d дней</item>
+        <item quantity="one">Безопасный режим активен %d день</item>
+        <item quantity="few">Безопасный режим активен %d дня</item>
+    </plurals>
+    <plurals name="settings_security_mode_enable_count">
+        <item quantity="other">Безопасный режим работает на &lt;font color=#0D84FF>%1$s&lt;/font> устройствах</item>
+        <item quantity="one">Безопасный режим работает на &lt;font color=#0D84FF>%1$s&lt;/font> устройстве</item>
+    </plurals>
+    <plurals name="settings_security_mode_protect_count">
+        <item quantity="other">Устранено &lt;font color=#0D84FF>%1$s&lt;/font> рисков</item>
+        <item quantity="one">Устранён &lt;font color=#0D84FF>%1$s&lt;/font> риск</item>
+        <item quantity="few">Устранено &lt;font color=#0D84FF>%1$s&lt;/font> риска</item>
+    </plurals>
+    <plurals name="settings_security_mode_protect_days">
+        <item quantity="other">Безопасный режим активен &lt;font color=#0D84FF>%1$s&lt;/font> дней</item>
+        <item quantity="one">Безопасный режим активен &lt;font color=#0D84FF>%1$s&lt;/font> день</item>
+        <item quantity="few">Безопасный режим активен &lt;font color=#0D84FF>%1$s&lt;/font> дня</item>
+    </plurals>
+    <plurals name="settings_security_mode_title_on_msg">
+        <item quantity="other">Безопасный режим активен %1$s дней</item>
+        <item quantity="one">Безопасный режим активен %1$s день</item>
+        <item quantity="few">Безопасный режим активен %1$s дня</item>
     </plurals>
 </resources>

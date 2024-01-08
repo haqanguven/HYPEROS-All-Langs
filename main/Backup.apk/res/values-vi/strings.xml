@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_home_description">Chỉ đường về nhà</string>
-    <string name="abc_action_bar_up_description">Điều hướng lên trên</string>
+    <string name="abc_action_bar_up_description">Di chuyển lên</string>
     <string name="abc_action_menu_overflow_description">Tùy chọn khác</string>
     <string name="abc_action_mode_done">Xong</string>
     <string name="abc_activity_chooser_view_see_all">Xem tất cả</string>
@@ -34,6 +34,8 @@
     <string name="account_summary">Sao lưu Tài khoản Google, Tài khoản Mi, và dữ liệu người dùng khác</string>
     <string name="actionbar_button_up_description">Quay lại</string>
     <string name="afternoon">Buổi chiều</string>
+    <string name="agree_button">Đồng ý</string>
+    <string name="agree_revoke_permission_title">Rút lại quyền</string>
     <string name="alert_button_agree_and_continue">Cho phép</string>
     <string name="alert_button_deny">Từ chối</string>
     <string name="alert_message_backup_to_miasist">Mi PC Suite đang yêu cầu quyền để tạo một bản sao lưu trên máy tính. Cho phép?</string>
@@ -45,6 +47,7 @@
     <string name="alert_title_backup_to_miasist">Sao lưu mục bằng Mi PC Suite?</string>
     <string name="alert_title_restore_from_miasist">Khôi phục mục trên điện thoại của bạn?</string>
     <string name="already_enable_encrypt">Mã hóa đã bật</string>
+    <string name="alternative_ui_content">Tính năng này cho phép bạn sao lưu và khôi phục các mục bằng thiết bị di động và máy tính của mình. Tính năng này cần kết nối Internet và yêu cầu các quyền bắt buộc sau để có thể hoạt động bình thường:</string>
     <string name="am">SA</string>
     <string name="app_name">Sao lưu</string>
     <string name="apps_and_data_item_desc">Ứng dụng và dữ liệu</string>
@@ -74,17 +77,42 @@
     <string name="backup_failed">Không thể sao lưu</string>
     <string name="backup_file_error">Không thể sao lưu</string>
     <string name="backup_finished">Sao lưu thành công</string>
+    <string name="backup_for_broken_screen">Sao lưu với màn hình bị hỏng</string>
     <string name="backup_hint">Giữ thiết bị của bạn luôn mở</string>
     <string name="backup_hint_onpad">Giữ thiết bị của bạn luôn mở</string>
     <string name="backup_hint_pad">Giữ thiết bị của bạn luôn mở</string>
     <string name="backup_is_running">Đang sao lưu thiết bị</string>
     <string name="backup_new">Mới:</string>
+    <string name="backup_notice_content">Sao lưu của bạn sẽ không được mã hóa, điều đó có nghĩa là chúng có thể bị truy cập hoặc giả mạo bởi ứng dụng của bên thứ ba. Rủi ro bảo mật khác cũng có thể phát sinh. Đảm bảo bạn lưu trữ các mục sao lưu tại môi trường an toàn.</string>
+    <string name="backup_notice_title">Chú ý</string>
+    <string name="backup_notification_title">\"Sao lưu\" đang làm việc…</string>
     <string name="backup_progress">Đang sao lưu…</string>
     <string name="backup_report">Xem chi tiết</string>
     <string name="backup_security_tips_message">Vài ứng dụng không hỗ trợ sao lưu hoặc khôi phục.</string>
     <string name="backup_security_tips_title">Vài sao lưu có thể không khả dụng</string>
     <string name="backup_update">Cập nhật</string>
     <string name="batch_delete_backup_confirm">Xóa các sao lưu đã chọn?</string>
+    <string name="bottomsheet_action_expand_halfway">Mở rộng một nửa</string>
+    <string name="broken_screen_rescue_service">Sao lưu với màn hình bị hỏng</string>
+    <string name="broken_screen_rescue_service_content">Tính năng này cho phép bạn sao lưu các mục bằng cáp USB khi màn hình thiết bị bị hỏng hoặc không phản hồi. Để có thể sao lưu các mục khi màn hình không phản hồi, bạn nên bật tính năng này khi màn hình vẫn hoạt động bình thường.</string>
+    <string name="broken_screen_rescue_service_disable">Tắt sao lưu với màn hình bị hỏng</string>
+    <string name="broken_screen_rescue_service_enable">Bật sao lưu với màn hình bị hỏng</string>
+    <string name="broken_screen_rescue_service_learn_subcontent1">Yêu cầu bất kỳ người nào trong liên hệ gửi cho bạn tin nhắn SMS ở định dạng sau thay thế các chữ cái bằng khóa màn hình của bạn: *#*#KHOAMANHINH#*#*.</string>
+    <string name="broken_screen_rescue_service_learn_subcontent2">Sau khi tin nhắn được gửi đi, kết nối thiết bị này với máy tính qua USB để bắt đầu sao lưu các mục.</string>
+    <string name="broken_screen_rescue_service_learn_subtitle1">Kích hoạt tính năng này</string>
+    <string name="broken_screen_rescue_service_learn_subtitle2">Mục sao lưu</string>
+    <string name="broken_screen_rescue_service_learn_title">Cách sử dụng tính năng này</string>
+    <string name="broken_screen_rescue_service_tips_1">%1$d. Nếu khóa màn hình của bạn là %2$d, tin nhắn sẽ như thế này: *#*#%3$d#*#*. Nếu bạn đang sử dụng mật khẩu chứa cả chữ cái và số, hãy yêu cầu đối phương bao gồm trong tin nhắn với không có bất ký thiếu sót nào.</string>
+    <string name="broken_screen_rescue_service_tips_2">%1$d. Nếu bạn sử dụng hình mở khóa, bạn có thể thay thế bằng chữ số trong tin nhắn. Chấm góc trái bên trên là %2$d. Đánh số theo trái sang phải, hàng trên xuống dưới, và kết thúc bằng %3$d tại góc phải bên dưới.</string>
+    <string name="broken_screen_rescue_service_tips_3">%1$d. Nếu bạn không sử dụng khóa màn hình, sử dụng \"nopassword\" thay vì các ký tự đại diện trong tin nhắn.</string>
+    <string name="broken_screen_rescue_service_tips_4">%1$d. Bạn chỉ có %2$d lần thử để kích hoạt tính nawmh này. Hãy chắc chắn rằng tin nhắn SMS mà người khác đang gửi là chính xác và người đó có trong liên hệ để đảm bảo thành công.</string>
+    <string name="broken_screen_rescue_service_tips_5">%1$d. Chúng tôi kiến nghị bạn sử dụng tính năng này với sự có mặt của nhân viên hỗ trợ khách hàng của chúng tôi.</string>
+    <string name="broken_screen_rescue_service_tips_6">%1$d. Nếu bạn không thể sao lưu các mục vào máy tính, bạn có thể tìm hiểu cách giải quyết vấn đề này trong tài liệu trợ giúp.</string>
+    <string name="broken_screen_rescue_service_tips_title">Hướng dẫn</string>
+    <string name="broken_screen_rescue_service_turn_off">Tắt</string>
+    <string name="broken_screen_rescue_service_turn_off_confirm">Tắt sao lưu với màn hình bị hỏng ngay?</string>
+    <string name="broken_screen_rescue_service_turn_on">Bật</string>
+    <string name="broken_screen_rescue_service_turn_on_confirm">Bật sao lưu với màn hình bị hỏng ngay?</string>
     <string name="btn_got_it">Tôi biết</string>
     <string name="button_backup">Sao lưu</string>
     <string name="button_cancel">Hủy</string>
@@ -106,6 +134,12 @@
     <string name="cancel_moving_dialog_message">Dừng nhập ngay?</string>
     <string name="cancel_moving_dialog_title">Dừng nhập</string>
     <string name="cancel_restore">Hủy khôi phục</string>
+    <string name="category_contacts">Liên hệ</string>
+    <string name="category_message_contacts">Tin nhắn và Liên hệ</string>
+    <string name="character_counter_content_description">Đã nhập %1$d trong số %2$d ký tự</string>
+    <string name="character_counter_overflowed_content_description">Đã vượt quá giới hạn ký tự %1$d/%2$d</string>
+    <string name="check_privacy_policy">Xem Chính sách Riêng tư</string>
+    <string name="clear_text_end_icon_content_description">Xóa văn bản</string>
     <string name="clearable_edittext_clear_description">Xóa</string>
     <string name="click_soft_ap_to_link">Chọn điểm phát sóng để kết nối</string>
     <string name="click_to_view">Chạm để xem</string>
@@ -191,6 +225,7 @@ https://appleid.apple.com/#!&amp;page=signin để đóng"</string>
     <string name="enable_local_backup">Bật sao lưu trên máy</string>
     <string name="enable_local_backup_and_restore">Bật sao lưu trên máy</string>
     <string name="enable_local_backup_tips">Bật tính năng này để có thể lưu sao lưu trên thiết bị này và sao chép đến máy tính hoặc thiết bị lưu trữ USB. Bật ngay?</string>
+    <string name="enable_local_backup_tips_global">Bật tính năng này để có thể lưu sao lưu trên thiết bị này và sao chép đến máy tính. Bật ngay?</string>
     <string name="eras_ad">Sau Công Nguyên</string>
     <string name="eras_bc">Trước Công Nguyên</string>
     <string name="err_acquire_system_service">Không thể bắt đầu dịch vụ hệ thống.</string>
@@ -209,11 +244,13 @@ https://appleid.apple.com/#!&amp;page=signin để đóng"</string>
     <string name="err_user_abort">Đã hủy bởi người dùng.</string>
     <string name="err_version_too_old">Tập tin sao lưu quá cũ.</string>
     <string name="err_version_unsupported">Phiên bản sao lưu không được hỗ trợ.</string>
+    <string name="error_icon_content_description">Lỗi</string>
     <string name="error_permissions">Ứng dụng này không được cấp quyền để truy cập Lịch. Vào Cài đặt và kiểm tra quyền để tiếp tục.</string>
     <string name="evening">Buổi chiều</string>
     <string name="every_day">Hàng ngày</string>
     <string name="exchange_account">Chuyển đổi tài khoản</string>
     <string name="expand_button_title">Nâng cao</string>
+    <string name="exposed_dropdown_menu_content_description">Hiển thị menu thả xuống</string>
     <string name="fail">Thất bại</string>
     <string name="failed_description">Thất bại</string>
     <string name="feature_title_account">Tài khoản Mi</string>
@@ -291,6 +328,8 @@ Không thay đổi hoặc đổi tên tập tin sao lưu."</string>
     <string name="friday_short">Th 6</string>
     <string name="friday_shortest">Th 6</string>
     <string name="gallery_summary">Cài đặt Thư viện (không bao gồm ảnh)</string>
+    <string name="grant_all_permission_content">Cấp tất cả quyền bắt buộc để có thể sao lưu và khôi phục các mục.</string>
+    <string name="grant_all_permission_title">Yêu cầu quyền</string>
     <string name="guarded_mode_dialog_backup_message">Sao lưu không khả dụng ở chế độ Khách.</string>
     <string name="guarded_mode_dialog_title">Bạn đang ở chế độ Khách</string>
     <string name="guarded_mode_dialog_transfer_message">Không thể sử dụng Mi Mover khi ở chế độ Khách.</string>
@@ -325,16 +364,14 @@ Không thay đổi hoặc đổi tên tập tin sao lưu."</string>
 bạn nên tạo một bản sao lưu iCloud trước."</string>
     <string name="icloud_need_wifi_message">Bạn hiện chưa kết nối Wi-Fi. Để nhập dữ liệu từ iCloud, hãy kết nối Wi-Fi.</string>
     <string name="icloud_need_wifi_title">Kết nối Wi-Fi</string>
+    <string name="icon_content_description">Biểu tượng hộp thoại</string>
     <string name="import_again">Nhập lại</string>
     <string name="import_data_from_icloud">Nhập dữ liệu từ Mi Cloud</string>
-    <string name="import_from_xiaomi_account_hint1">"1.\u0009Cài ứng dụng Mi Talk và đăng nhập.
-\u0009http://www.miliao.com
-
-2.\u0009Cài đặt Mi Talk và chọn ”Sao lưu liên hệ vào Tài khoản Mi”"</string>
     <string name="import_from_xiaomi_account_hint2">Nếu bạn đã tiến hành sao lưu, chọn Tiếp theo</string>
     <string name="import_from_xiaomi_account_hint_title">Sử dụng Mi Talk để sao lưu liên hệ giữa các thiết bị.</string>
     <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Do vấn đề tương thích, bạn chỉ có thể chuyển một phần dữ liệu từ thiết bị iOS. Đảm bảo rằng bạn đã tạo một bản sao lưu iCloud trước khi bắt đầu chuyển.</string>
+    <string name="item_view_role_description">Thẻ</string>
     <string name="lack_perm_msg">Mi Mover cần quyền dưới đây: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Yêu cầu quyền</string>
     <string name="list_footer_tip_title">Hướng dẫn:</string>
@@ -383,17 +420,30 @@ bạn nên tạo một bản sao lưu iCloud trước."</string>
     <string name="login">Đăng nhập</string>
     <string name="login_failed">Không thể đăng nhập. Hãy thử lại.</string>
     <string name="logining">Đang đăng nhập…</string>
+    <string name="material_clock_toggle_content_description">Chọn SA hoặc CH</string>
+    <string name="material_hour_selection">Chọn giờ</string>
+    <string name="material_hour_suffix">%1$s giờ</string>
+    <string name="material_minute_selection">Chọn phút</string>
+    <string name="material_minute_suffix">%1$s phút</string>
+    <string name="material_timepicker_am">SA</string>
+    <string name="material_timepicker_clock_mode_description">Chuyển sang chế độ đồng hồ để nhập thời gian.</string>
+    <string name="material_timepicker_hour">Giờ</string>
+    <string name="material_timepicker_minute">Phút</string>
+    <string name="material_timepicker_pm">CH</string>
+    <string name="material_timepicker_select_time">Chọn thời gian</string>
+    <string name="material_timepicker_text_input_mode_description">Chuyển sang chế độ nhập văn bản để nhập thời gian.</string>
     <string name="midnight">Ban đêm</string>
     <string name="miliao_account_guide">Sử dụng Tài khoản Mi của bạn để đăng nhập Xiaomi Cloud, Chủ đề MIUI và các dịch vụ Mi khác từ bất cứ nơi nào.</string>
     <string name="miliao_account_login">Đăng nhập vào Mi Talk</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Bỏ chọn</string>
+    <string name="miuix_access_state_desc">Đã chọn</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Bỏ chọn tất cả</string>
     <string name="miuix_appcompat_action_mode_select_all">Chọn tất cả</string>
     <string name="miuix_appcompat_action_mode_title_empty">Chọn mục</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Thêm</string>
     <string name="miuix_appcompat_cancel_description">Hủy</string>
     <string name="miuix_appcompat_confirm_description">Xác nhận</string>
     <string name="miuix_appcompat_delete_description">Xóa</string>
-    <string name="miuix_appcompat_deselect_all">Bỏ chọn</string>
+    <string name="miuix_appcompat_deselect_all">Bỏ chọn tất cả</string>
     <string name="miuix_appcompat_deselect_all_description">Bỏ chọn tất cả</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Hủy</string>
     <string name="miuix_appcompat_search_input_description">Tìm kiếm</string>
@@ -450,6 +500,39 @@ bạn nên tạo một bản sao lưu iCloud trước."</string>
     <string name="month_september_shortest">Thg 9</string>
     <string name="more">Thêm</string>
     <string name="morning">Buổi sáng</string>
+    <string name="mtrl_badge_numberless_content_description">Thông báo mới</string>
+    <string name="mtrl_chip_close_icon_content_description">Xóa %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Hơn %1$d thông báo mới</string>
+    <string name="mtrl_picker_a11y_next_month">Chuyển sang tháng tiếp theo</string>
+    <string name="mtrl_picker_a11y_prev_month">Chuyển về tháng trước</string>
+    <string name="mtrl_picker_announce_current_selection">Lựa chọn hiện tại: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Chọn ngày</string>
+    <string name="mtrl_picker_date_header_unselected">Ngày đã chọn</string>
+    <string name="mtrl_picker_day_of_week_column_header">Cột ngày: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Định dạng không hợp lệ.</string>
+    <string name="mtrl_picker_invalid_format_example">Ví dụ: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Sử dụng: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Phạm vi không hợp lệ.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Chuyển tới năm %1$s</string>
+    <string name="mtrl_picker_out_of_range">Nằm ngoài phạm vi: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ngày bắt đầu – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ngày kết thúc</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Chọn dải ô</string>
+    <string name="mtrl_picker_range_header_unselected">Ngày bắt đầu – Ngày kết thúc</string>
+    <string name="mtrl_picker_save">Lưu</string>
+    <string name="mtrl_picker_text_input_date_hint">Ngày</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ngày kết thúc</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ngày bắt đầu</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Chuyển sang chế độ nhập lịch</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Nhấn để chuyển sang chế độ chọn một ngày</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Chuyển sang chế độ nhập văn bản</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Nhấn để chuyển sang chế độ chọn một năm</string>
     <string name="multi_select_title">Đã chọn %1$s</string>
     <string name="multi_user_mode_backup_message">Không thể sử dụng Sao lưu ở chế độ Đa người dùng. Tắt chế độ Đa người dùng để tiếp tục.</string>
     <string name="multi_user_mode_dialog_message">Không thể sử dụng Mi Mover ở chế độ Đa người dùng. Tắt chế độ Đa người dùng để tiếp tục.</string>
@@ -470,6 +553,10 @@ bạn nên tạo một bản sao lưu iCloud trước."</string>
     <string name="new_local_detail_description">"Ghi chú:
 %1$d. Sao chép sao lưu đến máy tính để tránh mất mát dữ liệu. %2$s.
 %3$d. Sao lưu sẽ được sao lưu đến MIUI-Backup-AllBackup."</string>
+    <string name="new_local_detail_description_global">"Ghi chú:
+%1$d. Sao chép sao lưu đến máy tính để tránh mất mát dữ liệu. %2$s.
+%3$d. Sao lưu sẽ được lưu đến MIUI-Backup-AllBackup.
+%4$d. Một số ứng dụng có thể không hỗ trợ sao lưu."</string>
     <string name="new_local_tab_backup">Sao lưu</string>
     <string name="new_local_tab_backup_pad">Sao lưu</string>
     <string name="new_local_tab_restore">Khôi phục</string>
@@ -553,6 +640,7 @@ bạn nên tạo một bản sao lưu iCloud trước."</string>
     <string name="page_loading">Vui lòng chờ…</string>
     <string name="password">Mật khẩu</string>
     <string name="password_null">Mật khẩu không thể để trống</string>
+    <string name="password_toggle_content_description">Hiện mật khẩu</string>
     <string name="pause">Tạm dừng</string>
     <string name="perm_camera">Camera</string>
     <string name="perm_location">Vị trí</string>
@@ -561,13 +649,59 @@ bạn nên tạo một bản sao lưu iCloud trước."</string>
     <string name="perm_read_phone_state">Đọc trạng thái điện thoại</string>
     <string name="perm_read_sms">Đọc SMS</string>
     <string name="perm_storage">Đọc và ghi trên bộ nhớ ngoài</string>
+    <string name="permission_admitted">Đã cấp quyền</string>
+    <string name="permission_backup_calendar">Để sao lưu lịch sự kiện</string>
+    <string name="permission_backup_calendar_desc">Để có thể sao lưu lịch sự kiện, cho phép ứng dụng này sửa lịch sự kiện trước.</string>
+    <string name="permission_backup_calllog">Để sao lưu lịch sử cuộc gọi</string>
+    <string name="permission_backup_calllog_desc">Để có thể sao lưu lịch sử cuộc gọi, cho phép ứng dụng này truy cập lịch sử cuộc gọi trước.</string>
+    <string name="permission_backup_contacts">Để sao lưu liên hệ</string>
+    <string name="permission_backup_contacts_desc">Để có thể sao lưu liên hệ, hãy cho phép ứng dụng này truy cập liên hệ của bạn trước.</string>
+    <string name="permission_backup_file">Để sao lưu tập tin</string>
+    <string name="permission_backup_sms">Để sao lưu tin nhắn</string>
+    <string name="permission_backup_sms_desc">Để có thể sao lưu tin nhắn, hãy cho phép ứng dụng này truy cập tin nhắn của bạn trước.</string>
+    <string name="permission_content_title">Yêu cầu quyền</string>
+    <string name="permission_dialog_positive_btn">Cài đặt</string>
+    <string name="permission_intro">Chi tiết quyền</string>
+    <string name="permission_management_entrance">Quản lý quyền truy cập</string>
+    <string name="permission_not_admit">Không cấp quyền</string>
+    <string name="permission_purpose">Tính năng này cho phép bạn sao lưu và khôi phục các mục bằng thiết bị di động, máy tính và ổ USB.</string>
+    <string name="permission_purpose_pad">Tính năng này cho phép bạn sao lưu và khôi phục các mục bằng thiết bị di động, máy tính và ổ USB.</string>
+    <string name="permission_read_apps">Truy cập danh sách các ứng dụng đã cài đặt trên thiết bị này</string>
+    <string name="permission_read_calendar">Truy cập lịch sự kiện</string>
+    <string name="permission_read_calllog">Truy cập lịch sử cuộc gọi</string>
+    <string name="permission_read_contacts">Truy cập liên hệ</string>
+    <string name="permission_read_sms">Truy cập tin nhắn</string>
+    <string name="permission_read_storage">Truy cập và lưu các mục đến lưu trữ</string>
+    <string name="permission_read_storage_global">Truy cập lưu trữ</string>
+    <string name="permission_read_storage_global_pad">Truy cập lưu trữ</string>
+    <string name="permission_read_write_storage">Để có thể sao lưu các mục, cho phép tính năng này truy cập lưu trữ trước.</string>
+    <string name="permission_read_write_sys_app">Để có thể sao lưu và khôi phục tin nhắn, liên hệ và lịch sử cuộc gọi, hãy cho phép tính năng này truy cập vào các mục này trước.</string>
+    <string name="permission_read_write_sys_app1">Cho phép tính năng này truy cập tin nhắn và liên hệ để có thể sao lưu và khôi phục các mục này.</string>
+    <string name="permission_read_write_sys_app2">Cho phép tính năng này truy cập liên hệ để có thể sao lưu và khôi phục các mục này.</string>
+    <string name="permission_related">Quyền</string>
+    <string name="permission_restore_calendar">Để khôi phục lịch sự kiện</string>
+    <string name="permission_restore_calendar_desc">Để có thể khôi phục lịch sự kiện, cho phép ứng dụng này sửa lịch sự kiện trước.</string>
+    <string name="permission_restore_calllog">Để khôi phục lịch sử cuộc gọi</string>
+    <string name="permission_restore_calllog_desc">Để có thể khôi phục lịch sử cuộc gọi, cho phép ứng dụng này sửa lịch sử cuộc gọi trước.</string>
+    <string name="permission_restore_contacts">Để khôi phục liên hệ</string>
+    <string name="permission_restore_contacts_desc">Để có thể khôi phục liên hệ, cho phép ứng dụng này sửa liên hệ trước.</string>
+    <string name="permission_show_all_apps">Để hiển thị ứng dụng có thể sao lưu</string>
+    <string name="permission_show_all_apps_desc">Để có thể xem cứng dụng có thể sao lưu, hãy cho phép ứng dụng này truy cập vào danh sách ứng dụng được cài đặt trên thiết bị này trước.</string>
+    <string name="permission_write_calllog">Sửa lịch sử cuộc gọi</string>
+    <string name="permission_write_contacts">Sửa liên hệ</string>
+    <string name="permission_write_storage">Lưu các mục vào lưu trữ</string>
+    <string name="permission_write_storage_pad">Lưu các mục vào lưu trữ</string>
     <string name="phone_title">Cài đặt điện thoại</string>
     <string name="platform_chooser_item_android_mi">Điện thoại Mi</string>
     <string name="platform_chooser_item_android_others">Thương hiệu khác</string>
     <string name="platform_chooser_item_ios">Nhập từ thiết bị iOS</string>
     <string name="platform_chooser_title">Chọn thiết bị cũ</string>
     <string name="pm">CH</string>
-    <string name="preference_copied">Đã sao chép \"%1$s\" vào khay nhớ tạm.</string>
+    <string name="preference_copied">Đã sao chép \"%1$s\" vào bảng nhớ tạm.</string>
+    <string name="privacy_policy_link"><Data>"Để tìm hiểu thêm về phương pháp xử lý dữ liệu của chúng tôi và các quyền của bạn với tư cách là người dùng, đọc và đồng ý với &lt;a href='%1s'>Chính sách Riêng tư&lt;/a> trước khi tiếp tục."</Data></string>
+    <string name="privacy_settings">Riêng tư</string>
+    <string name="privacy_settings_title">Chính sách Riêng tư</string>
+    <string name="private_policy_text">Chính sách Riêng tư</string>
     <string name="progress_backup_hint">Đang sao lưu…</string>
     <string name="progress_restore_hint">Đang khôi phục…</string>
     <string name="prompt_reading">Đang đọc…</string>
@@ -586,6 +720,7 @@ bạn nên tạo một bản sao lưu iCloud trước."</string>
     <string name="restore_counts">Khôi phục:</string>
     <string name="restore_data">Chọn mục để khôi phục</string>
     <string name="restore_failed">Không thể khôi phục</string>
+    <string name="restore_files">Để khôi phục các mục</string>
     <string name="restore_finished">Khôi phục thành công</string>
     <string name="restore_is_running">Đang khôi phục thiết bị</string>
     <string name="restore_launcher_layout_hit">Khôi phục cài đặt trình khởi chạy</string>
@@ -594,6 +729,7 @@ bạn nên tạo một bản sao lưu iCloud trước."</string>
     <string name="restore_telephony_hit">Khôi phục sẽ khởi động lại các Ứng dụng điện thoại.</string>
     <string name="retry">Thử lại</string>
     <string name="reverse_all">Xóa hết</string>
+    <string name="revoke_permission_dialog_content">Bạn sẽ không thể sao lưu hoặc khôi phục các mục nếu không được cho phép các quyền bắt buộc. Vẫn rút lại quyền?</string>
     <string name="router_backup_hint">Giữ thiết bị của bạn luôn mở</string>
     <string name="saturday">Thứ bảy</string>
     <string name="saturday_short">Th 7</string>
@@ -958,6 +1094,7 @@ Giải phóng dung lượng hoặc chuyển dữ liệu nhiều lần."</string>
     <string name="usb_trans_select_data_no_space">"Chỉ %s khả dụng trên ổ USB.
 Giải phóng dung lượng hoặc chỉ chuyển những mục quan trọng."</string>
     <string name="user_feedback">Phản hồi</string>
+    <string name="user_know_button_text">Tôi biết</string>
     <string name="user_name">ID Apple hoặc email</string>
     <string name="user_name_null">Tên người dùng không được để trống</string>
     <string name="user_notice_declaration_ignore">Không hiển thị lại</string>
@@ -974,17 +1111,7 @@ Không đóng trang trước khi kết nối được thiết lập."</string>
     <string name="wednesday_short">Th 4</string>
     <string name="wednesday_shortest">Th 4</string>
     <string name="wifi_title">Cài đặt Wi-Fi</string>
-    <string name="xiaomi_bytes_unit">%1$sB</string>
-    <string name="xiaomi_connect_download_manager_fail">Không thể bắt đầu tải xuống. Chắc chắn rằng Quản ý Tải xuống hoạt động bình thường.</string>
-    <string name="xiaomi_external_storage_unavailable">Lưu trữ không khả dụng, vui lòng kiểm tra thẻ SD.</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Bộ định tuyến Mi</string>
     <string name="xiaomi_router_location">Bộ định tuyến Mi %s</string>
-    <string name="xiaomi_update_dialog_message">"Giới thiệu phiên bản %1$s
-Kích thước: %2$s"</string>
-    <string name="xiaomi_update_dialog_message_diff">"Giới thiệu phiên bản %1$s
-Kích thước cập nhật Delta: %2$s"</string>
-    <string name="xiaomi_update_dialog_title">Tìm thấy phiên bản mới</string>
     <string name="yesterday">Hôm qua</string>
 </resources>

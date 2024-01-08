@@ -4,13 +4,13 @@
         <item quantity="other">1 giờ trước</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 giờ trước</item>
+        <item quantity="other">%d giờ trước</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Nửa giờ trước</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Trong 1 giờ</item>
+        <item quantity="other">Trong %d giờ</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Trong nửa giờ</item>
@@ -19,7 +19,7 @@
         <item quantity="other">Tức thì</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">sau %d phút</item>
+        <item quantity="other">Sau %d phút</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Vừa xong</item>
@@ -71,6 +71,9 @@
     </plurals>
     <plurals name="album_photo_count_text">
         <item quantity="other">%1$d mục</item>
+    </plurals>
+    <plurals name="all_story_count_desc">
+        <item quantity="other">%d kỷ niệm</item>
     </plurals>
     <plurals name="baby_album_sharer_recommand_new_pictures">
         <item quantity="other">%1$d ảnh của %2$s sẽ được thêm</item>
@@ -126,8 +129,8 @@
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">Đã chọn %d mục</item>
     </plurals>
-    <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Xóa %d ảnh chụp liên tiếp khỏi Xiaomi Cloud và tất cả các thiết bị được đồng bộ?</item>
+    <plurals name="delete_brust_title">
+        <item quantity="other">Xóa %d ảnh chụp liên tiếp?</item>
     </plurals>
     <plurals name="delete_burst_photo_from_local">
         <item quantity="other">Xóa %d ảnh chụp liên tiếp?</item>
@@ -141,14 +144,11 @@
     <plurals name="delete_media_from_local">
         <item quantity="other">Xóa %d mục?</item>
     </plurals>
-    <plurals name="delete_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Xóa %d ảnh khỏi tất cả thiết bị và Xiaomi Cloud?</item>
+    <plurals name="delete_media_title">
+        <item quantity="other">Xóa %d mục?</item>
     </plurals>
     <plurals name="delete_third_party_burst_photo">
         <item quantity="other">Xóa %d ảnh chụp liên tiếp từ thiết bị?</item>
-    </plurals>
-    <plurals name="delete_video_from_all_devices_and_cloud_msg">
-        <item quantity="other">Xóa %d video khỏi tất cả thiết bị và Xiaomi Cloud?</item>
     </plurals>
     <plurals name="download_error">
         <item quantity="other">Không thể tải xuống %1$d tập tin</item>
@@ -357,6 +357,9 @@
     <plurals name="send_processing_files_error">
         <item quantity="other">Không thể chia sẻ. Tiếp tục xử lý %d ảnh…</item>
     </plurals>
+    <plurals name="send_too_many_files_error">
+        <item quantity="other">Chọn tối đa %d mục để gửi</item>
+    </plurals>
     <plurals name="send_video_dialog_desc">
         <item quantity="other">%2$d video từ %1$s</item>
     </plurals>
@@ -374,6 +377,33 @@
     </plurals>
     <plurals name="send_zip_dialog_desc_receiving">
         <item quantity="other">Đang nhận %2$d tập tin nén (%3$s) từ %1$s…</item>
+    </plurals>
+    <plurals name="share_album_detail_photo_count">
+        <item quantity="other">Đã tải lên %d ảnh</item>
+    </plurals>
+    <plurals name="share_album_home_pref_rooms">
+        <item quantity="other">%1$d phòng</item>
+    </plurals>
+    <plurals name="share_album_home_pref_screen_devices">
+        <item quantity="other">%1$d màn hình</item>
+    </plurals>
+    <plurals name="share_album_home_pref_screens">
+        <item quantity="other">%1$d màn hình</item>
+    </plurals>
+    <plurals name="share_album_home_pref_share_home_summary">
+        <item quantity="other">%1$d màn hình chia sẻ</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_oversize">
+        <item quantity="other">%d mục quá lớn để đồng bộ</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_owner_upload_error">
+        <item quantity="other">Không thể đồng bộ %d mục. Nâng cấp gói lưu trữ của bạn.</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_retry">
+        <item quantity="other">Không thể đồng bộ %d mục. Thử lại.</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_sharer_upload_error">
+        <item quantity="other">Không thể đồng bộ %d mục. Chủ sở hữu của album này đã hết lưu trữ đám mây.</item>
     </plurals>
     <plurals name="slideshow_interval_value">
         <item quantity="other">%1$d giây</item>
@@ -426,6 +456,29 @@
     <plurals name="talkback_album_item_content">
         <item quantity="other">%1$s, %2$s mục</item>
     </plurals>
+    <plurals name="title_age_hint_day">
+        <item quantity="other">%d ngày</item>
+    </plurals>
+    <plurals name="title_age_hint_month">
+        <item quantity="other">%d tháng</item>
+    </plurals>
+    <plurals name="title_age_hint_year">
+        <item quantity="other">%d tuổi</item>
+    </plurals>
+    <plurals name="today_of_year_location_num_unit">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="today_of_year_photo_num_unit">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="tran_notification_complete_msg">
+        <item quantity="other">Không thể chuyển %1$d mục</item>
+    </plurals>
+    <plurals name="transfer_status_banner_msg_file_failed">
+        <item quantity="other">Không thể chuyển %1$d mục. Truy cập i.mi.com để tải xuống.</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_cloud">
         <item quantity="other">%d mục đã chọn sẽ bị xóa vĩnh viễn khỏi đám mây và tất cả các thiết bị đã đồng bộ. Vẫn xóa?</item>
     </plurals>
@@ -443,6 +496,12 @@
     </plurals>
     <plurals name="trash_vip_info_text_login">
         <item quantity="other">Các mục có thể được lưu trữ tại đây trong tối đa %1$d ngày (%2$s)</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_login_medium_or_low_level">
+        <item quantity="other">Các mục có thể được lưu trữ tại đây trong %1$s ngày. Chạm để kéo dài thời gian.</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_no_sync_server">
+        <item quantity="other">Đã xóa các mục được lưu trữ trên đám mây trong %1$d ngày</item>
     </plurals>
     <plurals name="trash_vip_info_text_unlogin">
         <item quantity="other">Các mục có thể được lưu trữ tại đây trong tối đa %1$d ngày. Nâng cấp gói của bạn để kéo dài thời gian.</item>

@@ -7,10 +7,10 @@
         <item quantity="many">Godzinę temu</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Godzinę temu</item>
-        <item quantity="one">Godzinę temu</item>
-        <item quantity="few">Godzinę temu</item>
-        <item quantity="many">Godzinę temu</item>
+        <item quantity="other">%d godz. temu</item>
+        <item quantity="one">%d godz. temu</item>
+        <item quantity="few">%d godz. temu</item>
+        <item quantity="many">%d godz. temu</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Pół godziny temu</item>
@@ -19,10 +19,10 @@
         <item quantity="many">Pół godziny temu</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Za godzinę</item>
-        <item quantity="one">Za godzinę</item>
-        <item quantity="few">Za godzinę</item>
-        <item quantity="many">Za godzinę</item>
+        <item quantity="other">Za %d godz.</item>
+        <item quantity="one">Za %d godz.</item>
+        <item quantity="few">Za %d godz.</item>
+        <item quantity="many">Za %d godz.</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Za pół godziny</item>
@@ -37,10 +37,10 @@
         <item quantity="many">Natychmiast</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">za %d min</item>
-        <item quantity="one">za 1 min</item>
-        <item quantity="few">za %d min</item>
-        <item quantity="many">za %d min</item>
+        <item quantity="other">Za %d min</item>
+        <item quantity="one">Za %d min</item>
+        <item quantity="few">Za %d min</item>
+        <item quantity="many">Za %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Teraz</item>
@@ -50,7 +50,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d min temu</item>
-        <item quantity="one">1 min temu</item>
+        <item quantity="one">%d min temu</item>
         <item quantity="few">%d min temu</item>
         <item quantity="many">%d min temu</item>
     </plurals>
@@ -143,6 +143,12 @@
         <item quantity="one">%1$d element</item>
         <item quantity="few">%1$d elementy</item>
         <item quantity="many">%1$d elementów</item>
+    </plurals>
+    <plurals name="all_story_count_desc">
+        <item quantity="other">%d wspomnienia</item>
+        <item quantity="one">%d wspomnienie</item>
+        <item quantity="few">%d wspomnienia</item>
+        <item quantity="many">%d wspomnień</item>
     </plurals>
     <plurals name="baby_album_sharer_recommand_new_pictures">
         <item quantity="other">%1$d zdjęć %2$s zostanie dodanych</item>
@@ -252,11 +258,11 @@
         <item quantity="few">%d zaznaczone elementy</item>
         <item quantity="many">%d zaznaczonych elementów</item>
     </plurals>
-    <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Usunąć %d zdjęć seryjnych z Chmury Xiaomi i wszystkich zsynchronizowanych urządzeń?</item>
-        <item quantity="one">Usunąć %d zdjęcie seryjne z Chmury Xiaomi i wszystkich zsynchronizowanych urządzeń?</item>
-        <item quantity="few">Usunąć %d zdjęcia seryjne z Chmury Xiaomi i wszystkich zsynchronizowanych urządzeń?</item>
-        <item quantity="many">Usunąć %d zdjęć seryjnych z Chmury Xiaomi i wszystkich zsynchronizowanych urządzeń?</item>
+    <plurals name="delete_brust_title">
+        <item quantity="other">Usunąć %d zdjęcia seryjnego?</item>
+        <item quantity="one">Usunąć %d zdjęcie seryjne?</item>
+        <item quantity="few">Usunąć %d zdjęcia seryjne?</item>
+        <item quantity="many">Usunąć %d zdjęć seryjnych?</item>
     </plurals>
     <plurals name="delete_burst_photo_from_local">
         <item quantity="other">Usunąć %d zdjęć seryjnych?</item>
@@ -282,23 +288,17 @@
         <item quantity="few">Usunąć %d elementy?</item>
         <item quantity="many">Usunąć %d elementów?</item>
     </plurals>
-    <plurals name="delete_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Usunąć %d zdjęć ze wszystkich urządzeń i Chmury Xiaomi?</item>
-        <item quantity="one">Usunąć %d zdjęcie ze wszystkich urządzeń i Chmury Xiaomi?</item>
-        <item quantity="few">Usunąć %d zdjęcia ze wszystkich urządzeń i Chmury Xiaomi?</item>
-        <item quantity="many">Usunąć %d zdjęć ze wszystkich urządzeń i Chmury Xiaomi?</item>
+    <plurals name="delete_media_title">
+        <item quantity="other">Usunąć %d elementu?</item>
+        <item quantity="one">Usunąć %d element?</item>
+        <item quantity="few">Usunąć %d elementy?</item>
+        <item quantity="many">Usunąć %d elementów?</item>
     </plurals>
     <plurals name="delete_third_party_burst_photo">
         <item quantity="other">Usunąć %d zdjęć seryjnych z tego urządzenia?</item>
         <item quantity="one">Usunąć %d zdjęcie seryjne z tego urządzenia?</item>
         <item quantity="few">Usunąć %d zdjęcia seryjne z tego urządzenia?</item>
         <item quantity="many">Usunąć %d zdjęć seryjnych z tego urządzenia?</item>
-    </plurals>
-    <plurals name="delete_video_from_all_devices_and_cloud_msg">
-        <item quantity="other">Usunąć %d wideo ze wszystkich urządzeń i Chmury Xiaomi?</item>
-        <item quantity="one">Usunąć %d wideo ze wszystkich urządzeń i Chmury Xiaomi?</item>
-        <item quantity="few">Usunąć %d wideo ze wszystkich urządzeń i Chmury Xiaomi?</item>
-        <item quantity="many">Usunąć %d wideo ze wszystkich urządzeń i Chmury Xiaomi?</item>
     </plurals>
     <plurals name="download_error">
         <item quantity="other">Nie udało się pobrać %1$d plików</item>
@@ -714,6 +714,12 @@
         <item quantity="few">Nie udało się udostępnić. Nadal przetwarzane %d zdjęcia…</item>
         <item quantity="many">Nie udało się udostępnić. Nadal przetwarzane %d zdjęć…</item>
     </plurals>
+    <plurals name="send_too_many_files_error">
+        <item quantity="other">Wybierz maks. %d elementu do wysłania</item>
+        <item quantity="one">Wybierz maks. %d element do wysłania</item>
+        <item quantity="few">Wybierz maks. %d elementy do wysłania</item>
+        <item quantity="many">Wybierz maks. %d elementów do wysłania</item>
+    </plurals>
     <plurals name="send_video_dialog_desc">
         <item quantity="other">%2$d wideo od %1$s</item>
         <item quantity="one">%2$d wideo od %1$s</item>
@@ -749,6 +755,60 @@
         <item quantity="one">Otrzymywanie %2$d katalogu (%3$s) od %1$s…</item>
         <item quantity="few">Otrzymywanie %2$d katalogów (%3$s) od %1$s…</item>
         <item quantity="many">Otrzymywanie %2$d katalogów (%3$s) od %1$s…</item>
+    </plurals>
+    <plurals name="share_album_detail_photo_count">
+        <item quantity="other">Przesłano %d zdjęcia</item>
+        <item quantity="one">Przesłano %d zdjęcie</item>
+        <item quantity="few">Przesłano %d zdjęcia</item>
+        <item quantity="many">Przesłano %d zdjęć</item>
+    </plurals>
+    <plurals name="share_album_home_pref_rooms">
+        <item quantity="other">%1$d pokoju</item>
+        <item quantity="one">%1$d pokój</item>
+        <item quantity="few">%1$d pokoje</item>
+        <item quantity="many">%1$d pokoi</item>
+    </plurals>
+    <plurals name="share_album_home_pref_screen_devices">
+        <item quantity="other">%1$d ekranu</item>
+        <item quantity="one">%1$d ekran</item>
+        <item quantity="few">%1$d ekrany</item>
+        <item quantity="many">%1$d ekranów</item>
+    </plurals>
+    <plurals name="share_album_home_pref_screens">
+        <item quantity="other">%1$d ekranu</item>
+        <item quantity="one">%1$d ekran</item>
+        <item quantity="few">%1$d ekrany</item>
+        <item quantity="many">%1$d ekranów</item>
+    </plurals>
+    <plurals name="share_album_home_pref_share_home_summary">
+        <item quantity="other">%1$d współdzielonego ekranu</item>
+        <item quantity="one">%1$d współdzielony ekran</item>
+        <item quantity="few">%1$d współdzielone ekrany</item>
+        <item quantity="many">%1$d współdzielonych ekranów</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_oversize">
+        <item quantity="other">%d elementu jest za duże, aby zsynchronizować</item>
+        <item quantity="one">%d element jest za duży, aby go zsynchronizować</item>
+        <item quantity="few">%d elementy są za duże, aby je zsynchronizować</item>
+        <item quantity="many">%d elementów jest za dużych, aby je zsynchronizować</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_owner_upload_error">
+        <item quantity="other">Nie udało się zsynchronizować %d elementu. Zaktualizuj swój plan przestrzeni dyskowej.</item>
+        <item quantity="one">Nie udało się zsynchronizować %d elementu. Zaktualizuj swój plan przestrzeni dyskowej.</item>
+        <item quantity="few">Nie udało się zsynchronizować %d elementów. Zaktualizuj swój plan przestrzeni dyskowej.</item>
+        <item quantity="many">Nie udało się zsynchronizować %d elementów. Zaktualizuj swój plan przestrzeni dyskowej.</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_retry">
+        <item quantity="other">Nie udało się zsynchronizować %d elementu. Spróbuj ponownie.</item>
+        <item quantity="one">Nie udało się zsynchronizować %d elementu. Spróbuj ponownie.</item>
+        <item quantity="few">Nie udało się zsynchronizować %d elementów. Spróbuj ponownie.</item>
+        <item quantity="many">Nie udało się %d elementów. Spróbuj ponownie.</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_sharer_upload_error">
+        <item quantity="other">Nie udało się zsynchronizować %d elementu. Właściciel tego albumu nie ma wolnego miejsca w chmurze.</item>
+        <item quantity="one">Nie udało się zsynchronizować %d elementu. Właściciel tego albumu nie ma wolnego miejsca w chmurze.</item>
+        <item quantity="few">Nie udało się zsynchronizować %d elementów. Właściciel tego albumu nie ma wolnego miejsca w chmurze.</item>
+        <item quantity="many">Nie udało się zsynchronizować %d elementów. Właściciel tego albumu nie ma wolnego miejsca w chmurze.</item>
     </plurals>
     <plurals name="slideshow_interval_value">
         <item quantity="other">%1$d sekund</item>
@@ -852,6 +912,44 @@
         <item quantity="few">%1$s, %2$s elementy</item>
         <item quantity="many">%1$s, %2$s elementów</item>
     </plurals>
+    <plurals name="title_age_hint_day">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+        <item quantity="few">%d days</item>
+        <item quantity="many">%d days</item>
+    </plurals>
+    <plurals name="title_age_hint_month">
+        <item quantity="other">%d miesiąca</item>
+        <item quantity="one">%d miesiąc</item>
+        <item quantity="few">%d miesiące</item>
+        <item quantity="many">%d miesięcy</item>
+    </plurals>
+    <plurals name="title_age_hint_year">
+        <item quantity="other">%d lat i</item>
+        <item quantity="one">%d rok i</item>
+        <item quantity="few">%d lata i</item>
+        <item quantity="many">%d lat i</item>
+    </plurals>
+    <plurals name="today_of_year_location_num_unit">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="today_of_year_photo_num_unit">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="tran_notification_complete_msg">
+        <item quantity="other">Nie udało się przesłać %1$d elementu</item>
+        <item quantity="one">Nie udało się przesłać %1$d elementu</item>
+        <item quantity="few">Nie udało się przesłać %1$d elementów</item>
+        <item quantity="many">Nie udało się przesłać %1$d elementów</item>
+    </plurals>
+    <plurals name="transfer_status_banner_msg_file_failed">
+        <item quantity="other">Nie udało się przesłać %1$d elementu. Odwiedź i.mi.com, aby je pobrać.</item>
+        <item quantity="one">Nie udało się przesłać %1$d elementu. Odwiedź i.mi.com, aby go pobrać.</item>
+        <item quantity="few">Nie udało się przesłać %1$d elementów. Odwiedź i.mi.com, aby je pobrać.</item>
+        <item quantity="many">Nie udało się przesłać %1$d elementów. Odwiedź i.mi.com, aby je pobrać.</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_cloud">
         <item quantity="other">%d wybrane elementy zostaną usunięte na stałe z chmury i wszystkich zsynchronizowanych urządzeń. Usunąć?</item>
         <item quantity="one">%d wybrany element zostanie usunięty na stałe z chmury i wszystkich zsynchronizowanych urządzeń. Usunąć?</item>
@@ -887,6 +985,18 @@
         <item quantity="one">Elementy mogą być tu przechowywane przez %1$d dzień (%2$s)</item>
         <item quantity="few">Elementy mogą być tu przechowywane przez %1$d dni (%2$s)</item>
         <item quantity="many">Elementy mogą być tu przechowywane przez %1$d dni (%2$s)</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_login_medium_or_low_level">
+        <item quantity="other">Elementy mogą być tu przechowywane przez %1$s dnia. Dotknij, aby wydłużyć okres przechowywania.</item>
+        <item quantity="one">Elementy mogą być tu przechowywane przez %1$s dzień. Dotknij, aby wydłużyć okres przechowywania.</item>
+        <item quantity="few">Elementy mogą być tu przechowywane przez %1$s dni. Dotknij, aby wydłużyć okres przechowywania.</item>
+        <item quantity="many">Elementy mogą być tu przechowywane przez %1$s dni. Dotknij, aby wydłużyć okres przechowywania.</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_no_sync_server">
+        <item quantity="other">Usunięte elementy są przechowywane w chmurze przez %1$d dni</item>
+        <item quantity="one">Usunięte elementy są przechowywane w chmurze przez %1$d dzień</item>
+        <item quantity="few">Usunięte elementy są przechowywane w chmurze przez %1$d dni</item>
+        <item quantity="many">Usunięte elementy są przechowywane w chmurze przez %1$d dni</item>
     </plurals>
     <plurals name="trash_vip_info_text_unlogin">
         <item quantity="other">Elementy mogą być tu przechowywane przez %1$d dni. Rozszerz swój plan, aby przedłużyć ten okres.</item>

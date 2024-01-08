@@ -7,10 +7,10 @@
         <item quantity="many">Годину тому</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Годину тому</item>
-        <item quantity="one">Годину тому</item>
-        <item quantity="few">Годину тому</item>
-        <item quantity="many">Годину тому</item>
+        <item quantity="other">%d год назад</item>
+        <item quantity="one">%d год назад</item>
+        <item quantity="few">%d год назад</item>
+        <item quantity="many">%d год назад</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Півгодини тому</item>
@@ -19,10 +19,10 @@
         <item quantity="many">Півгодини тому</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Через годину</item>
-        <item quantity="one">Через годину</item>
-        <item quantity="few">Через годину</item>
-        <item quantity="many">Через годину</item>
+        <item quantity="other">Через %d год</item>
+        <item quantity="one">Через %d год</item>
+        <item quantity="few">Через %d год</item>
+        <item quantity="many">Через %d год</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Через півгодини</item>
@@ -37,10 +37,10 @@
         <item quantity="many">Негайно</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">через %d хв</item>
-        <item quantity="one">через 1 хв</item>
-        <item quantity="few">через %d хв</item>
-        <item quantity="many">через %d хв</item>
+        <item quantity="other">Через %d хв</item>
+        <item quantity="one">Через %d хв</item>
+        <item quantity="few">Через %d хв</item>
+        <item quantity="many">Через %d хв</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Тільки що</item>
@@ -49,16 +49,22 @@
         <item quantity="many">Тільки що</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d хв тому</item>
-        <item quantity="one">1 хв тому</item>
-        <item quantity="few">%d хв тому</item>
-        <item quantity="many">%d хв тому</item>
+        <item quantity="other">%d хв назад</item>
+        <item quantity="one">%d хв назад</item>
+        <item quantity="few">%d хв назад</item>
+        <item quantity="many">%d хв назад</item>
     </plurals>
     <plurals name="add_game_notification_title">
         <item quantity="other">Додано ігор: %d</item>
         <item quantity="one">Додано ігор: %d</item>
         <item quantity="few">Додано ігор: %d</item>
         <item quantity="many">Додано ігор: %d</item>
+    </plurals>
+    <plurals name="added_apps_count">
+        <item quantity="other">Додано програм: %d</item>
+        <item quantity="one">Додано програм: %d</item>
+        <item quantity="few">Додано програм: %d</item>
+        <item quantity="many">Додано програм: %d</item>
     </plurals>
     <plurals name="app_behavior_dashboard_title_desc">
         <item quantity="other">%d програм</item>
@@ -71,30 +77,6 @@
         <item quantity="one">%d програма</item>
         <item quantity="few">%d програми</item>
         <item quantity="many">%d програм</item>
-    </plurals>
-    <plurals name="app_behavior_desc_allow">
-        <item quantity="other">Дозволено %3$d разів між %1$s та %2$s</item>
-        <item quantity="one">Дозволено %3$d раз між %1$s та %2$s</item>
-        <item quantity="few">Дозволено %3$d рази між %1$s та %2$s</item>
-        <item quantity="many">Дозволено %3$d разів між %1$s та %2$s</item>
-    </plurals>
-    <plurals name="app_behavior_desc_allow_minute">
-        <item quantity="other">Було дозволено %2$d раз о %1$s</item>
-        <item quantity="one">Було дозволено %2$d раз о %1$s</item>
-        <item quantity="few">Було дозволено %2$d рази о %1$s</item>
-        <item quantity="many">Було дозволено %2$d раз о %1$s</item>
-    </plurals>
-    <plurals name="app_behavior_desc_deny">
-        <item quantity="other">Заборонено %3$d разів між %1$s та %2$s</item>
-        <item quantity="one">Заборонено %3$d раз між %1$s та %2$s</item>
-        <item quantity="few">Заборонено %3$d рази між %1$s та %2$s</item>
-        <item quantity="many">Заборонено %3$d разів між %1$s та %2$s</item>
-    </plurals>
-    <plurals name="app_behavior_desc_deny_minute">
-        <item quantity="other">Було відхилено %2$d разів о %1$s</item>
-        <item quantity="one">Було відхилено %2$d раз о %1$s</item>
-        <item quantity="few">Було відхилено %2$d рази о %1$s</item>
-        <item quantity="many">Було відхилено %2$d разів о %1$s</item>
     </plurals>
     <plurals name="app_behavior_desc_duration_usage">
         <item quantity="other">Дозволено %3$d разів між %1$s та %2$s</item>
@@ -114,59 +96,11 @@
         <item quantity="few">Використано протягом %1$d хвилин до %2$s.</item>
         <item quantity="many">Використано протягом %1$d хвилин до %2$s.</item>
     </plurals>
-    <plurals name="app_behavior_desc_virtual">
-        <item quantity="other">Відправлено %3$d порожніх повідомлення у проміжку між %1$s та %2$s</item>
-        <item quantity="one">Відправлено %3$d порожнє повідомлення у проміжку між %1$s та %2$s</item>
-        <item quantity="few">Відправлено %3$d порожніх повідомлення у проміжку між %1$s та %2$s</item>
-        <item quantity="many">Відправлено %3$d порожніх повідомлення у проміжку між %1$s та %2$s</item>
-    </plurals>
-    <plurals name="app_behavior_desc_virtual_minute">
-        <item quantity="other">Було повернено %2$d пустих повідомлень о %1$s</item>
-        <item quantity="one">Було повернено %2$d пусте повідомлення о %1$s</item>
-        <item quantity="few">Було повернено %2$d пустих повідомлення о %1$s</item>
-        <item quantity="many">Було повернено %2$d пустих повідомлень о %1$s</item>
-    </plurals>
-    <plurals name="app_behavior_notification_audio_more">
-        <item quantity="other">%2$d програм, включаючи %1$1s, записують звук</item>
-        <item quantity="one">%2$d програма, включаючи %1$1s, записує звук</item>
-        <item quantity="few">%2$d програми, включаючи %1$1s, записують звук</item>
-        <item quantity="many">%2$d програм, включаючи %1$1s, записують звук</item>
-    </plurals>
-    <plurals name="app_behavior_notification_camera_more">
-        <item quantity="other">%2$d програм, включаючи %1$1s, роблять фото</item>
-        <item quantity="one">%2$d програма, включаючи %1$1s, роблять фото</item>
-        <item quantity="few">%2$d програми, включаючи %1$1s, роблять фото</item>
-        <item quantity="many">%2$d програм, включаючи %1$1s, роблять фото</item>
-    </plurals>
-    <plurals name="app_behavior_notification_location_more">
-        <item quantity="other">%2$d програм, включаючи %1$1s, отримують доступ до вашого місцезнаходження</item>
-        <item quantity="one">%2$d програма, включаючи %1$1s, отримують доступ до вашого місцезнаходження</item>
-        <item quantity="few">%2$d програми, включаючи %1$1s, отримують доступ до вашого місцезнаходження</item>
-        <item quantity="many">%2$d програм, включаючи %1$1s, отримують доступ до вашого місцезнаходження</item>
-    </plurals>
-    <plurals name="app_behavior_privacy_manager_off">
-        <item quantity="other">Ви не будете отримувати сповіщення про конфіденційні дії, які були виконані %1$d програмами</item>
-        <item quantity="one">Ви не будете отримувати сповіщення про конфіденційні дії, які були виконані %1$d програмою</item>
-        <item quantity="few">Ви не будете отримувати сповіщення про конфіденційні дії, які були виконані %1$d програмами</item>
-        <item quantity="many">Ви не будете отримувати сповіщення про конфіденційні дії, які були виконані %1$d програмами</item>
-    </plurals>
-    <plurals name="app_behavior_privacy_manager_on">
-        <item quantity="other">Ви отримаєте сповіщення про конфіденційні дії, які були виконані %1$d програмами</item>
-        <item quantity="one">Ви отримаєте сповіщення про конфіденційні дії, які були виконані %1$d програмою</item>
-        <item quantity="few">Ви отримаєте сповіщення про конфіденційні дії, які були виконані %1$d програмами</item>
-        <item quantity="many">Ви отримаєте сповіщення про конфіденційні дії, які були виконані %1$d програмами</item>
-    </plurals>
-    <plurals name="app_behavior_wakepath_multiple">
-        <item quantity="other">%1$1s запустив %2$d програм</item>
-        <item quantity="one">%1$1s запустив %2$d програму</item>
-        <item quantity="few">%1$1s запустив %2$d програми</item>
-        <item quantity="many">%1$1s запустив %2$d програм</item>
-    </plurals>
-    <plurals name="app_behavior_wakepath_multiple_single">
-        <item quantity="other">Ця програма запустила %1$d інших програм</item>
-        <item quantity="one">Ця програма запустила %1$d іншу програму</item>
-        <item quantity="few">Ця програма запустила %1$d інших програми</item>
-        <item quantity="many">Ця програма запустила %1$d інших програм</item>
+    <plurals name="app_behavior_record_close_content_text">
+        <item quantity="other">Записи дій програм будуть зберігатися на цьому пристрої протягом %d днів. Не рекомендується вимикати цю функцію, оскільки це призведе до видалення всіх записів.</item>
+        <item quantity="one">Записи дій програм будуть зберігатися на цьому пристрої протягом %d дня. Не рекомендується вимикати цю функцію, оскільки це призведе до видалення всіх записів.</item>
+        <item quantity="few">Записи дій програм будуть зберігатися на цьому пристрої протягом %d днів. Не рекомендується вимикати цю функцію, оскільки це призведе до видалення всіх записів.</item>
+        <item quantity="many">Записи дій програм будуть зберігатися на цьому пристрої протягом %d днів. Не рекомендується вимикати цю функцію, оскільки це призведе до видалення всіх записів.</item>
     </plurals>
     <plurals name="app_manager_permission_summary_accept">
         <item quantity="other">Надано дозволів: %d</item>
@@ -191,6 +125,12 @@
         <item quantity="one">Видалити %d програму</item>
         <item quantity="few">Видалити %d програми</item>
         <item quantity="many">Видалити %d програм</item>
+    </plurals>
+    <plurals name="app_manager_updater_title">
+        <item quantity="other">Оновити %d програм</item>
+        <item quantity="one">Оновити %d програму</item>
+        <item quantity="few">Оновити %d програми</item>
+        <item quantity="many">Оновити %d програм</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Запускалася %d днів тому</item>
@@ -308,6 +248,18 @@
         <item quantity="few">Перемотати назад на %d секунди</item>
         <item quantity="many">Перемотати назад на %d секунд</item>
     </plurals>
+    <plurals name="extreme_mode_runtime_hour">
+        <item quantity="other">%s год</item>
+        <item quantity="one">%s год</item>
+        <item quantity="few">%s год</item>
+        <item quantity="many">%s год</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_minute">
+        <item quantity="other">%s хв</item>
+        <item quantity="one">%s хв</item>
+        <item quantity="few">%s хв</item>
+        <item quantity="many">%s хв</item>
+    </plurals>
     <plurals name="find_applications">
         <item quantity="other">Пошук серед %d програм</item>
         <item quantity="one">%d програма</item>
@@ -368,6 +320,18 @@
         <item quantity="few">%1$s</item>
         <item quantity="many">%1$s</item>
     </plurals>
+    <plurals name="gamebooster_push_expiring_soon_link_message">
+        <item quantity="other">Your Game Turbo membership will expire in %d days.</item>
+        <item quantity="one">Your Game Turbo membership will expire in %d day.</item>
+        <item quantity="few">Your Game Turbo membership will expire in %d days.</item>
+        <item quantity="many">Your Game Turbo membership will expire in %d days.</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_message">
+        <item quantity="other">Термін дії вашого членства в Game Turbo закінчиться через %d днів. Продовжіть зараз, щоб насолоджуватися необмеженими іграми.</item>
+        <item quantity="one">Термін дії вашого членства в Game Turbo закінчиться через %d день. Продовжіть зараз, щоб насолоджуватися необмеженими іграми.</item>
+        <item quantity="few">Термін дії вашого членства в Game Turbo закінчиться через %d дні. Продовжіть зараз, щоб насолоджуватися необмеженими іграми.</item>
+        <item quantity="many">Термін дії вашого членства в Game Turbo закінчиться через %d днів. Продовжіть зараз, щоб насолоджуватися необмеженими іграми.</item>
+    </plurals>
     <plurals name="gb_ad_people_play">
         <item quantity="other">Грають %1$d людей</item>
         <item quantity="one">Грає %1$d людина</item>
@@ -385,6 +349,12 @@
         <item quantity="one">Видалити %2$d гру (включаючи %1$s)</item>
         <item quantity="few">Видалити %2$d гри (включаючи %1$s)</item>
         <item quantity="many">Видалити %2$d ігор (включаючи %1$s)</item>
+    </plurals>
+    <plurals name="gb_dialog_record_way_ai_desc">
+        <item quantity="other">Автоматично записуйте ключові моменти і створюйте відеоролики з основними моментами сеансу. Ви можете зберегти їх назавжди після кожної ігрової сесії. Незбережені відео будуть автоматично видалені після %1$d дн.</item>
+        <item quantity="one">Автоматично записуйте ключові моменти і створюйте відеоролики з основними моментами сеансу. Ви можете зберегти їх назавжди після кожної ігрової сесії. Незбережені відео будуть автоматично видалені після %1$d дн.</item>
+        <item quantity="few">Автоматично записуйте ключові моменти і створюйте відеоролики з основними моментами сеансу. Ви можете зберегти їх назавжди після кожної ігрової сесії. Незбережені відео будуть автоматично видалені після %1$d дн.</item>
+        <item quantity="many">Автоматично записуйте ключові моменти і створюйте відеоролики з основними моментами сеансу. Ви можете зберегти їх назавжди після кожної ігрової сесії. Незбережені відео будуть автоматично видалені після %1$d дн.</item>
     </plurals>
     <plurals name="gb_game_video_ai_record_finish_tips">
         <item quantity="other">Було збережено %d записів АІ до Game Turbo</item>
@@ -404,11 +374,37 @@
         <item quantity="few">Відмічено %d рази</item>
         <item quantity="many">Відмічено %d разів</item>
     </plurals>
+    <plurals name="gb_smart_battery_hrs">
+        <item quantity="other">%d год</item>
+        <item quantity="one">%d год</item>
+        <item quantity="few">%d год</item>
+        <item quantity="many">%d год</item>
+    </plurals>
+    <plurals name="gb_smart_battery_min">
+        <item quantity="other">%d хв</item>
+        <item quantity="one">%d хв</item>
+        <item quantity="few">%d хв</item>
+        <item quantity="many">%d хв</item>
+    </plurals>
     <plurals name="gb_toolbox_guide_known">
         <item quantity="other">Зрозуміло (%d сек)</item>
         <item quantity="one">Зрозуміло (%d сек)</item>
         <item quantity="few">Зрозуміло (%d сек)</item>
         <item quantity="many">Зрозуміло (%d сек)</item>
+    </plurals>
+    <plurals name="gb_vision_enhance_desc_detail">
+        <item quantity="other">"Нататка.
+Покращені візуальні ефекти будуть недоступні, якщо увімкнений режим \"Економія енергії\" або ваш пристрій перегрівся.
+Розумна частота кадрів дає найкращі результати, якщо в грі налаштовано відображення не менше %d кадрів за секунду."</item>
+        <item quantity="one">"Нататка.
+Покращені візуальні ефекти будуть недоступні, якщо увімкнений режим \"Економія енергії\" або ваш пристрій перегрівся.
+Розумна частота кадрів дає найкращі результати, якщо в грі налаштовано відображення не менше %d кадру за секунду."</item>
+        <item quantity="few">"Нататка.
+Покращені візуальні ефекти будуть недоступні, якщо увімкнений режим \"Економія енергії\" або ваш пристрій перегрівся.
+Розумна частота кадрів дає найкращі результати, якщо в грі налаштовано відображення не менше %d кадрів за секунду."</item>
+        <item quantity="many">"Нататка.
+Покращені візуальні ефекти будуть недоступні, якщо увімкнений режим \"Економія енергії\" або ваш пристрій перегрівся.
+Розумна частота кадрів дає найкращі результати, якщо в грі налаштовано відображення не менше %d кадрів за секунду."</item>
     </plurals>
     <plurals name="gb_voice_changer_toast_tips_window_bubble">
         <item quantity="other">"Спробуйте програму Зміна голосу зараз,
@@ -502,23 +498,35 @@
         <item quantity="few">Програми без автозапуску (%d)</item>
         <item quantity="many">Програми без автозапуску (%d)</item>
     </plurals>
+    <plurals name="hints_auto_start_disable_title_global">
+        <item quantity="other">%d програм не мають дозволу на запуск у фоні</item>
+        <item quantity="one">%d програма не має дозволу на запуск у фоні</item>
+        <item quantity="few">%d програми не мають дозволу на запуск у фоні</item>
+        <item quantity="many">%d програм не мають дозволу на запуск у фоні</item>
+    </plurals>
     <plurals name="hints_auto_start_enable_title">
         <item quantity="other">Програми з автозапуском (%d)</item>
         <item quantity="one">Програми з автозапуском (%d)</item>
         <item quantity="few">Програми з автозапуском (%d)</item>
         <item quantity="many">Програми з автозапуском (%d)</item>
     </plurals>
+    <plurals name="hints_auto_start_enable_title_global">
+        <item quantity="other">%d програм можуть запускатися у фоні</item>
+        <item quantity="one">%d програма може запускатися у фоні</item>
+        <item quantity="few">%d програми можуть запускатися у фоні</item>
+        <item quantity="many">%d програм можуть запускатися у фоні</item>
+    </plurals>
     <plurals name="hints_get_root_disable_title">
-        <item quantity="other">Програми без ROOT доступу (%d)</item>
-        <item quantity="one">Програми без ROOT доступу (%d)</item>
-        <item quantity="few">Програми без ROOT доступу (%d)</item>
-        <item quantity="many">Програми без ROOT доступу (%d)</item>
+        <item quantity="other">Програми без ROOT-доступу (%d)</item>
+        <item quantity="one">Програми без ROOT-доступу (%d)</item>
+        <item quantity="few">Програми без ROOT-доступу (%d)</item>
+        <item quantity="many">Програми без ROOT-доступу (%d)</item>
     </plurals>
     <plurals name="hints_get_root_enable_title">
-        <item quantity="other">Програми з ROOT доступом (%d)</item>
+        <item quantity="other">Програми з ROOT-доступом (%d)</item>
         <item quantity="one">Програми з ROOT доступом (%d)</item>
-        <item quantity="few">Програми з ROOT доступом (%d)</item>
-        <item quantity="many">Програми з ROOT доступом (%d)</item>
+        <item quantity="few">Програми з ROOT-доступом (%d)</item>
+        <item quantity="many">Програми з ROOT-доступом (%d)</item>
     </plurals>
     <plurals name="hints_handle_item_text_risk_number">
         <item quantity="other">%d загроз,</item>
@@ -694,17 +702,29 @@
         <item quantity="few">Введіть принаймні %d символа</item>
         <item quantity="many">Введіть принаймні %d символів</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового сповіщення</item>
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+    </plurals>
     <plurals name="net_booster_expire_notification_tip">
-        <item quantity="other">Залишилося %d днів до завершення сеансу збільшення швидкості мережі. Відновіть сеанс, щоб уникнути проблем з мережею.</item>
-        <item quantity="one">Залишився %d день до завершення сеансу збільшення швидкості мережі. Відновіть сеанс, щоб уникнути проблем з мережею.</item>
-        <item quantity="few">Залишилося %d дні до завершення сеансу збільшення швидкості мережі. Відновіть сеанс, щоб уникнути проблем з мережею.</item>
-        <item quantity="many">Залишилося %d днів до завершення сеансу збільшення швидкості мережі. Відновіть сеанс, щоб уникнути проблем з мережею.</item>
+        <item quantity="other">Сеанс збільшення швидкості мережі буде завершено через %d днів. Ви можете зіткнутися з затримками мережі. Продовжити сеанс?</item>
+        <item quantity="one">Сеанс збільшення швидкості мережі буде завершено через %d день. Ви можете зіткнутися з затримками мережі. Продовжити сеанс?</item>
+        <item quantity="few">Сеанс збільшення швидкості мережі буде завершено через %d дні. Ви можете зіткнутися з затримками мережі. Продовжити сеанс?</item>
+        <item quantity="many">Сеанс збільшення швидкості мережі буде завершено через %d днів. Ви можете зіткнутися з затримками мережі. Продовжити сеанс?</item>
     </plurals>
     <plurals name="network_restrict_count">
         <item quantity="other">"Доступ до мережі обмежено для &lt;font color='#ff0000'>%d&lt;/font> програм"</item>
         <item quantity="one">"Доступ до мережі обмежено для &lt;font color='#ff0000'>%d&lt;/font> програми"</item>
         <item quantity="few">"Доступ до мережі обмежено для &lt;font color='#ff0000'>%d&lt;/font> програм"</item>
         <item quantity="many">"Доступ до мережі обмежено для &lt;font color='#ff0000'>%d&lt;/font> програм"</item>
+    </plurals>
+    <plurals name="not_added_apps_count">
+        <item quantity="other">%d програм не було додано</item>
+        <item quantity="one">%d програму не було додано</item>
+        <item quantity="few">%d програми не було додано</item>
+        <item quantity="many">%d програм не було додано</item>
     </plurals>
     <plurals name="notification_antivirus_title">
         <item quantity="other">%d днів без перевірки</item>
@@ -791,10 +811,10 @@
         <item quantity="many">%d видимих сповіщень</item>
     </plurals>
     <plurals name="numeric_recording_incorrect_too_short">
-        <item quantity="other">Введіть принаймні %d знаків</item>
-        <item quantity="one">Введіть принаймні %d знак</item>
-        <item quantity="few">Введіть принаймні %d знака</item>
-        <item quantity="many">Введіть принаймні %d знаків</item>
+        <item quantity="other">Введіть принаймні %d цифр</item>
+        <item quantity="one">Введіть принаймні %d цифру</item>
+        <item quantity="few">Введіть принаймні %d цифри</item>
+        <item quantity="many">Введіть принаймні %d цифр</item>
     </plurals>
     <plurals name="om_locked_apps_title">
         <item quantity="other">Закріплено %d програм</item>
@@ -807,6 +827,12 @@
         <item quantity="one">%d програма</item>
         <item quantity="few">%d програми</item>
         <item quantity="many">%d програм</item>
+    </plurals>
+    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
+        <item quantity="other">%2$d програм, включаючи \"%1$s\", може бути шкідливою</item>
+        <item quantity="one">%2$d програма, включаючи \"%1$s\", може бути шкідливою</item>
+        <item quantity="few">%2$d програми, включаючи \"%1$s\", може бути шкідливою</item>
+        <item quantity="many">%2$d програм, включаючи \"%1$s\", може бути шкідливою</item>
     </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="other">+%d</item>
@@ -831,6 +857,18 @@
         <item quantity="one">" хв"</item>
         <item quantity="few">" хв"</item>
         <item quantity="many">" хв"</item>
+    </plurals>
+    <plurals name="pc_can_be_optimize_numbers">
+        <item quantity="other">"%d об'єктів"</item>
+        <item quantity="one">"%d об'єкт"</item>
+        <item quantity="few">"%d об'єкта"</item>
+        <item quantity="many">"%d об'єктів"</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title">
+        <item quantity="other">Батарея пристрою розряджена. Вхід в режим гібернації через %1$d секуд.</item>
+        <item quantity="one">Батарея пристрою розряджена. Вхід в режим гібернації через %1$d секуду.</item>
+        <item quantity="few">Батарея пристрою розряджена. Вхід в режим гібернації через %1$d секуди.</item>
+        <item quantity="many">Батарея пристрою розряджена. Вхід в режим гібернації через %1$d секуд.</item>
     </plurals>
     <plurals name="pc_main_power_center_battery_day">
         <item quantity="other">%s днів</item>
@@ -928,6 +966,18 @@
         <item quantity="few">Пристрій буде відключено через %d сек</item>
         <item quantity="many">Пристрій буде відключено через %d сек</item>
     </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">%s год</item>
+        <item quantity="one">%s год</item>
+        <item quantity="few">%s год</item>
+        <item quantity="many">%s год</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">%s хв</item>
+        <item quantity="one">%s хв</item>
+        <item quantity="few">%s хв</item>
+        <item quantity="many">%s хв</item>
+    </plurals>
     <plurals name="power_center_battery_charge_number">
         <item quantity="other">рази</item>
         <item quantity="one">раз</item>
@@ -969,6 +1019,12 @@
         <item quantity="one">"%d хв "</item>
         <item quantity="few">"%d хв "</item>
         <item quantity="many">"%d хв "</item>
+    </plurals>
+    <plurals name="power_center_battery_optimization">
+        <item quantity="other">Оптимізувати використання батареї у %d сценаріях</item>
+        <item quantity="one">Оптимізувати використання батареї у %d сценарії</item>
+        <item quantity="few">Оптимізувати використання батареї у %d сценаріях</item>
+        <item quantity="many">Оптимізувати використання батареї у %d сценаріях</item>
     </plurals>
     <plurals name="power_center_battery_problem">
         <item quantity="other">Виправити %d проблем з використання батареї</item>
@@ -1048,6 +1104,18 @@
         <item quantity="few">Заряду вистачить на %s хв</item>
         <item quantity="many">Заряду вистачить на %s хв</item>
     </plurals>
+    <plurals name="power_main_battery_last_minute_screen_on">
+        <item quantity="other">Залишилося %s хв екранного часу</item>
+        <item quantity="one">Залишилося %s хв екранного часу</item>
+        <item quantity="few">Залишилося %s хв екранного часу</item>
+        <item quantity="many">Залишилося %s хв екранного часу</item>
+    </plurals>
+    <plurals name="power_main_open_last_minute_screen_on">
+        <item quantity="other">Увімкніть, щоб додати %s хв екранного часу</item>
+        <item quantity="one">Увімкніть, щоб додати %s хв екранного часу</item>
+        <item quantity="few">Увімкніть, щоб додати %s хв екранного часу</item>
+        <item quantity="many">Увімкніть, щоб додати %s хв екранного часу</item>
+    </plurals>
     <plurals name="power_off_warning_button_ok_time">
         <item quantity="other">Зрозуміло (%d сек)</item>
         <item quantity="one">Зрозуміло (%d сек)</item>
@@ -1089,6 +1157,12 @@
         <item quantity="one">Програми з постійним доступом: %s</item>
         <item quantity="few">Програми з постійним доступом: %s</item>
         <item quantity="many">Програми з постійним доступом: %s</item>
+    </plurals>
+    <plurals name="privacy_permission_summary_allow">
+        <item quantity="other">Дозволено %s програмам</item>
+        <item quantity="one">Дозволено %s програмі</item>
+        <item quantity="few">Дозволено %s програмам</item>
+        <item quantity="many">Дозволено %s програмам</item>
     </plurals>
     <plurals name="privacy_pop_times">
         <item quantity="other">%s разів</item>
@@ -1258,6 +1332,24 @@
         <item quantity="few">Номерів: %d</item>
         <item quantity="many">Номерів: %d</item>
     </plurals>
+    <plurals name="storage_compact_warning">
+        <item quantity="other">Зміна %1$d дозволів</item>
+        <item quantity="one">Зміна %1$d дозволу</item>
+        <item quantity="few">Зміна %1$d дозволів</item>
+        <item quantity="many">Зміна %1$d дозволів</item>
+    </plurals>
+    <plurals name="storage_fbo_number_unit">
+        <item quantity="other">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> фрагментів</item>
+        <item quantity="one">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> фрагмент</item>
+        <item quantity="few">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> фрагмента</item>
+        <item quantity="many">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> фрагментів</item>
+    </plurals>
+    <plurals name="storage_ufs_number">
+        <item quantity="other">&lt;big>&lt;big>%s&lt;/big>&lt;/big> ГБ</item>
+        <item quantity="one">&lt;big>&lt;big>%s&lt;/big>&lt;/big> ГБ</item>
+        <item quantity="few">&lt;big>&lt;big>%s&lt;/big>&lt;/big> ГБ</item>
+        <item quantity="many">&lt;big>&lt;big>%s&lt;/big>&lt;/big> ГБ</item>
+    </plurals>
     <plurals name="summary_app_update">
         <item quantity="other">Доступні оновлення програм: %d</item>
         <item quantity="one">Доступні оновлення програм: %d</item>
@@ -1269,6 +1361,12 @@
         <item quantity="one">Статистика трафіку не синхронізована з оператором %d день</item>
         <item quantity="few">Статистика трафіку не синхронізована з оператором %d дні</item>
         <item quantity="many">Статистика трафіку не синхронізована з оператором %d днів</item>
+    </plurals>
+    <plurals name="system_anti_fraud_dialog_countdown_unit">
+        <item quantity="other">(%d сек)</item>
+        <item quantity="one">(%d сек)</item>
+        <item quantity="few">(%d сек)</item>
+        <item quantity="many">(%d сек)</item>
     </plurals>
     <plurals name="system_check_content">
         <item quantity="other">Захищено: %1$d</item>
@@ -1307,10 +1405,10 @@
         <item quantity="many">"З'єднайте принаймні %s точок"</item>
     </plurals>
     <plurals name="unlock_set_unlock_pin_summary_new">
-        <item quantity="other">Введіть %s символів</item>
-        <item quantity="one">Введіть %s символ</item>
-        <item quantity="few">Введіть %s символа</item>
-        <item quantity="many">Введіть %s символів</item>
+        <item quantity="other">Введіть %s цифр</item>
+        <item quantity="one">Введіть %s цифру</item>
+        <item quantity="few">Введіть %s цифри</item>
+        <item quantity="many">Введіть %s цифр</item>
     </plurals>
     <plurals name="videobox_settings_manager_apps_count">
         <item quantity="other">%d програм</item>
@@ -1339,6 +1437,12 @@
         <item quantity="one">Видалити %d вибрану програму?</item>
         <item quantity="few">Видалити %d вибрані програми?</item>
         <item quantity="many">Видалити %d вибраних програм?</item>
+    </plurals>
+    <plurals name="wakepath_allow_start_app_count">
+        <item quantity="other">%s програми</item>
+        <item quantity="one">%s програма</item>
+        <item quantity="few">%s програм</item>
+        <item quantity="many">%s програми</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Небезпечні програми: %d</item>

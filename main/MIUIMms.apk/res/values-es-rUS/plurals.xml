@@ -5,16 +5,16 @@
         <item quantity="one">Hace 1 hora</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Hace 1 hora</item>
-        <item quantity="one">Hace 1 hora</item>
+        <item quantity="other">Hace %d horas</item>
+        <item quantity="one">Hace %d hora</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Hace media hora</item>
         <item quantity="one">Hace media hora</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">En 1 hora</item>
-        <item quantity="one">En 1 hora</item>
+        <item quantity="other">En %d horas</item>
+        <item quantity="one">En %d hora</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">En media hora</item>
@@ -25,16 +25,16 @@
         <item quantity="one">Inmediatamente</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">en %d min</item>
-        <item quantity="one">en 1 min</item>
+        <item quantity="other">En %d minutos</item>
+        <item quantity="one">En %d minuto</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Ahora</item>
         <item quantity="one">Ahora mismo</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">Hace %d min</item>
-        <item quantity="one">Hace 1 min</item>
+        <item quantity="other">Hace %d minutos</item>
+        <item quantity="one">Hace %d minuto</item>
     </plurals>
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="other">¿Eliminar %1$s mensajes?</item>
@@ -96,6 +96,26 @@
         <item quantity="other">Marcado como %2$s por %1$d personas</item>
         <item quantity="one">Marcado como %2$s por %1$d persona</item>
     </plurals>
+    <plurals name="max_audio_length">
+        <item quantity="other">Los mensajes de audio pueden durar hasta %1$4d segundos</item>
+        <item quantity="one">Un mensaje de audio puede durar hasta %1$4d segundos</item>
+    </plurals>
+    <plurals name="max_file_size">
+        <item quantity="other">Enviar archivos de hasta %1$4d MB</item>
+        <item quantity="one">Enviar un archivo de hasta %1$4d MB</item>
+    </plurals>
+    <plurals name="max_recipients_size">
+        <item quantity="other">Enviar mensaje a %1$4d contactos</item>
+        <item quantity="one">Enviar mensaje a %1$4d contacto</item>
+    </plurals>
+    <plurals name="max_text_size">
+        <item quantity="other">Los mensajes pueden contener hasta %1$4d caracteres</item>
+        <item quantity="one">Un mensaje puede contener hasta %1$4d caracteres</item>
+    </plurals>
+    <plurals name="max_video_length">
+        <item quantity="other">Los vídeos pueden durar hasta %1$4d segundos</item>
+        <item quantity="one">Un vídeo puede durar hasta %1$4d segundos</item>
+    </plurals>
     <plurals name="message_count">
         <item quantity="other">%1$s mensajes</item>
         <item quantity="one">%1$s mensaje</item>
@@ -115,10 +135,6 @@
     <plurals name="rcs_group_notification_invitation_receive">
         <item quantity="other">Has recibido %d invitaciones a un chat de grupo</item>
         <item quantity="one">Has recibido %d invitación a un chat de grupo</item>
-    </plurals>
-    <plurals name="recipient_count">
-        <item quantity="other">%1$s personas</item>
-        <item quantity="one">%1$s persona</item>
     </plurals>
     <plurals name="search_results_title">
         <item quantity="other">%1$s resultados para %2$s\"</item>

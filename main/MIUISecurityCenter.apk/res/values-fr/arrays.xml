@@ -4,13 +4,13 @@
         <item>Une fois</item>
         <item>Tous les jours</item>
         <item>Jours ouvrés</item>
-        <item>Du lundi au vendredi</item>
+        <item>Jours de la semaine</item>
         <item>Personnalisée</item>
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
         <item>Une fois</item>
         <item>Tous les jours</item>
-        <item>Du lundi au vendredi</item>
+        <item>Jours de la semaine</item>
         <item>Personnalisé</item>
     </string-array>
     <string-array name="app_behavior_type_menu">
@@ -25,6 +25,10 @@
         <item>Code PIN</item>
         <item>Mot de passe</item>
     </string-array>
+    <string-array name="cache_sort_type">
+        <item>Taille</item>
+        <item>Nom</item>
+    </string-array>
     <string-array name="cellular_data_unit">
         <item>Go</item>
         <item>Mo</item>
@@ -36,14 +40,14 @@
     </string-array>
     <string-array name="daily_brand">
         <item>Personnaliser</item>
-        <item>Carte Mi Fan</item>
+        <item>Carte Xiaomi Fan</item>
         <item>Carte Xiao Tiansheng</item>
         <item>Carte Tencent King</item>
     </string-array>
     <string-array name="daily_rent_card_brands">
         <item>Personnaliser</item>
         <item>Mi Mobile</item>
-        <item>Carte Mi Fan</item>
+        <item>Carte Xiaomi Fan</item>
         <item>Carte Tianshen</item>
         <item>CarteTencent</item>
     </string-array>
@@ -72,18 +76,27 @@
         <item>"Hier: "</item>
         <item>"Aujourd'hui: "</item>
         <item>"Le mois dernier: "</item>
-        <item>"Ce mois-ci:  "</item>
+        <item>"Ce mois-ci: "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
         <item>"Cette semaine: "</item>
         <item>"Aujourd'hui: "</item>
-        <item>"Ce mois-ci:  "</item>
+        <item>"Ce mois-ci: "</item>
     </string-array>
     <string-array name="debug_open_intercept">
         <item>"Il sera possible d'accéder et de modifier des fichiers sur votre appareil à l'aide d'un ordinateur."</item>
         <item>"L'installation d'applications sur votre appareil sans votre autorisation explicite sera autorisée."</item>
         <item>"Vous pourrez surveiller et enregistrer votre contenu d'écran à distance."</item>
         <item>"Il sera possible d'accéder aux informations détaillées sur votre appareil."</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>x 0,25</item>
+        <item>x 0,5</item>
+        <item>x 0,75</item>
+        <item>Normal</item>
+        <item>x 1,25</item>
+        <item>x 1,5</item>
+        <item>x 2</item>
     </string-array>
     <string-array name="gb_adv_touch_custom_level">
         <item>Le plus bas</item>
@@ -111,11 +124,6 @@
         <item>"Lorsque l'appareil est verrouillé"</item>
         <item>"Lorsque l'appareil est verrouillé ou en sortant d'une application"</item>
         <item>"Lorsque l'appareil est verrouillé ou 1 minute après la sortie d'une application"</item>
-    </string-array>
-    <string-array name="lock_mode_value">
-        <item>1</item>
-        <item>0</item>
-        <item>2</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
         <item>"Utilisation des données mobiles "</item>
@@ -212,19 +220,17 @@
         <item>Utilisation de données</item>
         <item>Solde du téléphone</item>
     </string-array>
-    <string-array name="sort_title">
-        <item>Trier par état</item>
-        <item>Trier par nom</item>
-        <item>"Trier par fréquence d'utilisation"</item>
-        <item>Trier par stockage utilisé</item>
-        <item>"Trier par date d'installation"</item>
+    <string-array name="sort_title_new">
+        <item>"Tri par nom d'application"</item>
+        <item>Tri par les plus récemment utilisés</item>
+        <item>Tri par stockage utilisé</item>
+        <item>"Tri par temps d'installation"</item>
     </string-array>
-    <string-array name="sort_type">
-        <item>État</item>
+    <string-array name="sort_type_new">
         <item>"Nom de l'application"</item>
-        <item>"Fréquence d'utilisation"</item>
+        <item>Récemment utilisé</item>
         <item>Stockage utilisé</item>
-        <item>"Heure d'installation"</item>
+        <item>"Temps d'installation"</item>
     </string-array>
     <string-array name="tether_limit_warn_type">
         <item>Désactiver et notifier</item>

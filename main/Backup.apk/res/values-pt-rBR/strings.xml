@@ -34,6 +34,8 @@
     <string name="account_summary">Backup da Conta do Google, Conta Mi e outros dados do usuário</string>
     <string name="actionbar_button_up_description">Voltar</string>
     <string name="afternoon">Tarde</string>
+    <string name="agree_button">Aceitar</string>
+    <string name="agree_revoke_permission_title">Retirando permissões</string>
     <string name="alert_button_agree_and_continue">Permitir</string>
     <string name="alert_button_deny">Rejeitar</string>
     <string name="alert_message_backup_to_miasist">O Mi PC Suite está solicitando permissão para criar um backup em um computador. Permitir?</string>
@@ -45,6 +47,7 @@
     <string name="alert_title_backup_to_miasist">Fazer backup de itens com o Mi PC Suite?</string>
     <string name="alert_title_restore_from_miasist">Restaurar itens no seu telefone?</string>
     <string name="already_enable_encrypt">A criptografia já está ativada</string>
+    <string name="alternative_ui_content">Este recurso permite que você faça o backup e restaure itens usando seu dispositivo móvel e um computador. Este recurso precisa se conectar à internet e requer as seguintes permissões obrigatórias para funcionar normalmente:</string>
     <string name="am">AM</string>
     <string name="app_name">Backup</string>
     <string name="apps_and_data_item_desc">Apps e dados</string>
@@ -74,17 +77,42 @@
     <string name="backup_failed">Não foi possível fazer o backup</string>
     <string name="backup_file_error">Não foi possível fazer o backup</string>
     <string name="backup_finished">Backup concluído</string>
+    <string name="backup_for_broken_screen">Backups com a tela danificada</string>
     <string name="backup_hint">Mantenha seu dispositivo ligado</string>
     <string name="backup_hint_onpad">Mantenha seu dispositivo ligado</string>
     <string name="backup_hint_pad">Mantenha seu dispositivo ligado</string>
     <string name="backup_is_running">Fazendo o backup do dispositivo</string>
     <string name="backup_new">Novo:</string>
+    <string name="backup_notice_content">Os seus backups não serão criptografados, o que significa que eles poderão ser acessados ou modificados por apps terceiros. Outros riscos de segurança também podem ocorrer. Certifique-se de armazenar os seus itens de backup em um ambiente bem protegido.</string>
+    <string name="backup_notice_title">Atenção</string>
+    <string name="backup_notification_title">\"Backup\" está em execução…</string>
     <string name="backup_progress">Fazendo backup…</string>
     <string name="backup_report">Ver detalhes</string>
     <string name="backup_security_tips_message">Pode não ser possível fazer o backup ou restaurar alguns apps.</string>
     <string name="backup_security_tips_title">Backups podem não funcionar</string>
     <string name="backup_update">Atualizar</string>
     <string name="batch_delete_backup_confirm">Excluir os backups selecionados?</string>
+    <string name="bottomsheet_action_expand_halfway">Expandir até a metade</string>
+    <string name="broken_screen_rescue_service">Backups com a tela danificada</string>
+    <string name="broken_screen_rescue_service_content">Este recurso permite que você faça o backup de itens utilizando um cabo USB quando a tela do seu dispositivo for danificada ou não responder. Para fazer o backup de itens quando a tela não estiver disponível, você deve ativar este recurso quando ela ainda funciona adequadamente.</string>
+    <string name="broken_screen_rescue_service_disable">Desativar backups com a tela danificada</string>
+    <string name="broken_screen_rescue_service_enable">Ativar backups com a tela danificada</string>
+    <string name="broken_screen_rescue_service_learn_subcontent1">Peça que qualquer pessoa nos seus contatos te envie uma mensagem SMS no seguinte formato, substituindo a palavra com o seu bloqueio de tela: *#*#BLOQUEIODETELA#*#*</string>
+    <string name="broken_screen_rescue_service_learn_subcontent2">Quando a mensagem for enviada, conecte o dispositivo a um computador via USB para fazer o backup dos itens.</string>
+    <string name="broken_screen_rescue_service_learn_subtitle1">Ative este recurso</string>
+    <string name="broken_screen_rescue_service_learn_subtitle2">Fazer backup de itens</string>
+    <string name="broken_screen_rescue_service_learn_title">Como utilizar este recurso</string>
+    <string name="broken_screen_rescue_service_tips_1">%1$d. Se o seu bloqueio de tela é %2$d, a mensagem deverá ficar assim: *#*#%3$d#*#*. Se você estiver utilizando uma senha que contenha letras e números, peça que a outra pessoa os inclua sem omitir nenhum caractere.</string>
+    <string name="broken_screen_rescue_service_tips_2">%1$d. Se você estiver utilizando um padrão de desbloqueio, ele pode ser representado por dígitos na mensagem. O ponto no canto superior esquerdo é o %2$d. Os números vão da esquerda para a direita, linha após linha, e terminam com %3$d no canto inferior direito.</string>
+    <string name="broken_screen_rescue_service_tips_3">%1$d. Se você não estiver utilizando um bloqueio de tela, utilize \"nopassword\" ao invés dos caracteres representados na mensagem.</string>
+    <string name="broken_screen_rescue_service_tips_4">%1$d. Você terá apenas %2$d tentativas para ativar este recurso. Certifique-se de que a mensagem SMS que o seu contato enviar esteja no formato correto, e que a pessoa esteja registrada na sua agenda de contatos.</string>
+    <string name="broken_screen_rescue_service_tips_5">%1$d. Nós recomendamos que você utilize este recurso na presença de um de nossos representantes de suporte ao cliente.</string>
+    <string name="broken_screen_rescue_service_tips_6">%1$d. Se você não conseguir fazer o backup dos itens para o seu computador, você pode aprender como solucionar este problema em nossa documentação de ajuda.</string>
+    <string name="broken_screen_rescue_service_tips_title">Dicas</string>
+    <string name="broken_screen_rescue_service_turn_off">Desativar</string>
+    <string name="broken_screen_rescue_service_turn_off_confirm">Desativar backups com a tela danificada agora?</string>
+    <string name="broken_screen_rescue_service_turn_on">Ativar</string>
+    <string name="broken_screen_rescue_service_turn_on_confirm">Ativar backups com a tela danificada agora?</string>
     <string name="btn_got_it">Entendido</string>
     <string name="button_backup">Fazer backup</string>
     <string name="button_cancel">Cancelar</string>
@@ -98,7 +126,7 @@
     <string name="button_quit">Sair</string>
     <string name="button_return">Voltar</string>
     <string name="button_send">Enviar</string>
-    <string name="call_title">Registro de chamadas</string>
+    <string name="call_title">Histórico de chamadas</string>
     <string name="camera_summary">Configurações de câmera (sem incluir fotos)</string>
     <string name="camera_summary_for_cta">Configurações da câmera</string>
     <string name="cancel">Cancelar</string>
@@ -106,6 +134,12 @@
     <string name="cancel_moving_dialog_message">Parar a importação agora?</string>
     <string name="cancel_moving_dialog_title">Parar importação</string>
     <string name="cancel_restore">Parar</string>
+    <string name="category_contacts">Contatos</string>
+    <string name="category_message_contacts">Mensagens e Contatos</string>
+    <string name="character_counter_content_description">Caracteres inseridos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Limite de %2$d caracteres excedido em %1$d</string>
+    <string name="check_privacy_policy">Ver a Política de Privacidade</string>
+    <string name="clear_text_end_icon_content_description">Limpar texto</string>
     <string name="clearable_edittext_clear_description">Limpar</string>
     <string name="click_soft_ap_to_link">Selecione um hotspot para se conectar</string>
     <string name="click_to_view">Toque para ver</string>
@@ -191,6 +225,7 @@ https://appleid.apple.com/#!&amp;page=signin para desativar"</string>
     <string name="enable_local_backup">Ativar backups locais</string>
     <string name="enable_local_backup_and_restore">Ativar backups locais</string>
     <string name="enable_local_backup_tips">Ative este recurso para salvar backups neste dispositivo e copiá-los para o seu computador ou armazenamento USB. Ativar agora?</string>
+    <string name="enable_local_backup_tips_global">Ative este recurso para poder salvar backups neste dispositivo e salvá-los em seu computador. Ativar agora?</string>
     <string name="eras_ad">d.C</string>
     <string name="eras_bc">a.C</string>
     <string name="err_acquire_system_service">Não foi possível iniciar o serviço do sistema.</string>
@@ -209,16 +244,18 @@ https://appleid.apple.com/#!&amp;page=signin para desativar"</string>
     <string name="err_user_abort">Cancelado pelo usuário.</string>
     <string name="err_version_too_old">O arquivo de backup é muito antigo.</string>
     <string name="err_version_unsupported">A versão do backup não é suportada.</string>
+    <string name="error_icon_content_description">Erro</string>
     <string name="error_permissions">Este app não tem as permissões necessárias para acesso à Agenda. Vá nas Configurações e ative as permissões para continuar.</string>
     <string name="evening">Tarde</string>
     <string name="every_day">Diariamente</string>
     <string name="exchange_account">Trocar contas</string>
     <string name="expand_button_title">Avançado</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menu suspenso</string>
     <string name="fail">Falha</string>
     <string name="failed_description">Falha</string>
     <string name="feature_title_account">Conta Mi</string>
     <string name="feature_title_antispam">Lista de bloqueio</string>
-    <string name="feature_title_call_log">Registro de chamadas</string>
+    <string name="feature_title_call_log">Histórico de chamadas</string>
     <string name="feature_title_contacts">Contatos</string>
     <string name="feature_title_mms">MMS</string>
     <string name="feature_title_mms_setting">Configurações de mensagens</string>
@@ -291,6 +328,8 @@ Não altere ou renomeie os arquivos de backup."</string>
     <string name="friday_short">Sex</string>
     <string name="friday_shortest">Sex</string>
     <string name="gallery_summary">Configurações da Galeria (sem incluir fotos)</string>
+    <string name="grant_all_permission_content">Conceda todas as permissões obrigatórias para poder fazer o backup e restaurar itens.</string>
+    <string name="grant_all_permission_title">Permissões necessárias</string>
     <string name="guarded_mode_dialog_backup_message">Backups não são permitidos no Modo convidado.</string>
     <string name="guarded_mode_dialog_title">Você está no Modo convidado</string>
     <string name="guarded_mode_dialog_transfer_message">Não é possível usar o Mi Mover no Modo convidado.</string>
@@ -325,16 +364,14 @@ Não altere ou renomeie os arquivos de backup."</string>
 você precisa criar um backup na iCloud primeiro."</string>
     <string name="icloud_need_wifi_message">Você não está conectado ao Wi-Fi no momento. Para importar dados da iCloud, conecte-se ao Wi-Fi.</string>
     <string name="icloud_need_wifi_title">Conecte-se ao Wi-Fi</string>
+    <string name="icon_content_description">Ícone de caixa de diálogo</string>
     <string name="import_again">Importar novamente</string>
     <string name="import_data_from_icloud">Importar dados da iCloud</string>
-    <string name="import_from_xiaomi_account_hint1">"1.\u0009Baixe o Mi Talk e faça o login.
-\u0009http://www.miliao.com
-
-2.\u0009Vá nas configurações do Mi Talk e selecione \"Fazer backup de contatos para a Conta Mi\""</string>
     <string name="import_from_xiaomi_account_hint2">Se você já tem um backup, toque em Avançar.</string>
     <string name="import_from_xiaomi_account_hint_title">Use o Mi Talk para fazer backup de contatos entre dispositivos.</string>
     <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Devido a problemas de compatibilidade, só é possível transferir dados parciais de dispositivos iOS. Certifique-se de criar um backup na iCloud antes de iniciar a transferência.</string>
+    <string name="item_view_role_description">Guia</string>
     <string name="lack_perm_msg">O Mi Mover precisa das seguintes permissões: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Permissões necessárias</string>
     <string name="list_footer_tip_title">Dicas:</string>
@@ -383,17 +420,30 @@ você precisa criar um backup na iCloud primeiro."</string>
     <string name="login">Fazer login</string>
     <string name="login_failed">Não foi possível fazer o login. Tente novamente.</string>
     <string name="logining">Fazendo o login…</string>
+    <string name="material_clock_toggle_content_description">Selecionar AM ou PM</string>
+    <string name="material_hour_selection">Selecionar horário</string>
+    <string name="material_hour_suffix">%1$s em ponto</string>
+    <string name="material_minute_selection">Selecione os minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Alterne para o modo de relógio para informar o horário.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Selecionar horário</string>
+    <string name="material_timepicker_text_input_mode_description">Alterne para o modo de entrada de texto para informar o horário.</string>
     <string name="midnight">Noite</string>
     <string name="miliao_account_guide">Use sua Conta Mi para fazer login na Xiaomi Cloud, Temas MIUI e outros serviços Mi, de qualquer lugar.</string>
     <string name="miliao_account_login">Fazer login com o Mi Talk</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Desmarcar</string>
+    <string name="miuix_access_state_desc">Selecionado</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Desmarcar tudo</string>
     <string name="miuix_appcompat_action_mode_select_all">Selecionar tudo</string>
     <string name="miuix_appcompat_action_mode_title_empty">Selecionar itens</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mais</string>
     <string name="miuix_appcompat_cancel_description">Cancelar</string>
     <string name="miuix_appcompat_confirm_description">Confirmar</string>
     <string name="miuix_appcompat_delete_description">Excluir</string>
-    <string name="miuix_appcompat_deselect_all">Desmarcar</string>
+    <string name="miuix_appcompat_deselect_all">Desmarcar tudo</string>
     <string name="miuix_appcompat_deselect_all_description">Desmarcar tudo</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Cancelar</string>
     <string name="miuix_appcompat_search_input_description">Pesquisar</string>
@@ -450,6 +500,39 @@ você precisa criar um backup na iCloud primeiro."</string>
     <string name="month_september_shortest">Set</string>
     <string name="more">Mais</string>
     <string name="morning">Manhã</string>
+    <string name="mtrl_badge_numberless_content_description">Nova notificação</string>
+    <string name="mtrl_chip_close_icon_content_description">Remover %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Mais de %1$d novas notificações</string>
+    <string name="mtrl_picker_a11y_next_month">Alterar para o próximo mês</string>
+    <string name="mtrl_picker_a11y_prev_month">Alterar para o mês anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Seleção atual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecionar data</string>
+    <string name="mtrl_picker_date_header_unselected">Data selecionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Coluna de dias: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato inválido.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar %1$s</string>
+    <string name="mtrl_picker_invalid_range">Intervalo inválido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir para o ano %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fora do intervalo: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data de início – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Data de término</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecionar intervalo</string>
+    <string name="mtrl_picker_range_header_unselected">Data de início – Data de término</string>
+    <string name="mtrl_picker_save">Salvar</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data de término</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data de início</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Alternar para o modo de entrada da agenda</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toque para alternar para a seleção de um dia</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Alternar para o modo de entrada de texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toque para alternar para a seleção de um ano</string>
     <string name="multi_select_title">%1$s item(ns) selecionado(s)</string>
     <string name="multi_user_mode_backup_message">Não é possível usar o Backup no Modo multiusuário. Desative o Modo multiusuário para continuar.</string>
     <string name="multi_user_mode_dialog_message">Não é possível usar o Mi Mover no Modo multiusuário. Desative o Modo multiusuário para continuar.</string>
@@ -470,6 +553,10 @@ você precisa criar um backup na iCloud primeiro."</string>
     <string name="new_local_detail_description">"Observação:
 %1$d. Copie os backups para o seu computador para evitar a perda de dados. %2$s.
 %3$d. Os backups serão salvos em MIUI-Backup-AllBackup."</string>
+    <string name="new_local_detail_description_global">"Observação:
+%1$d. Copie backups para o seu computador para evitar a perda de dados. %2$s.
+%3$d. Os backups serão salvos em MIUI-Backup-AllBackup.
+%4$d. Alguns apps podem não suportar backups."</string>
     <string name="new_local_tab_backup">Fazer backup</string>
     <string name="new_local_tab_backup_pad">Fazer backup</string>
     <string name="new_local_tab_restore">Restaurar</string>
@@ -553,14 +640,57 @@ você precisa criar um backup na iCloud primeiro."</string>
     <string name="page_loading">Aguarde…</string>
     <string name="password">Senha</string>
     <string name="password_null">A senha não pode estar em branco</string>
+    <string name="password_toggle_content_description">Exibir senha</string>
     <string name="pause">Pausar</string>
     <string name="perm_camera">Câmera</string>
     <string name="perm_location">Localização</string>
-    <string name="perm_read_call_log">Ler o registro de chamadas</string>
+    <string name="perm_read_call_log">Ler o histórico de chamadas</string>
     <string name="perm_read_contacts">Ler contatos</string>
     <string name="perm_read_phone_state">Ler o status do telefone</string>
     <string name="perm_read_sms">Ler as mensagens SMS</string>
     <string name="perm_storage">Ler e escrever no armazenamento externo</string>
+    <string name="permission_admitted">Concedida</string>
+    <string name="permission_backup_calendar">Para fazer backup de eventos da agenda</string>
+    <string name="permission_backup_calendar_desc">Para poder fazer backup de eventos da agenda, permita que este app edite seus eventos da agenda primeiro.</string>
+    <string name="permission_backup_calllog">Para fazer o backup do histórico de chamadas</string>
+    <string name="permission_backup_calllog_desc">Para poder restaurar o histórico de chamadas, permita que este app acesse seu histórico de chamadas primeiro.</string>
+    <string name="permission_backup_contacts">Para fazer o backup dos contatos</string>
+    <string name="permission_backup_contacts_desc">Para poder fazer o backup dos contatos, permita que este app acesse seus contatos primeiro.</string>
+    <string name="permission_backup_file">Para o backup de itens</string>
+    <string name="permission_backup_sms">Para o backup de mensagens</string>
+    <string name="permission_backup_sms_desc">Para fazer o backup de mensagens, permita que este app acesse suas mensagens primeiro.</string>
+    <string name="permission_content_title">Permissões necessárias</string>
+    <string name="permission_dialog_positive_btn">Configurações</string>
+    <string name="permission_intro">Detalhes de permissões</string>
+    <string name="permission_management_entrance">Gerenciar permissões</string>
+    <string name="permission_not_admit">Não concedida</string>
+    <string name="permission_purpose">Este recurso permite que você faça backup e restaure itens usando seu dispositivo móvel, computadores e drives USB.</string>
+    <string name="permission_purpose_pad">Este recurso permite que você faça backup e restaure itens usando seu dispositivo móvel, computadores e drives USB.</string>
+    <string name="permission_read_apps">Acessar a lista de apps instalados neste dispositivo</string>
+    <string name="permission_read_calendar">Acessar eventos da agenda</string>
+    <string name="permission_read_calllog">Acessar o histórico de chamadas</string>
+    <string name="permission_read_contacts">Acessar contatos</string>
+    <string name="permission_read_sms">Acessar mensagens</string>
+    <string name="permission_read_storage">Acessar e salvar itens no armazenamento</string>
+    <string name="permission_read_storage_global">Acesso ao armazenamento</string>
+    <string name="permission_read_storage_global_pad">Acesso ao armazenamento</string>
+    <string name="permission_read_write_storage">Para fazer o backup de itens, permita que este recurso acesse o armazenamento primeiro.</string>
+    <string name="permission_read_write_sys_app">Para fazer ob backup e restaurar mensagens, contatos e o histórico de chamadas, permita que este recurso acesse estes itens primeiro.</string>
+    <string name="permission_read_write_sys_app1">Permita que este recurso acesse as suas mensgens e seus contatos para poder fazer o backup e restaurar estes itens.</string>
+    <string name="permission_read_write_sys_app2">Permita que este recurso acesse os seus contatos para poder fazer o backup e restaurar estes itens.</string>
+    <string name="permission_related">Permissões</string>
+    <string name="permission_restore_calendar">Para restaurar eventos da agenda</string>
+    <string name="permission_restore_calendar_desc">Para poder restaurar eventos da agenda, permita que este app edite seus eventos da agenda primeiro.</string>
+    <string name="permission_restore_calllog">Para restaurar o histórico de chamadas</string>
+    <string name="permission_restore_calllog_desc">Para poder restaurar o histórico de chamadas, este app precisa editar sua lista de histórico de chamadas.</string>
+    <string name="permission_restore_contacts">Para restaurar contatos</string>
+    <string name="permission_restore_contacts_desc">Para poder restaurar contatos, permita que este app edite seus contatos primeiro.</string>
+    <string name="permission_show_all_apps">Para exibir apps que podem ser salvos em backup</string>
+    <string name="permission_show_all_apps_desc">Para poder ver os apps que podem ser salvos em backup, permita que este app acesse a lista de apps instalados neste dispositivo primeiro.</string>
+    <string name="permission_write_calllog">Editar histórico de chamadas</string>
+    <string name="permission_write_contacts">Editar contatos</string>
+    <string name="permission_write_storage">Salvar itens no armazenamento</string>
+    <string name="permission_write_storage_pad">Salvar itens no armazenamento</string>
     <string name="phone_title">Configurações do telefone</string>
     <string name="platform_chooser_item_android_mi">Mi Phone</string>
     <string name="platform_chooser_item_android_others">Outras marcas</string>
@@ -568,6 +698,10 @@ você precisa criar um backup na iCloud primeiro."</string>
     <string name="platform_chooser_title">Escolher dispositivo antigo</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" copiado para a área de transferência.</string>
+    <string name="privacy_policy_link"><Data>"Para saber mais sobre nossa prática de processamento de dados e seus direitos como um usuário, leia e aceite a nossa &lt;a href='%1s'>Política de Privacidade&lt;/a> antes de continuar."</Data></string>
+    <string name="privacy_settings">Privacidade</string>
+    <string name="privacy_settings_title">Política de Privacidade</string>
+    <string name="private_policy_text">Política de Privacidade</string>
     <string name="progress_backup_hint">Fazendo backup…</string>
     <string name="progress_restore_hint">Restaurando…</string>
     <string name="prompt_reading">Lendo…</string>
@@ -586,6 +720,7 @@ você precisa criar um backup na iCloud primeiro."</string>
     <string name="restore_counts">Restauração:</string>
     <string name="restore_data">Escolher itens para restaurar</string>
     <string name="restore_failed">Não foi possível restaurar</string>
+    <string name="restore_files">Para restaurar itens</string>
     <string name="restore_finished">Restaurado com sucesso</string>
     <string name="restore_is_running">Restaurando o dispositivo</string>
     <string name="restore_launcher_layout_hit">Restaura as configurações da Tela Inicial</string>
@@ -594,6 +729,7 @@ você precisa criar um backup na iCloud primeiro."</string>
     <string name="restore_telephony_hit">A restauração reiniciará o app Telefone.</string>
     <string name="retry">Tente novamente</string>
     <string name="reverse_all">Desmarcar tudo</string>
+    <string name="revoke_permission_dialog_content">Você não poderá fazer backups ou restaurar itens sem todas as permissões obrigatórias. Retirar as permissões mesmo assim?</string>
     <string name="router_backup_hint">Mantenha seu dispositivo ligado</string>
     <string name="saturday">Sábado</string>
     <string name="saturday_short">Sáb</string>
@@ -772,7 +908,7 @@ Libere pelo menos %s."</string>
     <string name="trans_detail_category_account">Contas e contatos</string>
     <string name="trans_detail_category_audio_video_doc">Áudio, vídeo e arquivos</string>
     <string name="trans_detail_category_files">Arquivos</string>
-    <string name="trans_detail_category_sysdata">Dados do sistema (incluindo mensagens, contatos e registro de chamadas)</string>
+    <string name="trans_detail_category_sysdata">Dados do sistema (incluindo mensagens, contatos e histórico de chamadas)</string>
     <string name="trans_detail_category_user_app_data">Dados do app</string>
     <string name="trans_detail_category_userdata">Apps</string>
     <string name="trans_detail_category_wechat_qq">Dados do Wechat e QQ (incluindo histórico de chats)</string>
@@ -828,7 +964,7 @@ para baixar e instalar o Mi Mover."</string>
     <string name="trans_intro_desc_multiuser">O Mi Mover não pode acessar itens no Segundo Espaço. Mova os itens para o Primeiro Espaço e inicie o Mi Mover.</string>
     <string name="trans_intro_desc_new">Toque em \"Sou o destinatário\". Um código QR será gerado.</string>
     <string name="trans_intro_desc_old">Toque em \"Sou o remetente\". Leia o código QR no novo telefone, aguarde até o Mi Mover localizar arquivos para enviar, e toque em \"Enviar\".</string>
-    <string name="trans_intro_desc_old_market">Toque em \"Iniciar\". Digitlaize o código QR no seu novo telefone, espere até que o Mi Mover analise os arquivos a enviar, e toque em \"Enviar\".</string>
+    <string name="trans_intro_desc_old_market">Toque em \"Iniciar\". Digitalize o código QR no seu novo telefone, espere até que o Mi Mover analise os arquivos a enviar, e toque em \"Enviar\".</string>
     <string name="trans_intro_desc_private">O Mi Mover não pode acessar as fotos no álbum oculto porque elas são criptografadas. Você poderá restaurar estas fotos usando a Xiaomi Cloud no novo dispositivo.</string>
     <string name="trans_intro_question_1">%d. Como uso o Mi Mover para mover os dsdos de um dispositivo iOS?</string>
     <string name="trans_intro_question_10">%d. Não consegue encontrar o hotspot no dispositivo antigo?</string>
@@ -849,7 +985,7 @@ para baixar e instalar o Mi Mover."</string>
     <string name="trans_intro_title_new">Em um novo telefone:</string>
     <string name="trans_intro_title_old">Em um telefone antigo:</string>
     <string name="trans_intro_title_private">Álbum oculto:</string>
-    <string name="trans_main_tutor">Mover contatos, registro de chamadas, mensagens, layout da Tela inicial, apps, configurações, etc. para um novo dispositivo</string>
+    <string name="trans_main_tutor">Mover contatos, histórico de chamadas, mensagens, layout da Tela inicial, apps, configurações, etc. para um novo dispositivo</string>
     <string name="trans_my_device">Meu dispositivo</string>
     <string name="trans_native_no_space">"Não há espaço de armazenamento suficiente no dispositivo antigo (%s disponível).
 Libere espaço no armazenamento ou transfira apenas itens importantes."</string>
@@ -866,13 +1002,14 @@ Libere espaço no armazenamento ou transfira apenas itens importantes."</string>
     <string name="trans_operate_new_phone_tips">"Vá em Configurações > Configurações adicionais > Mi Mover
 Toque em [Sou o destinatário] para criar um código QR"</string>
     <string name="trans_operate_old_phone_tips1">"1. Instale o app Mi Mover no seu dispositivo antigo
-2. Abra o app e toque em Iniciar3. Leia o código QR com seu dispositivo antigo"</string>
+2. Abra o app e toque em Iniciar
+3. Leia o código QR com seu dispositivo antigo"</string>
     <string name="trans_operate_old_phone_tips2">Vá em Configurações > Configurações adicionais > Mi Mover, toque em [Sou o remetente]</string>
     <string name="trans_operate_reconnect_new_tips">"Aguarde até que o novo telefone exiba \"A conexão foi interrompida\".
 Então toque em \"Conectar novamente\" para criar um código QR."</string>
-    <string name="trans_operate_reconnect_old_tips">"Aguarde até que o telefone antigo exiba \"A conexão foi innterrompida\".
+    <string name="trans_operate_reconnect_old_tips">"Aguarde até que o telefone antigo exiba \"A conexão foi interrompida\".
 Então toque em \"Conectar novamente\" para ler o código QR."</string>
-    <string name="trans_operate_tip_for_other_android">Abra o Mi Mover no seu telemóvel antigo, toque em \"Iniciar\" e digitalize o código QR acima.</string>
+    <string name="trans_operate_tip_for_other_android">Abra o Mi Mover no seu telefone antigo, toque em \"Iniciar\" e digitalize o código QR acima.</string>
     <string name="trans_pausing">Pausando…</string>
     <string name="trans_please_waiting">Aguarde…</string>
     <string name="trans_progress_subdescript_br_receiver">Restaurando %1$s, %2$s concluído</string>
@@ -957,6 +1094,7 @@ Libere espaço ou faça várias transferências menores."</string>
     <string name="usb_trans_select_data_no_space">"Apenas %s estão disponíveis no seu drive USB.
 Libere algum espaço ou transfira só itens importantes."</string>
     <string name="user_feedback">Feedback</string>
+    <string name="user_know_button_text">Entendido</string>
     <string name="user_name">Apple ID ou e-mail</string>
     <string name="user_name_null">O usuário não pode estar em branco</string>
     <string name="user_notice_declaration_ignore">Não mostrar novamente</string>
@@ -973,17 +1111,7 @@ Não feche a página antes da conexão ser estabelecida."</string>
     <string name="wednesday_short">Qua</string>
     <string name="wednesday_shortest">Qua</string>
     <string name="wifi_title">Configurações de Wi-Fi</string>
-    <string name="xiaomi_bytes_unit">%1$sB</string>
-    <string name="xiaomi_connect_download_manager_fail">Não foi possível iniciar o download. Certifique-se que o Gerenciador de Downloads está funcionando normalmente.</string>
-    <string name="xiaomi_external_storage_unavailable">Armazenamento indisponível, verifique seu cartão SD.</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Mi Router</string>
     <string name="xiaomi_router_location">Mi Router %s</string>
-    <string name="xiaomi_update_dialog_message">"Introduzindo a versão %1$s
-Tamanho: %2$s"</string>
-    <string name="xiaomi_update_dialog_message_diff">"Introduzindo a versão %1$s
-Atualização incremental: %2$s"</string>
-    <string name="xiaomi_update_dialog_title">Atualização disponível</string>
     <string name="yesterday">Ontem</string>
 </resources>

@@ -5,16 +5,16 @@
         <item quantity="one">1 hora atrás</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 hora atrás</item>
-        <item quantity="one">1 hora atrás</item>
+        <item quantity="other">%d hora atrás</item>
+        <item quantity="one">%d hora atrás</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Meia hora atrás</item>
         <item quantity="one">Meia hora atrás</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Em 1 hora</item>
-        <item quantity="one">Em 1 hora</item>
+        <item quantity="other">Em %d hora</item>
+        <item quantity="one">Em %d hora</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Em meia hora</item>
@@ -26,7 +26,7 @@
     </plurals>
     <plurals name="abbrev_in_num_minutes">
         <item quantity="other">Em %d min</item>
-        <item quantity="one">Em 1 min</item>
+        <item quantity="one">Em %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Agora mesmo</item>
@@ -34,7 +34,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d min atrás</item>
-        <item quantity="one">1 min atrás</item>
+        <item quantity="one">%d min atrás</item>
     </plurals>
     <plurals name="add_secret_ensure_message">
         <item quantity="other">Adicionar estes itens ao álbum privado?</item>
@@ -95,6 +95,10 @@
     <plurals name="album_photo_count_text">
         <item quantity="other">%1$d itens</item>
         <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="all_story_count_desc">
+        <item quantity="other">%d memórias</item>
+        <item quantity="one">%d memória</item>
     </plurals>
     <plurals name="baby_album_sharer_recommand_new_pictures">
         <item quantity="other">%1$d fotos do bebê %2$s serão adicionadas</item>
@@ -168,9 +172,9 @@
         <item quantity="other">%d itens selecionados</item>
         <item quantity="one">%d item selecionado</item>
     </plurals>
-    <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Excluir %d disparos contínuos da Xiaomi Cloud e de todos os dispositivos sincronizados?</item>
-        <item quantity="one">Excluir %d disparo contínuo da Xiaomi Cloud e de todos os dispositivos sincronizados?</item>
+    <plurals name="delete_brust_title">
+        <item quantity="other">Excluir %d disparos contínuos?</item>
+        <item quantity="one">Excluir %d disparo contínuo?</item>
     </plurals>
     <plurals name="delete_burst_photo_from_local">
         <item quantity="other">Excluir %d disparos contínuos?</item>
@@ -188,17 +192,13 @@
         <item quantity="other">Excluir %d itens?</item>
         <item quantity="one">Excluir %d item?</item>
     </plurals>
-    <plurals name="delete_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Excluir %d fotos de todos os dispositivos e da Xiaomi Cloud?</item>
-        <item quantity="one">Excluir %d foto de todos os dispositivos e da Xiaomi Cloud?</item>
+    <plurals name="delete_media_title">
+        <item quantity="other">Excluir %d itens?</item>
+        <item quantity="one">Excluir %d item?</item>
     </plurals>
     <plurals name="delete_third_party_burst_photo">
         <item quantity="other">Excluir %d disparos contínuos do seu dispositivo?</item>
         <item quantity="one">Excluir %d disparo contínuo do seu dispositivo?</item>
-    </plurals>
-    <plurals name="delete_video_from_all_devices_and_cloud_msg">
-        <item quantity="other">Excluir %d vídeos de todos os dispositivos e da Xiaomi Cloud?</item>
-        <item quantity="one">Excluir %d vídeo de todos os dispositivos e da Xiaomi Cloud?</item>
     </plurals>
     <plurals name="download_error">
         <item quantity="other">Não foi possível baixar %1$d arquivos</item>
@@ -476,6 +476,10 @@
         <item quantity="other">Não foi possível compartilhar. Ainda processando %d fotos…</item>
         <item quantity="one">Não foi possível compartilhar. Ainda processando %d foto…</item>
     </plurals>
+    <plurals name="send_too_many_files_error">
+        <item quantity="other">Selecione até %d itens para enviar</item>
+        <item quantity="one">Selecione até %d item para enviar</item>
+    </plurals>
     <plurals name="send_video_dialog_desc">
         <item quantity="other">%2$d vídeos de %1$s</item>
         <item quantity="one">%2$d vídeo de %1$s</item>
@@ -499,6 +503,42 @@
     <plurals name="send_zip_dialog_desc_receiving">
         <item quantity="other">Recebendo %2$d arquivos (%3$s) de %1$s…</item>
         <item quantity="one">Recebendo %2$d arquivo (%3$s) de %1$s…</item>
+    </plurals>
+    <plurals name="share_album_detail_photo_count">
+        <item quantity="other">%d fotos enviadas</item>
+        <item quantity="one">%d foto enviada</item>
+    </plurals>
+    <plurals name="share_album_home_pref_rooms">
+        <item quantity="other">%1$d ambientes</item>
+        <item quantity="one">%1$d ambiente</item>
+    </plurals>
+    <plurals name="share_album_home_pref_screen_devices">
+        <item quantity="other">%1$d telas</item>
+        <item quantity="one">%1$d tela</item>
+    </plurals>
+    <plurals name="share_album_home_pref_screens">
+        <item quantity="other">%1$d telas</item>
+        <item quantity="one">%1$d tela</item>
+    </plurals>
+    <plurals name="share_album_home_pref_share_home_summary">
+        <item quantity="other">%1$d telas compartilhadas</item>
+        <item quantity="one">%1$d tela compartilhada</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_oversize">
+        <item quantity="other">%d itens são muito grandes para sincronizar</item>
+        <item quantity="one">%d item é muito grande para sincronizar</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_owner_upload_error">
+        <item quantity="other">Não foi possível sincronizar %d itens. Atualize o seu plano de armazenamento.</item>
+        <item quantity="one">Não foi possivel sincronizar %d item. Atualize o seu plano de armazenamento.</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_retry">
+        <item quantity="other">Não foi possível sincronizar %d itens. Tente novamente.</item>
+        <item quantity="one">Não foi possível sincronizar %d item. Tente novamente.</item>
+    </plurals>
+    <plurals name="share_album_sync_textline_sharer_upload_error">
+        <item quantity="other">Não foi possível sincronizar %d itens. O dono deste álbum está sem espaço de armazenamento na nuvem.</item>
+        <item quantity="one">Não foi possível sincronizar %d item. O dono deste álbum está sem espaço de armazenamento na nuvem.</item>
     </plurals>
     <plurals name="slideshow_interval_value">
         <item quantity="other">%1$d segundos</item>
@@ -568,6 +608,34 @@
         <item quantity="other">%1$s, %2$s itens</item>
         <item quantity="one">%1$s, %2$s item</item>
     </plurals>
+    <plurals name="title_age_hint_day">
+        <item quantity="other">%d dias</item>
+        <item quantity="one">%d dia</item>
+    </plurals>
+    <plurals name="title_age_hint_month">
+        <item quantity="other">%d meses</item>
+        <item quantity="one">%d mês</item>
+    </plurals>
+    <plurals name="title_age_hint_year">
+        <item quantity="other">%d anos</item>
+        <item quantity="one">%d ano</item>
+    </plurals>
+    <plurals name="today_of_year_location_num_unit">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="today_of_year_photo_num_unit">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="tran_notification_complete_msg">
+        <item quantity="other">Não foi possível transferir %1$d itens</item>
+        <item quantity="one">Não foi possível transferir %1$d item</item>
+    </plurals>
+    <plurals name="transfer_status_banner_msg_file_failed">
+        <item quantity="other">Não foi possível transferir %1$d itens. Acesse i.mi.com para baixá-los.</item>
+        <item quantity="one">Não foi possível transferir %1$d item. Acesse i.mi.com para baixá-lo.</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_cloud">
         <item quantity="other">%d itens selecionados serão excluídos permanentemente da nuvem e de todos os dispositivos sincronizados. Excluir mesmo assim?</item>
         <item quantity="one">%d item selecionado será excluído permanentemente da nuvem e de todos os dispositivos sincronizados. Excluir mesmo assim?</item>
@@ -591,6 +659,14 @@
     <plurals name="trash_vip_info_text_login">
         <item quantity="other">Itens podem ser armazenados aqui por até %1$d dias (%2$s)</item>
         <item quantity="one">Itens podem ser armazenados aqui por %1$d dia (%2$s)</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_login_medium_or_low_level">
+        <item quantity="other">Os itens podem ser armazenados aqui por %1$s dias. Toque para estender este período.</item>
+        <item quantity="one">Os itens podem ser armazenados aqui por %1$s dia. Toque para estender este período.</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_no_sync_server">
+        <item quantity="other">Itens excluídos são armazenados na nuvem por %1$d dias</item>
+        <item quantity="one">Itens excluídos são armazenados na nuvem por %1$d dia</item>
     </plurals>
     <plurals name="trash_vip_info_text_unlogin">
         <item quantity="other">Itens podem ser armazenados aqui por até %1$d dias. Faça o upgrade do seu plano para estender este período.</item>

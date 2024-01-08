@@ -7,10 +7,10 @@
         <item quantity="many">Godzinę temu</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Godzinę temu</item>
-        <item quantity="one">Godzinę temu</item>
-        <item quantity="few">Godzinę temu</item>
-        <item quantity="many">Godzinę temu</item>
+        <item quantity="other">%d godz. temu</item>
+        <item quantity="one">%d godz. temu</item>
+        <item quantity="few">%d godz. temu</item>
+        <item quantity="many">%d godz. temu</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Pół godziny temu</item>
@@ -19,10 +19,10 @@
         <item quantity="many">Pół godziny temu</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Za godzinę</item>
-        <item quantity="one">Za godzinę</item>
-        <item quantity="few">Za godzinę</item>
-        <item quantity="many">Za godzinę</item>
+        <item quantity="other">Za %d godz.</item>
+        <item quantity="one">Za %d godz.</item>
+        <item quantity="few">Za %d godz.</item>
+        <item quantity="many">Za %d godz.</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Za pół godziny</item>
@@ -37,10 +37,10 @@
         <item quantity="many">Natychmiast</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">za %d min</item>
-        <item quantity="one">za 1 min</item>
-        <item quantity="few">za %d min</item>
-        <item quantity="many">za %d min</item>
+        <item quantity="other">Za %d min</item>
+        <item quantity="one">Za %d min</item>
+        <item quantity="few">Za %d min</item>
+        <item quantity="many">Za %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Teraz</item>
@@ -50,9 +50,21 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">%d min temu</item>
-        <item quantity="one">1 min temu</item>
+        <item quantity="one">%d min temu</item>
         <item quantity="few">%d min temu</item>
         <item quantity="many">%d min temu</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_hour">
+        <item quantity="other">%s godz.</item>
+        <item quantity="one">%s godz.</item>
+        <item quantity="few">%s godz.</item>
+        <item quantity="many">%s godz.</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_minute">
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
+        <item quantity="few">%s min</item>
+        <item quantity="many">%s min</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Pół godziny temu</item>
@@ -97,15 +109,33 @@
         <item quantity="many">%d zaznaczonych elementów</item>
     </plurals>
     <plurals name="net_booster_expire_notification_tip">
-        <item quantity="other">Pozostało %d dni do zakończenia sesji zwiększania prędkości sieci. Przedłuż sesję, aby uniknąć problemów z prędkością sieci.</item>
-        <item quantity="one">Pozostał %d dzień do zakończenia sesji zwiększania prędkości sieci. Przedłuż sesję, aby uniknąć problemów z prędkością sieci.</item>
-        <item quantity="few">Pozostały %d dni do zakończenia sesji zwiększania prędkości sieci. Przedłuż sesję, aby uniknąć problemów z prędkością sieci.</item>
-        <item quantity="many">Pozostało %d dni do zakończenia sesji zwiększania prędkości sieci. Przedłuż sesję, aby uniknąć problemów z prędkością sieci.</item>
+        <item quantity="other">Sesja zwiększenia prędkości zakończy się za %d dnia. Mogą wystąpić opóźnienia sieci. Odnowić sesję?</item>
+        <item quantity="one">Sesja zwiększenia prędkości zakończy się za %d dzień. Mogą wystąpić opóźnienia sieci. Odnowić sesję?</item>
+        <item quantity="few">Sesja zwiększenia prędkości zakończy się za %d dni. Mogą wystąpić opóźnienia sieci. Odnowić sesję?</item>
+        <item quantity="many">Sesja zwiększenia prędkości zakończy się za %d dni. Mogą wystąpić opóźnienia sieci. Odnowić sesję?</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d minut temu</item>
         <item quantity="one">1 minutę temu</item>
         <item quantity="few">%d minuty temu</item>
         <item quantity="many">%d minut temu</item>
+    </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">%s godz.</item>
+        <item quantity="one">%s godz.</item>
+        <item quantity="few">%s godz.</item>
+        <item quantity="many">%s godz.</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
+        <item quantity="few">%s min</item>
+        <item quantity="many">%s min</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute_screen_on">
+        <item quantity="other">Pozostało czasu na ekranie: %s min</item>
+        <item quantity="one">Pozostało czasu na ekranie: %s min</item>
+        <item quantity="few">Pozostało czasu na ekranie: %s min</item>
+        <item quantity="many">Pozostało czasu na ekranie: %s min</item>
     </plurals>
 </resources>

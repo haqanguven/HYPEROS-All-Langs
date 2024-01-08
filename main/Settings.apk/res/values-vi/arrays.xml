@@ -1,34 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="agps_apn_entries">
-        <item>CMWAP</item>
-        <item>CMNET</item>
+    <string-array name="accessibility_button_gesture_selector_titles">
+        <item>Nút</item>
+        <item>Cử chỉ</item>
     </string-array>
-    <string-array name="agps_apn_values">
-        <item>0</item>
-        <item>1</item>
+    <string-array name="accessibility_button_location_selector_titles">
+        <item>Nổi trên các ứng dụng khác</item>
+        <item>Thanh điều hướng</item>
     </string-array>
-    <string-array name="agps_network_entries">
-        <item>Mạng gia đình</item>
-        <item>Tất cả mạng</item>
-    </string-array>
-    <string-array name="agps_network_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="agps_reset_type_entries">
-        <item>NÓNG</item>
-        <item>ẤM</item>
-        <item>LẠNH</item>
-    </string-array>
-    <string-array name="agps_reset_type_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="agps_si_mode_entries">
-        <item>MSB</item>
-        <item>MSA</item>
+    <string-array name="accessibility_button_size_selector_titles">
+        <item>Nhỏ</item>
+        <item>Lớn</item>
     </string-array>
     <string-array name="ai_key_item_name">
         <item>Trò chuyện với Google Assistant</item>
@@ -36,7 +18,7 @@
         <item>Mở camera sau</item>
         <item>Mở camera trước</item>
         <item>Mở ứng dụng trước</item>
-        <item>Bật Đèn Flash</item>
+        <item>Bật đèn Flash</item>
         <item>Bật chế độ Đọc sách</item>
         <item>Không</item>
     </string-array>
@@ -53,13 +35,13 @@
         <item>Tùy chỉnh</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Tắt ảnh động</item>
-        <item>Tỷ lệ ảnh động 0.5x</item>
-        <item>Tỷ lệ ảnh động 1x</item>
-        <item>Tỷ lệ ảnh động 1.5x</item>
-        <item>Tỷ lệ ảnh động 2x</item>
-        <item>Tỷ lệ ảnh động 5x</item>
-        <item>Tỷ lệ ảnh động 10x</item>
+        <item>Tắt hình động</item>
+        <item>Tỷ lệ hình động 0,5x</item>
+        <item>Tỷ lệ hình động 1x</item>
+        <item>Tỷ lệ hình động 1,5x</item>
+        <item>Tỷ lệ hình động 2x</item>
+        <item>Tỷ lệ hình động 5x</item>
+        <item>Tỷ lệ hình động 10x</item>
     </string-array>
     <string-array name="ap_identify">
         <item>Mặc định</item>
@@ -75,18 +57,6 @@
         <item>IPv4</item>
         <item>IPv6</item>
         <item>IPv4/IPv6</item>
-    </string-array>
-    <string-array name="app_install_location_entries">
-        <item>Bộ nhớ trong của thiết bị</item>
-        <item>Thẻ SD tháo lắp được</item>
-        <item>Cho phép hệ thống quyết định</item>
-    </string-array>
-    <string-array name="app_ops_categories">
-        <item>Vị trí</item>
-        <item>Cá nhân</item>
-        <item>Nhắn tin</item>
-        <item>Phương tiện</item>
-        <item>Thiết bị</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Vị trí</item>
@@ -118,8 +88,8 @@
         <item>Máy ảnh</item>
         <item>Ghi âm</item>
         <item>Phát âm thanh</item>
-        <item>Đọc khay nhớ tạm</item>
-        <item>Sửa đổi khay nhớ tạm</item>
+        <item>Đọc bảng nhớ tạm</item>
+        <item>Sửa đổi bảng nhớ tạm</item>
         <item>Các nút phương tiện</item>
         <item>Tập trung âm thanh</item>
         <item>Âm lượng chính</item>
@@ -134,7 +104,7 @@
         <item>Vị trí</item>
         <item>Tải thống kê sử dụng</item>
         <item>Tắt/bật micrô</item>
-        <item>Hiển thị thông báo nhanh</item>
+        <item>Hiện thông báo nhanh</item>
         <item>Chiếu phương tiện</item>
         <item>Kích hoạt VPN</item>
         <item>Hình nền ghi</item>
@@ -185,8 +155,8 @@
         <item>máy ảnh</item>
         <item>ghi âm</item>
         <item>phát âm thanh</item>
-        <item>đọc khay nhớ tạm</item>
-        <item>sửa đổi khay nhớ tạm</item>
+        <item>đọc bảng nhớ tạm</item>
+        <item>sửa đổi bảng nhớ tạm</item>
         <item>các nút phương tiện truyền thông</item>
         <item>tập trung âm thanh</item>
         <item>âm lượng chính</item>
@@ -224,11 +194,11 @@
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Giới hạn tiêu chuẩn</item>
-        <item>Không có tiến trình chạy nền</item>
-        <item>Nhiều nhất 1 tiến trình</item>
-        <item>Nhiều nhất 2 tiến trình</item>
-        <item>Nhiều nhất 3 tiến trình</item>
-        <item>Nhiều nhất 4 tiến trình</item>
+        <item>Không có quá trình nền</item>
+        <item>Tối đa 1 quá trình</item>
+        <item>Tối đa 2 quá trình</item>
+        <item>Tối đa 3 quá trình</item>
+        <item>Tối đa 4 quá trình</item>
     </string-array>
     <string-array name="autofill_logging_level_entries">
         <item>Tắt</item>
@@ -240,11 +210,18 @@
         <item>Cách đây hơn 60 ngày</item>
         <item>Cách đây hơn 90 ngày</item>
     </string-array>
+    <array name="avatar_image_descriptions" />
     <string-array name="battery_indicator_style_entries">
         <item>Đồ họa</item>
         <item>Phần trăm (trong biểu tượng)</item>
         <item>Phần trăm (cạnh biểu tượng)</item>
         <item>Thanh trên cùng</item>
+    </string-array>
+    <string-array name="battery_indicator_style_summaries">
+        <item>Đồ họa</item>
+        <item>Phần trăm (trong biểu tượng)</item>
+        <item>Phần trăm (cạnh biểu tượng)</item>
+        <item>Thanh tiến trình</item>
     </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
@@ -279,76 +256,62 @@
         <item>Chế độ trễ thấp</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
+        <item>Sử dụng lựa chọn của hệ thống (Mặc định)</item>
         <item>16 bit/mẫu</item>
         <item>24 bit/mẫu</item>
         <item>32 bit/mẫu</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
+        <item>Sử dụng lựa chọn của hệ thống (Mặc định)</item>
         <item>16 bit/mẫu</item>
         <item>24 bit/mẫu</item>
         <item>32 bit/mẫu</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
-        <item>Đơn sắc</item>
-        <item>Lập thể</item>
+        <item>Sử dụng lựa chọn của hệ thống (Mặc định)</item>
+        <item>Đơn âm</item>
+        <item>Âm thanh nổi</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
+        <item>Sử dụng lựa chọn của hệ thống (Mặc định)</item>
         <item>Đơn âm</item>
-        <item>Lập thể</item>
+        <item>Âm thanh nổi</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Tối ưu chất lượng âm thanh</item>
+        <item>Được tối ưu hóa cho chất lượng âm thanh</item>
         <item>Chất lượng kết nối và âm thanh cân bằng</item>
-        <item>Tối ưu chất lượng kết nối</item>
-        <item>Nhấn mạnh (Tốc độ truyền tự động)</item>
+        <item>Được tối ưu hóa cho chất lượng kết nối</item>
+        <item>Nỗ lực cao nhất (Tốc độ bit thích ứng)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Tối ưu chất lượng âm thanh (990kbps/909kbps)</item>
         <item>Chất lượng kết nối và âm thanh cân bằng (660kbps/606kbps)</item>
         <item>Tối ưu chất lượng kết nối (330kbps/303kbps)</item>
-        <item>Hiệu ứng tốt nhất (Tốc độ truyền thích ứng)</item>
+        <item>Hiệu ứng tốt nhất (Truyền bitrate thích ứng)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
-        <item>Độ trễ ngắn</item>
+        <item>Độ trễ thấp</item>
         <item>Độ trễ trung bình</item>
-        <item>Độ trễ dài</item>
+        <item>Độ trễ cao</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_titles">
-        <item>Độ trễ ngắn (50~100ms)</item>
+        <item>Độ trễ thấp (50~100ms)</item>
         <item>Độ trễ trung bình (150~200ms)</item>
-        <item>Độ trễ dài (300~500ms)</item>
+        <item>Độ trễ cao (300~500ms)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_summaries">
         <item>Tối ưu độ trễ thấp</item>
         <item>Tối ưu chất lượng kết nối</item>
         <item>Chất lượng kết nối và âm thanh cân bằng</item>
         <item>Tối ưu chất lượng âm thanh</item>
-        <item>Nhấn mạnh (Tốc độ truyền tự động)</item>
+        <item>Tốt nhất (Truyền bitrate thích ứng)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles">
         <item>Tối ưu độ trễ thấp (256kbps)</item>
         <item>Tối ưu chất lượng kết nối (400kbps)</item>
         <item>Chất lượng kết nối và âm thanh cân bằng (500/560kbps)</item>
         <item>Tối ưu chất lượng âm thanh (900kbps)</item>
-        <item>Nhấn mạnh (Tốc độ truyền tự động)</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
+        <item>Tốt nhất (Truyền bitrate thích ứng)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
@@ -359,6 +322,7 @@
         <item>LDAC</item>
         <item>Âm thanh Qualcomm® aptX™ Adaptive</item>
         <item>Âm thanh Qualcomm® aptX™ TWS+</item>
+        <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
@@ -374,11 +338,12 @@
         <item>LDAC</item>
         <item>Âm thanh Qualcomm® aptX™ Adaptive</item>
         <item>Âm thanh Qualcomm® aptX™ TWS+</item>
+        <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
         <item>Bật bộ giải mã tùy chọn</item>
-        <item>Tắt codec tùy chọn</item>
+        <item>Tắt bộ giải mã tùy chọn</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -386,16 +351,21 @@
         <item>" | Kích hoạt (đa phương tiện)"</item>
         <item>" | Kích hoạt (điện thoại)"</item>
     </string-array>
+    <string-array name="bluetooth_audio_routing_titles">
+        <item>Sử dụng chế độ mặc định của ứng dụng</item>
+        <item>Phát trên thiết bị trợ thính</item>
+        <item>Phát trên loa điện thoại</item>
+    </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp14</item>
-        <item>avrcp13</item>
         <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (Mặc định)</item>
+        <item>AVRCP 1.5 (Mặc định)</item>
         <item>AVRCP 1.3</item>
-        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.4</item>
         <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
@@ -409,25 +379,28 @@
         <item>MAP 1.4</item>
     </string-array>
     <string-array name="bluetooth_max_connected_audio_devices">
-        <item>Sử dụng cài đặt mặc định của hệ thống: %1$d</item>
+        <item>Sử dụng giá trị mặc định của hệ thống: %1$d</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
         <item>5</item>
     </string-array>
-    <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 phút</item>
-        <item>5 phút</item>
-        <item>1 giờ</item>
-        <item>Không bao giờ hết thời gian chờ</item>
-    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Đã tắt</item>
-        <item>Đã lọc</item>
+        <item>Đã bật và lọc</item>
         <item>Đã bật</item>
-        <item>Tiêu đề đã lọc</item>
-        <item>Gói phương tiện đã lọc</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_filters_entries">
+        <item>Chỉ lọc ra tiêu đề ACL</item>
+        <item>Lọc gói phương tiện A2DP</item>
+        <item>Lọc kênh RFCOMM</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_profile_filter_entries">
+        <item>Tắt</item>
+        <item>Điền với chuỗi ký tự</item>
+        <item>Chỉ lọc ra tiêu đề</item>
+        <item>Xóa hoàn toàn</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 giây</item>
@@ -443,7 +416,7 @@
         <item>Viền ngoài</item>
         <item>Bóng đổ</item>
         <item>Tăng</item>
-        <item>Giảm</item>
+        <item>Chìm</item>
     </string-array>
     <string-array name="captioning_font_size_selector_summaries">
         <item>Cỡ chữ rất nhỏ</item>
@@ -455,7 +428,7 @@
     <string-array name="captioning_font_size_selector_titles">
         <item>Rất nhỏ</item>
         <item>Nhỏ</item>
-        <item>Mặc định</item>
+        <item>Vừa</item>
         <item>Lớn</item>
         <item>Rất lớn</item>
     </string-array>
@@ -498,297 +471,6 @@
         <item>Mã PIN</item>
         <item>Mật khẩu</item>
     </string-array>
-    <string-array name="city_name">
-        <item>Abidjan</item>
-        <item>Accra</item>
-        <item>Addis Ababa</item>
-        <item>Algiers</item>
-        <item>Blantyre</item>
-        <item>Brazzaville</item>
-        <item>Cairo</item>
-        <item>Casablanca</item>
-        <item>Conakry</item>
-        <item>Dakar</item>
-        <item>Dar es Salaam</item>
-        <item>Djibouti</item>
-        <item>Freetown</item>
-        <item>Gaborone</item>
-        <item>Harare</item>
-        <item>Johannesburg</item>
-        <item>Kampala</item>
-        <item>Khartoum</item>
-        <item>Kigali</item>
-        <item>Kinshasa</item>
-        <item>Lagos</item>
-        <item>Maseru</item>
-        <item>Mogadishu</item>
-        <item>Nairobi</item>
-        <item>São Tomé</item>
-        <item>Timbuktu</item>
-        <item>Tripoli</item>
-        <item>Tunis</item>
-        <item>Anchorage</item>
-        <item>Mendoza</item>
-        <item>Aruba</item>
-        <item>Asunción</item>
-        <item>Barbados</item>
-        <item>Belize</item>
-        <item>Bogotá</item>
-        <item>Buenos Aires</item>
-        <item>Cancun</item>
-        <item>Caracas</item>
-        <item>Cayman Islands</item>
-        <item>Chicago</item>
-        <item>Costa Rica</item>
-        <item>Curaçao</item>
-        <item>Dawson Creek</item>
-        <item>Denver</item>
-        <item>Detroit</item>
-        <item>Dominica</item>
-        <item>Edmonton</item>
-        <item>El Salvador</item>
-        <item>Fortaleza</item>
-        <item>Grand Turk</item>
-        <item>Grenada</item>
-        <item>Guatemala</item>
-        <item>Guyana</item>
-        <item>Halifax</item>
-        <item>Havana</item>
-        <item>Indianapolis</item>
-        <item>Knox City</item>
-        <item>Petersburg</item>
-        <item>Tell City</item>
-        <item>Vevay</item>
-        <item>Vincennes</item>
-        <item>Winamac</item>
-        <item>Kingston</item>
-        <item>Nuestra Señora de La Paz</item>
-        <item>Lima</item>
-        <item>Los Angeles</item>
-        <item>Louisville</item>
-        <item>Managua</item>
-        <item>Martinique</item>
-        <item>Metlakatla</item>
-        <item>Mexico City</item>
-        <item>Monterrey</item>
-        <item>Montevideo</item>
-        <item>Montreal</item>
-        <item>Nassau</item>
-        <item>New York</item>
-        <item>Beulah</item>
-        <item>New Salem</item>
-        <item>Panama</item>
-        <item>Phoenix</item>
-        <item>Port of Spain</item>
-        <item>Port-au-Prince</item>
-        <item>Puerto Rico</item>
-        <item>Santo Domingo</item>
-        <item>São Paulo</item>
-        <item>St. Johns</item>
-        <item>St. Kitts</item>
-        <item>St. Lucia</item>
-        <item>St. Thomas</item>
-        <item>Tijuana</item>
-        <item>Toronto</item>
-        <item>Vancouver</item>
-        <item>Winnipeg</item>
-        <item>South Pole</item>
-        <item>Longyearbyen</item>
-        <item>Almaty</item>
-        <item>Amman</item>
-        <item>Anadyr</item>
-        <item>Aqtau</item>
-        <item>Baghdad</item>
-        <item>Bahrain</item>
-        <item>Baku</item>
-        <item>Bangkok</item>
-        <item>Beirut</item>
-        <item>Calcutta</item>
-        <item>Damascus</item>
-        <item>Dhaka</item>
-        <item>Dubai</item>
-        <item>Gaza</item>
-        <item>Hebron</item>
-        <item>Hồ Chí Minh</item>
-        <item>Hồng Kông</item>
-        <item>Jakarta</item>
-        <item>Jerusalem</item>
-        <item>Kabul</item>
-        <item>Karachi</item>
-        <item>Kathmandu</item>
-        <item>Kuala Lumpur</item>
-        <item>Kuwait</item>
-        <item>Macau</item>
-        <item>Manila</item>
-        <item>Muscat</item>
-        <item>Phnom Penh</item>
-        <item>Bình Nhưỡng</item>
-        <item>Qatar</item>
-        <item>Yangon</item>
-        <item>Riyadh</item>
-        <item>Seoul</item>
-        <item>Thượng Hải</item>
-        <item>Singapore</item>
-        <item>Đài Bắc</item>
-        <item>Tehran</item>
-        <item>Tel Aviv</item>
-        <item>Tokyo</item>
-        <item>Ulaanbaatar</item>
-        <item>Bermuda</item>
-        <item>Canary Islands</item>
-        <item>Cape Verde</item>
-        <item>Reykjavik</item>
-        <item>Adelaide</item>
-        <item>Brisbane</item>
-        <item>Canberra</item>
-        <item>Darwin</item>
-        <item>Melbourne</item>
-        <item>New South Wales</item>
-        <item>Perth</item>
-        <item>Queensland</item>
-        <item>Sydney</item>
-        <item>Victoria</item>
-        <item>Newfoundland</item>
-        <item>Saskatchewan</item>
-        <item>Easter Island</item>
-        <item>Amsterdam</item>
-        <item>Andorra</item>
-        <item>Athens</item>
-        <item>Belfast</item>
-        <item>Belgrade</item>
-        <item>Berlin</item>
-        <item>Bratislava</item>
-        <item>Brussels</item>
-        <item>Bucharest</item>
-        <item>Budapest</item>
-        <item>Chisinau</item>
-        <item>Copenhagen</item>
-        <item>Dublin</item>
-        <item>Gibraltar</item>
-        <item>Helsinki</item>
-        <item>Isle of Man</item>
-        <item>Istanbul</item>
-        <item>Lisbon</item>
-        <item>London</item>
-        <item>Luxembourg</item>
-        <item>Madrid</item>
-        <item>Malta</item>
-        <item>Minsk</item>
-        <item>Monaco</item>
-        <item>Moscow</item>
-        <item>Oslo</item>
-        <item>Paris</item>
-        <item>Prague</item>
-        <item>Riga</item>
-        <item>Roma</item>
-        <item>San Marino</item>
-        <item>Sarajevo</item>
-        <item>Simferopol</item>
-        <item>Skopje</item>
-        <item>Sofia</item>
-        <item>Stockholm</item>
-        <item>Tallinn</item>
-        <item>Vatican City</item>
-        <item>Vienna</item>
-        <item>Vilnius</item>
-        <item>Warsaw</item>
-        <item>Zagreb</item>
-        <item>Zurich</item>
-        <item>Antananarivo</item>
-        <item>Maldives</item>
-        <item>Mauritius</item>
-        <item>Auckland</item>
-        <item>Fiji</item>
-        <item>Guam</item>
-        <item>Honolulu</item>
-        <item>Kiritimati</item>
-        <item>Noumea</item>
-        <item>Samoa</item>
-        <item>Tahiti</item>
-        <item>Antigua</item>
-        <item>Austin</item>
-        <item>Boston</item>
-        <item>Calgary</item>
-        <item>Columbus</item>
-        <item>Dallas</item>
-        <item>Knoxville</item>
-        <item>Memphis</item>
-        <item>Miami</item>
-        <item>Minneapolis</item>
-        <item>Ottawa</item>
-        <item>Philadelphia</item>
-        <item>Portland</item>
-        <item>San Diego</item>
-        <item>San Francisco</item>
-        <item>Salt Lake City</item>
-        <item>San Jose</item>
-        <item>Seattle</item>
-        <item>St. Louis</item>
-        <item>Washington D.C.</item>
-        <item>Houston</item>
-        <item>San Antonio</item>
-        <item>Jacksonville</item>
-        <item>Baltimore</item>
-        <item>Nashville</item>
-        <item>Milwaukee</item>
-        <item>Oklahoma City</item>
-        <item>Las Vegas</item>
-        <item>Albuquerque</item>
-        <item>Tucson</item>
-        <item>Sacramento</item>
-        <item>Atlanta</item>
-        <item>Cleveland</item>
-        <item>New Orleans</item>
-        <item>Tampa</item>
-        <item>Pittsburgh</item>
-        <item>Cincinnati</item>
-        <item>Mountain View</item>
-        <item>Reno</item>
-        <item>Doha</item>
-        <item>Bắc Kinh</item>
-        <item>Mumbai</item>
-        <item>Delhi</item>
-        <item>Osaka</item>
-        <item>Lahore</item>
-        <item>"Sana'a"</item>
-        <item>Barcelona</item>
-        <item>Munich</item>
-        <item>Milan</item>
-        <item>Frankfurt</item>
-        <item>Hà Nội</item>
-        <item>Ankara</item>
-        <item>Bengaluru</item>
-        <item>Brasília</item>
-        <item>Cape Town</item>
-        <item>Islamabad</item>
-        <item>Rio de Janeiro</item>
-        <item>Ann Arbor</item>
-        <item>Boulder</item>
-        <item>Cambridge</item>
-        <item>Kirkland</item>
-        <item>Madison</item>
-        <item>Quảng Châu</item>
-        <item>Hyderabad</item>
-        <item>Reston</item>
-        <item>Belo Horizonte</item>
-        <item>Santiago</item>
-        <item>Monrovia</item>
-        <item>Colombo</item>
-        <item>Chihuahua</item>
-        <item>Gurugram</item>
-        <item>Manchester</item>
-        <item>Kyiv</item>
-        <item>St. Petersburg</item>
-        <item>Kraków</item>
-        <item>Wroclaw</item>
-        <item>Hamburg</item>
-        <item>Oulu</item>
-        <item>Haifa</item>
-        <item>San Juan</item>
-        <item>Tegucigalpa</item>
-        <item>Paramaribo</item>
-        <item>Quito</item>
-    </string-array>
     <array name="click_bottom">
         <item>@drawable/clickbottom01</item>
         <item>@drawable/clickbottom01</item>
@@ -815,22 +497,22 @@
         <item>@drawable/clickbottom01</item>
     </array>
     <string-array name="color_mode_descriptions">
-        <item>Tăng cường màu sắc</item>
-        <item>Màu tự nhiên giống như nhìn bằng mắt thường</item>
-        <item>Tối ưu màu sắc cho nội dung số</item>
+        <item>Màu tăng cường</item>
+        <item>Màu tự nhiên giống như nhìn bằng mắt</item>
+        <item>Màu được tối ưu hóa cho nội dung kỹ thuật số</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Sáng (mặc định)</item>
+        <item>Sống động (mặc định)</item>
         <item>Tự nhiên</item>
         <item>Tiêu chuẩn</item>
     </string-array>
     <string-array name="color_picker">
-        <item>Xanh két</item>
+        <item>Xanh lục lam</item>
         <item>Lam</item>
-        <item>Chàm</item>
+        <item>Xanh lục</item>
         <item>Tía</item>
         <item>Hồng</item>
-        <item>Đỏ</item>
+        <item>Cam</item>
     </string-array>
     <string-array name="common_password_business_names">
         <item>Màn hình khóa</item>
@@ -852,10 +534,6 @@
         <item>Tối</item>
         <item>Sáng</item>
     </string-array>
-    <string-array name="data_usage_data_range">
-        <item>30 ngày qua</item>
-        <item>Đặt chu kỳ sử dụng...</item>
-    </string-array>
     <string-array name="date_of_app_all">
         <item>"Hôm nay (dữ liệu di động) "</item>
         <item>"Tháng này (dữ liệu di động) "</item>
@@ -876,36 +554,19 @@
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Tắt</item>
-        <item>Hiển thị vùng vẽ quá độ</item>
-        <item>Hiển thị khu vực cho người mù màu xanh lá cây</item>
-    </string-array>
-    <string-array name="dream_timeout_entries">
-        <item>Không bao giờ</item>
-        <item>15 giây</item>
-        <item>30 giây</item>
-        <item>1 phút</item>
-        <item>2 phút</item>
-        <item>5 phút</item>
-        <item>10 phút</item>
-        <item>30 phút</item>
+        <item>Hiển thị các vùng vẽ quá</item>
+        <item>Hiển thị các vùng mô phỏng mù màu lục</item>
     </string-array>
     <string-array name="eap_ocsp_type">
-        <item>Không xác thực</item>
+        <item>Không xác minh</item>
         <item>Yêu cầu trạng thái chứng chỉ</item>
-        <item>Cần có trạng thái chứng chỉ</item>
-        <item>Cần có tất cả trạng thái chứng chỉ không đáng tin cậy</item>
+        <item>Yêu cầu trạng thái chứng chỉ</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Không</item>
+        <item>Không có</item>
         <item>Logcat</item>
         <item>Systrace (Đồ họa)</item>
-        <item>Call stack trên glGetError</item>
-    </string-array>
-    <string-array name="entries_font_size">
-        <item>Nhỏ</item>
-        <item>Mặc định</item>
-        <item>Lớn</item>
-        <item>Lớn nhất</item>
+        <item>Chồng lệnh trên glGetError</item>
     </string-array>
     <string-array name="fluency_mode_confirms">
         <item>Khởi động lại thiết bị để áp dụng cài đặt này?</item>
@@ -924,21 +585,16 @@
         <item>4,0 inch</item>
         <item>3,5 inch</item>
     </string-array>
-    <string-array name="handy_mode_size_value_entries">
-        <item>4.5</item>
-        <item>4.0</item>
-        <item>3.5</item>
-    </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Tắt</item>
-        <item>Yếu</item>
+        <item>Nhẹ</item>
         <item>Vừa</item>
         <item>Mạnh</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Không bao giờ sử dụng HDCP kiểm tra</item>
-        <item>Chỉ sử dụng HDCP kiểm tra nội dung DRM</item>
-        <item>Luôn sử dụng HDCP kiểm tra</item>
+        <item>Không bao giờ sử dụng kiểm tra HDCP</item>
+        <item>Chỉ sử dụng kiểm tra HDCP cho nội dung DRM</item>
+        <item>Luôn sử dụng kiểm tra HDCP</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Không bao giờ kiểm tra</item>
@@ -948,6 +604,11 @@
     <string-array name="hide_account_list">
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
+    </string-array>
+    <string-array name="input_method_selector_titles">
+        <item>@string/input_method_selector_show_automatically_title</item>
+        <item>@string/input_method_selector_always_show_title</item>
+        <item>@string/input_method_selector_always_hide_title</item>
     </string-array>
     <string-array name="key_and_gesture_shortcut_action">
         <item>long_press_home_key</item>
@@ -1038,6 +699,11 @@
         <item>@drawable/clickbottom01</item>
         <item>@drawable/clickbottom01</item>
     </array>
+    <string-array name="long_press_timeout_selector_list_titles">
+        <item>Ngắn</item>
+        <item>Trung bình</item>
+        <item>Dài</item>
+    </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Ngắn</item>
         <item>Trung bình</item>
@@ -1130,7 +796,28 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Mạng chậm do cường độ tín hiệu yếu</item>
         <item>Đang chuyển…</item>
     </string-array>
+    <string-array name="nfc_notification_mode_summaries">
+        <item>Thẻ thanh toán, truy cập và nhà thông minh</item>
+        <item>Ghép nối Bluetooth, kết nối không dây và thẻ nhà thông minh</item>
+    </string-array>
+    <string-array name="nfc_notification_mode_titles">
+        <item>Tất cả thẻ</item>
+        <item>Thẻ được hệ thống nhận dạng</item>
+    </string-array>
+    <string-array name="nfc_payment_favor">
+        <item>Luôn luôn</item>
+        <item>Trừ phi một ứng dụng thanh toán khác đang mở</item>
+    </string-array>
+    <string-array name="nfc_payment_favor_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="notch_battery_indicator_style_entries">
+        <item>Đồ họa</item>
+        <item>Phần trăm (trong biểu tượng)</item>
+        <item>Phần trăm (cạnh biểu tượng)</item>
+    </string-array>
+    <string-array name="notch_battery_indicator_style_summaries">
         <item>Đồ họa</item>
         <item>Phần trăm (trong biểu tượng)</item>
         <item>Phần trăm (cạnh biểu tượng)</item>
@@ -1192,18 +879,18 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>zw</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
-        <item>Không</item>
+        <item>Không có</item>
         <item>480p</item>
-        <item>480p (an toàn)</item>
+        <item>480p (bảo mật)</item>
         <item>720p</item>
-        <item>720p (an toàn)</item>
+        <item>720p (bảo mật)</item>
         <item>1080p</item>
-        <item>1080p (an toàn)</item>
-        <item>4K</item>
-        <item>4K (an toàn)</item>
-        <item>4K (nâng cao chất lượng hình ảnh)</item>
-        <item>4K (nâng cao chất lượng hình ảnh, an toàn)</item>
-        <item>720p, 1080p (màn hình kép)</item>
+        <item>1080p (bảo mật)</item>
+        <item>4k</item>
+        <item>4k (bảo mật)</item>
+        <item>4k (đã nâng cấp)</item>
+        <item>4K (đã nâng cấp, bảo mật)</item>
+        <item>720p, 1080p (màn hình đôi)</item>
     </string-array>
     <string-array name="paper_color_values">
         <item>Đầy đủ màu</item>
@@ -1336,7 +1023,7 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>CDMA/EvDo/GSM/WCDMA</item>
         <item>CDMA + LTE/EvDo</item>
         <item>GSM/WCDMA/LTE</item>
-        <item>Toàn cầu</item>
+        <item>LTE/CDMA/EvDo/GSM/WCDMA</item>
         <item>LTE</item>
         <item>LTE/WCDMA</item>
         <item>Chỉ TDSCDMA</item>
@@ -1353,7 +1040,7 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
-        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>Toàn cầu</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>
         <item>NR/LTE/TDSCDMA/GSM</item>
@@ -1370,28 +1057,6 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Ảnh</item>
         <item>Tập tin</item>
         <item>Ghi chú</item>
-    </string-array>
-    <string-array name="proc_stats_memory_states">
-        <item>Bình thường</item>
-        <item>Trung bình</item>
-        <item>Thấp</item>
-        <item>Quan trọng</item>
-    </string-array>
-    <string-array name="proc_stats_process_states">
-        <item>Liên tục</item>
-        <item>Hoạt động hàng đầu</item>
-        <item>Quan trọng (nền trước)</item>
-        <item>Quan trọng (nền sau)</item>
-        <item>Sao lưu</item>
-        <item>Hạng nặng</item>
-        <item>Dịch vụ (đang chạy)</item>
-        <item>Dịch vụ (đang khởi động lại)</item>
-        <item>Người nhận</item>
-        <item>Màn hình chính</item>
-        <item>Hoạt động sau cùng</item>
-        <item>Được lưu trong bộ nhớ đệm (hoạt động)</item>
-        <item>Được lưu trong bộ nhớ đệm (máy khách hoạt động)</item>
-        <item>Được lưu trong bộ nhớ đệm (trống)</item>
     </string-array>
     <string-array name="ram_states">
         <item>Bình thường</item>
@@ -1412,7 +1077,7 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
     <string-array name="screen_key_long_press_timeout">
         <item>0,5 giây</item>
         <item>1 giây</item>
-        <item>1.5 giây</item>
+        <item>1,5 giây</item>
         <item>2 giây</item>
     </string-array>
     <string-array name="screen_key_position_action">
@@ -1420,7 +1085,7 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Phím Quay lại bên trái, phím Menu bên phải</item>
     </string-array>
     <string-array name="screen_key_press_action">
-        <item>Hiển thị nhiệm vụ gần đây</item>
+        <item>Hiển thị ứng dụng gần đây</item>
         <item>Hiển thị menu</item>
     </string-array>
     <string-array name="screen_optimize_summary">
@@ -1457,53 +1122,65 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Không bao giờ</item>
     </string-array>
     <string-array name="screen_zoom_level">
-        <item>XS</item>
-        <item>S</item>
-        <item>L</item>
+        <item>Rất nhỏ</item>
+        <item>Nhỏ</item>
+        <item>Lớn</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
         <item>Hỏi</item>
         <item>Không bao giờ cho phép</item>
         <item>Luôn cho phép</item>
     </string-array>
+    <string-array name="select_gpo_version_summaries">
+        <item>Tắt</item>
+        <item>GPO4</item>
+        <item>GPO5</item>
+        <item>GPO6</item>
+    </string-array>
+    <string-array name="select_gpo_version_titles">
+        <item>Tắt</item>
+        <item>GPO4</item>
+        <item>GPO5</item>
+        <item>GPO6</item>
+    </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Tắt</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Tắt</item>
-        <item>Bộ đệm nhật ký 64 KB</item>
-        <item>Bộ đệm nhật ký 256 KB</item>
-        <item>Bộ đệm nhật ký 1 MB</item>
-        <item>Bộ đệm nhật ký 4 MB</item>
-        <item>Bộ đệm nhật ký 16 MB</item>
+        <item>64K mỗi bộ đệm nhật ký</item>
+        <item>256K mỗi bộ đệm nhật ký</item>
+        <item>1M mỗi bộ đệm nhật ký</item>
+        <item>4M mỗi bộ đệm nhật ký</item>
+        <item>8 MB/vùng đệm nhật ký</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Tắt</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
-        <item>4 MB</item>
-        <item>16 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Tắt</item>
-        <item>Tất cả bộ đệm nhật ký</item>
-        <item>Tất cả trừ bộ đệm nhật ký sóng vô tuyến</item>
-        <item>Chỉ bộ đệm nhật ký kernel</item>
+        <item>Đang tắt</item>
+        <item>Tất cả các bộ đệm nhật ký</item>
+        <item>Tất cả trừ lần tải nhật ký qua đài</item>
+        <item>chỉ vùng đệm nhật ký kernel</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Tắt</item>
+        <item>Đang tắt</item>
         <item>Tất cả</item>
-        <item>Tất cả trừ sóng vô tuyến</item>
-        <item>Chỉ kernel</item>
+        <item>Tất cả trừ đài</item>
+        <item>chỉ kernel</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Tắt</item>
-        <item>Đổ màu xanh lam khu vực không thuộc phạm vi hình chữ nhật</item>
-        <item>Mệnh lệnh làm nổi bật khu vực vẽ thử nghiệm màu xanh lá cây</item>
+        <item>Vẽ vùng clip khác hình chữ nhật bằng màu lam</item>
+        <item>Đánh dấu lệnh vẽ đã kiểm tra bằng màu lục</item>
     </string-array>
     <string-array name="silent_entries">
         <item>@string/standard</item>
@@ -1527,6 +1204,24 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>4</item>
         <item>1</item>
     </string-array>
+    <string-array name="smart_device_control_entries">
+        <item>@string/mi_smart_hub_entry_title</item>
+        <item>Nhà thông minh</item>
+        <item>Không</item>
+    </string-array>
+    <string-array name="smart_device_control_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="smart_home_entries">
+        <item>Nhà thông minh</item>
+        <item>Không</item>
+    </string-array>
+    <string-array name="smart_home_values">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="startup_hips_action">
         <item>Cho phép</item>
         <item>Từ chối</item>
@@ -1534,6 +1229,26 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
     <string-array name="swipe_direction_values">
         <item>1</item>
         <item>0</item>
+    </string-array>
+    <string-array name="switch_to_dock_user_when_docked_timeout_entries">
+        <item>Không bao giờ</item>
+        <item>Sau 1 phút</item>
+        <item>Sau 5 phút</item>
+    </string-array>
+    <string-array name="tabs_taptic_detail">
+        <item>Mạnh mẽ</item>
+        <item>Nhẹ nhàng</item>
+        <item>Bật ra</item>
+    </string-array>
+    <string-array name="tabs_taptic_detail_m2">
+        <item>Mạnh mẽ</item>
+        <item>Chắc chắn</item>
+    </string-array>
+    <string-array name="tare_modifiers_subfactors">
+        <item>Đang sạc</item>
+        <item>Nghỉ</item>
+        <item>Chế độ tiết kiệm điện</item>
+        <item>Trạng thái xử lý</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1560,49 +1275,14 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
     </array>
-    <array name="three_long_press">
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-    </array>
     <string-array name="time_format_entries">
         <item>12 giờ 1:00 CH</item>
         <item>24 giờ 13:00</item>
         <item>Tự động (dựa trên ngôn ngữ hệ thống)</item>
     </string-array>
-    <string-array name="timezone_filters">
-        <item>Châu Mỹ</item>
-        <item>Châu Âu</item>
-        <item>Châu Phi</item>
-        <item>Châu Á</item>
-        <item>Úc</item>
-        <item>Thái Bình Dương</item>
-        <item>Tất cả</item>
-    </string-array>
     <string-array name="track_frame_time_entries">
         <item>Tắt</item>
-        <item>Hiển thị trên màn hình dạng thanh</item>
+        <item>Trên màn hình dưới dạng thanh</item>
         <item>Trong adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="traffic_balance_entries">
@@ -1620,13 +1300,13 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>"Sử dụng Wi-Fi: "</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Tắt ảnh động</item>
-        <item>Tỷ lệ ảnh động 0.5x</item>
-        <item>Tỷ lệ ảnh động 1x</item>
-        <item>Tỷ lệ ảnh động 1.5x</item>
-        <item>Tỷ lệ ảnh động 2x</item>
-        <item>Tỷ lệ ảnh động 5x</item>
-        <item>Tỷ lệ ảnh động 10x</item>
+        <item>Tắt hình động</item>
+        <item>Tỷ lệ hình động 0,5x</item>
+        <item>Tỷ lệ hình động 1x</item>
+        <item>Tỷ lệ hình động 1,5x</item>
+        <item>Tỷ lệ hình động 2x</item>
+        <item>Tỷ lệ hình động 5x</item>
+        <item>Tỷ lệ hình động 10x</item>
     </string-array>
     <string-array name="true_color_screen_optimize_summary">
         <item>Điều chỉnh màu sắc dựa trên nội dung hiển thị</item>
@@ -1639,26 +1319,15 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Màu gốc</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Rất chậm</item>
-        <item>Chậm</item>
-        <item>Bình thường</item>
-        <item>Nhanh</item>
-        <item>Hơi nhanh</item>
-        <item>Rất nhanh</item>
-        <item>Cực nhanh</item>
-        <item>Siêu nhanh</item>
-        <item>Nhanh nhất</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
+        <item>60%</item>
+        <item>80%</item>
+        <item>100%</item>
+        <item>150%</item>
+        <item>200%</item>
+        <item>250%</item>
+        <item>300%</item>
+        <item>350%</item>
+        <item>400%</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
         <item>Rất chậm</item>
@@ -1667,15 +1336,21 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Nhanh</item>
         <item>Nhanh hơn</item>
     </string-array>
-    <string-array name="usage_stats_display_order_types">
-        <item>Thời gian sử dụng</item>
-        <item>Sử dụng lần cuối</item>
-        <item>Tên ứng dụng</item>
+    <string-array name="typing_style_entries">
+        <item>Chuẩn</item>
+        <item>Chạm</item>
+        <item>Chạm trực tiếp</item>
+    </string-array>
+    <string-array name="udfps_accessibility_touch_hints">
+        <item>Chuyển sang trái</item>
+        <item>Chuyển xuống</item>
+        <item>Chuyển sang phải</item>
+        <item>Chuyển lên</item>
     </string-array>
     <string-array name="usb_configuration_titles">
-        <item>Sạc pin</item>
-        <item>MTP (Giao thức Chuyển giao Đa phương tiện)</item>
-        <item>PTP (Giao thức Chuyển giao Hình ảnh)</item>
+        <item>Đang sạc</item>
+        <item>MTP (Giao thức truyền phương tiện)</item>
+        <item>PTP (Giao thức truyền hình ảnh)</item>
         <item>RNDIS (USB Ethernet)</item>
         <item>Nguồn âm thanh</item>
         <item>MIDI</item>
@@ -1709,16 +1384,9 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Thời gian chờ</item>
         <item>Không thành công</item>
     </string-array>
-    <string-array name="vpn_types_long">
-        <item>PPTP VPN</item>
-        <item>L2TP/IPSec VPN có khóa chia sẻ trước</item>
-        <item>L2TP/IPSec VPN có chứng chỉ</item>
-        <item>IPSec VPN có khóa được chia sẻ trước và xác thực Xauth</item>
-        <item>IPSec VPN có chứng chỉ và xác thực Xauth</item>
-        <item>IPSec VPN có chứng chỉ và xác thực kết hợp</item>
-        <item>VPN IKEv2/IPSec có chứng chỉ và thông tin xác thực tên người dùng/mật khẩu</item>
-        <item>VPN IKEv2/IPSec có khóa chia sẻ trước</item>
-        <item>VPN IKEv2/IPSec có chứng chỉ</item>
+    <string-array name="wapi_psk_type">
+        <item>@string/wapi_psk_type_ascii</item>
+        <item>@string/wapi_psk_type_hex</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Bắt đầu dịch vụ…</item>
@@ -1733,12 +1401,6 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Thấp</item>
         <item>Trung bình</item>
         <item>Cao</item>
-    </string-array>
-    <string-array name="whetstone_level_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
     <string-array name="wide_notch_battery_indicator_style_entries">
         <item>Đồ họa</item>
@@ -1771,12 +1433,6 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Kết nối thủ công</item>
         <item>Luôn hỏi</item>
     </string-array>
-    <string-array name="wifi_eap_entries">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
-    </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Không</item>
         <item>Có</item>
@@ -1786,7 +1442,7 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Tĩnh</item>
     </string-array>
     <string-array name="wifi_link_turbo_mode_entries">
-        <item>Hỗ trợ</item>
+        <item>Phụ</item>
         <item>Đầy đủ</item>
     </string-array>
     <string-array name="wifi_link_turbo_mode_summary_entries">
@@ -1804,11 +1460,6 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Không thành công</item>
         <item>Có sẵn</item>
         <item>Ngoài vùng phủ sóng</item>
-    </string-array>
-    <string-array name="wifi_p2p_wps_setup">
-        <item>Nút bấm</item>
-        <item>Mã PIN từ thiết bị ngang hàng</item>
-        <item>Mã PIN từ th.bị này</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
         <item>MSCHAPV2</item>
@@ -1829,6 +1480,12 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Không có</item>
         <item>Thủ công</item>
         <item>Tự động định cấu hình proxy</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wep</item>
+        <item>@string/wifi_security_psk_generic</item>
+        <item>@string/wifi_security_eap</item>
     </string-array>
     <string-array name="wifi_signal">
         <item>Kém</item>
@@ -1875,13 +1532,27 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Đang quét…</item>
+        <item>Đang kết nối…</item>
+        <item>Đang xác thực…</item>
+        <item>Đang lấy địa chỉ IP…</item>
+        <item>Đã kết nối</item>
+        <item>Bị tạm ngưng</item>
+        <item>Đang ngắt kết nối…</item>
+        <item>Đã ngắt kết nối</item>
+        <item>Không thành công</item>
+        <item>Bị chặn</item>
+        <item>Tạm thời tránh kết nối kém</item>
+    </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Tắt ảnh động</item>
-        <item>Tỷ lệ ảnh động 0.5x</item>
-        <item>Tỷ lệ ảnh động 1x</item>
-        <item>Tỷ lệ ảnh động 1.5x</item>
-        <item>Tỷ lệ ảnh động 2x</item>
-        <item>Tỷ lệ ảnh động 5x</item>
-        <item>Tỷ lệ ảnh động 10x</item>
+        <item>Tắt hình động</item>
+        <item>Tỷ lệ hình động 0,5x</item>
+        <item>Tỷ lệ hình động 1x</item>
+        <item>Tỷ lệ hình động 1,5x</item>
+        <item>Tỷ lệ hình động 2x</item>
+        <item>Tỷ lệ hình động 5x</item>
+        <item>Tỷ lệ hình động 10x</item>
     </string-array>
 </resources>

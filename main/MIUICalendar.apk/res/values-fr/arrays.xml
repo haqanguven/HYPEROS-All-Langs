@@ -1,169 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="availability">
+        <item>Occupé</item>
+        <item>Disponible</item>
+        <item>À confirmer</item>
+    </string-array>
+    <string-array name="backup_country_names">
+        <item>Saint-Martin</item>
+        <item>Antilles hollandaises</item>
+        <item>Curaçao</item>
+        <item>Soudan du Sud</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Jour</item>
+        <item>Semaine</item>
+        <item>Mois</item>
+    </string-array>
     <string-array name="change_response_labels">
-        <item>Cet événement uniquement</item>
-        <item>Tous les événements dans la série</item>
-    </string-array>
-    <string-array name="date_calculate_spinner">
-        <item>Date ultérieure</item>
-        <item>Date antérieure</item>
-    </string-array>
-    <string-array name="default_reminder_labels">
-        <item>"Au moment de l'événement"</item>
-        <item>5 minutes avant</item>
-        <item>15 minutes avant</item>
-        <item>30 minutes avant</item>
-        <item>1 heure avant</item>
-        <item>4 heures avant</item>
-        <item>1 jour avant</item>
-        <item>2 jours avant</item>
-        <item>1 semaine avant</item>
+        <item>Uniquement cet événement</item>
+        <item>Tous les événements de la série</item>
     </string-array>
     <string-array name="delete_repeating_labels">
-        <item>Uniquement pour cet événement</item>
-        <item>Celui-ci et les événements futurs</item>
+        <item>Uniquement cet événement</item>
+        <item>Cet événement et les suivants</item>
         <item>Tous les événements</item>
     </string-array>
-    <string-array name="panchang_weeks">
-        <item>Dimanche</item>
-        <item>Lundi</item>
-        <item>Mardi</item>
-        <item>Mercredi</item>
-        <item>Jeudi</item>
-        <item>Vendredi</item>
-        <item>Samedi</item>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Cet événement et les suivants</item>
+        <item>Tous les événements</item>
     </string-array>
-    <string-array name="prefEntries_alerts_vibrateWhen">
-        <item>Toujours</item>
-        <item>Seulement quand la sonnerie est désactivée</item>
-        <item>Jamais</item>
-    </string-array>
-    <string-array name="preferences_week_start_day_labels">
-        <item>Région par défaut</item>
-        <item>Samedi</item>
-        <item>Dimanche</item>
-        <item>Lundi</item>
-    </string-array>
-    <string-array name="repeat_choose_day">
+    <string-array name="ordinal_labels">
         <item>1er</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-        <item>21</item>
-        <item>22</item>
-        <item>23</item>
-        <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>27</item>
-        <item>28</item>
-        <item>29</item>
-        <item>30</item>
-        <item>31</item>
-    </string-array>
-    <string-array name="repeat_choose_end">
-        <item>Jamais</item>
-        <item>Heure</item>
-        <item>Compteur</item>
-    </string-array>
-    <string-array name="repeat_choose_month">
-        <item>Janvier</item>
-        <item>Février</item>
-        <item>Mars</item>
-        <item>Avril</item>
-        <item>Mai</item>
-        <item>Juin</item>
-        <item>Juillet</item>
-        <item>Août</item>
-        <item>Septembre</item>
-        <item>Octobre</item>
-        <item>Novembre</item>
-        <item>Décembre</item>
-    </string-array>
-    <string-array name="repeat_choose_week_left">
-        <item>premier</item>
-        <item>deuxième</item>
-        <item>troisième</item>
-        <item>quatrième</item>
+        <item>2e</item>
+        <item>3e</item>
+        <item>4e</item>
         <item>dernier</item>
     </string-array>
-    <string-array name="repeat_choose_week_right">
-        <item>Lun - Ven</item>
-        <item>Week-end</item>
-        <item>Toute la semaine</item>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Aucun</item>
+        <item>0 minute</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+        <item>12 heures</item>
+        <item>24 heures</item>
+        <item>2 jours</item>
+        <item>1 semaine</item>
     </string-array>
-    <string-array name="repeat_choose_weekday">
-        <item>Lun</item>
-        <item>Mar</item>
-        <item>Mer</item>
-        <item>Jeu</item>
-        <item>Ven</item>
-        <item>Sam</item>
-        <item>Dim</item>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Seulement en cas de refus</item>
+        <item>Si refus ou pas de réponse</item>
     </string-array>
-    <string-array name="repeat_countdown">
-        <item>Jamais</item>
-        <item>Tous les mois</item>
-        <item>Tous les ans</item>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Paramètres régionaux par défaut</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
+        <item>Lundi</item>
     </string-array>
-    <string-array name="repeat_frequency_spinner">
-        <item>jour</item>
-        <item>semaine</item>
-        <item>mois</item>
-        <item>année</item>
+    <string-array name="quick_response_defaults">
+        <item>"Désolé, j'aurai quelques minutes de retard."</item>
+        <item>"Désolé, j'arrive dans 10 minutes environ."</item>
+        <item>Commencez sans moi.</item>
+        <item>Désolé, je ne peux pas venir. Nous allons devoir reporter.</item>
     </string-array>
-    <string-array name="repeat_monthly_on_day_count_values">
-        <item>premier lundi</item>
-        <item>premier mardi</item>
-        <item>premier mercredi</item>
-        <item>premier jeudi</item>
-        <item>premier vendredi</item>
-        <item>premier samedi</item>
-        <item>premier dimanche</item>
-        <item>deuxième lundi</item>
-        <item>deuxième mardi</item>
-        <item>deuxième mercredi</item>
-        <item>deuxième jeudi</item>
-        <item>deuxième vendredi</item>
-        <item>deuxième samedi</item>
-        <item>deuxième dimanche</item>
-        <item>troisième lundi</item>
-        <item>troisième mardi</item>
-        <item>troisième mercredi</item>
-        <item>troisième jeudi</item>
-        <item>troisième vendredi</item>
-        <item>troisième samedi</item>
-        <item>troisième dimanche</item>
-        <item>quatrième lundi</item>
-        <item>quatrième mardi</item>
-        <item>quatrième mercredi</item>
-        <item>quatrième jeudi</item>
-        <item>quatrième vendredi</item>
-        <item>quatrième samedi</item>
-        <item>quatrième dimanche</item>
-        <item>dernier lundi</item>
-        <item>dernier mardi</item>
-        <item>dernier mercredi</item>
-        <item>dernier jeudi</item>
-        <item>dernier vendredi</item>
-        <item>dernier samedi</item>
-        <item>dernier dimanche</item>
+    <string-array name="recurrence_freq">
+        <item>TOUS LES JOURS</item>
+        <item>TOUTES LES SEMAINES</item>
+        <item>TOUS LES MOIS</item>
+        <item>TOUS LES ANS</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Notification</item>
+        <item>E-mail</item>
+        <item>SMS</item>
+        <item>Alarme</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minute</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+        <item>12 heures</item>
+        <item>24 heures</item>
+        <item>2 jours</item>
+        <item>1 semaine</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>tous les premiers vendredis</item>
+        <item>tous les deuxièmes vendredis</item>
+        <item>tous les troisièmes vendredis</item>
+        <item>tous les quatrièmes vendredis</item>
+        <item>tous les derniers vendredis</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>tous les premiers lundis</item>
+        <item>tous les deuxièmes lundis</item>
+        <item>tous les troisièmes lundis</item>
+        <item>tous les quatrièmes lundis</item>
+        <item>tous les derniers lundis</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>tous les premiers samedis</item>
+        <item>tous les deuxièmes samedis</item>
+        <item>tous les troisièmes samedis</item>
+        <item>tous les quatrièmes samedis</item>
+        <item>tous les derniers samedis</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>tous les premiers dimanches</item>
+        <item>tous les deuxièmes dimanches</item>
+        <item>tous les troisièmes dimanches</item>
+        <item>tous les quatrièmes dimanches</item>
+        <item>tous les derniers dimanches</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>tous les premiers jeudis</item>
+        <item>tous les deuxièmes jeudis</item>
+        <item>tous les troisièmes jeudis</item>
+        <item>tous les quatrièmes jeudis</item>
+        <item>tous les derniers jeudis</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>tous les premiers mardis</item>
+        <item>tous les deuxièmes mardis</item>
+        <item>tous les troisièmes mardis</item>
+        <item>tous les quatrièmes mardis</item>
+        <item>tous les derniers mardis</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>tous les premiers mercredis</item>
+        <item>tous les deuxièmes mercredis</item>
+        <item>tous les troisièmes mercredis</item>
+        <item>tous les quatrièmes mercredis</item>
+        <item>tous les derniers mercredis</item>
     </string-array>
     <string-array name="response_labels1">
         <item>Aucune réponse</item>
@@ -171,121 +156,34 @@
         <item>Peut-être</item>
         <item>Non</item>
     </string-array>
-    <string-array name="timezone_labels">
-        <item>Îles Marshall</item>
-        <item>Îles Midway</item>
-        <item>Hawaï</item>
-        <item>Alaska</item>
-        <item>Heure du pacifique</item>
-        <item>Tijuana</item>
-        <item>Arizona</item>
-        <item>Chihuahua</item>
-        <item>Heure normale des Rocheuses</item>
-        <item>Amérique centrale</item>
-        <item>Heure du centre</item>
-        <item>Mexico</item>
-        <item>Saskatchewan</item>
-        <item>Bogotá</item>
-        <item>Heure de la côte Est</item>
-        <item>Vénézuela</item>
-        <item>"Heure de l'Atlantique (Barbade)"</item>
-        <item>"Heure de l'Atlantique (Canada)"</item>
-        <item>Manaus</item>
-        <item>Santiago</item>
-        <item>Terre-Neuve</item>
-        <item>Brasilia</item>
-        <item>Buenos Aires</item>
-        <item>Groenland</item>
-        <item>Montévidéo</item>
-        <item>Mi-Atlantique</item>
-        <item>Açores</item>
-        <item>Cap-Vert</item>
-        <item>Casablanca</item>
-        <item>Londres, Dublin</item>
-        <item>Amsterdam, Berlin</item>
-        <item>Belgrade</item>
-        <item>Bruxelles</item>
-        <item>Sarajevo</item>
-        <item>Windhoek</item>
-        <item>"Afrique de l'Ouest"</item>
-        <item>Amman, Jordanie</item>
-        <item>Athènes, Istanbul</item>
-        <item>Beyrouth, Liban</item>
-        <item>Le Caire</item>
-        <item>Helsinki</item>
-        <item>Jérusalem</item>
-        <item>Minsk</item>
-        <item>Harare</item>
-        <item>Bagdad</item>
-        <item>Moscou</item>
-        <item>Koweït</item>
-        <item>Nairobi</item>
-        <item>Téhéran</item>
-        <item>Bakou</item>
-        <item>Tbilissi</item>
-        <item>Erevan</item>
-        <item>Dubaï</item>
-        <item>Kaboul</item>
-        <item>Islamabad, Karachi</item>
-        <item>Ouraslk</item>
-        <item>Ekaterinbourg</item>
-        <item>Calcutta</item>
-        <item>Sri Lanka</item>
-        <item>Katmandou</item>
-        <item>Astana</item>
-        <item>Rangoon</item>
-        <item>Krasnoïarsk</item>
-        <item>Bangkok</item>
-        <item>Pékin</item>
-        <item>Hong Kong</item>
-        <item>Macao</item>
-        <item>Singapour</item>
-        <item>Irkoutsk</item>
-        <item>Kuala Lumpur</item>
-        <item>Perth</item>
-        <item>Taipei</item>
-        <item>Séoul</item>
-        <item>Tokyo, Osaka</item>
-        <item>Yakoutsk</item>
-        <item>Adélaide</item>
-        <item>Darwin</item>
-        <item>Brisbane</item>
-        <item>Hobart</item>
-        <item>Sydney, Canberra</item>
-        <item>Vladivostok</item>
-        <item>Guam</item>
-        <item>Magadan</item>
-        <item>Auckland</item>
-        <item>Fidji</item>
-        <item>Tonga</item>
+    <string-array name="timezone_rename_labels">
+        <item>Heure centr. Austr. (Terr. Nord)</item>
+        <item>Heure centr. Austr. (Aus. Mérid.)</item>
+        <item>Heure Est Australie (Queensland)</item>
+        <item>Heure Est Austr. (N-Galles Sud)</item>
+        <item>Heure stand. mont. (Dawson Creek)</item>
+        <item>Heure stand. cent. (Saskatchewan)</item>
+        <item>Heure standard Est (Atikokan)</item>
+        <item>Heure stand. Atlantique (Québec)</item>
+        <item>Heure Hawaï-Aléoutiennes (Hawaï)</item>
+        <item>Heure Hawaï-Aléoutiennes (Alaska)</item>
+        <item>Heure stand. Pacif. (Metlakatla)</item>
+        <item>Heure stand. montagnes (Arizona)</item>
+        <item>Heure Pacifique (Baja California)</item>
+        <item>Heure montagnes (Chihuahua)</item>
+        <item>Heure centr. Mexique (Tamaulipas)</item>
+        <item>Heure montagnes (Sonora)</item>
+        <item>"Heure d'Afrique de l'Est"</item>
+        <item>"Heure standard de l'Atlantique"</item>
+        <item>"Heure standard de l'Atlantique"</item>
+        <item>"Heure d'Europe de l'Est"</item>
+        <item>Heure de Kaliningrad</item>
+        <item>Amazonie – Rondônia</item>
+        <item>Brasilia – Pará</item>
     </string-array>
-    <string-array name="travel_reminder_minutes_labels">
-        <item>3 heures avant</item>
-        <item>4 heures avant</item>
-        <item>5 heures avant</item>
-        <item>6 heures avant</item>
-        <item>1 jour avant</item>
-    </string-array>
-    <string-array name="week_header_name">
-        <item>DIM</item>
-        <item>LUN</item>
-        <item>MAR</item>
-        <item>MER</item>
-        <item>JEU</item>
-        <item>VEN</item>
-        <item>SAM</item>
-    </string-array>
-    <string-array name="widget_style_list">
-        <item>Transparent</item>
-        <item>Arrière-plan blanc</item>
-    </string-array>
-    <string-array name="year_view_week_header_name">
-        <item>D</item>
-        <item>L</item>
-        <item>M</item>
-        <item>M</item>
-        <item>J</item>
-        <item>V</item>
-        <item>S</item>
+    <string-array name="visibility">
+        <item>Par défaut</item>
+        <item>Privé</item>
+        <item>Public</item>
     </string-array>
 </resources>

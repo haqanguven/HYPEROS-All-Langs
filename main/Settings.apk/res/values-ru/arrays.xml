@@ -1,34 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="agps_apn_entries">
-        <item>CMWAP</item>
-        <item>CMNET</item>
+    <string-array name="accessibility_button_gesture_selector_titles">
+        <item>Кнопка</item>
+        <item>Жест</item>
     </string-array>
-    <string-array name="agps_apn_values">
-        <item>0</item>
-        <item>1</item>
+    <string-array name="accessibility_button_location_selector_titles">
+        <item>Поверх других приложений</item>
+        <item>Панель навигации</item>
     </string-array>
-    <string-array name="agps_network_entries">
-        <item>Домашняя сеть</item>
-        <item>Все сети</item>
-    </string-array>
-    <string-array name="agps_network_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="agps_reset_type_entries">
-        <item>ГОРЯЧИЙ</item>
-        <item>ТЕПЛЫЙ</item>
-        <item>ХОЛОДНЫЙ</item>
-    </string-array>
-    <string-array name="agps_reset_type_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="agps_si_mode_entries">
-        <item>MSB</item>
-        <item>MSA</item>
+    <string-array name="accessibility_button_size_selector_titles">
+        <item>Маленькая кнопка</item>
+        <item>Большая кнопка</item>
     </string-array>
     <string-array name="ai_key_item_name">
         <item>Поговорить с Google Ассистентом</item>
@@ -51,6 +33,39 @@
         <item>По будням</item>
         <item>По выходным</item>
         <item>Выбрать дни</item>
+    </string-array>
+    <string-array name="alphabet_sub_table_with_starred">
+        <item>!</item>
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ъ</item>
+        <item>Ы</item>
+        <item>Ь</item>
+        <item>Э</item>
+        <item>Ю</item>
+        <item>Я</item>
+        <item>\#</item>
     </string-array>
     <string-array name="alphabet_table">
         <item>А</item>
@@ -127,9 +142,9 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Без анимации</item>
-        <item>Анимация 0.5x</item>
+        <item>Анимация 0,5x</item>
         <item>Анимация 1x</item>
-        <item>Анимация 1.5x</item>
+        <item>Анимация 1,5x</item>
         <item>Анимация 2x</item>
         <item>Анимация 5x</item>
         <item>Анимация 10x</item>
@@ -148,18 +163,6 @@
         <item>IPv4</item>
         <item>IPv6</item>
         <item>IPv4/IPv6</item>
-    </string-array>
-    <string-array name="app_install_location_entries">
-        <item>Внутренний накопитель устройства</item>
-        <item>Съемная SD-карта</item>
-        <item>На усмотрение системы</item>
-    </string-array>
-    <string-array name="app_ops_categories">
-        <item>Местоположение</item>
-        <item>Личный профиль</item>
-        <item>SMS/MMS</item>
-        <item>Мультимедиа</item>
-        <item>Устройство</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Местоположение</item>
@@ -296,15 +299,15 @@
         <item>громкость подсказок</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Стандартный лимит</item>
+        <item>Стандартное ограничение</item>
         <item>Без фоновых процессов</item>
-        <item>Не более 1 процесса</item>
+        <item>Не более одного процесса</item>
         <item>Не более 2 процессов</item>
         <item>Не более 3 процессов</item>
         <item>Не более 4 процессов</item>
     </string-array>
     <string-array name="autofill_logging_level_entries">
-        <item>Отключено</item>
+        <item>Отключен</item>
         <item>Сведения об отладке</item>
         <item>Подробная информация</item>
     </string-array>
@@ -313,16 +316,23 @@
         <item>Добавленные более 60 дней назад</item>
         <item>Добавленные более 90 дней назад</item>
     </string-array>
+    <array name="avatar_image_descriptions" />
     <string-array name="battery_indicator_style_entries">
         <item>Графический</item>
-        <item>Процентный (на значке)</item>
+        <item>Процентный (внутри значка)</item>
         <item>Процентный (рядом со значком)</item>
         <item>Полоска вверху экрана</item>
     </string-array>
+    <string-array name="battery_indicator_style_summaries">
+        <item>Графический</item>
+        <item>Процентный (внутри значка)</item>
+        <item>Процентный (рядом со значком)</item>
+        <item>Индикатор прогресса</item>
+    </string-array>
     <string-array name="battery_labels">
-        <item>0%</item>
-        <item>50%</item>
-        <item>100%</item>
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
     </string-array>
     <string-array name="bearer_entries">
         <item>Не указано</item>
@@ -353,15 +363,15 @@
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
         <item>Выбор системы (по умолчанию)</item>
-        <item>16 бит/отсчет</item>
-        <item>24 бит/отсчет</item>
-        <item>32 бит/отсчет</item>
+        <item>16 бит/отсчет</item>
+        <item>24 бит/отсчет</item>
+        <item>32 бит/отсчет</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
         <item>Выбор системы (по умолчанию)</item>
-        <item>16 бит/отсчет</item>
-        <item>24 бит/отсчет</item>
-        <item>32 бит/отсчет</item>
+        <item>16 бит/отсчет</item>
+        <item>24 бит/отсчет</item>
+        <item>32 бит/отсчет</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
         <item>Выбор системы (по умолчанию)</item>
@@ -377,7 +387,7 @@
         <item>Оптимизировать качество звука</item>
         <item>Баланс качества звука и скорости подключения</item>
         <item>Оптимизировать скорость подключения</item>
-        <item>Наилучший результат (автоматический битрейт)</item>
+        <item>Лучший возможный результат (адаптивный битрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Оптимизировать качество звука (990/909 Кбит/с)</item>
@@ -409,29 +419,16 @@
         <item>Оптимизировать качество звука (900 Кбит/с)</item>
         <item>Наилучший результат (автоматический битрейт)</item>
     </string-array>
-    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Выбор системы (по умолчанию)</item>
-        <item>44.1 кГц</item>
-        <item>48.0 кГц</item>
-        <item>88.2 кГц</item>
-        <item>96.0 кГц</item>
-    </string-array>
-    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Выбор системы (по умолчанию)</item>
-        <item>44.1 кГц</item>
-        <item>48.0 кГц</item>
-        <item>88.2 кГц</item>
-        <item>96.0 кГц</item>
-    </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Выбор системы (по умолчанию)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Аудиокодек: Qualcomm® aptX™ Adaptive</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
@@ -447,6 +444,7 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
@@ -459,17 +457,22 @@
         <item>" | Активно (аудио)"</item>
         <item>" | Активно (звонки)"</item>
     </string-array>
+    <string-array name="bluetooth_audio_routing_titles">
+        <item>Зависит от приложения</item>
+        <item>Воспроизведение через слуховой аппарат</item>
+        <item>Воспроизведение через динамик телефона</item>
+    </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp14</item>
+        <item>AVRCP15</item>
         <item>avrcp13</item>
-        <item>avrcp15</item>
+        <item>AVRCP14</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (по умолчанию)</item>
-        <item>AVRCP 1.3</item>
-        <item>AVRCP 1.5</item>
-        <item>AVRCP 1.6</item>
+        <item>AVRCP 1.5 (по умолчанию)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
         <item>map12</item>
@@ -489,18 +492,21 @@
         <item>4</item>
         <item>5</item>
     </string-array>
-    <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 мин.</item>
-        <item>5 мин.</item>
-        <item>1 ч.</item>
-        <item>Без тайм-аута</item>
-    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Отключено</item>
-        <item>Отсортировано</item>
-        <item>Включен</item>
-        <item>Заголовки отсортированы</item>
-        <item>Медиапакеты отсортированы</item>
+        <item>Включены фильтры</item>
+        <item>Включено</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_filters_entries">
+        <item>Только заголовки списка контроля доступа</item>
+        <item>Фильтровать A2DP-медиапакеты</item>
+        <item>Фильтровать RFCOMM-канал</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_profile_filter_entries">
+        <item>Отключить</item>
+        <item>Заполнить строкой символов</item>
+        <item>Оставить только заголовок</item>
+        <item>Удалить полностью</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 секунда</item>
@@ -521,14 +527,14 @@
     <string-array name="captioning_font_size_selector_summaries">
         <item>Очень мелкий шрифт</item>
         <item>Мелкий шрифт</item>
-        <item>Размер шрифта по умолчанию</item>
+        <item>Обычный шрифт</item>
         <item>Крупный шрифт</item>
         <item>Очень крупный шрифт</item>
     </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Очень мелкий</item>
         <item>Мелкий</item>
-        <item>По умолчанию</item>
+        <item>Средний</item>
         <item>Крупный</item>
         <item>Очень крупный</item>
     </string-array>
@@ -571,297 +577,6 @@
         <item>Цифровой код</item>
         <item>Пароль</item>
     </string-array>
-    <string-array name="city_name">
-        <item>Абиджан</item>
-        <item>Аккра</item>
-        <item>Аддис-Абеба</item>
-        <item>Алжир</item>
-        <item>Блантайр</item>
-        <item>Браззавиль</item>
-        <item>Каир</item>
-        <item>Касабланка</item>
-        <item>Конакри</item>
-        <item>Дакар</item>
-        <item>Дар-эс-Салам</item>
-        <item>Джибути</item>
-        <item>Фритаун</item>
-        <item>Габороне</item>
-        <item>Хараре</item>
-        <item>Йоханнесбург</item>
-        <item>Кампала</item>
-        <item>Хартум</item>
-        <item>Кигали</item>
-        <item>Киншаса</item>
-        <item>Лагос</item>
-        <item>Масеру</item>
-        <item>Могадишо</item>
-        <item>Найроби</item>
-        <item>Сан-Томе</item>
-        <item>Томбукту</item>
-        <item>Триполи</item>
-        <item>Тунис</item>
-        <item>Анкоридж</item>
-        <item>Мендоса</item>
-        <item>Аруба</item>
-        <item>Асунсьон</item>
-        <item>Барбадос</item>
-        <item>Белиз</item>
-        <item>Богота</item>
-        <item>Буэнос-Айрес</item>
-        <item>Канкун</item>
-        <item>Каракас</item>
-        <item>Каймановы острова</item>
-        <item>Чикаго</item>
-        <item>Коста-Рика</item>
-        <item>Кюрасао</item>
-        <item>Досон-Крик</item>
-        <item>Денвер</item>
-        <item>Детройт</item>
-        <item>Доминика</item>
-        <item>Эдмонтон</item>
-        <item>Сальвадор</item>
-        <item>Форталеза</item>
-        <item>Гранд-Терк</item>
-        <item>Гренада</item>
-        <item>Гватемала</item>
-        <item>Гайана</item>
-        <item>Галифакс</item>
-        <item>Гавана</item>
-        <item>Индианаполис</item>
-        <item>Нокс-Сити</item>
-        <item>Питерсберг</item>
-        <item>Телл-Сити</item>
-        <item>Вевей</item>
-        <item>Венсен</item>
-        <item>Уинамак</item>
-        <item>Кингстон</item>
-        <item>Ла-Пас</item>
-        <item>Лима</item>
-        <item>Лос-Анджелес</item>
-        <item>Луисвилл</item>
-        <item>Манагуа</item>
-        <item>Мартиника</item>
-        <item>Метлакатла</item>
-        <item>Мехико</item>
-        <item>Монтеррей</item>
-        <item>Монтевидео</item>
-        <item>Монреаль</item>
-        <item>Нассау</item>
-        <item>Нью-Йорк</item>
-        <item>Бойла</item>
-        <item>Нью-Сейлем</item>
-        <item>Панама</item>
-        <item>Финикс</item>
-        <item>Порт-оф-Спейн</item>
-        <item>Порт-о-Пренс</item>
-        <item>Пуэрто-Рико</item>
-        <item>Санто-Доминго</item>
-        <item>Сан-Пауло</item>
-        <item>Сент-Джонс</item>
-        <item>Сент-Китс</item>
-        <item>Сент-Люсия</item>
-        <item>Сент-Томас</item>
-        <item>Тихуана</item>
-        <item>Торонто</item>
-        <item>Ванкувер</item>
-        <item>Виннипег</item>
-        <item>Южный полюс</item>
-        <item>Лонгйир</item>
-        <item>Алма-Ата</item>
-        <item>Амман</item>
-        <item>Анадырь</item>
-        <item>Актау</item>
-        <item>Багдад</item>
-        <item>Бахрейн</item>
-        <item>Баку</item>
-        <item>Бангкок</item>
-        <item>Бейрут</item>
-        <item>Калькутта</item>
-        <item>Дамаск</item>
-        <item>Дакка</item>
-        <item>Дубай</item>
-        <item>Газа</item>
-        <item>Хеврон</item>
-        <item>Хошимин</item>
-        <item>Гонконг</item>
-        <item>Джакарта</item>
-        <item>Иерусалим</item>
-        <item>Кабул</item>
-        <item>Карачи</item>
-        <item>Катманду</item>
-        <item>Куала-Лумпур</item>
-        <item>Кувейт</item>
-        <item>Макао</item>
-        <item>Манила</item>
-        <item>Маскат</item>
-        <item>Пномпень</item>
-        <item>Пхеньян</item>
-        <item>Катар</item>
-        <item>Янгон</item>
-        <item>Эр-Рияд</item>
-        <item>Сеул</item>
-        <item>Шанхай</item>
-        <item>Сингапур</item>
-        <item>Тайбэй</item>
-        <item>Тегеран</item>
-        <item>Тель-Авив</item>
-        <item>Токио</item>
-        <item>Улан-Батор</item>
-        <item>Бермудские острова</item>
-        <item>Канарские острова</item>
-        <item>Кабо-Верде</item>
-        <item>Рейкьявик</item>
-        <item>Аделаида</item>
-        <item>Брисбен</item>
-        <item>Канберра</item>
-        <item>Дарвин</item>
-        <item>Мельбурн</item>
-        <item>Новый Южный Уэльс</item>
-        <item>Перт</item>
-        <item>Квинсленд</item>
-        <item>Сидней</item>
-        <item>Виктория</item>
-        <item>Ньюфаундленд</item>
-        <item>Саскачеван</item>
-        <item>Остров Пасхи</item>
-        <item>Амстердам</item>
-        <item>Андорра</item>
-        <item>Афины</item>
-        <item>Белфаст</item>
-        <item>Белград</item>
-        <item>Берлин</item>
-        <item>Братислава</item>
-        <item>Брюссель</item>
-        <item>Бухарест</item>
-        <item>Будапешт</item>
-        <item>Кишинев</item>
-        <item>Копенгаген</item>
-        <item>Дублин</item>
-        <item>Гибралтар</item>
-        <item>Хельсинки</item>
-        <item>Остров Мэн</item>
-        <item>Стамбул</item>
-        <item>Лиссабон</item>
-        <item>Лондон</item>
-        <item>Люксембург</item>
-        <item>Мадрид</item>
-        <item>Мальта</item>
-        <item>Минск</item>
-        <item>Монако</item>
-        <item>Москва</item>
-        <item>Осло</item>
-        <item>Париж</item>
-        <item>Прага</item>
-        <item>Рига</item>
-        <item>Рим</item>
-        <item>Сан-Марино</item>
-        <item>Сараево</item>
-        <item>Симферополь</item>
-        <item>Скопье</item>
-        <item>София</item>
-        <item>Стокгольм</item>
-        <item>Таллин</item>
-        <item>Ватикан</item>
-        <item>Вена</item>
-        <item>Вильнюс</item>
-        <item>Варшава</item>
-        <item>Загреб</item>
-        <item>Цюрих</item>
-        <item>Антананариву</item>
-        <item>Мальдивы</item>
-        <item>Маврикий</item>
-        <item>Окленд</item>
-        <item>Фиджи</item>
-        <item>Гуам</item>
-        <item>Гонолулу</item>
-        <item>Киритимати</item>
-        <item>Нумеа</item>
-        <item>Самоа</item>
-        <item>Таити</item>
-        <item>Антигуа</item>
-        <item>Остин</item>
-        <item>Бостон</item>
-        <item>Калгари</item>
-        <item>Колумбус</item>
-        <item>Даллас</item>
-        <item>Ноксвилл</item>
-        <item>Мемфис</item>
-        <item>Майами</item>
-        <item>Миннеаполис</item>
-        <item>Оттава</item>
-        <item>Филадельфия</item>
-        <item>Портленд</item>
-        <item>Сан-Диего</item>
-        <item>Сан-Франциско</item>
-        <item>Солт-Лейк-Сити</item>
-        <item>Сан-Хосе</item>
-        <item>Сиэтл</item>
-        <item>Сент-Луис</item>
-        <item>Вашингтон (округ Колумбия)</item>
-        <item>Хьюстон</item>
-        <item>Сан-Антонио</item>
-        <item>Джэксонвилл</item>
-        <item>Балтимор</item>
-        <item>Нэшвилл</item>
-        <item>Милуоки</item>
-        <item>Оклахома-Сити</item>
-        <item>Лас-Вегас</item>
-        <item>Альбукерке</item>
-        <item>Тусон</item>
-        <item>Сакраменто</item>
-        <item>Атланта</item>
-        <item>Кливленд</item>
-        <item>Новый Орлеан</item>
-        <item>Тампа</item>
-        <item>Питтсбург</item>
-        <item>Цинциннати</item>
-        <item>Маунтин-Вью</item>
-        <item>Рино</item>
-        <item>Доха</item>
-        <item>Пекин</item>
-        <item>Мумбаи</item>
-        <item>Дели</item>
-        <item>Осака</item>
-        <item>Лахор</item>
-        <item>Сана</item>
-        <item>Барселона</item>
-        <item>Мюнхен</item>
-        <item>Милан</item>
-        <item>Франкфурт</item>
-        <item>Ханой</item>
-        <item>Анкара</item>
-        <item>Бенгалуру</item>
-        <item>Бразилиа</item>
-        <item>Кейптаун</item>
-        <item>Исламабад</item>
-        <item>Рио-де-Жанейро</item>
-        <item>Анн-Арбор</item>
-        <item>Боулдер</item>
-        <item>Кембридж</item>
-        <item>Киркланд</item>
-        <item>Мэдисон</item>
-        <item>Гуанчжоу</item>
-        <item>Хайдерабад</item>
-        <item>Рестон</item>
-        <item>Белу-Оризонти</item>
-        <item>Сантьяго</item>
-        <item>Монровия</item>
-        <item>Коломбо</item>
-        <item>Чиуауа</item>
-        <item>Гуруграм</item>
-        <item>Манчестер</item>
-        <item>Киев</item>
-        <item>Санкт-Петербург</item>
-        <item>Краков</item>
-        <item>Вроцлав</item>
-        <item>Гамбург</item>
-        <item>Оулу</item>
-        <item>Хайфа</item>
-        <item>Сан-Хуан</item>
-        <item>Тегусигальпа</item>
-        <item>Парамарибо</item>
-        <item>Кито</item>
-    </string-array>
     <array name="click_bottom">
         <item>@drawable/clickbottom01</item>
         <item>@drawable/clickbottom01</item>
@@ -889,8 +604,8 @@
     </array>
     <string-array name="color_mode_descriptions">
         <item>Улучшенные цвета</item>
-        <item>Натуральные цвета, привычные глазу.</item>
-        <item>Цвета, оптимизированные для цифрового контента.</item>
+        <item>Натуральные цвета, привычные глазу</item>
+        <item>Цвета, оптимизированные для цифрового контента</item>
     </string-array>
     <string-array name="color_mode_names">
         <item>Насыщенный (по умолчанию)</item>
@@ -898,12 +613,12 @@
         <item>Стандартный</item>
     </string-array>
     <string-array name="color_picker">
-        <item>Сине-зеленый</item>
+        <item>Голубой</item>
         <item>Синий</item>
-        <item>Индиго</item>
+        <item>Зеленый</item>
         <item>Фиолетовый</item>
         <item>Розовый</item>
-        <item>Красный</item>
+        <item>Оранжевый</item>
     </string-array>
     <string-array name="common_password_business_names">
         <item>Блокировка экрана</item>
@@ -924,10 +639,6 @@
     <string-array name="dark_ui_mode_entries">
         <item>Темная</item>
         <item>Светлая</item>
-    </string-array>
-    <string-array name="data_usage_data_range">
-        <item>За последние 30 дней</item>
-        <item>Цикл использования данных</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>"Сегодня (мобильный интернет) "</item>
@@ -950,35 +661,18 @@
     <string-array name="debug_hw_overdraw_entries">
         <item>Отключено</item>
         <item>Показывать области наложения</item>
-        <item>Показывать области для дейтераномалии</item>
-    </string-array>
-    <string-array name="dream_timeout_entries">
-        <item>Никогда</item>
-        <item>15 сек.</item>
-        <item>30 сек.</item>
-        <item>1 мин.</item>
-        <item>2 мин.</item>
-        <item>5 мин.</item>
-        <item>10 мин.</item>
-        <item>30 мин.</item>
+        <item>Выделять области определенного цвета</item>
     </string-array>
     <string-array name="eap_ocsp_type">
         <item>Не проверять</item>
         <item>Запрашивать статус сертификата</item>
         <item>Требовать статус сертификата</item>
-        <item>Требовать статусы всех ненадежных сертификатов</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Нет</item>
         <item>Logcat</item>
         <item>Systrace (графика)</item>
-        <item>Стек вызовов на glGetError</item>
-    </string-array>
-    <string-array name="entries_font_size">
-        <item>Мелкий</item>
-        <item>По умолчанию</item>
-        <item>Крупный</item>
-        <item>Максимальный</item>
+        <item>Список вызовов в glGetError</item>
     </string-array>
     <string-array name="fluency_mode_confirms">
         <item>Перезагрузить для применения настройки?</item>
@@ -997,16 +691,11 @@
         <item>4 дюйма</item>
         <item>3,5 дюйма</item>
     </string-array>
-    <string-array name="handy_mode_size_value_entries">
-        <item>4.5</item>
-        <item>4.0</item>
-        <item>3.5</item>
-    </string-array>
     <string-array name="haptic_feedback_level_texts">
-        <item>Нет</item>
-        <item>Слабый</item>
-        <item>Средний</item>
-        <item>Сильный</item>
+        <item>Откл.</item>
+        <item>Слабо</item>
+        <item>Средне</item>
+        <item>Сильно</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Не использовать проверку HDCP</item>
@@ -1021,6 +710,11 @@
     <string-array name="hide_account_list">
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
+    </string-array>
+    <string-array name="input_method_selector_titles">
+        <item>@string/input_method_selector_show_automatically_title</item>
+        <item>@string/input_method_selector_always_show_title</item>
+        <item>@string/input_method_selector_always_hide_title</item>
     </string-array>
     <string-array name="key_and_gesture_shortcut_action">
         <item>long_press_home_key</item>
@@ -1057,14 +751,14 @@
     </string-array>
     <string-array name="lock_after_timeout_entries">
         <item>Сразу</item>
-        <item>Через 5 сек.</item>
-        <item>Через 15 сек.</item>
-        <item>Через 30 сек.</item>
-        <item>Через 1 мин.</item>
-        <item>Через 2 мин.</item>
-        <item>Через 5 мин.</item>
-        <item>Через 10 мин.</item>
-        <item>Через 30 мин.</item>
+        <item>Через 5 секунд</item>
+        <item>Через 15 секунд</item>
+        <item>Через 30 секунд</item>
+        <item>Через 1 минуту</item>
+        <item>Через 2 минуты</item>
+        <item>Через 5 минут</item>
+        <item>Через 10 минут</item>
+        <item>Через 30 минут</item>
     </string-array>
     <string-array name="lock_screen_secure_after_timeout_entries">
         <item>Немедленно</item>
@@ -1111,15 +805,20 @@
         <item>@drawable/clickbottom01</item>
         <item>@drawable/clickbottom01</item>
     </array>
+    <string-array name="long_press_timeout_selector_list_titles">
+        <item>Короткая задержка</item>
+        <item>Средняя задержка</item>
+        <item>Длительная задержка</item>
+    </string-array>
     <string-array name="long_press_timeout_selector_titles">
-        <item>Небольшая</item>
+        <item>Короткая</item>
         <item>Средняя</item>
-        <item>Большая</item>
+        <item>Длительная</item>
     </string-array>
     <string-array name="long_press_volume_down_action">
         <item>Нет действий</item>
-        <item>Быстрые снимки (фото)</item>
-        <item>Быстрые снимки (видео)</item>
+        <item>Быстрая съемка (фото)</item>
+        <item>Быстрая съемка (видео)</item>
         <item>Ярлыки общественного транспорта</item>
     </string-array>
     <string-array name="max_number_titles">
@@ -1203,9 +902,30 @@
         <item>Низкая скорость из-за слабого сигнала</item>
         <item>Перемещение…</item>
     </string-array>
+    <string-array name="nfc_notification_mode_summaries">
+        <item>Платежные карты, карты доступа и карты умного дома</item>
+        <item>Подключение по Bluetooth, беспроводное соединение и карты умного дома</item>
+    </string-array>
+    <string-array name="nfc_notification_mode_titles">
+        <item>Все карты</item>
+        <item>Карты, распознанные системой</item>
+    </string-array>
+    <string-array name="nfc_payment_favor">
+        <item>Всегда</item>
+        <item>Если не открыто другое платежное приложение</item>
+    </string-array>
+    <string-array name="nfc_payment_favor_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="notch_battery_indicator_style_entries">
         <item>Графический</item>
-        <item>Процентный (на значке)</item>
+        <item>Процентный (внутри значка)</item>
+        <item>Процентный (рядом со значком)</item>
+    </string-array>
+    <string-array name="notch_battery_indicator_style_summaries">
+        <item>Графический</item>
+        <item>Процентный (внутри значка)</item>
         <item>Процентный (рядом со значком)</item>
     </string-array>
     <string-array name="notification_shade_shortcut_entries">
@@ -1267,16 +987,16 @@
     <string-array name="overlay_display_devices_entries">
         <item>Нет</item>
         <item>480p</item>
-        <item>480p (защита)</item>
+        <item>480p (защита)</item>
         <item>720p</item>
-        <item>720p (защита)</item>
+        <item>720p (защита)</item>
         <item>1080p</item>
         <item>1080p (защита)</item>
         <item>4K</item>
-        <item>4K (защита)</item>
-        <item>4K (масштаб)</item>
-        <item>4K (масштаб, защита)</item>
-        <item>720p, 1080p (два экрана)</item>
+        <item>4K (защита)</item>
+        <item>4K (масштабирование)</item>
+        <item>4K (масштабирование, защита)</item>
+        <item>720p, 1080p (два экрана)</item>
     </string-array>
     <string-array name="paper_color_values">
         <item>Все цвета</item>
@@ -1409,7 +1129,7 @@
         <item>CDMA/EvDo/GSM/WCDMA</item>
         <item>CDMA и LTE/EvDo</item>
         <item>GSM/WCDMA/LTE</item>
-        <item>Весь мир</item>
+        <item>LTE/CDMA/EvDo/GSM/WCDMA</item>
         <item>LTE</item>
         <item>LTE/WCDMA</item>
         <item>Только TDSCDMA</item>
@@ -1426,7 +1146,7 @@
         <item>NR/LTE</item>
         <item>NR/LTE/CDMA/EvDo</item>
         <item>NR/LTE/GSM/WCDMA</item>
-        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>Весь мир</item>
         <item>NR/LTE/WCDMA</item>
         <item>NR/LTE/TDSCDMA</item>
         <item>NR/LTE/TDSCDMA/GSM</item>
@@ -1440,31 +1160,9 @@
     </string-array>
     <string-array name="privacy_password_function_specfication_names">
         <item>Сообщения</item>
-        <item>Фотографии</item>
+        <item>Фото</item>
         <item>Файлы</item>
         <item>Заметки</item>
-    </string-array>
-    <string-array name="proc_stats_memory_states">
-        <item>Нормальное</item>
-        <item>Умеренное</item>
-        <item>Низкое</item>
-        <item>Высокое</item>
-    </string-array>
-    <string-array name="proc_stats_process_states">
-        <item>Стабильное</item>
-        <item>Наиболее частое действие</item>
-        <item>Важное (активный режим)</item>
-        <item>Важное (фоновый режим)</item>
-        <item>Резервное копирование</item>
-        <item>Большой объем данных</item>
-        <item>Служба (работает)</item>
-        <item>Служба (перезапуск)</item>
-        <item>Получатель</item>
-        <item>Главная</item>
-        <item>Последнее действие</item>
-        <item>Кешировано (действие)</item>
-        <item>Кешировано (клиент)</item>
-        <item>Кешировано (пусто)</item>
     </string-array>
     <string-array name="ram_states">
         <item>Достаточно</item>
@@ -1502,9 +1200,9 @@
         <item>Контрастность останется неизменной при любом освещении.</item>
     </string-array>
     <string-array name="screen_optimize_title">
-        <item>Яркий (рекомендуется)</item>
+        <item>Яркие (рекомендуется)</item>
         <item>Насыщенные</item>
-        <item>Стандарт</item>
+        <item>По умолчанию</item>
     </string-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
@@ -1539,44 +1237,56 @@
         <item>Не разрешать</item>
         <item>Разрешать всегда</item>
     </string-array>
+    <string-array name="select_gpo_version_summaries">
+        <item>Откл.</item>
+        <item>GPO4</item>
+        <item>GPO5</item>
+        <item>GPO6</item>
+    </string-array>
+    <string-array name="select_gpo_version_titles">
+        <item>Откл.</item>
+        <item>GPO4</item>
+        <item>GPO5</item>
+        <item>GPO6</item>
+    </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Отключен</item>
-        <item>64 КБ</item>
-        <item>256 КБ</item>
-        <item>1 МБ</item>
+        <item>Отключено</item>
+        <item>64 КБ</item>
+        <item>256 КБ</item>
+        <item>1 МБ</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Отключен</item>
-        <item>64 КБ на буфер</item>
-        <item>256 КБ на буфер</item>
-        <item>1 МБ на буфер</item>
-        <item>4 МБ на буфер</item>
-        <item>16 МБ на буфер</item>
+        <item>Отключено</item>
+        <item>Буфер: макс. 64 КБ</item>
+        <item>Буфер: макс. 256 КБ</item>
+        <item>Буфер: макс. 1 МБ</item>
+        <item>Буфер: макс. 4 МБ</item>
+        <item>Буфер: максимум 8 МБ</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Отключен</item>
-        <item>64 КБ</item>
-        <item>256 КБ</item>
-        <item>1 МБ</item>
-        <item>4 МБ</item>
-        <item>16 МБ</item>
+        <item>Отключено</item>
+        <item>64 КБ</item>
+        <item>256 КБ</item>
+        <item>1 МБ</item>
+        <item>4 МБ</item>
+        <item>8 МБ</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Отключено</item>
         <item>Все буферы журналов</item>
-        <item>Все, кроме буферов журнала радио</item>
-        <item>Только буфер журнала ядра</item>
+        <item>Все, кроме буферов системного журнала</item>
+        <item>только буфер журнала ядра</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Отключено</item>
         <item>Все</item>
-        <item>Все, кроме радио</item>
-        <item>Только ядро</item>
+        <item>Все, кроме системных</item>
+        <item>только ядро</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Отключено</item>
-        <item>Рисовать область усечения синим</item>
-        <item>Подсвечивать команды рисования зеленым</item>
+        <item>Непрямоугольное усечение синим</item>
+        <item>Тест. команды рисования зеленым</item>
     </string-array>
     <string-array name="silent_entries">
         <item>@string/standard</item>
@@ -1600,6 +1310,24 @@
         <item>4</item>
         <item>1</item>
     </string-array>
+    <string-array name="smart_device_control_entries">
+        <item>@string/mi_smart_hub_entry_title</item>
+        <item>Умный дом</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="smart_device_control_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="smart_home_entries">
+        <item>Умный дом</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="smart_home_values">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
     <string-array name="startup_hips_action">
         <item>Разрешить</item>
         <item>Запретить</item>
@@ -1607,6 +1335,26 @@
     <string-array name="swipe_direction_values">
         <item>1</item>
         <item>0</item>
+    </string-array>
+    <string-array name="switch_to_dock_user_when_docked_timeout_entries">
+        <item>Никогда</item>
+        <item>Через 1 минуту</item>
+        <item>Через 5 минут</item>
+    </string-array>
+    <string-array name="tabs_taptic_detail">
+        <item>Щелчок</item>
+        <item>Толчок</item>
+        <item>Импульс</item>
+    </string-array>
+    <string-array name="tabs_taptic_detail_m2">
+        <item>Щелчок</item>
+        <item>Усилие</item>
+    </string-array>
+    <string-array name="tare_modifiers_subfactors">
+        <item>Зарядка</item>
+        <item>Спящий режим</item>
+        <item>Режим энергосбережения</item>
+        <item>Состояние процесса</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1633,50 +1381,15 @@
         <item>@drawable/threedrop07</item>
         <item>@drawable/threedrop07</item>
     </array>
-    <array name="three_long_press">
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/three_fingers_long_press</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-    </array>
     <string-array name="time_format_entries">
         <item>12-часовой 1:00 PM</item>
         <item>24-часовой 13:00</item>
         <item>Авто (на основе языка системы)</item>
     </string-array>
-    <string-array name="timezone_filters">
-        <item>Америка</item>
-        <item>Европа</item>
-        <item>Африка</item>
-        <item>Азия</item>
-        <item>Австралия</item>
-        <item>Тихий океан</item>
-        <item>Все</item>
-    </string-array>
     <string-array name="track_frame_time_entries">
         <item>Отключено</item>
         <item>На экране в виде полос</item>
-        <item>В adb shell dumpsys gfxinfo</item>
+        <item>В adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="traffic_balance_entries">
         <item>Нет</item>
@@ -1694,9 +1407,9 @@
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Без анимации</item>
-        <item>Анимация 0.5x</item>
+        <item>Анимация 0,5x</item>
         <item>Анимация 1x</item>
-        <item>Анимация 1.5x</item>
+        <item>Анимация 1,5x</item>
         <item>Анимация 2x</item>
         <item>Анимация 5x</item>
         <item>Анимация 10x</item>
@@ -1707,31 +1420,20 @@
         <item>Восстановить исходные оттенки цветов отображаемого контента при помощи калибровки цветов.</item>
     </string-array>
     <string-array name="true_color_screen_optimize_title">
-        <item>Яркий (рекомендуется)</item>
+        <item>Яркие (рекомендуется)</item>
         <item>Насыщенные</item>
-        <item>Исходные оттенки цветов</item>
+        <item>Стандартные</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Очень медленная</item>
-        <item>Медленная</item>
-        <item>Обычная</item>
-        <item>Умеренно быстрая</item>
-        <item>Быстрая</item>
-        <item>Очень быстрая</item>
-        <item>Ускоренная</item>
-        <item>Сильно ускоренная</item>
-        <item>Максимальная</item>
-    </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
+        <item>60 %</item>
+        <item>80 %</item>
+        <item>100 %</item>
+        <item>150 %</item>
+        <item>200 %</item>
+        <item>250 %</item>
+        <item>300 %</item>
+        <item>350 %</item>
+        <item>400 %</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
         <item>Очень медленно</item>
@@ -1740,17 +1442,23 @@
         <item>Быстро</item>
         <item>Быстрее</item>
     </string-array>
-    <string-array name="usage_stats_display_order_types">
-        <item>Время использования</item>
-        <item>Последнее использование</item>
-        <item>Название приложения</item>
+    <string-array name="typing_style_entries">
+        <item>Обычный</item>
+        <item>Касание</item>
+        <item>Прямое касание</item>
+    </string-array>
+    <string-array name="udfps_accessibility_touch_hints">
+        <item>Переместите палец влево</item>
+        <item>Переместите палец вниз</item>
+        <item>Переместите палец вправо</item>
+        <item>Переместите палец вверх</item>
     </string-array>
     <string-array name="usb_configuration_titles">
-        <item>Только зарядка</item>
-        <item>MTP (Media Transfer Protocol)</item>
-        <item>PTP (Picture Transfer Protocol)</item>
+        <item>Зарядка</item>
+        <item>MTP</item>
+        <item>PTP</item>
         <item>RNDIS (USB Ethernet)</item>
-        <item>Источник звука</item>
+        <item>Источник аудио</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_connection_mode_entries">
@@ -1782,16 +1490,9 @@
         <item>Время ожидания истекло</item>
         <item>Сбой</item>
     </string-array>
-    <string-array name="vpn_types_long">
-        <item>VPN-подключение по протоколу PPTP</item>
-        <item>VPN-соединение по протоколу L2TP/IPSec с общими ключами</item>
-        <item>VPN-подключение по протоколу L2TP/IPSec с использованием сертификатов</item>
-        <item>VPN-подключение IPSec с общими ключами и аутентификацией Xauth</item>
-        <item>VPN-подключение IPSec с использованием сертификатов и аутентификации Xauth</item>
-        <item>VPN-подключение IPSec с использованием сертификатов и комбинированной аутентификации</item>
-        <item>VPN-подключение по протоколу IKEv2/IPSec с использованием сертификатов и аутентификации с помощью имени пользователя и пароля</item>
-        <item>VPN-подключение по протоколу IKEv2/IPSec с общими ключами</item>
-        <item>VPN-подключение по протоколу IKEv2/IPSec с использованием сертификатов</item>
+    <string-array name="wapi_psk_type">
+        <item>@string/wapi_psk_type_ascii</item>
+        <item>@string/wapi_psk_type_hex</item>
     </string-array>
     <string-array name="wfd_status">
         <item>Создание сессии…</item>
@@ -1807,15 +1508,9 @@
         <item>Средняя</item>
         <item>Высокая</item>
     </string-array>
-    <string-array name="whetstone_level_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
     <string-array name="wide_notch_battery_indicator_style_entries">
         <item>Графический</item>
-        <item>Процентный (на значке)</item>
+        <item>Процентный (внутри значка)</item>
         <item>Процентный (рядом со значком в шторке уведомлений)</item>
     </string-array>
     <string-array name="wifi_ap_band_config_2G_5G">
@@ -1832,23 +1527,17 @@
     </string-array>
     <string-array name="wifi_calling_mode_choices_v2">
         <item>Wi-Fi</item>
-        <item>Мобильный Интернет</item>
+        <item>Мобильный интернет</item>
         <item>Только Wi-Fi</item>
     </string-array>
     <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
         <item>Wi-Fi</item>
-        <item>Мобильный Интернет</item>
+        <item>Мобильный интернет</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
         <item>Подключаться автоматически</item>
         <item>Подключаться вручную</item>
         <item>Всегда спрашивать</item>
-    </string-array>
-    <string-array name="wifi_eap_entries">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>PWD</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Нет</item>
@@ -1867,7 +1556,7 @@
         <item>Совмещать сигнал Wi-Fi и мобильный интернет для увеличения скорости соединения.</item>
     </string-array>
     <string-array name="wifi_metered_entries">
-        <item>Определять автоматически</item>
+        <item>Определить автоматически</item>
         <item>С тарификацией</item>
         <item>Без тарификации</item>
     </string-array>
@@ -1877,11 +1566,6 @@
         <item>Сбой</item>
         <item>Доступно</item>
         <item>Вне диапазона</item>
-    </string-array>
-    <string-array name="wifi_p2p_wps_setup">
-        <item>Push-кнопка</item>
-        <item>PIN-код с обнаруженного устройства</item>
-        <item>PIN-код этого устройства</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
         <item>MSCHAPV2</item>
@@ -1895,13 +1579,19 @@
         <item>"AKA'"</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
-        <item>Использовать случайный MAC-адрес</item>
-        <item>Использовать MAC-адрес устройства</item>
+        <item>Случайный MAC-адрес</item>
+        <item>MAC-адрес устройства</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
         <item>Нет</item>
         <item>Ручная настройка</item>
-        <item>Автоконфигурация</item>
+        <item>Автонастройка</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wep</item>
+        <item>@string/wifi_security_psk_generic</item>
+        <item>@string/wifi_security_eap</item>
     </string-array>
     <string-array name="wifi_signal">
         <item>Слабый</item>
@@ -1948,11 +1638,25 @@
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Поиск…</item>
+        <item>Подключение…</item>
+        <item>Аутентификация…</item>
+        <item>Получение IP-адреса…</item>
+        <item>Подключено</item>
+        <item>Приостановлено</item>
+        <item>Отключение…</item>
+        <item>Не подключено</item>
+        <item>Сбой</item>
+        <item>Заблокировано</item>
+        <item>Временно отключено из-за плохого соединения</item>
+    </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Без анимации</item>
-        <item>Анимация 0.5x</item>
+        <item>Анимация 0,5x</item>
         <item>Анимация 1x</item>
-        <item>Анимация 1.5x</item>
+        <item>Анимация 1,5x</item>
         <item>Анимация 2x</item>
         <item>Анимация 5x</item>
         <item>Анимация 10x</item>

@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alphabet_sub_table_with_starred">
+        <item>!</item>
+        <item>Α</item>
+        <item>Β</item>
+        <item>Γ</item>
+        <item>Θ</item>
+        <item>Ι</item>
+        <item>Κ</item>
+        <item>Λ</item>
+        <item>Μ</item>
+        <item>Ν</item>
+        <item>Ξ</item>
+        <item>Ο</item>
+        <item>Π</item>
+        <item>Ρ</item>
+        <item>Σ</item>
+        <item>Τ</item>
+        <item>Υ</item>
+        <item>Φ</item>
+        <item>Χ</item>
+        <item>Ψ</item>
+        <item>Ω</item>
+        <item>\#</item>
+    </string-array>
     <string-array name="alphabet_table">
         <item>Α</item>
         <item>Β</item>
@@ -26,8 +50,6 @@
         <item>Ψ</item>
         <item>Ω</item>
         <item>\#</item>
-        <item>.</item>
-        <item>.</item>
     </string-array>
     <string-array name="alphabet_table_with_starred">
         <item>!</item>
@@ -56,8 +78,6 @@
         <item>Ψ</item>
         <item>Ω</item>
         <item>\#</item>
-        <item>.</item>
-        <item>.</item>
     </string-array>
     <string-array name="aqi_detail_title">
         <item>Καλός</item>
@@ -66,6 +86,22 @@
         <item>Ανθυγιεινός</item>
         <item>Πολύ Ανθυγιεινός</item>
         <item>Υψηλού κινδύνου</item>
+    </string-array>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
     </string-array>
     <string-array name="aqi_title_prefix">
         <item>ΔΠΑ %1$s</item>
@@ -85,14 +121,14 @@
         <item>Υπέρβαση κλίμακας</item>
     </string-array>
     <string-array name="hot_city">
-        <item>Beijing</item>
-        <item>Shanghai</item>
-        <item>Hong Kong</item>
+        <item>Πεκίνο</item>
+        <item>Σανγκάη</item>
+        <item>Χονγκ Κονγκ</item>
         <item>Ταϊπέι</item>
-        <item>Jakarta</item>
-        <item>Delhi</item>
-        <item>Mumbai</item>
-        <item>Moscow</item>
+        <item>Τζακάρτα</item>
+        <item>Δελχί</item>
+        <item>Μουμπάι</item>
+        <item>Μόσχα</item>
         <item>Τσεναί</item>
         <item>Κωνσταντινούπολη</item>
         <item>Ρίο Ντε Τζανέιρο</item>
@@ -112,6 +148,37 @@
         <item>Έντονη</item>
         <item>Μέτρια</item>
         <item>Ελαφριά</item>
+    </string-array>
+    <string-array name="realtime_humidity_status">
+        <item>Ξηρή</item>
+        <item>Άνετη</item>
+        <item>Υγρασία</item>
+    </string-array>
+    <string-array name="realtime_pressure_status">
+        <item>Υψηλή</item>
+        <item>Μέτρια</item>
+        <item>Χαμηλή</item>
+    </string-array>
+    <string-array name="realtime_temperature_status">
+        <item>Κρύο</item>
+        <item>Δροσιά</item>
+        <item>Άνετη</item>
+        <item>Ζέστη</item>
+        <item>Πολύ ζέστη</item>
+    </string-array>
+    <string-array name="realtime_uv_level">
+        <item>Ασθενής</item>
+        <item>Μέτρια</item>
+        <item>Δυνατή</item>
+        <item>Πολύ δυνατή</item>
+        <item>Επικίνδυνη</item>
+    </string-array>
+    <string-array name="settings_atmospheric_pressure_unit_detail">
+        <item>@string/settings_atmospheric_pressure_hpa</item>
+        <item>@string/settings_atmospheric_pressure_mbar</item>
+        <item>@string/settings_atmospheric_pressure_mmhg</item>
+        <item>@string/settings_atmospheric_pressure_inhg</item>
+        <item>@string/settings_atmospheric_pressure_atm</item>
     </string-array>
     <string-array name="weather_type">
         <item>Αίθριος</item>
@@ -135,7 +202,7 @@
         <item>Ισχυρή αμμοθύελλα</item>
         <item>Αμμοθύελλα</item>
         <item>Άμμος</item>
-        <item>Ανεμώδης</item>
+        <item>Αμμοθύελλα</item>
         <item>Χαλάζι</item>
         <item>Σκόνη</item>
         <item>Καταχνιά</item>
