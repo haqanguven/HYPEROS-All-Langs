@@ -307,6 +307,8 @@ Coba lagi dalam %d detik."</string>
     <string name="bluetooth_battery_level">Baterai %1$s</string>
     <string name="bluetooth_battery_level_untethered">Kr: %1$s baterai, Kn: %2$s baterai</string>
     <string name="bluetooth_connected">Terhubung%1$s</string>
+    <string name="bluetooth_connected_no_a2dp">Terhubung (tanpa media)%1$s</string>
+    <string name="bluetooth_connected_no_headset">Terhubung (tanpa ponsel)%1$s</string>
     <string name="bluetooth_connecting">Menghubungkan…</string>
     <string name="bluetooth_disconnected">Sambungan terputus</string>
     <string name="bluetooth_disconnecting">Memutus sambungan...</string>
@@ -542,7 +544,7 @@ Jika Anda melanjutkan, tarif penggunaan data mungkin berlaku."</string>
     <string name="drag_shadow_split_unsupported">Layar split tidak didukung</string>
     <string name="drag_shadow_split_unsupported_app">%s tidak mendukung Layar split</string>
     <string name="drag_split_not_supported">Notifikasi ini tidak mendukung fitur tarik ke layar terpisah</string>
-    <string name="drag_to_add_tiles">Tekan lama untuk tambah atau atur ulang item</string>
+    <string name="drag_to_add_tiles">Tekan dan tahan untuk tambah atau atur ulang item</string>
     <string name="drag_to_rearrange_tiles">Tahan dan tarik untuk menata ulang kartu</string>
     <string name="drag_to_remove_disabled">Anda membutuhkan setidaknya %1$d kartu</string>
     <string name="drag_to_remove_tiles">Tarik ke sini untuk menghapus</string>
@@ -1132,6 +1134,10 @@ Jika Anda tidak mengizinkan aplikasi ini mengakses semua log perangkat, aplikasi
     <string name="missed_call">Panggilan tak terjawab</string>
     <string name="miui_clock_city_name_local">Lokal</string>
     <string name="miui_clock_city_name_second">Jam kedua</string>
+    <string name="miui_keyboard_shortcut_click">Tekan</string>
+    <string name="miui_keyboard_shortcut_double_click">Tekan 2x</string>
+    <string name="miui_keyboard_shortcut_system_dock">Tampilkan dock apl</string>
+    <string name="miui_keyboard_shortcut_system_quickly_recent">Berganti antar aplikasi baru-baru ini</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Terbuka dengan perangkat Bluetooth</string>
     <string name="miui_lock_screen_date">EEE, d MMM</string>
     <string name="miui_lock_screen_date_12">EEE, d MMM</string>
@@ -1423,8 +1429,8 @@ Jika Anda memiliki pertanyaan, hubungi %2$s."</string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Pilih &lt;font color=#a5220e>\"Hapus &amp;amp; Setel ulang\"&lt;/font> dan tunggu hingga perangkat mulai ulang.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Bagaimana cara menghapus data?</string>
     <string name="phone_locked_string">Perangkat ini terkunci</string>
-    <string name="phone_locked_string_owner_user">Terlalu banyak upaya gagal dalam memasukkan sandi Ruang pertama. Perangkat ini terkunci sekarang.</string>
-    <string name="phone_locked_string_second_user">Terlalu banyak upaya gagal dalam memasukkan sandi Ruang kedua. Perangkat ini terkunci sekarang.</string>
+    <string name="pin_toast">Geser ke atas dari bawah layar dan jeda untuk melepas sematan apl ini</string>
+    <string name="pin_toast_nav">Tekan lama tombol kembali dan pratinjau untuk melepas sematan apl ini</string>
     <string name="pip_close">Tutup</string>
     <string name="pip_collapse">Ciutkan</string>
     <string name="pip_edu_text">Tekan dua kali <annotation icon="home_icon">HOME</annotation> untuk membuka kontrol</string>
@@ -1490,9 +1496,15 @@ Jika Anda memiliki pertanyaan, hubungi %2$s."</string>
     <string name="qs_alarm_tile_no_alarm">Alarm tidak disetel</string>
     <string name="qs_bill_message_balance">%1$s %2$s tersisa</string>
     <string name="qs_bill_message_unit_cny">CNY</string>
+    <string name="qs_control_big_tile_click_cellular_tether_tip">Keluar dari Ruang Kedua dan coba lagi</string>
+    <string name="qs_control_big_tile_connect_share_network_fail">Tidak dapat terhubung ke jaringan data selular. Tunggu sebentar dan coba lagi.</string>
+    <string name="qs_control_big_tile_state_closed">Mati</string>
     <string name="qs_control_big_tile_state_connected">Terhubung</string>
     <string name="qs_control_big_tile_state_connecting">Menghubungkan…</string>
     <string name="qs_control_big_tile_state_opening">Menghidupkan…</string>
+    <string name="qs_control_big_tile_state_tethered_wifi">Menggunakan sinyal Wi-Fi ponsel</string>
+    <string name="qs_control_big_tile_state_tethered_wlan">Menggunakan sinyal WLAN ponsel</string>
+    <string name="qs_control_big_tile_state_unavailable">Tidak tersedia</string>
     <string name="qs_customize_title">Ubah</string>
     <string name="qs_edit">Edit</string>
     <string name="qs_open_night_mode_alert_summary">Setelan tampilan tertentu tidak kompatibel dengan mode Gelap. Namun, mereka akan dipulihkan kembali saat mode Gelap dimatikan.</string>
@@ -1539,6 +1551,8 @@ Jika Anda memiliki pertanyaan, hubungi %2$s."</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Matikan</string>
     <string name="quick_settings_cellular_detail_title">Data seluler</string>
     <string name="quick_settings_cellular_detail_unable_change">Tidak dapat setel saat panggilan</string>
+    <string name="quick_settings_cellular_state_change_message_connected">Terhubung ke jaringan data seluler</string>
+    <string name="quick_settings_cellular_state_change_message_disconnected">Koneksi dengan jaringan data seluler diputuskan</string>
     <string name="quick_settings_cellular_state_change_message_off">Data seluler dimatikan</string>
     <string name="quick_settings_cellular_state_change_message_on">Data seluler dihidupkan</string>
     <string name="quick_settings_color_correction_label">Koreksi warna</string>
@@ -1599,7 +1613,7 @@ Jika Anda memiliki pertanyaan, hubungi %2$s."</string>
     <string name="quick_settings_mic_label">Akses mikrofon</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Tidak ada jaringan Wi-Fi yang tersedia</string>
     <string name="quick_settings_miui_wifi_label">Wi-Fi</string>
-    <string name="quick_settings_miui_wlan_detail_empty_text">No WLAN networks available</string>
+    <string name="quick_settings_miui_wlan_detail_empty_text">Tidak ada jaringan Wi-Fi yang tersedia</string>
     <string name="quick_settings_miui_wlan_label">WLAN</string>
     <string name="quick_settings_more_settings">Setelan lainnya</string>
     <string name="quick_settings_more_user_settings">Kelola pengguna</string>
@@ -1646,7 +1660,7 @@ Jika Anda memiliki pertanyaan, hubungi %2$s."</string>
     <string name="quick_settings_state_change_message_on">%1$s dihidupkan</string>
     <string name="quick_settings_state_saved">Tersimpan</string>
     <string name="quick_settings_state_wifi_select_nearby_ap">Pilih jaringan Wi-Fi di sekitar</string>
-    <string name="quick_settings_state_wlan_select_nearby_ap">Select WLAN networks nearby</string>
+    <string name="quick_settings_state_wlan_select_nearby_ap">Pilih jaringan Wi-Fi di sekitar</string>
     <string name="quick_settings_sync_label">Sinkron</string>
     <string name="quick_settings_sync_state_change_message_off">Sinkron dimatikan</string>
     <string name="quick_settings_sync_state_change_message_on">Sinkron dihidupkan</string>
@@ -1668,7 +1682,7 @@ Jika Anda memiliki pertanyaan, hubungi %2$s."</string>
     <string name="quick_settings_wifi_secondary_label_transient">Mengaktifkan…</string>
     <string name="quick_settings_wifi_state_change_message_off">Wi-Fi dimatikan</string>
     <string name="quick_settings_wifi_state_change_message_on">Wi-Fi dihidupkan</string>
-    <string name="quick_settings_wlan_is_off">WLAN if off</string>
+    <string name="quick_settings_wlan_is_off">WLAN mati</string>
     <string name="quick_settings_wlan_state_change_message_off">WLAN dimatikan</string>
     <string name="quick_settings_wlan_state_change_message_on">WLAN dihidupkan</string>
     <string name="quick_settings_work_mode_label">Aplikasi kerja</string>

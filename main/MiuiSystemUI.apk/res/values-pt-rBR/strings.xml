@@ -307,6 +307,8 @@ Tente novamente em %d segundos."</string>
     <string name="bluetooth_battery_level">%1$s de bateria</string>
     <string name="bluetooth_battery_level_untethered">E: Bateria do %1$s, D: Bateria do %2$s</string>
     <string name="bluetooth_connected">Conectado a %1$s</string>
+    <string name="bluetooth_connected_no_a2dp">Conectado (sem mídia) a %1$s</string>
+    <string name="bluetooth_connected_no_headset">Conectado (sem telefone) a %1$s</string>
     <string name="bluetooth_connecting">Conectando...</string>
     <string name="bluetooth_disconnected">Desconectado</string>
     <string name="bluetooth_disconnecting">Desconectando…</string>
@@ -1132,6 +1134,10 @@ Se você não permitir que esse app acesse todos os registros do dispositivo, el
     <string name="missed_call">Ligação perdida</string>
     <string name="miui_clock_city_name_local">Local</string>
     <string name="miui_clock_city_name_second">Segundo relógio</string>
+    <string name="miui_keyboard_shortcut_click">Pressionar</string>
+    <string name="miui_keyboard_shortcut_double_click">Pressionar duas vezes</string>
+    <string name="miui_keyboard_shortcut_system_dock">Mostrar dock de apps</string>
+    <string name="miui_keyboard_shortcut_system_quickly_recent">Alternar entre apps recentes</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Desbloqueado por um dispositivo Bluetooth</string>
     <string name="miui_lock_screen_date">EEE, dd/MM</string>
     <string name="miui_lock_screen_date_12">EEE, dd/MM</string>
@@ -1423,8 +1429,8 @@ Em caso de dúvidas, entre em contato com %2$s."</string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Selecione &lt;font color=#a5220e>\"Wipe e Reset\"&lt;/font> e aguarde até que o dispositivo reinicie.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Como apagar os dados?</string>
     <string name="phone_locked_string">Este dispositivo está bloqueado</string>
-    <string name="phone_locked_string_owner_user">Muitas tentativas incorretas para inserir a senha do Primeiro Espaço. Este dispositivo está bloqueado agora.</string>
-    <string name="phone_locked_string_second_user">Muitas tentativas incorretas para inserir a senha do Segundo Espaço. Este dispositivo está bloqueado agora.</string>
+    <string name="pin_toast">Deslize para cima a partir da parte inferior da tela e pause para desafixar este app</string>
+    <string name="pin_toast_nav">Pressione e segure os botões Voltar e Visualizar para desafixar este app</string>
     <string name="pip_close">Fechar</string>
     <string name="pip_collapse">Fechar</string>
     <string name="pip_edu_text">Pressione o botão <annotation icon="home_icon">HOME</annotation> duas vezes para acessar os controles</string>
@@ -1490,9 +1496,15 @@ Em caso de dúvidas, entre em contato com %2$s."</string>
     <string name="qs_alarm_tile_no_alarm">Nenhum alarme definido</string>
     <string name="qs_bill_message_balance">%1$s %2$s restante</string>
     <string name="qs_bill_message_unit_cny">CNY</string>
+    <string name="qs_control_big_tile_click_cellular_tether_tip">Saia do Segundo Espaço e tente novamente</string>
+    <string name="qs_control_big_tile_connect_share_network_fail">Não foi possível conectar-se à rede de dados móveis. Aguarde alguns minutos e tente novamente.</string>
+    <string name="qs_control_big_tile_state_closed">Desativado</string>
     <string name="qs_control_big_tile_state_connected">Conectado</string>
     <string name="qs_control_big_tile_state_connecting">Conectando…</string>
     <string name="qs_control_big_tile_state_opening">Ativando…</string>
+    <string name="qs_control_big_tile_state_tethered_wifi">Usando o sinal Wi-Fi do telefone</string>
+    <string name="qs_control_big_tile_state_tethered_wlan">Usando o sinal Wi-Fi do telefone</string>
+    <string name="qs_control_big_tile_state_unavailable">Indisponível</string>
     <string name="qs_customize_title">Editar</string>
     <string name="qs_edit">Editar</string>
     <string name="qs_open_night_mode_alert_summary">Algumas configurações de exibição não são compatíveis com o Modo Escuro. Entretanto, elas serão restauradas assim que o Modo Escuro for desativado.</string>
@@ -1539,6 +1551,8 @@ Em caso de dúvidas, entre em contato com %2$s."</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Desativar</string>
     <string name="quick_settings_cellular_detail_title">Dados móveis</string>
     <string name="quick_settings_cellular_detail_unable_change">Não é possível definir durante a chamada</string>
+    <string name="quick_settings_cellular_state_change_message_connected">Conectado à rede de dados móveis</string>
+    <string name="quick_settings_cellular_state_change_message_disconnected">Desconectado da rede de dados móveis</string>
     <string name="quick_settings_cellular_state_change_message_off">Dados móveis desativados</string>
     <string name="quick_settings_cellular_state_change_message_on">Dados móveis ativados</string>
     <string name="quick_settings_color_correction_label">Correção de cor</string>
@@ -1599,7 +1613,7 @@ Em caso de dúvidas, entre em contato com %2$s."</string>
     <string name="quick_settings_mic_label">Acesso ao microfone</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Nenhuma rede Wi-Fi disponível</string>
     <string name="quick_settings_miui_wifi_label">Wi-Fi</string>
-    <string name="quick_settings_miui_wlan_detail_empty_text">No WLAN networks available</string>
+    <string name="quick_settings_miui_wlan_detail_empty_text">Nenhuma rede Wi-Fi disponível</string>
     <string name="quick_settings_miui_wlan_label">WLAN</string>
     <string name="quick_settings_more_settings">Mais configurações</string>
     <string name="quick_settings_more_user_settings">Gerenciar usuários</string>
@@ -1646,7 +1660,7 @@ Em caso de dúvidas, entre em contato com %2$s."</string>
     <string name="quick_settings_state_change_message_on">%1$s está ativado</string>
     <string name="quick_settings_state_saved">Salvo</string>
     <string name="quick_settings_state_wifi_select_nearby_ap">Selecione redes Wi-Fi próximas</string>
-    <string name="quick_settings_state_wlan_select_nearby_ap">Select WLAN networks nearby</string>
+    <string name="quick_settings_state_wlan_select_nearby_ap">Selecione redes Wi-Fi próximas</string>
     <string name="quick_settings_sync_label">Sincronizar</string>
     <string name="quick_settings_sync_state_change_message_off">Sincronização desativada</string>
     <string name="quick_settings_sync_state_change_message_on">Sincronização ativada</string>
@@ -1668,7 +1682,7 @@ Em caso de dúvidas, entre em contato com %2$s."</string>
     <string name="quick_settings_wifi_secondary_label_transient">Ativando…</string>
     <string name="quick_settings_wifi_state_change_message_off">Wi-Fi desativado</string>
     <string name="quick_settings_wifi_state_change_message_on">Wi-Fi ativado</string>
-    <string name="quick_settings_wlan_is_off">WLAN if off</string>
+    <string name="quick_settings_wlan_is_off">Wi-Fi desativado</string>
     <string name="quick_settings_wlan_state_change_message_off">Wi-Fi desativado</string>
     <string name="quick_settings_wlan_state_change_message_on">Wi-Fi ativado</string>
     <string name="quick_settings_work_mode_label">Apps de trabalho</string>

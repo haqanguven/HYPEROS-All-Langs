@@ -307,6 +307,8 @@
     <string name="bluetooth_battery_level">Уровень заряда: %1$s</string>
     <string name="bluetooth_battery_level_untethered">Л: батарея %1$s; П: батарея %2$s.</string>
     <string name="bluetooth_connected">Подключено%1$s</string>
+    <string name="bluetooth_connected_no_a2dp">Подключено (кроме аудио)%1$s</string>
+    <string name="bluetooth_connected_no_headset">Подключено (кроме звонков)%1$s</string>
     <string name="bluetooth_connecting">Подключение...</string>
     <string name="bluetooth_disconnected">Нет подключения</string>
     <string name="bluetooth_disconnecting">Отключение...</string>
@@ -542,7 +544,7 @@
     <string name="drag_shadow_split_unsupported">Разделение экрана не поддерживается</string>
     <string name="drag_shadow_split_unsupported_app">Приложение \"%s\" не поддерживает разделение экрана</string>
     <string name="drag_split_not_supported">Это уведомление нельзя перетаскивать между частями разделенного экрана.</string>
-    <string name="drag_to_add_tiles">Удерживайте, чтобы добавить или изменить порядок</string>
+    <string name="drag_to_add_tiles">Удерживайте для добавления или изменения порядка</string>
     <string name="drag_to_rearrange_tiles">Чтобы изменить порядок элементов, перетащите их.</string>
     <string name="drag_to_remove_disabled">Должно остаться не менее %1$d элементов</string>
     <string name="drag_to_remove_tiles">Чтобы удалить, перетащите сюда</string>
@@ -1132,6 +1134,10 @@
     <string name="missed_call">Пропущенный вызов</string>
     <string name="miui_clock_city_name_local">Местное</string>
     <string name="miui_clock_city_name_second">Вторые часы</string>
+    <string name="miui_keyboard_shortcut_click">Нажатие</string>
+    <string name="miui_keyboard_shortcut_double_click">Двойное нажатие</string>
+    <string name="miui_keyboard_shortcut_system_dock">Показывать панель приложений</string>
+    <string name="miui_keyboard_shortcut_system_quickly_recent">Переключение между недавно открытыми приложениями</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Разблокировано Bluetooth-устройством</string>
     <string name="miui_lock_screen_date">EEE, d MMM</string>
     <string name="miui_lock_screen_date_12">EEE, d MMM</string>
@@ -1423,8 +1429,8 @@ mm"</string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Выберите &lt;font color=#a5220e>\"Стереть и выполнить сброс (Wipe &amp;amp; Reset)\"&lt;/font> и подождите, пока устройство перезагрузится.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Как стереть данные?</string>
     <string name="phone_locked_string">Это устройство заблокировано</string>
-    <string name="phone_locked_string_owner_user">Слишком много неудачных попыток ввода пароля первого пространства. Теперь устройство заблокировано.</string>
-    <string name="phone_locked_string_second_user">Слишком много неудачных попыток ввода пароля второго пространства. Теперь устройство заблокировано.</string>
+    <string name="pin_toast">Проведите вверх от нижнего края экрана и задержите палец, чтобы открепить это приложение</string>
+    <string name="pin_toast_nav">Удерживайте кнопки \"Назад\" и \"Просмотр\", чтобы открепить это приложение</string>
     <string name="pip_close">Закрыть</string>
     <string name="pip_collapse">Свернуть</string>
     <string name="pip_edu_text">Параметры: дважды нажмите <annotation icon="home_icon">кнопку главного экрана</annotation></string>
@@ -1451,27 +1457,27 @@ mm"</string>
 ‒ Показывать полноэкранные уведомления.
 ‒ Показывать всплывающие уведомления.
 Уровень 4
-"<b></b>"
+"<b/>"
 ‒ Не показывать полноэкранные уведомления.
 ‒ Показывать всплывающие уведомления.
 Уровень 3
-"<b></b>"
+"<b/>"
 ‒ Не показывать полноэкранные уведомления.
 ‒ Не показывать всплывающие уведомления.
 Уровень 2
-"<b></b>"
+"<b/>"
 ‒ Не показывать полноэкранные уведомления.
 ‒ Не показывать всплывающие уведомления.
 ‒ Не использовать звук и вибрацию.
 Уровень 1
-"<b></b>"
+"<b/>"
 ‒ Не показывать полноэкранные уведомления.
 ‒ Не показывать всплывающие уведомления.
 ‒ Не использовать звук и вибрацию.
 ‒ Не показывать на экране блокировки и в строке состояния.
 ‒ Помещать уведомления в конец списка.
 Уровень 0
-"<b></b>"
+"<b/>"
 ‒ Блокировать все уведомления приложения."</string>
     <string name="preference_copied">Текст \"%1$s\" скопирован в буфер обмена</string>
     <string name="preference_summary_default_combination">%1$s/%2$s</string>
@@ -1490,10 +1496,16 @@ mm"</string>
     <string name="qs_alarm_tile_no_alarm">Нет будильников</string>
     <string name="qs_bill_message_balance">Осталось %1$s%2$s</string>
     <string name="qs_bill_message_unit_cny">CNY</string>
+    <string name="qs_control_big_tile_click_cellular_tether_tip">Выполните выход из второго пространства и повторите попытку</string>
+    <string name="qs_control_big_tile_connect_share_network_fail">Не удалось подключиться к мобильному интернету. Подождите немного и повторите попытку.</string>
+    <string name="qs_control_big_tile_state_closed">Откл.</string>
     <string name="qs_control_big_tile_state_connected">Подключено</string>
     <string name="qs_control_big_tile_state_connecting">Подключение…</string>
     <string name="qs_control_big_tile_state_opening">Включение…</string>
-    <string name="qs_customize_title">Изменить</string>
+    <string name="qs_control_big_tile_state_tethered_wifi">Используется сигнал Wi-Fi телефона</string>
+    <string name="qs_control_big_tile_state_tethered_wlan">Используется сигнал WLAN телефона</string>
+    <string name="qs_control_big_tile_state_unavailable">Недоступно</string>
+    <string name="qs_customize_title">Сортировка</string>
     <string name="qs_edit">Изменить</string>
     <string name="qs_open_night_mode_alert_summary">Некоторые настройки экрана несовместимы с темным режимом. Они будут восстановлены при отключении темного режима.</string>
     <string name="qs_tile_request_dialog_add">Добавить параметр</string>
@@ -1539,6 +1551,8 @@ mm"</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Отключить</string>
     <string name="quick_settings_cellular_detail_title">Мобильный интернет</string>
     <string name="quick_settings_cellular_detail_unable_change">Недоступно во время вызова</string>
+    <string name="quick_settings_cellular_state_change_message_connected">Подключено к мобильному интернету</string>
+    <string name="quick_settings_cellular_state_change_message_disconnected">Отключено от мобильного интернета</string>
     <string name="quick_settings_cellular_state_change_message_off">Мобильный интернет откл.</string>
     <string name="quick_settings_cellular_state_change_message_on">Мобильный интернет вкл.</string>
     <string name="quick_settings_color_correction_label">Коррекция цвета</string>
@@ -1575,7 +1589,7 @@ mm"</string>
     <string name="quick_settings_dnd_state_change_message_off">Режим \"Не беспокоить\" откл.</string>
     <string name="quick_settings_dnd_state_change_message_on">Режим \"Не беспокоить\" вкл.</string>
     <string name="quick_settings_done">Готово</string>
-    <string name="quick_settings_edit_label">Изменить</string>
+    <string name="quick_settings_edit_label">Сортировка</string>
     <string name="quick_settings_financed_disclosure_named_management">Устройство предоставлено компанией \"%s\".</string>
     <string name="quick_settings_flashlight_camera_in_use">Используется камера</string>
     <string name="quick_settings_flashlight_label">Фонарик</string>
@@ -1668,7 +1682,7 @@ mm"</string>
     <string name="quick_settings_wifi_secondary_label_transient">Включение…</string>
     <string name="quick_settings_wifi_state_change_message_off">Wi-Fi откл.</string>
     <string name="quick_settings_wifi_state_change_message_on">Wi-Fi вкл.</string>
-    <string name="quick_settings_wlan_is_off">WLAN if off</string>
+    <string name="quick_settings_wlan_is_off">WLAN is off</string>
     <string name="quick_settings_wlan_state_change_message_off">WLAN откл.</string>
     <string name="quick_settings_wlan_state_change_message_on">WLAN вкл.</string>
     <string name="quick_settings_work_mode_label">Рабочие приложения</string>

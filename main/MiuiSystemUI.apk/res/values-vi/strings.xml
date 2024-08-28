@@ -307,6 +307,8 @@ Hãy thử lại sau %d giây."</string>
     <string name="bluetooth_battery_level">Mức pin %1$s</string>
     <string name="bluetooth_battery_level_untethered">Trái: Mức pin %1$s, Phải: Mức pin %2$s</string>
     <string name="bluetooth_connected">Đã kết nối %1$s</string>
+    <string name="bluetooth_connected_no_a2dp">Đã kết nối (không có phương tiện) %1$s</string>
+    <string name="bluetooth_connected_no_headset">Đã kết nối (không có điện thoại) %1$s</string>
     <string name="bluetooth_connecting">Đang kết nối…</string>
     <string name="bluetooth_disconnected">Đã ngắt kết nối</string>
     <string name="bluetooth_disconnecting">Đang ngắt kết nối…</string>
@@ -1132,6 +1134,10 @@ Nếu bạn không cho phép ứng dụng này truy cập vào mọi nhật ký 
     <string name="missed_call">Cuộc gọi nhỡ</string>
     <string name="miui_clock_city_name_local">Địa phương</string>
     <string name="miui_clock_city_name_second">Đồng hồ thứ hai</string>
+    <string name="miui_keyboard_shortcut_click">Bấm</string>
+    <string name="miui_keyboard_shortcut_double_click">Bấm đúp</string>
+    <string name="miui_keyboard_shortcut_system_dock">Hiển thị dock ứng dụng</string>
+    <string name="miui_keyboard_shortcut_system_quickly_recent">Chuyển đổi giữa các ứng dụng gần đây</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Mở khóa bằng thiết bị Bluetooth</string>
     <string name="miui_lock_screen_date">EEE, dd MMM</string>
     <string name="miui_lock_screen_date_12">EEE, dd MMM</string>
@@ -1423,8 +1429,8 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Chọn &lt;font color=#a5220e>\"Xóa &amp;amp; Đặt lại\"&lt;/font> và chờ cho đến khi thiết bị khởi động lại.;&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Làm thế nào để xóa dữ liệu?</string>
     <string name="phone_locked_string">Thiết bị này đã khóa</string>
-    <string name="phone_locked_string_owner_user">Quá nhiều lần nhập mật khẩu Không gian thứ nhất không thành công. Thiết bị này hiện đã bị khóa.</string>
-    <string name="phone_locked_string_second_user">Quá nhiều lần nhập mật khẩu Không gian thứ hai không thành công. Thiết bị này hiện đã bị khóa.</string>
+    <string name="pin_toast">Trượt lên từ phía dưới màn hình và tạm dừng để bỏ ghim ứng dụng này</string>
+    <string name="pin_toast_nav">Bấm và giữ phím quay lại và xem trước để bỏ ghim ứng dụng này</string>
     <string name="pip_close">Đóng</string>
     <string name="pip_collapse">Thu gọn</string>
     <string name="pip_edu_text">Nhấn đúp vào nút <annotation icon="home_icon">MÀN HÌNH CHÍNH</annotation> để mở trình đơn điều khiển</string>
@@ -1490,9 +1496,15 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="qs_alarm_tile_no_alarm">Chưa đặt chuông báo</string>
     <string name="qs_bill_message_balance">Còn lại %1$s %2$s</string>
     <string name="qs_bill_message_unit_cny">NDT</string>
+    <string name="qs_control_big_tile_click_cellular_tether_tip">Thoát Không gian thứ hai và thử lại</string>
+    <string name="qs_control_big_tile_connect_share_network_fail">Không thể kết nối với mạng dữ liệu di động. Chờ một hoặc hai phút và thử lại.</string>
+    <string name="qs_control_big_tile_state_closed">Tắt</string>
     <string name="qs_control_big_tile_state_connected">Đã kết nối</string>
     <string name="qs_control_big_tile_state_connecting">Đang kết nối…</string>
     <string name="qs_control_big_tile_state_opening">Đang bật…</string>
+    <string name="qs_control_big_tile_state_tethered_wifi">Đang sử dụng tín hiệu Wi-Fi của điện thoại</string>
+    <string name="qs_control_big_tile_state_tethered_wlan">Đang sử dụng tín hiệu WLAN của điện thoại</string>
+    <string name="qs_control_big_tile_state_unavailable">Không khả dụng</string>
     <string name="qs_customize_title">Sửa</string>
     <string name="qs_edit">Chỉnh sửa</string>
     <string name="qs_open_night_mode_alert_summary">Một số cài đặt hiển thị không tương thích với Chế độ nền tối. Tuy nhiên sẽ được khôi phục khi bạn tắt Chế độ nền tối.</string>
@@ -1511,7 +1523,7 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="quick_settings_autobrightness_label">Độ sáng tự động</string>
     <string name="quick_settings_autobrightness_state_change_message_off">Độ sáng tự động đã tắt</string>
     <string name="quick_settings_autobrightness_state_change_message_on">Độ sáng tự động đã bật</string>
-    <string name="quick_settings_batterysaver_label">Tiết kiệm pin</string>
+    <string name="quick_settings_batterysaver_label">Tiết kiệm Pin</string>
     <string name="quick_settings_bluetooth_connected_tip">Kết nối qua Bluetooth thành công</string>
     <string name="quick_settings_bluetooth_detail_empty_text">Không có thiết bị kết nối khả dụng</string>
     <string name="quick_settings_bluetooth_disconnected_tip">Tất cả thiết bị Bluetooth sẽ luôn bị ngắt kết nối hôm nay</string>
@@ -1539,6 +1551,8 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Tắt</string>
     <string name="quick_settings_cellular_detail_title">Dữ liệu di động</string>
     <string name="quick_settings_cellular_detail_unable_change">Không thể thiết lập trong khi gọi</string>
+    <string name="quick_settings_cellular_state_change_message_connected">Đã kết nối với mạng dữ liệu di động</string>
+    <string name="quick_settings_cellular_state_change_message_disconnected">Đã ngắt kết nối mạng dữ liệu di động</string>
     <string name="quick_settings_cellular_state_change_message_off">Dữ liệu di động đã tắt</string>
     <string name="quick_settings_cellular_state_change_message_on">Dữ liệu di động đã bật</string>
     <string name="quick_settings_color_correction_label">Chỉnh màu</string>
@@ -1599,9 +1613,9 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="quick_settings_mic_label">Quyền truy cập micrô</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Không có mạng Wi-Fi khả dụng</string>
     <string name="quick_settings_miui_wifi_label">Wi-Fi</string>
-    <string name="quick_settings_miui_wlan_detail_empty_text">No WLAN networks available</string>
+    <string name="quick_settings_miui_wlan_detail_empty_text">Không có mạng WLAN khả dụng</string>
     <string name="quick_settings_miui_wlan_label">WLAN</string>
-    <string name="quick_settings_more_settings">Thêm cài đặt</string>
+    <string name="quick_settings_more_settings">Cài đặt thêm</string>
     <string name="quick_settings_more_user_settings">Quản lý người dùng</string>
     <string name="quick_settings_mute_label">Tắt tiếng</string>
     <string name="quick_settings_mute_state_change_message_off">Chế độ im lặng đã tắt</string>
@@ -1646,7 +1660,7 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="quick_settings_state_change_message_on">%1$s đã bật</string>
     <string name="quick_settings_state_saved">Đã lưu</string>
     <string name="quick_settings_state_wifi_select_nearby_ap">Chọn mạng Wi-Fi lân cận</string>
-    <string name="quick_settings_state_wlan_select_nearby_ap">Select WLAN networks nearby</string>
+    <string name="quick_settings_state_wlan_select_nearby_ap">Chọn mạng WLAN lân cận</string>
     <string name="quick_settings_sync_label">Đồng bộ</string>
     <string name="quick_settings_sync_state_change_message_off">Đồng bộ đã tắt</string>
     <string name="quick_settings_sync_state_change_message_on">Đồng bộ đã bật</string>
@@ -1668,7 +1682,7 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="quick_settings_wifi_secondary_label_transient">Đang bật…</string>
     <string name="quick_settings_wifi_state_change_message_off">Wi-Fi đã tắt</string>
     <string name="quick_settings_wifi_state_change_message_on">Wi-Fi đã bật</string>
-    <string name="quick_settings_wlan_is_off">WLAN if off</string>
+    <string name="quick_settings_wlan_is_off">WLAN tắt</string>
     <string name="quick_settings_wlan_state_change_message_off">WLAN đã tắt</string>
     <string name="quick_settings_wlan_state_change_message_on">WLAN đã bật</string>
     <string name="quick_settings_work_mode_label">Ứng dụng công việc</string>

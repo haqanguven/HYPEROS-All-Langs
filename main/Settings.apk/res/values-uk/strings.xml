@@ -969,6 +969,7 @@
     <string name="auto_rotate_switch_face_based">Розпізнавання облич</string>
     <string name="auto_rule">Таймер</string>
     <string name="auto_silent">Розклад увімкнення</string>
+    <string name="auto_silent_info">Цця функція припинить працювати, якщо ви вручну переключитеся на режим \"Не тубрувати\"</string>
     <string name="auto_startup_application_manage">Автозапуск</string>
     <string name="auto_sync_account_summary">Дозволити додаткам автоматично оновлювати дані</string>
     <string name="auto_sync_account_title">Автоматично синхронізувати дані додатків</string>
@@ -1343,6 +1344,7 @@
     <string name="block_list_dialog_content">Ця дія відключить %s від цього пристрою та додасть його до чорного списку</string>
     <string name="block_list_dialog_title">Відключити зараз?</string>
     <string name="block_list_no_device">Пристроїв немає</string>
+    <string name="block_list_no_device_icon">Пристрої відсутні</string>
     <string name="block_list_remove_dialog_content">Цей пристрій %s зможе підключатися до цієї точки доступу ще раз</string>
     <string name="block_list_remove_dialog_title">Увага</string>
     <string name="block_list_summary">Переглянути пристрої, які не мають дозволу на підключення до цієї точки доступу</string>
@@ -1406,7 +1408,7 @@
     <string name="bluetooth_broadcast_dialog_broadcast_app">Змінити додаток для трансляції на %1$s</string>
     <string name="bluetooth_broadcast_dialog_broadcast_message">Транслюйте мультимедійний контент на пристрої поблизу або слухайте чиюсь трансляцію</string>
     <string name="bluetooth_broadcast_dialog_find_message">Слухайте трансляції з пристроїв поблизу</string>
-    <string name="bluetooth_broadcast_dialog_text">"Shared audio will be encrypted and available to compatible devices. During the broadcast, sound won't be played on this device and connected Bluetooth devices."</string>
+    <string name="bluetooth_broadcast_dialog_text">Переданий звук буде зашифрований і доступний на сумісних пристроях. Під час трансляції звук не відтворюватиметься на цьому пристрої та підключених пристроях Bluetooth.</string>
     <string name="bluetooth_broadcast_dialog_title">Трансляція</string>
     <string name="bluetooth_call_title">Аудіо під час дзвінків</string>
     <string name="bluetooth_companion_app_body">Додаток %1$s більше не буде зв’язаний із вашим пристроєм \"%2$s\"</string>
@@ -1998,6 +2000,24 @@
     <string name="camera_front">Основна %s</string>
     <string name="camera_gesture_desc">Додаток Камера відкриється, якщо двічі покрутити зап’ястям</string>
     <string name="camera_gesture_title">Відкривати Камеру, покрутивши зап’ястям</string>
+    <string name="camera_grip_firmware_need_update">Оновити</string>
+    <string name="camera_grip_firmware_new_version">Оновлення не потрібне</string>
+    <string name="camera_grip_firmware_save_button_know">Зрозуміло</string>
+    <string name="camera_grip_firmware_save_button_negaitive">Не зараз</string>
+    <string name="camera_grip_firmware_save_button_positive">Оновити</string>
+    <string name="camera_grip_firmware_save_channel">Сповіщення кріплення для зйомки</string>
+    <string name="camera_grip_firmware_save_networking_tips">Підключіться до мережі Wi-Fi або включіть мобільний інтернет, а потім спробуйте оновити ПЗ знову.</string>
+    <string name="camera_grip_firmware_save_networking_tips_china">Connect to WLAN or turn on mobile data, and try updating the firmware again.</string>
+    <string name="camera_grip_firmware_save_text">Щоб продовжити використовувати цей пристрій, оновіть вбудоване ПЗ.</string>
+    <string name="camera_grip_firmware_save_title">Професійне кріплення для зйомки</string>
+    <string name="camera_grip_firmware_title_text">Оновіть прошивку</string>
+    <string name="camera_grip_firmware_update_describe">Ручка повинна бути підключена протягом усього процесу оновлення.</string>
+    <string name="camera_grip_firmware_update_faild">Помилка оновлення</string>
+    <string name="camera_grip_firmware_update_handle_low_battery_notify">Зніміть кріплення для зйомки, зарядіть цей пристрій, а потім спробуйте встановити оновлення ПЗ ще раз.</string>
+    <string name="camera_grip_firmware_update_handle_phone_low_battery_notify">Перед оновленням вбудованого ПЗ зарядіть цей пристрій і кріплення для зйомки.</string>
+    <string name="camera_grip_firmware_update_ongoing">Виконується оновлення. Не відключайте ручку.</string>
+    <string name="camera_grip_firmware_update_phone_low_battery_notify">Підключіть зарядний пристрій та спробуйте встановити оновлення ПЗ ще раз.</string>
+    <string name="camera_grip_firmware_update_successful">Оновлення завершено</string>
     <string name="camera_key_action_app_title">Відкрити програму</string>
     <string name="camera_key_action_category_title">Неможливо використовувати Камеру</string>
     <string name="camera_key_action_none_title">Дія відсутня</string>
@@ -2333,6 +2353,8 @@
     <string name="connected_device_previously_connected_screen_title">Підключені раніше</string>
     <string name="connected_device_saved_title">Збережені пристрої</string>
     <string name="connected_device_see_all_summary">Увімкнеться Bluetooth</string>
+    <string name="connected_devices_confirm">Зберегти</string>
+    <string name="connected_devices_create">Додати</string>
     <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary">Bluetooth, Android Auto, NFC</string>
     <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode">Bluetooth, Android Auto</string>
     <string name="connected_devices_dashboard_android_auto_no_nfc_summary">Bluetooth, Android Auto, режим автомобіля</string>
@@ -2343,6 +2365,7 @@
     <string name="connected_devices_dashboard_no_nfc_summary">Bluetooth, режим автомобіля</string>
     <string name="connected_devices_dashboard_summary">Bluetooth, режим автомобіля, NFC</string>
     <string name="connected_devices_dashboard_title">Підключені пристрої</string>
+    <string name="connected_devices_dialog_content">Вибрані пристрої будуть відключені та додані до чорного списку</string>
     <string name="connected_via_app">Підключено через додаток %1$s</string>
     <string name="connected_via_network_scorer">Автоматично під’єднано через %1$s</string>
     <string name="connected_via_network_scorer_default">Автоматично під’єднано через постачальника оцінки якості мережі</string>
@@ -2953,6 +2976,9 @@
     <string name="display_cutout_emulation">Відрізання екрана</string>
     <string name="display_cutout_emulation_keywords">відключення дисплея, переривання</string>
     <string name="display_dashboard_summary">Темна тема, розмір шрифту, яскравість</string>
+    <string name="display_notification_icon_0">Немає</string>
+    <string name="display_notification_icon_1">%d іконка</string>
+    <string name="display_notification_icon_3">%d іконки</string>
     <string name="display_prompt_confirm">Зрозуміло</string>
     <string name="display_settings">Екран</string>
     <string name="display_settings_new">Екран та яскравість</string>
@@ -3726,7 +3752,7 @@
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
     <string name="focus_summary">Використовуйте власний формат сповіщень, щоб виділити важливу інформацію</string>
-    <string name="focus_title">Підствічування сповіщень</string>
+    <string name="focus_title">Підсвічування сповіщень</string>
     <string name="fold_application_mode_name">Компонування в програмі</string>
     <string name="fold_game_adaptation">Компонування в іграх</string>
     <string name="fold_rule_default">Рекомендовані</string>
@@ -3759,7 +3785,7 @@
 "</string>
     <string name="font_size_summary1">"Якщо шрифт занадто малий, спробуйте "</string>
     <string name="font_size_summary2">Простий режим</string>
-    <string name="footer_description_full_screen_intent">Дозвольте цій програмі показувати повноекранні сповіщення, коли пристрій заблоковано. Програми можуть використовувати їх для виділення будильників, вхідних дзвінків або інших термінових сповішень.</string>
+    <string name="footer_description_full_screen_intent">Дозвольте цій програмі відображати сповіщення, які займають весь екран, коли пристрій заблоковано. Програма може використовувати повноекранні сповіщення для відображення будильників, вхідних викликів або інших термінових сповіщень. Дане налаштування залежить від дозволу на відкриття нових вікон при роботі у фоновому режимі та може використовуватися тільки при наявності такого дозволу.</string>
     <string name="footer_learn_more_content_description">Докладніше про сервіс %1$s</string>
     <string name="forbidden_network">(заборонено)</string>
     <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
@@ -3890,6 +3916,8 @@
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Ігровий контролер</string>
     <string name="game_storage_settings">Ігри</string>
+    <string name="gaze_lock_screen_summary">Пристрій залишатиметься розблокованим, коли виявить вашу присутність, і заблокується, коли ви відійдете від екрана</string>
+    <string name="gaze_lock_screen_title">Виявлення присутності</string>
     <string name="gd_setting_title">Бічна панель</string>
     <string name="general_category_title">Загальні</string>
     <string name="general_notification_header">Керування</string>
@@ -3919,7 +3947,8 @@
     <string name="gesture_title_recent_apps">Перегляд нещодавніх додатків</string>
     <string name="gesture_title_switch_apps">Перемикання між додатками</string>
     <string name="gesture_to_split_screen">Жести</string>
-    <string name="gesture_wakeup_summary">Ви можете використовувати подвійний дотик, щоб вимкнути екран, лише якщо встановлена попередньо встановлена тема.</string>
+    <string name="gesture_wakeup_summary">Подвійне натиснення дозволяє вимкнути екран тільки при використанні теми \"Класика\" або \"Безмежність\".</string>
+    <string name="gesture_wakeup_summary_2">Подвійне натиснення дозволяє вимкнути екран тільки при використанні теми \"Класика\".</string>
     <string name="gesture_wakeup_title">Подвійне натиснення для увімкнення та відключення екрана, коли пристрій заблоковано</string>
     <string name="giga_hertz">ГГц</string>
     <string name="gigabyteShort">ГБ</string>
@@ -4216,6 +4245,8 @@ Xiaomi Cloud
     <string name="ignore_optimizations_off_desc">Рекомендується для економії заряду акумулятора</string>
     <string name="ignore_optimizations_on">Не оптимізувати</string>
     <string name="ignore_optimizations_on_desc">Акумулятор може розряджатися швидше. Додаток зможе використовувати його у фоновому режимі.</string>
+    <string name="illegal_device_name_modification_notification">Перейменуйте пристрій</string>
+    <string name="illegal_hotspot_name_modification_notification">Перейменуйте пристрій</string>
     <string name="ime_security_warning">"%1$s може запам'ятовувати все, що ви друкуєте, включаючи паролі, номери кредитних карток та інші персональні дані."</string>
     <string name="ime_security_warning_global">Спосіб введення %1$s може записувати все, що ви вводите, включаючи паролі, номери кредитних карт та інші особисті дані. Використовувати цей спосіб введення?</string>
     <string name="ime_security_warning_title_global">Увімкнення клавіатури</string>
@@ -4349,6 +4380,10 @@ Xiaomi Cloud
     <string name="interesting_title">Реалістичний дотик</string>
     <string name="internal_auto_rotate_title">Блокування орієнтації для для внутрішнього екрана</string>
     <string name="internal_storage">"Внутр. пам'ять"</string>
+    <string name="international_lyra_account_ap_summary">"Дозволити планшетам та комп'ютерам поблизу, які увійшли у ваш акаунт, автоматично вмикати та підключатися до точки доступу цього пристрою."</string>
+    <string name="international_lyra_account_ap_title">Синхронізація мережі</string>
+    <string name="international_lyra_auto_connect_summary">Якщо на пристрої, який знаходиться неподалік, виконано вхід у ваш акаунт і йому необхідно підключитися до інтернету, вмикати та автоматично підключатися до точки доступу цього пристрою.</string>
+    <string name="international_lyra_auto_connect_title">Автоматично підключатися до точки доступу</string>
     <string name="internet_connectivity_panel_title">Підключення до інтернету</string>
     <string name="invalid_location">Місце встановлення не дійсне.</string>
     <string name="invalid_size_value">Не вдалось обчислити розмір пакета.</string>
@@ -5094,6 +5129,8 @@ Xiaomi Cloud
     <string name="long_background_tasks_title">Довгі фонові завдання</string>
     <string name="long_press_back_key">Тривале натиснення кнопки \"Назад\"</string>
     <string name="long_press_buttom_key">Довге натиснення кнопки \"Додому\" на екрані блокування</string>
+    <string name="long_press_editor_style_summary">Натисніть і утримуйте Екран блокування, щоб змінити годинник і шпалери</string>
+    <string name="long_press_editor_style_title">Натисніть та утримуйте для редагування</string>
     <string name="long_press_home_key">Тривале натиснення кнопки \"Додому\"</string>
     <string name="long_press_menu_key">Тривале натиснення кнопки \"Меню\"</string>
     <string name="long_press_menu_key_when_lock">Довге натиснення кнопки \"Меню\" на екрані блокування</string>
@@ -5915,6 +5952,7 @@ Xiaomi Cloud
     <string name="my_device_info_device_name_preference_title">Назва пристрою</string>
     <string name="my_device_info_legal_category_title">Нормативно-правова інформація</string>
     <string name="n_cacrts">сертифікатів ЦС: %d</string>
+    <string name="name_modification_no_network_notification">Підключіться до мережі та повторіть спробу</string>
     <string name="natural_haptic">Природний дотик</string>
     <string name="natural_haptic_summary">Новий тактильний відгук дозволяє додати новий вимір для всього, що ви бачите і торкаєтеся на екрані.</string>
     <string name="natural_scroll">Природна прокрутка</string>
@@ -6591,6 +6629,15 @@ OTG автоматично відключається через 10 хвилин
     <string name="phone_language">Мови</string>
     <string name="phone_language_summary" />
     <string name="photo_data">Фото та відео</string>
+    <string name="photography_handle_button_function_settings">Налаштування кнопки рукоятки</string>
+    <string name="photography_handle_charge_protected">Захист кріплення під час заряджання</string>
+    <string name="photography_handle_charge_protected_summary">Коли кріплення для камери підключено, пристрій перестане заряджатися і буде підтримувати заряд батареї на рівні %1$s.</string>
+    <string name="photography_handle_charge_state">Зарядка від кріплення для камери</string>
+    <string name="photography_handle_charge_state_summary">Заряджайте цей пристрій від кріплення для камери, коли воно підключене</string>
+    <string name="photography_handle_launch_and_take_photo">Зйомка фото</string>
+    <string name="photography_handle_launch_camera">Запуск камери</string>
+    <string name="photography_handle_long_press_camera_key_enter_camera">Утримуйте кнопку запуску камери, щоб виконати дію.</string>
+    <string name="photography_handle_quick_launch_camera_title">Швидкий запуск</string>
     <string name="photography_handle_title">Ручка камери</string>
     <string name="physical_keyboard_title">Фізична клавіатура</string>
     <string name="pick_up_gesture_wakeup_title">Пробуджувати при взятті до рук</string>
@@ -6715,8 +6762,10 @@ OTG автоматично відключається через 10 хвилин
     <string name="pref_show_lunar_calendar_title">Китайський календар на екрані блокування</string>
     <string name="pref_title_network_details">Дані мережі</string>
     <string name="pref_title_update_notification">Сповіщення про трафік</string>
+    <string name="pref_volume_launch_camera_and_photo_when_lock_screen_summary">Коли екран заблоковано, двічі натисніть кнопку \"Зменшити гучність\", щоб відкрити програму \"Камера\" та зробити фото</string>
     <string name="pref_volume_launch_camera_summary">Натисніть двічі на кнопку зменшення гучності, щоб запустити камеру</string>
     <string name="pref_volume_launch_camera_title">Швидкий запуск камери</string>
+    <string name="pref_volume_launch_camera_when_lock_screen_summary">Коли екран заблоковано, двічі натисніть кнопку \"Зменшити гучність\", щоб відкрити програму \"Камера\"</string>
     <string name="pref_volume_wake_summary">Натиснення кнопок регулювання гучності у заблокованому стані розбудить пристрій</string>
     <string name="pref_volume_wake_title">Пробуджувати кнопками гучності</string>
     <string name="preference_change_password_title">Змінити пароль</string>
@@ -6923,6 +6972,7 @@ OTG автоматично відключається через 10 хвилин
     <string name="privacy_thumbnail_blur_title">Розмиття мініатюр</string>
     <string name="private_dns_broken">Немає доступу до приватного DNS-сервера</string>
     <string name="private_dns_help_message"><annotation id="url">Докладніше</annotation> про приватний DNS-сервер</string>
+    <string name="private_dns_host_name">"Ім'я хосту провайдера DNS"</string>
     <string name="private_dns_mode_off">Вимкнено</string>
     <string name="private_dns_mode_on">Увімкнено</string>
     <string name="private_dns_mode_opportunistic">Автоматично</string>
@@ -6931,6 +6981,7 @@ OTG автоматично відключається через 10 хвилин
     <string name="private_dns_mode_provider_exposed_hostname">Видимість</string>
     <string name="private_dns_mode_provider_failure">Не вдалося під’єднатися</string>
     <string name="private_dns_mode_provider_hostname_hint">Введіть ім’я хосту постачальника послуг DNS</string>
+    <string name="private_dns_title">Приватний DNS-сервер</string>
     <string name="private_gallery_need_to_unlock">Введіть пароль</string>
     <string name="private_gallery_recording_intro_header">Намалюйте графічний ключ</string>
     <string name="private_gallery_reset_by_account">Щоб скинути пароль, увійдіть до акаунту Xiaomi.</string>
@@ -7270,6 +7321,8 @@ OTG автоматично відключається через 10 хвилин
     <string name="safety_center_summary">Безпека додатків, блокування пристрою, дозволи</string>
     <string name="safety_center_title">Безпека й конфіденційність</string>
     <string name="sar">Відомості про рівень РЧ-випромінювання</string>
+    <string name="satellite_call_assistant">Налаштування викликів</string>
+    <string name="satellite_network_title">"Функції супутникового зв'язку"</string>
     <string name="saturday">Субота</string>
     <string name="saturday_first_day_of_week">Субота</string>
     <string name="saturday_short">Сб</string>
@@ -7277,6 +7330,7 @@ OTG автоматично відключається через 10 хвилин
     <string name="save">Зберегти</string>
     <string name="save_battery_mode">Економія енергії з WQHD+</string>
     <string name="save_battery_mode_summary">Автоматично перемикати роздільну здатність для економії енергії.</string>
+    <string name="save_device_name_progress_message">Збереження…</string>
     <string name="saved_network">Збережено додатком %1$s</string>
     <string name="saved_wifi">Збережені мережі</string>
     <string name="saved_wifi_delete">Видалити</string>
@@ -7402,19 +7456,14 @@ OTG автоматично відключається через 10 хвилин
     <string name="screen_paper_mode_update_white_pkg_list_summary">Оновити список програм, які автоматично використовують Режим читання</string>
     <string name="screen_paper_mode_update_white_pkg_list_title">Автоматичне оновлення</string>
     <string name="screen_paper_texture">Текстура</string>
-    <string name="screen_pinning_description">"Закріплений додаток матиме змогу відкривати інші додатки й отримувати доступ до персональних даних. 
+    <string name="screen_pinning_description">Прикріплені програми можуть відкривати інші програми та отримувати доступ до вашої особистої інформації</string>
+    <string name="screen_pinning_dialog_message">"Ось, що можуть робити прикріплені програми:
 
-Щоб використовувати закріплення додатка: \u0009
-1. Увімкніть закріплення додатка. \u0009
-2. Відкрийте \"Огляд\". \u0009
-3. Натисніть значок додатка вгорі екрана й виберіть \"Закріпити\"."</string>
-    <string name="screen_pinning_dialog_message">"Якщо додаток закріплено, він може: 
+• Доступ до вашої особистої інформації
+(наприклад, до контактів або електронної пошти)
+• Відкриття інших програм
 
-•\u0009\u0009отримувати доступ до персональних даних 
-\u0009\u0009(наприклад, до контактів або електронних листів); 
-•\u0009\u0009відкривати інші додатки. 
-
-Використовуйте закріплення додатка лише спільно з людьми, яким довіряєте."</string>
+Використовуйте цю функцію з обережністю, ділячись цим пристроєм з іншими."</string>
     <string name="screen_pinning_guest_user_description">"Закріплений додаток матиме змогу відкривати інші додатки й отримувати доступ до персональних даних. 
 
 Якщо ви хочете без ризику надавати іншому користувачу доступ до пристрою, натомість використовуйте режим гостя. 
@@ -7423,10 +7472,11 @@ OTG автоматично відключається через 10 хвилин
 1. Увімкніть закріплення додатка. \u0009
 2. Відкрийте \"Огляд\". \u0009
 3. Натисніть значок додатка вгорі екрана й виберіть \"Закріпити\"."</string>
+    <string name="screen_pinning_summary">Закріплені програми будуть у розділі \"Нещзодавні\" до тих пір, поки ви не відкріпите їх</string>
     <string name="screen_pinning_switch_off_text">Вимкнено</string>
     <string name="screen_pinning_switch_on_text">Увімкнено</string>
-    <string name="screen_pinning_title">Закріплення додатків</string>
-    <string name="screen_pinning_unlock_none">Блокувати пристрій після відкріплення</string>
+    <string name="screen_pinning_title">Дозволити прикріпленя програм</string>
+    <string name="screen_pinning_unlock_none">Підтвердіть екран блокування, щоб відкріпити</string>
     <string name="screen_pinning_unlock_password">Запитувати пароль перед відкріпленням</string>
     <string name="screen_pinning_unlock_pattern">Ключ розблокування перед відкріпленням</string>
     <string name="screen_pinning_unlock_pin">PIN-код для відкріплення</string>
@@ -8376,6 +8426,7 @@ OTG автоматично відключається через 10 хвилин
     <string name="slight_pause">,</string>
     <string name="slot_number">" (слот %1$d)"</string>
     <string name="slot_status_title">Інформація про IMEI</string>
+    <string name="small_window_not_support_add_data_toast">Не можна записувати дані у спливаючих вікнах. Повторіть спробу в повноекранному режимі.</string>
     <string name="smallwindow_smartcover_title">З віконцем</string>
     <string name="smart_battery_footer">Коли диспетчер заряду виявляє додатки, які швидко розряджають акумулятор, ви можете обмежити їх. Можливо, додатки працюватимуть неналежним чином, а сповіщення надходитимуть із затримкою.</string>
     <string name="smart_battery_manager_title">Диспетчер заряду акумулятора</string>
@@ -8425,6 +8476,11 @@ OTG автоматично відключається через 10 хвилин
     <string name="sort_order_frequent_notification">Найчастіші</string>
     <string name="sort_order_recent_notification">Спочатку нові</string>
     <string name="sort_order_size">Сортувати за розміром</string>
+    <string name="sos_add_area_code_switch_summary">"Автоматично додавати код міста до номера телефону при здійсненні екстреного виклику за допомогою супутникового зв'язку Tiantong."</string>
+    <string name="sos_add_area_code_switch_title">Автоматично додавати код регіону</string>
+    <string name="sos_area_code_settings_hint">Введіть код регіону</string>
+    <string name="sos_area_code_settings_summary">Вручну введіть код міста для номера телефона контакту на випадок НС.</string>
+    <string name="sos_area_code_settings_title">Встановити код регіону</string>
     <string name="sos_phone_call_privacy_dialog_message">"Для виклику екстрених контактів і відтворення в SOS-записів цій програмі необхідні наступні дозволи:
 • Виклики
 для виклику екстрених контактів
@@ -9157,6 +9213,7 @@ OTG автоматично відключається через 10 хвилин
     <string name="tip_remove_data">"Скидання до заводських налаштувань видалить ці об'єкти з вашого пристрою"</string>
     <string name="title_change_system_locale">Змінити мову системи на таку: %s?</string>
     <string name="title_color_calibration">Корекція кольору</string>
+    <string name="title_device_control">Команди пристрою</string>
     <string name="title_font">Шрифт</string>
     <string name="title_font2">Шрифт та зовнішній вигляд</string>
     <string name="title_font_current">Системний шрифт</string>
@@ -9172,10 +9229,12 @@ OTG автоматично відключається через 10 хвилин
     <string name="title_quick_control_all_devices">Показати елементи керування для пристроїв поблизу</string>
     <string name="title_regional_pref_footer">Якщо додаток не підтримує регіональні налаштування, він використовуватиме налаштування мови за умовчанням.</string>
     <string name="title_show_notification_icon">Показувати іконки сповіщень</string>
+    <string name="title_show_notification_icon_count">Кількість значків сповіщень, які відображаються</string>
     <string name="title_smart_device_control">Органи керування розумним пристроєм</string>
     <string name="title_special_features_health_global">Пульс</string>
     <string name="title_unavailable_locale">Вибрана мова (%s) недоступна</string>
     <string name="title_wordless_mode">Не показувати ярлики на іконках</string>
+    <string name="title_xiaomi_smart_hub">Xiaomi Smart Hub</string>
     <string name="to_close">Вимкнути</string>
     <string name="to_switch_networks_disconnect_ethernet">"Щоб вибрати іншу мережу, від'єднайте кабель Ethernet"</string>
     <string name="toast_allows_restricted_settings_successfully">Для додатка %s дозволено налаштування з обмеженнями</string>

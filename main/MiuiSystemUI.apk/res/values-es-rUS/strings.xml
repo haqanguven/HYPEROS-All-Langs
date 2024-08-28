@@ -307,6 +307,8 @@ Vuelve a intentarlo en %d segundos."</string>
     <string name="bluetooth_battery_level">%1$s de batería</string>
     <string name="bluetooth_battery_level_untethered">I: %1$s de batería, D: %2$s de batería</string>
     <string name="bluetooth_connected">Conectado%1$s</string>
+    <string name="bluetooth_connected_no_a2dp">Conectado (sin archivos multimedia) a %1$s</string>
+    <string name="bluetooth_connected_no_headset">Conectado (sin teléfono) a %1$s</string>
     <string name="bluetooth_connecting">Conectando…</string>
     <string name="bluetooth_disconnected">Desconectado</string>
     <string name="bluetooth_disconnecting">Desconectando…</string>
@@ -1132,6 +1134,10 @@ Si no permites que esta app acceda a todos los registros del dispositivo, aún p
     <string name="missed_call">Llamada perdida</string>
     <string name="miui_clock_city_name_local">Local</string>
     <string name="miui_clock_city_name_second">Segundo reloj</string>
+    <string name="miui_keyboard_shortcut_click">Toque</string>
+    <string name="miui_keyboard_shortcut_double_click">Toque dos veces</string>
+    <string name="miui_keyboard_shortcut_system_dock">Mostrar el dock de aplicaciones</string>
+    <string name="miui_keyboard_shortcut_system_quickly_recent">Cambiar entre aplicaciones recientes</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Desbloqueado por dispositivo Bluetooth</string>
     <string name="miui_lock_screen_date">dd MMM, EEE</string>
     <string name="miui_lock_screen_date_12">dd MMM, EEE</string>
@@ -1160,7 +1166,7 @@ d/M"</string>
     <string name="miui_rhombus_clock_date">"dd 'de' MMMM"</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_screen_rotation_freeze_message">Orientación de la pantalla bloqueada en el modo paisaje</string>
+    <string name="miui_screen_rotation_freeze_message">Orientación de la pantalla bloqueada en el modo horizontal</string>
     <string name="miui_smart_frame_clock_date">d/M</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_snooze_always_float">No ocultar</string>
@@ -1423,8 +1429,8 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Seleccionar &lt;font color=#a5220e>\"Limpiar y restaurar\"&lt;/font> y espere a que se reinicie el dispositivo.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">¿Cómo borrar los datos?</string>
     <string name="phone_locked_string">Este dispositivo está bloqueado</string>
-    <string name="phone_locked_string_owner_user">Demasiados intentos fallidos para ingresar la contraseña del primer espacio. Este dispositivo está bloqueado ahora.</string>
-    <string name="phone_locked_string_second_user">Demasiados intentos fallidos para ingresar la contraseña del Segundo espacio. Este dispositivo está bloqueado ahora.</string>
+    <string name="pin_toast">Deslice hacia arriba desde la parte inferior de la pantalla y pause para desanclar esta aplicación</string>
+    <string name="pin_toast_nav">Mantenga pulsados los botones de atrás y previsualizar para desanclar esta aplicación</string>
     <string name="pip_close">Cerrar</string>
     <string name="pip_collapse">Contraer</string>
     <string name="pip_edu_text">Presiona dos veces <annotation icon="home_icon">INICIO</annotation> para ver los controles</string>
@@ -1490,12 +1496,18 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="qs_alarm_tile_no_alarm">No establecida</string>
     <string name="qs_bill_message_balance">%1$s %2$s restante</string>
     <string name="qs_bill_message_unit_cny">CNY</string>
+    <string name="qs_control_big_tile_click_cellular_tether_tip">Salga del Segundo espacio y vuelva a intentarlo</string>
+    <string name="qs_control_big_tile_connect_share_network_fail">No se pudo conectar a la red de datos móviles. Espere un minuto o dos y vuelva a intentarlo.</string>
+    <string name="qs_control_big_tile_state_closed">Desactivado</string>
     <string name="qs_control_big_tile_state_connected">Conectado</string>
     <string name="qs_control_big_tile_state_connecting">Conectando…</string>
     <string name="qs_control_big_tile_state_opening">Activando…</string>
+    <string name="qs_control_big_tile_state_tethered_wifi">Usando señal Wi-Fi del teléfono</string>
+    <string name="qs_control_big_tile_state_tethered_wlan">Usando señal WLAN del teléfono</string>
+    <string name="qs_control_big_tile_state_unavailable">No disponible</string>
     <string name="qs_customize_title">Editar</string>
     <string name="qs_edit">Editar</string>
-    <string name="qs_open_night_mode_alert_summary">Algunos ajustes de pantalla no son compatibles con el modo oscuro. Serán restaurados al desactivar el modo oscuro.</string>
+    <string name="qs_open_night_mode_alert_summary">Algunos ajustes de pantalla no son compatibles con el modo oscuro. Serán restaurados al desactivar el Modo oscuro.</string>
     <string name="qs_tile_request_dialog_add">Agregar tarjeta</string>
     <string name="qs_tile_request_dialog_not_add">No agregar tarjeta</string>
     <string name="qs_tile_request_dialog_text">%1$s quiere agregar la siguiente tarjeta a la Configuración rápida</string>
@@ -1539,6 +1551,8 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Desactivar</string>
     <string name="quick_settings_cellular_detail_title">Datos móviles</string>
     <string name="quick_settings_cellular_detail_unable_change">No se puede ajustar durante una llamada</string>
+    <string name="quick_settings_cellular_state_change_message_connected">Conectado a una red de datos móviles</string>
+    <string name="quick_settings_cellular_state_change_message_disconnected">Desconectado de la red de datos móviles</string>
     <string name="quick_settings_cellular_state_change_message_off">Datos móviles desactivados</string>
     <string name="quick_settings_cellular_state_change_message_on">Datos móviles activados</string>
     <string name="quick_settings_color_correction_label">Corregir colores</string>
@@ -1599,7 +1613,7 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="quick_settings_mic_label">Acceso al mic.</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">No hay redes Wi-Fi disponibles</string>
     <string name="quick_settings_miui_wifi_label">Wi-Fi</string>
-    <string name="quick_settings_miui_wlan_detail_empty_text">No WLAN networks available</string>
+    <string name="quick_settings_miui_wlan_detail_empty_text">No hay redes WLAN disponibles</string>
     <string name="quick_settings_miui_wlan_label">WLAN</string>
     <string name="quick_settings_more_settings">Más ajustes</string>
     <string name="quick_settings_more_user_settings">Administrar usuarios</string>
@@ -1646,7 +1660,7 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="quick_settings_state_change_message_on">%1$s activado</string>
     <string name="quick_settings_state_saved">Guardado</string>
     <string name="quick_settings_state_wifi_select_nearby_ap">Seleccionar redes Wi-Fi cercanas</string>
-    <string name="quick_settings_state_wlan_select_nearby_ap">Select WLAN networks nearby</string>
+    <string name="quick_settings_state_wlan_select_nearby_ap">Seleccionar redes WLAN cercanas</string>
     <string name="quick_settings_sync_label">Sincronizar</string>
     <string name="quick_settings_sync_state_change_message_off">La sincronización está desactivada</string>
     <string name="quick_settings_sync_state_change_message_on">La sincronización está activada</string>
@@ -1668,7 +1682,7 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="quick_settings_wifi_secondary_label_transient">Activando…</string>
     <string name="quick_settings_wifi_state_change_message_off">Wi-Fi desactivado</string>
     <string name="quick_settings_wifi_state_change_message_on">Wi-Fi activado</string>
-    <string name="quick_settings_wlan_is_off">WLAN if off</string>
+    <string name="quick_settings_wlan_is_off">WLAN desactivado</string>
     <string name="quick_settings_wlan_state_change_message_off">WLAN desactivado</string>
     <string name="quick_settings_wlan_state_change_message_on">WLAN activado</string>
     <string name="quick_settings_work_mode_label">Apps de trabajo</string>

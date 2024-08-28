@@ -168,11 +168,11 @@
     <string name="accessibility_qs_edit_tile_add">Додати кнопку %1$s на позицію %2$d</string>
     <string name="accessibility_qs_edit_tile_add_action">додати опцію в кінець</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Додати на позицію %1$d</string>
-    <string name="accessibility_qs_edit_tile_added">Кнопка %1$s тепер займає позицію %2$d</string>
+    <string name="accessibility_qs_edit_tile_added">%1$s було додано на позицію %2$d</string>
     <string name="accessibility_qs_edit_tile_label">Позиція %1$d, кнопка %2$s. Натисніть двічі для зміни.</string>
     <string name="accessibility_qs_edit_tile_move">Перемістити кнопку %1$s на позицію %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Перемістити на позицію %1$d</string>
-    <string name="accessibility_qs_edit_tile_removed">Кнопку %1$s було видалено</string>
+    <string name="accessibility_qs_edit_tile_removed">%1$s було видалено</string>
     <string name="accessibility_qs_edit_tile_start_add">Додати опцію</string>
     <string name="accessibility_qs_edit_tile_start_move">Перемістити опцію</string>
     <string name="accessibility_quick_settings_alarm">Сигнал установлено на %s.</string>
@@ -307,6 +307,8 @@
     <string name="bluetooth_battery_level">%1$s заряду акумулятора</string>
     <string name="bluetooth_battery_level_untethered">Л: %1$s заряду акумулятора, П: %2$s заряду акумулятора</string>
     <string name="bluetooth_connected">%1$s під’єднано</string>
+    <string name="bluetooth_connected_no_a2dp">%1$s під’єдно (без медіа)</string>
+    <string name="bluetooth_connected_no_headset">%1$s під’єднано (без телефона)</string>
     <string name="bluetooth_connecting">Підключення…</string>
     <string name="bluetooth_disconnected">Роз’єднано</string>
     <string name="bluetooth_disconnecting">Відключення...</string>
@@ -1132,6 +1134,10 @@
     <string name="missed_call">Пропущений виклик</string>
     <string name="miui_clock_city_name_local">На пристрої</string>
     <string name="miui_clock_city_name_second">Другий годинник</string>
+    <string name="miui_keyboard_shortcut_click">Натиснення</string>
+    <string name="miui_keyboard_shortcut_double_click">Подвійне натиснення</string>
+    <string name="miui_keyboard_shortcut_system_dock">Показувати панель програм</string>
+    <string name="miui_keyboard_shortcut_system_quickly_recent">Перемикання між останніми програмами</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Розблоковано Bluetooth-пристроєм</string>
     <string name="miui_lock_screen_date">EEE, d MMM</string>
     <string name="miui_lock_screen_date_12">EEE, d MMM</string>
@@ -1423,8 +1429,8 @@ IT-адміністратор може відстежувати й контро�
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Виберіть &lt;font color=#a5220e>\"Провести та перезавантажити\"&lt;/font> та зачекайте поки пристрій перезавантажиться.;&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Стерти всі дані зараз?</string>
     <string name="phone_locked_string">Цей пристрій заблоковано</string>
-    <string name="phone_locked_string_owner_user">Забагато невдалих спроб введення пароля Першого простору. Тепер пристрій заблоковано.</string>
-    <string name="phone_locked_string_second_user">Забагато невдалих спроб введення пароля Другого простору. Тепер пристрій заблоковано.</string>
+    <string name="pin_toast">Проведіть вверх від нижнього краю екрану та затримайте палець, щоб відкріпити програму</string>
+    <string name="pin_toast_nav">Утримуйте кнопки \"Назад\" та \"Перегляд\", щоб відкріпити цю програму</string>
     <string name="pip_close">Закрити</string>
     <string name="pip_collapse">Згорнути</string>
     <string name="pip_edu_text">Відкрити елементи керування: двічі натисніть <annotation icon="home_icon">HOME</annotation></string>
@@ -1490,9 +1496,15 @@ IT-адміністратор може відстежувати й контро�
     <string name="qs_alarm_tile_no_alarm">Немає будильників</string>
     <string name="qs_bill_message_balance">Залишилося %1$s%2$s</string>
     <string name="qs_bill_message_unit_cny">CNY</string>
+    <string name="qs_control_big_tile_click_cellular_tether_tip">Виконайте вихід із Другого простору та повторіть спробу</string>
+    <string name="qs_control_big_tile_connect_share_network_fail">Не вдалося підключитися до мобільного інтернету. Зачекайте пару хвилин та повторіть спробу.</string>
+    <string name="qs_control_big_tile_state_closed">Вимк.</string>
     <string name="qs_control_big_tile_state_connected">Підключено</string>
     <string name="qs_control_big_tile_state_connecting">Підключення…</string>
     <string name="qs_control_big_tile_state_opening">Увімкнення…</string>
+    <string name="qs_control_big_tile_state_tethered_wifi">Використовується сигнал Wi-Fi телефона</string>
+    <string name="qs_control_big_tile_state_tethered_wlan">Використовується сигнал WLAN телефона</string>
+    <string name="qs_control_big_tile_state_unavailable">Недоступно</string>
     <string name="qs_customize_title">Редагувати</string>
     <string name="qs_edit">Редагувати</string>
     <string name="qs_open_night_mode_alert_summary">Деякі налаштування екрана несумісні з темним режимом. Вони будуть відновлені при відключенні темного режиму.</string>
@@ -1511,7 +1523,7 @@ IT-адміністратор може відстежувати й контро�
     <string name="quick_settings_autobrightness_label">Автояскравість</string>
     <string name="quick_settings_autobrightness_state_change_message_off">Автояскравість вимк.</string>
     <string name="quick_settings_autobrightness_state_change_message_on">Автояскравість увімк.</string>
-    <string name="quick_settings_batterysaver_label">Економія енергії</string>
+    <string name="quick_settings_batterysaver_label">Економія заряду</string>
     <string name="quick_settings_bluetooth_connected_tip">Підключено по Bluetooth</string>
     <string name="quick_settings_bluetooth_detail_empty_text">"Немає прив'язаних пристроїв"</string>
     <string name="quick_settings_bluetooth_disconnected_tip">Всі Bluetooth-пристрої будуть відключені сьогодні</string>
@@ -1539,6 +1551,8 @@ IT-адміністратор може відстежувати й контро�
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Відключити</string>
     <string name="quick_settings_cellular_detail_title">Мобільний інтернет</string>
     <string name="quick_settings_cellular_detail_unable_change">Неможливо задати під час виклику</string>
+    <string name="quick_settings_cellular_state_change_message_connected">Підключено до мобільного інтернету</string>
+    <string name="quick_settings_cellular_state_change_message_disconnected">Відключено від мобільного інтернету</string>
     <string name="quick_settings_cellular_state_change_message_off">Мобільний інтернет вимк.</string>
     <string name="quick_settings_cellular_state_change_message_on">Мобільний інтернет увімк.</string>
     <string name="quick_settings_color_correction_label">Корекція кольору</string>
@@ -1599,7 +1613,7 @@ IT-адміністратор може відстежувати й контро�
     <string name="quick_settings_mic_label">Доступ до мікрофона</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Немає доступних мереж Wi-Fi</string>
     <string name="quick_settings_miui_wifi_label">Wi-Fi</string>
-    <string name="quick_settings_miui_wlan_detail_empty_text">No WLAN networks available</string>
+    <string name="quick_settings_miui_wlan_detail_empty_text">Немає доступних мереж WLAN</string>
     <string name="quick_settings_miui_wlan_label">WLAN</string>
     <string name="quick_settings_more_settings">Більше налаштувань</string>
     <string name="quick_settings_more_user_settings">Керувати користувачами</string>
@@ -1641,17 +1655,17 @@ IT-адміністратор може відстежувати й контро�
     <string name="quick_settings_screensaver_label">Заставка</string>
     <string name="quick_settings_screenshot_label">Знімок екрана</string>
     <string name="quick_settings_secondary_label_until">До %s</string>
-    <string name="quick_settings_sim_disabled">" (відключено)"</string>
+    <string name="quick_settings_sim_disabled">" (Відключено)"</string>
     <string name="quick_settings_state_change_message_off">%1$s вимк.</string>
     <string name="quick_settings_state_change_message_on">%1$s увімк.</string>
     <string name="quick_settings_state_saved">Збережено</string>
     <string name="quick_settings_state_wifi_select_nearby_ap">Вибрати мережі Wi-Fi поблизу</string>
-    <string name="quick_settings_state_wlan_select_nearby_ap">Select WLAN networks nearby</string>
+    <string name="quick_settings_state_wlan_select_nearby_ap">Вибрати мережі WLAN поблизу</string>
     <string name="quick_settings_sync_label">Синхронізація</string>
     <string name="quick_settings_sync_state_change_message_off">Синхронізація вимк.</string>
     <string name="quick_settings_sync_state_change_message_on">Синхронізація увімк.</string>
     <string name="quick_settings_ui_mode_night_label">Темна тема</string>
-    <string name="quick_settings_vibrate_label">Вібрація</string>
+    <string name="quick_settings_vibrate_label">Вібрувати</string>
     <string name="quick_settings_vibrate_state_change_message_off">Вібрація вимк.</string>
     <string name="quick_settings_vibrate_state_change_message_on">Вібрація увімк.</string>
     <string name="quick_settings_vowifi_label">Виклики по Wi-Fi</string>
@@ -1662,13 +1676,13 @@ IT-адміністратор може відстежувати й контро�
     <string name="quick_settings_wifi_detail_dual_wifi_switching_confirm">Підтвердити</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_not_remind">Більше не показувати</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_prompt">Перемикання між мережами</string>
-    <string name="quick_settings_wifi_detail_dual_wifi_switching_summary">Дводіапазонне збільшення швидкості Wi-Fi повинне використовувати два різних діапазони Wi-Fi. Якщо ви підключитеся до іншої основної мережі, допоміжне підключення буде розірвано.</string>
+    <string name="quick_settings_wifi_detail_dual_wifi_switching_summary">Дводіапазонне збільшення швидкості Wi-Fi повинне використовувати два різних діапазони Wi-Fi. Якщо ви підключитеся до іншої основної мережі, допоміжна мережа буде втрачена.</string>
     <string name="quick_settings_wifi_is_off">Wi-Fi вимкнено</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
     <string name="quick_settings_wifi_secondary_label_transient">Увімкнення…</string>
     <string name="quick_settings_wifi_state_change_message_off">Wi-Fi вимк.</string>
     <string name="quick_settings_wifi_state_change_message_on">Wi-Fi увімк.</string>
-    <string name="quick_settings_wlan_is_off">WLAN if off</string>
+    <string name="quick_settings_wlan_is_off">WLAN вимкнено</string>
     <string name="quick_settings_wlan_state_change_message_off">WLAN вимк.</string>
     <string name="quick_settings_wlan_state_change_message_on">WLAN увімк.</string>
     <string name="quick_settings_work_mode_label">Робочі додатки</string>
