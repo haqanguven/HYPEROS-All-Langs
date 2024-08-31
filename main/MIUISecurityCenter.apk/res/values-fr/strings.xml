@@ -343,6 +343,9 @@
     <string name="app_manager_copy_pkg_to_clip">Copié dans le presse-papiers</string>
     <string name="app_manager_data_size">Données utilisateur</string>
     <string name="app_manager_default_cleared">Vidé</string>
+    <string name="app_manager_default_close_summary">Aucune application par défaut définie.</string>
+    <string name="app_manager_default_open_summary">Vous avez choisi de lancer cette application par défaut pour certaines actions.</string>
+    <string name="app_manager_default_open_title">Annuler les applis par défaut</string>
     <string name="app_manager_defaults_setting">Gestion des apps par défaut</string>
     <string name="app_manager_details_electric_title">Batterie</string>
     <string name="app_manager_details_storage_title">Stockage</string>
@@ -1605,6 +1608,7 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="fod_finger_notice_title">"Placez votre doigt sur l'écran"</string>
     <string name="fod_finger_windows_tips">Vérifiez votre empreinte digitale</string>
     <string name="fod_tips_split_screen_more_than_half">Saisir le mot de passe</string>
+    <string name="fold_application_mode_name">"Mises en page de l'application"</string>
     <string name="forbid_autobright_summary">La luminosité automatique sera désactivée pendant que vous jouez et restaurée une fois que vous avez terminé</string>
     <string name="forbid_autobright_title">"Ajuster la luminosité de l'écran"</string>
     <string name="foreground_traffic">Premier plan %s</string>
@@ -2126,8 +2130,8 @@ et explorez notre changeur de voix!"</string>
     <string name="group_clipboard">Presse-papiers</string>
     <string name="group_connect_device">Interconnectivité</string>
     <string name="group_file">Fichiers et documents</string>
+    <string name="group_file_less_t">Accéder aux fichiers et médias</string>
     <string name="group_head_data_ai_clipboard">Protection du presse-papiers</string>
-    <string name="group_head_data_ai_clipboard_desc">Autoriser le système à décider si les applications peuvent accéder aux éléments dans le presse-papiers</string>
     <string name="group_head_data_camera_desc">"Désactiver pour restreindre l'accès à l'appareil photo pour toutes les applications"</string>
     <string name="group_head_data_clipboard_desc">"Désactiver pour restreindre l'accès au presse-papier pour toutes les applications"</string>
     <string name="group_head_data_location_desc">"Désactiver pour restreindre l'accès à la localisation pour toutes les applications"</string>
@@ -2621,6 +2625,9 @@ Votre appareil est désormais %s plus rapide."</string>
     <string name="mi_service_traffic_detail">Détails du Framework</string>
     <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tap to top up open Mi Sim.&lt;/U>&lt;/font>"</string>
     <string name="mi_sim_link_custom">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>%2$s&lt;/U>&lt;/font>"</string>
+    <string name="mic_noise_reduction_mode_standard">Standard</string>
+    <string name="mic_noise_reduction_mode_ultimate">Sélectionner</string>
+    <string name="mic_noise_reduction_voiceprint_desc">"Ne conserver que l'audio d'un utilisateur spécifié"</string>
     <string name="midnight">Nuit</string>
     <string name="midrop_post_notification_contentTitle">Besoin de partager des fichiers?</string>
     <string name="miui_blur_location">Autoriser toutes les applications à accéder à la localisation approximative</string>
@@ -3109,6 +3116,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="pc_battery_history_total_consumption_title">"Consommation d'énergie totale"</string>
     <string name="pc_battery_history_usetime_title">Actif</string>
     <string name="pc_battery_low_health_reminder">Il est temps de remplacer votre batterie</string>
+    <string name="pc_button_go_to_setting">Paramètres</string>
     <string name="pc_category_charge_settings">Paramètres de charge</string>
     <string name="pc_charged_auto_close_summary">Éteindre lorsque la batterie est à %1$s ou complètement chargée</string>
     <string name="pc_charged_auto_close_title">Désactiver une fois chargé</string>
@@ -3148,6 +3156,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="pc_going_to_exit_extreme_mode">Sortie du Mode hibernation</string>
     <string name="pc_going_to_exit_extreme_mode_summary">Votre appareil est en charge. Le Mode hibernation est désactivé.</string>
     <string name="pc_going_to_extreme_mode">Entrée en Mode hibernation</string>
+    <string name="pc_handle_battery_level">Poignée</string>
     <string name="pc_have_no_battery_issue">Aucun problème</string>
     <string name="pc_hide_more_power_rank_apps">Masquer</string>
     <string name="pc_hidemode_normal">Équilibré</string>
@@ -3207,11 +3216,14 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="pc_performance_mode_dialog_title">Mode performance</string>
     <string name="pc_performance_mode_noti_summary">"Le mode Performance peut augmenter la consommation d'énergie et entraîner des problèmes de surchauffe"</string>
     <string name="pc_performance_mode_noti_title">"Amélioration des performances de l'appareil"</string>
+    <string name="pc_phone_battery_level">Téléphone</string>
     <string name="pc_power_consume_check">Vérification batterie</string>
     <string name="pc_power_consume_check_ing">Vérification…</string>
+    <string name="pc_power_mode_has_performance">Mode performance activé</string>
     <string name="pc_power_save_settings_new">"Paramètres d'économiseur de batterie"</string>
     <string name="pc_remind_close_cover_to_charge_summary">"Pliez l'appareil avant de charger pour une expérience de charge plus rapide et plus stable."</string>
     <string name="pc_remind_close_cover_to_charge_title">Plier pour charger</string>
+    <string name="pc_reminder_always_protect_summary">Passez à une charge limitée pour réduire le vieillissement de la batterie</string>
     <string name="pc_save_charge">En charge</string>
     <string name="pc_save_other_setting">Autres paramètres</string>
     <string name="pc_save_power">Économiseur de batterie</string>
@@ -3241,6 +3253,11 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="pc_wait_device_cools_down">Attendez que votre appareil se refroidisse pour pouvoir utiliser cette fonctionnalité.</string>
     <string name="pc_wireless_charge_adjust_position_summary">Placez-le sur le chargeur sans fil</string>
     <string name="pc_wireless_charge_adjust_position_title">Charger votre appareil rapidement</string>
+    <string name="pc_wireless_charging_special_stand_summary1">Installez votre appareil sur le support qui était avec votre chargeur sans fil</string>
+    <string name="pc_wireless_charging_special_stand_summary2">Installez votre appareil sur le support qui était avec votre chargeur sans fil pour une meilleure performance de charge</string>
+    <string name="pc_wireless_charging_special_stand_title">Utiliser le support de charge fourni</string>
+    <string name="pc_wireless_handle_connected">Appareil connecté</string>
+    <string name="pc_wireless_handle_title">"Poignée d'appareil photo"</string>
     <string name="pc_work_in_save_mode">Économiseur de batterie</string>
     <string name="pc_work_in_super_save_mode">Économiseur de batterie Ultra</string>
     <string name="pc_xiaoai_create_auto_task">Nouvelle tâche de Mi AI</string>
@@ -3301,6 +3318,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="permission_group_camera">"Cette autorisation permet aux applications d'utiliser l'appareil photo pour prendre des photos ou enregistrer des vidéos."</string>
     <string name="permission_group_contact">"Cette autorisation permet aux applications d'accéder ou de modifier des contacts, ainsi que d'afficher les contacts d'applications créés sur cet appareil."</string>
     <string name="permission_group_file">"Cette autorisation permet aux applications d'accéder à tous les fichiers stockés sur cet appareil."</string>
+    <string name="permission_group_file_less_t">"Cette autorisation permet aux applications d'accéder aux photos, vidéos, audio et autres fichiers stockés sur cet appareil."</string>
     <string name="permission_group_image_video">"Cette autorisation permet aux applications d'accéder aux photos et vidéos stockées sur cet appareil."</string>
     <string name="permission_group_location">"Cette autorisation permet aux applications d'accéder aux informations de localisation via réseau ou satellite."</string>
     <string name="permission_group_microphone">"Cette autorisation permet aux applications d'utiliser le microphone pour l'enregistrement audio."</string>
@@ -3419,7 +3437,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="pm_remember_choice">Se souvenir de mon choix</string>
     <string name="pm_root_success_notification_infomation">"Assurez-vous de comprendre les risques liés à l'accès root"</string>
     <string name="pm_root_success_notification_title">Accès ROOT autorisé</string>
-    <string name="popular_action_anti_spam_title_global">Bloquer les appels et les messages</string>
+    <string name="popular_action_anti_spam_title_global">Block spam calls</string>
     <string name="popular_action_app_lock_title_global">"Protéger les applications avec Verrouillage d'application"</string>
     <string name="popular_action_card_title">Fonctionnalités populaires</string>
     <string name="popular_action_first_aid_title_global">Pour les nouveaux utilisateurs</string>
@@ -3465,7 +3483,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="power_center_batteryrank_all">Tout utilisation de la batterie</string>
     <string name="power_center_batteryrank_hardware">Utilisation de la batterie matérielle %s</string>
     <string name="power_center_batteryrank_software">Utilisation de la batterie du logiciel %s</string>
-    <string name="power_center_batteryscan_normal">"Aucun problème d'utilisation de la batterie. Voir les résultats."</string>
+    <string name="power_center_batteryscan_normal">Tout semble bien. Voir les résultats.</string>
     <string name="power_center_charge_status">En charge</string>
     <string name="power_center_charge_time">%1$s avant charge complète</string>
     <string name="power_center_consume_fast">Décharge la batterie</string>
@@ -3502,7 +3520,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="power_center_optimize_title">Suggestions</string>
     <string name="power_center_power_save_summary_text">"Augmente le temps restant jusqu'à %1$dh %2$dm"</string>
     <string name="power_center_power_save_title_text">Économiseur de batterie</string>
-    <string name="power_center_problem_title">Réparer les problèmes</string>
+    <string name="power_center_problem_title">"Consommation d'énergie élevée"</string>
     <string name="power_center_reduce_dpi_summary">"QHD + consomme plus d'énergie"</string>
     <string name="power_center_reduce_resolution">"Résolution d'affichage inférieure"</string>
     <string name="power_center_repeat">Répéter</string>
@@ -3593,6 +3611,9 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="power_main_battery_last_hour_minute">%1$s h %2$s min restantes</string>
     <string name="power_main_battery_last_hour_minute_screen_on">"%1$s %2$s de temps d'écran restant"</string>
     <string name="power_main_open_last_hour_minute_screen_on">"Activez pour ajouter %1$s %2$s de temps d'écran"</string>
+    <string name="power_ntc_dialog_btn_finish">"C'est compris"</string>
+    <string name="power_ntc_dialog_msg">"Débranchez le chargeur maintenant. Nettoyez et séchez le port de charge avant de l'utiliser à nouveau."</string>
+    <string name="power_ntc_dialog_title">Un corps étranger ou un liquide détecté</string>
     <string name="power_off_warning_button_ok">"C'est compris"</string>
     <string name="power_off_warning_message">"La batterie est faible. Votre appareil s'éteindra dans %d secondes. Connectez le chargeur."</string>
     <string name="power_off_warning_notification_title">Sur le point de fermer</string>
@@ -3735,11 +3756,16 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="pp_app_warning_permission_tips">"Rappels d'autorisations sensibles"</string>
     <string name="pp_app_warning_permission_tips_detail">"Afficher un rappel lorsqu'une application demande des autorisations de localisation, d'appareil ou de microphone"</string>
     <string name="pp_clipboard">Presse-papiers</string>
+    <string name="pp_none_read_clipboard_item">Ne pas notifier</string>
+    <string name="pp_privacy_lab_clipboard_summary">"Autorisez votre appareil à décider si une application peut accéder au presse-papiers et recevoir des notifications lorsqu'elle le fait"</string>
     <string name="pp_privacy_lab_operator_get_number_summary">"Demander aux applications de demander votre autorisation lorsqu'elles souhaitent accéder à votre numéro de téléphone pour se connecter"</string>
     <string name="pp_privacy_protection">Protection</string>
+    <string name="pp_protect_read_clipboard_item">Protéger</string>
     <string name="pp_read_phone_info_summary">Accéder aux informations SIM</string>
     <string name="pp_sms_and_contacts">Contacts et messagerie</string>
     <string name="pp_special_permission_settings">Autorisations spéciales</string>
+    <string name="pp_toast_read_clipboard">Notifier lorsque les applications accèdent aux éléments du presse-papiers</string>
+    <string name="pp_toast_read_clipboard_item">Notifier</string>
     <string name="precise_location_title">Localisation précise</string>
     <string name="pref_about_traffic_title">"Paramètres d'utilisation des données"</string>
     <string name="pref_adjust_data_usage">Modèle de message opérateur</string>
@@ -4017,6 +4043,7 @@ Retirer le consentement maintenant ?"</string>
     <string name="privacy_risk_result_protection">Protection de la vie privée</string>
     <string name="privacy_risk_result_screen_fuzzy">"Flouter les aperçus d'applications"</string>
     <string name="privacy_risk_result_screen_fuzzy_msg">Aperçu flou des applications sensibles affichées dans Récents</string>
+    <string name="privacy_risk_result_screen_shield_msg">Les applications contenant des informations personnelles sensibles seront affichées dans Récents avec leurs aperçus masqués</string>
     <string name="privacy_risk_result_set_btn">Paramètres</string>
     <string name="privacy_risk_result_success_empty_msg">Tout semble bon !</string>
     <string name="privacy_risk_result_success_msg">Correction de tous les problèmes. Yay!</string>
@@ -4098,10 +4125,10 @@ Retirer le consentement maintenant ?"</string>
     <string name="qucick_replay_instrument">Utiliser les réponses rapides dans les notifications des messagers sélectionnés (ex., WhatsApp, WeChat, QQ)</string>
     <string name="quick_optimize_checking">Analyse</string>
     <string name="quick_optimize_no_fix_issue_subtitle">"Impossible d'étendre la vie de la batterie"</string>
-    <string name="quick_optimize_no_fix_issue_title">Impossible de réparer les problèmes de batterie</string>
+    <string name="quick_optimize_no_fix_issue_title">"Impossible d'optimiser les éléments avec une consommation d'énergie élevée"</string>
     <string name="quick_optimize_no_issue">Aucun problème</string>
     <string name="quick_optimize_no_issue_subtitle">Tout semble bon !</string>
-    <string name="quick_optimize_no_issue_title">Aucun problème détecté</string>
+    <string name="quick_optimize_no_issue_title">"Aucun élément avec une consommation d'énergie élevée"</string>
     <string name="quick_optimize_sub_battery_text">Environ %s restant</string>
     <string name="quick_optimize_sub_summary_text">%s ajouté à la vie de la batterie</string>
     <string name="quick_optimize_sub_summary_with_battery_text">Ajouté %1$s, il reste environ %2$s</string>
@@ -4281,7 +4308,7 @@ Retirer le consentement maintenant ?"</string>
     <string name="settings">"Paramètres d'utilisation des données"</string>
     <string name="settings_battery_consume_abnormal_summary">Recevoir des notifications lorsque la batterie se décharge rapidement</string>
     <string name="settings_battery_consume_abnormal_title">Notifications du déchargement de la batterie</string>
-    <string name="settings_battery_power_save_suggest_title">"Suggestions et avertissements concernant l'économiseur de batterie"</string>
+    <string name="settings_battery_power_save_suggest_title">"Suggestions d'économiseur de batterie"</string>
     <string name="settings_camera_subtitle_no">Aucune metadonnées</string>
     <string name="settings_category_other">Autres paramètres</string>
     <string name="settings_category_overheat">Chauffage</string>
@@ -4703,6 +4730,8 @@ Pour utiliser ce ^1, vous devez d'abord le monter."</string>
     <string name="storage_dialog_unsupported">"Cet appareil ne prend pas en charge cette ^1.
 
 Pour utiliser cette ^1 avec cet appareil, vous devez d'abord la définir."</string>
+    <string name="storage_fbo_clear">Actualisation du stockage</string>
+    <string name="storage_fbo_des">"Le stockage interne souffre de fragmentation, ce qui pourrait ralentir considérablement votre appareil. L'actualisation du stockage fonctionne automatiquement lorsque vous n'utilisez pas l'appareil. Il organise physiquement vos fichiers dans le plus petit nombre de fragments réduisant le décalage."</string>
     <string name="storage_fbo_number_tip">Traité sur %1$s</string>
     <string name="storage_fbo_tools">Optimisation du stockage</string>
     <string name="storage_file_delete_tip">"Supprimer les éléments sélectionnés définitivement ? Certains d'entre eux peuvent être chargés à nouveau si nécessaire."</string>
@@ -4794,6 +4823,7 @@ Le formatage effacera le contenu existant sur la ^2. Pour éviter de perdre du c
     <string name="summary_usb">Prévenir les malwares depuis les données transmises par USB</string>
     <string name="summary_virus">Supprimer les virus pour garder votre appareil sécurisé</string>
     <string name="summary_virus_cloudscan">Télécharger le nom et les détails des applications et les définitions de virus en ligne</string>
+    <string name="summary_virus_scan_model">Éliminez ces risques de sécurité dès que possible</string>
     <string name="summary_virus_update">Obtenir la dernière définition des virus automatiquement</string>
     <string name="summary_xiaomi_roaming">0,01 CNY / Mo pour les données mobilles en itinérance.</string>
     <string name="sunday">Dimanche</string>
@@ -5251,6 +5281,7 @@ Le volume de données restant inclut l'excédent du mois précédent."</string>
     <string name="vb_movie_power_hint">"Le mode théâtre offre une expérience visuelle immersive.
 Votre appareil peut chauffer et consommer plus d'énergie."</string>
     <string name="vb_movie_subtitle">Exige un rendement élevé</string>
+    <string name="vb_mv_style_close_toast">Le style est déconnecté</string>
     <string name="vb_power_performance_mode_conflict_toast">"Impossible d'utiliser cette fonctionnalité lorsque le Mode performance est activé"</string>
     <string name="vb_power_save_mode_conflict_toast">"Impossible d'utiliser cette fonctionnalité lorsque l'économiseur de batterie est activé"</string>
     <string name="vb_quick_func_auto_bgm">Reconnaître la musique de fond</string>
@@ -5316,7 +5347,7 @@ L'activation de l'un désactivera l'autre."</string>
     <string name="vb_video_effects_spatial_summary_new">"Expérimentez une amélioration de la sensation d'espace et de la direction pour l'audio et lorsque vous utilisez les écouteurs"</string>
     <string name="vb_video_effects_srs_premium_sound">Son</string>
     <string name="vb_video_super_division">Amélioré</string>
-    <string name="vb_video_super_division_desc">"Améliorez automatiquement la résolution lorsqu'elle est ≤720p.
+    <string name="vb_video_super_division_desc">"Améliorez automatiquement la résolution lorsqu'elle est ≤720P.
 
 L'utilisation de cette fonctionnalité augmente la consommation d'énergie.
 
@@ -5324,6 +5355,7 @@ Cette fonctionnalité ne fonctionne pas avec le lissage de mouvement.
 L'activation de l'une des fonctionnalités désactive l'autre."</string>
     <string name="vb_video_super_division_tips">"Pas assez clair?
 Essayez d'améliorer la résolution!"</string>
+    <string name="vb_vison_dynamic_enhance_close_toast">Les animations améliorées sont déconnectées</string>
     <string name="vb_voice_adjust">Audio cinéma</string>
     <string name="video_repeat">Rejouer</string>
     <string name="videobox_hangup_tips_content">"Votre écran sera verrouillé, mais l'application fonctionnera toujours en arrière-plan lorsque cette fonctionnalité sera activée. Appuyez sur le bouton d'alimentation pour rallumer l'écran. Activer cette fonctionnalité maintenant?"</string>
@@ -5365,6 +5397,7 @@ Essayez d'améliorer la résolution!"</string>
     <string name="virus_update_tips_title">Attention</string>
     <string name="virus_wait_network_dialog_message">"Votre téléphone n'est pas connecté au Wi-Fi actuellement. Utiliser la connexion de données mobiles ?"</string>
     <string name="vtb_ai_subtitle">Sous-titres</string>
+    <string name="vtb_ai_subtitle_intl">Sous-titres IA</string>
     <string name="vtb_func_desc">À propos de cette fonctionnalité</string>
     <string name="vtb_func_display_style_desc0">"L'IA peut reconnaître les personnes, les animaux, les plantes, le ciel, les bâtiments et autres objets présentés dans les vidéos et les améliorer de manière dynamique."</string>
     <string name="vtb_func_display_style_desc1">Les effets sélectionnés ne seront pas appliqués aux vidéos HDR sur les appareils sélectionnés.</string>

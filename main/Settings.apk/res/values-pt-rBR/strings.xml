@@ -2002,21 +2002,10 @@ Se você instalar um certificado de CA, o proprietário dele poderá acessar seu
     <string name="camera_gesture_title">Girar duas vezes para abrir a câmera</string>
     <string name="camera_grip_firmware_need_update">Atualizar</string>
     <string name="camera_grip_firmware_new_version">Atualizado</string>
-    <string name="camera_grip_firmware_save_button_know">Entendido</string>
-    <string name="camera_grip_firmware_save_button_negaitive">Agora não</string>
-    <string name="camera_grip_firmware_save_button_positive">Atualizar</string>
-    <string name="camera_grip_firmware_save_channel">Notificações do punho da câmera</string>
-    <string name="camera_grip_firmware_save_networking_tips">Conecte-se ao Wi-Fi ou ative os dados móveis e tente atualizar o firmware novamente.</string>
-    <string name="camera_grip_firmware_save_networking_tips_china">Connect to WLAN or turn on mobile data, and try updating the firmware again.</string>
-    <string name="camera_grip_firmware_save_text">Atualize o firmware para continuar usando esse dispositivo.</string>
-    <string name="camera_grip_firmware_save_title">Punho de câmera profissional</string>
     <string name="camera_grip_firmware_title_text">Atualizar firmware</string>
     <string name="camera_grip_firmware_update_describe">Mantenha o punho conectado durante o processo de atualização</string>
     <string name="camera_grip_firmware_update_faild">Não foi possível atualizar</string>
-    <string name="camera_grip_firmware_update_handle_low_battery_notify">Remova o punho da câmera, carregue o dispositivo e tente atualizar o firmware novamente</string>
-    <string name="camera_grip_firmware_update_handle_phone_low_battery_notify">Carregue este dispositivo e o punho da câmera antes de atualizar o firmware</string>
     <string name="camera_grip_firmware_update_ongoing">Atualizando. Não desconecte o punho.</string>
-    <string name="camera_grip_firmware_update_phone_low_battery_notify">Conecte o carregador a esse dispositivo e tente atualizar o firmware novamente</string>
     <string name="camera_grip_firmware_update_successful">Atualizado com sucesso</string>
     <string name="camera_key_action_app_title">Abrir app</string>
     <string name="camera_key_action_category_title">Não é possível usar a Câmera</string>
@@ -3947,8 +3936,7 @@ Quando você ativa o backup automático, os dados do dispositivo e de apps são 
     <string name="gesture_title_recent_apps">Conferir os apps recentes</string>
     <string name="gesture_title_switch_apps">Mudar de app</string>
     <string name="gesture_to_split_screen">Gestos</string>
-    <string name="gesture_wakeup_summary">Você pode tocar duas vezes para desligar a tela somente quando estiver usando o tema \"Clássico\" ou \"Sem limites\"</string>
-    <string name="gesture_wakeup_summary_2">Você pode tocar duas vezes para desligar a tela somente quando estiver usando o tema \"Clássico\"</string>
+    <string name="gesture_wakeup_summary">Você pode tocar duas vezes para ligar ou desligar a tela apenas quando os temas pré-instalados estiverem aplicados</string>
     <string name="gesture_wakeup_title">Toque duas vezes para ligar ou desligar a tela com o dispositivo bloqueado</string>
     <string name="giga_hertz">GHz</string>
     <string name="gigabyteShort">GB</string>
@@ -4731,6 +4719,10 @@ Abra a Xiaomi Cloud e restaure os itens por lá."</string>
     <string name="load_esim_info">Obtendo informações do eSIM…</string>
     <string name="load_esim_info_error">Não foi possível carregar as informações do eSIM. Aguarde alguns minutos e tente novamente.</string>
     <string name="loading">Aguarde…</string>
+    <string name="loading_eid_error_message">Não foi possível obter as informações do EID. Aguarde alguns minutos e tente novamente.</string>
+    <string name="loading_eid_error_ok">Entendido</string>
+    <string name="loading_eid_error_title">Não foi possível carregar</string>
+    <string name="loading_eid_tip">Obtendo informações doEID…</string>
     <string name="loading_injected_setting_summary">Carregando…</string>
     <string name="local_auto_backup_off">Desativado</string>
     <string name="local_auto_backup_on">Ativado</string>
@@ -5130,8 +5122,6 @@ Se essa permissão for negada, o sistema vai limitar a duração das tarefas que
     <string name="long_background_tasks_title">Tarefas em segundo plano longas</string>
     <string name="long_press_back_key">Pressionar e segurar o botão Voltar</string>
     <string name="long_press_buttom_key">Pressionar e segurar o botão Início na Tela de bloqueio</string>
-    <string name="long_press_editor_style_summary">Pressione e segure a Tela de bloqueio para editar o relógio e plano de fundo</string>
-    <string name="long_press_editor_style_title">Pressione e segure para editar</string>
     <string name="long_press_home_key">Pressionar e segurar o botão Início</string>
     <string name="long_press_menu_key">Pressionar e segurar o botão Menu</string>
     <string name="long_press_menu_key_when_lock">Pressionar e segurar o botão Menu na Tela de bloqueio</string>
@@ -6630,10 +6620,8 @@ Leia e aceite a %s antes de utilizar este serviço."</string>
     <string name="phone_language_summary" />
     <string name="photo_data">Fotos e vídeos</string>
     <string name="photography_handle_button_function_settings">Configurar botão do punho</string>
-    <string name="photography_handle_charge_protected">Proteção de carregamento do punho</string>
-    <string name="photography_handle_charge_protected_summary">Quando o punho da câmera estivef conectado, o dispositivo interomperá o carregamento e manterá a bateria em %1$s</string>
-    <string name="photography_handle_charge_state">Carregar do punho da câmera</string>
-    <string name="photography_handle_charge_state_summary">Carregar este dispositivo pelo punho da câmera sempre que ele estiver conectado</string>
+    <string name="photography_handle_charge_protected">Desconexão automática do carregamento com punho</string>
+    <string name="photography_handle_charge_protected_summary">Quando o dispositivo reconhece que você está usando um punho de câmera, ele para de carregar e mantém a bateria em %1$s</string>
     <string name="photography_handle_launch_and_take_photo">Tirar foto</string>
     <string name="photography_handle_launch_camera">Abrir Câmera</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Pressione e segure o botão do disparador para executar uma ação</string>
@@ -6762,10 +6750,8 @@ Aperte os botões liga/desliga e de aumentar volume ao mesmo tempo"</string>
     <string name="pref_show_lunar_calendar_title">Mostrar calendário tradicional Chinês na Tela de bloqueio</string>
     <string name="pref_title_network_details">Detalhes da rede</string>
     <string name="pref_title_update_notification">Notificações de uso de dados</string>
-    <string name="pref_volume_launch_camera_and_photo_when_lock_screen_summary">Quando a tela estiver bloqueada, toque duas vezes em Volume - para abrir a Câmera e tirar uma foto</string>
     <string name="pref_volume_launch_camera_summary">Pressione Volume - 2 vezes para iniciar a Câmera</string>
     <string name="pref_volume_launch_camera_title">Iniciar a Câmera</string>
-    <string name="pref_volume_launch_camera_when_lock_screen_summary">Quando a tela estiver bloqueada, toque duas vezes em Volume - para abrir a Câmera</string>
     <string name="pref_volume_wake_summary">Pressionar os botões de volume liga a tela</string>
     <string name="pref_volume_wake_title">Ligar a tela com botões de volume</string>
     <string name="preference_change_password_title">Alterar senha</string>
@@ -7320,8 +7306,6 @@ Reinicie o dispositivo e tente de novo."</string>
     <string name="safety_center_summary">Segurança dos apps, bloqueio do dispositivo, permissões</string>
     <string name="safety_center_title">Segurança e privacidade</string>
     <string name="sar">Informação de Exposição de RF</string>
-    <string name="satellite_call_assistant">Configurações de chamada</string>
-    <string name="satellite_network_title">Recursos de chamada via satélite</string>
     <string name="saturday">Sábado</string>
     <string name="saturday_first_day_of_week">Sábado</string>
     <string name="saturday_short">Sáb</string>
@@ -8425,7 +8409,6 @@ Toque duas vezes para abrir os Recentes."</string>
     <string name="slight_pause">,</string>
     <string name="slot_number">" (Slot %1$d)"</string>
     <string name="slot_status_title">Informação do IMEI</string>
-    <string name="small_window_not_support_add_data_toast">Não é possível registrar dados em janelas flutuantes. Alterne para tela cheia e tente novamente.</string>
     <string name="smallwindow_smartcover_title">Capa flip com abertura frontal</string>
     <string name="smart_battery_footer">Quando o Gerenciador de bateria detectar que apps estão descarregando a bateria, você terá a opção de restringi-los. Apps com restrição podem não funcionar corretamente e é possível que as notificações atrasem.</string>
     <string name="smart_battery_manager_title">Gerenciador de bateria</string>
@@ -8475,11 +8458,6 @@ Toque duas vezes para abrir os Recentes."</string>
     <string name="sort_order_frequent_notification">Mais frequentes</string>
     <string name="sort_order_recent_notification">Mais recentes</string>
     <string name="sort_order_size">Ordenar por tamanho</string>
-    <string name="sos_add_area_code_switch_summary">Adicionar código de área automaticamente para um número de telefone ao fazer uma chamada de emergência com as Comunicações via Satélite Tiantong</string>
-    <string name="sos_add_area_code_switch_title">Adicionar código de área automaticamente</string>
-    <string name="sos_area_code_settings_hint">Inserir código de área</string>
-    <string name="sos_area_code_settings_summary">Definir manualmente o código de área para o número de telefone do seu contato de emergência</string>
-    <string name="sos_area_code_settings_title">Definir código de área</string>
     <string name="sos_phone_call_privacy_dialog_message">"Para ligar para seus contatos de emergência e reproduzir gravações de SOS, este app precisa das seguintes permissões:
 • Fazer chamadas
 Para fazer chamadas para seus contatos de emergência

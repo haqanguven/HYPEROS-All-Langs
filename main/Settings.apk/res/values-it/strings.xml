@@ -2002,21 +2002,10 @@ Se installi un certificato CA, il proprietario del certificato potrebbe accedere
     <string name="camera_gesture_title">Doppia rotazione per fotocamera</string>
     <string name="camera_grip_firmware_need_update">Aggiorna</string>
     <string name="camera_grip_firmware_new_version">Aggiornato</string>
-    <string name="camera_grip_firmware_save_button_know">Ho capito</string>
-    <string name="camera_grip_firmware_save_button_negaitive">Non ora</string>
-    <string name="camera_grip_firmware_save_button_positive">Aggiorna</string>
-    <string name="camera_grip_firmware_save_channel">"Notifiche dell'impugnatura della fotocamera"</string>
-    <string name="camera_grip_firmware_save_networking_tips">Connettiti alla rete Wi-Fi o attiva i dati mobili e riprova ad aggiornare il firmware.</string>
-    <string name="camera_grip_firmware_save_networking_tips_china">Connect to WLAN or turn on mobile data, and try updating the firmware again.</string>
-    <string name="camera_grip_firmware_save_text">Aggiorna il firmware per continuare a utilizzare questo dispositivo.</string>
-    <string name="camera_grip_firmware_save_title">Impugnatura professionale per fotocamera</string>
     <string name="camera_grip_firmware_title_text">Aggiorna il firmware</string>
     <string name="camera_grip_firmware_update_describe">"Mantieni l'impugnatura collegata durante la procedura di aggiornamento"</string>
     <string name="camera_grip_firmware_update_faild">Impossibile aggiornare</string>
-    <string name="camera_grip_firmware_update_handle_low_battery_notify">"Rimuovi l'impugnatura della fotocamera, carica il dispositivo e prova ad aggiornare nuovamente il firmware."</string>
-    <string name="camera_grip_firmware_update_handle_phone_low_battery_notify">"Carica il dispositivo e l'impugnatura della fotocamera prima di aggiornare il firmware."</string>
     <string name="camera_grip_firmware_update_ongoing">"Aggiornamento. Non scollegare l'impugnatura."</string>
-    <string name="camera_grip_firmware_update_phone_low_battery_notify">Collega il caricabatterie al dispositivo e prova ad aggiornare nuovamente il firmware.</string>
     <string name="camera_grip_firmware_update_successful">Aggiornamento completato</string>
     <string name="camera_key_action_app_title">"Apri l'app"</string>
     <string name="camera_key_action_category_title">Impossibile utilizzare la Fotocamera</string>
@@ -3957,8 +3946,7 @@ Quando attivi il backup automatico, i dati del dispositivo e delle app vengono s
     <string name="gesture_title_recent_apps">Visualizza app recenti</string>
     <string name="gesture_title_switch_apps">Cambia app</string>
     <string name="gesture_to_split_screen">Gesti</string>
-    <string name="gesture_wakeup_summary">Puoi toccare due volte per spegnere lo schermo soltanto quando usi il tema \"Classico\" o \"Senza limiti\".</string>
-    <string name="gesture_wakeup_summary_2">Puoi toccare due volte per spegnere lo schermo soltanto quando usi il tema \"Classico\"</string>
+    <string name="gesture_wakeup_summary">Puoi toccare due volte per spegnere lo schermo solo quando sono applicati temi preinstallati</string>
     <string name="gesture_wakeup_title">Tocca due volte per attivare o spegnere lo schermo quando il dispositivo è bloccato</string>
     <string name="giga_hertz">GHz</string>
     <string name="gigabyteShort">GB</string>
@@ -4741,6 +4729,10 @@ Apri Xiaomi Cloud e ripristina gli elementi da lì."</string>
     <string name="load_esim_info">Recupero informazioni dalla eSIM…</string>
     <string name="load_esim_info_error">Impossibile caricare le informazioni della eSIM. Aspetta un minuto o due e riprova.</string>
     <string name="loading">Solo un secondo…</string>
+    <string name="loading_eid_error_message">Non è stato possibile ottenere informazioni EID. Attendi un minuto o due e riprova.</string>
+    <string name="loading_eid_error_ok">Ho capito</string>
+    <string name="loading_eid_error_title">Impossibile caricare</string>
+    <string name="loading_eid_tip">Recupero informazioni EID…</string>
     <string name="loading_injected_setting_summary">Caricamento…</string>
     <string name="local_auto_backup_off">Disattivato</string>
     <string name="local_auto_backup_on">Attivo</string>
@@ -5140,8 +5132,6 @@ Se questa autorizzazione viene negata, il sistema limiterà il tempo di esecuzio
     <string name="long_background_tasks_title">Attività in background lunghe</string>
     <string name="long_press_back_key">Tieni premuto il tasto Indietro</string>
     <string name="long_press_buttom_key">Tieni premuto il tasto Home nella schermata di blocco</string>
-    <string name="long_press_editor_style_summary">"Tieni premuto la schermata di blocco per modificare l'orologio e lo sfondo"</string>
-    <string name="long_press_editor_style_title">Tieni premuto per modificare</string>
     <string name="long_press_home_key">Tieni premuto il tasto Home</string>
     <string name="long_press_menu_key">Tieni premuto il tasto Menu</string>
     <string name="long_press_menu_key_when_lock">Tieni premuto il tasto Menu nella schermata di blocco</string>
@@ -6640,10 +6630,8 @@ Leggi e accetta l'%s prima di utilizzare questo servizio."</string>
     <string name="phone_language_summary" />
     <string name="photo_data">Foto e video</string>
     <string name="photography_handle_button_function_settings">"Imposta il pulsante dell'impugnatura"</string>
-    <string name="photography_handle_charge_protected">"Protezione della carica per l'impugnatura"</string>
-    <string name="photography_handle_charge_protected_summary">"Quando l'impugnatura della fotocamera è collegata, il dispositivo smetterà di caricarsi e manterrà la batteria a %1$s"</string>
-    <string name="photography_handle_charge_state">Carica dalle impugnature della fotocamera</string>
-    <string name="photography_handle_charge_state_summary">Carica questo dispositivo dalle impugnature della fotocamera ogni volta che sono collegate</string>
+    <string name="photography_handle_charge_protected">"Disconnessione automatica della ricarica dell'impugnatura"</string>
+    <string name="photography_handle_charge_protected_summary">"Quando il dispositivo riconosce che stai utilizzando un'impugnatura per fotocamera, interromperà la ricarica e manterrà la batteria a %1$s"</string>
     <string name="photography_handle_launch_and_take_photo">Scatta una foto</string>
     <string name="photography_handle_launch_camera">Apri la fotocamera</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">"Tieni premuto il pulsante di scatto per eseguire un'azione"</string>
@@ -6772,10 +6760,8 @@ Premi contemporaneamente il tasto di accensione e il tasto Alza il volume"</stri
     <string name="pref_show_lunar_calendar_title">Mostra il calendario cinese tradizionale sulla schermata di blocco</string>
     <string name="pref_title_network_details">Dettagli rete</string>
     <string name="pref_title_update_notification">"Notifiche sull'utilizzo dei dati"</string>
-    <string name="pref_volume_launch_camera_and_photo_when_lock_screen_summary">Quando lo schermo è bloccato, tocca due volte il tasto Volume giù per aprire la Fotocamera e scattare una foto.</string>
     <string name="pref_volume_launch_camera_summary">Premi Volume giù due volte per avviare la Fotocamera</string>
     <string name="pref_volume_launch_camera_title">Avvia Fotocamera</string>
-    <string name="pref_volume_launch_camera_when_lock_screen_summary">Quando lo schermo è bloccato, tocca due volte il tasto Volume giù per aprire la Fotocamera</string>
     <string name="pref_volume_wake_summary">La pressione dei tasti del volume riattiva il dispositivo</string>
     <string name="pref_volume_wake_title">Attiva con i tasti del volume</string>
     <string name="preference_change_password_title">Cambia password</string>
@@ -7330,8 +7316,6 @@ Riavvia il dispositivo e riprova."</string>
     <string name="safety_center_summary">Sicurezza delle app, blocco dispositivo, autorizzazioni</string>
     <string name="safety_center_title">Sicurezza e privacy</string>
     <string name="sar">"Informazioni sull'esposizione alla radiofrequenza"</string>
-    <string name="satellite_call_assistant">Impostazioni di chiamata</string>
-    <string name="satellite_network_title">Funzioni di chiamata satellitare</string>
     <string name="saturday">Sabato</string>
     <string name="saturday_first_day_of_week">Sabato</string>
     <string name="saturday_short">Sab</string>
@@ -8435,7 +8419,6 @@ Tocca due volte per aprire i Recenti."</string>
     <string name="slight_pause">,</string>
     <string name="slot_number">" (Slot %1$d)"</string>
     <string name="slot_status_title">Informazione IMEI</string>
-    <string name="small_window_not_support_add_data_toast">Non è possibile registrare i dati nelle finestre in primo piano. Passa a schermo intero e riprova.</string>
     <string name="smallwindow_smartcover_title">Cover con piccola finestra frontale</string>
     <string name="smart_battery_footer">Quando Battery Manager rileva che le app stanno scaricando la batteria, puoi applicare limitazioni a queste app. Le app con limitazioni potrebbero non funzionare correttamente e potresti ricevere le notifiche in ritardo.</string>
     <string name="smart_battery_manager_title">Gestione batteria</string>
@@ -8485,11 +8468,6 @@ Tocca due volte per aprire i Recenti."</string>
     <string name="sort_order_frequent_notification">Più frequenti</string>
     <string name="sort_order_recent_notification">Più recenti</string>
     <string name="sort_order_size">Ordina per dimensioni</string>
-    <string name="sos_add_area_code_switch_summary">Aggiungi automaticamente il prefisso al numero di telefono quando effettui una chiamata di emergenza con le comunicazioni satellitari Tiantong.</string>
-    <string name="sos_add_area_code_switch_title">Aggiungi il prefisso automaticamente</string>
-    <string name="sos_area_code_settings_hint">Inserisci il prefisso</string>
-    <string name="sos_area_code_settings_summary">Imposta manualmente il prefisso del numero di telefono del tuo contatto di emergenza.</string>
-    <string name="sos_area_code_settings_title">Imposta il prefisso</string>
     <string name="sos_phone_call_privacy_dialog_message">"Per chiamare i tuoi contatti di emergenza e riprodurre la registrazione SOS, questa app richiede i seguenti permessi:
 • Effettuare chiamate
 Per effettuare chiamate ai tuoi contatti di emergenza
