@@ -63,7 +63,7 @@
     <string name="allow_network_hint">Включите \"Обновить информацию автоматически\" или проверьте подключение к сети</string>
     <string name="already_updated">Актуально</string>
     <string name="app_label">Сообщения</string>
-    <string name="app_name">Устройства</string>
+    <string name="app_name">Сообщения</string>
     <string name="application_list_title">Мини-приложения</string>
     <string name="attach_group_chat">Групповой чат</string>
     <string name="attach_image">Изображение</string>
@@ -75,9 +75,8 @@
     <string name="attach_sound">Аудио</string>
     <string name="attach_subject">Тема</string>
     <string name="attach_take_photo">Снять фото</string>
-    <string name="attach_transaction">Перевод денег</string>
     <string name="attach_video">Видео</string>
-    <string name="attach_video_call">Видеозвонок</string>
+    <string name="attach_video_call">Видеовызов</string>
     <string name="attachment_panel_show_part">Страница %1$d</string>
     <string name="audio_download_failed">Не удалось загрузить запись</string>
     <string name="audio_message_expired">Это голосовое сообщение уже недоступно.</string>
@@ -118,8 +117,12 @@
     <string name="cannot_add_slide_anymore">Добавлено максимальное число слайдов</string>
     <string name="cannot_get_details">Не удалось загрузить данные</string>
     <string name="cannot_resend_audio">Не удалось отправить запись</string>
+    <string name="cannot_send_location">Сначала разрешите использование геолокации</string>
     <string name="cannot_send_message">Не удалось отправить сообщение</string>
     <string name="cannot_send_message_reason">Не указано ни одного получателя.</string>
+    <string name="cannot_send_mms">Спутниковая связь не поддерживает MMS</string>
+    <string name="carry_current_location">Укажите текущую геопозицию</string>
+    <string name="carry_vital_signs">Добавьте данные о состоянии организма</string>
     <string name="change_duration_activity">Изменить длительность</string>
     <string name="chatbot_list_title">5G Сообщения</string>
     <string name="chatbot_main_title">Мини-приложения</string>
@@ -133,7 +136,7 @@
     <string name="cm_privacy_dialog_allow">Принимаю</string>
     <string name="cm_privacy_dialog_cancel">Отмена</string>
     <string name="cm_privacy_dialog_spannable_tips">Политика конфиденциальности</string>
-    <string name="cm_privacy_dialog_tips">Сервис Умные сообщения предоставляется вашим оператором. Для предоставления сервиса приложению требуются подключение к интернету и разрешение использовать геолокацию. Перед использованием сервиса примите %1s вашего оператора связи.</string>
+    <string name="cm_privacy_dialog_tips">Сервис Умные сообщения предоставляется вашим оператором. Для предоставления сервиса приложению требуются доступ к интернету и разрешение использовать геолокацию. Перед использованием сервиса примите %1s вашего оператора связи.</string>
     <string name="cm_privacy_dialog_title">Внимание</string>
     <string name="cmcc_privacy">Соглашение о конфиденциальности China Mobile</string>
     <string name="cn_privacy_dialog_title">Внимание</string>
@@ -218,8 +221,8 @@
     <string name="dialog_choice_all_correct_as_normal">Все сообщения от %s</string>
     <string name="dialog_complain_tips">Разрешить Сообщениям подключение к сети, для возможности отчётов.</string>
     <string name="dialog_message_correct_as_ad">Все сообщения от %s (кроме проверочных кодов) будут перемещены в рекламные сообщения.</string>
-    <string name="dialog_message_fake_cell_detect_error">Скорректировать информацию об этом сообщении? Для этого MIUI необходимо загрузить номер телефона (%1$s), содержимое сообщения и информацию о ближайшем местоположении на свои серверы.</string>
-    <string name="dialog_message_mx">Mi Сообщения позволяют бесплатно отправлять сообщения другим пользователям MIUI. Для активации сервиса требуется отправка SMS. Оплата взимается согласно тарифу вашего оператора. Нажав \"Принимаю\", вы принимаете \"%1$s\" и \"%2$s\".</string>
+    <string name="dialog_message_fake_cell_detect_error">Скорректировать информацию об этом сообщении? Для этого нам нужно загрузить номер телефона (%1$s), содержимое сообщения и информацию о ближайшем местоположении на наши серверы.</string>
+    <string name="dialog_message_mx">\"Mi Сообщения\" позволяют бесплатно отправлять сообщения другим пользователям Xiaomi. Для активации сервиса требуется отправка SMS. Оплата взимается согласно тарифу вашего оператора. Перед использованием приложения необходимо принять \"%1$s\" и \"%2$s\".</string>
     <string name="dialog_quit">Выход</string>
     <string name="dialog_revoke">Отозвать</string>
     <string name="dialog_sim_locked_confirm">ОК</string>
@@ -250,7 +253,9 @@
     <string name="edit_phrase">Изменить быстрые ответы</string>
     <string name="edit_slide_activity">Изменить слайд</string>
     <string name="edit_slideshow_activity">Редактор слайд-шоу</string>
+    <string name="emergency_label">Экстренный контакт</string>
     <string name="enable_classify_tip_dialog_content">Это перезапустит приложение Сообщения. Продолжить?</string>
+    <string name="enable_location_service">Предоставьте разрешение</string>
     <string name="enabled">Вкл</string>
     <string name="english_subject_limit">40 символов</string>
     <string name="eras_ad">н. э.</string>
@@ -287,7 +292,11 @@
     <string name="fmt_date_short_month_day">d MMM</string>
     <string name="fmt_date_short_year_month_day">d MMM yyyy</string>
     <string name="fmt_time_12hour">"h 'Ч'"</string>
+    <string name="fmt_time_12hour_pm">h a</string>
     <string name="fmt_time_24hour">"HH 'Ч'"</string>
+    <string name="fmt_time_24hour_minute">H:mm</string>
+    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
+    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
     <string name="fmt_time_millis">"S'мс'"</string>
     <string name="fmt_time_minute">"m'мин'"</string>
     <string name="fmt_time_minute_second">"m'мин' s'с'"</string>
@@ -299,7 +308,7 @@
     <string name="forward_prefix">"FW: "</string>
     <string name="found_old_messages">Загрузить сообщения из %1$s в %2$s?</string>
     <string name="found_old_messages_title">Загрузить сообщения с других SIM карт?</string>
-    <string name="found_wild_messages_guide_cloud_desc">Для синхронизации сообщений с Xiaomi Cloud войдите в свой Xiaomi аккаунт и включите синхронизацию.</string>
+    <string name="found_wild_messages_guide_cloud_desc">Для синхронизации сообщений с Xiaomi Cloud войдите в свой аккаунт Xiaomi и включите синхронизацию.</string>
     <string name="found_wild_messages_guide_settings_desc">Синхронизируйте сообщения с Xiaomi Cloud в настройках.</string>
     <string name="found_wild_messages_guide_sync_not_started">Синхронизация ещё не началась</string>
     <string name="found_wild_messages_title">Синхронизация с Xiaomi Cloud</string>
@@ -325,6 +334,7 @@
     <string name="groupchat_list_title">Групповые чаты</string>
     <string name="has_invalid_recipient">Недопустимые получатели: &lt;%1$s></string>
     <string name="hidden_sender_address">Скрытый адрес отправителя</string>
+    <string name="hold_hand_with_sending">Отправка SMS. Не двигайтесь.</string>
     <string name="hold_to_talk">Продолжайте разговор</string>
     <string name="home_tab_ad">Рекламные</string>
     <string name="home_tab_common">Обычные</string>
@@ -345,6 +355,8 @@
     <string name="invalid_recipient_message">Убедитесь, что все получатели указаны верно.</string>
     <string name="invisible_mode_on">Режим инкогнито</string>
     <string name="is_composing">Печатает…</string>
+    <string name="item_over_quantity">Выберите до %d сообщений с геопозицией</string>
+    <string name="item_shortage">Выберите не менее %d сообщений с геопозицией</string>
     <string name="kilobyte">" КБ"</string>
     <string name="layout_selector_title">"Макет слайд-шоу "</string>
     <string name="leave_mms_tips_context_app">Выйти из \"Сообщения\" и открыть приложение?</string>
@@ -360,6 +372,7 @@
     <string name="menu_edit">Изменить</string>
     <string name="menu_forward">Переслать</string>
     <string name="menu_lock">Добавить в избранные</string>
+    <string name="menu_locus_map">Карта маршрута</string>
     <string name="menu_make_call">Вызов</string>
     <string name="menu_multi_select">Выбрать</string>
     <string name="menu_new_manual">Ввести номер телефона</string>
@@ -447,9 +460,9 @@
     <string name="mms_block_hint">"Этот отправитель отсутствует в ваших контактах.
 Это сообщение может быть нежелательным."</string>
     <string name="mms_block_hint_highlight">Блокировка MMS</string>
-    <string name="mms_main_purpose_new">Для обеспечения основных сервисов, разрешите приложению подключение к интернету, а также включите Mi Сообщения и Умные сообщения.</string>
+    <string name="mms_main_purpose_new">Для работы основных сервисов, разрешите приложению доступ к интернету. Дополнительно рекомендуем включить службы Mi Сообщения и Умные сообщения.</string>
     <string name="mms_mi_message_main_purpose">Добро пожаловать в Mi Сообщения! Для активации этого сервиса необходима отправка SMS. Ваш оператор связи может взимать плату за это сообщение.</string>
-    <string name="mms_mi_message_request_notice">Используйте Mi Сообщения с максимальной отдачей</string>
+    <string name="mms_mi_message_request_notice">Используйте \"Mi Сообщения\" с максимальной отдачей</string>
     <string name="mms_mx_privacy_policy">Политика конфиденциальности Mi Сообщений</string>
     <string name="mms_smart_msg_main_purpose">Умные сообщения обеспечивают распознавание ID отправителей и услуги интеллектуального меню, выявляют подозрительные сообщения.</string>
     <string name="mms_smart_msg_privacy_policy">Политика конфиденциальности Умных сообщений</string>
@@ -519,17 +532,17 @@
     <string name="mx_btn_enable_now">Активировать</string>
     <string name="mx_count_dspt">Вы бесплатно отправили %1$d SMS и %2$d MMS</string>
     <string name="mx_current_status">Настройки</string>
-    <string name="mx_dspt">Бесплатно отправляйте SMS и MMS другим пользователям MIUI при подключении к Wi-Fi</string>
-    <string name="mx_dspt_listview">Бесплатно отправляйте сообщения другим пользователям MIUI</string>
+    <string name="mx_dspt">Бесплатно отправляйте SMS и MMS другим пользователям Xiaomi при подключении к Wi-Fi</string>
+    <string name="mx_dspt_listview">Бесплатно отправляйте сообщения другим пользователям Xiaomi</string>
     <string name="mx_dspt_provision_ex2">Политика конфиденциальности</string>
     <string name="mx_enable">Mi Сообщения</string>
     <string name="mx_filter_message_from_stranger">Блокировать Mi сообщения с неизвестных номеров</string>
     <string name="mx_filter_message_from_stranger_dialog_desc">Вы по-прежнему сможете получать SMS с неизвестных номеров. Включить или отключить эту функцию можно в разделе Сообщения > Настройки.</string>
     <string name="mx_filter_message_from_stranger_dialog_title">Блокировать Mi сообщения с неизвестных номеров</string>
     <string name="mx_filter_message_from_stranger_summary">Разрешить Mi сообщения только от контактов</string>
-    <string name="mx_main_purpose">"Mi Сообщения позволяют бесплатно отправлять сообщения другим пользователям MIUI через интернет.
+    <string name="mx_main_purpose">"Mi Сообщения позволяют бесплатно отправлять сообщения другим пользователям Xiaomi через интернет.
 Для активации этого сервиса необходима отправка SMS. Ваш оператор связи может взимать плату за это сообщение."</string>
-    <string name="mx_main_purpose_short">Приложение позволяет пользователям MIUI бесплатно отправлять и получать SMS и MMS сообщения.</string>
+    <string name="mx_main_purpose_short">\"Mi Сообщения\" позволяют пользователям Xiaomi бесплатно отправлять и получать SMS и MMS сообщения</string>
     <string name="mx_message">Mi Сообщения</string>
     <string name="mx_msg">Mi Сообщения</string>
     <string name="mx_offline">Не в сети</string>
@@ -539,6 +552,7 @@
     <string name="mx_privacy_policy">Политика конфиденциальности Mi Сообщений</string>
     <string name="mx_privacy_policy_revoke">Отозвать согласие с Политикой конфиденциальности Mi Сообщений</string>
     <string name="mx_stranger_recommend_msg">Нажмите для блокировки Mi сообщений с неизвестных номеров</string>
+    <string name="my_location">Моя геопозиция:</string>
     <string name="need_download">Синхронизация…</string>
     <string name="net_sms_subscribed">Успешная подписка</string>
     <string name="net_sms_unsubscribe">Подписка отменена</string>
@@ -561,6 +575,7 @@
     <string name="noon">Полдень</string>
     <string name="nosend_message">Не отправлять</string>
     <string name="not_prepare_for_send">Нет сообщения для отправки</string>
+    <string name="not_send_location">Не сейчас</string>
     <string name="not_set">Не задано</string>
     <string name="not_support_audio_forward">Не удалось переслать голосовые сообщения</string>
     <string name="not_support_file">Отправка файлов этого типа не поддерживается</string>
@@ -585,10 +600,12 @@
     <string name="number_recognition_partner">Сервисы распознавания номеров</string>
     <string name="open_audio_record_panel">Открыть панель для записи аудио</string>
     <string name="open_edit_sms_panel">Открыть панель для редактирования SMS</string>
+    <string name="open_now">Настройки</string>
     <string name="open_url_with_web">Открыть URL в браузере?</string>
     <string name="over_max_mms_size">Размер MMS слишком велик.</string>
     <string name="overwrite_edited_content">Перезаписать содержимое?</string>
     <string name="packages_select_sim_cards_title">Выберите SIM карту</string>
+    <string name="perm_purpose_mms_account">Доступ к информации об аккаунте</string>
     <string name="perm_purpose_mms_storage">Для сохранения вложений MMS</string>
     <string name="perm_purpose_rcs_account">Для отображения руководства для начинающих для новых пользователей</string>
     <string name="perm_purpose_rcs_storage">Для сохранения изображений, видео, файлов и других вложений RCS</string>
@@ -640,6 +657,8 @@
     <string name="pref_summary_enable_ad_notification">Группировать рекламные сообщения в шторке уведомлений</string>
     <string name="pref_summary_enable_classify">Перенести рекламные и финансовые сообщения в отдельную папку</string>
     <string name="pref_summary_notification_body_enabled">Показывать сообщения на экране блокировки и в шторке уведомлений</string>
+    <string name="pref_summary_off_system_mms_priority">Использовать сторонние приложения для отправки и получения MMS</string>
+    <string name="pref_summary_on_system_mms_priority">Использовать приложение для отправки и получения MMS</string>
     <string name="pref_summary_privacy_authority">Используйте переключатель для предоставления или отмены разрешения</string>
     <string name="pref_summary_send_delivery_reports">Отправлять отчёт о доставке при получении MMS</string>
     <string name="pref_summary_switch_aim_card">Отображение сообщений, содержащих видео, изображения и сложное форматирование в виде карточек</string>
@@ -656,7 +675,7 @@
     <string name="pref_title_enable_classify">Автогруппировка сообщений</string>
     <string name="pref_title_fwd_sender_info">Данные отправителя</string>
     <string name="pref_title_manage_sim_messages">Сообщения на SIM карте</string>
-    <string name="pref_title_miui_card">Отправлять как визитку MIUI</string>
+    <string name="pref_title_miui_card">Отправлять как визитку</string>
     <string name="pref_title_mms_auto_retrieval">Автозагрузка MMS</string>
     <string name="pref_title_mms_delete">Максимальное количество MMS</string>
     <string name="pref_title_mms_read_reports">Отчёт о прочтении MMS</string>
@@ -688,6 +707,7 @@
     <string name="pref_title_sms_validity_period">Срок действия SMS</string>
     <string name="pref_title_storage_status">Информация о хранении сообщения</string>
     <string name="pref_title_switch_aim_card">Преобразование сообщений в карточки</string>
+    <string name="pref_title_system_mms_priority">Приложение по умолчанию</string>
     <string name="pref_title_vcard">Отправлять как vCard</string>
     <string name="pref_title_voice_report">Читать сообщения вслух</string>
     <string name="preference_copied">Текст \"%1$s\" скопирован в буфер обмена</string>
@@ -703,14 +723,14 @@
     <string name="privacy_dialog_tips_revoke" formatted="false">Если Вы продолжите, согласие с Политикой конфиденциальности %s будет отозвано. Уже собранная и сохранённая личная информация будет удалена в течение определённого срока в соответствии с действующими законами и правилами, если не требуется иное. Поскольку %s предоставляет свои услуги на основе сбора некоторой личной информации, отзыв согласия будет считаться отказом использовать услуги %s. Отозвать согласие?</string>
     <string name="privacy_dialog_tips_update" formatted="false">"%s Обновленная Политика конфиденциальности:
 %s
-Прочтите и примите обновленную Политики конфиденциальности, прежде чем продолжить."</string>
+Прочтите и примите обновлённую Политики конфиденциальности, прежде чем продолжить."</string>
     <string name="privacy_dialog_title_update">Обновленная Политика конфиденциальности</string>
-    <string name="privacy_password_message1">Пароль конфиденциальности защищает приватные сообщения, фото, заметки и папки</string>
-    <string name="privacy_password_message2">Для защиты приватных сообщений, фото, заметок и папок используйте пароль конфиденциальности</string>
-    <string name="privacy_password_message3">Пароль приватных сообщений будет заменён на пароль конфиденциальности, который защищает приватные сообщения, фото, заметки и папки</string>
+    <string name="privacy_password_message1">Пароль защиты приватности используется для доступа к приватным сообщениям, фото, заметкам и папкам</string>
+    <string name="privacy_password_message2">Используйте пароль защиты приватности для доступа к приватным сообщениям, фото, заметкам и папкам</string>
+    <string name="privacy_password_message3">Пароль приватных сообщений будет заменён на пароль защиты приватности, который также используется для доступа к приватным фото, заметкам и папкам</string>
     <string name="privacy_password_set_password">Задать</string>
     <string name="privacy_password_title1">Задайте пароль</string>
-    <string name="privacy_password_title2">Пароль конфиденциальности</string>
+    <string name="privacy_password_title2">Пароль защиты приватности</string>
     <string name="privacy_password_title3">Обновите ваш пароль</string>
     <string name="privacy_password_title4">Пароль обновлён</string>
     <string name="privacy_policy">Политика конфиденциальности</string>
@@ -722,11 +742,11 @@
     <string name="privacy_revoke_nonetwork_ok">Понятно</string>
     <string name="privacy_revoke_nonetwork_title">Сеть недоступна</string>
     <string name="privacy_state_revoked_cancel">Отмена</string>
-    <string name="privacy_state_revoked_content">Выключая переключатель, вы отзываете свое согласие с Политикой конфиденциальности приложения Сообщения. Сбор вашей личной информации будет прекращён. Собранная и сохранённая личная информация будет удалена в течение определённого периода, как того требует действующее законодательство. Для предоставления сервисов Mi Сообщения и Умные сообщения, приложению Сообщения требуется сбор некоторой личной информации. Отзыв согласия будет рассматриваться как отказ от использования сервисов.</string>
+    <string name="privacy_state_revoked_content">Выключая переключатель, вы отзываете своё согласие с Политикой конфиденциальности приложения Сообщения. Сбор вашей личной информации будет прекращён. Собранная и сохранённая личная информация будет удалена в течение определённого периода, как того требует действующее законодательство. Для предоставления сервисов \"Mi Сообщения\" и \"Умные сообщения\", приложению требуется сбор некоторой личной информации. Отзыв согласия будет рассматриваться как отказ от использования сервисов.</string>
     <string name="privacy_state_revoked_dialog_title">Отзыв согласия</string>
     <string name="privacy_state_revoked_revoked">Отозвать</string>
     <string name="privacy_state_revoked_switch">Отзыв согласия</string>
-    <string name="privacy_state_revoked_synopsis">Выключая переключатель, вы отзываете свое согласие с Политикой конфиденциальности приложения Сообщения.</string>
+    <string name="privacy_state_revoked_synopsis">Выключая переключатель, вы отзываете своё согласие с Политикой конфиденциальности приложения Сообщения.</string>
     <string name="private_entry_available">Отпустите, чтобы открыть приватные сообщения</string>
     <string name="private_message">Приватные сообщения</string>
     <string name="private_new_notification">Уведомлять о сообщениях</string>
@@ -747,7 +767,7 @@
     <string name="rcs_chat_bot_subject">Владелец: %1$s</string>
     <string name="rcs_chatbot_a2p_message">Получено A2P сообщение. Нажмите для просмотра.</string>
     <string name="rcs_chatbot_audio_message">Получено аудио сообщение. Нажмите для просмотра.</string>
-    <string name="rcs_chatbot_blocked_tip">Мини-приложение заблокировано. Не удается открыть диалог.</string>
+    <string name="rcs_chatbot_blocked_tip">Мини-приложение заблокировано. Не удаётся открыть диалог.</string>
     <string name="rcs_chatbot_card_message">Получена карточка. Нажмите для просмотра.</string>
     <string name="rcs_chatbot_file_message">Получен файл. Нажмите для просмотра.</string>
     <string name="rcs_chatbot_geo_message">Получено сообщение с геопозицией. Нажмите для просмотра.</string>
@@ -799,7 +819,6 @@
     <string name="rcs_chatdetail_more_href">Вебсайт</string>
     <string name="rcs_chatdetail_more_id">ID владельца</string>
     <string name="rcs_chatdetail_more_number">Номер телефона (сообщения)</string>
-    <string name="rcs_chatdetail_more_provider">Провайдер</string>
     <string name="rcs_chatdetail_more_tcpage">Условия и положения</string>
     <string name="rcs_chatdetail_more_type">Категория</string>
     <string name="rcs_chatdetail_name_unknow">Неизвестный поставщик</string>
@@ -811,8 +830,8 @@
     <string name="rcs_chatlist_scan_error">Не удалось прочитать QR-код</string>
     <string name="rcs_conversation_rcs_tip">Мини-приложение: %s</string>
     <string name="rcs_create_new_group">Создать групповой чат</string>
-    <string name="rcs_dspt">Отправляйте и получайте сообщения через Wi-Fi или сеть China Mobile</string>
-    <string name="rcs_dspt_unavailable">Услуга недоступна. SIM-карта China Mobile не установлена по умолчанию для мобильного интернета.</string>
+    <string name="rcs_dspt">Отправка и получение сообщений через Wi-Fi или сеть China Mobile</string>
+    <string name="rcs_dspt_unavailable">Функция недоступна. SIM-карта China Mobile не установлена по умолчанию для мобильного интернета.</string>
     <string name="rcs_file_link_as_sms">Посетите %s для просмотра отправленного вам RCS-файла.</string>
     <string name="rcs_file_not_exist_preview">Файл не существует</string>
     <string name="rcs_forward_faild">Ошибка пересылки</string>
@@ -824,7 +843,7 @@
     <string name="rcs_list_bottom_search">Поиск…</string>
     <string name="rcs_locaiton_failed">Не удалось получить геопозицию</string>
     <string name="rcs_locaiton_hint_text">Получение геопозиции…</string>
-    <string name="rcs_main_purpose">Эта функция позволяет отправлять и получать RCS сообщения. Сервис предоставляется China Mobile.</string>
+    <string name="rcs_main_purpose">Эта функция позволяет отправлять и получать RCS-сообщения. Сервис обмена сообщениями RCS предоставляется компанией China Mobile.</string>
     <string name="rcs_message">5G Сообщения</string>
     <string name="rcs_message_disable">Нельзя просмотреть это сообщение во втором пространстве</string>
     <string name="rcs_message_title">5G Сообщения</string>
@@ -859,7 +878,7 @@
     <string name="rcs_summary_auto_resend_sms">Отправлять текстовые 5G сообщения в виде SMS через мобильную сеть, когда нет подключения Wi-Fi. Оплата взимается согласно тарифу вашего оператора.</string>
     <string name="rcs_summary_silence_message">Уведомления о сообщениях при запущенном клиенте будут поступать без звука</string>
     <string name="rcs_unable_send_file">Не удалось отправить файл</string>
-    <string name="rcs_unavailable">5G Сообщения недоступны. SIM-карта China Mobile не установлена по умолчанию для мобильного интернета.</string>
+    <string name="rcs_unavailable">Использование 5G Сообщений недоступно. SIM-карта China Mobile не установлена по умолчанию для мобильного интернета.</string>
     <string name="rcs_up_not_online">5G Сообщения недоступны. Проверьте настройки сети и повторите попытку.</string>
     <string name="rcs_wait_for_retry_text">Ожидание…</string>
     <string name="received_label">"Получено: "</string>
@@ -868,8 +887,8 @@
     <string name="recipients_contain_sub_sim_number">Похоже, что среди получателей есть дополнительный номер SIM-карты. Отправьте это сообщение, используя дополнительную SIM-карту.</string>
     <string name="recipients_over_size">Слишком много получателей.</string>
     <string name="recommend_bar_cancel">Отмена</string>
-    <string name="recommend_bar_message_mx">\"Mi Сообщения\" позволяют бесплатно отправлять сообщения другим пользователям MIUI.</string>
-    <string name="recommend_bar_message_mx_rcs">\"Mi Сообщения\" позволяют бесплатно отправлять сообщения другим пользователям MIUI и абонентам China Mobile в материковом Китае.</string>
+    <string name="recommend_bar_message_mx">\"Mi Сообщения\" позволяют бесплатно отправлять сообщения другим пользователям Xiaomi</string>
+    <string name="recommend_bar_message_mx_rcs">\"Mi Сообщения\" позволяют бесплатно отправлять сообщения другим пользователям Xiaomi и абонентам China Mobile материкового Китая.</string>
     <string name="recommend_bar_message_rcs">Сообщения China Mobile позволяют бесплатно отправлять сообщения другим абонентам China Mobile в материковом Китае.</string>
     <string name="recommend_bar_message_smart_message">Копируйте одноразовые пароли, отслеживайте посылки, используйте интеллектуальные меню и т.д.</string>
     <string name="recommend_bar_ok">Включить</string>
@@ -918,16 +937,19 @@
     <string name="rms_vcard_body">[Контакт]</string>
     <string name="rms_video_body">[Видео]</string>
     <string name="rms_video_cannt_send_original">Не удалось отправить оригинальное видео. Файл слишком большой.</string>
-    <string name="rms_view_emoticon_title">Просмотр эмодзи</string>
     <string name="rms_view_file_cant_resize">Не удалось сжать файл</string>
     <string name="rms_view_file_notsupport">Не удалось отправить файл как изображение или видео</string>
     <string name="rms_view_file_size_notsupport">Не удалось отправить файл. Файл слишком большой.</string>
     <string name="rms_view_file_too_large">Файл слишком большой. Будет отправлена сжатая версия.</string>
     <string name="rms_view_image_notsupport">Не удалось отправить файл как изображение</string>
-    <string name="rms_view_image_title">Просмотр изображения</string>
     <string name="rms_view_vedio_notsupport">Не удалось отправить файл как видео</string>
     <string name="rsc_chatbot_back">Назад</string>
     <string name="rsc_chatbot_detail">Информация о поставщике</string>
+    <string name="satellite_location_failed">Не удалось отправить геопозицию. SMS отправлено без геопозиции.</string>
+    <string name="satellite_location_privacy"><Data>Tiantong Satellite необходимо разрешение использовать геолокацию, чтобы отправлять SMS. Перед использованием прочтите и примите нашу &lt;font color=\"%1$s\">&lt;a href=\"%2$s\">Политику конфиденциальности&lt;/a>&lt;/font>.</Data></string>
+    <string name="satellite_location_privacy_title">Использование геолокации</string>
+    <string name="satellite_message_notification_contact_end">(Передача через спутник)</string>
+    <string name="satellite_sms_notification">Это сообщение передано службой Tiantong Satellite. Отправителю возможно нужна ваша помощь.</string>
     <string name="saturday">Суббота</string>
     <string name="saturday_short">Сб</string>
     <string name="saturday_shortest">Сб</string>
@@ -975,6 +997,7 @@
     <string name="send_rms_editor_hints">5G сообщение</string>
     <string name="send_rms_editor_hints_omit">Mi сообщение</string>
     <string name="send_sms">Отправить сообщение</string>
+    <string name="send_sms_with_location">Разрешите этому приложению использовать геолокацию, чтобы отправлять сообщения с вашей геопозицией. Разрешение можно предоставить в Настройках.</string>
     <string name="send_to">Кому:</string>
     <string name="sent_label">"Отправлено: "</string>
     <string name="service_message_not_found">Сообщение просрочено или недоступно</string>
@@ -1003,10 +1026,12 @@
     <string name="slideshow_activity">Слайд-шоу</string>
     <string name="small_window_log_text">Камера не может работать в многооконном режиме</string>
     <string name="smart_message_title">Умные сообщения</string>
-    <string name="smart_messages_network_allow_message">Приложению \"Mi Сообщения\" необходимо подключение к интернету для нормальной работы его служб. Разрешить сейчас?</string>
-    <string name="smart_messages_network_allow_title">Требуется подключение к интернету</string>
+    <string name="smart_messages_network_allow_message">Для правильной работы приложению \"Mi Сообщения\" требуется доступ к интернету. Разрешить сейчас?</string>
+    <string name="smart_messages_network_allow_title">Требуется доступ к интернету</string>
+    <string name="smart_msg_main_purpose">\"Смарт-сообщения\" предоставляют службы распознавания идентификатора отправителя и интеллектуальное меню.</string>
     <string name="smart_msg_privacy_policy">Политика конфиденциальности Умных сообщений</string>
     <string name="smart_msg_privacy_policy_revoke">Отозвать согласие с Политикой конфиденциальности Умные сообщения</string>
+    <string name="smart_msg_upgrade_main_purpose">Теперь \"Смарт-сообщения\" работают с MMS. Вы сможете воспользоваться другими службами, предоставляемыми отправителями, а также получать сообщения в новых форматах.</string>
     <string name="sms_full_body">Недостаточно места на устройстве. Входящие сообщения будут отклонены.</string>
     <string name="sms_full_title">Хранилище сообщений заполнено</string>
     <string name="sms_rejected_body">Входящее сообщение отклонено</string>
@@ -1038,7 +1063,7 @@
     <string name="solar_term_summer_begins">Начало лета</string>
     <string name="solar_term_summer_solstice">Летнее солнцестояние</string>
     <string name="solar_term_the_rains">Дождь</string>
-    <string name="solar_term_vernal_equinox">День весеннего равноденствия</string>
+    <string name="solar_term_vernal_equinox">Весеннее равноденствие</string>
     <string name="solar_term_white_dews">Белые росы</string>
     <string name="solar_term_winter_begins">Начало зимы</string>
     <string name="solar_term_winter_solstice">Зимнее солнцестояние</string>
@@ -1085,7 +1110,6 @@
     <string name="system_permission_declare_mi_message">Добро пожаловать в Mi Сообщения!</string>
     <string name="system_permission_declare_no_say_no">Мы будем защищать вашу личную информацию в соответствии с действующим законодательством, правилами и политикой конфиденциальности. Если вы не согласны предоставить такие разрешения или поделиться своей личной информацией, вы не сможете использовать это приложение.</string>
     <string name="system_permission_declare_rcs">Добро пожаловать в 5G Сообщения!</string>
-    <string name="system_permission_declare_revoke_path">Отменить авторизацию и отключить сервисы можно в настройках Сообщений.</string>
     <string name="system_permission_declare_single_link">Перед использованием этого сервиса прочтите и примите %1s.</string>
     <string name="system_permission_declare_smart_message">Добро пожаловать в Умные сообщения!</string>
     <string name="system_permission_declare_user_agree">Принимаю</string>
@@ -1125,7 +1149,7 @@
     <string name="the_double_ninth_festival">Праздник двух девяток</string>
     <string name="the_dragon_boat_festival">Праздник лодок-драконов</string>
     <string name="the_easter_day">Пасха</string>
-    <string name="the_eve_of_the_spring_festival">Канун китайского нового года</string>
+    <string name="the_eve_of_the_spring_festival">Китайский Новый год</string>
     <string name="the_fifth_day">Пятый день китайского нового года</string>
     <string name="the_fools_day">День дурака</string>
     <string name="the_forth_day">Четвертый день китайского нового года</string>
@@ -1231,6 +1255,26 @@
     <string name="video_compressing">Сжатие видео…</string>
     <string name="view">Просмотреть</string>
     <string name="view_message_details">Информация о сообщении</string>
+    <string name="vital_signs_cta_body">"Данные о состоянии организма (ЧСС, уровень SpO₂ и другая информация из медкарты) взяты из Mi Фитнес. Отметка ниже означает ваше согласие на получение и использование нами этих данных.
+Для контроля длины сообщения будут сохранены только первые 50 символов каждой записи медкарты."</string>
+    <string name="vital_signs_cta_title">Состояние организма</string>
+    <string name="vital_signs_data_allergy">Аллергия: %s</string>
+    <string name="vital_signs_data_disease">Хронические заболевания: %s</string>
+    <string name="vital_signs_data_high_bpm">Высокая ЧСС: %1$d–%2$d уд/мин (%3$s–%4$s)</string>
+    <string name="vital_signs_data_high_bpm_multi">Высокая ЧСС неск. раз за прошедший час: %1$d–%2$d уд/мин (%3$s–%4$s)</string>
+    <string name="vital_signs_data_low_bpm">Низкая ЧСС: %1$d–%2$d уд/мин (%3$s–%4$s)</string>
+    <string name="vital_signs_data_low_bpm_multi">Низкая ЧСС неск. раз за прошедший час: %1$d–%2$d уд/мин (%3$s–%4$s)</string>
+    <string name="vital_signs_data_low_spo2">Низкий уровень SpO₂: %1$d%%–%2$d%% (%3$s–%4$s)</string>
+    <string name="vital_signs_data_low_spo2_multi">Низкий уровень SpO₂ неск. раз за прошедший час: %1$d%%–%2$d%% (%3$s–%4$s)</string>
+    <string name="vital_signs_data_medical">Лечение: %s</string>
+    <string name="vital_signs_toast_exception">Не удалось получить данные о состоянии организма</string>
+    <string name="vital_signs_toast_health_app_low">Обновите Mi Fitness, чтобы получить данные о состоянии организма</string>
+    <string name="vital_signs_toast_health_app_no_install">Установите Mi Fitness, чтобы получить данные о состоянии организма</string>
+    <string name="vital_signs_toast_no_bpm_spo2">Не удалось получить данные ЧСС и SpO₂</string>
+    <string name="vital_signs_toast_no_data">Не удалось получить данные о состоянии организма</string>
+    <string name="vital_signs_wait_body">Получение данных. Это может занять некоторое время.</string>
+    <string name="vital_signs_wait_skip">Пропустить</string>
+    <string name="vital_signs_wait_title">Данные о состоянии организма</string>
     <string name="voice_report_anytime">Всегда</string>
     <string name="voice_report_off">Откл.</string>
     <string name="voice_report_wiredon">Через наушники</string>
@@ -1240,6 +1284,8 @@
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Ср</string>
     <string name="wednesday_shortest">Ср</string>
+    <string name="wrong_mms_version_msg">Установите версию Сообщений, совместимую с вашим устройством и системой.</string>
+    <string name="wrong_mms_version_title">Ошибка версии</string>
     <string name="xiaomi_market_sdk_update_dialog_cancel">Отмена</string>
     <string name="xiaomi_market_sdk_update_dialog_ok">Обновить</string>
     <string name="xiaomi_market_sdk_update_dialog_title">Доступно обновление</string>

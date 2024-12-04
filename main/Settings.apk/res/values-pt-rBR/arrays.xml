@@ -210,7 +210,6 @@
         <item>Com mais de 60 dias</item>
         <item>Com mais de 90 dias</item>
     </string-array>
-    <array name="avatar_image_descriptions" />
     <string-array name="battery_indicator_style_entries">
         <item>Gráfico</item>
         <item>Porcentagem (no ícone)</item>
@@ -313,6 +312,20 @@
         <item>Otimizado para qualidade de áudio (900kbps)</item>
         <item>Melhor desempenho (Taxa de bits automática)</item>
     </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Usar seleção do sistema (padrão)</item>
+        <item>44,1 kHz</item>
+        <item>48 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Usar seleção do sistema (padrão)</item>
+        <item>44,1 kHz</item>
+        <item>48 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96 kHz</item>
+    </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Usar preferência do sistema (Padrão)</item>
         <item>SBC</item>
@@ -357,16 +370,21 @@
         <item>Tocar no alto-falante do smartphone</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp15</item>
+        <item>avrcp16</item>
         <item>avrcp13</item>
         <item>avrcp14</item>
-        <item>avrcp16</item>
+        <item>avrcp15</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.5 (padrão)</item>
+        <item>AVRCP 1.6 (padrão)</item>
         <item>AVRCP 1.3</item>
         <item>AVRCP 1.4</item>
-        <item>AVRCP 1.6</item>
+        <item>AVRCP 1.5</item>
+    </string-array>
+    <string-array name="bluetooth_leaudio_mode">
+        <item>Disabled</item>
+        <item>Unicast</item>
+        <item>Unicast e Broadcast</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
         <item>map12</item>
@@ -392,15 +410,22 @@
         <item>Ativado</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_filters_entries">
-        <item>Deixar apenas cabeçalhos ACL</item>
-        <item>Filtrar pacotes multimídia A2DP</item>
+        <item>Deixar apenas cabeçalhos da Access Control List</item>
+        <item>Filtrar pacotes de mídia A2DP</item>
         <item>Filtrar canal RFCOMM</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_profile_filter_entries">
         <item>Desativar</item>
-        <item>Preencher com uma cadeia de caracteres</item>
+        <item>Preencher com string de caracteres</item>
         <item>Deixar apenas o cabeçalho</item>
         <item>Remover totalmente</item>
+    </string-array>
+    <string-array name="bt_stack_log_level_entries">
+        <item>Detalhado</item>
+        <item>Depuração</item>
+        <item>Informações</item>
+        <item>Aviso</item>
+        <item>Erro</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 segundo</item>
@@ -579,6 +604,12 @@
     <string-array name="fluency_mode_summaries">
         <item>Acelera o desempenho do dispositivo</item>
         <item>Pode diminuir o desempenho do dispositivo</item>
+    </string-array>
+    <string-array name="grammatical_gender_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
         <item>4.5 polegadas</item>
@@ -1332,12 +1363,6 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>Toque</item>
         <item>Toque direto</item>
     </string-array>
-    <string-array name="udfps_accessibility_touch_hints">
-        <item>Mover para a esquerda</item>
-        <item>Mover para baixo</item>
-        <item>Mover para a direita</item>
-        <item>Mover para cima</item>
-    </string-array>
     <string-array name="usb_configuration_titles">
         <item>Carregamento</item>
         <item>MTP (protocolo de transferência de mídia)</item>
@@ -1369,7 +1394,7 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="vpn_states">
         <item>Desconectado</item>
-        <item>Inicializando...</item>
+        <item>Iniciando…</item>
         <item>Conectando...</item>
         <item>Conectado</item>
         <item>Tempo limite</item>
@@ -1423,6 +1448,10 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>Conectar automaticamente</item>
         <item>Conectar manualmente</item>
         <item>Sempre perguntar</item>
+    </string-array>
+    <string-array name="wifi_dhcp_entries">
+        <item>Enviar nome do dispositivo à rede</item>
+        <item>Não enviar nome do dispositivo à rede</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Não</item>

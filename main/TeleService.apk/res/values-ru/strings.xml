@@ -233,6 +233,8 @@
     <string name="call_record_on_summary">Вкл</string>
     <string name="call_record_setting">Запись вызовов</string>
     <string name="call_record_whitelist_custom">Выбранные номера</string>
+    <string name="call_recording_disclaimer_msg">Применимое законодательство юрисдикции, в которой находитесь вы или другие участники разговора, может потребовать от всех сторон согласия на запись. Вы обязаны соблюдать такие законы, и Xiaomi не будет нести ответственность за любое незаконное использование этой функции. Записи звонков хранятся только на вашем устройстве и не могут быть доступны Xiaomi.</string>
+    <string name="call_recording_disclaimer_title">Отказ от ответственности</string>
     <string name="call_recording_notification_message">Нажмите для прослушивания.</string>
     <string name="call_recording_notification_message_low_storage">SD карта заполнена.</string>
     <string name="call_recording_notification_message_sd_unmounted">SD карта извлечена.</string>
@@ -305,6 +307,7 @@
     <string name="cfnry_time_twenty_five_sec">%d с</string>
     <string name="cfnry_time_twenty_sec">%d с</string>
     <string name="cfnry_title">Если нет ответа</string>
+    <string name="cfu_notification_title">Переадресация вызовов</string>
     <string name="cfu_title">Безусловная переадресация</string>
     <string name="change_data_preference_4g_only_prompt">Ваша SIM-карта поддерживает только 4G. Для нормальной работы установите её по умолчанию для мобильного интернета. Установить?</string>
     <string name="change_data_sim_4g_only_prompt">SIM %1$s поддерживает только 4G. Если SIM %2$s не установлена по умолчанию для мобильного интернета, она может работать неправильно. Переключить?</string>
@@ -326,6 +329,7 @@
     <string name="change_pin_succeeded">PIN-код голосовой почты обновлен</string>
     <string name="change_pin_system_error">Не удалось установить PIN-код</string>
     <string name="change_pin_title">Сменить PIN-код голосовой почты</string>
+    <string name="checkbox_do_not_show_again">Больше не показывать</string>
     <string name="china_mobile_palm_category">Службы оператора</string>
     <string name="china_mobile_palm_title">Онлайн личный кабинет CMCC</string>
     <string name="choose_network_title">Выбрать сеть</string>
@@ -389,6 +393,7 @@
     <string name="clir_choices_show_number">Не скрывать номер</string>
     <string name="close">Отключить</string>
     <string name="close_dialog">ОК</string>
+    <string name="close_smart_dual_sim">Отмена</string>
     <string name="close_volte">Отключить VoLTE</string>
     <string name="cloud_antispam_title">Определение неизвестных номеров</string>
     <string name="cloud_sim_enabled_dual_4g_summary">Нельзя отключить Dual 4G при использовании Mi Роуминга</string>
@@ -428,7 +433,7 @@
     <string name="data_for_high_temperature_toast">"Your device is overheated. Can't use this feature now."</string>
     <string name="data_interruption_remind_for_t">Похоже, ваша сетевая среда ненадежна. Чтобы улучшить соединение, разрешите устройству использовать мобильный интернет во время вызовов VoLTE с дополнительной SIM-карты.</string>
     <string name="data_plan">Тарифные планы</string>
-    <string name="data_usage_disable_mobile">Отключить мобильный Интернет?</string>
+    <string name="data_usage_disable_mobile">Отключить мобильный интернет?</string>
     <string name="data_usage_template">Объем мобильного трафика за период %2$s: %1$s</string>
     <string name="data_usage_title">Трафик приложения</string>
     <string name="date_picker_label_day" />
@@ -449,6 +454,7 @@
     <string name="delete">Удалить</string>
     <string name="delete_fdn_contact">Удалить номер ограниченного набора</string>
     <string name="deleting_fdn_contact">Выполняется удаление номера ограниченного набора…</string>
+    <string name="depopulated_zone_satellite_notification">Напоминание о спутниковой связи</string>
     <string name="description_concat_format">%1$s, %2$s</string>
     <string name="description_delete_button">назад</string>
     <string name="description_dial_button">вызов</string>
@@ -502,11 +508,11 @@
     <string name="disable_cfb_forbidden">Ваш оператор не позволяет отключать переадресацию вызовов, если телефон занят.</string>
     <string name="disable_cfnrc_forbidden">Ваш оператор не позволяет отключать переадресацию вызовов, если телефон находится вне зоны доступа.</string>
     <string name="disable_cfnry_forbidden">Ваш оператор не позволяет отключать переадресацию вызовов, если нет ответа.</string>
-    <string name="disable_esim_dialog_summary">"Если вы отключите eSIM, будет активирована SIM %s.
-Деактивировать eSIM?"</string>
-    <string name="disable_esim_dialog_title">Деактивация eSIM</string>
-    <string name="disable_esim_error_toast_message">Не удалось деактивировать eSIM</string>
-    <string name="disable_esim_progress_activating_message">Деактивация eSIM…</string>
+    <string name="disable_cfu_notification_summary">SIM-карта %d больше не находится в роуминге. Рекомендуется отключить переадресацию вызовов для этой SIM-карты.</string>
+    <string name="disable_esim_dialog_summary">Если вы отключите eSIM, то не сможете использовать eSIM. Отключить?</string>
+    <string name="disable_esim_dialog_title">Выключить eSIM</string>
+    <string name="disable_esim_error_toast_message">Не удалось выключить eSIM</string>
+    <string name="disable_esim_progress_activating_message">Выключение eSIM…</string>
     <string name="disable_fdn">Откл. разреш. номера</string>
     <string name="disable_fdn_ok">Вкл. разрешенные номера</string>
     <string name="disable_pin_ok">PIN-код удален</string>
@@ -565,6 +571,7 @@
     <string name="enable_antispam_strange_title">Приглушать начало звонка</string>
     <string name="enable_cdma_call_waiting_setting">Во время телефонного разговора вы будете получать уведомления о входящих вызовах</string>
     <string name="enable_cdma_cw">Включить</string>
+    <string name="enable_cfu_notification_summary">SIM-карта %1$d находится в роуминге. Вы можете переадресовать вызовы на SIM-карту %2$d, чтобы сэкономить на роуминге.</string>
     <string name="enable_disable_administrative">Административные функции</string>
     <string name="enable_disable_advertisements">Реклама</string>
     <string name="enable_disable_atr">Информация о пробках</string>
@@ -587,12 +594,12 @@
     <string name="enable_disable_technology_news">Новости технологий</string>
     <string name="enable_dual_4g_if_dual_ct">Предпочитать сеть 4G для обеих SIM-карт, чтобы использовать VoLTE на второй SIM-карте, когда установлены две SIM-карты China Telecom.</string>
     <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE требует подключение 4G для обоих слотов SIM. Включить режим Dual 4G?</string>
-    <string name="enable_esim_dialog_summary">"Если вы активируете eSIM, SIM %s будет отключена.
-Активировать eSIM?"</string>
-    <string name="enable_esim_dialog_title">Активация eSIM</string>
-    <string name="enable_esim_error_toast_message">Не удалось активировать eSIM</string>
-    <string name="enable_esim_progress_activating_message">Активация eSIM…</string>
-    <string name="enable_esim_title">Использовать eSIM</string>
+    <string name="enable_esim_dialog_summary">Если вы включите eSIM, то не сможете использовать текущую SIM %s. Включить eSIM?</string>
+    <string name="enable_esim_dialog_title">Включить eSIM</string>
+    <string name="enable_esim_error_toast_message">Не удалось включить eSIM</string>
+    <string name="enable_esim_progress_activating_message">Включение eSIM…</string>
+    <string name="enable_esim_summary">Отключить SIM-карту %s после включения</string>
+    <string name="enable_esim_title">Включить eSIM</string>
     <string name="enable_fdn">Вкл. разрешенные номера</string>
     <string name="enable_fdn_ok">Откл. разреш. номера</string>
     <string name="enable_in_progress">Настройка PIN-кода…</string>
@@ -615,6 +622,7 @@
     <string name="enter_callbarring_password">Введите пароль запрета вызовов (%d цифры)</string>
     <string name="enter_esim_manager_title">Управление eSIM</string>
     <string name="enter_input">Допустимая длина USSD-сообщения: %1$d–%2$d символов. Повторите попытку.</string>
+    <string name="enter_mep_esim_manager_title">Управление SIM-картами</string>
     <string name="enter_pin2_text">PIN %d</string>
     <string name="enter_pin_text">PIN SIM-карты:</string>
     <string name="entertainment_news_settings">Калейдоскоп</string>
@@ -627,6 +635,7 @@
     <string name="esim_inactive_notification_title_global">Две SIM-карты и мобильные сети</string>
     <string name="esim_is_activating_notification_message_for_o2">Активация тарифного плана…</string>
     <string name="esim_setting_title">Настройки eSIM</string>
+    <string name="esos_satellite_string">Проверка спутникового режима eSOS (только отладочная сборка)</string>
     <string name="evening">День</string>
     <string name="exception_error">Ошибка сети или SIM-карты.</string>
     <string name="expand_button_title">Дополнительно</string>
@@ -757,12 +766,23 @@
     <string name="importingSimContacts">Импорт контактов с SIM-карты</string>
     <string name="incall_error_call_failed">Не удалось отправить вызов.</string>
     <string name="incall_error_cannot_add_call">Не удается позвонить. Попробуйте отправить сообщение.</string>
+    <string name="incall_error_carrier_roaming_satellite_mode">Вы можете отправлять и получать сообщения без доступа к мобильной сети или Wi-Fi.</string>
     <string name="incall_error_ecm_emergency_only">Чтобы сделать обычный звонок, выйдите из режима экстренных обратных вызовов.</string>
     <string name="incall_error_emergency_only">Нет регистрации в сети.</string>
     <string name="incall_error_missing_voicemail_number">Неизвестный номер голосовой почты.</string>
     <string name="incall_error_no_phone_number_supplied">Недействительный номер.</string>
     <string name="incall_error_out_of_service">Мобильная сеть недоступна.</string>
+    <string name="incall_error_out_of_service_2g">"Мобильная сеть недоступна.
+
+Чтобы позвонить, подключитесь к беспроводной сети.
+
+На этом устройстве отключена передача данных по сетям 2G, что может влиять на функции связи. Чтобы продолжить, перейдите в настройки и включите параметр \"Разрешить 2G\"."</string>
     <string name="incall_error_out_of_service_wfc">Мобильная сеть недоступна. Чтобы позвонить, подключитесь к Wi-Fi.</string>
+    <string name="incall_error_out_of_service_wfc_2g_user">"Мобильная сеть недоступна.
+
+Чтобы позвонить, подключитесь к беспроводной сети.
+
+На этом устройстве отключена передача данных по сетям 2G, что может влиять на функции связи. Чтобы продолжить, перейдите в настройки и включите параметр \"Разрешить 2G\"."</string>
     <string name="incall_error_outgoing_call_failed">Не удалось совершить вызов</string>
     <string name="incall_error_power_off">Чтобы позвонить, отключите режим полета.</string>
     <string name="incall_error_power_off_thermal"><b>Телефон перегрелся.</b>"
@@ -772,7 +792,7 @@
 Это не касается экстренных вызовов."</string>
     <string name="incall_error_power_off_wfc">Чтобы позвонить, отключите режим полета и подключитесь к Wi-Fi.</string>
     <string name="incall_error_promote_wfc">Чтобы позвонить, включите звонки через Wi-Fi.</string>
-    <string name="incall_error_satellite_enabled">Чтобы позвонить, отключите спутниковый режим.</string>
+    <string name="incall_error_satellite_enabled">Чтобы позвонить, сначала завершите спутниковое соединение.</string>
     <string name="incall_error_supp_service_conference">Не удалось объединить вызовы</string>
     <string name="incall_error_supp_service_hangup">Не удалось разъединить.</string>
     <string name="incall_error_supp_service_hold">Удержание невозможно.</string>
@@ -951,6 +971,7 @@
     <string name="miuix_appcompat_delete_description">Удалить</string>
     <string name="miuix_appcompat_deselect_all">Отменить выбор</string>
     <string name="miuix_appcompat_deselect_all_description">Снять выбор</string>
+    <string name="miuix_appcompat_edit">Изменить</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отмена</string>
     <string name="miuix_appcompat_search_input_description">Поиск</string>
     <string name="miuix_appcompat_select_all">Выбрать все</string>
@@ -994,8 +1015,9 @@
     <string name="mobile_networks">Мобильные сети</string>
     <string name="mobile_property">Свойства мобильной сети</string>
     <string name="mobile_settings_screen_title">Мобильный интернет</string>
-    <string name="mobile_special_network_optimization_config_summary">Улучшать качество вызовов при помощи автоматической адаптации к разным сценариям использования.</string>
-    <string name="mobile_special_network_optimization_config_title">Адаптация к разным сценариям</string>
+    <string name="mobile_special_network_optimization_config_summary">Автоматически определять сценарий использования сети для улучшения взаимодействия.</string>
+    <string name="mobile_special_network_optimization_config_title">Адаптивный режим</string>
+    <string name="mock_carrier_roaming_satellite_string">Режим спутниковой связи симуляции оператора (только отладочная сборка)</string>
     <string name="modem_dialog_body">Мобильная сеть нестабильна, это вызывает перебои или сетевые проблемы. Отправить отчет об ошибке в Xiaomi? Он может содержать некоторые личные данные. Мы используем отчеты только для анализа и исправления неполадок и не предоставляем их третьим лицам в коммерческих целях.</string>
     <string name="modem_dialog_title">Мобильная сеть нестабильна</string>
     <string name="monday">Понедельник</string>
@@ -1130,16 +1152,19 @@
     <string name="network_type_3g_preferred_cmcc">3G/2G</string>
     <string name="network_type_4g_preferred_cmcc">4G/3G/2G</string>
     <string name="network_unlock">Разблокировать</string>
-    <string name="networks_title">Мобильные сети</string>
+    <string name="networks_title">Выбрать оператора</string>
     <string name="newPin2Label">Новый PIN2</string>
     <string name="newPinLabel">Новый PIN</string>
+    <string name="new_arrears_sim_summary">Баланс вашей SIM-карты может быть недостаточным или на нее могут накладываться сетевые ограничения. Для получения дополнительной информации обратитесь к своему оператору связи.</string>
+    <string name="new_arrears_sim_title">Сбой подключения к интернету</string>
     <string name="new_password_label">Новый%d-значный пароль</string>
     <string name="new_pin2_label">Новый PIN %d</string>
     <string name="new_pin_label">Новый PIN</string>
     <string name="night">Вечер</string>
-    <string name="no_active_esim_text">Неактивная eSIM</string>
+    <string name="no_active_esim_text">Нет eSIM</string>
     <string name="no_change">Номер не изменен.</string>
     <string name="no_checked_network">Вы не сможете подключаться к мобильной сети и совершать вызовы. Выбрать другую сеть?</string>
+    <string name="no_ims_service_notification_content">Для решения этой проблемы свяжитесь со своим оператором связи</string>
     <string name="no_rtt_when_roaming">Примечание. Функция RTT недоступна в роуминге.</string>
     <string name="no_vm_number">Не указан номер голосовой почты</string>
     <string name="no_vm_number_msg">На SIM-карте нет ни одного номера голосовой почты.</string>
@@ -1190,6 +1215,7 @@
     <string name="onscreenSwapCallsText">Перевод звонка</string>
     <string name="onscreenVideoCallText">Видео</string>
     <string name="open_miui">Включить</string>
+    <string name="open_smart_dual_sim">Включить</string>
     <string name="opened_dual_4g_confirm_prompt">Ваша SIM-карта поддерживает только 4G. Режим Dual 4G включен автоматически.</string>
     <string name="opened_dual_4g_confirm_prompt_with_sim">SIM %1$s поддерживает только 4G. Для нормальной работы вашей SIM-карты был включен режим Dual 4G.</string>
     <string name="operator">Оператор</string>
@@ -1268,6 +1294,7 @@
     <string name="permission_description">Сведения о разрешениях</string>
     <string name="phoneAppLabel">Телефон – сервисы</string>
     <string name="phoneIconLabel">Телефон</string>
+    <string name="phone_account_no_config_mobile_networks">Владелец устройства ограничил возможность изменения настроек мобильной сети.</string>
     <string name="phone_account_settings">Аккаунты для вызовов</string>
     <string name="phone_account_settings_user_restriction">Настройки аккаунта на телефоне может изменить только работающий с ним сотрудник или администратор.</string>
     <string name="phone_accounts">Аккаунты для звонков</string>
@@ -1399,6 +1426,7 @@
     <string name="privacy_setting">Конфиденциальность</string>
     <string name="private_num">Скрытый номер</string>
     <string name="progress_dialog_exiting_ecm">Выход из режима экстренных обратных вызовов</string>
+    <string name="prompt_to_suggest_no_ims_service_notification_title">Нельзя воспользоваться службой VoLTE</string>
     <string name="prompt_to_turnoff_volte_when_failed">Услуги VoLTE недоступны. Для совершения вызова отключите VoLTE.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">Услуга недоступна. Отключите VoLTE в Настройках.</string>
     <string name="prompt_when_turnon_volte_on_3g_prefered">Перед включением VoLTE выберите LTE в качестве предпочтительного типа сети.</string>
@@ -1473,7 +1501,7 @@ UT-интерфейс: %5$s"</string>
     <string name="radio_info_nr_state">Статус NR (NSA):</string>
     <string name="radio_info_override_network_type_label">Переопределение типа сети:</string>
     <string name="radio_info_phone_number_label">Номер телефона:</string>
-    <string name="radio_info_phy_chan_config">Конфигурация физического канала LTE:</string>
+    <string name="radio_info_phy_chan_config">Конфигурации физического канала:</string>
     <string name="radio_info_ping_hostname_v4">Имя хоста запроса ping для www.google.com, IPv4:</string>
     <string name="radio_info_ping_hostname_v6">Имя хоста запроса ping для www.google.com, IPv6:</string>
     <string name="radio_info_ppp_received_label">Получено данных:</string>
@@ -1542,6 +1570,9 @@ UT-интерфейс: %5$s"</string>
     <string name="ringtone_unknown">Мелодия не найдена</string>
     <string name="roaming">Мобильный интернет отключен</string>
     <string name="roaming_alert_title">Разрешить интернет-роуминг?</string>
+    <string name="roaming_change_dds_notification">Переключать SIM-карту для мобильного интернета во время роуминга</string>
+    <string name="roaming_change_dds_notification_text">SIM-карта для мобильного интернета находится в роуминге. Переключитесь на местную SIM-карту, чтобы избежать дополнительных расходов.</string>
+    <string name="roaming_change_dds_notification_title">Сменить SIM-карту для мобильного интернета</string>
     <string name="roaming_check_price_warning">Информацию о тарифах вы можете получить у интернет-провайдера.</string>
     <string name="roaming_customer_service_message_kr">Нажмите, чтобы связаться со службой поддержки роуминга (+%1$d-%2$d-%3$d-%4$d%5$d). За рубежом звонок бесплатный.</string>
     <string name="roaming_customer_service_summary_kr">Бесплатные вызовы за границей</string>
@@ -1562,6 +1593,23 @@ UT-интерфейс: %5$s"</string>
 &lt;br>– Функция RTT недоступна при видеовызове."</string>
     <string name="rtt_mode_summary">Разрешить обмен сообщениями во время голосового вызова</string>
     <string name="rtt_mode_title">Вызов RTT</string>
+    <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
+    <string name="satellite_exit_now_battery">Выйти</string>
+    <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
+    <string name="satellite_mobile_settings_title">Enable satellite communications</string>
+    <string name="satellite_not_show_again">Больше не показывать</string>
+    <string name="satellite_notification_text">Вы по-прежнему можете совершать вызовы и отправлять SMS, используя спутниковую связь Tiantong. Сначала требуется включить эту службу.</string>
+    <string name="satellite_notification_title">Вы находитесь в зоне со слабым сигналом.</string>
+    <string name="satellite_point_title">Turn on Tiantong Satellite communications</string>
+    <string name="satellite_select_enable_sim">Выберите SIM-карту</string>
+    <string name="satellite_signal_boost_setting_summary">Enhance signal strength and stability in cloudy or other non-optimal weather conditions</string>
+    <string name="satellite_signal_boost_setting_title">Use Tiantong signal amplifier</string>
+    <string name="satellite_start">Понятно</string>
+    <string name="satellite_start_battery">Понятно</string>
+    <string name="satellite_thermal_hangup_delay">Device is overheated. Call will end in %ds. Wait for your device to cool down.</string>
+    <string name="satellite_tiantong_setting">Tiantong Satellite communications</string>
+    <string name="satellite_user_reminder">Tiantong Satellite communications need to access your location. Mobile data, camera, and Face unlock will be temporarily unavailable. This feature is only available for satellite-compatible China Telecom SIM cards.</string>
     <string name="saturday">Суббота</string>
     <string name="saturday_short">Сб</string>
     <string name="saturday_shortest">Сб</string>
@@ -1604,7 +1652,7 @@ UT-интерфейс: %5$s"</string>
     <string name="select_dds_dialog_title">Выберите SIM для интернета</string>
     <string name="select_voice_call_sim">Выберите SIM-карту</string>
     <string name="send">Отправить</string>
-    <string name="send_button">Позвонить</string>
+    <string name="send_button">Отправить</string>
     <string name="send_from_work_profile_action_str">Перейти в рабочий профиль</string>
     <string name="send_from_work_profile_cancel">Отмена</string>
     <string name="send_from_work_profile_description">В вашей организации разрешено отправлять сообщения только из рабочих приложений</string>
@@ -1675,6 +1723,8 @@ UT-интерфейс: %5$s"</string>
     <string name="skt_msim_emm_cause_3">Ошибка проверки пользователя для SIM %1$d. Перезагрузите устройство и повторите попытку. Если это не помогло, обратитесь в службу поддержки (%2$d-%3$d%4$d%5$d).</string>
     <string name="skt_msim_emm_cause_6">Ошибка проверки устройства для SIM %1$d. Перезагрузите устройство и повторите попытку. Если это не помогло, обратитесь в службу поддержки (%2$d-%3$d%4$d%5$d).</string>
     <string name="skt_msim_emm_cause_7_8_15">Ошибка регистрации сети для SIM %1$d. Перезагрузите устройство и повторите попытку. Если это не помогло, обратитесь в службу поддержки (%2$d-%3$d%4$d%5$d).</string>
+    <string name="smart_dual_sim_available_message">Включите функцию Интеллектуальная смена SIM-карт для улучшения качества видеовызовов. Включить?</string>
+    <string name="smart_dual_sim_available_title">Интеллектуальная смена SIM-карт</string>
     <string name="smart_dual_sim_prompt">При плохом качестве текущего соединения устройство будет использовать мобильный интернет через вторую SIM-карту. Это может вызвать дополнительные затраты. Установите ограничения трафика, чтобы избежать дополнительных расходов.</string>
     <string name="smart_dual_sim_prompt_ok">Настройки</string>
     <string name="smart_dual_sim_prompt_title">Порог предупреждения (SIM %s)</string>
@@ -1691,8 +1741,12 @@ UT-интерфейс: %5$s"</string>
     <string name="smart_switch_dual_sim_title">Переключение между SIM-картами для интернета</string>
     <string name="sms_messages_title">SMS</string>
     <string name="smsc_dialog_message">Убедитесь, что введенный номер верен. В противном случае вы не сможете отправлять или получать SMS. Свяжитесь с вашим оператором для подтверждения номера SMSC.</string>
-    <string name="speed_limit_card_toast">Достигнут лимит передачи данных на высокой скорости. Скорость соединения будет ограничена.</string>
+    <string name="speed_limit_card_toast">Скорость соединения может быть ограничена. Обратитесь к своему оператору связи для получения подтверждения.</string>
+    <string name="speed_limit_sim_notification">Ограничения скорости передачи данных</string>
+    <string name="speed_limit_sim_summary">Вы достигли лимита данных вашего плана. Скорость передачи данных снизится. Свяжитесь со своим оператором связи для получения подробной информации.</string>
+    <string name="speed_limit_sim_title">Скорость передачи данных ограничена</string>
     <string name="sports_news_settings">Новости спорта</string>
+    <string name="start_call_record">Начать</string>
     <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_hint_label_incoming_wifi_call">Вызов по Wi-Fi от</string>
     <string name="status_hint_label_wifi_call">Wi-Fi-звонок</string>
@@ -1854,7 +1908,7 @@ UT-интерфейс: %5$s"</string>
     <string name="thursday">Четверг</string>
     <string name="thursday_short">Чт</string>
     <string name="thursday_shortest">Чт</string>
-    <string name="time_picker_dialog_title">Настройка времени</string>
+    <string name="time_picker_dialog_title">Выберите время</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">М</string>
     <string name="title_cfu_enabled">Переадресация включена</string>
@@ -1908,6 +1962,8 @@ UT-интерфейс: %5$s"</string>
     <string name="vm_change_pin_old_pin">Старый PIN-код</string>
     <string name="vm_change_pin_progress_message">Подождите…</string>
     <string name="vm_changed">Номер голосовой почты изменен.</string>
+    <string name="voice_link_switch_summary">Использовать SIM-карту для передачи данных при отсутствии подключения к интернету.</string>
+    <string name="voice_link_switch_title">Вызовы с использованием данных</string>
     <string name="voice_number_setting_primary_user_only">Настройки голосовой почты может изменить только основной пользователь</string>
     <string name="voice_privacy">Конфиденциальность</string>
     <string name="voice_privacy_summary">Включить усиленный режим конфиденциальности</string>

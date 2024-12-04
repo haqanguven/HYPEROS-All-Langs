@@ -210,7 +210,6 @@
         <item>Più vecchi di 60 giorni</item>
         <item>Più vecchi di 90 giorni</item>
     </string-array>
-    <array name="avatar_image_descriptions" />
     <string-array name="battery_indicator_style_entries">
         <item>Grafico</item>
         <item>"Percentuale (nell'icona)"</item>
@@ -313,6 +312,20 @@
         <item>Ottimizzato per la qualità audio (900kbps)</item>
         <item>Miglior risultato (bit rate automatico)</item>
     </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Usa selezione di sistema (predefinita)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Usa selezione di sistema (predefinita)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Usa preferenze di sistema (predefinito)</item>
         <item>SBC</item>
@@ -357,16 +370,21 @@
         <item>Riproduci su altoparlante dello smartphone</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp15</item>
+        <item>avrcp16</item>
         <item>avrcp13</item>
         <item>avrcp14</item>
-        <item>avrcp16</item>
+        <item>avrcp15</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.5 (versione predefinita)</item>
+        <item>AVRCP 1.6 (versione predefinita)</item>
         <item>AVRCP 1.3</item>
         <item>AVRCP 1.4</item>
-        <item>AVRCP 1.6</item>
+        <item>AVRCP 1.5</item>
+    </string-array>
+    <string-array name="bluetooth_leaudio_mode">
+        <item>Disattivato</item>
+        <item>Unicast</item>
+        <item>Unicast e Broadcast</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
         <item>map12</item>
@@ -393,14 +411,21 @@
     </string-array>
     <string-array name="bt_hci_snoop_log_filters_entries">
         <item>Lascia solo le intestazioni ACL</item>
-        <item>Filtra i pacchetti multimediali A2DP</item>
-        <item>Filtro canale RFCOMM</item>
+        <item>Filtra pacchetti multimediali A2DP</item>
+        <item>Filtra canale RFCOMM</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_profile_filter_entries">
         <item>Disattiva</item>
-        <item>Riempi con una stringa di caratteri</item>
-        <item>Lascia solo le intestazioni</item>
+        <item>Inserisci stringa di caratteri</item>
+        <item>"Lascia solo l'intestazione"</item>
         <item>Rimuovi completamente</item>
+    </string-array>
+    <string-array name="bt_stack_log_level_entries">
+        <item>Dettagliato</item>
+        <item>Debug</item>
+        <item>Informazioni</item>
+        <item>Avviso</item>
+        <item>Errore</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 secondo</item>
@@ -579,6 +604,12 @@
     <string-array name="fluency_mode_summaries">
         <item>Aumenta le prestazioni del dispositivo</item>
         <item>Potrebbe rallentare le prestazioni del dispositivo</item>
+    </string-array>
+    <string-array name="grammatical_gender_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="handy_mode_size_text_entries">
         <item>4,5 pollici</item>
@@ -1332,12 +1363,6 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>Tocco</item>
         <item>Tocco diretto</item>
     </string-array>
-    <string-array name="udfps_accessibility_touch_hints">
-        <item>Sposta a sinistra</item>
-        <item>Sposta in basso</item>
-        <item>Sposta a destra</item>
-        <item>Sposta in alto</item>
-    </string-array>
     <string-array name="usb_configuration_titles">
         <item>Ricarica</item>
         <item>MTP (Media Transfer Protocol)</item>
@@ -1423,6 +1448,10 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>Connetti automaticamente</item>
         <item>Connetti manualmente</item>
         <item>Chiedi sempre</item>
+    </string-array>
+    <string-array name="wifi_dhcp_entries">
+        <item>Invia nome dispositivo a rete</item>
+        <item>Non inviare nome dispositivo a rete</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>No</item>

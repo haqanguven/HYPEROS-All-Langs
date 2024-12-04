@@ -43,7 +43,7 @@
     <string name="ColrMmi">Restrição de ID de linha conectada</string>
     <string name="CwMmi">Chamada em espera</string>
     <string name="DndMmi">Não perturbe</string>
-    <string name="EmergencyCallWarningSummary">Não é possível fazer chamadas de emergência por Wi‑Fi</string>
+    <string name="EmergencyCallWarningSummary">As chamadas de emergência exigem uma rede móvel</string>
     <string name="EmergencyCallWarningTitle">Chamadas de emergência indisponíveis</string>
     <string name="Midnight">Meia-noite</string>
     <string name="NetworkPreferenceSwitchSummary">Tente alterar a rede preferencial. Toque para alterar.</string>
@@ -174,14 +174,19 @@
     <string name="accessibility_button_prompt_text">Escolha um recurso a ser usado quando você toca no botão de acessibilidade:</string>
     <string name="accessibility_dialog_button_allow">Permitir</string>
     <string name="accessibility_dialog_button_deny">Negar</string>
+    <string name="accessibility_dialog_button_uninstall">Desinstalar</string>
+    <string name="accessibility_dialog_touch_filtered_warning">Um app está ocultando a solicitação de permissão e impedindo a verificação da sua resposta.</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Escolha recursos para usar com o botão de acessibilidade</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Escolha recursos para usar com o atalho da tecla de volume</string>
     <string name="accessibility_enable_service_title">Permitir que o %1$s tenha controle total do seu dispositivo?</string>
-    <string name="accessibility_freeform_caption">Barra de legendas do app %1$s.</string>
     <string name="accessibility_gesture_3finger_instructional_text">Para alternar entre recursos, deslize de baixo para cima na tela com três dedos, sem soltar.</string>
     <string name="accessibility_gesture_3finger_prompt_text">Escolha um recurso para usar com o gesto de acessibilidade (deslizar de baixo para cima na tela com três dedos):</string>
     <string name="accessibility_gesture_instructional_text">Para alternar entre recursos, deslize de baixo para cima na tela com dois dedos, sem soltar.</string>
     <string name="accessibility_gesture_prompt_text">Escolha um recurso para usar com o gesto de acessibilidade (deslizar de baixo para cima na tela com dois dedos):</string>
+    <string name="accessibility_label_clone_profile">Clone</string>
+    <string name="accessibility_label_communal_profile">Público</string>
+    <string name="accessibility_label_managed_profile">Perfil de trabalho</string>
+    <string name="accessibility_label_private_profile">Espaço privado</string>
     <string name="accessibility_magnification_chooser_text">Ampliação</string>
     <string name="accessibility_select_shortcut_menu_title">Toque em um recurso para começar a usá-lo:</string>
     <string name="accessibility_service_action_perform_description">Pode monitorar suas interações com um app ou um sensor de hardware e interagir com apps em seu nome.</string>
@@ -267,6 +272,9 @@ Recursos atuais:
     <string name="alert_windows_notification_title">%s exibido sobre outros apps.</string>
     <string name="alert_windows_notification_turn_off_action">Desativar</string>
     <string name="allow">Permitir</string>
+    <string name="alternative_face_setup_notification_content">Use o Desbloqueio facial quando sua impressão digital não for reconhecida, como quando seus dedos estiverem molhados</string>
+    <string name="alternative_fp_setup_notification_content">Use o Desbloqueio por impressão digital quando seu rosto não for reconhecido, se estiver escuro, por exemplo</string>
+    <string name="alternative_unlock_setup_notification_title">Tente desbloquear de outra maneira</string>
     <string name="alwaysUse">Usar como padrão para esta ação.</string>
     <string name="android_preparing_apk">Preparando %1$s.</string>
     <string name="android_start_title">O smartphone está iniciando…</string>
@@ -297,12 +305,13 @@ Recursos atuais:
     <string name="app_running_notification_title">%1$s está em execução</string>
     <string name="app_streaming_blocked_message">No momento, não é possível acessar esse app pelo %1$s. Tente pelo seu smartphone.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog">Esse app está solicitando segurança extra. Tente pelo smartphone.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Esse app está solicitando permissões extras, mas elas não podem ser concedidas em uma sessão de streaming. Dê permissão pelo smartphone primeiro.</string>
     <string name="app_streaming_blocked_message_for_settings_dialog">Não é possível acessar essa configuração pelo seu %1$s. Tente pelo smartphone.</string>
     <string name="app_streaming_blocked_title">%1$s indisponível</string>
     <string name="app_streaming_blocked_title_for_camera_dialog">Câmera indisponível</string>
     <string name="app_streaming_blocked_title_for_fingerprint_dialog">Continuar no smartphone</string>
     <string name="app_streaming_blocked_title_for_microphone_dialog">Microfone indisponível</string>
-    <string name="app_streaming_blocked_title_for_permission_dialog">Permissão necessária</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Solicitação de permissão suprimida</string>
     <string name="app_streaming_blocked_title_for_playstore_dialog">Play Store indisponível</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Configurações do smartphone indisponíveis</string>
     <string name="app_suspended_default_message">O app %1$s não está disponível no momento. Isso é gerenciado pelo app %2$s.</string>
@@ -351,6 +360,8 @@ Recursos atuais:
     <string name="battery_saver_off_notification_title">\"Economia de bateria\" desativada</string>
     <string name="beforeOneMonthDurationPast">Antes de 1 mês atrás</string>
     <string name="biometric_app_setting_name">Usar biometria</string>
+    <string name="biometric_dangling_notification_action_not_now">Agora não</string>
+    <string name="biometric_dangling_notification_action_set_up">Configuração</string>
     <string name="biometric_dialog_default_subtitle">Use seus dados biométricos para continuar</string>
     <string name="biometric_dialog_default_title">Confirme que é você</string>
     <string name="biometric_error_canceled">Autenticação cancelada</string>
@@ -358,6 +369,7 @@ Recursos atuais:
     <string name="biometric_error_generic">Erro na autenticação</string>
     <string name="biometric_error_hw_unavailable">Hardware biométrico indisponível</string>
     <string name="biometric_error_user_canceled">Autenticação cancelada</string>
+    <string name="biometric_face_not_recognized">Rosto não reconhecido</string>
     <string name="biometric_not_recognized">Não reconhecido</string>
     <string name="biometric_or_screen_lock_app_setting_name">Usar biometria ou bloqueio de tela</string>
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Use sua autenticação biométrica ou o bloqueio de tela para continuar</string>
@@ -433,11 +445,16 @@ Recursos atuais:
     <string name="config_pdp_reject_service_not_subscribed" />
     <string name="config_pdp_reject_user_authentication_failed" />
     <string name="confirm_battery_saver">OK</string>
+    <string name="connected_display_thermally_unavailable_notification_content">O dispositivo está muito quente. Não será possível espelhar a tela até ele resfriar</string>
+    <string name="connected_display_unavailable_notification_content">Use outro cabo e tente de novo</string>
+    <string name="connected_display_unavailable_notification_title">Não é possível espelhar a tela</string>
     <string name="console_running_notification_message">O desempenho foi impactado. Para desativar, verifique o carregador de inicialização.</string>
     <string name="console_running_notification_title">Console serial ativado</string>
     <string name="contentServiceSync">Sincronizar</string>
     <string name="contentServiceSyncNotificationTitle">Não foi possível sincronizar</string>
     <string name="contentServiceTooManyDeletesNotificationDesc">Tentativa de excluir muito conteúdo de %s.</string>
+    <string name="content_description_collapsed">Fechada</string>
+    <string name="content_description_expanded">Aberta</string>
     <string name="content_description_sliding_handle">Recurso deslizante. Toque e segure.</string>
     <string name="conversation_single_line_image_placeholder">enviou uma imagem</string>
     <string name="conversation_single_line_name_display">%1$s:</string>
@@ -450,11 +467,11 @@ usando %s"</string>
     <string name="crossSimFormat_spn_cross_sim_calling">Chamadas alternativas da %s</string>
     <string name="csd_dose_reached_warning">"Continuar ouvindo em volume alto?
 
-O volume dos fones de ouvido está alto há mais tempo que o recomendado. Isso pode causar danos à audição"</string>
+O volume dos fones de ouvido está alto há mais tempo que o recomendado. Isso pode causar danos à audição."</string>
     <string name="csd_momentary_exposure_warning">"Som alto detectado
 
-O volume dos fones de ouvido está mais alto que o recomendado. Isso pode causar danos à audição"</string>
-    <string name="data_saver_description">Para ajudar a reduzir o uso de dados, a Economia de dados impede que alguns apps enviem ou recebam dados em segundo plano. Um app que você está usando no momento pode acessar dados, mas com menos frequência. Isso pode fazer com que imagens não apareçam até você tocar nelas.</string>
+O volume dos fones de ouvido está mais alto que o recomendado. Isso pode causar danos à audição."</string>
+    <string name="data_saver_description">Para ajudar a reduzir o uso de dados, a Economia de dados impede que alguns apps enviem ou recebam dados em segundo plano. Um app que você esteja usando em determinado momento pode acessar dados, mas com menos frequência. Isso pode fazer com que imagens não apareçam até você tocar nelas.</string>
     <string name="data_saver_enable_button">Ativar</string>
     <string name="data_saver_enable_title">Ativar a Economia de dados?</string>
     <string name="data_usage_limit_body">Uso de dados pausado pelo restante do seu ciclo</string>
@@ -463,7 +480,7 @@ O volume dos fones de ouvido está mais alto que o recomendado. Isso pode causar
     <string name="data_usage_mobile_limit_title">Limite de dados móveis atingido</string>
     <string name="data_usage_rapid_app_body">O app %s usou mais dados do que o normal</string>
     <string name="data_usage_rapid_body">Seus apps usaram mais dados do que o normal</string>
-    <string name="data_usage_rapid_title">Alto uso de dados móveis</string>
+    <string name="data_usage_rapid_title">Uso elevado de dados móveis</string>
     <string name="data_usage_restricted_body">Toque para remover a restrição.</string>
     <string name="data_usage_restricted_title">Dados de segundo plano restritos</string>
     <string name="data_usage_warning_body">Você usou %s de dados</string>
@@ -508,6 +525,7 @@ O volume dos fones de ouvido está mais alto que o recomendado. Isso pode causar
     <string name="device_state_notification_settings_button">Ir para Configurações</string>
     <string name="device_state_notification_turn_off_button">Desligar</string>
     <string name="device_storage_monitor_notification_channel">Armazenamento do dispositivo</string>
+    <string name="device_unlock_notification_name">Desbloqueio do dispositivo</string>
     <string name="dial_number_using">"Discar número
 usando %s"</string>
     <string name="disable_accessibility_shortcut">Desativar atalho</string>
@@ -522,6 +540,7 @@ usando %s"</string>
     <string name="dlg_ok">OK</string>
     <string name="done_accessibility_shortcut_menu_button">Concluído</string>
     <string name="done_label">Concluído</string>
+    <string name="dream_accessibility_action_click">dispensar</string>
     <string name="dream_preview_title">Visualização, %1$s</string>
     <string name="dump_heap_notification">%1$s excedeu o limite de memória</string>
     <string name="dump_heap_notification_detail">O despejo de heap foi coletado. Toque para compartilhar.</string>
@@ -548,7 +567,9 @@ usando %s"</string>
     <string name="duration_years_shortest_future">em %da</string>
     <string name="dynamic_mode_notification_channel_name">Notificação de informação do modo rotina</string>
     <string name="dynamic_mode_notification_summary">Reduzindo o uso da bateria para prolongar a duração dela</string>
+    <string name="dynamic_mode_notification_summary_v2">A Economia de bateria está ativada para prolongar a duração da carga</string>
     <string name="dynamic_mode_notification_title">Economia de bateria ativada</string>
+    <string name="dynamic_mode_notification_title_v2">A Economia de bateria está ativada</string>
     <string name="editTextMenuTitle">Ações de texto</string>
     <string name="edit_accessibility_shortcut_menu_button">Editar atalhos</string>
     <string name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
@@ -563,6 +584,8 @@ usando %s"</string>
     <string name="enablePin">Falha. Ative o bloqueio do chip/R-UIM.</string>
     <string name="enable_explore_by_touch_warning_message">%1$s quer ativar o Explorar por toque. Com ele, você pode ouvir ou ver descrições do que está sob seu dedo e interagir com o telefone por gestos.</string>
     <string name="enable_explore_by_touch_warning_title">Ativar o Explorar por toque?</string>
+    <string name="error_handwriting_unsupported">Não há suporte para escrita à mão neste campo</string>
+    <string name="error_handwriting_unsupported_password">Não há suporte para escrita à mão em campos de senha</string>
     <string name="error_message_change_not_allowed">Esta alteração não é permitida pelo administrador</string>
     <string name="error_message_title">Erro</string>
     <string name="etws_primary_default_message_earthquake">Fique calmo e procure um abrigo por perto.</string>
@@ -619,7 +642,7 @@ usando %s"</string>
     <string name="extract_edit_menu_button">Editar</string>
     <string name="face_acquired_dark_glasses_detected_alt">Óculos escuros detectados. Seu rosto precisa estar completamente visível.</string>
     <string name="face_acquired_insufficient">Falha ao criar o modelo de rosto. Tente de novo.</string>
-    <string name="face_acquired_mouth_covering_detected_alt">Máscara detectada. Seu rosto precisa estar visível.</string>
+    <string name="face_acquired_mouth_covering_detected_alt">Tem algo cobrindo seu rosto. Ele precisa estar visível.</string>
     <string name="face_acquired_not_detected">Rosto não detectado. Segure o smartphone na altura dos olhos.</string>
     <string name="face_acquired_obscured">Tire tudo que possa esconder seu rosto.</string>
     <string name="face_acquired_pan_too_extreme">Olhe diretamente para o smartphone</string>
@@ -632,7 +655,7 @@ usando %s"</string>
     <string name="face_acquired_too_bright">Muito iluminado. Diminua a iluminação.</string>
     <string name="face_acquired_too_close">Afaste o smartphone</string>
     <string name="face_acquired_too_dark">Não há luz suficiente</string>
-    <string name="face_acquired_too_different">Não foi possível reconhecer o rosto. Tente de novo.</string>
+    <string name="face_acquired_too_different">Rosto não reconhecido. Tente de novo.</string>
     <string name="face_acquired_too_far">Aproxime o smartphone do seu rosto</string>
     <string name="face_acquired_too_high">Mova o smartphone para cima</string>
     <string name="face_acquired_too_left">Mova o smartphone para a direita</string>
@@ -643,6 +666,8 @@ usando %s"</string>
     <string name="face_app_setting_name">Usar o Desbloqueio facial</string>
     <string name="face_authenticated_confirmation_required">Rosto autenticado, pressione \"Confirmar\"</string>
     <string name="face_authenticated_no_confirmation_required">Rosto autenticado</string>
+    <string name="face_dangling_notification_msg">Seu modelo de rosto não é mais reconhecido. Configure o \"Desbloqueio facial\" de novo.</string>
+    <string name="face_dangling_notification_title">Configure o Desbloqueio facial de novo</string>
     <string name="face_dialog_default_subtitle">Use seu rosto para continuar</string>
     <string name="face_error_canceled">Operação facial cancelada.</string>
     <string name="face_error_hw_not_available">Impossível verificar rosto. Hardware indisponível.</string>
@@ -665,8 +690,6 @@ usando %s"</string>
     <string name="face_recalibrate_notification_name">Desbloqueio facial</string>
     <string name="face_recalibrate_notification_title">Problema com o Desbloqueio facial</string>
     <string name="face_sensor_privacy_enabled">Para usar o Desbloqueio facial, ative o <b>acesso à câmera</b> em Configurações > Privacidade</string>
-    <string name="face_setup_notification_content">Desbloqueie o smartphone olhando para ele</string>
-    <string name="face_setup_notification_title">Configurar o Desbloqueio facial</string>
     <string name="faceunlock_multiple_failures">O número máximo de tentativas de desbloqueio por reconhecimento facial foi excedido</string>
     <string name="factory_reset_message">"Não é possível usar o aplicativo para administrador. Seu dispositivo passará por uma limpeza agora.
 
@@ -700,21 +723,27 @@ Em caso de dúvidas, entre em contato com o administrador da sua organização."
     <string name="fingerprint_acquired_try_adjusting">Ajuste a posição do dedo</string>
     <string name="fingerprint_app_setting_name">Usar impressão digital</string>
     <string name="fingerprint_authenticated">Impressão digital autenticada</string>
+    <string name="fingerprint_dangling_notification_msg_1">A impressão digital %s não é mais reconhecida.</string>
+    <string name="fingerprint_dangling_notification_msg_2">As impressões digitais %1$s e %2$s não são mais reconhecidas.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_1">A impressão digital %s não é mais reconhecida. Configure o \"Desbloqueio por impressão digital\" de novo.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_2">As impressões digitais %1$s e %2$s não são mais reconhecidas. Configure o \"Desbloqueio por impressão digital\" de novo.</string>
+    <string name="fingerprint_dangling_notification_title">Configurar o Desbloqueio por impressão digital de novo</string>
     <string name="fingerprint_dialog_default_subtitle">Use sua impressão digital para continuar</string>
-    <string name="fingerprint_error_bad_calibration">Não foi possível usar o sensor de impressão digital. Entre em contato com uma assistência técnica</string>
-    <string name="fingerprint_error_canceled">Operação de impressão digital cancelada.</string>
-    <string name="fingerprint_error_hw_not_available">Hardware de impressão digital não disponível.</string>
-    <string name="fingerprint_error_hw_not_present">Este dispositivo não tem um sensor de impressão digital.</string>
+    <string name="fingerprint_dialog_use_fingerprint_instead">Rosto não reconhecido. Use a impressão digital.</string>
+    <string name="fingerprint_error_bad_calibration">Não foi possível usar o sensor de impressão digital. Entre em contato com uma assistência técnica.</string>
+    <string name="fingerprint_error_canceled">Operação de impressão digital cancelada</string>
+    <string name="fingerprint_error_hw_not_available">Hardware de impressão digital indisponível</string>
+    <string name="fingerprint_error_hw_not_present">Este dispositivo não tem um sensor de impressão digital</string>
     <string name="fingerprint_error_lockout">Excesso de tentativas. Use o bloqueio de tela.</string>
     <string name="fingerprint_error_lockout_permanent">Excesso de tentativas. Use o bloqueio de tela.</string>
-    <string name="fingerprint_error_no_fingerprints">Nenhuma impressão digital registrada.</string>
+    <string name="fingerprint_error_no_fingerprints">Nenhuma impressão digital registrada</string>
     <string name="fingerprint_error_no_space">Não foi possível configurar a impressão digital</string>
     <string name="fingerprint_error_not_match">Impressão digital não reconhecida</string>
     <string name="fingerprint_error_power_pressed">Botão liga/desliga pressionado</string>
-    <string name="fingerprint_error_security_update_required">Sensor desativado temporariamente.</string>
+    <string name="fingerprint_error_security_update_required">Sensor desativado temporariamente</string>
     <string name="fingerprint_error_timeout">Tempo de configuração esgotado. Tente de novo.</string>
     <string name="fingerprint_error_unable_to_process">Não foi possível processar a impressão digital. Tente de novo.</string>
-    <string name="fingerprint_error_user_canceled">Operação de impressão digital cancelada pelo usuário.</string>
+    <string name="fingerprint_error_user_canceled">Operação de impressão digital cancelada pelo usuário</string>
     <string name="fingerprint_error_vendor_unknown">Algo deu errado. Tente de novo.</string>
     <string name="fingerprint_name_template">Dedo %d</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">Usar impressão digital ou bloqueio de tela</string>
@@ -722,8 +751,6 @@ Em caso de dúvidas, entre em contato com o administrador da sua organização."
     <string name="fingerprint_recalibrate_notification_content">Entre em contato com uma assistência técnica.</string>
     <string name="fingerprint_recalibrate_notification_name">Desbloqueio por impressão digital</string>
     <string name="fingerprint_recalibrate_notification_title">Não foi possível usar o sensor de impressão digital</string>
-    <string name="fingerprint_setup_notification_content">Toque para adicionar uma impressão digital</string>
-    <string name="fingerprint_setup_notification_title">Configure mais formas de desbloquear a tela</string>
     <string name="fingerprint_udfps_error_not_match">Impressão digital não reconhecida</string>
     <string name="fingerprints">Impressões digitais</string>
     <string name="floating_toolbar_close_overflow_description">Fechar menu flutuante</string>
@@ -782,7 +809,7 @@ Toque levemente na tela durante a configuração da impressão digital."</string
     <string name="granularity_label_link">link</string>
     <string name="granularity_label_word">palavra</string>
     <string name="guest_name">Visitante</string>
-    <string name="hardware">Mostrar teclado virtual</string>
+    <string name="hardware">Usar teclado na tela</string>
     <string name="harmful_app_warning_open_anyway">ABRIR MESMO ASSIM</string>
     <string name="harmful_app_warning_title">App nocivo detectado</string>
     <string name="harmful_app_warning_uninstall">DESINSTALAR</string>
@@ -830,7 +857,7 @@ Toque levemente na tela durante a configuração da impressão digital."</string
     <string name="ime_action_search">Pesquisar</string>
     <string name="ime_action_send">Enviar</string>
     <string name="imei">IMEI</string>
-    <string name="immersive_cling_description">Para sair, deslize de cima para baixo.</string>
+    <string name="immersive_cling_description">Para sair, deslize de cima para baixo na tela</string>
     <string name="immersive_cling_positive">Entendi</string>
     <string name="immersive_cling_title">Visualização em tela cheia</string>
     <string name="importance_from_person">Isso é importante por causa das pessoas envolvidas.</string>
@@ -840,9 +867,9 @@ Toque levemente na tela durante a configuração da impressão digital."</string
     <string name="input_method_binding_label">Método de entrada</string>
     <string name="input_method_ime_switch_button_desc">Mudar o método de entrada</string>
     <string name="input_method_nav_back_button_desc">Voltar</string>
-    <string name="install_carrier_app_notification_button">Fazer download do app</string>
-    <string name="install_carrier_app_notification_text">Faça o download do app da operadora para ativar seu novo chip</string>
-    <string name="install_carrier_app_notification_text_app_name">Faça o download do app %1$s para ativar seu novo chip</string>
+    <string name="install_carrier_app_notification_button">Baixar o app</string>
+    <string name="install_carrier_app_notification_text">Baixe o app da operadora para ativar seu novo chip</string>
+    <string name="install_carrier_app_notification_text_app_name">Baixe o app %1$s para ativar seu novo chip</string>
     <string name="install_carrier_app_notification_title">Ativar serviço móvel</string>
     <string name="invalidPin">Digite um PIN com 4 a 8 números.</string>
     <string name="invalidPuk">Digite um PUK com oito números ou mais.</string>
@@ -1193,6 +1220,8 @@ Tente novamente em %2$d segundos."</string>
     <string name="miniresolver_open_in_personal">Abrir no app %s do perfil pessoal?</string>
     <string name="miniresolver_open_in_work">Abrir no app %s do perfil de trabalho?</string>
     <string name="miniresolver_open_work">Abrir %s do perfil de trabalho?</string>
+    <string name="miniresolver_private_space_messages_information">É possível enviar mensagens SMS apenas usando seu app Mensagens pessoal.</string>
+    <string name="miniresolver_private_space_phone_information">É possível fazer ligações apenas usando seu app Telefone pessoal. Essas ligações telefônicas serão adicionadas ao seu histórico pessoal.</string>
     <string name="miniresolver_sms_information">Sua organização só permite o envio de mensagens usando apps de trabalho</string>
     <string name="miniresolver_switch">Trocar</string>
     <string name="miniresolver_switch_to_work">Trocar para o app de trabalho?</string>
@@ -1271,6 +1300,7 @@ As notificações avançadas podem acessar o conteúdo das notificações, inclu
     <string name="notification_channel_developer">Mensagens do desenvolvedor</string>
     <string name="notification_channel_developer_important">Mensagens importantes do desenvolvedor</string>
     <string name="notification_channel_device_admin">Alertas do administrador de TI</string>
+    <string name="notification_channel_display">Tela</string>
     <string name="notification_channel_do_not_disturb">Não perturbe</string>
     <string name="notification_channel_emergency_callback">Modo de retorno de chamada de emergência</string>
     <string name="notification_channel_foreground_service">Apps que estão consumindo a bateria</string>
@@ -1292,6 +1322,7 @@ As notificações avançadas podem acessar o conteúdo das notificações, inclu
     <string name="notification_channel_voice_mail">Mensagens do correio de voz</string>
     <string name="notification_channel_vpn">Status de VPN</string>
     <string name="notification_channel_wfc">Chamadas por Wi-Fi</string>
+    <string name="notification_compact_heads_up_reply">Responder</string>
     <string name="notification_content_abusive_bg_apps">O app %1$s está sendo executado em segundo plano. Toque para gerenciar o uso da bateria.</string>
     <string name="notification_content_long_running_fgs">O app %1$s pode afetar a duração da bateria. Toque para revisar os apps ativos.</string>
     <string name="notification_feedback_indicator">Enviar feedback</string>
@@ -1319,7 +1350,7 @@ As notificações avançadas podem acessar o conteúdo das notificações, inclu
     <string name="old_app_action">Voltar para o app %1$s</string>
     <string name="older">Mais antigos</string>
     <string name="oneMonthDurationPast">1 mês atrás</string>
-    <string name="one_handed_mode_feature_name">Modo para uma mão</string>
+    <string name="one_handed_mode_feature_name">Modo uma mão</string>
     <string name="orgTypeCustom">Personalizado</string>
     <string name="orgTypeOther">Outros</string>
     <string name="orgTypeWork">Comercial</string>
@@ -1328,7 +1359,8 @@ As notificações avançadas podem acessar o conteúdo das notificações, inclu
     <string name="other_networks_no_internet">A rede não tem acesso à Internet</string>
     <string name="owner_name">Proprietário</string>
     <string name="package_deleted_device_owner">Excluído pelo seu administrador</string>
-    <string name="package_installed_device_owner">Instalado pelo seu administrador</string>
+    <string name="package_installed_device_owner">"Instalado pelo administrador.
+Acesse as configurações para conferir as permissões concedidas"</string>
     <string name="package_updated_device_owner">Atualizado pelo seu administrador</string>
     <string name="passwordIncorrect">Senha incorreta.</string>
     <string name="password_keyboard_label_alpha_key">ABC</string>
@@ -1345,7 +1377,9 @@ As notificações avançadas podem acessar o conteúdo das notificações, inclu
     <string name="permdesc_accessCoarseLocation">Esse app poderá acessar sua localização aproximada com os Serviços de localização enquanto estiver sendo usado. Os Serviços de localização do dispositivo precisam estar ativados para que o app possa acessar o local.</string>
     <string name="permdesc_accessDrmCertificates">Permite que o app provisione e use certificados de DRM. Não deve ser necessário para apps comuns.</string>
     <string name="permdesc_accessFineLocation">Esse app poderá acessar seu local exato com os Serviços de localização enquanto estiver sendo usado. Os Serviços de localização do dispositivo precisam estar ativados para que o app possa acessar o local. Isso pode aumentar o uso da bateria.</string>
+    <string name="permdesc_accessHiddenProfile">Permite que o app acesse perfis ocultos</string>
     <string name="permdesc_accessImsCallService">Permite que o app use o serviço de mensagens instantâneas para fazer chamadas sem sua intervenção.</string>
+    <string name="permdesc_accessLastKnownCellId">Permite que um app acesse a última identidade de celular conhecida fornecida pela telefonia.</string>
     <string name="permdesc_accessLocationExtraCommands">Permite que o app acesse comandos do provedor não relacionados à localização. Isso pode permitir que o app interfira no funcionamento do GPS ou de outras fontes de localização.</string>
     <string name="permdesc_accessNetworkConditions">Permite que o app detecte observações nas condições da rede. Não deve ser necessário para apps comuns.</string>
     <string name="permdesc_accessNetworkState">Permite que o app acesse informações sobre conexões de rede, como as redes existentes e conectadas.</string>
@@ -1377,6 +1411,7 @@ As notificações avançadas podem acessar o conteúdo das notificações, inclu
     <string name="permdesc_callCompanionApp">Permite que o app veja e controle chamadas em andamento no dispositivo. Isso inclui informações como número e estado das chamadas.</string>
     <string name="permdesc_callPhone">Permite que o app faça ligações para números de telefone sem a sua intervenção. Ligações ou cobranças inesperadas podem acontecer. Isso não permite que o app ligue para números de emergência. Você pode receber cobranças indesejadas de ligações feitas por apps maliciosos sem a sua confirmação. Além disso, esses apps podem discar códigos de operadora que automaticamente encaminham ligações recebidas para outro número.</string>
     <string name="permdesc_camera">Enquanto está sendo usado, este app pode tirar fotos e gravar vídeos usando a câmera.</string>
+    <string name="permdesc_cameraHeadlessSystemUser">Este app pode acessar a câmera como um usuário do sistema headless.</string>
     <string name="permdesc_cameraOpenCloseListener">Esse app pode receber callbacks quando um dispositivo de câmera é aberto (por qualquer app) ou fechado.</string>
     <string name="permdesc_changeNetworkState">Permite que o app altere o estado de conectividade de rede.</string>
     <string name="permdesc_changeTetherState">Permite que o app altere o estado de conectividade de rede conectada.</string>
@@ -1401,6 +1436,7 @@ As notificações avançadas podem acessar o conteúdo das notificações, inclu
     <string name="permdesc_foregroundServiceHealth">Permite que o app use serviços em primeiro plano com o tipo \"health\"</string>
     <string name="permdesc_foregroundServiceLocation">Permite que o app use serviços em primeiro plano com o tipo \"location\"</string>
     <string name="permdesc_foregroundServiceMediaPlayback">Permite que o app use serviços em primeiro plano com o tipo \"mediaPlayback\"</string>
+    <string name="permdesc_foregroundServiceMediaProcessing">Permite que o app use serviços em primeiro plano com o tipo \"mediaProcessing\"</string>
     <string name="permdesc_foregroundServiceMediaProjection">Permite que o app use serviços em primeiro plano com o tipo \"mediaProjection\"</string>
     <string name="permdesc_foregroundServiceMicrophone">Permite que o app use serviços em primeiro plano com o tipo \"microphone\"</string>
     <string name="permdesc_foregroundServicePhoneCall">Permite que o app use serviços em primeiro plano com o tipo \"phoneCall\"</string>
@@ -1428,6 +1464,7 @@ As notificações avançadas podem acessar o conteúdo das notificações, inclu
     <string name="permdesc_modifyNetworkAccounting">Permite que o app modifique como o uso da rede é contabilizado em relação aos apps. Não deve ser usado em apps normais.</string>
     <string name="permdesc_nearby_wifi_devices">Permite que o app divulgue, faça conexão e determine a posição relativa de dispositivos Wi-Fi por perto.</string>
     <string name="permdesc_nfc">Permite que o app se comunique com leitores, cartões e etiqueta NFC (comunicação a curta distância).</string>
+    <string name="permdesc_nfcTransactionEvent">Permite que o app receba informações sobre transações que ocorrem em um Elemento de segurança.</string>
     <string name="permdesc_observeCompanionDevicePresence">Permite que um app complementar observe a presença do dispositivo complementar quando os dispositivos estiverem próximos ou distantes.</string>
     <string name="permdesc_persistentActivity">Permite que o app torne partes de si mesmo persistentes na memória. Pode limitar a memória disponível para outros apps, deixando o telefone mais lento.</string>
     <string name="permdesc_postNotification">Permite que o app mostre notificações</string>
@@ -1471,7 +1508,7 @@ As notificações avançadas podem acessar o conteúdo das notificações, inclu
     <string name="permdesc_sdcardWrite">Permite que o app grave o conteúdo do armaz. compartilhado.</string>
     <string name="permdesc_sendSms">Permite que o app envie mensagens SMS. Isso pode resultar em cobranças inesperadas. Apps maliciosos podem gerar custos através do envio de mensagens sem sua confirmação.</string>
     <string name="permdesc_setAlarm">Permite que o app defina um alarme em um app despertador instalado. Alguns apps despertador podem não implementar este recurso.</string>
-    <string name="permdesc_setInputCalibration">Permite que o app modifique os parâmetros de calibragem da tela sensível ao toque. Não deve ser necessário para apps normais.</string>
+    <string name="permdesc_setInputCalibration">Permite que o app modifique os parâmetros de calibragem da tela touch. Não deve ser necessário para apps normais.</string>
     <string name="permdesc_setTimeZone">Permite que o app altera o fuso horário do telefone.</string>
     <string name="permdesc_setWallpaper">Permite que o app defina o plano de fundo do sistema.</string>
     <string name="permdesc_setWallpaperHints">Permite que o app defina as dicas de tamanho do plano de fundo do sistema.</string>
@@ -1504,6 +1541,7 @@ As notificações avançadas podem acessar o conteúdo das notificações, inclu
     <string name="permdesc_writeContacts">Permite que o app modifique os dados sobre os contatos armazenados no smartphone. Essa permissão autoriza os apps a excluírem dados de contato.</string>
     <string name="permdesc_writeSettings">Permite que o app modifique os dados das configurações do sistema. Apps maliciosos podem corromper a configuração de seu sistema.</string>
     <string name="permdesc_writeSyncSettings">Permite que o app modifique as configurações de sincronização de uma conta. Por exemplo, pode ser usado para ativar a sincronização do app People com uma conta.</string>
+    <string name="permdesc_writeVerificationStateE2eeContactKeys">Permite que o app atualize os estados de verificação de chaves de contato protegidas por criptografia de ponta a ponta (E2EE) pertencentes a outros apps</string>
     <string name="permgroupdesc_activityRecognition">acessar sua atividade física</string>
     <string name="permgroupdesc_calendar">acesse sua agenda</string>
     <string name="permgroupdesc_calllog">ler e gravar o registro de chamadas telefônicas</string>
@@ -1544,7 +1582,9 @@ para a conta %s."</string>
     <string name="permlab_accessCoarseLocation">acessar local aproximado apenas em primeiro plano</string>
     <string name="permlab_accessDrmCertificates">acessar certificados de DRM</string>
     <string name="permlab_accessFineLocation">acessar local exato apenas em primeiro plano</string>
+    <string name="permlab_accessHiddenProfile">Acessar perfis ocultos</string>
     <string name="permlab_accessImsCallService">acessar serviço de mensagens instantâneas para chamadas</string>
+    <string name="permlab_accessLastKnownCellId">Acessar a última identidade conhecida do celular</string>
     <string name="permlab_accessLocationExtraCommands">acessar comandos extras do provedor de localização</string>
     <string name="permlab_accessNetworkConditions">detectar observações nas condições da rede</string>
     <string name="permlab_accessNetworkState">ver conexões de rede</string>
@@ -1576,6 +1616,7 @@ para a conta %s."</string>
     <string name="permlab_callCompanionApp">ver e controlar chamadas pelo sistema.</string>
     <string name="permlab_callPhone">ligar diretamente para números de telefone</string>
     <string name="permlab_camera">tirar fotos e gravar vídeos</string>
+    <string name="permlab_cameraHeadlessSystemUser">Permitir que um aplicativo ou serviço acesse a câmera como usuário do sistema headless.</string>
     <string name="permlab_cameraOpenCloseListener">Permitir que um aplicativo ou serviço receba callbacks sobre dispositivos de câmera sendo abertos ou fechados.</string>
     <string name="permlab_changeNetworkState">alterar conectividade da rede</string>
     <string name="permlab_changeTetherState">alterar conectividade vinculada</string>
@@ -1600,6 +1641,7 @@ para a conta %s."</string>
     <string name="permlab_foregroundServiceHealth">executar serviços em primeiro plano com o tipo \"health\"</string>
     <string name="permlab_foregroundServiceLocation">executar serviços em primeiro plano com o tipo \"location\"</string>
     <string name="permlab_foregroundServiceMediaPlayback">executar serviços em primeiro plano com o tipo \"mediaPlayback\"</string>
+    <string name="permlab_foregroundServiceMediaProcessing">executar serviços em primeiro plano com o tipo \"mediaProcessing\"</string>
     <string name="permlab_foregroundServiceMediaProjection">executar serviços em primeiro plano com o tipo \"mediaProjection\"</string>
     <string name="permlab_foregroundServiceMicrophone">executar serviços em primeiro plano com o tipo \"microphone\"</string>
     <string name="permlab_foregroundServicePhoneCall">executar serviços em primeiro plano com o tipo \"phoneCall\"</string>
@@ -1627,6 +1669,7 @@ para a conta %s."</string>
     <string name="permlab_modifyNetworkAccounting">modificar contagem de uso da rede</string>
     <string name="permlab_nearby_wifi_devices">interagir com dispositivos Wi-Fi por perto</string>
     <string name="permlab_nfc">controlar a comunicação a curta distância</string>
+    <string name="permlab_nfcTransactionEvent">Evento de transação do Elemento de segurança</string>
     <string name="permlab_observeCompanionDevicePresence">Observar a presença do dispositivo complementar</string>
     <string name="permlab_persistentActivity">sempre executar o app</string>
     <string name="permlab_postNotification">mostrar notificações</string>
@@ -1702,6 +1745,7 @@ para a conta %s."</string>
     <string name="permlab_writeContacts">modificar seus contatos</string>
     <string name="permlab_writeSettings">modificar configurações do sistema</string>
     <string name="permlab_writeSyncSettings">ativar e desativar sincronização</string>
+    <string name="permlab_writeVerificationStateE2eeContactKeys">atualizar as chaves de contato protegidas por criptografia de ponta a ponta (E2EE) pertencentes a outros apps</string>
     <string name="perms_description_app">Fornecido por %1$s.</string>
     <string name="perms_new_perm_prefix"><font fgcolor="#ff33b5e5" size="12">NOVO: </font></string>
     <string name="personal_apps_suspended_turn_profile_on">Ativar</string>
@@ -1769,9 +1813,21 @@ para a conta %s."</string>
     <string name="print_service_installed_title">Serviço %s instalado</string>
     <string name="printing_disabled_by">Impressão desativada por %s.</string>
     <string name="private_dns_broken_detailed">Não é possível acessar o servidor DNS privado</string>
+    <string name="private_profile_label_badge">%1$s particular</string>
+    <string name="private_space_biometric_prompt_title">Espaço privado</string>
+    <string name="private_space_deleted_by_admin">Espaço privado removido</string>
+    <string name="private_space_deleted_by_admin_details">Sua organização não permite espaços privados neste dispositivo gerenciado.</string>
+    <string name="private_space_set_up_screen_lock_message">Para usar o espaço privado, defina um bloqueio de tela neste dispositivo</string>
     <string name="profile_encrypted_detail">Perfil de trabalho bloqueado</string>
     <string name="profile_encrypted_message">Toque p/ desbl. perfil de trab.</string>
     <string name="profile_encrypted_title">Algumas funções são limitadas</string>
+    <string name="profile_label_clone">Clone</string>
+    <string name="profile_label_communal">Público</string>
+    <string name="profile_label_private">Privado</string>
+    <string name="profile_label_test">Teste</string>
+    <string name="profile_label_work">Trabalho</string>
+    <string name="profile_label_work_2">Trabalho 2</string>
+    <string name="profile_label_work_3">Trabalho 3</string>
     <string name="progress_erasing">Limpando armazenamento compartilhado…</string>
     <string name="quick_contacts_not_available">Nenhum app encontrado para visualizar este contato.</string>
     <string name="rating_label">{rating,plural, =1{1 de {max} estrelas}one{# de {max} estrelas}many{# de {max} estrelas}other{# de {max} estrelas}}</string>
@@ -1786,8 +1842,10 @@ para a conta %s."</string>
     <string name="reboot_to_update_reboot">Reiniciando...</string>
     <string name="reboot_to_update_title">Atualização do sistema Android</string>
     <string name="recent_tasks_title">Recente</string>
+    <string name="redacted_notification_action_title" />
+    <string name="redacted_notification_message">Conteúdo de notificação sensível oculto</string>
     <string name="redo">Refazer</string>
-    <string name="reduce_bright_colors_feature_name">Escurecer a tela</string>
+    <string name="reduce_bright_colors_feature_name">Escurecer ainda mais a tela</string>
     <string name="region_picker_section_all">Todas as regiões</string>
     <string name="region_picker_section_suggested_bilingual">Regiões sugeridas</string>
     <string name="relationTypeAssistant">Assistente</string>
@@ -1862,15 +1920,37 @@ para a conta %s."</string>
     <string name="safe_media_volume_warning">"Aumentar o volume acima do nível recomendado?
 
 Ouvir em volume alto por longos períodos pode danificar sua audição."</string>
+    <string name="satellite_notification_how_it_works">Como funciona</string>
+    <string name="satellite_notification_open_message">Abrir o app Mensagens</string>
+    <string name="satellite_notification_summary">Você pode enviar e receber mensagens sem um dispositivo móvel ou uma rede Wi-Fi</string>
+    <string name="satellite_notification_title">Conectado automaticamente ao satélite</string>
+    <string name="scCellularNetworkSecuritySummary">Criptografia, notificações para redes não criptografadas</string>
+    <string name="scCellularNetworkSecurityTitle">Segurança de rede móvel</string>
+    <string name="scIdentifierDisclosureIssueSummary">"Às %1$s, uma rede próxima registrou o ID exclusivo do seu dispositivo (IMSI ou IMEI) usando seu chip da %2$s.
+
+Isso significa que sua localização, atividade ou identidade foram registradas. Essa é uma prática comum, mas pode ser um problema para pessoas preocupadas com a privacidade."</string>
+    <string name="scIdentifierDisclosureIssueSummaryNotification">Às %1$s, uma rede próxima registrou o ID exclusivo do seu dispositivo (IMSI ou IMEI) enquanto usava seu chip da %2$s</string>
+    <string name="scIdentifierDisclosureIssueTitle">ID do dispositivo acessado</string>
+    <string name="scNullCipherIssueActionGotIt">Entendi</string>
+    <string name="scNullCipherIssueActionLearnMore">Saiba mais</string>
+    <string name="scNullCipherIssueActionSettings">Configurações de segurança da rede móvel</string>
+    <string name="scNullCipherIssueEncryptedSummary">A conexão do chip da %1$s está mais segura agora</string>
+    <string name="scNullCipherIssueEncryptedTitle">Conectado à rede criptografada %1$s</string>
+    <string name="scNullCipherIssueNonEncryptedSummary">"Ligações, mensagens e dados estão mais vulneráveis no momento ao usar seu chip da %1$s.
+
+Quando a conexão for criptografada novamente, você vai receber outra notificação."</string>
+    <string name="scNullCipherIssueNonEncryptedSummaryNotification">Suas ligações, mensagens e dados estão mais vulneráveis no momento ao usar seu chip da %1$s</string>
+    <string name="scNullCipherIssueNonEncryptedTitle">Conectado à rede não criptografada</string>
     <string name="screen_compat_mode_hint">Reativar isso em Configurações do sistema > Apps > Transferidos.</string>
     <string name="screen_compat_mode_scale">Escala</string>
     <string name="screen_compat_mode_show">Mostrar sempre</string>
     <string name="screen_lock">Bloquear tela</string>
     <string name="screen_lock_app_setting_name">Usar bloqueio de tela</string>
     <string name="screen_lock_dialog_default_subtitle">Insira seu bloqueio de tela para continuar</string>
+    <string name="screen_not_shared_sensitive_content">Conteúdo oculto no compartilhamento de tela por segurança</string>
     <string name="screenshot_edit">Editar</string>
     <string name="search_hint">Pesquisar...</string>
-    <string name="search_language_hint">Digitar nome do idioma</string>
+    <string name="search_language_hint">Digite o nome do idioma</string>
     <string name="searchview_description_clear">Limpar consulta</string>
     <string name="searchview_description_query">Consulta de pesquisa</string>
     <string name="searchview_description_search">Pesquisar</string>
@@ -1911,6 +1991,8 @@ Ouvir em volume alto por longos períodos pode danificar sua audição."</string
     <string name="serviceErased">Exclusão bem-sucedida.</string>
     <string name="serviceNotProvisioned">O serviço não foi habilitado.</string>
     <string name="serviceRegistered">Registro bem-sucedido.</string>
+    <string name="set_up_screen_lock_action_label">Definir bloqueio de tela</string>
+    <string name="set_up_screen_lock_title">Defina um bloqueio de tela</string>
     <string name="sha1_fingerprint">Impressão digital SHA-1</string>
     <string name="sha256_fingerprint">Impressão digital SHA-256</string>
     <string name="share">Compartilhar</string>
@@ -2028,6 +2110,7 @@ Ouvir em volume alto por longos períodos pode danificar sua audição."</string
     <string name="twilight_service">Serviço de crepúsculo</string>
     <string name="ui_translation_accessibility_translated_text">Mensagem \"%1$s\" traduzida.</string>
     <string name="ui_translation_accessibility_translation_finished">Mensagem traduzida do %1$s para o %2$s.</string>
+    <string name="unarchival_session_app_label">Pendente…</string>
     <string name="undo">Desfazer</string>
     <string name="unpin_specific_target">Liberar %1$s</string>
     <string name="unpin_target">Liberar guia</string>
@@ -2039,7 +2122,7 @@ Ouvir em volume alto por longos períodos pode danificar sua audição."</string
     <string name="unsupported_display_size_show">Mostrar sempre</string>
     <string name="upload_file">Escolher arquivo</string>
     <string name="usb_accessory_notification_title">Acessório USB conectado</string>
-    <string name="usb_charging_notification_title">Carregando este dispositivo via USB</string>
+    <string name="usb_charging_notification_title">Carregar dispositivo via USB</string>
     <string name="usb_contaminant_detected_message">A porta USB é desativada automaticamente. Toque para saber mais.</string>
     <string name="usb_contaminant_detected_title">Líquido ou detrito na porta USB</string>
     <string name="usb_contaminant_not_detected_message">Não há mais líquidos ou detritos detectados no smartphone.</string>
@@ -2124,7 +2207,7 @@ Quer fechá-la?"</string>
     <string name="wfc_mode_cellular_preferred_summary">Chamar via rede móvel</string>
     <string name="wfc_mode_wifi_only_summary">Somente Wi-Fi</string>
     <string name="wfc_mode_wifi_preferred_summary">Chamar via Wi-Fi</string>
-    <string name="whichApplication">Complete a ação usando</string>
+    <string name="whichApplication">Concluir a ação usando</string>
     <string name="whichApplicationLabel">Concluir ação</string>
     <string name="whichApplicationNamed">Concluir a ação usando %1$s</string>
     <string name="whichEditApplication">Editar com</string>
@@ -2188,8 +2271,14 @@ Quer fechá-la?"</string>
     <string name="zen_mode_feature_name">Não perturbe</string>
     <string name="zen_mode_forever">Até você desativar</string>
     <string name="zen_mode_forever_dnd">Até que você desative \"Não perturbe\"</string>
+    <string name="zen_mode_implicit_activated">Ativada</string>
+    <string name="zen_mode_implicit_deactivated">Desativada</string>
+    <string name="zen_mode_implicit_trigger_description">Gerenciada pelo app %1$s</string>
     <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
-    <string name="zen_mode_until">Até às %1$s</string>
+    <string name="zen_mode_trigger_event_calendar_any">Qualquer agenda</string>
+    <string name="zen_mode_trigger_summary_divider_text">", "</string>
+    <string name="zen_mode_trigger_summary_range_symbol_combination">%1$s a %2$s</string>
+    <string name="zen_mode_until">Até %1$s</string>
     <string name="zen_mode_until_next_day">Até %1$s</string>
     <string name="zen_upgrade_notification_content">Toque para verificar o que está bloqueado.</string>
     <string name="zen_upgrade_notification_title">O modo \"Não perturbe\" foi alterado</string>

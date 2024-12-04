@@ -107,6 +107,13 @@
 "</string>
     <string name="access_control_need_to_unlock_nofingerprint">Inserisci la password di Blocco app</string>
     <string name="accessibility_gameboosterservice_description">Attiva per silenziare le chiamate WeChat quando stai giocando</string>
+    <string name="accessibility_keyboard_delete_button">Elimina</string>
+    <string name="accessibility_keyboard_letter_board_caps_lock_button">Blocco maiuscole</string>
+    <string name="accessibility_keyboard_letter_board_shift2number_button">Numeri</string>
+    <string name="accessibility_keyboard_letter_board_shift2symbol_button">Simboli</string>
+    <string name="accessibility_keyboard_ok_button">Invio</string>
+    <string name="accessibility_keyboard_symbol_board_shift2letter_button">Lettere</string>
+    <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Blocco simboli</string>
     <string name="action_button_text_100">Ottimizza</string>
     <string name="action_button_text_60">Risolvi</string>
     <string name="action_button_text_60_80">Risolvi</string>
@@ -138,6 +145,7 @@
     <string name="activity_title_virus_settings">Impostazioni</string>
     <string name="activity_title_white_list">Eccezioni</string>
     <string name="ad_btn_default_text">Scopri di più</string>
+    <string name="ad_flag_text">Annuncio</string>
     <string name="ad_floating_window_title">Chiudi la finestra a comparsa per sbloccare</string>
     <string name="ad_split_screen_title">Esci da Multischermo per sbloccare</string>
     <string name="ad_update_time">Ultimo aggiornamento %s</string>
@@ -181,6 +189,7 @@
     <string name="alert_back_milink_hangup_tips_content_vb">Quando lo schermo è spento, la app sarà in esecuzione in background senza interrompere la proiezione. Premi il tasto di accensione per riaccendere lo schermo.</string>
     <string name="all_address_choose_hint">Tutti i numeri in questa provincia</string>
     <string name="allow_all">Consenti tutto</string>
+    <string name="allow_device_id_access">"Seleziona le app che possono usare l'ID dispositivo"</string>
     <string name="allow_onetime">Consenti questa volta</string>
     <string name="already_close_gamebooster">Game Turbo disattivato</string>
     <string name="am">AM</string>
@@ -217,8 +226,8 @@
     <string name="antivirus_privacy_dialog_cloudscan">Carica i nomi e i dettagli delle applicazioni</string>
     <string name="antivirus_privacy_dialog_cloudscan_description">Per rilevare e neutralizzare i virus in modo più efficace, caricheremo i nomi e le proprietà dei pacchetti delle app per scansionarli utilizzando un motore cloud.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
-    <string name="antivirus_privacy_dialog_summary">"&lt;Data>Questa funzionalità è fornita da un motore antivirus di terze parti. Per saperne di più, leggi l'&lt;a href=\"%1$s\">Accordo di licenza&lt;/a> fornito dalla terza parte.&lt;/Data>"</string>
-    <string name="antivirus_privacy_dialog_summary_kddi">&lt;Data>Quando esegui una scansione di sicurezza, il modello del dispositivo e i risultati della scansione verranno caricati sui server di %1$s e utilizzati in conformità con i &lt;a href=\"%2$s\">Termini e condizioni&lt;/a> corrispondenti.&lt;br/>&lt;br/>Leggi e accetta i Termini e condizioni di %3$s prima di eseguire le scansioni di sicurezza.&lt;br/>&lt;br/>Se non accetti di caricare i dati sui server di %4$s, puoi comunque utilizzare le definizioni dei virus memorizzate sul tuo dispositivo&lt;/Data></string>
+    <string name="antivirus_privacy_dialog_summary"><Data>"Questa funzionalità è fornita da un motore antivirus di terze parti. Per saperne di più, leggi l'&lt;a href=\"%1$s\">Accordo di licenza&lt;/a> fornito dalla terza parte."</Data></string>
+    <string name="antivirus_privacy_dialog_summary_kddi"><Data>Quando esegui una scansione di sicurezza, il modello del dispositivo e i risultati della scansione verranno caricati sui server di %1$s e utilizzati in conformità con i &lt;a href=\"%2$s\">Termini e condizioni&lt;/a> corrispondenti.&lt;br/>&lt;br/>Leggi e accetta i Termini e condizioni di %3$s prima di eseguire le scansioni di sicurezza.&lt;br/>&lt;br/>Se non accetti di caricare i dati sui server di %4$s, puoi comunque utilizzare le definizioni dei virus memorizzate sul tuo dispositivo</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Informativa sulla privacy</string>
     <string name="antivirus_privacy_dialog_title">Informativa sulla Privacy</string>
     <string name="antivirus_privacy_dialog_title_kddi">Termini e condizioni</string>
@@ -270,7 +279,7 @@
     <string name="app_behavior_key_location">Posizione</string>
     <string name="app_behavior_link_start">Avvio a catena</string>
     <string name="app_behavior_list_load_more">Caricamento…</string>
-    <string name="app_behavior_menu_about">Informazioni sui registri di comportamento app</string>
+    <string name="app_behavior_menu_about">Informazioni sulle registrazioni</string>
     <string name="app_behavior_no_recorder">Niente da visualizzare</string>
     <string name="app_behavior_now_running">In esecuzione</string>
     <string name="app_behavior_perm_allow_always_danger_tip">Le app possono eseguire azioni sensibili quando vengono concesse le autorizzazioni</string>
@@ -278,7 +287,7 @@
     <string name="app_behavior_privacy_manager">Notifiche sulle azioni sensibili</string>
     <string name="app_behavior_record_cancel">Annulla</string>
     <string name="app_behavior_record_close">Disattiva</string>
-    <string name="app_behavior_record_close_title">Disattivazione registri</string>
+    <string name="app_behavior_record_close_title">Interrompi registrazione</string>
     <string name="app_behavior_record_hide_system">Nascondi app di sistema</string>
     <string name="app_behavior_record_open">Attiva</string>
     <string name="app_behavior_record_open_content_text">Attiva i registri di comportamento app per capire come le app utilizzano le tue informazioni personali.</string>
@@ -302,17 +311,26 @@
     <string name="app_install_intercept">Blocca installazione</string>
     <string name="app_install_tips_go_to">Apri</string>
     <string name="app_install_tips_install_success">%1$s installata correttamente</string>
+    <string name="app_isolate_func_close_tip">"Se disattivi questa funzione, alcuni dati dell'app potrebbero andare persi. Fai prima un backup dei dati importanti. Vuoi disattivarla ora?"</string>
+    <string name="app_isolate_func_closing">Disattivazione…</string>
+    <string name="app_isolate_func_opening">Attivazione…</string>
+    <string name="app_lock_face_error_to_try">"Tocca l'icona del volto per utilizzare il Riconoscimento facciale"</string>
+    <string name="app_lock_pwd">Inserisci la password per sbloccare</string>
+    <string name="app_lock_pwd_forget">Password dimenticata</string>
+    <string name="app_lock_pwd_or_finger">Sblocca tramite password o impronta digitale</string>
     <string name="app_management_empty_desc">Questa app non supporta questa funzionalità</string>
     <string name="app_management_for_chain_start">"Blocca l'apertura di altre app"</string>
     <string name="app_management_for_chain_start_desc">"Impedisci a quest'app di aprire altre app o di connettersi ad esse"</string>
     <string name="app_management_for_device_id">Nascondi gli identificatori e impedisci il monitoraggio</string>
     <string name="app_management_for_device_id_desc">"Impedisci a quest'app di accedere al tuo numero di telefono e alle tue informazioni identificabili personalmente"</string>
-    <string name="app_management_for_independent_storage">Isola i dati nella cache</string>
-    <string name="app_management_for_independent_storage_desc">"Consenti all'app di accedere soltanto ai file e ai dati ad essa relativi"</string>
+    <string name="app_management_for_independent_storage">Archiviazione indipendente</string>
+    <string name="app_management_for_independent_storage_desc">"Memorizza i dati dell'applicazione in modo indipendente e impedisce all'applicazione di accedere ad alcuni dati esterni."</string>
     <string name="app_management_for_install">Blocca i download dalle app</string>
     <string name="app_management_for_install_desc">"Impedisci a quest'app di scaricare o installare altre app"</string>
     <string name="app_management_measures">Gestione delle app</string>
     <string name="app_manager_advanced_setting">Impostazioni avanzate</string>
+    <string name="app_manager_airtel_dlg_msg">Per qualsiasi domanda, contatta Airtel</string>
+    <string name="app_manager_airtel_dlg_title">Bloccato da Airtel</string>
     <string name="app_manager_allow">Sì</string>
     <string name="app_manager_anomaly_analysis">Analizza i problemi delle app di terze parti</string>
     <string name="app_manager_app_ifno_version">Versione app</string>
@@ -347,6 +365,7 @@
     <string name="app_manager_default_open_summary">"Hai scelto di avviare quest'app per impostazione predefinita per alcune azioni."</string>
     <string name="app_manager_default_open_title">Elimina i predefiniti</string>
     <string name="app_manager_defaults_setting">Applicazioni predefinite</string>
+    <string name="app_manager_deleted_system_app_title">App di sistema disinstallate</string>
     <string name="app_manager_details_electric_title">Batteria</string>
     <string name="app_manager_details_storage_title">"Spazio d'archiviazione"</string>
     <string name="app_manager_details_title">Informazioni app</string>
@@ -464,6 +483,13 @@ Non perderai alcun dato applicazione."</string>
     <string name="app_permission_use_neccesary">Permessi richiesti</string>
     <string name="app_permission_use_no_neccesary">Permessi opzionali</string>
     <string name="app_permission_use_title">Permessi</string>
+    <string name="app_powerkeeper_config_description">Il sistema identificherà le app che si occupano di messaggistica istantanea, navigazione e riproduzione di contenuti multimediali, applicando misure di risparmio energetico su misura per salvaguardare le attività critiche in background da eventuali interruzioni.</string>
+    <string name="app_powerkeeper_miui_auto">Risparmio energetico (consigliato)</string>
+    <string name="app_powerkeeper_miui_auto_summary">Identifica le applicazioni e le attività di cui preservare i processi importanti.Risparmio energetico tratta le applicazioni importanti in maniera selettiva.</string>
+    <string name="app_powerkeeper_no_restrict">Nessuna restrizione</string>
+    <string name="app_powerkeeper_no_restrict_summary">"Risparmio energetico non limita l'attività dell'applicazione"</string>
+    <string name="app_powerkeeper_restrict_bg">Limita le applicazioni in background</string>
+    <string name="app_powerkeeper_restrict_running">Chiudi le app dopo %d minuti di attività in background</string>
     <string name="app_running_tip_dialog_negative">Annulla</string>
     <string name="app_running_tip_dialog_positive">Chiudi</string>
     <string name="app_running_tip_dialog_text">Sembra che questa app sia in esecuzione in background. Puoi chiuderla per velocizzare il dispositivo e ridurre il consumo energetico.</string>
@@ -482,6 +508,7 @@ Non perderai alcun dato applicazione."</string>
     <string name="app_wifi">Wi-Fi</string>
     <string name="appcleaner_wechat_notification_garbage_cleanup_summary">Svuota %s di cache WeChat per liberare spazio</string>
     <string name="appcleaner_wechat_notification_garbage_cleanup_title">Non dimenticare di cancellare la cache</string>
+    <string name="application_horizontal_mode_title">Modalità orizzontale</string>
     <string name="application_item_already_permission">Consentito</string>
     <string name="application_item_disable">Limitato</string>
     <string name="application_mode_name">Layout app</string>
@@ -573,7 +600,8 @@ Non perderai alcun dato applicazione."</string>
     <string name="apps_list_header_title_sms">"Controlla l'applicazione messaggi"</string>
     <string name="apps_list_header_title_sms_access">"Limita l'accesso ai codici di verifica"</string>
     <string name="ask_create_shortcut">Creare un collegamento sulla schermata Home?</string>
-    <string name="audio_optimization_summary">"Migliora l'audio e riduce il rumore ambientale nelle conversazioni"</string>
+    <string name="audio_optimization_summary_new">Ottimizza la qualità del suono degli auricolari durante il gioco e riduce il rumore durante le chiamate</string>
+    <string name="audio_optimization_summary_v2">"Aumenta l'esperienza di gioco immersiva e ottimizza la riduzione del rumore"</string>
     <string name="audio_optimization_title">Audio migliorato</string>
     <string name="auto_atsk_condition_battery_level_text_down">Quando il livello batteria raggiunge %s</string>
     <string name="auto_atsk_condition_battery_level_text_up">Quando la batteria raggiunge %s</string>
@@ -870,7 +898,11 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="boot_time_day_tomorrow">Attivo domani alle %1$s</string>
     <string name="bottom_func_guide_default_text">Altre funzionalità</string>
     <string name="bottom_notice_title">"Scorri verso l'alto per aprire gli strumenti"</string>
+    <string name="bottomsheet_action_collapse">Comprimi riquadro inferiore</string>
+    <string name="bottomsheet_action_expand">Espandi riquadro inferiore</string>
     <string name="bottomsheet_action_expand_halfway">Espandi a metà</string>
+    <string name="bottomsheet_drag_handle_clicked">Doppio tocco su punto di trascinamento</string>
+    <string name="bottomsheet_drag_handle_content_description">Punto di trascinamento</string>
     <string name="btn_back">Indietro</string>
     <string name="btn_finish_diagnostic">OK</string>
     <string name="btn_start_diagnostic">Test di rete</string>
@@ -918,6 +950,7 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="button_text_let_me_select">Ho capito</string>
     <string name="button_text_next_step">Avanti</string>
     <string name="button_text_next_step_timer">Avanti (%d)</string>
+    <string name="button_text_once_accept">Consenti questa volta</string>
     <string name="button_text_open_now">Apri</string>
     <string name="button_text_reject">Rifiuta</string>
     <string name="button_text_trust">Questa rete è sicura</string>
@@ -932,6 +965,13 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="call_delete_all_hint">Eliminare le chiamate bloccate?</string>
     <string name="call_delete_hint">Eliminare tutte le chiamate bloccate da questo numero?</string>
     <string name="call_delete_title">Elimina la cronologia delle chiamate</string>
+    <string name="call_notification_answer_action">Rispondi</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Rifiuta</string>
+    <string name="call_notification_hang_up_action">Riaggancia</string>
+    <string name="call_notification_incoming_text">Chiamata in arrivo</string>
+    <string name="call_notification_ongoing_text">Chiamata in corso</string>
+    <string name="call_notification_screening_text">Applicazione filtro a chiamata in arrivo</string>
     <string name="call_oversea_block">"Blocca le chiamate dall'estero"</string>
     <string name="call_prefix">Prefisso lista blocchi</string>
     <string name="call_private">Blocca le chiamate dai numeri nascosti</string>
@@ -1041,7 +1081,14 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="cmcc_app_check_dialog_positive">Riavvia adesso</string>
     <string name="cmcc_app_check_dialog_title">Sistema riparato</string>
     <string name="columbus_ad_flag_text">Annuncio</string>
+    <string name="columbus_reward_style_access">Scopri di più</string>
+    <string name="columbus_reward_style_close_cancel">Esci</string>
+    <string name="columbus_reward_style_close_desc">Finisci di guardare il video per ottenere una ricompensa. Continuare a guardare?</string>
+    <string name="columbus_reward_style_speed_confirm">Continua</string>
     <string name="columbus_skip_ad">Salta</string>
+    <string name="columbus_skip_ad_time">Ignora (%d)</string>
+    <string name="combine_permission_action_foreground">Consenti mentre la app è in uso</string>
+    <string name="combine_permission_title">%1$s richiede i seguenti permessi</string>
     <string name="common_google_play_services_enable_button">Attiva</string>
     <string name="common_google_play_services_enable_text">%1$s non funzionerà se non attivi Google Play Services.</string>
     <string name="common_google_play_services_enable_title">Attiva Google Play Services</string>
@@ -1062,6 +1109,7 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="common_signin_button_text_long">Accedi con Google</string>
     <string name="commonly_used_func_card_title">Funzionalità di base</string>
     <string name="commonly_used_func_edit_too_many_func">Impossibile aggiungere altri elementi</string>
+    <string name="config_restrict_running_warning">"Se continui, tutte le attività in background dell'app verranno interrotte, il che potrebbe avere un impatto sulle sue funzioni. Vuoi continuare comunque?"</string>
     <string name="confirmSecondSpacePassword">Conferma la password di Secondo spazio</string>
     <string name="confirm_ai_allow_all_permission">Modificare lo stato del permesso in \"Decidi per me\" per tutte le app?</string>
     <string name="confirm_allow_all_permission">Allow all apps from using this feature?</string>
@@ -1087,9 +1135,13 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="connected_devices_camera">Fotocamera</string>
     <string name="connected_devices_camera_desc">"Consenti ai dispositivi vicini che hanno effettuato l'accesso allo stesso account di scattare foto e registrare video su questo dispositivo"</string>
     <string name="connected_devices_camera_title">Consenti al dispositivo di cui sopra di scattare foto e registrare video su questo dispositivo?</string>
+    <string name="connected_devices_files">File</string>
+    <string name="connected_devices_files_desc">"Consenti ai dispositivi nelle vicinanze che hanno effettuato l'accesso al tuo Xiaomi Account di accedere ai file di questo dispositivo."</string>
     <string name="connected_devices_for_camera">Consenti a %1$s di utilizzare la fotocamera di questo dispositivo?</string>
     <string name="connected_devices_for_camera_desc">Per scattare foto, registrare video ed effettuare videochiamate</string>
     <string name="connected_devices_for_empty_view">Nessun dispositivo connesso</string>
+    <string name="connected_devices_for_files">Consenti a %1$s di accedere ai file di questo dispositivo?</string>
+    <string name="connected_devices_for_files_desc">"Per l'accesso multi-dispositivo ai file"</string>
     <string name="connected_devices_for_notification">Consenti a %1$s di visualizzare le notifiche di questo dispositivo?</string>
     <string name="connected_devices_for_notification_desc">Visualizza le notifiche di questo dispositivo su altri dispositivi quando è bloccato</string>
     <string name="connected_devices_for_record">"Consenti a %1$s di registrare l'audio su questo dispositivo?"</string>
@@ -1114,6 +1166,7 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="continue_set">Continua</string>
     <string name="convenient_mode">Sblocca tutte le app contemporaneamente</string>
     <string name="convenient_summary">Inserisci la password una volta per sbloccare tutte le app</string>
+    <string name="conversation_phone_title">Strumenti di chiamata</string>
     <string name="conversation_settings_top">"·Fai scorrere verso l'esterno la barra degli strumenti conferenza durante le chiamate audio e video a schermo intero per accedere alle sue funzionalità.
 ·Il tipo e il numero di funzionalità dipende dal modello del dispositivo."</string>
     <string name="conversation_sider_tips">"Usa i nuovi strumenti conferenza per un'esperienza di chiamata ottimale"</string>
@@ -1121,33 +1174,69 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="conversation_summary_new">Modalità Bellezza, sottotitoli e altre funzionalità durante le chiamate audio e video</string>
     <string name="conversation_title">Strumenti conferenza</string>
     <string name="copy">Copia</string>
+    <string name="copy_toast_msg">Link copiato negli appunti</string>
     <string name="cpu_usage_android_system">Sistema Android</string>
     <string name="cpu_usage_process_run_time_little_time">Meno di 1 minuto</string>
     <string name="cpu_usage_process_run_time_little_time_new">Meno di %d minuto</string>
     <string name="cpu_usage_view_action_btn_text">Tocca per visualizzare</string>
     <string name="create_gamebooster_destop">Collegamento sulla Home creato correttamente</string>
     <string name="create_shortcut">Crea un collegamento sulla schermata Home per Game Turbo</string>
+    <string name="cs_close_vt_camera_first_tips">Non è possibile utilizzare questa funzione quando si usa la fotocamera multidispositivo</string>
     <string name="cs_color_sense">Temperatura del colore</string>
+    <string name="cs_conversation_record_using">Registrazione</string>
+    <string name="cs_func_toast_bluetooth_headset">Per poter utilizzare questa funzione, scollega gli auricolari Bluetooth.</string>
     <string name="cs_func_toast_headset">Scollega le cuffie per utilizzare questa funzionalità</string>
     <string name="cs_func_toast_light">Passa alla fotocamera frontale per utilizzare questa funzionalità</string>
     <string name="cs_func_toast_pickup">Passa a una videochiamata per utilizzare questa funzionalità</string>
+    <string name="cs_func_unavailable_tips">Utilizza questa funzionalità durante le chiamate</string>
+    <string name="cs_gesture_effect_title">Riconoscimento dei gesti</string>
+    <string name="cs_gesture_effect_title_hint">Gesti supportati</string>
+    <string name="cs_gesture_effect_title_summry">Aggiungi effetti di reazione durante le videochiamate utilizzando i gesti</string>
+    <string name="cs_light_enhance_physical_options">Temperatura del colore</string>
+    <string name="cs_light_enhance_physical_title">Luminosità</string>
+    <string name="cs_open_camera_first_tips">Apri la Fotocamera per utilizzare questa funzione</string>
     <string name="cs_pickup_denoise_desc">"Riduci il rumore dell'audio in ingresso mentre utilizzi casse o auricolari"</string>
     <string name="cs_pickup_denoise_title">Riduzione del rumore</string>
+    <string name="cs_pickup_enhance">Migliora</string>
     <string name="cs_pickup_multi_desc">Rilevamento audio a %d gradi</string>
     <string name="cs_pickup_multi_title">Più partecipanti</string>
+    <string name="cs_pickup_private">Privato</string>
+    <string name="cs_pickup_private_desc">"Riceve l'audio solo da utenti specifici"</string>
     <string name="cs_pickup_single_desc">Rileva solo il suono davanti allo schermo</string>
     <string name="cs_pickup_single_title">Singolo partecipante</string>
+    <string name="cs_pickup_standard">Standard</string>
+    <string name="cs_pickup_standard_desc">%1$d ricezione audio a gradi</string>
     <string name="cs_pickup_surround_desc">"Utilizza l'intelligenza artificiale per ridurre il rumore, per un suono cristallino"</string>
     <string name="cs_pickup_surround_title">Riduzione del rumore del microfono</string>
+    <string name="cs_pickup_vioce_print_guide_dialog_desc">Termina la chiamata e segui le istruzioni per iniziare.</string>
+    <string name="cs_pickup_vioce_print_guide_dialog_title">Per rilevare il suono da una persona sola, registra prima la sua impronta vocale.</string>
+    <string name="cs_pickup_vioce_print_in_private_tips">Registra la tua impronta vocale per poter impostare la riduzione del rumore su Privato.</string>
+    <string name="cs_pickup_vioce_print_private_dialog_title">Registra impronta vocale</string>
+    <string name="cs_pickup_vioce_print_unsupport_tips">Registra impronta vocale prima di selezionare \"Partecipante singolo\"</string>
+    <string name="cs_pickup_vioce_print_unsupport_toast">Disconnetti i dispositivi esterni e riprova</string>
+    <string name="cs_pickup_voice_print_desc">Rileva suono solo da una persona</string>
+    <string name="cs_privacy_camera_global_settings_title">Privacy chiamata</string>
+    <string name="cs_record_voice_title">Registra</string>
     <string name="cs_screen_translation_title">Traduzione dello schermo</string>
+    <string name="cs_simultaneous_interpretation_title">Interprete</string>
     <string name="cs_title_pickup">Riduzione del rumore</string>
     <string name="cs_title_smart_subtitle">Trascrizione dei sottotitoli</string>
     <string name="cs_title_ultraclear">Modalità Ultra HD</string>
+    <string name="cs_tool_box_max_screen_guide_case_1">"Prova l'interpretazione simultanea e altri strumenti per le teleconferenze nel nuovo strumento Chiamata"</string>
+    <string name="cs_tool_box_max_screen_guide_case_2">Prova una serie di funzioni per le teleconferenze nel nuovo strumento Chiamata</string>
+    <string name="cs_tool_box_phone_guide_case_1">"Prova l'interpretazione simultanea e le altre funzioni del nuovo strumento Chiamata"</string>
+    <string name="cs_tool_box_phone_guide_case_2">Prova una serie di funzioni del nuovo strumento Chiamata</string>
+    <string name="cs_voice_print">Registra impronta vocale</string>
+    <string name="cs_voice_search">Impronta vocale</string>
+    <string name="cs_vt_camera_title">Fotocamera multidispositivo</string>
+    <string name="cs_vt_camera_toast_case1">"Apri fotocamera nell'app corrente"</string>
+    <string name="cs_vt_camera_toast_case2">Non ci sono dispositivi compatibili nelle vicinanze</string>
     <string name="cta_agree_desc">Per poter utilizzare i nostri servizi, consenti a questa app di connettersi a Internet e concedi i permessi sopra elencati.</string>
     <string name="cta_close_dialog_cancel">Annulla</string>
     <string name="cta_close_dialog_content">"Se limiti l'accesso di Sicurezza a Internet e alle informazioni sulla posizione, non sarà possibile ricevere avvisi di terremoti, aggiornare le definizioni dei virus e le informazioni sulla Lista blocchi. Il tuo dispositivo diventerà meno sicuro. Limitare comunque?"</string>
     <string name="cta_close_dialog_ok">Limita</string>
     <string name="cta_close_dialog_title">Limitazione accesso</string>
+    <string name="cta_combine_permission_title">Permessi</string>
     <string name="cta_dialog_negative">Esci</string>
     <string name="cta_dialog_positive">Accetta</string>
     <string name="cta_dialog_title">Connessione Internet</string>
@@ -1231,10 +1320,26 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="descx_quick_scan_preparation">Solo un secondo…</string>
     <string name="detail_app_button">Informazioni app</string>
     <string name="details_subtitle">Dettagli utilizzo</string>
+    <string name="device_id">ID dispositivo per consigli personalizzati</string>
+    <string name="device_id_app_manager_dialog_continue">Non interrompere</string>
+    <string name="device_id_app_manager_dialog_message">Hai permesso ad alcune app di tracciare le tue attività. Ora puoi interrompere il tracciamento.</string>
+    <string name="device_id_app_manager_dialog_stop">Interrompi</string>
+    <string name="device_id_app_manager_switch_sub_title">Quando questa funzione è disattivata, tutte le nuove richieste di tracciamento verranno rifiutate automaticamente.</string>
+    <string name="device_id_app_manager_switch_title">Consenti alle app di richiedere il tracciamento</string>
+    <string name="device_id_app_manager_tips">Le applicazioni possono tracciare le tue attività su diverse applicazioni e siti web utilizzando gli identificatori di tracciamento per fornire consigli pubblicitari personalizzati e altre funzionalità.</string>
+    <string name="device_id_app_manager_title">Tracciamento di Gestione app</string>
+    <string name="device_id_manager_tips">Il sistema fornisce alle app degli identificativi di tracciamento azzerabili (OAID) al posto degli identificativi del dispositivo per proteggere la tua privacy.</string>
+    <string name="device_id_manager_title">"Gestisci l'identificatore di tracciamento"</string>
+    <string name="device_id_reset">"Reimposta l'identificatore di tracciamento"</string>
+    <string name="device_id_reset_msg">Dopo il reset, a questo dispositivo verrà associato un nuovo identificativo.</string>
+    <string name="device_id_str">Identificatore di tracciamento attuale: %s</string>
     <string name="device_manager_apply_step_1">Attivare amministratore dispositivo per questa app?</string>
     <string name="device_manager_apply_step_2">"L'attivazione di amministratore dispositivo per questa app potrebbe comportare l'esposizione dei tuoi dati personali.
 Tutti i dati sul dispositivo potrebbero essere cancellati e la password della schermata di blocco potrebbe essere ripristinata."</string>
     <string name="device_manager_apply_step_3">Assicurati di aver compreso tutti i possibili rischi prima di procedere. Attivare amministratore dispositivo per questa app?</string>
+    <string name="device_oaid">"Gestisci l'ID virtuale"</string>
+    <string name="device_oaid_desc">Invece del tuo identificativo reale, il sistema fornirà un ID virtuale (OAID) alle app di terze parti. Impedirà alle app di tracciare il tuo comportamento e le tue preferenze in modo da protegge la tua privacy.</string>
+    <string name="device_oaid_title">ID virtuale</string>
     <string name="dialog_app_roaming_message">%1$s non può usare la connessione dati in roaming. Quando sei in roaming, solo le applicazioni che hai aggiunto alla lista delle eccezioni possono usare la connessione dati.</string>
     <string name="dialog_app_roaming_title">%1$s non può utilizzare il roaming dati</string>
     <string name="dialog_change_package_type_summary">La modifica del tipo di piano dati reimposta tutte le impostazioni di utilizzo dei dati (ad esempio il limite di dati) ai valori predefiniti. Cambiare il tipo di piano dati?</string>
@@ -1372,12 +1477,12 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="exit">Esci</string>
     <string name="exit_dialog_exit">Esci</string>
     <string name="exit_dialog_garbage_clean_message">La quantità di file inutili sul tuo dispositivo è superiore a %s. Svuotare il cestino?</string>
-    <string name="exit_dialog_garbage_clean_message_new">&lt;Data>Pulitore può liberare &lt;font color=#0099ff>%s&lt;/font> di spazio. Pulire ora?&lt;/Data></string>
+    <string name="exit_dialog_garbage_clean_message_new"><Data>Pulitore può liberare &lt;font color=#0099ff>%s&lt;/font> di spazio. Pulire ora?</Data></string>
     <string name="exit_dialog_garbage_clean_positive_button">Pulisci</string>
     <string name="exit_dialog_garbage_clean_title">Libera spazio di archiviazione</string>
     <string name="exit_dialog_homepage_optimise_message">Il punteggio delle prestazioni del dispositivo è inferiore a 80 punti. Ottimizzarlo ora?</string>
     <string name="exit_dialog_release_memory_positive_button">Chiudi</string>
-    <string name="exit_dialog_release_memory_title_new">&lt;Data>Accelera il tuo dispositivo del &lt;font color=#0099ff>%s&lt;/font>&lt;/Data></string>
+    <string name="exit_dialog_release_memory_title_new"><Data>Accelera il tuo dispositivo del &lt;font color=#0099ff>%s&lt;/font></Data></string>
     <string name="exit_dialog_release_storage_message">"Oltre l'80% dello spazio di archiviazione sul dispositivo è occupato. Libera spazio disinstallando le app che non usi mai."</string>
     <string name="exit_dialog_release_storage_message_new">Più del %s dello spazio di archiviazione sul dispositivo è occupato. Libera spazio disinstallando le app che non usi mai.</string>
     <string name="exit_dialog_release_storage_positive_button">Libera spazio</string>
@@ -1455,6 +1560,9 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="face_unlock_verity_dialog_summary">Verifica i dati del viso</string>
     <string name="face_unlock_verity_dialog_title_failed">Riconoscimento non riuscito</string>
     <string name="face_unlock_verity_dialog_title_succeed">Verificato correttamente</string>
+    <string name="fallback_menu_item_copy_link">Copia link</string>
+    <string name="fallback_menu_item_open_in_browser">Apri nel browser</string>
+    <string name="fallback_menu_item_share_link">Condividi link</string>
     <string name="fcm_fallback_notification_channel_label">Varie</string>
     <string name="file_confirm_start_activity">%s non è autorizzata ad accedere alla Galleria e alle app dei social media. Questa app vuole accedere ai file archiviati su questo dispositivo per condividere elementi. Consentire?</string>
     <string name="finger_remind_message">Aggiungi prima la tua impronta. Tocca per aprire le Impostazioni.</string>
@@ -1467,7 +1575,8 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="fingerprint_verify_failed">"Impossibile verificare l'impronta"</string>
     <string name="fingerprint_verify_succeed">Impronta verificata</string>
     <string name="fingerprint_verify_try_agin">"Impossibile scansionare l'impronta, riprova"</string>
-    <string name="firewall_activity_lable">"Limita l'utilizzo dei dati per ogni applicazione"</string>
+    <string name="fingerprint_verify_try_error">Troppi tentativi non riusciti. Blocca e sblocca il dispositivo prima di riprovare.</string>
+    <string name="firewall_activity_lable">Accesso alla rete</string>
     <string name="firewall_allow_all">Consenti a tutte le applicazioni di connettersi usando il seguente metodo</string>
     <string name="firewall_allow_data">"Consenti l'utilizzo dei dati mobili"</string>
     <string name="firewall_allow_network">Consenti</string>
@@ -1491,7 +1600,7 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="firewall_statement_no_more">Non chiedermelo più</string>
     <string name="firewall_statement_ok">Ho capito</string>
     <string name="firewall_statement_title">Attenzione</string>
-    <string name="firewall_system_title">Connessioni alle app di sistema</string>
+    <string name="firewall_system_title">Accesso alla rete per le app di sistema</string>
     <string name="firewall_temp_rule_reason">"%2$s ha limitato l'accesso internet a %1$s​"</string>
     <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_wifi_dialog_message">"L'applicazione installata non sarà in grado di connettersi ad internet usando la rete Wi-Fi quando questo interruttore è spento."</string>
@@ -1520,6 +1629,8 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="first_aid_card_wifi_or_flow_button">Connetti</string>
     <string name="first_aid_card_wifi_or_flow_summary">Attiva il Wi-Fi o la connessione dati per connettere</string>
     <string name="first_aid_card_wifi_or_flow_title">Impossibile connettersi a Internet</string>
+    <string name="first_aid_dialog_ignore_message">%s. Puoi ignorare questo elemento per escluderlo dai controlli futuri. Ignorare ora?</string>
+    <string name="first_aid_dialog_ignore_title">Ignora elementi</string>
     <string name="first_aid_dialog_msg_stop_scan">Interrompere la scansione?</string>
     <string name="first_aid_dialog_title_stop_scan">Interrompi la scansione</string>
     <string name="first_aid_exception_sub_title">Questi elementi verranno ignorati durante le scansioni</string>
@@ -1684,15 +1795,20 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="game_manual_record_setting_setting">Impostazioni</string>
     <string name="game_manual_record_setting_title">Momenti chiave</string>
     <string name="game_more_improve">Limita i processi in background e la velocità in download per risparmiare batteria e larghezza di banda quando giochi</string>
-    <string name="game_performance_wild_mode">Modalità Estrema</string>
+    <string name="game_performance_wild_mode">Wild Boost</string>
     <string name="game_performance_wild_mode_tips">"Attiva per migliorare le prestazioni del dispositivo
 (Il tuo dispositivo si surriscalderà e consumerà più energia)"</string>
     <string name="game_setting">Impostazioni di gioco</string>
     <string name="game_video_net_data">Connessione dati</string>
     <string name="game_video_network_eror">Impossibile connettersi alla rete. Verifica le impostazioni di rete e riprova.</string>
     <string name="game_wid_viewpoint_buttom">Prenditi una breve pausa.</string>
+    <string name="gamebooster_confirm_dialog_negative_btn">Rifiuto</string>
+    <string name="gamebooster_confirm_dialog_positive_btn">Accetto</string>
+    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a></Data></string>
+    <string name="gamebooster_confirm_dialog_title">"Accetta l'Informativa sulla privacy"</string>
     <string name="gamebooster_dialog_recover">Rinnova</string>
     <string name="gamebooster_dialog_start_booster">Avvia</string>
+    <string name="gamebooster_dialog_start_booster_new">Turbo</string>
     <string name="gamebooster_lowbattery_notification_summary">Ricarica il dispositivo prima che si spenga.</string>
     <string name="gamebooster_main_activity_back">Indietro</string>
     <string name="gamebooster_network_dialog_cn_message">Non puoi utilizzare Game Turbo se Sicurezza non può connettersi a Internet e accedere alla tua posizione. Consentire?</string>
@@ -1700,18 +1816,28 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="gamebooster_network_dialog_title">Alcune funzioni non sono disponibili</string>
     <string name="gamebooster_push_expiring_soon_button">Rinnova</string>
     <string name="gamebooster_push_expiring_soon_title">Game Turbo</string>
+    <string name="gamebox_ai_accelerate">"Potenziamento dell'IA per i dati mobili"</string>
+    <string name="gamebox_ai_accelerate_description">"Analizza l'ambiente di rete per aumentare la velocità di connessione alla rete mobile e risparmiare i dati mobili"</string>
     <string name="gamebox_ai_subtitle">Sottotitoli AI</string>
     <string name="gamebox_app_not_find">"Prima installa l'app."</string>
     <string name="gamebox_brightness">Luminosità</string>
     <string name="gamebox_browser_not_find">Installa prima Mi Browser</string>
     <string name="gamebox_bullet_chat">Commenti sullo schermo</string>
+    <string name="gamebox_cellular_network">Ottimizza la rete cellulare</string>
+    <string name="gamebox_cellular_network_description">Seleziona automaticamente il percorso di rete migliore in base alla latenza del gioco</string>
     <string name="gamebox_collimator">Mirino</string>
     <string name="gamebox_display_1">Nessuno</string>
     <string name="gamebox_display_2">Intenso</string>
     <string name="gamebox_display_3">Luminoso</string>
     <string name="gamebox_display_4">Luminoso e intenso</string>
+    <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Miglioramento grafico: "</string>
     <string name="gamebox_dnd">ND</string>
+    <string name="gamebox_filter_alpha_tip">Trasparenza</string>
+    <string name="gamebox_filter_dark_conter">Vignetta</string>
+    <string name="gamebox_filter_tip">Il filtro in-game selezionato sarà applicato quando inizierai a giocare</string>
+    <string name="gamebox_filter_toast_apply">Il filtro sarà applicato quando inizierai a giocare</string>
+    <string name="gamebox_filter_toast_open">Applicazione filtro: %1$s</string>
     <string name="gamebox_func_antimsg_close">Le notifiche a comparsa sono ora consentite</string>
     <string name="gamebox_func_antimsg_open">Le notifiche a comparsa sono ora limitate</string>
     <string name="gamebox_func_immersion_close">Modalità immersiva disattivata</string>
@@ -1722,6 +1848,7 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="gamebox_func_wlan_open">Wi-Fi attivato</string>
     <string name="gamebox_game_center_app_not_find">Installa prima Giochi</string>
     <string name="gamebox_hangup">Spegni schermo</string>
+    <string name="gamebox_hangup_new">Spegni lo schermo</string>
     <string name="gamebox_hangup_tips_content">Questa funzionalità ti consente di disattivare lo schermo, ma di mantenere il gioco in esecuzione in background. Si disattiva automaticamente una volta sbloccato il dispositivo.</string>
     <string name="gamebox_hangup_tips_title">Spegni schermo</string>
     <string name="gamebox_immersion">Modalità immersiva</string>
@@ -1731,7 +1858,9 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="gamebox_macro">Combos</string>
     <string name="gamebox_manual_record">Registra</string>
     <string name="gamebox_mem_clean">Libera memoria</string>
+    <string name="gamebox_mem_filter">Filtri di gioco</string>
     <string name="gamebox_milink">Proiezione</string>
+    <string name="gamebox_net_optimize_description">Riduci la latenza e il jitter della WLAN. Usa un router Xiaomi o Redmi per usufruire di speciali modalità di incremento della velocità.</string>
     <string name="gamebox_positive_button_text">OK (%1$ds)</string>
     <string name="gamebox_qq_not_find">Installa QQ e riprova.</string>
     <string name="gamebox_recent_task_expand_fail">Le app che funzionano con i collegamenti non sono installate</string>
@@ -1778,12 +1907,20 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="gb_advance_settings_reset_dialog_content">Ripristinare le impostazioni predefinite adesso?</string>
     <string name="gb_advance_settings_reset_dialog_title">Impostazioni predefinite</string>
     <string name="gb_advance_settings_screen_display">Visualizza</string>
+    <string name="gb_advance_settings_screen_display_style_summary">Aumenta il contrasto e ottimizza le immagini per mostrare maggiori dettagli.</string>
+    <string name="gb_advance_settings_screen_display_summary">Migliora il contrasto e ottimizza le immagini per mostrare maggiori dettagli.</string>
     <string name="gb_advance_settings_screen_hdr">Grafica migliorata</string>
     <string name="gb_advance_settings_screen_hdr_gear1">Originale</string>
     <string name="gb_advance_settings_screen_hdr_gear2">Moderato</string>
     <string name="gb_advance_settings_screen_hdr_gear3">Forte</string>
     <string name="gb_advance_settings_screen_hdr_gear4">Estremo</string>
+    <string name="gb_advance_settings_screen_hdr_gear5">HDR</string>
+    <string name="gb_advance_settings_screen_hdr_gear5_short">HDR</string>
     <string name="gb_advance_settings_screen_hdr_summary">Aumenta il contrasto e migliora i dettagli per i giochi</string>
+    <string name="gb_advance_settings_screen_show_enhancement">Migliora le immagini</string>
+    <string name="gb_advance_settings_screen_show_enhancement_summary">Visualizza i movimenti con maggiore fluidità e scorrevolezza</string>
+    <string name="gb_advance_settings_screen_super_picture_quality">"Qualità dell'immagine super"</string>
+    <string name="gb_advance_settings_screen_super_picture_quality_summary">Aumenta la risoluzione e il frame rate per una grafica più fluida</string>
     <string name="gb_advance_settings_touch">Controlli tocco</string>
     <string name="gb_advance_settings_vibration_4d">Vibrazione 4D</string>
     <string name="gb_advance_settings_vibration_4d_summary">Vibra durante gli spari nel gioco</string>
@@ -1797,6 +1934,11 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="gb_audition_play_instruction">Usa gli auricolari per un effetto ottimale</string>
     <string name="gb_award_noti_message">Attiva gli aggiornamenti in background di Game for Peace in Game Turbo per ottenere premi</string>
     <string name="gb_award_noti_title">Sono arrivati i premi di Game for Peace!</string>
+    <string name="gb_balance_disbale_wild_mode_pad_desc"><Data>Non è possibile passare alla modalità Bilanciata in Game Turbo quando è attiva la modalità estrema a livello di sistema. Puoi cambiare le impostazioni della batteria in Sicurezza.&lt;br>&lt;a href=\"#\">Apri Sicurezza&lt;/a></Data></string>
+    <string name="gb_balance_disbale_wild_mode_phone_desc"><Data>Non è possibile passare alla modalità Bilanciata in Game Turbo quando è attiva la modalità estrema a livello di sistema. Puoi modificare le impostazioni della batteria in Sicurezza. &lt;br>&lt;a href=\"#\">Apri Sicurezza&lt;/a></Data></string>
+    <string name="gb_bar_high">Alto</string>
+    <string name="gb_bar_low">Basso</string>
+    <string name="gb_bar_mid">Medio</string>
     <string name="gb_barrage_app_manger">Gestisci le app</string>
     <string name="gb_barrage_chat_desc">Credi sempre che qualcosa di meraviglioso stia per accadere</string>
     <string name="gb_barrage_chat_pre_desc">Anteprima</string>
@@ -1907,6 +2049,9 @@ Record sequences and use them anytime!"</string>
     <string name="gb_have_signed">Utenti registrati oggi</string>
     <string name="gb_manual_record_dialog_del_video_message">Eliminare definitivamente i video selezionati?</string>
     <string name="gb_manual_video_record_title">Registrazioni</string>
+    <string name="gb_margin_restrain">Ignora il tocco accidentale sui bordi</string>
+    <string name="gb_margin_restrain_description">"Il tuo dispositivo sarà meno reattivo al tocco accidentale nell'area vicina ai bordi."</string>
+    <string name="gb_margin_restrain_seekbar">Area di contatto accidentale</string>
     <string name="gb_msg_completely_shielded">Nascondi messaggi</string>
     <string name="gb_msg_completely_shielded_summary">Nascondi</string>
     <string name="gb_msg_not_shielded_summary">Visualizza</string>
@@ -1918,7 +2063,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_new_feature">Nuova funzionalità</string>
     <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
     <string name="gb_operat_frequently">Troppo veloce!</string>
-    <string name="gb_performace_guide_disable_desc">&lt;Data>Impossibile passare alla modalità bilanciata in Game Turbo quando la modalità prestazioni a livello di sistema è attiva. Puoi modificare le impostazioni della batteria in Sicurezza.&lt;br>&lt;a href=\"#\">Apri Sicurezza&lt;/a>&lt;/Data></string>
+    <string name="gb_performace_guide_disable_desc"><Data>Impossibile passare alla modalità bilanciata in Game Turbo quando la modalità prestazioni a livello di sistema è attiva. Puoi modificare le impostazioni della batteria in Sicurezza.&lt;br>&lt;a href=\"#\">Apri Sicurezza&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Passato alla modalità prestazioni. Il tuo dispositivo potrebbe surriscaldarsi e consumare più energia.</string>
     <string name="gb_performace_tips_button">Continua</string>
     <string name="gb_performace_tips_title">"Passa alla modalità prestazioni per un'esperienza ottimale"</string>
@@ -1935,10 +2080,11 @@ ma aumenta anche il consumo energetico e può surriscaldare il dispositivo"</str
     <string name="gb_predownload_dialog_cancel">No grazie</string>
     <string name="gb_predownload_dialog_checked">Non mostrare più</string>
     <string name="gb_predownload_dialog_confirm">Attiva</string>
-    <string name="gb_predownload_dialog_message_china">&lt;Data>I contenuti aggiornati per questo gioco possono essere scaricati automaticamente su questo dispositivo quando è connesso alla rete Wi-Fi e lo schermo è spento. Sarai in grado di utilizzare la nuova versione non appena verrà rilasciata.&lt;br>&lt;br>Leggi e accetta la &lt;a href=\"%1$s\">Dichiarazione sugli aggiornamenti in background&lt;/a> prima di utilizzare questa funzionalità.&lt;/Data></string>
+    <string name="gb_predownload_dialog_message_china"><Data>I contenuti aggiornati per questo gioco possono essere scaricati automaticamente su questo dispositivo quando è connesso alla rete Wi-Fi e lo schermo è spento. Sarai in grado di utilizzare la nuova versione non appena verrà rilasciata.&lt;br>&lt;br>Leggi e accetta la &lt;a href=\"%1$s\">Dichiarazione sugli aggiornamenti in background&lt;/a> prima di utilizzare questa funzionalità.</Data></string>
     <string name="gb_predownload_dialog_title">Gli aggiornamenti in background sono ora disponibili</string>
     <string name="gb_predownload_message_new">Aggiorna automaticamente i giochi compatibili senza utilizzare il dispositivo</string>
     <string name="gb_predownload_noti_message">%2$1.2f GB di contenuti aggiornati sono già su questo dispositivo. Potrai usarli non appena verrà rilasciata la nuova versione.</string>
+    <string name="gb_predownload_noti_small_size_message">%2$1.2f MB di nuove risorse scaricate. Potrai utilizzarle non appena verrà rilasciata la nuova versione.</string>
     <string name="gb_predownload_noti_title">%s aggiornato in background correttamente</string>
     <string name="gb_predownload_receive">Ottieni premi</string>
     <string name="gb_predownload_receive_error">Si è verificato un errore di rete. Riprova.</string>
@@ -1946,6 +2092,8 @@ ma aumenta anche il consumo energetico e può surriscaldare il dispositivo"</str
     <string name="gb_predownload_receive_tips">Attiva gli aggiornamenti in background per ottenere premi</string>
     <string name="gb_predownload_receiving">Ricezione…</string>
     <string name="gb_predownload_title">Aggiornamenti in background</string>
+    <string name="gb_setting_dock_toast">Funzioni di assistente fotocamera frontale sono disponibili adesso in Strumenti di chiamata</string>
+    <string name="gb_setting_dock_toast_2">Funzioni di assistente fotocamera frontale sono disponibili adesso in Strumenti di chiamata</string>
     <string name="gb_shortcut_pref_title">Collegamento schermata Home</string>
     <string name="gb_shoulder_guide_message1">Sposta [L] in qualsiasi posizione funzionale per usarlo tramite il tasto pop-up.</string>
     <string name="gb_shoulder_guide_message2">"L'azione [1] si attiva premendo il pulsante. L'azione [2] si attiva rilasciando il pulsante."</string>
@@ -1988,6 +2136,7 @@ ma aumenta anche il consumo energetico e può surriscaldare il dispositivo"</str
     <string name="gb_signed_gift_loading_summary">Solo un secondo…</string>
     <string name="gb_signed_title">Registrati questo mese</string>
     <string name="gb_smart_battery_surplus_new">%1$s %2$s rimanenti</string>
+    <string name="gb_smart_shake_description">Sensibilità ai piccoli gesti</string>
     <string name="gb_sound_audition">Prova</string>
     <string name="gb_storage_game_dialog_message">Puoi memorizzare i giochi automaticamente in Game Turbo. Se attivi questa funzionalità, non verranno visualizzati sulla schermata Home. Attivare?</string>
     <string name="gb_storage_game_uninstall">Disinstalla giochi</string>
@@ -2008,8 +2157,11 @@ ma aumenta anche il consumo energetico e può surriscaldare il dispositivo"</str
     <string name="gb_turbo_wonder_subtitle">Registra i momenti chiave</string>
     <string name="gb_vision_enhance">Grafica migliorata</string>
     <string name="gb_vision_enhance_desc">"Migliora la qualità e le prestazioni dell'immagine"</string>
+    <string name="gb_vision_enhance_frme_insertion_new_tips">"Frequenza di fotogrammi migliorata
+%d FPS"</string>
     <string name="gb_vision_enhance_frme_insertion_tips">"Frequenza di fotogrammi smart
 %d FPS"</string>
+    <string name="gb_vision_enhance_smart_frame_enhance">Migliora la frequenza dei fotogrammi</string>
     <string name="gb_vision_enhance_smart_frame_insertion">Frequenza di fotogrammi smart</string>
     <string name="gb_vision_enhance_smart_frame_insertion_desc">Regola automaticamente la frequenza dei fotogrammi per rendere il movimento più fluido</string>
     <string name="gb_vision_enhance_super_resolution">Super risoluzione</string>
@@ -2077,9 +2229,21 @@ delle tue sessioni di gioco"</string>
     <string name="gd_dock_shortcut_splitescreen">Multischermo</string>
     <string name="gd_setting_conversation">Strumenti conferenza</string>
     <string name="gd_setting_conversation_desc">Fornisce diverse funzionalità da utilizzare nelle chiamate audio e video a schermo intero</string>
+    <string name="gd_setting_dock_activity_title">Strumenti secondari</string>
+    <string name="gd_setting_dock_call_summary">Funzioni vocali e per videochiamate (es. luce di riempimento)</string>
+    <string name="gd_setting_dock_call_title">Strumenti di chiamata</string>
+    <string name="gd_setting_dock_game_summary">Migliora la visualizzazione e le prestazioni mentre giochi</string>
+    <string name="gd_setting_dock_game_summary_new">Migliora la visualizzazione e le prestazioni mentre giochi</string>
+    <string name="gd_setting_dock_summary">"Apri altre app in finestre a comparsa mentre utilizzi un'app a schermo intero"</string>
+    <string name="gd_setting_dock_title">Barra laterale</string>
+    <string name="gd_setting_dock_video_summary">Usa effetti come Dolby Atmos mentre guardi i video</string>
+    <string name="gd_setting_dock_video_summary_new">Usa strumenti ed effetti mentre guardi i video</string>
+    <string name="gd_setting_group_custom_conversation_apps">Registra impronta vocale per le chiamate</string>
     <string name="gd_setting_group_custom_gtb_apps">Giochi</string>
+    <string name="gd_setting_group_custom_gtb_apps_new">Gestici app per il gaming</string>
     <string name="gd_setting_group_custom_settings">Personalizzazione</string>
     <string name="gd_setting_group_custom_vtb_apps">App video</string>
+    <string name="gd_setting_group_custom_vtb_apps_new">Gestisci le app video</string>
     <string name="gd_setting_group_title_switch">Scenari</string>
     <string name="gd_setting_gtb">Mostra durante il gioco</string>
     <string name="gd_setting_gtb_desc">Funzionalità speciali per il gioco</string>
@@ -2094,15 +2258,21 @@ delle tue sessioni di gioco"</string>
     <string name="gd_sidebar_edit_quick_title">Collegamenti</string>
     <string name="gd_sidebar_long_press_tips">"Tenere premuto l'indicatore per spostarlo tenendo il dispositivo in verticale"</string>
     <string name="gd_splite_screen_tips">Multischermo non supporta le finestre a comparsa</string>
-    <string name="gdpr_msg">&lt;Data>Per poter rilevare i rischi per la sicurezza e proteggere i tuoi dati, dobbiamo raccogliere le informazioni necessarie sul tuo dispositivo. Leggi e accetta la nostra &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Informativa sulla privacy&lt;/a> prima di utilizzare i nostri servizi. Se non accetti di fornire tali informazioni, sarai comunque in grado di utilizzare questa app, ma alcune funzionalità non saranno disponibili. &lt;/Data></string>
+    <string name="gdpr_msg"><Data>Per poter rilevare i rischi per la sicurezza e proteggere i tuoi dati, dobbiamo raccogliere le informazioni necessarie sul tuo dispositivo. Leggi e accetta la nostra &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Informativa sulla privacy&lt;/a> prima di utilizzare i nostri servizi. Se non accetti di fornire tali informazioni, sarai comunque in grado di utilizzare questa app, ma alcune funzionalità non saranno disponibili. </Data></string>
     <string name="get_detail_by_click">Tocca per visualizzare i dettagli</string>
     <string name="get_phone_num_fail">Numero sconosciuto</string>
     <string name="get_sys_info">Recupero informazioni in corso…</string>
     <string name="gigabyteShort">GB</string>
+    <string name="global_dock_guide_desc_pad">"Premi e mantieni premuto l'indicatore per spostare la finestra"</string>
     <string name="global_dock_guide_desc_with_split_screen">"· Tocca un'app sulla barra laterale per aprirla in una finestra a comparsa.
 · Trascina un'app al centro dello schermo per aprirla in una finestra a comparsa, o a lato per la modalità multi schermo.
 · Tieni premuto l'indicatore per spostare la finestra."</string>
+    <string name="global_dock_guide_desc_with_split_screen_new">"Tocca un'app sulla barra laterale per aprirla in una finestra a comparsa.
+ Trascina un'app al centro dello schermo per aprirla in una finestra a comparsa, o a lato per la modalità multi-schermo.
+ Tieni premuto l'indicatore per spostare la finestra."</string>
     <string name="global_dock_guide_desc_without_split_screen">"· Tocca un'app sulla barra laterale per aprirla in una finestra a comparsa.
+· Tieni premuto l'indicatore per spostare la finestra."</string>
+    <string name="global_dock_guide_desc_without_split_screen_new">"Tocca un'app sulla barra laterale per aprirla in una finestra a comparsa.
 · Tieni premuto l'indicatore per spostare la finestra."</string>
     <string name="global_satisfaction_notification_button">Valuta</string>
     <string name="global_satisfaction_notification_channel">Sondaggio sulla soddisfazione degli utenti</string>
@@ -2195,10 +2365,11 @@ delle tue sessioni di gioco"</string>
     <string name="gtb_dialog_btn_open">Attiva</string>
     <string name="gtb_dialog_hint_smart_5g">Puoi attivare e disattivare questa funzionalità in Game Turbo > Impostazioni.</string>
     <string name="gtb_dialog_privacy_speed_message">Stai per utilizzare Xunyou Game Booster. Questo servizio raccoglierà il tuo ID Xiaomi Account per registrare la durata del tuo abbonamento.</string>
-    <string name="gtb_dialog_privacy_speed_tips">"&lt;Data>Ho letto e accettato l' &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> di Xunyou Game Booster.&lt;/Data>"</string>
+    <string name="gtb_dialog_privacy_speed_tips"><Data>"Ho letto e accettato l' &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> di Xunyou Game Booster."</Data></string>
+    <string name="gtb_dialog_privacy_speed_tips_new"><Data>"I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou Game Booster</string>
     <string name="gtb_dialog_privacy_voice_message">Stai per utilizzare Xunyou Game Voice Changer. Questo servizio raccoglierà il tuo ID Xiaomi Account per registrare la durata del tuo abbonamento.</string>
-    <string name="gtb_dialog_privacy_voice_tips">"&lt;Data>Ho letto e accettato l'&lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> di Xunyou Game Voice Changer.&lt;/Data>"</string>
+    <string name="gtb_dialog_privacy_voice_tips"><Data>"Ho letto e accettato l'&lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> di Xunyou Game Voice Changer."</Data></string>
     <string name="gtb_dialog_privacy_voice_title">Xunyou Game Voice Changer</string>
     <string name="gtb_dialog_summary_smart_5g">Ogni volta che Game Turbo rileva una rete 5G, può connettere il tuo dispositivo alla migliore rete disponibile per ridurre il ritardo di rete. Attivare questa funzionalità?</string>
     <string name="gtb_dialog_title_smart_5g">Ottimizzazione di rete 5G</string>
@@ -2220,7 +2391,7 @@ delle tue sessioni di gioco"</string>
     <string name="gtb_guide_gtb_game_new">Nuovo</string>
     <string name="gtb_guide_gtb_line_new">Prova la modalità prestazioni in Game Turbo!</string>
     <string name="gtb_guide_gtb_line_new_global">Scorri per aprire Game Turbo</string>
-    <string name="gtb_guide_gtb_line_wilde_mode">Prova la modalità Estrema in Game Turbo per portare i tuoi giochi a un livello superiore</string>
+    <string name="gtb_guide_gtb_line_wilde_mode">Prova la modalità Wild Boost in Game Turbo per portare il tuo gioco a un livello superiore.</string>
     <string name="gtb_guide_gtb_line_xspace">Ancora più divertimento con il nuovo Game Turbo!</string>
     <string name="gtb_guide_small_window_app_desc">Usa le altre app mentre giochi</string>
     <string name="gtb_guide_small_window_app_title">Finestre a comparsa</string>
@@ -2269,7 +2440,7 @@ to join our egg hunt!"</string>
     <string name="guide_wait_setting">Non ora</string>
     <string name="handle_bar_summary_wifi_unknown">Sconosciuto</string>
     <string name="handle_bar_title_system">Sistema</string>
-    <string name="handle_title_abnormal">Batteria in esaurimento</string>
+    <string name="handle_title_abnormal">Consumo eccessivo</string>
     <string name="handle_title_app">App</string>
     <string name="handle_title_details">Dettagli utilizzo batteria</string>
     <string name="handle_title_network">Sicurezza Wi-Fi</string>
@@ -2372,6 +2543,8 @@ to join our egg hunt!"</string>
     <string name="item_view_role_description">Scheda</string>
     <string name="item_virus_lib">Aggiorna automaticamente le definizioni dei virus</string>
     <string name="item_zero">%d CNY</string>
+    <string name="keyboard_key_back">Indietro</string>
+    <string name="keyboard_key_space">Spazio</string>
     <string name="keyguard_charging_info_drained_time_format">%1$s %2$s</string>
     <string name="kilobyteShort">KB</string>
     <string name="kilobyte_per_second">KB/s</string>
@@ -2395,7 +2568,9 @@ Il tuo operatore potrebbe addebitarti dei costi aggiuntivi in caso usassi nuovam
     <string name="loading">Solo un secondo…</string>
     <string name="loading_text_format" formatted="false">Verifica della presenza di informazioni private nelle foto %d/%d</string>
     <string name="local_ip_exception_summary">"Impossibile ottenere un indirizzo IP locale. Per segnalare questo problema, apri l'applicazione Feedback e inviaci un log dal tuo dispositivo."</string>
+    <string name="location_services_title">Servizi di localizzazione</string>
     <string name="lock_all_title">Blocca tutte le app</string>
+    <string name="lock_app_input_invalid_car">Alcuni simboli non sono supportati</string>
     <string name="lock_mode_title">Impostazioni blocco</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s usato sulla schermata di blocco</string>
     <string name="lock_screen_traffic_guide_notification_title">"Tocca per gestire l'utilizzo dei dati."</string>
@@ -2487,6 +2662,7 @@ dell'operatore"</string>
     <string name="make_sure_package_type">Seleziona il tuo piano dati</string>
     <string name="man_add_application">Aggiungi app ad avvio automatico manualmente</string>
     <string name="manage_hybrid_permissions">"Gestisci le autorizzazioni dell'applicazione"</string>
+    <string name="manage_notification_access_title">Leggi, rispondi e controlla le notifiche</string>
     <string name="managed_user_title">Tutte le applicazioni di lavoro</string>
     <string name="manual_input_free_traffic">"Imposta l'utilizzo dei dati fuori soglia"</string>
     <string name="manual_input_traffic">Imposta utilizzo dati</string>
@@ -2581,6 +2757,7 @@ Velocità dispositivo incrementata del %s."</string>
     <string name="menu_show_work_profile_text">Mostra le app sullo Spazio di lavoro</string>
     <string name="menu_sms">Invia messaggio</string>
     <string name="menu_summary_antispam">Blocca chiamate e messaggi</string>
+    <string name="menu_summary_antispam_calls">Blocca le chiamate di spam</string>
     <string name="menu_summary_antivirus">Cerca virus sul tuo dispositivo</string>
     <string name="menu_summary_app_manager">Gestisci le impostazioni app</string>
     <string name="menu_summary_garbage_cleanup">Nessun contenuto inutile trovato</string>
@@ -2643,6 +2820,7 @@ Velocità dispositivo incrementata del %s."</string>
     <string name="miuix_appcompat_delete_description">Elimina</string>
     <string name="miuix_appcompat_deselect_all">Deseleziona tutti</string>
     <string name="miuix_appcompat_deselect_all_description">Deseleziona tutto</string>
+    <string name="miuix_appcompat_edit">Modifica</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Annulla</string>
     <string name="miuix_appcompat_search_input_description">Cerca</string>
     <string name="miuix_appcompat_select_all">Seleziona tutto</string>
@@ -2664,6 +2842,8 @@ Velocità dispositivo incrementata del %s."</string>
     <string name="mixed_retry_button_text">Annulla</string>
     <string name="mixed_settings_help_how_to_record">Come impostare la password</string>
     <string name="mm_app_name">Mi SIM</string>
+    <string name="mode_size_center">Centrato</string>
+    <string name="mode_size_full">Schemo intero</string>
     <string name="modify_cellular_type">Tocca per selezionare il tuo piano</string>
     <string name="modify_password_mode"><u>Cambia il tipo di password</u></string>
     <string name="modifypassword">Cambia il tipo di password</string>
@@ -2778,6 +2958,8 @@ Puoi disattivare l'opzione \"Modifica automaticamente le statistiche sull'utiliz
     <string name="net_boostering">Aumento della velocità di rete…</string>
     <string name="net_boosting">Incremento della velocità…</string>
     <string name="net_delay_title">Ritardo</string>
+    <string name="net_free_booster_new_user_tip">Ricevi un booster di gioco gratuito e partecipa per vincere un telefono Xiaomi!</string>
+    <string name="net_free_booster_new_user_title">Omaggio per il nuovo utente</string>
     <string name="net_overdue">Sessione terminata</string>
     <string name="network_assistant_privacy">"Per tenere traccia dell'utilizzo dei dati da parte dell'app, raccogliamo informazioni quali nomi di pacchetti, Wi-Fi e utilizzo dei dati mobili, utilizzo dei dati nelle ore di punta e non di punta e quando Wi-Fi e dati mobili sono attivi. Queste informazioni vengono memorizzate localmente sul tuo dispositivo."</string>
     <string name="network_assistant_privacy_title">"Invia dati diagnostici e sull'utilizzo della rete e dell'app"</string>
@@ -2959,9 +3141,12 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="numeric_recording_intro_header">Inserisci la password</string>
     <string name="numeric_retry_button_text">Annulla</string>
     <string name="numeric_settings_help_how_to_record">Come impostare il codice PIN</string>
+    <string name="oaid_apps_summary">"Consenti o limita l'accesso per le singole app"</string>
     <string name="oaid_apps_title">"Gestisci l'ID virtuale"</string>
     <string name="oaid_reset_content_tip">"Se disattivi l'ID virtuale, alcune app potrebbero smettere di funzionare correttamente, una parte dei dati app potrebbe andare persa o diventare inutilizzabile."</string>
     <string name="oaid_reset_final_tip">"Disattivare comunque l'ID virtuale?"</string>
+    <string name="oaid_string">"ID virtuale corrente:
+%1s"</string>
     <string name="oaid_tips_content">"Gli ID virtuali (OAID) possono essere utilizzati per monitorare il tuo comportamento e personalizzare gli annunci per te. Puoi selezionare quali app possono accedere al tuo ID virtuale. Tieni presente che se limiti l'accesso, i consigli sugli annunci potrebbero diventare irrilevanti o le app potrebbero non funzionare normalmente."</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3098,6 +3283,7 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_batery_protection">Protezione della batteria</string>
     <string name="pc_battery_charge_protect">Protezione durante la ricarica</string>
     <string name="pc_battery_chart_loading">Solo un secondo…</string>
+    <string name="pc_battery_date_year_month_format">MMM yyyy</string>
     <string name="pc_battery_detail_curve_reference_now">Ora</string>
     <string name="pc_battery_detail_device_item_title">Statistiche di utilizzo batteria</string>
     <string name="pc_battery_health_revise_title">Calibra le informazioni sullo stato della batteria</string>
@@ -3116,8 +3302,43 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_battery_history_total_consumption_title">Consumo energetico totale</string>
     <string name="pc_battery_history_usetime_title">Attivo</string>
     <string name="pc_battery_low_health_reminder">È ora di sostituire la batteria</string>
+    <string name="pc_battery_replacement_service_title">Prova il nostro servizio di sostituzione della batteria. %1$s hardware originale con garanzia %2$s.</string>
+    <string name="pc_berserk_mode_dialog_title">Attiva la Modalità Estrema</string>
+    <string name="pc_berserk_mode_noti_summary">Modalità Estrema potrebbe aumentare il consumo di energia e causare problemi di surriscaldamento</string>
+    <string name="pc_berserk_mode_performance_title">Modalità Estrema</string>
     <string name="pc_button_go_to_setting">Impostazioni</string>
+    <string name="pc_camera_printer_dialog_battery_full">Carico</string>
+    <string name="pc_camera_printer_dialog_battery_low">Batteria scarica</string>
+    <string name="pc_camera_printer_dialog_negative_button">Ho capito</string>
+    <string name="pc_camera_printer_dialog_positive_button">Avvia Fotocamera</string>
+    <string name="pc_camera_printer_dialog_should_charge">Collega il caricabatterie</string>
+    <string name="pc_camera_printer_notify_button">Apri Fotocamera</string>
+    <string name="pc_camera_printer_notify_subtitle">Connesso</string>
+    <string name="pc_camera_printer_title">Kit per stampante fotografica</string>
     <string name="pc_category_charge_settings">Impostazioni di ricarica</string>
+    <string name="pc_charge_mode_low_power_fast_speed">Velocizza</string>
+    <string name="pc_charge_mode_low_power_fast_speed_tips">Il dispositivo potrebbe scaldarsi</string>
+    <string name="pc_charge_mode_standard">Standard</string>
+    <string name="pc_charge_mode_topspeed">Massima velocità</string>
+    <string name="pc_charge_mode_topspeed_tips">Il dispositivo potrebbe scaldarsi</string>
+    <string name="pc_charge_protection_features_title">Opzioni di ricarica</string>
+    <string name="pc_charge_protection_wired_charge">Ricarica via cavo</string>
+    <string name="pc_charge_protection_wired_charge_mode">Modalità di ricarica con cavo</string>
+    <string name="pc_charge_protection_wireless_charge">Ricarica wireless</string>
+    <string name="pc_charge_protection_wireless_charge_mode">Modalità di ricarica wireless</string>
+    <string name="pc_charge_protection_wireless_reverse_charge">Ricarica wireless inversa</string>
+    <string name="pc_charge_protection_wireless_reverse_charge_limit_desc">Spegni la ricarica wireless inversa quando la batteria di questo dispositivo scende al di sotto di %1$s</string>
+    <string name="pc_charge_protection_wireless_reverse_charge_limit_title">Limite di carica</string>
+    <string name="pc_charge_wireless_charge_mode_silence_title">Durata della modalità silenziosa</string>
+    <string name="pc_charge_wireless_charge_select_silence">Silenziosa</string>
+    <string name="pc_charge_wireless_charge_select_silence_always">Sempre</string>
+    <string name="pc_charge_wireless_charge_select_silence_night">Notte</string>
+    <string name="pc_charge_wireless_charge_select_silence_night_summary">%1$s fino alle %2$s del giorno seguente</string>
+    <string name="pc_charge_wireless_charge_select_silence_summary">Rumore ridotto e ricarica più lenta</string>
+    <string name="pc_charge_wireless_charge_select_standard">Standard</string>
+    <string name="pc_charge_wireless_charge_select_topspeed">Massima velocità</string>
+    <string name="pc_charge_wireless_charge_select_topspeed_summary">Aumento del rumore e della temperatura del dispositivo</string>
+    <string name="pc_charge_wireless_only_mi_charger_work">Funziona solo con i caricabatterie forniti da Xiaomi</string>
     <string name="pc_charged_auto_close_summary">Disattiva quando la batteria è al ​%1$s o è completamente carica</string>
     <string name="pc_charged_auto_close_title">Disattiva quando carico</string>
     <string name="pc_close_notifi_action">Disattiva</string>
@@ -3126,10 +3347,12 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_continuity_open_save_mode_notifi_sumary">%1$s: la batteria è inferiore a %2$s. Attiva il Risparmio energetico per aggiungere %3$s %4$s.</string>
     <string name="pc_continuity_open_save_mode_notifi_title">%s: la batteria è quasi scarica</string>
     <string name="pc_current_power_mode">Modalità attuale</string>
+    <string name="pc_cycle_count_protect_title">Cicli</string>
     <string name="pc_emergency_call">Emergenza</string>
     <string name="pc_endurance_calculation">Calcolo in corso…</string>
     <string name="pc_entered_extreme_mode">Modalità Ibernazione attiva</string>
     <string name="pc_entered_extreme_mode_summary">La batteria del dispositivo è scarica ed è entrato in modalità Ibernazione. Le app verranno eseguite in background e non invieranno notifiche.</string>
+    <string name="pc_extreme_category">Batteria estremamente scarica</string>
     <string name="pc_extreme_exit_and_power_off">Esci</string>
     <string name="pc_extreme_mode_bg_toast">In modalità Ibernazione, le app verranno eseguite in background e non invieranno notifiche</string>
     <string name="pc_extreme_mode_entering">Passaggio alla modalità Ibernazione…</string>
@@ -3138,6 +3361,8 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_extreme_mode_exiting">Uscita dalla modalità Ibernazione…</string>
     <string name="pc_extreme_mode_find_charger">Carica il tuo dispositivo il prima possibile.</string>
     <string name="pc_extreme_mode_runtime">Modalità Ibernazione attiva per %1$s e %2$s.</string>
+    <string name="pc_extreme_mode_setting_summary">"Prolunga l'autonomia in standby quando la batteria è estremamente scarica"</string>
+    <string name="pc_extreme_mode_setting_title">Ibernazione</string>
     <string name="pc_extreme_mode_title">Modalità Ibernazione</string>
     <string name="pc_fast_charge_notifi_action_text_off">Interrompi</string>
     <string name="pc_fast_charge_notifi_action_text_on">Turbo</string>
@@ -3152,12 +3377,18 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_fast_charge_switch_summary_new">Ricorda di aumentare la velocità di ricarica quando il caricabatterie in dotazione è collegato e la batteria scende al di sotto del livello impostato</string>
     <string name="pc_fast_charge_switch_title">Aumenta la velocità di ricarica</string>
     <string name="pc_fast_charge_switch_toast_message">Le modifiche verranno applicate la prossima volta che ricarichi questo dispositivo</string>
+    <string name="pc_fast_charge_temp_remider">Attiva per regolare automaticamente la velocità di ricarica. Questa funzione funziona solo con i caricabatterie forniti da Xiaomi. Il dispositivo potrebbe riscaldarsi durante la ricarica.</string>
     <string name="pc_fast_charge_title">Aumenta la velocità di ricarica</string>
+    <string name="pc_first_use_error_tips">Calcolo in corso...</string>
+    <string name="pc_first_use_protect_title">Primo utilizzo</string>
     <string name="pc_going_to_exit_extreme_mode">Uscita dalla modalità Ibernazione</string>
     <string name="pc_going_to_exit_extreme_mode_summary">Il tuo dispositivo è in carica. Modalità Ibernazione disattivata.</string>
     <string name="pc_going_to_extreme_mode">Passaggio alla modalità Ibernazione</string>
     <string name="pc_handle_battery_level">Impugnatura</string>
     <string name="pc_have_no_battery_issue">Nessun problema</string>
+    <string name="pc_health_charge_protect_notification_summary">"Attiva la protezione della batteria per ridurne l'invecchiamento."</string>
+    <string name="pc_health_charge_protect_summary">Per prolungare la durata della batteria, il dispositivo interromperà la ricarica quando il livello della batteria raggiunge %1$s.</string>
+    <string name="pc_health_charge_protect_title">Protezione della batteria</string>
     <string name="pc_hide_more_power_rank_apps">Nascondi</string>
     <string name="pc_hidemode_normal">Bilanciato</string>
     <string name="pc_hidemode_normal_title">Bilanciato</string>
@@ -3175,6 +3406,8 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_install_manager">Installa tramite USB</string>
     <string name="pc_intellect_charge_protect_summary">Regola la ricarica in base agli scenari di utilizzo</string>
     <string name="pc_intellect_charge_protect_title">Ricarica ottimizzata</string>
+    <string name="pc_is_exiting_super_power">"Disattivazione
+Super risparmio energetico"</string>
     <string name="pc_keywords_fast_charge">Ricarica rapida</string>
     <string name="pc_keywords_low_power_consumption_save">Risparmio energetico</string>
     <string name="pc_keywords_low_power_mode">Modalità a basso consumo</string>
@@ -3192,6 +3425,10 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_low_batterty_got_it">Ho capito</string>
     <string name="pc_low_battery_fast_charge">Accelera la ricarica</string>
     <string name="pc_low_battery_fast_charge_summary">Collega il caricabatterie in dotazione per velocizzare la ricarica quando lo schermo è spento e la batteria è scarica. Questa funzionalità potrebbe causare il surriscaldamento del dispositivo.</string>
+    <string name="pc_low_temp_charge_summary">Tieni il caricabatterie collegato e aspetta che la batteria si scaldi dopo che lo schermo si è spento per caricarsi normalmente.</string>
+    <string name="pc_low_temp_charge_title">Ricarica a bassa temperatura</string>
+    <string name="pc_low_temperature_extreme_endurance_summary">Limita le prestazioni del dispositivo per prolungare la durata della batteria quando la temperatura ambiente è estremamente bassa</string>
+    <string name="pc_low_temperature_extreme_endurance_title">Modalità Cold Endurance</string>
     <string name="pc_main_activity_back">Indietro</string>
     <string name="pc_main_battery_text_day">Aggiunti %1$s m, circa %2$s g rimanenti</string>
     <string name="pc_main_battery_text_day_hour">Aggiunti %1$s m, circa %2$s g %3$s o rimanenti</string>
@@ -3202,11 +3439,13 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_main_power_manager_hour_minute">%1$so %2$sm fino al completamento della carica</string>
     <string name="pc_main_sub_battery_text_day_hour">%1$s g %2$s o rimanenti</string>
     <string name="pc_main_sub_battery_text_hour_minute">%1$s o %2$s m rimanenti</string>
+    <string name="pc_misight_reminder_check">Visualizza</string>
     <string name="pc_more_battery_feature">Funzionalità aggiuntive</string>
     <string name="pc_more_power_rank_apps">Altre app</string>
     <string name="pc_night_charge_protect_summary">"Regola automaticamente la durata della ricarica per rallentare l'invecchiamento della batteria"</string>
     <string name="pc_night_charge_protect_title">Protezione della carica notturna</string>
     <string name="pc_night_sleep_mode_summary">Disattiva automaticamente alcune funzionalità per risparmiare la batteria quando viene rilevato il sonno</string>
+    <string name="pc_night_sleep_mode_summary_pad">"Mentre lo schermo è spento, il dispositivo chiude le applicazioni in background e limita l'utilizzo della rete. Se il dispositivo non verrà utilizzato per molto tempo, si metterà in modalità di disattivazione o si spegnerà automaticamente."</string>
     <string name="pc_night_sleep_mode_title">Modalità notturna</string>
     <string name="pc_no_more_remind">Non ricordare</string>
     <string name="pc_ordinary_charge_summary">Consenti sempre la ricarica fino al %1$s</string>
@@ -3219,11 +3458,14 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_phone_battery_level">Telefono</string>
     <string name="pc_power_consume_check">Controllo della batteria</string>
     <string name="pc_power_consume_check_ing">Verifica in corso…</string>
+    <string name="pc_power_mode_has_berserk">Modalità Estrema è attiva</string>
     <string name="pc_power_mode_has_performance">Modalità prestazioni attiva</string>
     <string name="pc_power_save_settings_new">Impostazioni del risparmio energetico</string>
+    <string name="pc_production_date_protect_title">Data di fabbricazione</string>
     <string name="pc_remind_close_cover_to_charge_summary">"Piega il dispositivo prima di caricarlo per un'esperienza di ricarica più rapida e stabile."</string>
     <string name="pc_remind_close_cover_to_charge_title">Piega per caricare</string>
     <string name="pc_reminder_always_protect_summary">"Passa alla ricarica limitata per ridurre l'usura della batteria"</string>
+    <string name="pc_satellite_auto_enter_super_power">È stato attivato il Super risparmio energetico per garantire le comunicazioni satellitari.</string>
     <string name="pc_save_charge">Ricarica</string>
     <string name="pc_save_other_setting">Altre impostazioni</string>
     <string name="pc_save_power">Risparmio energetico</string>
@@ -3234,6 +3476,17 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_search_keywords_capacity">Capacità della batteria</string>
     <string name="pc_search_keywords_property">Prestazioni</string>
     <string name="pc_settings_title">Batteria</string>
+    <string name="pc_smart_charge_button_summary">Per prolungare la durata della batteria, il sistema apprenderà come si carica il dispositivo e interromperà la ricarica quando il livello della batteria raggiungerà il %1$s</string>
+    <string name="pc_smart_charge_notify_summary_high_temp">Il dispositivo si è riscaldato. La ricarica si interromperà quando il livello della batteria raggiungerà il %1$s</string>
+    <string name="pc_smart_charge_notify_summary_high_temp_protect">Per proteggere il dispositivo dal surriscaldamento, la carica viene interrotta quando il livello della batteria raggiunge il %1$s</string>
+    <string name="pc_smart_charge_notify_summary_navagition">Navigazione… La ricarica verrà interrotta quando il livello della batteria raggiungerà il %1$s</string>
+    <string name="pc_smart_charge_notify_summary_night_charge">La ricarica si interromperà al %s</string>
+    <string name="pc_smart_charge_pogo_project_dialog_content">"Per prolungare la durata della batteria, la batteria di questo dispositivo non supererà il livello attuale mentre è collegato all'auto."</string>
+    <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Non mostrare più</string>
+    <string name="pc_smart_charge_pogo_project_dialog_title">Protezione della batteria</string>
+    <string name="pc_smart_charge_pogo_project_notification_content">"Per prolungare la durata della batteria, la batteria di questo dispositivo non supererà il livello attuale mentre è collegato all'auto."</string>
+    <string name="pc_smart_charge_pogo_project_notification_title">Protezione della batteria</string>
+    <string name="pc_smart_charge_title">Ricarica smart</string>
     <string name="pc_smart_discharge_checkbox_summary">Quando si utilizzano le funzionalità di navigazione, la ricarica si interromperà automaticamente a una percentuale specificata. Risparmio energetico verrà disattivato.</string>
     <string name="pc_smart_discharge_checkbox_title">Disconnessione automatica della ricarica</string>
     <string name="pc_smart_discharge_drop_down_title">Impostazioni di disconnessione automatica</string>
@@ -3246,6 +3499,8 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_statistics_battery_use_title">Utilizzo batteria</string>
     <string name="pc_suggest_open_fast_charge">Attiva la ricarica rapida da %dW</string>
     <string name="pc_temperature_too_high">Dispositivo surriscaldato</string>
+    <string name="pc_this_time_charge_full">Carica completamente questa volta</string>
+    <string name="pc_this_time_charge_full_work">Quasi completamente carico</string>
     <string name="pc_timely_charging_summary">La carica della batteria è inferiore a %1$s. Il surriscaldamento del dispositivo quando la batteria è scarica può danneggiare la batteria.</string>
     <string name="pc_timely_charging_title">Carica il dispositivo</string>
     <string name="pc_to_phone_install">"L'installazione di %s tramite USB è stata bloccata"</string>
@@ -3253,11 +3508,13 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_wait_device_cools_down">Attendi che il dispositivo si raffreddi per poter utilizzare questa funzionalità.</string>
     <string name="pc_wireless_charge_adjust_position_summary">Posizionalo sul caricabatterie wireless</string>
     <string name="pc_wireless_charge_adjust_position_title">Carica il tuo dispositivo più velocemente</string>
+    <string name="pc_wireless_charge_notification_summary">La ricarica wireless è meno efficiente dal punto di vista energetico rispetto a quella via cavo</string>
+    <string name="pc_wireless_charge_notification_title">Ricarica wireless</string>
     <string name="pc_wireless_charging_special_stand_summary1">Installa il tuo dispositivo sul supporto incluso con il caricabatterie wireless</string>
     <string name="pc_wireless_charging_special_stand_summary2">Installa il tuo dispositivo sul supporto incluso con il tuo caricabatterie wireless per migliori prestazioni di ricarica</string>
     <string name="pc_wireless_charging_special_stand_title">Utilizza il supporto di ricarica fornito</string>
     <string name="pc_wireless_handle_connected">Dispositivo connesso</string>
-    <string name="pc_wireless_handle_title">Impugnatura per la fotocamera</string>
+    <string name="pc_wireless_handle_title">Impugnatura professionale per fotocamera</string>
     <string name="pc_work_in_save_mode">Risparmio energetico</string>
     <string name="pc_work_in_super_save_mode">Super risparmio energetico</string>
     <string name="pc_xiaoai_create_auto_task">Nuova attività da Mi AI</string>
@@ -3268,6 +3525,7 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="percentage">%d%%</string>
     <string name="perfermance_optimization_summary">"Evita il surriscaldamento e problemi relativi all'hardware"</string>
     <string name="perfermance_optimization_title">Ottimizzazione prestazioni</string>
+    <string name="performance_frame_enhance_super_display_tips">"La frequenza dei fotogrammi migliorata e la super risoluzione non possono funzionare contemporaneamente. Attivando uno dei due si spegne l'altro."</string>
     <string name="performance_frame_insert_super_display_tips">"Sequenza di fotogrammi smart e Super risoluzione non possono essere attivi contemporaneamente. L'attivazione di uno dei due disattiva l'altro."</string>
     <string name="perm_intercept_content">Concedere alla app il seguente permesso: %1s?</string>
     <string name="perm_intercept_notification_title">Consentire a %1s di utilizzare le notifiche consentirà alla app di eseguire le seguenti azioni:</string>
@@ -3276,6 +3534,8 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="perm_intercept_unknown_title">Consentire a %1s di installare app da fonti sconosciute potrebbe comportare i seguenti rischi:</string>
     <string name="perm_list_header_title">App</string>
     <string name="perm_list_header_title_has_storage">App con archiviazione</string>
+    <string name="permdesc_coarse_location">Posizione approssimativa</string>
+    <string name="permdesc_fine_location">Posizione</string>
     <string name="permdesc_get_installed_apps">Consentire a \"%1$s\" di accedere alle informazioni sulle app installate?</string>
     <string name="permdesc_in_calls">Monitorare le chiamate in arrivo</string>
     <string name="permdesc_out_calls">Monitorare le chiamate in uscita</string>
@@ -3323,7 +3583,9 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="permission_group_location">Questo permesso consente alle app di accedere alle informazioni sulla posizione tramite rete o satellite.</string>
     <string name="permission_group_microphone">"Questo permesso consente alle app di utilizzare il microfono per registrare l'audio."</string>
     <string name="permission_group_nearby_device">Questo permesso consente alle app di individuare e connettersi ai dispositivi vicini, nonché di determinarne la posizione.</string>
+    <string name="permission_group_note">"Concedi questo permesso per consentire all'applicazione di accedere agli elementi di Note."</string>
     <string name="permission_group_phone">Questo permesso consente alle app di effettuare, rispondere e terminare le chiamate, nonché di accedere al numero di telefono, allo stato del dispositivo e alle informazioni sulla reti mobili.</string>
+    <string name="permission_group_record">"Concedi questo permesso per consentire all'applicazione di accedere agli elementi del Registratore."</string>
     <string name="permission_group_sms">Questo permesso consente alle app di inviare e visualizzare SMS e MMS.</string>
     <string name="permission_group_sport_healthy">"Questo permesso consente alle app di accedere alle informazioni sull'attività dell'utente (ad es. conteggio dei passi, allenamenti)."</string>
     <string name="permission_instruction_access_notification">This permission allows apps to read, search, and clear all your notifications. Remember that notifications may include private information (e.g. bank card numbers and passwords).</string>
@@ -3364,9 +3626,11 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="permission_instruction_read_history">Accedere alla cronologia di navigazione</string>
     <string name="permission_instruction_read_imei">"Accedi all'IMEI del dispositivo"</string>
     <string name="permission_instruction_read_media_pic">Questo permesso consente alle app di accedere a foto e video archiviati su questo dispositivo. Questi elementi potrebbero contenere informazioni personali.</string>
+    <string name="permission_instruction_read_note">Accedi agli appunti</string>
     <string name="permission_instruction_read_notify_sms">This permission allows apps to read notification text messages stored on your device or SIM card.</string>
     <string name="permission_instruction_read_phone_state">Questo permesso consente alle app di accedere al numero di telefono, allo stato del dispositivo e alle informazioni sulla rete mobile.</string>
     <string name="permission_instruction_read_read_calendar">Questo permesso consente alle app di aggiungere, eliminare e modificare gli eventi del calendario.</string>
+    <string name="permission_instruction_read_record">Accesso alle registrazioni</string>
     <string name="permission_instruction_read_sms">Questo permesso consente alle app di leggere tutti i messaggi di testo e multimediali memorizzati sul dispositivo o sulla scheda SIM. Tali messaggi potrebbero contenere password, dettagli del conto bancario e altre informazioni personali.</string>
     <string name="permission_instruction_read_write_calendar">Questo permesso consente alle app di accedere agli eventi del calendario.</string>
     <string name="permission_instruction_receive_mms">This permission allows apps to read all multimedia messages stored on your device or SIM card. Such messages might contain passwords, bank account details, and other personal information.</string>
@@ -3394,16 +3658,22 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="permission_instruction_write_contacts">Questo permesso consente alle app di aggiungere, eliminare e modificare i contatti.</string>
     <string name="permission_instruction_write_settings">This permission allows apps to modify system settings. Malicious apps might use this permission temper with your system settings and affect the normal use of your device.</string>
     <string name="permission_legacy_storage">Accedi a foto, video, audio e file</string>
+    <string name="permission_oaid_desc">Permetti a %1$s di tracciare le tue attività su altre app e siti web?</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Le app non chiederanno il permesso prima di leggere i tuoi contatti, visualizzare la cronologia delle chiamate, modificare le impostazioni di sistema o accedere alle risorse della fotocamera o ad altre risorse del dispositivo. Puoi attivare questa funzionalità nelle impostazioni dei Permessi.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Gestione permessi</string>
     <string name="permission_precise_location">Posizione precisa</string>
     <string name="permission_precise_location_sumary">"Quando questa funzione è disattivata, le applicazioni potranno accedere solo alla posizione approssimativa dell'utente."</string>
+    <string name="permission_risk_app_for_desc">"Quest'app potrebbe comportare rischi per la sicurezza. Vuoi concedere comunque i permessi?"</string>
+    <string name="permission_risk_app_for_title">Rischi rilevati</string>
     <string name="permission_share_uid">Posizione precisa</string>
     <string name="permission_upgrade_more">Altre funzionalità di protezione della privacy</string>
     <string name="permission_upgrade_privacy_title">"I permessi per registrare audio e accedere ai contatti ora hanno un'opzione che ti consente di concedere tali permessi solo mentre stai utilizzando le app corrispondenti. Per proteggere la privacy delle informazioni personali, le app non eseguiranno queste azioni in background."</string>
     <string name="permission_upgrade_runtime">"I permessi per accedere alla tua posizione o scattare foto ora hanno un'opzione che ti consente di concedere tali permessi solo una volta. Per proteggere la privacy delle informazioni personali, queste azioni non verranno eseguite dopo aver lasciato la app. Ti verranno chiesti di nuovo i permessi la prossima volta che utilizzerai le funzionalità correlate."</string>
     <string name="permission_upgrade_title">Permessi aggiornati</string>
     <string name="permission_upgrade_virtual">Per impedire alle app di accedere ai contatti o alla cronologia delle chiamate, seleziona \"Manda messaggi vuoti\" quando concedi i permessi corrispondenti.</string>
+    <string name="permission_warning_for_cancel">Annulla</string>
+    <string name="permission_warning_for_ensure">Concedi</string>
+    <string name="permission_warning_for_risk">"Se decidi di concedere i permessi, i messaggi vuoti verranno restituiti all'app per proteggere la tua privacy."</string>
     <string name="permission_with_SMS_and_MMS">Permessi relativi a SMS e MMS</string>
     <string name="permission_with_call_and_contact">Permessi relativi a telefonate, informazioni di contatto e cronologia delle chiamate.</string>
     <string name="permission_with_read_write_clipboard">Consenti alle app di accedere e salvare elementi negli appunti</string>
@@ -3425,7 +3695,7 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="phone_manager_edit_commonly_used_func_title">Modifica le funzionalità di base</string>
     <string name="phone_manager_title">Strumenti</string>
     <string name="phone_number_protect">Rendi il numero di telefono privato</string>
-    <string name="pin_toast">"Scorri verso l'alto partendo dal fondo della schermata e metti in pausa per rimuovere quest'app da quelle fissate in alto"</string>
+    <string name="pin_toast">"Scorri verso l'alto dal fondo dello schermo e fermati al centro per rimuovere quest'app da quelle fissate in alto"</string>
     <string name="pin_toast_nav">"Tieni premuti i pulsanti \"Indietro\" e \"Anteprima\" per rimuovere quest'app da quelle fissate in alto"</string>
     <string name="pkg_traffic">Limite utilizzo dati</string>
     <string name="pm">PM</string>
@@ -3486,7 +3756,7 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="power_center_batteryscan_normal">Tutto sembra a posto. Visualizza i risultati.</string>
     <string name="power_center_charge_status">In carica</string>
     <string name="power_center_charge_time">%1$sal completamento</string>
-    <string name="power_center_consume_fast">Batteria scarica</string>
+    <string name="power_center_consume_fast">Consumo eccessivo</string>
     <string name="power_center_dialog_msg_bottom">Puoi aumentare la durata della batteria fino a %1$dh %2$dm. Attivare Risparmio energetico?</string>
     <string name="power_center_dialog_msg_title">Attiva per ottenere %1$s in più. Per risparmiare batteria, saranno eseguite le seguenti azioni:</string>
     <string name="power_center_dialog_msg_title_screen_on">Attivando questa funzionalità otterrai %1$s di schermo attivo. Ecco alcune azioni per risparmiare batteria:</string>
@@ -3515,8 +3785,8 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="power_center_night_charge_protection_setting">Visualizza altre opzioni in Sicurezza > Batteria.</string>
     <string name="power_center_night_charge_protection_summary">Per ridurre il deterioramento della batteria, il tuo dispositivo apprende dalle tue abitudini di ricarica quotidiane, al fine di ridurre la ricarica continua non necessaria</string>
     <string name="power_center_one_key_save">Ottimizza</string>
-    <string name="power_center_ontime_boot">"Orario d'accensione"</string>
-    <string name="power_center_ontime_shutdown">Orario di spegnimento</string>
+    <string name="power_center_ontime_boot">Accensione programmata</string>
+    <string name="power_center_ontime_shutdown">Spegnimento programmato</string>
     <string name="power_center_optimize_title">Suggerimenti</string>
     <string name="power_center_power_save_summary_text">Aumenta il tempo rimanente fino a %1$dh %2$dm</string>
     <string name="power_center_power_save_title_text">Risparmio energetico</string>
@@ -3577,8 +3847,8 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="power_center_surface_temp_low">Fredda</string>
     <string name="power_center_surface_temp_lower">Fresca</string>
     <string name="power_center_surface_temp_normal">Normale</string>
-    <string name="power_center_time_to_boot">"Orario d'accensione"</string>
-    <string name="power_center_time_to_shutdown">Orario di spegnimento</string>
+    <string name="power_center_time_to_boot">Orario</string>
+    <string name="power_center_time_to_shutdown">Orario</string>
     <string name="power_center_title">Batteria</string>
     <string name="power_center_unoffical_battery_button">Trova un fornitore di servizi autorizzato</string>
     <string name="power_center_unoffical_battery_dialog">Avviso batteria non autorizzata</string>
@@ -3657,6 +3927,7 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="power_optimize_loading">Caricamento</string>
     <string name="power_optimize_open_hide_mode">Attiva Risparmio energetico</string>
     <string name="power_optimize_power_save_extend_time">Aggiungi %s</string>
+    <string name="power_optimize_power_save_extend_time_new" formatted="false">Estendi per %1s %2s</string>
     <string name="power_optimize_power_save_summary">"Attiva Risparmio energetico per applicare più ottimizzazioni di sistema che limitano l'attività in background"</string>
     <string name="power_optimize_prohibit_app_autostart">"Non consentire l'avvio automatico delle app"</string>
     <string name="power_optimize_reduce_fps">Riduci la frequenza di aggiornamento dello schermo a %d Hz</string>
@@ -3894,8 +4165,8 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="privacy_dialog_camera_message">Per proteggere la tua privacy, il sistema non consente alle app di usare la fotocamera in background.</string>
     <string name="privacy_dialog_camera_title">"Limitazione dell'uso della fotocamera in background"</string>
     <string name="privacy_dialog_content_part1">"Benvenuto in Sicurezza! Questa app controlla la presenza di contenuti inutili e virus sul tuo dispositivo e ti consente di gestire le app, controllare l'utilizzo dei dati mobili, bloccare chiamate e messaggi e altro ancora."</string>
-    <string name="privacy_dialog_content_part2">"&lt;Data>Sicurezza deve raccogliere le informazioni personali necessarie per fornirti i suoi servizi e migliorare le funzionalità. Scopri come gestiamo le informazioni che raccogliamo nella nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a>. Puoi revocare il tuo consenso all'Informativa sulla privacy di Sicurezza in qualsiasi momento nelle Impostazioni.&lt;/Data>"</string>
-    <string name="privacy_dialog_content_part3">&lt;Data>Leggi e accetta il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a> e la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> prima di utilizzare Sicurezza. Se non accetti di utilizzare i suddetti servizi, non sarai in grado di utilizzare alcune funzionalità di questa app; tuttavia, le sue funzionalità di base saranno ancora disponibili.&lt;/Data></string>
+    <string name="privacy_dialog_content_part2"><Data>"Sicurezza deve raccogliere le informazioni personali necessarie per fornirti i suoi servizi e migliorare le funzionalità. Scopri come gestiamo le informazioni che raccogliamo nella nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a>. Puoi revocare il tuo consenso all'Informativa sulla privacy di Sicurezza in qualsiasi momento nelle Impostazioni."</Data></string>
+    <string name="privacy_dialog_content_part3"><Data>Leggi e accetta il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a> e la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> prima di utilizzare Sicurezza. Se non accetti di utilizzare i suddetti servizi, non sarai in grado di utilizzare alcune funzionalità di questa app; tuttavia, le sue funzionalità di base saranno ancora disponibili.</Data></string>
     <string name="privacy_dialog_danger_mission_message">Android dispone di vari permessi ad alto rischio (ad es. il permesso di inviarti notifiche push). Per proteggere la tua privacy, il sistema ti chiederà se consentire tale comportamento, fornendo delle opzioni di limitazione.</string>
     <string name="privacy_dialog_danger_mission_title">Permessi ad alto rischio</string>
     <string name="privacy_dialog_feedback">Feedback</string>
@@ -4001,7 +4272,7 @@ Revocare il consenso?"</string>
     <string name="privacy_revoke_dialog_title_cn">Attenzione</string>
     <string name="privacy_revoke_failed_dialog_content">Si è verificato un errore del server. Aspetta un minuto o due e riprova.</string>
     <string name="privacy_revoke_failed_dialog_title">Impossibile revocare il consenso</string>
-    <string name="privacy_revoke_tip_dialog_content">"&lt;Data>Non potrai continuare a utilizzare %1$s se non accetti la nuova versione della sua Informativa sulla privacy. Accetti l'&lt;a href=\"%3$s\">Informativa sulla privacy&lt;/a> aggiornata di %2$s?&lt;/Data>"</string>
+    <string name="privacy_revoke_tip_dialog_content"><Data>"Non potrai continuare a utilizzare %1$s se non accetti la nuova versione della sua Informativa sulla privacy. Accetti l'&lt;a href=\"%3$s\">Informativa sulla privacy&lt;/a> aggiornata di %2$s?"</Data></string>
     <string name="privacy_revoke_tip_dialog_title">"Impossibile usare l'app"</string>
     <string name="privacy_revoke_title">Revoca del consenso</string>
     <string name="privacy_risk_app">App rischiose</string>
@@ -4098,13 +4369,13 @@ Revocare il consenso?"</string>
     <string name="privacy_thumbnail_blur_category_photography">Foto e video</string>
     <string name="privacy_thumbnail_blur_category_tip">Consigliato</string>
     <string name="privacy_thumbnail_blur_search_empty">Nessun risultato trovato</string>
-    <string name="privacy_thumbnail_blur_title">Sfoca le anteprime</string>
+    <string name="privacy_thumbnail_blur_title">Sfoca le anteprime delle app</string>
     <string name="privacy_thumbnail_blur_top_tip">Seleziona le app per le cui anteprime saranno sfocate in Recenti</string>
     <string name="privacy_thumbnail_shield_title">Mascheramenti delle anteprime</string>
     <string name="privacy_thumbnail_shield_top_tip">Maschera le anteprime delle app visualizzate nei Recenti</string>
     <string name="privacy_type_open">Attivo</string>
     <string name="privacy_update_dialog_content_1">Informativa sulla privacy di %s aggiornata:</string>
-    <string name="privacy_update_dialog_content_2">"&lt;Data>Leggi e accetta la nuova versione dell'&lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> prima di continuare.&lt;/Data>"</string>
+    <string name="privacy_update_dialog_content_2"><Data>"Leggi e accetta la nuova versione dell'&lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> prima di continuare."</Data></string>
     <string name="privacy_update_dialog_title">Informativa sulla privacy aggiornata</string>
     <string name="privacy_using_camera">Utilizzo della fotocamera</string>
     <string name="privacy_using_location">Accesso alla posizione</string>
@@ -4186,6 +4457,16 @@ Revocare il consenso?"</string>
     <string name="reset_data_dialog_message">Questo dispositivo non è associato al tuo Xiaomi Account. Impossibile ripristinare o reimpostare la password. Esegui il backup di tutti gli elementi importanti e un ripristino di fabbrica. Tutti i dati verranno eliminati definitivamente e la tua scheda SD verrà formattata durante il ripristino dei dati di fabbrica.</string>
     <string name="reset_data_dialog_ok">Ripristino di fabbrica</string>
     <string name="reset_data_title">Impossibile ripristinare la password</string>
+    <string name="restore_device_id_content">I consigli personalizzati verranno ripristinati</string>
+    <string name="restore_device_id_title">Ripristina ID dispositivo</string>
+    <string name="restore_dialog_content">"Ripristinare l'ID dispositivo attuale ripristinerà anche i consigli personalizzati. Ripristinare?"</string>
+    <string name="restore_dialog_positive">Ripristina</string>
+    <string name="restore_dialog_title">Attenzione</string>
+    <string name="restore_oaid_content">Reimposta il tuo ID virtuale per cancellare la cronologia di comportamento e le preferenze</string>
+    <string name="restore_oaid_dialog_content">"Più di una app sta usando il tuo ID virtuale. Se lo ripristini ora, una parte dei dati app potrebbe andare persa o diventare inutilizzabile. Ripristinare l'ID virtuale comunque?"</string>
+    <string name="restore_oaid_positive">Reimposta</string>
+    <string name="restore_oaid_positive_step">Ripristina (%1$d)</string>
+    <string name="restore_oaid_title">Reimposta ID virtuale</string>
     <string name="result_autoscan_header">Controllo del pagamento</string>
     <string name="result_autoscan_info">"Controlla automaticamente l'ambiente di sistema quando le applicazioni di pagamento vengono avviate"</string>
     <string name="result_sms_header">Rischi Messaggi rilevati</string>
@@ -4264,6 +4545,13 @@ Revocare il consenso?"</string>
     <string name="sd_mount">Monta la scheda SD</string>
     <string name="sd_mount_summary" />
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
+    <string name="search_keyword_apply">App</string>
+    <string name="search_keyword_applybar">Dock app</string>
+    <string name="search_keyword_call">Chiama</string>
+    <string name="search_keyword_sidebar">Barra laterale</string>
+    <string name="search_keyword_tool">Strumenti</string>
+    <string name="search_keyword_tools">Strumenti</string>
+    <string name="search_keyword_voice">Voce</string>
     <string name="search_menu_title">Cerca</string>
     <string name="search_result_text">Impossibile trovare applicazioni</string>
     <string name="section_clear_acc_item_title">"%s. Se non c'è ancora abbastanza spazio libero, prova ad usare Pulitore."</string>
@@ -4368,6 +4656,7 @@ Revocare il consenso?"</string>
     <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skin_change_close_toast">I cambiamenti verranno applicati la prossima volta che aprirai Sicurezza</string>
+    <string name="skip_ad">Salta</string>
     <string name="sms_address">Area lista blocchi</string>
     <string name="sms_blacklist">Lista blocchi SMS</string>
     <string name="sms_cloud_block">Lista blocchi cloud</string>
@@ -4391,6 +4680,7 @@ Revocare il consenso?"</string>
     <string name="sp_abnormal_scan_title">Risolvi i problemi</string>
     <string name="sp_antispam_scan_summary">Proteggiti dalle frodi</string>
     <string name="sp_antispam_scan_title">Lista blocchi</string>
+    <string name="sp_app_install_protect_title">"Protezione dell'installazione delle app"</string>
     <string name="sp_background_risk_dialog_summary">, verifica e risolvi i problemi di pagamento.</string>
     <string name="sp_background_risk_dialog_summary_new">"L'attuale ambiente di pagamento potrebbe comportare rischi per la sicurezza. Prenditi un momento per scoprirne di più."</string>
     <string name="sp_background_risk_dialog_summary_wifi_approve">Sei connesso ad una rete Wi-Fi pubblica che potrebbe essere non sicura. Assicurati che il tuo pagamento sia sicuro prima di completarlo.</string>
@@ -4755,6 +5045,9 @@ Per utilizzare ^1 con questo dispositivo, devi prima configurarla."</string>
     <string name="storage_menu_mount">Monta</string>
     <string name="storage_mount_failure">Impossibile montare %1$s</string>
     <string name="storage_mount_success">%1$s montata correttamente</string>
+    <string name="storage_permission_button">Impostazioni</string>
+    <string name="storage_permission_message">"Consenti a questa funzione di accedere all'archivio per poter calcolare con precisione l'utilizzo dello spazio di archiviazione. Puoi concedere questa autorizzazione nelle Impostazioni."</string>
+    <string name="storage_permission_title">Autorizzazioni richieste</string>
     <string name="storage_space_release_hint">TI serve spazio aggiuntivo?</string>
     <string name="storage_system_log">Registri di sistema</string>
     <string name="storage_system_log_tip">I registri di sistema verranno cancellati automaticamente quando necessario</string>
@@ -4833,6 +5126,9 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="superpower_dialog_button_ok">OK</string>
     <string name="superpower_dialog_massage">Super risparmio energetico limita la maggior parte delle funzionalità che consumano energia e diminuisce le prestazioni del dispositivo in modo da lasciare disponibili le funzionalità di base (ad esempio chiamate, SMS e connessione alla rete) il più a lungo possibile. Attivare Super risparmio energetico?</string>
     <string name="superpower_dialog_title">Super risparmio energetico</string>
+    <string name="superpower_notification_low_temp_btn_txt">Attiva</string>
+    <string name="superpower_notification_low_temp_summary">La Modalità Cold Endurance consente di risparmiare più batteria quando il Super risparmio energetico è attivo e la temperatura ambiente è estremamente bassa.</string>
+    <string name="superpower_notification_low_temp_title">Attiva Super risparmio energetico?</string>
     <string name="superpower_notification_new_title_new">Meno del %s di batteria rimanente</string>
     <string name="superpower_notification_summary">Carica il dispositivo o attiva Super risparmio energetico</string>
     <string name="superpower_notification_time_12">EEEE d MMMM</string>
@@ -4840,6 +5136,7 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="superpower_notification_title_new">Meno del %s di batteria rimanente</string>
     <string name="superpower_progress_content">Attivazione Super risparmio energetico…</string>
     <string name="superpower_progress_left_time">%1$do %2$dm</string>
+    <string name="superpower_progress_low_temp_content">Disattivare la modalità Cold endurance…</string>
     <string name="superpower_progress_switch_home">Passa al tema Scuro</string>
     <string name="superpower_progress_title">Tempo rimanente</string>
     <string name="superpower_progress_turndown_brightness">Riduzione della luminosità dello schermo</string>
@@ -4877,25 +5174,26 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="system_permission_declare_agree">Accetta</string>
     <string name="system_permission_declare_analytics_declare">Ti invitiamo a iscriverti al nostro Programma Esperienza Utente. Questa app deve connettersi a Internet e utilizzare i seguenti permessi o funzionalità per raccogliere statistiche al fine di migliorare i servizi offerti. Raccogliamo dati solo a fini statistici e non possiamo identificarti personalmente in base ai dati che raccogliamo.</string>
     <string name="system_permission_declare_disagree">Rifiuta</string>
-    <string name="system_permission_declare_double_link">&lt;Data>Leggi e accetta il nostro &lt;a href=\"%1$s\">Accordo utente&lt;/a> e la nostra &lt;a href=\"%2$s\">Informativa sulla privacy&lt;/a> prima di continuare.&lt;/Data></string>
+    <string name="system_permission_declare_double_link"><Data>Leggi e accetta il nostro &lt;a href=\"%1$s\">Accordo utente&lt;/a> e la nostra &lt;a href=\"%2$s\">Informativa sulla privacy&lt;/a> prima di continuare.</Data></string>
     <string name="system_permission_declare_main_purpose" formatted="false">Benvenuto in %1s! Questa app ti consente di utilizzare le seguenti funzionalità: %2s.</string>
-    <string name="system_permission_declare_meanwhile_double_link">&lt;Data>Leggi e accetta il nostro &lt;a href=\"%1$s\">Accordo utente&lt;/a> e la nostra &lt;a href=\"%2$s\">Informativa sulla privacy&lt;/a> prima di continuare.&lt;/Data></string>
-    <string name="system_permission_declare_meanwhile_privacy_policy">&lt;Data>Leggi e accetta la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> prima di continuare.&lt;/Data></string>
-    <string name="system_permission_declare_meanwhile_user_agreement">&lt;Data>Leggi e accetta il nostro &lt;a href=\"%1$s\">Accordo utente&lt;/a> prima di continuare.&lt;/Data></string>
+    <string name="system_permission_declare_meanwhile_double_link"><Data>Leggi e accetta il nostro &lt;a href=\"%1$s\">Accordo utente&lt;/a> e la nostra &lt;a href=\"%2$s\">Informativa sulla privacy&lt;/a> prima di continuare.</Data></string>
+    <string name="system_permission_declare_meanwhile_privacy_policy"><Data>Leggi e accetta la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> prima di continuare.</Data></string>
+    <string name="system_permission_declare_meanwhile_user_agreement"><Data>Leggi e accetta il nostro &lt;a href=\"%1$s\">Accordo utente&lt;/a> prima di continuare.</Data></string>
     <string name="system_permission_declare_no_say_no">Se scegli di non concedere i permessi richiesti o non ci autorizzi a raccogliere e utilizzare i tuoi dati, questa app non sarà in grado di funzionare normalmente.</string>
     <string name="system_permission_declare_no_say_no_analytics">"Se non vuoi concedere queste autorizzazioni, puoi annullare l'iscrizione in Impostazioni > Impostazioni aggiuntive > Privacy > Programma Esperienza Utente."</string>
     <string name="system_permission_declare_no_say_no_non_mandatory">Se scegli di non concedere i permessi richiesti o non ci autorizzi a raccogliere e utilizzare i tuoi dati, questa app non sarà in grado di funzionare parzialmente.</string>
     <string name="system_permission_declare_optional">"Per fornirti servizi aggiuntivi durante l'utilizzo dell'app, potremmo aver bisogno dei seguenti permessi: %s. Puoi sempre modificare le tue preferenze sui permessi nelle Impostazioni."</string>
+    <string name="system_permission_declare_optional_default_grant"><Data>"Per fornire una migliore esperienza all'utente, questa applicazione necessita dei seguenti permessi aggiuntivi: %1s. Per maggiori dettagli su come trattiamo le tue informazioni personali, tocca &lt;a href=\"test\">qui&lt;/a>. Puoi gestire i tuoi permessi in qualsiasi momento nelle Impostazioni."</Data></string>
     <string name="system_permission_declare_privacy_declare">Questa app deve connettersi a Internet e richiede i seguenti permessi per poter funzionare normalmente:</string>
     <string name="system_permission_declare_privacy_no_network">Questa app ha bisogno dei seguenti permessi per funzionare normalmente:</string>
     <string name="system_permission_declare_privacy_no_permission">Questa app deve connettersi a Internet e raccogliere i dati personali richiesti per poter funzionare normalmente.</string>
-    <string name="system_permission_declare_privacy_policy">&lt;Data>Leggi e accetta la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> prima di continuare.&lt;/Data></string>
+    <string name="system_permission_declare_privacy_policy"><Data>Leggi e accetta la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> prima di continuare.</Data></string>
     <string name="system_permission_declare_revoke_system">Puoi uscire da questa app.</string>
     <string name="system_permission_declare_revoke_uninstallable">"Puoi uscire, disinstallare questa app o revocare l'autorizzazione in Sicurezza > Gestisci le app > Permessi > Permessi."</string>
     <string name="system_permission_declare_title">Attenzione</string>
     <string name="system_permission_declare_use_network">Connettersi alla rete</string>
     <string name="system_permission_declare_use_network_no_permission">Connettiti alla rete</string>
-    <string name="system_permission_declare_user_agreement">&lt;Data>Leggi e accetta il nostro &lt;a href=\"%1$s\">Accordo utente&lt;/a> prima di continuare.&lt;/Data></string>
+    <string name="system_permission_declare_user_agreement"><Data>Leggi e accetta il nostro &lt;a href=\"%1$s\">Accordo utente&lt;/a> prima di continuare.</Data></string>
     <string name="system_permission_perm_answer_call">Effettuare chiamate</string>
     <string name="system_permission_perm_optional">" (opzionale)"</string>
     <string name="system_permission_perm_read_mms">Leggere SMS</string>
@@ -5049,6 +5347,7 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="title_cloud_space_almost_full">Lo spazio sul cloud è quasi esaurito, alcuni elementi potrebbero non venire sincronizzati</string>
     <string name="title_cloud_space_full">Spazio sul cloud esaurito</string>
     <string name="title_cmcc_app_check">La verifica non è completa</string>
+    <string name="title_condition_meeting">Riunione</string>
     <string name="title_consume_power_rank">Consumi app</string>
     <string name="title_dark_mode">Alcuni elementi non sono visualizzati correttamente</string>
     <string name="title_data_flow">Controlla i dati mobili</string>
@@ -5106,9 +5405,12 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="title_xiaomi_roaming">Mi Roaming</string>
     <string name="toast_add_virus_white_list_no_need_repeat">Questa eccezione esiste già</string>
     <string name="toast_auto_traffic_correct">"L'uso dei dati è modificato automaticamente"</string>
+    <string name="toast_cinema_mode">"Impostazioni di visualizzazione e audio regolate automaticamente per un'esperienza di visione più coinvolgente"</string>
     <string name="toast_cleaner_cloudscan">Pulitore utilizzerà le definizioni online</string>
     <string name="toast_dark_mode_fixed">Risolto con successo. Lascia questa pagina per applicare le modifiche.</string>
     <string name="toast_flow_notification">"Notifiche sull'utilizzo dei dati attivate"</string>
+    <string name="toast_gamembox_unenable_pad">Attiva Game Turbo nella sezione Security first</string>
+    <string name="toast_gamembox_unenable_phone">Attiva Game Turbo nella sezione Security first</string>
     <string name="toast_garbage_lib">Aggiornamenti automatici Pulitore attivati</string>
     <string name="toast_keyword_blank">Devi inserire una parola chiave</string>
     <string name="toast_keyword_exist">Parola chiave aggiunta</string>
@@ -5233,6 +5535,7 @@ I dati rimanenti includono dati che sono stati riportati dal mese precedente."</
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="unused_apps_switch">"Sospendi l'attività dell'app se inutilizzata"</string>
     <string name="unused_apps_switch_summary">Rimuovi i permessi, elimina i file temporanei e interrompi le notifiche</string>
+    <string name="usage_access_title">"Accedi alle statistiche sull'utilizzo"</string>
     <string name="usage_sorted_activity_lable">Utilizzo dei dati</string>
     <string name="usage_sorted_empty_text">Vuoto</string>
     <string name="usage_sorted_loading_text">Solo un secondo…</string>
@@ -5278,8 +5581,7 @@ I dati rimanenti includono dati che sono stati riportati dal mese precedente."</
     <string name="vb_fps_settings_tips">Questa funzionalità regola la frequenza di aggiornamento dello schermo sulla frequenza dei fotogrammi del video, risparmiando batteria e rendendo la riproduzione fluida. Attivare i commenti mobili disattiverà questa funzionalità.</string>
     <string name="vb_immerse_voice">Suono avvolgente</string>
     <string name="vb_movie_mode">Modalità Cinema</string>
-    <string name="vb_movie_power_hint">"La modalità Cinema offre un'esperienza visiva coinvolgente.
-Il tuo dispositivo potrebbe surriscaldarsi e consumare più energia."</string>
+    <string name="vb_movie_power_hint">Theater mode provides an immersive viewing experience. Your device might heat up and consume more power.</string>
     <string name="vb_movie_subtitle">Richiede prestazioni elevate</string>
     <string name="vb_mv_style_close_toast">La funzione Stile è disattivata</string>
     <string name="vb_power_performance_mode_conflict_toast">Non è possibile utilizzare questa funzione quando è attiva la Modalità prestazioni</string>
@@ -5358,6 +5660,11 @@ Prova ad aumentare la risoluzione!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Le animazioni migliorate sono disattivate</string>
     <string name="vb_voice_adjust">Audio da cinema</string>
     <string name="video_repeat">Riproduci di nuovo</string>
+    <string name="videobox_double_core_visual">Immagini dual-core</string>
+    <string name="videobox_double_core_visual_description1">"Migliora la risoluzione video, la frequenza dei fotogrammi e ottimizza l'HDR grazie a un chip dedicato"</string>
+    <string name="videobox_double_core_visual_description2">"Migliora la chiarezza, la fluidità e l'effetto complessivo della visualizzazione.
+Questa funzione richiede un consumo energetico maggiore.
+Questa funzione non funziona quando è attivo il Risparmio energetico o il Super Risparmio energetico ."</string>
     <string name="videobox_hangup_tips_content">Quando questa funzionalità è attiva, lo schermo verrà bloccato, ma la app sarà ancora in esecuzione in background. Premi il tasto di accensione per riaccendere lo schermo. Attivare questa funzionalità?</string>
     <string name="videobox_hangup_tips_title">Attenzione</string>
     <string name="videobox_settings_line_location">Posizione collegamento</string>
@@ -5422,6 +5729,13 @@ Prova ad aumentare la risoluzione!"</string>
     <string name="wakepath_delete_all_tips">Se continui, dovrai concedere a ciascuna app il permesso per aprire altre app. Vuoi continuare comunque?</string>
     <string name="wakepath_delete_app_start_all">Se continui, dovrai concedere nuovamente il permesso %s per aprire qualsiasi altra app. Vuoi continuare comunque?</string>
     <string name="wakepath_delete_app_start_other_app">Se continui, dovrai concedere nuovamente il permesso %1$s per aprire %2$s. Vuoi continuare comunque?</string>
+    <string name="wakepath_manager_allow_list">Consentito</string>
+    <string name="wakepath_manager_allow_start">Consentito</string>
+    <string name="wakepath_manager_checkbox_desc">Consenti %1$s per avviare altre app</string>
+    <string name="wakepath_manager_checkbox_title">Consenti avvio a catena</string>
+    <string name="wakepath_manager_empty_list">Non è consentito avviare alcuna app</string>
+    <string name="wakepath_manager_reject_list">Limitato</string>
+    <string name="wakepath_manager_reject_toast">"Cerca \"Gestisci avvio a catena\", in Impostazioni, per consentire a quest'app di avviare altre app."</string>
     <string name="wakepath_manager_title">"Gestisci l'avvio a catena"</string>
     <string name="website">Sito web</string>
     <string name="wednesday">Mercoledì</string>

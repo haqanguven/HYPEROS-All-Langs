@@ -27,6 +27,7 @@
     <string name="actionbar_button_up_description">Retour</string>
     <string name="activity_not_found">Aucune application trouvée pour effectuer cette action</string>
     <string name="activity_not_found_uri">"Aucune application n'a été trouvée pour gérer cette action"</string>
+    <string name="ad_notification_title">Messages sans importance</string>
     <string name="add_attachment">Ajouter une pièce jointe</string>
     <string name="add_music">Ajouter de la musique</string>
     <string name="add_number_to_sender">Ajouter un numéro à %s</string>
@@ -37,6 +38,10 @@
     <string name="add_slide_hint">Appuyer pour sélectionner une nouvelle diapositive</string>
     <string name="add_smiley">Émoticône</string>
     <string name="add_timing">Programmer</string>
+    <string name="add_to_block_by_number">"%s
+ajouté à la liste noire"</string>
+    <string name="add_to_block_by_tag">"Messages contenant \"%s\"
+ajoutés à la liste noire"</string>
     <string name="add_to_browser_favorite_failed">Ajout impossible</string>
     <string name="add_to_browser_favorite_success">Ajoutée avec succès</string>
     <string name="add_video">Ajouter une vidéo</string>
@@ -49,6 +54,7 @@
     <string name="alert_dlg_cancel_button">Annuler</string>
     <string name="allow_network_hint">Activer \"Mettre à jour les infos automatiquement\" ou vérifier votre connexion réseau</string>
     <string name="already_updated">À jour</string>
+    <string name="am">Matin</string>
     <string name="app_label">Messages</string>
     <string name="app_name">Appareils</string>
     <string name="application_list_title">Application Mini</string>
@@ -62,7 +68,6 @@
     <string name="attach_sound">Fichier audio</string>
     <string name="attach_subject">Sujet</string>
     <string name="attach_take_photo">Prendre une photo</string>
-    <string name="attach_transaction">"Transférer de l'argent"</string>
     <string name="attach_video">Vidéo</string>
     <string name="attach_video_call">Appel vidéo</string>
     <string name="audio_download_failed">"impossible de télécharger l'audio"</string>
@@ -162,6 +167,8 @@
     <string name="converting_to_text_message">Conversion en SMS…</string>
     <string name="converting_vcard_failed">Impossible de convertir le contact</string>
     <string name="copy">Copier</string>
+    <string name="copy_message">Copier</string>
+    <string name="copy_message_success">Copié avec succès</string>
     <string name="copy_message_text">Copier</string>
     <string name="copy_message_text_success">Copie réussie</string>
     <string name="copy_to_sdcard">Enregistrer la pièce jointe</string>
@@ -216,6 +223,7 @@
     <string name="duration_sec">Durée (%s s)</string>
     <string name="duration_selector_title">"Durée de la diapositive "</string>
     <string name="duration_zero">La durée doit être supérieure à 0 seconde</string>
+    <string name="early_morning">Matin</string>
     <string name="edit">Éditer</string>
     <string name="edit_phrase">Éditer les réponses rapides</string>
     <string name="edit_slide_activity">Modifier la diapositive</string>
@@ -234,6 +242,7 @@
     <string name="expire_on">Expiration : %s</string>
     <string name="exporting_progress_private_message">Exportation…</string>
     <string name="fail_to_add_attachment">"Impossible d'ajouter la pièce jointe"</string>
+    <string name="fail_to_add_image">"Impossible d'accéder aux éléments copiés"</string>
     <string name="fail_to_view_attachment">Pièce jointe non disponible</string>
     <string name="failed_to_add_media">Désolé, vous ne pouvez pas ajouter cet élément à votre message : %1$s.</string>
     <string name="failed_to_resize_image">"L'image n'a pas été redimensionnée."</string>
@@ -247,9 +256,15 @@
     <string name="fmt_date_long_month_day">d MMMM</string>
     <string name="fmt_date_long_year_month_day">d MMMM yyyy</string>
     <string name="fmt_date_numeric_month_day">dd/MM</string>
+    <string name="fmt_date_numeric_year_month">M-yyyy</string>
     <string name="fmt_date_numeric_year_month_day">dd/MM/yyyy</string>
     <string name="fmt_date_short_month_day">d MMM</string>
     <string name="fmt_date_short_year_month_day">d MMM yyyy</string>
+    <string name="fmt_time_12hour">h</string>
+    <string name="fmt_time_24hour">H</string>
+    <string name="fmt_time_24hour_minute">H:mm</string>
+    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
+    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
     <string name="forward_from">"Transférer de : "</string>
     <string name="forward_message_select_title">Transférer le message</string>
     <string name="forward_prefix">"TR : "</string>
@@ -371,6 +386,9 @@
     <string name="miuix_appcompat_select_all_description">Tout sélectionner</string>
     <string name="miuix_appcompat_select_item">Sélectionner des éléments</string>
     <string name="miuix_indexer_selected">%s sélectionné</string>
+    <string name="miuix_navigator_content_switch_description">Afficher la barre latérale</string>
+    <string name="miuix_navigator_multiple_choice">Sélectionner</string>
+    <string name="miuix_navigator_navigator_switch_description">Masquer la barre latérale</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tirez vers le bas pour actualiser</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualisé avec succès</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Actualisation…</string>
@@ -518,6 +536,7 @@ Un message SMS sortant est requis pour activer le Mi Message. Votre opérateur v
     <string name="over_max_mms_size">Le MMS est trop gros.</string>
     <string name="overwrite_edited_content">Le contenu que vous avez modifié sera remplacé.</string>
     <string name="packages_select_sim_cards_title">Sélectionner une carte SIM</string>
+    <string name="perm_purpose_mms_account">Pour accéder aux informations de contact</string>
     <string name="perm_purpose_mms_storage">Pour enregistrer les pièces jointes MMS</string>
     <string name="perm_purpose_rcs_account">Pour afficher le guide du débutant pour les nouveaux utilisateurs</string>
     <string name="perm_purpose_rcs_storage">"Pour enregistrer des images, des vidéos, des fichiers et d'autres pièces jointes RCS"</string>
@@ -535,6 +554,7 @@ Un message SMS sortant est requis pour activer le Mi Message. Votre opérateur v
     <string name="pref_collapse_sp_messages_summary">Regrouper automatiquement les notifications des SMS ensemble</string>
     <string name="pref_delivery_ringtone">Son de réception</string>
     <string name="pref_edit_smsc_address">Centre de SMS (SMSC)</string>
+    <string name="pref_feedback_title">Commentaires</string>
     <string name="pref_forward_title">Transférer</string>
     <string name="pref_hide_verification_code_summary">"Masquer automatiquement les mots de passe à usage unique dans les notifications de message sur l'écran de verrouillage sécurisé"</string>
     <string name="pref_messages_to_save">Définir le nombre de messages à enregistrer</string>
@@ -557,6 +577,8 @@ Un message SMS sortant est requis pour activer le Mi Message. Votre opérateur v
     <string name="pref_summary_enable_ad_notification">Activez les notifications de groupe sur les messages promotionnels dans le Panneau des notifications</string>
     <string name="pref_summary_enable_classify">Déplacez les messages promotionnels et financiers vers des onglets séparés</string>
     <string name="pref_summary_notification_body_enabled">"Afficher les messages sur l'écran de verrouillage et dans le Panneau des notifications"</string>
+    <string name="pref_summary_off_system_mms_priority">Utiliser une autre appli pour envoyer ou recevoir des MMS</string>
+    <string name="pref_summary_on_system_mms_priority">"Régler l'application de messagerie Xiaomi comme application par défaut pour envoyer et recevoir des MMS."</string>
     <string name="pref_summary_privacy_authority">Actionnez cet interrupteur pour donner ou révoquer votre autorisation</string>
     <string name="pref_summary_send_delivery_reports">"Envoyer un accusé de réception à l'expéditeur à la réception d'un message multimédia"</string>
     <string name="pref_summary_switch_aim_card">Afficher des messages contenant des vidéos, des images et des mises en forme complexes sous forme de cartes</string>
@@ -601,6 +623,7 @@ Un message SMS sortant est requis pour activer le Mi Message. Votre opérateur v
     <string name="pref_title_sms_validity_period">Expiration des SMS</string>
     <string name="pref_title_storage_status">Statut du stockage du message</string>
     <string name="pref_title_switch_aim_card">Convertir les messages en cartes</string>
+    <string name="pref_title_system_mms_priority">Définir par défaut</string>
     <string name="pref_title_vcard">Envoyer via vCard</string>
     <string name="pref_title_voice_report">Lire les messages à haute voix</string>
     <string name="preference_copied">\"%1$s\" copié dans le presse-papiers.</string>
@@ -654,8 +677,11 @@ Lisez et acceptez la nouvelle version de la Politique de confidentialité avant 
     <string name="rcs_auto_resend_sms">Convertir en SMS</string>
     <string name="rcs_auto_resume">Reprendre automatiquement les téléchargements interrompus</string>
     <string name="rcs_auto_resume_only_by_wifi">Reprendre les téléchargements uniquement lorsque connecté au Wi-Fi</string>
+    <string name="rcs_chat_bot_instruction">About owner</string>
     <string name="rcs_chat_bot_subject">Owner: %1$s</string>
+    <string name="rcs_chatbot_main_tab_my">My apps</string>
     <string name="rcs_chatbot_progress_loading">Un instant…</string>
+    <string name="rcs_chatdetail_more_tcpage">Terms and conditions</string>
     <string name="rcs_chatdetail_save_success">Ajouté avec succès</string>
     <string name="rcs_create_new_group">Créer un groupe de discussion</string>
     <string name="rcs_dspt">Envoyer et recevoir des messages via Wifi ou le réseau China Mobile</string>
@@ -690,6 +716,7 @@ Lisez et acceptez la nouvelle version de la Politique de confidentialité avant 
     <string name="rcs_send_rms_remind_desp">La messagerie de China Mobile est un service de messagerie instantanée fourni par China Mobile. Vous pouvez désactiver cette fonctionnalité dans les paramètres.</string>
     <string name="rcs_send_rms_remind_title">Envoyer des messages avec la messagerie China Mobile</string>
     <string name="rcs_service_agreement">Accord du service</string>
+    <string name="rcs_setting">Paramètres de messagerie 5G</string>
     <string name="rcs_silence_message">Notification de message en mode silencieux</string>
     <string name="rcs_summary_auto_resend_mms">"Convertir les messages multimédia de China Mobile en MMS après l'échec d'envoi du message original. Votre opérateur vous facturera ce message."</string>
     <string name="rcs_summary_auto_resend_sms">"Convertir les messages texte de China Mobile en SMS après l'échec d'envoi du message original. Votre opérateur vous facturera ce message."</string>
@@ -752,6 +779,7 @@ Lisez et acceptez la nouvelle version de la Politique de confidentialité avant 
     <string name="search_menu_title">Recherche</string>
     <string name="search_setting_description">Texte de vos messages</string>
     <string name="search_show_more_results">Afficher plus</string>
+    <string name="search_sms">Rechercher des messages</string>
     <string name="second_mms_introduction">Aller dans le Second espace</string>
     <string name="second_mms_switch">Basculer</string>
     <string name="security_alert_desc"><font color="#7f000000">"L'émetteur ne fait pas partie de vos contacts.
@@ -806,8 +834,10 @@ Lisez et acceptez la nouvelle version de la Politique de confidentialité avant 
     <string name="smart_message_title">Messagerie intelligente</string>
     <string name="smart_messages_network_allow_message">Mi Message a besoin de se connecter à internet pour que ses services fonctionnent normalement. Autoriser maintenant ?</string>
     <string name="smart_messages_network_allow_title">Une connexion internet est nécessaire</string>
+    <string name="smart_msg_main_purpose">"Messagerie Intelligente fournit des services de reconnaissance d'identification et de menu intelligent."</string>
     <string name="smart_msg_privacy_policy">Politique de confidentialité de la Messagerie intelligente</string>
     <string name="smart_msg_privacy_policy_revoke">Retirer son consentement à la Politique de confidentialité de la Messagerie intelligente</string>
+    <string name="smart_msg_upgrade_main_purpose">La Messagerie Intelligente fonctionne désormais avec les MMS. Vous pourrez utiliser plus de services fournis par les expéditeurs, ainsi que recevoir des messages dans de nouveaux formats.</string>
     <string name="sms_full_body">"Message entrant rejeté : Il n'y a pas assez d'espace sur cet appareil."</string>
     <string name="sms_full_title">Mémoire pleine</string>
     <string name="sms_rejected_body">Un SMS entrant a été rejeté.</string>
@@ -877,7 +907,6 @@ Lisez et acceptez la nouvelle version de la Politique de confidentialité avant 
     <string name="system_permission_declare_no_say_no">"Nous protégerons vos informations personnelles conformément aux lois, réglementations et Politiques de confidentialité en vigueur.
 Si vous n'acceptez pas d'accorder de telles autorisations ou de partager et télécharger vos informations personnelles, vous ne pourrez pas utiliser cette application."</string>
     <string name="system_permission_declare_rcs">Bienvenue dans la messagerie 5G !</string>
-    <string name="system_permission_declare_revoke_path">Vous pouvez révoquer votre autorisation et désactiver les services dans les paramètres de messagerie.</string>
     <string name="system_permission_declare_single_link">"Lisez et acceptez nos %1s avant d'utiliser cette fonction."</string>
     <string name="system_permission_declare_smart_message">Bienvenue dans la messagerie intelligente !</string>
     <string name="system_permission_declare_user_agree">Accepter</string>
@@ -920,6 +949,7 @@ Si vous n'acceptez pas d'accorder de telles autorisations ou de partager et tél
     <string name="title_show_photo_word">Attribuer des photos aux contacts</string>
     <string name="title_show_sms_template">Messagerie intelligente</string>
     <string name="title_timed_message_dialog">"Régler l'heure d'envoi de ce message"</string>
+    <string name="title_timed_remind_message_dialog">"Définir l'heure de rappel"</string>
     <string name="title_use_gsm_alphabet">"Utiliser l'alphabet GSM"</string>
     <string name="to_address_label">"À : "</string>
     <string name="to_send_wrapper">Sera envoyé à %s.</string>
@@ -978,6 +1008,8 @@ Si vous n'acceptez pas d'accorder de telles autorisations ou de partager et tél
     <string name="wednesday">Mercredi</string>
     <string name="wednesday_short">Mer</string>
     <string name="wednesday_shortest">Mer</string>
+    <string name="wrong_mms_version_msg">Installez une version de Messagerie compatible avec votre appareil et votre système.</string>
+    <string name="wrong_mms_version_title">Erreur de version</string>
     <string name="xiaomi_market_sdk_update_dialog_cancel">Plus tard</string>
     <string name="xiaomi_market_sdk_update_dialog_ok">Mise à jour</string>
     <string name="xiaomi_market_sdk_update_dialog_title">Une mise à jour est disponible</string>

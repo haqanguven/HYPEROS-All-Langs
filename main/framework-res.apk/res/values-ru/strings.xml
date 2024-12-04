@@ -43,7 +43,7 @@
     <string name="ColrMmi">Ограничение идентификатора подключенной линии</string>
     <string name="CwMmi">Ожидание вызова</string>
     <string name="DndMmi">Не беспокоить</string>
-    <string name="EmergencyCallWarningSummary">Экстренные вызовы по Wi‑Fi недоступны.</string>
+    <string name="EmergencyCallWarningSummary">Для экстренных вызовов нужна мобильная сеть.</string>
     <string name="EmergencyCallWarningTitle">Экстренные вызовы недоступны</string>
     <string name="Midnight">Полночь</string>
     <string name="NetworkPreferenceSwitchSummary">Нажмите, чтобы выбрать другую сеть.</string>
@@ -174,14 +174,19 @@
     <string name="accessibility_button_prompt_text">Выберите функцию, которая будет запускаться при нажатии кнопки специальных возможностей:</string>
     <string name="accessibility_dialog_button_allow">Разрешить</string>
     <string name="accessibility_dialog_button_deny">Отклонить</string>
+    <string name="accessibility_dialog_button_uninstall">Удалить</string>
+    <string name="accessibility_dialog_touch_filtered_warning">Невозможно принять ваш ответ, поскольку запрос разрешения скрыт другим приложением.</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Выберите функции, которые будут запускаться с помощью кнопки специальных возможностей</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Выберите функции, которые будут запускаться с помощью кнопки регулировки громкости</string>
     <string name="accessibility_enable_service_title">Предоставить сервису \"%1$s\" полный контроль над устройством?</string>
-    <string name="accessibility_freeform_caption">Строка субтитров в приложении \"%1$s\".</string>
     <string name="accessibility_gesture_3finger_instructional_text">Для переключения между функциями проведите по экрану снизу вверх тремя пальцами и задержите их.</string>
     <string name="accessibility_gesture_3finger_prompt_text">Выберите функцию, которая будет запускаться с помощью жеста (провести по экрану снизу вверх тремя пальцами):</string>
     <string name="accessibility_gesture_instructional_text">Для переключения между функциями проведите по экрану снизу вверх двумя пальцами и задержите их.</string>
     <string name="accessibility_gesture_prompt_text">Выберите функцию, которая будет запускаться с помощью жеста (провести по экрану снизу вверх двумя пальцами):</string>
+    <string name="accessibility_label_clone_profile">Клонированный</string>
+    <string name="accessibility_label_communal_profile">Совместный</string>
+    <string name="accessibility_label_managed_profile">Рабочий профиль</string>
+    <string name="accessibility_label_private_profile">Частное пространство</string>
     <string name="accessibility_magnification_chooser_text">Увеличение</string>
     <string name="accessibility_select_shortcut_menu_title">Выберите, какую функцию использовать:</string>
     <string name="accessibility_service_action_perform_description">Сервис может отслеживать ваше взаимодействие с приложениями и датчиками устройства и давать приложениям команды от вашего имени.</string>
@@ -267,6 +272,9 @@
     <string name="alert_windows_notification_title">%s: поверх других приложений</string>
     <string name="alert_windows_notification_turn_off_action">Отключить</string>
     <string name="allow">Разрешить</string>
+    <string name="alternative_face_setup_notification_content">Когда устройство не распознает ваш отпечаток пальца, используйте фейсконтроль. Например, это пригодится, когда палец мокрый.</string>
+    <string name="alternative_fp_setup_notification_content">Когда устройство не распознает ваше лицо, используйте разблокировку по отпечатку пальца. Например, это пригодится при плохом освещении.</string>
+    <string name="alternative_unlock_setup_notification_title">Попробуйте другой способ разблокировки</string>
     <string name="alwaysUse">По умолчанию для этого действия</string>
     <string name="android_preparing_apk">Подготовка приложения \"%1$s\"...</string>
     <string name="android_start_title">Запуск телефона…</string>
@@ -297,12 +305,13 @@
     <string name="app_running_notification_title">Приложение \"%1$s\" выполняется</string>
     <string name="app_streaming_blocked_message">На устройстве %1$s эта функция пока недоступна. Используйте телефон.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog">Это приложение запрашивает дополнительные меры защиты. Используйте телефон.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Это приложение запрашивает дополнительные разрешения, которые невозможно предоставить во время трансляции на устройство. Сначала откройте доступ на телефоне.</string>
     <string name="app_streaming_blocked_message_for_settings_dialog">На устройстве %1$s эта функция недоступна. Используйте телефон.</string>
     <string name="app_streaming_blocked_title">Недоступно: %1$s</string>
     <string name="app_streaming_blocked_title_for_camera_dialog">Камера недоступна</string>
     <string name="app_streaming_blocked_title_for_fingerprint_dialog">Продолжите на телефоне</string>
     <string name="app_streaming_blocked_title_for_microphone_dialog">Микрофон недоступен</string>
-    <string name="app_streaming_blocked_title_for_permission_dialog">Требуется разрешение</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Запрос разрешений заблокирован</string>
     <string name="app_streaming_blocked_title_for_playstore_dialog">Google Play недоступен</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Настройки телефона недоступны</string>
     <string name="app_suspended_default_message">Приложение \"%1$s\" недоступно. Его работу ограничивает приложение \"%2$s\".</string>
@@ -351,6 +360,8 @@
     <string name="battery_saver_off_notification_title">Режим энергосбережения отключен</string>
     <string name="beforeOneMonthDurationPast">Более месяца назад</string>
     <string name="biometric_app_setting_name">Использовать биометрию</string>
+    <string name="biometric_dangling_notification_action_not_now">Не сейчас</string>
+    <string name="biometric_dangling_notification_action_set_up">Настроить</string>
     <string name="biometric_dialog_default_subtitle">Чтобы продолжить, используйте биометрические данные.</string>
     <string name="biometric_dialog_default_title">Подтвердите, что это вы</string>
     <string name="biometric_error_canceled">Аутентификация отменена</string>
@@ -358,6 +369,7 @@
     <string name="biometric_error_generic">Ошибка аутентификации.</string>
     <string name="biometric_error_hw_unavailable">Биометрическое оборудование недоступно</string>
     <string name="biometric_error_user_canceled">Аутентификация отменена</string>
+    <string name="biometric_face_not_recognized">Лицо не распознано.</string>
     <string name="biometric_not_recognized">Не распознано</string>
     <string name="biometric_or_screen_lock_app_setting_name">Использовать биометрию или блокировку экрана</string>
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Чтобы продолжить, используйте биометрию или данные для разблокировки экрана.</string>
@@ -420,11 +432,11 @@
     <string name="color_inversion_feature_name">Инверсия цветов</string>
     <string name="common_name">Стандартное название:</string>
     <string name="concurrent_display_notification_active_content">%1$s использует оба экрана.</string>
-    <string name="concurrent_display_notification_active_title">Двойной экран включен</string>
-    <string name="concurrent_display_notification_name">Двойной экран</string>
+    <string name="concurrent_display_notification_active_title">Функция Dual Screen включена</string>
+    <string name="concurrent_display_notification_name">Dual Screen</string>
     <string name="concurrent_display_notification_power_save_content">Функция Dual Screen недоступна, так как включен режим энергосбережения. Вы можете отключить его в настройках.</string>
     <string name="concurrent_display_notification_power_save_title">Функция Dual Screen недоступна</string>
-    <string name="concurrent_display_notification_thermal_content">Двойной экран недоступен из-за перегрева телефона.</string>
+    <string name="concurrent_display_notification_thermal_content">Функция Dual Screen недоступна из-за перегрева телефона.</string>
     <string name="concurrent_display_notification_thermal_title">Устройство перегрелось</string>
     <string name="condition_provider_service_binding_label">Поставщик условий</string>
     <string name="conference_call">Конференц-связь</string>
@@ -433,11 +445,16 @@
     <string name="config_pdp_reject_service_not_subscribed" />
     <string name="config_pdp_reject_user_authentication_failed" />
     <string name="confirm_battery_saver">ОК</string>
+    <string name="connected_display_thermally_unavailable_notification_content">Устройство слишком нагрелось и не может дублировать экран. Подождите, пока оно остынет.</string>
+    <string name="connected_display_unavailable_notification_content">Используйте другой кабель или повторите попытку.</string>
+    <string name="connected_display_unavailable_notification_title">Не удается дублировать экран</string>
     <string name="console_running_notification_message">Производительность устройства снижена. Чтобы отключить консоль, перейдите в загрузчик операционной системы.</string>
     <string name="console_running_notification_title">Консоль последовательного порта включена</string>
     <string name="contentServiceSync">Синхр.</string>
     <string name="contentServiceSyncNotificationTitle">Ошибка синхронизации</string>
     <string name="contentServiceTooManyDeletesNotificationDesc">Вы попытались удалить слишком много элементов (%s).</string>
+    <string name="content_description_collapsed">Свернуто</string>
+    <string name="content_description_expanded">Развернуто</string>
     <string name="content_description_sliding_handle">Перетаскиваемый значок блокировки. Нажмите и удерживайте.</string>
     <string name="conversation_single_line_image_placeholder">Отправлено изображение</string>
     <string name="conversation_single_line_name_display">%1$s:</string>
@@ -461,7 +478,7 @@
     <string name="data_usage_limit_snoozed_body">Вы превысили лимит на %s.</string>
     <string name="data_usage_mobile_limit_snoozed_title">Превышен лимит моб. трафика</string>
     <string name="data_usage_mobile_limit_title">Достигнут лимит моб. трафика</string>
-    <string name="data_usage_rapid_app_body">В приложении \"%s\" было передано больше трафика, чем обычно.</string>
+    <string name="data_usage_rapid_app_body">Приложение \"%s\" использовало больше трафика, чем обычно.</string>
     <string name="data_usage_rapid_body">В ваших приложениях было передано больше трафика, чем обычно.</string>
     <string name="data_usage_rapid_title">Высокое потребление трафика</string>
     <string name="data_usage_restricted_body">Нажмите, чтобы отменить ограничение.</string>
@@ -510,6 +527,7 @@
     <string name="device_state_notification_settings_button">Открыть настройки</string>
     <string name="device_state_notification_turn_off_button">Отключить</string>
     <string name="device_storage_monitor_notification_channel">Хранилище устройства</string>
+    <string name="device_unlock_notification_name">Разблокировка устройства</string>
     <string name="dial_number_using">"Набрать номер
 %s"</string>
     <string name="disable_accessibility_shortcut">Деактивировать быстрое включение</string>
@@ -524,6 +542,7 @@
     <string name="dlg_ok">ОК</string>
     <string name="done_accessibility_shortcut_menu_button">Готово</string>
     <string name="done_label">Готово</string>
+    <string name="dream_accessibility_action_click">закрыть</string>
     <string name="dream_preview_title">%1$s: предпросмотр</string>
     <string name="dump_heap_notification">Объем памяти процесса \"%1$s\" превышен</string>
     <string name="dump_heap_notification_detail">Создан дамп кучи. Нажмите, чтобы отправить его.</string>
@@ -550,7 +569,9 @@
     <string name="duration_years_shortest_future">через %d г.</string>
     <string name="dynamic_mode_notification_channel_name">Уведомление о батарее</string>
     <string name="dynamic_mode_notification_summary">Экономия заряда продлит время работы от батареи.</string>
+    <string name="dynamic_mode_notification_summary_v2">Это нужно, чтобы продлить время работы от батареи.</string>
     <string name="dynamic_mode_notification_title">Включен режим энергосбережения</string>
+    <string name="dynamic_mode_notification_title_v2">Включен режим энергосбережения</string>
     <string name="editTextMenuTitle">Операции с текстом</string>
     <string name="edit_accessibility_shortcut_menu_button">Изменить ярлыки</string>
     <string name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
@@ -565,6 +586,8 @@
     <string name="enablePin">Произошла ошибка. Включите блокировку SIM-карты или карты R-UIM.</string>
     <string name="enable_explore_by_touch_warning_message">%1$s хочет включить Изучение касанием. Вы сможете прослушивать или просматривать описание элементов, которых касаетесь, и управлять телефоном с помощью жестов.</string>
     <string name="enable_explore_by_touch_warning_title">Включить Изучение касанием?</string>
+    <string name="error_handwriting_unsupported">Это поле не поддерживает рукописный ввод</string>
+    <string name="error_handwriting_unsupported_password">Поля для указания пароля не поддерживают рукописный ввод</string>
     <string name="error_message_change_not_allowed">Это действие запрещено администратором</string>
     <string name="error_message_title">Ошибка</string>
     <string name="etws_primary_default_message_earthquake">Сохраняйте спокойствие и поищите укрытие поблизости.</string>
@@ -634,7 +657,7 @@
     <string name="face_acquired_too_bright">Слишком светло. Сделайте освещение менее ярким.</string>
     <string name="face_acquired_too_close">Переместите телефон дальше от лица</string>
     <string name="face_acquired_too_dark">Недостаточно света</string>
-    <string name="face_acquired_too_different">Не удалось распознать лицо. Повторите попытку.</string>
+    <string name="face_acquired_too_different">Лицо не распознано. Повторите попытку.</string>
     <string name="face_acquired_too_far">Переместите телефон ближе к лицу</string>
     <string name="face_acquired_too_high">Переместите телефон выше</string>
     <string name="face_acquired_too_left">Переместите телефон правее</string>
@@ -645,6 +668,8 @@
     <string name="face_app_setting_name">Использовать фейсконтроль</string>
     <string name="face_authenticated_confirmation_required">Лицо распознано, нажмите кнопку \"Подтвердить\"</string>
     <string name="face_authenticated_no_confirmation_required">Лицо распознано</string>
+    <string name="face_dangling_notification_msg">Вашу модель лица больше нельзя распознать. Настройте фейсконтроль снова.</string>
+    <string name="face_dangling_notification_title">Настройте фейсконтроль заново</string>
     <string name="face_dialog_default_subtitle">Чтобы продолжить, используйте функцию фейсконтроля.</string>
     <string name="face_error_canceled">Распознавание отменено</string>
     <string name="face_error_hw_not_available">Не удалось распознать лицо. Сканер недоступен.</string>
@@ -667,8 +692,6 @@
     <string name="face_recalibrate_notification_name">Фейсконтроль</string>
     <string name="face_recalibrate_notification_title">Ошибка фейсконтроля</string>
     <string name="face_sensor_privacy_enabled">Чтобы использовать фейсконтроль, разрешите <b>доступ к камере</b>. Для этого перейдите в настройки и нажмите \"Конфиденциальность\".</string>
-    <string name="face_setup_notification_content">Вы сможете разблокировать телефон, просто посмотрев на него.</string>
-    <string name="face_setup_notification_title">Настройка фейсконтроля</string>
     <string name="faceunlock_multiple_failures">Все попытки войти с помощью фейсконтроля использованы</string>
     <string name="factory_reset_message">"Невозможно использовать приложение для администрирования. С устройства будут удалены все данные.
 
@@ -693,30 +716,36 @@
     <string name="fingerprint_acquired_imager_dirty">Очистите сканер отпечатков пальцев и повторите попытку.</string>
     <string name="fingerprint_acquired_imager_dirty_alt">Очистите сканер и повторите попытку.</string>
     <string name="fingerprint_acquired_immobile">Каждый раз немного меняйте положение пальца</string>
-    <string name="fingerprint_acquired_insufficient">Не удалось распознать отпечаток. Повторите попытку.</string>
+    <string name="fingerprint_acquired_insufficient">Отпечаток пальца не распознан. Повторите попытку.</string>
     <string name="fingerprint_acquired_partial">Плотно прижмите палец к сканеру</string>
     <string name="fingerprint_acquired_power_press">Вы нажали кнопку питания.</string>
     <string name="fingerprint_acquired_too_bright">Слишком светло.</string>
-    <string name="fingerprint_acquired_too_fast">Плотно прижмите палец к сканеру.</string>
+    <string name="fingerprint_acquired_too_fast">Плотно прижмите палец к сканеру</string>
     <string name="fingerprint_acquired_too_slow">Вы перемещали палец слишком медленно. Повторите попытку.</string>
     <string name="fingerprint_acquired_try_adjusting">Попробуйте изменить положение пальца.</string>
     <string name="fingerprint_app_setting_name">Использовать отпечаток пальца</string>
     <string name="fingerprint_authenticated">Отпечаток пальца проверен</string>
+    <string name="fingerprint_dangling_notification_msg_1">Отпечаток \"%s\" больше нельзя распознать.</string>
+    <string name="fingerprint_dangling_notification_msg_2">Отпечатки \"%1$s\" и \"%2$s\" больше нельзя распознать.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_1">Отпечаток \"%s\" больше нельзя распознать. Настройте разблокировку по отпечатку пальца снова.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_2">Отпечатки \"%1$s\" и \"%2$s\" больше нельзя распознать. Настройте разблокировку по отпечатку пальца снова.</string>
+    <string name="fingerprint_dangling_notification_title">Настройте разблокировку по отпечатку пальца заново</string>
     <string name="fingerprint_dialog_default_subtitle">Чтобы продолжить, используйте цифровой отпечаток</string>
+    <string name="fingerprint_dialog_use_fingerprint_instead">Лицо не распознано. Сканируйте отпечаток пальца.</string>
     <string name="fingerprint_error_bad_calibration">Невозможно использовать сканер отпечатков пальцев. Обратитесь в сервисный центр.</string>
-    <string name="fingerprint_error_canceled">Операция с отпечатком отменена.</string>
-    <string name="fingerprint_error_hw_not_available">Сканер недоступен</string>
-    <string name="fingerprint_error_hw_not_present">На этом устройстве нет сканера отпечатков пальцев.</string>
+    <string name="fingerprint_error_canceled">Операция с отпечатком пальца отменена.</string>
+    <string name="fingerprint_error_hw_not_available">Сканер отпечатков пальцев недоступен.</string>
+    <string name="fingerprint_error_hw_not_present">На этом устройстве нет сканера отпечатков пальцев</string>
     <string name="fingerprint_error_lockout">Слишком много попыток. Используйте другой способ разблокировки экрана.</string>
     <string name="fingerprint_error_lockout_permanent">Слишком много попыток. Используйте другой способ разблокировки экрана.</string>
-    <string name="fingerprint_error_no_fingerprints">Нет отсканированных отпечатков пальцев</string>
+    <string name="fingerprint_error_no_fingerprints">Отпечатки пальцев не добавлены.</string>
     <string name="fingerprint_error_no_space">Не удалось сохранить отпечаток.</string>
     <string name="fingerprint_error_not_match">Отпечаток не распознан.</string>
     <string name="fingerprint_error_power_pressed">Нажата кнопка питания.</string>
-    <string name="fingerprint_error_security_update_required">Сканер отпечатков пальцев временно отключен.</string>
+    <string name="fingerprint_error_security_update_required">Сканер временно отключен.</string>
     <string name="fingerprint_error_timeout">Время настройки отпечатка пальца истекло. Повторите попытку.</string>
     <string name="fingerprint_error_unable_to_process">Не удалось распознать отпечаток пальца. Повторите попытку.</string>
-    <string name="fingerprint_error_user_canceled">Операция с отпечатком пальца отменена пользователем.</string>
+    <string name="fingerprint_error_user_canceled">Пользователь отменил операцию с отпечатком пальца.</string>
     <string name="fingerprint_error_vendor_unknown">Произошла ошибка. Повторите попытку.</string>
     <string name="fingerprint_name_template">Отпечаток %d</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">Использовать отпечаток пальца или блокировку экрана</string>
@@ -724,8 +753,6 @@
     <string name="fingerprint_recalibrate_notification_content">Обратитесь в сервисный центр.</string>
     <string name="fingerprint_recalibrate_notification_name">Разблокировка по отпечатку пальца</string>
     <string name="fingerprint_recalibrate_notification_title">Невозможно использовать сканер отпечатков пальцев</string>
-    <string name="fingerprint_setup_notification_content">Нажмите, чтобы добавить отпечаток пальца.</string>
-    <string name="fingerprint_setup_notification_title">Настройте другие способы разблокировки</string>
     <string name="fingerprint_udfps_error_not_match">Отпечаток не распознан.</string>
     <string name="fingerprints">Отпечатки:</string>
     <string name="floating_toolbar_close_overflow_description">Закрыть дополнительное меню</string>
@@ -747,7 +774,7 @@
     <string name="fp_power_button_enrollment_message">"Вы нажали кнопку питания. Обычно это приводит к отключению экрана.
 
 При добавлении отпечатка пальца слегка прикоснитесь к кнопке."</string>
-    <string name="fp_power_button_enrollment_title">Для завершения нужно отключить экран</string>
+    <string name="fp_power_button_enrollment_title">Для завершения нужно отключить экран.</string>
     <string name="gadget_host_error_inflating">Не удалось добавить виджет.</string>
     <string name="geofencing_service">Сервис геозонирования</string>
     <string name="global_action_assist">Помощник</string>
@@ -784,7 +811,7 @@
     <string name="granularity_label_link">ссылка</string>
     <string name="granularity_label_word">слово</string>
     <string name="guest_name">Гость</string>
-    <string name="hardware">Виртуальная клавиатура</string>
+    <string name="hardware">Использовать экранную клавиатуру</string>
     <string name="harmful_app_warning_open_anyway">ОТКРЫТЬ</string>
     <string name="harmful_app_warning_title">Обнаружено вредоносное приложение</string>
     <string name="harmful_app_warning_uninstall">УДАЛИТЬ</string>
@@ -832,7 +859,7 @@
     <string name="ime_action_search">Поиск</string>
     <string name="ime_action_send">Отправить</string>
     <string name="imei">IMEI</string>
-    <string name="immersive_cling_description">Чтобы выйти, проведите по экрану сверху вниз.</string>
+    <string name="immersive_cling_description">Чтобы выйти, проведите вниз от верхнего края экрана</string>
     <string name="immersive_cling_positive">ОК</string>
     <string name="immersive_cling_title">Полноэкранный режим</string>
     <string name="importance_from_person">Важное (люди)</string>
@@ -1046,7 +1073,7 @@
     <string name="low_memory">Память телефона заполнена. Удалите какие-нибудь файлы, чтобы освободить место.</string>
     <string name="managed_profile_app_label">Открыть %1$s в рабочем профиле</string>
     <string name="managed_profile_label">Перейти в рабочий профиль</string>
-    <string name="managed_profile_label_badge">Рабочий %1$s</string>
+    <string name="managed_profile_label_badge">%1$s (рабочий профиль)</string>
     <string name="managed_profile_label_badge_2">Задача 2: %1$s</string>
     <string name="managed_profile_label_badge_3">Задача 3: %1$s</string>
     <string name="matches_found">{count,plural, =1{# совпадение}one{# совпадение из {total}}few{# совпадения из {total}}many{# совпадений из {total}}other{# совпадения из {total}}}</string>
@@ -1195,6 +1222,8 @@
     <string name="miniresolver_open_in_personal">Открыть в личном приложении \"%s\"?</string>
     <string name="miniresolver_open_in_work">Открыть в рабочем приложении \"%s\"?</string>
     <string name="miniresolver_open_work">Открыть рабочее приложение \"%s\"?</string>
+    <string name="miniresolver_private_space_messages_information">Вы можете отправлять SMS только из личного приложения \"Сообщения\".</string>
+    <string name="miniresolver_private_space_phone_information">Вы можете звонить только из личного приложения \"Телефон\". Совершенные из него вызовы будут сохранены в личном журнале звонков.</string>
     <string name="miniresolver_sms_information">В вашей организации разрешено отправлять сообщения только из рабочих приложений.</string>
     <string name="miniresolver_switch">Перейти</string>
     <string name="miniresolver_switch_to_work">Перейти в рабочее приложение?</string>
@@ -1274,6 +1303,7 @@
     <string name="notification_channel_developer">Сообщения для разработчиков</string>
     <string name="notification_channel_developer_important">Важные сообщения от разработчика</string>
     <string name="notification_channel_device_admin">Уведомления от вашего администратора</string>
+    <string name="notification_channel_display">Экран</string>
     <string name="notification_channel_do_not_disturb">Не беспокоить</string>
     <string name="notification_channel_emergency_callback">Режим экстренных обратных вызовов</string>
     <string name="notification_channel_foreground_service">Приложения, расходующие заряд</string>
@@ -1295,6 +1325,7 @@
     <string name="notification_channel_voice_mail">Голосовые сообщения</string>
     <string name="notification_channel_vpn">Статус VPN</string>
     <string name="notification_channel_wfc">Звонки по Wi-Fi</string>
+    <string name="notification_compact_heads_up_reply">Ответить</string>
     <string name="notification_content_abusive_bg_apps">\"%1$s\" работает в фоновом режиме. Нажмите, чтобы изменить настройки, связанные с расходом заряда батареи.</string>
     <string name="notification_content_long_running_fgs">Приложение \"%1$s\" может влиять на время работы батареи. Нажмите, чтобы увидеть активные приложения.</string>
     <string name="notification_feedback_indicator">Отправить отзыв</string>
@@ -1331,7 +1362,8 @@
     <string name="other_networks_no_internet">Сеть не подключена к Интернету</string>
     <string name="owner_name">Владелец</string>
     <string name="package_deleted_device_owner">Удалено администратором</string>
-    <string name="package_installed_device_owner">Установлено администратором</string>
+    <string name="package_installed_device_owner">"Установлено администратором.
+Чтобы посмотреть предоставленные разрешения, перейдите в настройки."</string>
     <string name="package_updated_device_owner">Обновлено администратором</string>
     <string name="passwordIncorrect">Неверный пароль.</string>
     <string name="password_keyboard_label_alpha_key">АБВ</string>
@@ -1348,7 +1380,9 @@
     <string name="permdesc_accessCoarseLocation">Приложение сможет получать сведения о вашем приблизительном местоположении, только когда используется. Для этого на устройстве должна быть включена геолокация.</string>
     <string name="permdesc_accessDrmCertificates">Приложение сможет синхронизировать и использовать сертификаты DRM (разрешение актуально только для специальных приложений).</string>
     <string name="permdesc_accessFineLocation">Приложение сможет получать сведения о вашем точном местоположении, только когда используется. Для этого на устройстве должна быть включена геолокация. Учтите, что при этом заряд батареи может расходоваться быстрее.</string>
+    <string name="permdesc_accessHiddenProfile">Приложение сможет получать доступ к скрытым профилям.</string>
     <string name="permdesc_accessImsCallService">Позволяет приложению совершать звонки с помощью службы IMS без вашего вмешательства.</string>
+    <string name="permdesc_accessLastKnownCellId">Приложение сможет получать доступ к последнему известному идентификатору вышки мобильной связи, предоставленному системами телефонии.</string>
     <string name="permdesc_accessLocationExtraCommands">Доступ к дополнительным командам управления источниками геоданных и вмешательство в работу системы GPS или других источников геоданных.</string>
     <string name="permdesc_accessNetworkConditions">Приложение сможет использовать данные о состоянии сети. Это разрешение обычно используется только специальными приложениями.</string>
     <string name="permdesc_accessNetworkState">Приложение сможет просматривать информацию о сетевых подключениях, например о том, какие сети доступны и к каким из них вы подключены.</string>
@@ -1380,6 +1414,7 @@
     <string name="permdesc_callCompanionApp">Приложение сможет управлять текущими вызовами на устройстве, а также получит доступ к сведениям о них, в том числе к номерам телефонов и статусам звонков.</string>
     <string name="permdesc_callPhone">Разрешает приложению совершать вызовы без вашего участия. Это может привести к непредвиденным расходам или незапланированным звонкам. Обратите внимание, что приложению не предоставляется разрешение на звонки в экстренные службы. Из-за вредоносных приложений, которые совершают платные звонки без вашего подтверждения или используют коды оператора, чтобы входящие вызовы автоматически переадресовывались на другой номер, у вас могут списываться средства.</string>
     <string name="permdesc_camera">Когда приложение используется, оно может делать фотографии и снимать видео с помощью камеры.</string>
+    <string name="permdesc_cameraHeadlessSystemUser">У этого приложения есть доступ к камере на правах консольного системного пользователя.</string>
     <string name="permdesc_cameraOpenCloseListener">Это приложение сможет получать обратные вызовы при открытии (с указанием открывающего приложения) и закрытии любых камер.</string>
     <string name="permdesc_changeNetworkState">Приложение сможет изменять состояние подключения к сети.</string>
     <string name="permdesc_changeTetherState">Приложение сможет включать и выключать режим модема.</string>
@@ -1404,6 +1439,7 @@
     <string name="permdesc_foregroundServiceHealth">Разрешить приложению использовать активные службы с типом health</string>
     <string name="permdesc_foregroundServiceLocation">Разрешить приложению использовать активные службы с типом location</string>
     <string name="permdesc_foregroundServiceMediaPlayback">Разрешить приложению использовать активные службы с типом mediaPlayback</string>
+    <string name="permdesc_foregroundServiceMediaProcessing">Приложение сможет использовать активные службы с типом mediaProcessing.</string>
     <string name="permdesc_foregroundServiceMediaProjection">Разрешить приложению использовать активные службы с типом mediaProjection</string>
     <string name="permdesc_foregroundServiceMicrophone">Разрешить приложению использовать активные службы с типом microphone</string>
     <string name="permdesc_foregroundServicePhoneCall">Разрешить приложению использовать активные службы с типом phoneCall</string>
@@ -1431,6 +1467,7 @@
     <string name="permdesc_modifyNetworkAccounting">Приложение сможет изменять порядок расчета использования сетевых ресурсов различными программами. Это разрешение не используется обычными приложениями.</string>
     <string name="permdesc_nearby_wifi_devices">Приложение сможет передавать данные на устройства Wi‑Fi рядом, подключаться к ним и определять их примерное местоположение.</string>
     <string name="permdesc_nfc">Приложение сможет обмениваться данными с NFC-метками, картами и устройствами считывания, используя NFC.</string>
+    <string name="permdesc_nfcTransactionEvent">Позволяет приложению получать информацию о транзакциях, обрабатываемых в защитном элементе.</string>
     <string name="permdesc_observeCompanionDevicePresence">Сопутствующее приложение сможет находить связанные с ним устройства, где бы они ни находились.</string>
     <string name="permdesc_persistentActivity">Приложение сможет постоянно хранить свои компоненты в памяти. Это может уменьшить объем памяти, доступный другим приложениям, и замедлить работу устройства.</string>
     <string name="permdesc_postNotification">Приложение сможет показывать уведомления.</string>
@@ -1507,6 +1544,7 @@
     <string name="permdesc_writeContacts">Приложение сможет изменять сведения о контактах, сохраненных на вашем телефоне. Это разрешение позволяет приложениям удалять данные о контактах.</string>
     <string name="permdesc_writeSettings">"Приложение сможет изменять настройки системы. Вредоносные программы смогут  повредить конфигурацию системы."</string>
     <string name="permdesc_writeSyncSettings">Приложение сможет изменять настройки синхронизации аккаунта. Например, с помощью этого разрешения можно включить в аккаунте синхронизацию контактов.</string>
+    <string name="permdesc_writeVerificationStateE2eeContactKeys">Приложение сможет обновлять статусы проверки защищенных сквозным шифрованием и принадлежащих другим приложениям ключей контактов.</string>
     <string name="permgroupdesc_activityRecognition">доступ к данным о физической активности</string>
     <string name="permgroupdesc_calendar">доступ к календарю</string>
     <string name="permgroupdesc_calllog">чтение и запись телефонных звонков</string>
@@ -1547,7 +1585,9 @@
     <string name="permlab_accessCoarseLocation">Доступ к приблизительному местоположению только в активном режиме</string>
     <string name="permlab_accessDrmCertificates">Доступ к сертификатам DRM</string>
     <string name="permlab_accessFineLocation">Доступ к точному местоположению только в фоновом режиме</string>
+    <string name="permlab_accessHiddenProfile">Доступ к скрытым профилям</string>
     <string name="permlab_accessImsCallService">совершение звонков с помощью службы IMS</string>
+    <string name="permlab_accessLastKnownCellId">Доступ к последнему известному идентификатору вышки мобильной связи</string>
     <string name="permlab_accessLocationExtraCommands">Доступ к дополнительным командам управления источниками геоданных</string>
     <string name="permlab_accessNetworkConditions">Использование данных о состоянии сети</string>
     <string name="permlab_accessNetworkState">Просмотр сетевых подключений</string>
@@ -1579,6 +1619,7 @@
     <string name="permlab_callCompanionApp">Управление вызовами через систему</string>
     <string name="permlab_callPhone">Осуществление телефонных вызовов</string>
     <string name="permlab_camera">Фото- и видеосъемка</string>
+    <string name="permlab_cameraHeadlessSystemUser">Разрешить приложению или сервису доступ к камере на правах консольного системного пользователя</string>
     <string name="permlab_cameraOpenCloseListener">Разрешить приложению или сервису получать обратные вызовы при открытии и закрытии камер</string>
     <string name="permlab_changeNetworkState">Изменение сетевых настроек</string>
     <string name="permlab_changeTetherState">Изменение подключения к компьютеру</string>
@@ -1603,6 +1644,7 @@
     <string name="permlab_foregroundServiceHealth">запускать активные службы с типом health</string>
     <string name="permlab_foregroundServiceLocation">запускать активные службы с типом location</string>
     <string name="permlab_foregroundServiceMediaPlayback">запускать активные службы с типом mediaPlayback</string>
+    <string name="permlab_foregroundServiceMediaProcessing">запускать активные службы с типом mediaProcessing</string>
     <string name="permlab_foregroundServiceMediaProjection">запускать активные службы с типом mediaProjection</string>
     <string name="permlab_foregroundServiceMicrophone">запускать активные службы с типом microphone</string>
     <string name="permlab_foregroundServicePhoneCall">запускать активные службы с типом phoneCall</string>
@@ -1630,6 +1672,7 @@
     <string name="permlab_modifyNetworkAccounting">Изменение учета использования сети</string>
     <string name="permlab_nearby_wifi_devices">Взаимодействие с устройствами Wi‑Fi поблизости</string>
     <string name="permlab_nfc">Управление NFC-модулем</string>
+    <string name="permlab_nfcTransactionEvent">Транзакции, обрабатываемые в защитном элементе</string>
     <string name="permlab_observeCompanionDevicePresence">Обнаружение связанных устройств</string>
     <string name="permlab_persistentActivity">Поддержание приложения в рабочем режиме</string>
     <string name="permlab_postNotification">показ уведомлений</string>
@@ -1705,6 +1748,7 @@
     <string name="permlab_writeContacts">Изменение контактов</string>
     <string name="permlab_writeSettings">Изменение настроек системы</string>
     <string name="permlab_writeSyncSettings">Включение/выключение синхронизации</string>
+    <string name="permlab_writeVerificationStateE2eeContactKeys">обновление статусов проверки защищенных сквозным шифрованием и принадлежащих другим приложениям ключей контактов</string>
     <string name="perms_description_app">Источник: %1$s.</string>
     <string name="perms_new_perm_prefix"><font fgcolor="#ff33b5e5" size="12">НОВОЕ: </font></string>
     <string name="personal_apps_suspended_turn_profile_on">Включить</string>
@@ -1742,7 +1786,7 @@
     <string name="policydesc_limitPassword">Контролировать длину и символы при вводе пароля и PIN-кода.</string>
     <string name="policydesc_resetPassword">Изменять способ блокировки экрана.</string>
     <string name="policydesc_setGlobalProxy">Настроить глобальный прокси-сервер устройства, который будет использоваться при активной политике. Это может сделать только владелец устройства.</string>
-    <string name="policydesc_watchLogin">Отслеживает попытки ввода пароля при разблокировке экрана и блокирует телефон или удаляет с него все данные, если было сделано слишком много таких попыток.</string>
+    <string name="policydesc_watchLogin">Отслеживать попытки ввода пароля при разблокировке экрана и блокировать телефон или удалять с него все данные, если было сделано слишком много таких попыток.</string>
     <string name="policydesc_watchLogin_secondaryUser">Отслеживать неверно введенные пароли при разблокировке экрана и блокировать телефон или удалять с него все данные, если сделано слишком много неудачных попыток.</string>
     <string name="policydesc_wipeData">Удалять все данные на телефоне без предупреждения путем сброса настроек.</string>
     <string name="policydesc_wipeData_secondaryUser">Удалить данные этого пользователя с телефона без предупреждения.</string>
@@ -1772,9 +1816,21 @@
     <string name="print_service_installed_title">Служба %s установлена</string>
     <string name="printing_disabled_by">Функция печати отключена приложением \"%s\"</string>
     <string name="private_dns_broken_detailed">Доступа к частному DNS-серверу нет.</string>
+    <string name="private_profile_label_badge">%1$s (частный профиль)</string>
+    <string name="private_space_biometric_prompt_title">Частное пространство</string>
+    <string name="private_space_deleted_by_admin">Частное пространство удалено</string>
+    <string name="private_space_deleted_by_admin_details">Ваша организация запрещает использовать частное пространство на этом управляемом устройстве.</string>
+    <string name="private_space_set_up_screen_lock_message">Чтобы использовать частное пространство, настройте блокировку экрана на этом устройстве.</string>
     <string name="profile_encrypted_detail">Рабочий профиль заблокирован</string>
     <string name="profile_encrypted_message">Нажмите, чтобы разблокировать раб. профиль</string>
     <string name="profile_encrypted_title">Некоторые функции могут не работать</string>
+    <string name="profile_label_clone">Клон</string>
+    <string name="profile_label_communal">Совместный</string>
+    <string name="profile_label_private">Частный</string>
+    <string name="profile_label_test">Тестовый</string>
+    <string name="profile_label_work">Рабочий</string>
+    <string name="profile_label_work_2">Рабочий 2</string>
+    <string name="profile_label_work_3">Рабочий 3</string>
     <string name="progress_erasing">Очистка единого хранилища…</string>
     <string name="quick_contacts_not_available">Не найдено приложение для просмотра контакта</string>
     <string name="rating_label">{rating,plural, =1{Одна звезда из {max}}one{# звезда из {max}}few{# звезды из {max}}many{# звезд из {max}}other{# звезды из {max}}}</string>
@@ -1789,6 +1845,8 @@
     <string name="reboot_to_update_reboot">Перезагрузка…</string>
     <string name="reboot_to_update_title">Обновление системы Android</string>
     <string name="recent_tasks_title">Недавние</string>
+    <string name="redacted_notification_action_title" />
+    <string name="redacted_notification_message">Конфиденциальная информация в уведомлении скрыта</string>
     <string name="redo">Повторить</string>
     <string name="reduce_bright_colors_feature_name">Дополнительное уменьшение яркости</string>
     <string name="region_picker_section_all">Все регионы</string>
@@ -1819,7 +1877,7 @@
     <string name="resolver_cross_profile_blocked">Заблокировано вашим администратором</string>
     <string name="resolver_no_personal_apps_available">Не поддерживается личными приложениями.</string>
     <string name="resolver_no_work_apps_available">Не поддерживается рабочими приложениями.</string>
-    <string name="resolver_personal_tab">Личное</string>
+    <string name="resolver_personal_tab">Личный</string>
     <string name="resolver_personal_tab_accessibility">Просмотр личных данных</string>
     <string name="resolver_switch_on_work">Включить</string>
     <string name="resolver_turn_on_work_apps">Рабочие приложения приостановлены.</string>
@@ -1865,12 +1923,34 @@
     <string name="safe_media_volume_warning">"Установить громкость выше рекомендуемого уровня?
 
 Воздействие громкого звука в течение долгого времени может привести к повреждению слуха."</string>
+    <string name="satellite_notification_how_it_works">Узнать принцип работы</string>
+    <string name="satellite_notification_open_message">Открыть Сообщения</string>
+    <string name="satellite_notification_summary">Вы можете отправлять и получать сообщения без доступа к мобильной сети или Wi-Fi.</string>
+    <string name="satellite_notification_title">Автоматически подключено к системам спутниковой связи</string>
+    <string name="scCellularNetworkSecuritySummary">Шифрование, уведомления о незашифрованных сетях</string>
+    <string name="scCellularNetworkSecurityTitle">Безопасность мобильной сети</string>
+    <string name="scIdentifierDisclosureIssueSummary">"В %1$s, когда вы использовали SIM-карту \"%2$s\", сетью поблизости от вас был записан уникальный идентификатор вашего устройства (IMSI или IMEI).
+
+Это значит, что было зарегистрировано ваше местоположение, действия или личность. Это распространенная практика, однако она может вызывать беспокойство у тех, кто заботится о своей конфиденциальности."</string>
+    <string name="scIdentifierDisclosureIssueSummaryNotification">В %1$s, когда вы использовали SIM-карту \"%2$s\", сетью поблизости от вас был записан уникальный идентификатор вашего устройства (IMSI или IMEI).</string>
+    <string name="scIdentifierDisclosureIssueTitle">Получен доступ к идентификатору устройства</string>
+    <string name="scNullCipherIssueActionGotIt">ОК</string>
+    <string name="scNullCipherIssueActionLearnMore">Подробнее</string>
+    <string name="scNullCipherIssueActionSettings">Настройки безопасности мобильной сети</string>
+    <string name="scNullCipherIssueEncryptedSummary">Теперь подключение SIM-карты (%1$s) лучше защищено.</string>
+    <string name="scNullCipherIssueEncryptedTitle">Подключено к зашифрованной сети %1$s</string>
+    <string name="scNullCipherIssueNonEncryptedSummary">"Сейчас звонки, сообщения и данные более уязвимы при использовании SIM-карты (%1$s).
+
+Когда соединение будет снова зашифровано, вы получите ещё одно уведомление."</string>
+    <string name="scNullCipherIssueNonEncryptedSummaryNotification">Сейчас звонки, сообщения и данные более уязвимы при использовании SIM-карты (%1$s).</string>
+    <string name="scNullCipherIssueNonEncryptedTitle">Подключено к незашифрованной сети</string>
     <string name="screen_compat_mode_hint">Включить эту функцию можно в меню \"Настройки > Приложения > Загруженные\".</string>
     <string name="screen_compat_mode_scale">Масштаб</string>
     <string name="screen_compat_mode_show">Всегда показывать</string>
     <string name="screen_lock">Блокировка экрана</string>
     <string name="screen_lock_app_setting_name">Использовать блокировку экрана</string>
     <string name="screen_lock_dialog_default_subtitle">Чтобы продолжить, разблокируйте экран.</string>
+    <string name="screen_not_shared_sensitive_content">Для безопасности содержимое приложения при демонстрации экрана скрыто.</string>
     <string name="screenshot_edit">Изменить</string>
     <string name="search_hint">Поиск…</string>
     <string name="search_language_hint">Введите название языка</string>
@@ -1914,6 +1994,8 @@
     <string name="serviceErased">Удаление выполнено успешно.</string>
     <string name="serviceNotProvisioned">Услуга не предоставляется.</string>
     <string name="serviceRegistered">Регистрация пройдена успешно.</string>
+    <string name="set_up_screen_lock_action_label">Настроить блокировку экрана</string>
+    <string name="set_up_screen_lock_title">Настройте блокировку экрана</string>
     <string name="sha1_fingerprint">Отпечаток SHA-1:</string>
     <string name="sha256_fingerprint">Отпечаток SHA-256:</string>
     <string name="share">Поделиться</string>
@@ -2032,6 +2114,7 @@
     <string name="twilight_service">Сервис для определения наступления сумерек</string>
     <string name="ui_translation_accessibility_translated_text">Сообщение \"%1$s\" переведено.</string>
     <string name="ui_translation_accessibility_translation_finished">Сообщение переведено на %2$s. Язык оригинала: %1$s.</string>
+    <string name="unarchival_session_app_label">Обработка…</string>
     <string name="undo">Отменить</string>
     <string name="unpin_specific_target">Открепить приложение \"%1$s\"</string>
     <string name="unpin_target">Открепить</string>
@@ -2192,7 +2275,13 @@
     <string name="zen_mode_feature_name">Не беспокоить</string>
     <string name="zen_mode_forever">Пока вы не отключите</string>
     <string name="zen_mode_forever_dnd">Пока вы не отключите режим \"Не беспокоить\"</string>
+    <string name="zen_mode_implicit_activated">Включено</string>
+    <string name="zen_mode_implicit_deactivated">Отключено</string>
+    <string name="zen_mode_implicit_trigger_description">Под управлением приложения \"%1$s\"</string>
     <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
+    <string name="zen_mode_trigger_event_calendar_any">Любой календарь</string>
+    <string name="zen_mode_trigger_summary_divider_text">", "</string>
+    <string name="zen_mode_trigger_summary_range_symbol_combination">%1$s – %2$s</string>
     <string name="zen_mode_until">До %1$s</string>
     <string name="zen_mode_until_next_day">До %1$s</string>
     <string name="zen_upgrade_notification_content">Нажмите, чтобы проверить настройки.</string>

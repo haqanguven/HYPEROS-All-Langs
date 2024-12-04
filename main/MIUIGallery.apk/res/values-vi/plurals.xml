@@ -78,6 +78,12 @@
     <plurals name="ai_minute">
         <item quantity="other">%d phút</item>
     </plurals>
+    <plurals name="ai_search_picker_hint_text">
+        <item quantity="other">Chọn %1$d-%2$d ảnh hoặc video (đã chọn %3$d)</item>
+    </plurals>
+    <plurals name="ai_search_picker_total_duration_exceed_limit">
+        <item quantity="other">Tổng thời lượng video không được vượt quá %d giây</item>
+    </plurals>
     <plurals name="ai_select_photo_time_count">
         <item quantity="other">Đang chọn ảnh (còn lại %d giây)…</item>
     </plurals>
@@ -168,6 +174,9 @@
     <plurals name="delete_burst_photo_from_local">
         <item quantity="other">Xóa %d ảnh chụp liên tiếp?</item>
     </plurals>
+    <plurals name="delete_confirm_count_down">
+        <item quantity="other">Xóa (%d giây)</item>
+    </plurals>
     <plurals name="delete_finish_format">
         <item quantity="other">Đã xóa %d mục</item>
     </plurals>
@@ -200,6 +209,9 @@
     </plurals>
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">Bỏ qua %1$d ảnh không được kết xuất.</item>
+    </plurals>
+    <plurals name="file_type_detail_count">
+        <item quantity="other">%1$d tập tin</item>
     </plurals>
     <plurals name="global_cloud_storage_warn_title_link">
         <item quantity="other">Không thể sao lưu %d mục do không đủ lưu trữ đám mây</item>
@@ -318,6 +330,12 @@
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">Đã bỏ qua %d ảnh không nằm trên thiết bị.</item>
     </plurals>
+    <plurals name="picker_title_video_editor_component">
+        <item quantity="other">Chọn %d đoạn</item>
+    </plurals>
+    <plurals name="picker_title_video_editor_component_format">
+        <item quantity="other">Chọn %1$d đoạn (%2$d)</item>
+    </plurals>
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">Tìm thấy %1$d ảnh mới</item>
     </plurals>
@@ -342,11 +360,83 @@
     <plurals name="search_title_ai">
         <item quantity="other">Đã tìm thấy %d mục</item>
     </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">%2$d gói cài đặt (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d gói cài đặt (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d gói cài đặt (%3$s) từ %1$s…</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%2$d tập tin âm thanh (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d tập tin âm thanh (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d tập tin âm thanh (%3$s) từ %1$s…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%2$d %3$s tập tin (%4$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d %3$s tập tin (%4$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d %3$s tập tin (%4$s) từ %1$s…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%2$d ảnh từ %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d ảnh từ %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d ảnh từ %1$s…</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%2$d ảnh và video từ %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d ảnh và video từ %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d ảnh và video từ %1$s…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%2$d tập tin từ %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d tập tin từ %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d tập tin từ %1$s…</item>
+    </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Không thể chia sẻ. Tiếp tục xử lý %d ảnh…</item>
     </plurals>
     <plurals name="send_too_many_files_error">
         <item quantity="other">Chọn tối đa %d mục để gửi</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%2$d video từ %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d video từ %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d video từ %1$s…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%2$d tập tin nén (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">Đã nhận %2$d tập tin nén (%3$s) từ %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">Đang nhận %2$d tập tin nén (%3$s) từ %1$s…</item>
     </plurals>
     <plurals name="share_album_detail_photo_count">
         <item quantity="other">Đã tải lên %d ảnh</item>
@@ -449,6 +539,9 @@
     <plurals name="transfer_status_banner_msg_file_failed">
         <item quantity="other">Không thể chuyển %1$d mục. Truy cập i.mi.com để tải xuống.</item>
     </plurals>
+    <plurals name="trash_purge_count_down">
+        <item quantity="other">Xóa (%d giây)</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_cloud">
         <item quantity="other">%d mục đã chọn sẽ bị xóa vĩnh viễn khỏi đám mây và tất cả các thiết bị đã đồng bộ. Vẫn xóa?</item>
     </plurals>
@@ -470,9 +563,6 @@
     <plurals name="trash_vip_info_text_login_medium_or_low_level">
         <item quantity="other">Các mục có thể được lưu trữ tại đây trong %1$s ngày. Chạm để kéo dài thời gian.</item>
     </plurals>
-    <plurals name="trash_vip_info_text_no_sync_server">
-        <item quantity="other">Đã xóa các mục được lưu trữ trên đám mây trong %1$d ngày</item>
-    </plurals>
     <plurals name="trash_vip_info_text_unlogin">
         <item quantity="other">Các mục có thể được lưu trữ tại đây trong tối đa %1$d ngày. Nâng cấp gói của bạn để kéo dài thời gian.</item>
     </plurals>
@@ -480,13 +570,13 @@
         <item quantity="other">%1$d tập tin</item>
     </plurals>
     <plurals name="video_editor_component_hint_text">
-        <item quantity="other">Chọn %d đoạn video</item>
+        <item quantity="other">Yêu cầu %d đoạn</item>
     </plurals>
     <plurals name="video_editor_component_imageview_content_description">
-        <item quantity="other">Vị trí video %1$d, đang chờ thêm video từ %2$s giây trở lên</item>
+        <item quantity="other">Vị trí %1$d: Thêm một đoạn không ngắn hơn %2$s giây</item>
     </plurals>
     <plurals name="video_editor_component_next_step_disabled_content_description">
-        <item quantity="other">Thêm %d video nữa để có thể tiếp tục</item>
+        <item quantity="other">Thêm %d đoạn nữa để có thể tiếp tục</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d video</item>

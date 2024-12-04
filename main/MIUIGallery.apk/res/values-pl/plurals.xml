@@ -156,6 +156,18 @@
         <item quantity="few">%d min</item>
         <item quantity="many">%d min</item>
     </plurals>
+    <plurals name="ai_search_picker_hint_text">
+        <item quantity="other">Wybierz %1$d-%2$d zdjęć lub filmów (Wybrane: %3$d)</item>
+        <item quantity="one">Wybierz %1$d-%2$d zdjęć lub filmów (Wybrane: %3$d)</item>
+        <item quantity="few">Wybierz %1$d-%2$d zdjęć lub filmów (Wybrane: %3$d)</item>
+        <item quantity="many">Wybierz %1$d-%2$d zdjęć lub filmów (Wybrane: %3$d)</item>
+    </plurals>
+    <plurals name="ai_search_picker_total_duration_exceed_limit">
+        <item quantity="other">Całkowity czas trwania filmu nie może przekraczać %d sekundy</item>
+        <item quantity="one">Całkowity czas trwania filmu nie może przekraczać %d sekundy</item>
+        <item quantity="few">Całkowity czas trwania filmu nie może przekraczać %d sekund</item>
+        <item quantity="many">Całkowity czas trwania filmu nie może przekraczać %d sekund</item>
+    </plurals>
     <plurals name="ai_select_photo_time_count">
         <item quantity="other">Wybieranie zdjęć (pozostało %d sek.)…</item>
         <item quantity="one">Wybieranie zdjęć (pozostała %d sek.)…</item>
@@ -336,6 +348,12 @@
         <item quantity="few">Usunąć %d zdjęcia seryjne?</item>
         <item quantity="many">Usunąć %d zdjęć seryjnych?</item>
     </plurals>
+    <plurals name="delete_confirm_count_down">
+        <item quantity="other">Usuń (%d sek.)</item>
+        <item quantity="one">Usuń (%d sek.)</item>
+        <item quantity="few">Usuń (%d sek.)</item>
+        <item quantity="many">Usuń (%d sek.)</item>
+    </plurals>
     <plurals name="delete_finish_format">
         <item quantity="other">Usunięto %d elementów</item>
         <item quantity="one">Usunięto %d element</item>
@@ -380,7 +398,7 @@
     </plurals>
     <plurals name="downloading_title_link">
         <item quantity="other">Pobieranie elementów z chmury (%2$d/%1$d)</item>
-        <item quantity="one">Pobieranie elementu z chmury (%2$d/%1$d)</item>
+        <item quantity="one">Pobieranie elementów z chmury (%2$d/%1$d)</item>
         <item quantity="few">Pobieranie elementów z chmury (%2$d/%1$d)</item>
         <item quantity="many">Pobieranie elementów z chmury (%2$d/%1$d)</item>
     </plurals>
@@ -401,6 +419,12 @@
         <item quantity="one">Pominięto %1$d zdjęcie, którego nie udało się wyświetlić.</item>
         <item quantity="few">Pominięto %1$d zdjęcia, których nie udało się wyświetlić.</item>
         <item quantity="many">Pominięto %1$d zdjęć, których nie udało się wyświetlić.</item>
+    </plurals>
+    <plurals name="file_type_detail_count">
+        <item quantity="other">%1$d plików</item>
+        <item quantity="one">%1$d plik</item>
+        <item quantity="few">%1$d pliki</item>
+        <item quantity="many">%1$d plików</item>
     </plurals>
     <plurals name="global_cloud_storage_warn_title_link">
         <item quantity="other">Nie udało się utworzyć kopii zapasowych %d elementu z powodu niewystarczającej ilości mniejsca w chmurze</item>
@@ -636,6 +660,18 @@
         <item quantity="few">Pominięto %d zdjęcia, które nie znajdują się na urządzeniu.</item>
         <item quantity="many">Pominięto %d zdjęć, które nie znajdują się na urządzeniu.</item>
     </plurals>
+    <plurals name="picker_title_video_editor_component">
+        <item quantity="other">Wybierz %d segmentu</item>
+        <item quantity="one">Wybierz %d segment</item>
+        <item quantity="few">Wybierz %d segmenty</item>
+        <item quantity="many">Wybierz %d segmentów</item>
+    </plurals>
+    <plurals name="picker_title_video_editor_component_format">
+        <item quantity="other">Wybierz %1$d segmentu (%2$d)</item>
+        <item quantity="one">Wybierz %1$d segment (%2$d)</item>
+        <item quantity="few">Wybierz %1$d segmenty (%2$d)</item>
+        <item quantity="many">Wybierz %1$d segmentów (%2$d)</item>
+    </plurals>
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">Znaleziono %1$d nowych zdjęć</item>
         <item quantity="one">Znaleziono %1$d nowe zdjęcie</item>
@@ -684,6 +720,114 @@
         <item quantity="few">Znaleziono %d elementy</item>
         <item quantity="many">Znaleziono %d elementów</item>
     </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">%2$d pakietów instalacyjnych (%3$s) od %1$s</item>
+        <item quantity="one">%2$d pakiet instalacyjny (%3$s) od %1$s</item>
+        <item quantity="few">%2$d pakiety instalacyjne (%3$s) od %1$s</item>
+        <item quantity="many">%2$d pakietów instalacyjnych (%3$s) od %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">Otrzymano %2$d pakietów instalacyjnych (%3$s) od %1$s</item>
+        <item quantity="one">Otrzymano %2$d pakiet instalacyjny (%3$s) od %1$s</item>
+        <item quantity="few">Otrzymano %2$d pakiety instalacyjne (%3$s) od %1$s</item>
+        <item quantity="many">Otrzymano %2$d pakietów instalacyjnych (%3$s) od %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">Otrzymywanie %2$d pakietów instalacyjnych (%3$s) od %1$s…</item>
+        <item quantity="one">Otrzymywanie %2$d pakietu instalacyjnego (%3$s) od %1$s…</item>
+        <item quantity="few">Otrzymywanie %2$d pakietów instalacyjnych (%3$s) od %1$s…</item>
+        <item quantity="many">Otrzymywanie %2$d pakietów instalacyjnych (%3$s) od %1$s…</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%2$d plików audio (%3$s) od %1$s</item>
+        <item quantity="one">%2$d plik audio (%3$s) od %1$s</item>
+        <item quantity="few">%2$d pliki audio (%3$s) od %1$s</item>
+        <item quantity="many">%2$d plików audio (%3$s) od %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">Otrzymano %2$d plików audio (%3$s) od %1$s</item>
+        <item quantity="one">Otrzymano %2$d plik audio (%3$s) od %1$s</item>
+        <item quantity="few">Otrzymano %2$d pliki audio (%3$s) od %1$s</item>
+        <item quantity="many">Otrzymano %2$d plików audio (%3$s) od %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">Otrzymywanie %2$d plików audio (%3$s) od %1$s…</item>
+        <item quantity="one">Otrzymywanie %2$d pliku audio (%3$s) od %1$s…</item>
+        <item quantity="few">Otrzymywanie %2$d plików audio (%3$s) od %1$s…</item>
+        <item quantity="many">Otrzymywanie %2$d plików audio (%3$s) od %1$s…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%2$d %3$s plików (%4$s) od %1$s</item>
+        <item quantity="one">%2$d %3$s plik (%4$s) od %1$s</item>
+        <item quantity="few">%2$d %3$s pliki (%4$s) od %1$s</item>
+        <item quantity="many">%2$d %3$s plików (%4$s) od %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">Otrzymano %2$d %3$s plików (%4$s) od %1$s</item>
+        <item quantity="one">Otrzymano %2$d %3$s plik (%4$s) od %1$s</item>
+        <item quantity="few">Otrzymano %2$d %3$s pliki (%4$s) od %1$s</item>
+        <item quantity="many">Otrzymano %2$d %3$s plików (%4$s) od %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">Otrzymywanie %2$d %3$s plików (%4$s) od %1$s…</item>
+        <item quantity="one">Otrzymywanie %2$d %3$s pliku (%4$s) od %1$s…</item>
+        <item quantity="few">Otrzymywanie %2$d %3$s plików (%4$s) od %1$s…</item>
+        <item quantity="many">Otrzymywanie %2$d %3$s plików (%4$s) od %1$s…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%2$d obrazów od %1$s</item>
+        <item quantity="one">%2$d obraz od %1$s</item>
+        <item quantity="few">%2$d obrazy od %1$s</item>
+        <item quantity="many">%2$d obrazów od %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">Otrzymano %2$d obrazów od %1$s</item>
+        <item quantity="one">Otrzymano %2$d obraz od %1$s</item>
+        <item quantity="few">Otrzymano %2$d obrazy od %1$s</item>
+        <item quantity="many">Otrzymano %2$d obrazów od %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">Otrzymywanie %2$d obrazów od %1$s…</item>
+        <item quantity="one">Otrzymywanie %2$d obrazu od %1$s…</item>
+        <item quantity="few">Otrzymywanie %2$d obrazów od %1$s…</item>
+        <item quantity="many">Otrzymywanie %2$d obrazów od %1$s…</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%2$d obrazów lub wideo od %1$s</item>
+        <item quantity="one">%2$d obraz lub wideo od %1$s</item>
+        <item quantity="few">%2$d obrazy lub wideo od %1$s</item>
+        <item quantity="many">%2$d obrazów lub wideo od %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">Otrzymano %2$d obrazów lub wideo od %1$s</item>
+        <item quantity="one">Otrzymano %2$d obraz lub wideo od %1$s</item>
+        <item quantity="few">Otrzymano %2$d obrazy lub wideo od %1$s</item>
+        <item quantity="many">Otrzymano %2$d obrazów lub wideo od %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">Otrzymywanie %2$d obrazów lub wideo od %1$s…</item>
+        <item quantity="one">Otrzymywanie %2$d obrazu lub wideo od %1$s…</item>
+        <item quantity="few">Otrzymywanie %2$d obrazów lub wideo od %1$s…</item>
+        <item quantity="many">Otrzymywanie %2$d obrazów lub wideo od %1$s…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%2$d plików od %1$s</item>
+        <item quantity="one">%2$d plik od %1$s</item>
+        <item quantity="few">%2$d pliki od %1$s</item>
+        <item quantity="many">%2$d plików od %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">Otrzymano %2$d plików od %1$s</item>
+        <item quantity="one">Otrzymano %2$d plik od %1$s</item>
+        <item quantity="few">Otrzymano %2$d pliki od %1$s</item>
+        <item quantity="many">Otrzymano %2$d plików od %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">Otrzymywanie %2$d plików od %1$s…</item>
+        <item quantity="one">Otrzymywanie %2$d pliku od %1$s…</item>
+        <item quantity="few">Otrzymywanie %2$d plików od %1$s…</item>
+        <item quantity="many">Otrzymywanie %2$d plików od %1$s…</item>
+    </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Nie udało się udostępnić. Nadal przetwarzane %d zdjęć…</item>
         <item quantity="one">Nie udało się udostępnić. Nadal przetwarzane %d zdjęcie…</item>
@@ -695,6 +839,42 @@
         <item quantity="one">Wybierz maks. %d element do wysłania</item>
         <item quantity="few">Wybierz maks. %d elementy do wysłania</item>
         <item quantity="many">Wybierz maks. %d elementów do wysłania</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%2$d wideo od %1$s</item>
+        <item quantity="one">%2$d wideo od %1$s</item>
+        <item quantity="few">%2$d wideo od %1$s</item>
+        <item quantity="many">%2$d wideo od %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">Otrzymano %2$d wideo od %1$s</item>
+        <item quantity="one">Otrzymano %2$d wideo od %1$s</item>
+        <item quantity="few">Otrzymano %2$d wideo od %1$s</item>
+        <item quantity="many">Otrzymano %2$d wideo od %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">Otrzymywanie %2$d wideo od %1$s…</item>
+        <item quantity="one">Otrzymywanie %2$d wideo od %1$s…</item>
+        <item quantity="few">Otrzymywanie %2$d wideo od %1$s…</item>
+        <item quantity="many">Otrzymywanie %2$d wideo od %1$s…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%2$d katalogów (%3$s) od %1$s</item>
+        <item quantity="one">%2$d katalog (%3$s) od %1$s</item>
+        <item quantity="few">%2$d katalogi (%3$s) od %1$s</item>
+        <item quantity="many">%2$d katalogów (%3$s) od %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">Otrzymano %2$d katalogów (%3$s) od %1$s</item>
+        <item quantity="one">Otrzymano %2$d katalog (%3$s) od %1$s</item>
+        <item quantity="few">Otrzymano %2$d katalogi (%3$s) od %1$s</item>
+        <item quantity="many">Otrzymano %2$d katalogów (%3$s) od %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">Otrzymywanie %2$d katalogów (%3$s) od %1$s…</item>
+        <item quantity="one">Otrzymywanie %2$d katalogu (%3$s) od %1$s…</item>
+        <item quantity="few">Otrzymywanie %2$d katalogów (%3$s) od %1$s…</item>
+        <item quantity="many">Otrzymywanie %2$d katalogów (%3$s) od %1$s…</item>
     </plurals>
     <plurals name="share_album_detail_photo_count">
         <item quantity="other">Przesłano %d zdjęcia</item>
@@ -853,10 +1033,10 @@
         <item quantity="many">%1$s, %2$s elementów</item>
     </plurals>
     <plurals name="title_age_hint_day">
-        <item quantity="other">%d days</item>
-        <item quantity="one">%d day</item>
-        <item quantity="few">%d days</item>
-        <item quantity="many">%d days</item>
+        <item quantity="other">%d dnia</item>
+        <item quantity="one">%d dzień</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
     </plurals>
     <plurals name="title_age_hint_month">
         <item quantity="other">%d miesiąca</item>
@@ -889,6 +1069,12 @@
         <item quantity="one">Nie udało się przesłać %1$d elementu. Odwiedź i.mi.com, aby go pobrać.</item>
         <item quantity="few">Nie udało się przesłać %1$d elementów. Odwiedź i.mi.com, aby je pobrać.</item>
         <item quantity="many">Nie udało się przesłać %1$d elementów. Odwiedź i.mi.com, aby je pobrać.</item>
+    </plurals>
+    <plurals name="trash_purge_count_down">
+        <item quantity="other">Usuń (%d sek.)</item>
+        <item quantity="one">Usuń (%d sek.)</item>
+        <item quantity="few">Usuń (%d sek.)</item>
+        <item quantity="many">Usuń (%d sek.)</item>
     </plurals>
     <plurals name="trash_purge_dialog_message_cloud">
         <item quantity="other">%d wybrane elementy zostaną usunięte na stałe z chmury i wszystkich zsynchronizowanych urządzeń. Usunąć?</item>
@@ -932,12 +1118,6 @@
         <item quantity="few">Elementy mogą być tu przechowywane przez %1$s dni. Dotknij, aby wydłużyć okres przechowywania.</item>
         <item quantity="many">Elementy mogą być tu przechowywane przez %1$s dni. Dotknij, aby wydłużyć okres przechowywania.</item>
     </plurals>
-    <plurals name="trash_vip_info_text_no_sync_server">
-        <item quantity="other">Usunięte elementy są przechowywane w chmurze przez %1$d dni</item>
-        <item quantity="one">Usunięte elementy są przechowywane w chmurze przez %1$d dzień</item>
-        <item quantity="few">Usunięte elementy są przechowywane w chmurze przez %1$d dni</item>
-        <item quantity="many">Usunięte elementy są przechowywane w chmurze przez %1$d dni</item>
-    </plurals>
     <plurals name="trash_vip_info_text_unlogin">
         <item quantity="other">Elementy mogą być tu przechowywane przez %1$d dni. Rozszerz swój plan, aby przedłużyć ten okres.</item>
         <item quantity="one">Elementy mogą być tu przechowywane przez %1$d dzień. Rozszerz swój plan, aby przedłużyć ten okres.</item>
@@ -951,22 +1131,22 @@
         <item quantity="many">%1$d plików</item>
     </plurals>
     <plurals name="video_editor_component_hint_text">
-        <item quantity="other">Wybierz %d segmentu filmu</item>
-        <item quantity="one">Wybierz %d segment filmu</item>
-        <item quantity="few">Wybierz %d segmenty filmu</item>
-        <item quantity="many">Wybierz %d segmentów filmu</item>
+        <item quantity="other">Wymagane %d segmentu</item>
+        <item quantity="one">Wymagany %d segment</item>
+        <item quantity="few">Wymagane %d segmenty</item>
+        <item quantity="many">Wymagane %d segmentów</item>
     </plurals>
     <plurals name="video_editor_component_imageview_content_description">
-        <item quantity="other">Gniazdo filmu %1$d, oczekiwanie na dodanie %2$s-sekundowego lub więcej filmu</item>
-        <item quantity="one">Gniazdo filmu %1$d, oczekiwanie na dodanie %2$s-sekundowego lub więcej filmu</item>
-        <item quantity="few">Gniazdo filmu %1$d, oczekiwanie na dodanie %2$s-sekundowego lub więcej filmu</item>
-        <item quantity="many">Gniazdo filmu %1$d, oczekiwanie na dodanie %2$s-sekundowego lub więcej filmu</item>
+        <item quantity="other">Slot %1$d: Dodano segment nie krótszy niż %2$s sek.</item>
+        <item quantity="one">Slot %1$d: Dodano segment nie krótszy niż %2$s sek.</item>
+        <item quantity="few">Slot %1$d: Dodano segment nie krótszy niż %2$s sek.</item>
+        <item quantity="many">Slot %1$d: Dodano segment nie krótszy niż %2$s sek.</item>
     </plurals>
     <plurals name="video_editor_component_next_step_disabled_content_description">
-        <item quantity="other">Dodaj %d filmu więcej, aby móc kontynuować</item>
-        <item quantity="one">Dodaj %d film więcej, aby móc kontynuować</item>
-        <item quantity="few">Dodaj %d filmy więcej, aby móc kontynuować</item>
-        <item quantity="many">Dodaj %d filmów więcej, aby móc kontynuować</item>
+        <item quantity="other">Dodaj %d segmentu więcej, aby kontynuować</item>
+        <item quantity="one">Dodaj %d segment więcej, aby kontynuować</item>
+        <item quantity="few">Dodaj %d segmenty więcej, aby kontynuować</item>
+        <item quantity="many">Dodaj %d segmentów więcej, aby kontynuować</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d wideo</item>

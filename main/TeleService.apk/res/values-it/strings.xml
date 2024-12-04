@@ -310,6 +310,7 @@ Vuoi uscire ora?}}"</string>
     <string name="cfnry_time_twenty_five_sec">%d sec</string>
     <string name="cfnry_time_twenty_sec">%d sec</string>
     <string name="cfnry_title">Inoltra se non si riceve risposta</string>
+    <string name="cfu_notification_title">Trasferisci le chiamate</string>
     <string name="cfu_title">Inoltra sempre le chiamate</string>
     <string name="change_data_preference_4g_only_prompt">Sembra che tu abbia una sola SIM che supporta il 4G. Per assicurarti che funzioni normalmente, impostala come predefinita per la connessione dati. Impostarla ora?</string>
     <string name="change_data_sim_4g_only_prompt">La SIM %1$s supporta solo connessioni in 4G. Quando la SIM %2$s non è impostata come predefinita per la connessione dati, potrebbe non funzionare correttamente. Cambiarla ora?</string>
@@ -331,6 +332,7 @@ Vuoi uscire ora?}}"</string>
     <string name="change_pin_succeeded">PIN segreteria aggiornato</string>
     <string name="change_pin_system_error">Impossibile impostare il PIN</string>
     <string name="change_pin_title">Cambia PIN segreteria</string>
+    <string name="checkbox_do_not_show_again">Non mostrare più</string>
     <string name="china_mobile_palm_category">Servizi operatore</string>
     <string name="china_mobile_palm_title">CMCC Online Service Hall</string>
     <string name="choose_network_title">Scegli rete</string>
@@ -394,6 +396,7 @@ Vuoi uscire ora?}}"</string>
     <string name="clir_choices_show_number">Visualizza il numero</string>
     <string name="close">Disattiva</string>
     <string name="close_dialog">OK</string>
+    <string name="close_smart_dual_sim">Annulla</string>
     <string name="close_volte">Disattiva VoLTE</string>
     <string name="cloud_antispam_title">Identifica i numeri sconosciuti</string>
     <string name="cloud_sim_enabled_dual_4g_summary">Impossibile disattivare Dual 4G mentre Mi Roaming è in uso</string>
@@ -454,6 +457,7 @@ Vuoi uscire ora?}}"</string>
     <string name="delete">Elimina</string>
     <string name="delete_fdn_contact">Elimina numero selezione fissa</string>
     <string name="deleting_fdn_contact">Eliminazione numero selezione fissa...</string>
+    <string name="depopulated_zone_satellite_notification">Satellite communication reminders</string>
     <string name="description_concat_format">%1$s, %2$s</string>
     <string name="description_delete_button">cancella</string>
     <string name="description_dial_button">componi</string>
@@ -507,10 +511,10 @@ Vuoi uscire ora?}}"</string>
     <string name="disable_cfb_forbidden">"Il tuo operatore non supporta la disattivazione dell'inoltro chiamate quando il telefono è occupato."</string>
     <string name="disable_cfnrc_forbidden">"Il tuo operatore non supporta la disattivazione dell'inoltro chiamate quando il telefono non è raggiungibile."</string>
     <string name="disable_cfnry_forbidden">"Il tuo operatore non supporta la disattivazione dell'inoltro chiamate quando il telefono non risponde."</string>
-    <string name="disable_esim_dialog_summary">"La SIM %s verrà attivata se disattivi l'eSIM.
-Disattivare comunque l'eSIM?"</string>
-    <string name="disable_esim_dialog_title">Disattivazione eSIM</string>
-    <string name="disable_esim_error_toast_message">Impossibile disattivare eSIM</string>
+    <string name="disable_cfu_notification_summary">"La SIM %d non è più in roaming. Ti suggeriamo di disattivare l'inoltro chiamata per questa scheda SIM."</string>
+    <string name="disable_esim_dialog_summary">Se attivi la eSIM, non potrai utilizzare la tua attuale eSIM . Vuoi disattivarla comunque?</string>
+    <string name="disable_esim_dialog_title">"Disattiva l'eSIM"</string>
+    <string name="disable_esim_error_toast_message">"Impossibile disattivare l'eSIM"</string>
     <string name="disable_esim_progress_activating_message">Disattivazione eSIM…</string>
     <string name="disable_fdn">Disattiva numeri consentiti</string>
     <string name="disable_fdn_ok">Attiva numeri consentiti</string>
@@ -551,7 +555,7 @@ Disattivare comunque l'eSIM?"</string>
     <string name="emergency_enable_radio_dialog_retry">Nessun servizio. Nuovo tentativo…</string>
     <string name="emergency_enable_radio_dialog_title">Chiamata di emergenza</string>
     <string name="emergency_information_confirm_hint">Tocca di nuovo per visualizzare le informazioni</string>
-    <string name="emergency_information_hint">Informazioni per le emergenze</string>
+    <string name="emergency_information_hint">"Informazioni d'emergenza"</string>
     <string name="emergency_information_owner_hint">Proprietario</string>
     <string name="emm_cause_11">"L'operatore corrente non supporta questo servizio."</string>
     <string name="emm_cause_14">"L'operatore corrente non supporta i servizi di dati mobili."</string>
@@ -570,6 +574,7 @@ Disattivare comunque l'eSIM?"</string>
     <string name="enable_antispam_strange_title">Silenzia il primo squillo</string>
     <string name="enable_cdma_call_waiting_setting">Durante una telefonata, riceverai una notifica per le chiamate in entrata</string>
     <string name="enable_cdma_cw">Attiva</string>
+    <string name="enable_cfu_notification_summary">La SIM %1$d è in roaming. Puoi trasferire le chiamate alla SIM %2$d per risparmiare sulle tariffe roaming.</string>
     <string name="enable_disable_administrative">Amministrative</string>
     <string name="enable_disable_advertisements">Pubblicità</string>
     <string name="enable_disable_atr">"Bollettini sul traffico dell'area"</string>
@@ -592,12 +597,12 @@ Disattivare comunque l'eSIM?"</string>
     <string name="enable_disable_technology_news">News di tecnologia</string>
     <string name="enable_dual_4g_if_dual_ct">Preferisci reti 4G per entrambe le schede SIM per utilizzare VoLTE sulla SIM secondaria quando sono installate due schede SIM China Telecom.</string>
     <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE richiede la connettività 4G per entrambe le schede SIM. Passare a Dual 4G?</string>
-    <string name="enable_esim_dialog_summary">"La SIM %s verrà disattivata se attivi l'eSIM.
-Attivare comunque l'eSIM?"</string>
-    <string name="enable_esim_dialog_title">Attivazione eSIM</string>
-    <string name="enable_esim_error_toast_message">Impossibile attivare eSIM</string>
+    <string name="enable_esim_dialog_summary">Se attivi la eSIM, non potrai utilizzare la tua attuale SIM %s. Attivi comunque la eSIM?</string>
+    <string name="enable_esim_dialog_title">"Attiva l'eSIM"</string>
+    <string name="enable_esim_error_toast_message">"Impossibile attivare l'eSIM"</string>
     <string name="enable_esim_progress_activating_message">Attivazione eSIM…</string>
-    <string name="enable_esim_title">Usa eSIM</string>
+    <string name="enable_esim_summary">Disabilita la SIM %s dopo averla attivata</string>
+    <string name="enable_esim_title">"Attiva l'eSIM"</string>
     <string name="enable_fdn">Attiva numeri consentiti</string>
     <string name="enable_fdn_ok">Disattiva numeri consentiti</string>
     <string name="enable_in_progress">Impostazione PIN…</string>
@@ -620,6 +625,7 @@ Attivare comunque l'eSIM?"</string>
     <string name="enter_callbarring_password">Immetti la password di blocco chiamate (%d cifre)</string>
     <string name="enter_esim_manager_title">Gestione eSIM</string>
     <string name="enter_input">Il messaggio USSD deve essere compreso tra %1$d e %2$d caratteri. Riprova.</string>
+    <string name="enter_mep_esim_manager_title">Gestisci la SIM</string>
     <string name="enter_pin2_text">PIN %d</string>
     <string name="enter_pin_text">PIN della SIM:</string>
     <string name="entertainment_news_settings">News di intrattenimento</string>
@@ -632,6 +638,7 @@ Attivare comunque l'eSIM?"</string>
     <string name="esim_inactive_notification_title_global">Dual SIM e reti mobili</string>
     <string name="esim_is_activating_notification_message_for_o2">Attivazione piano dati in corso…</string>
     <string name="esim_setting_title">Impostazioni eSIM</string>
+    <string name="esos_satellite_string">Testa la modalità eSOS con satellite reale (solo build di debug)</string>
     <string name="evening">Pomeriggio</string>
     <string name="exception_error">Errore di rete o della SIM.</string>
     <string name="expand_button_title">Avanzate</string>
@@ -762,12 +769,23 @@ Passare comunque al nuovo fornitore?"</string>
     <string name="importingSimContacts">Importazione contatti SIM</string>
     <string name="incall_error_call_failed">Chiamata non riuscita.</string>
     <string name="incall_error_cannot_add_call">Impossibile aggiungere la chiamata al momento. Prova a inviare un messaggio.</string>
+    <string name="incall_error_carrier_roaming_satellite_mode">Puoi inviare e ricevere messaggi senza una rete mobile o Wi-Fi.</string>
     <string name="incall_error_ecm_emergency_only">Per effettuare chiamate non di emergenza, esci dalla modalità di richiamata di emergenza.</string>
     <string name="incall_error_emergency_only">Non registrato sulla rete.</string>
     <string name="incall_error_missing_voicemail_number">Numero segreteria sconosciuto.</string>
     <string name="incall_error_no_phone_number_supplied">Per effettuare una chiamata, inserisci un numero valido.</string>
     <string name="incall_error_out_of_service">Rete cellulare non disponibile.</string>
+    <string name="incall_error_out_of_service_2g">"Rete mobile non disponibile.
+
+Connettiti a una rete wireless per effettuare una chiamata.
+
+Il 2G è disattivato su questo dispositivo, e questo potrebbe influire sulla tua connettività. Vai alle Impostazioni e attiva Consenti 2G per continuare."</string>
     <string name="incall_error_out_of_service_wfc">La rete cellulare non è disponibile. Connettiti a una rete wireless per effettuare una chiamata.</string>
+    <string name="incall_error_out_of_service_wfc_2g_user">"La rete mobile non è disponibile.
+
+Connettiti a una rete wireless per effettuare una chiamata.
+
+Il 2G è disattivato su questo dispositivo, e questo potrebbe influire sulla tua connettività. Vai alle Impostazioni e attiva Consenti 2G per continuare."</string>
     <string name="incall_error_outgoing_call_failed">Impossibile effettuare la chiamata</string>
     <string name="incall_error_power_off">Disattiva la modalità aereo per effettuare una chiamata.</string>
     <string name="incall_error_power_off_thermal"><b>Telefono surriscaldato</b>"
@@ -777,7 +795,7 @@ Impossibile completare la chiamata. Riprova quando il telefono si sarà raffredd
 Puoi comunque effettuare chiamate di emergenza."</string>
     <string name="incall_error_power_off_wfc">Disattiva la modalità aereo o connettiti a una rete wireless per effettuare una chiamata.</string>
     <string name="incall_error_promote_wfc">Attiva le chiamate tramite Wi-Fi per effettuare una chiamata.</string>
-    <string name="incall_error_satellite_enabled">Disattiva la modalità satellite per effettuare una chiamata.</string>
+    <string name="incall_error_satellite_enabled">Per effettuare una chiamata, devi prima terminare la connessione satellitare.</string>
     <string name="incall_error_supp_service_conference">Impossibile unire le chiamate.</string>
     <string name="incall_error_supp_service_hangup">Impossibile riagganciare.</string>
     <string name="incall_error_supp_service_hold">Impossibile mettere in attesa le chiamate.</string>
@@ -956,6 +974,7 @@ Puoi comunque effettuare chiamate di emergenza."</string>
     <string name="miuix_appcompat_delete_description">Elimina</string>
     <string name="miuix_appcompat_deselect_all">Deseleziona tutti</string>
     <string name="miuix_appcompat_deselect_all_description">Deseleziona tutto</string>
+    <string name="miuix_appcompat_edit">Modifica</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Annulla</string>
     <string name="miuix_appcompat_search_input_description">Cerca</string>
     <string name="miuix_appcompat_select_all">Seleziona tutto</string>
@@ -999,8 +1018,9 @@ Puoi comunque effettuare chiamate di emergenza."</string>
     <string name="mobile_networks">Impostazioni di rete mobile</string>
     <string name="mobile_property">Proprietà della rete mobile</string>
     <string name="mobile_settings_screen_title">Connessione dati</string>
-    <string name="mobile_special_network_optimization_config_summary">Migliora la qualità delle chiamate adattandosi automaticamente a diversi scenari</string>
-    <string name="mobile_special_network_optimization_config_title">Adatta a scenari diversi</string>
+    <string name="mobile_special_network_optimization_config_summary">"Percepisci in modo intelligente più scenari nella rete per migliorare l'esperienza di comunicazione"</string>
+    <string name="mobile_special_network_optimization_config_title">Modalità adattativa</string>
+    <string name="mock_carrier_roaming_satellite_string">Modalità satellite operatore fittizio (solo build di debug)</string>
     <string name="modem_dialog_body">"La rete mobile è instabile e sta causando interruzioni e problemi di rete. Inviare la segnalazione a Mi per l'analisi? Questa segnalazione potrebbe contenere informazioni personali. La tua segnalazione verrà usata per risolvere questo problema e non verrà mai condivisa in nessun contesto commerciale."</string>
     <string name="modem_dialog_title">Rete mobile instabile</string>
     <string name="monday">Lunedì</string>
@@ -1135,16 +1155,19 @@ Verrà usata la rete preferita."</string>
     <string name="network_type_3g_preferred_cmcc">3G/2G</string>
     <string name="network_type_4g_preferred_cmcc">4G/3G/2G</string>
     <string name="network_unlock">Sblocca</string>
-    <string name="networks_title">Reti mobili</string>
+    <string name="networks_title">Seleziona operatore</string>
     <string name="newPin2Label">Nuovo PIN2</string>
     <string name="newPinLabel">Nuovo PIN</string>
+    <string name="new_arrears_sim_summary">Il saldo della tua carta SIM potrebbe essere insufficiente o soggetto a limitazioni di rete. Per maggiori informazioni, contatta il tuo gestore telefonico.</string>
+    <string name="new_arrears_sim_title">Impossibile connettersi ad internet</string>
     <string name="new_password_label">Nuova password di %d cifre</string>
     <string name="new_pin2_label">Nuovo PIN %d</string>
     <string name="new_pin_label">Nuovo PIN</string>
     <string name="night">Sera</string>
-    <string name="no_active_esim_text">eSIM inattiva</string>
+    <string name="no_active_esim_text">Nessuna eSIM</string>
     <string name="no_change">Nessuna modifica effettuata.</string>
     <string name="no_checked_network">"Non sarai in grado di connetterti alla rete mobile ed effettuare chiamate. Selezionare un'altra rete?"</string>
+    <string name="no_ims_service_notification_content">Contatta il tuo fornitore di servizi per risolvere questo problema.</string>
     <string name="no_rtt_when_roaming">Nota: la funzionalità RTT non è disponibile in roaming</string>
     <string name="no_vm_number">Numero segreteria mancante</string>
     <string name="no_vm_number_msg">Nessun numero di segreteria presente nella SIM.</string>
@@ -1190,11 +1213,12 @@ Verrà usata la rete preferita."</string>
     <string name="onscreenManageCallsText">Gestisci chiamate</string>
     <string name="onscreenManageConferenceText">Gestisci conferenza</string>
     <string name="onscreenMergeCallsText">Unisci</string>
-    <string name="onscreenMuteText">No audio</string>
+    <string name="onscreenMuteText">Silenzia</string>
     <string name="onscreenShowDialpadText">Tastierino</string>
     <string name="onscreenSwapCallsText">Scambia</string>
     <string name="onscreenVideoCallText">Videochiam.</string>
     <string name="open_miui">Attiva</string>
+    <string name="open_smart_dual_sim">Attiva</string>
     <string name="opened_dual_4g_confirm_prompt">Sembra che tu abbia una sola SIM che supporta il 4G. Il dual 4G è stato attivato automaticamente.</string>
     <string name="opened_dual_4g_confirm_prompt_with_sim">La SIM %1$s supporta solo connessioni in 4G. Per accertarsi che la tua scheda SIM funzioni correttamente, è stato attivato il dual 4G.</string>
     <string name="operator">Operatore</string>
@@ -1273,6 +1297,7 @@ Riprova o contatta l'assistenza clienti per conoscere altre soluzioni."</string>
     <string name="permission_description">Dettagli sui permessi</string>
     <string name="phoneAppLabel">Servizi telefonici</string>
     <string name="phoneIconLabel">Telefono</string>
+    <string name="phone_account_no_config_mobile_networks">Il proprietario del dispositivo ha limitato la possibilità di modificare le impostazioni della rete mobile.</string>
     <string name="phone_account_settings">Account chiamate</string>
     <string name="phone_account_settings_user_restriction">"Le impostazioni dell'account del telefono possono essere modificate solo dall'amministratore o dall'utente di lavoro."</string>
     <string name="phone_accounts">Account di chiamata</string>
@@ -1404,6 +1429,7 @@ Il tuo telefono verrà bloccato automaticamente se fallisci un altro tentativo"<
     <string name="privacy_setting">Privacy</string>
     <string name="private_num">Numero privato</string>
     <string name="progress_dialog_exiting_ecm">Uscita dalla modalità di richiamata di emergenza</string>
+    <string name="prompt_to_suggest_no_ims_service_notification_title">Impossibile utilizzare il servizio VoLTE</string>
     <string name="prompt_to_turnoff_volte_when_failed">I servizi VoLTE non sono disponibili. Disattiva VoLTE per effettuare chiamate.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">Il servizio non è disponibile. Disattiva VoLTE nelle impostazioni.</string>
     <string name="prompt_when_turnon_volte_on_3g_prefered">Selezionare LTE come tipo di rete preferito prima di attivare VoLTE.</string>
@@ -1478,7 +1504,7 @@ Interfaccia UT: %5$s"</string>
     <string name="radio_info_nr_state">Stato NR (NSA):</string>
     <string name="radio_info_override_network_type_label">Override del tipo di rete:</string>
     <string name="radio_info_phone_number_label">Numero di telefono:</string>
-    <string name="radio_info_phy_chan_config">Configurazione canale fisico LTE:</string>
+    <string name="radio_info_phy_chan_config">Configurazioni dei canali fisici:</string>
     <string name="radio_info_ping_hostname_v4">Ping nome host (www.google.com) IPv4:</string>
     <string name="radio_info_ping_hostname_v6">Ping nome host (www.google.com) IPv6:</string>
     <string name="radio_info_ppp_received_label">Dati ricevuti:</string>
@@ -1547,6 +1573,9 @@ Interfaccia UT: %5$s"</string>
     <string name="ringtone_unknown">Suoneria sconosciuta</string>
     <string name="roaming">Disconnesso dalla rete dati mobile</string>
     <string name="roaming_alert_title">Consentire il roaming dei dati?</string>
+    <string name="roaming_change_dds_notification">Cambia SIM dati in roaming</string>
+    <string name="roaming_change_dds_notification_text">La tua SIM dati è in roaming. Passa a una SIM locale per evitare costi aggiuntivi.</string>
+    <string name="roaming_change_dds_notification_title">Cambia scheda SIM dati</string>
     <string name="roaming_check_price_warning">Verifica i costi con il tuo fornitore di rete.</string>
     <string name="roaming_customer_service_message_kr">"Tocca per contattare l'assistenza clienti in roaming (+%1$d-%2$d-%3$d-%4$d%5$d). All'estero, la chiamata è gratuita."</string>
     <string name="roaming_customer_service_summary_kr">"Chiamate all'estero gratuite"</string>
@@ -1558,6 +1587,7 @@ Interfaccia UT: %5$s"</string>
     <string name="roaming_notification_content">Puoi aggiungere automaticamente il prefisso internazionale per chiamare in modo più semplice.</string>
     <string name="roaming_notification_title">Sembra che sia stato attivato il roaming</string>
     <string name="roaming_on_notification_title">Roaming dei dati attivo</string>
+    <string name="roaming_preferred_wificall_title">Preferenze di rete (Roaming)</string>
     <string name="roaming_reenable_message">Prova ad usare il roaming per connetterti di nuovo.</string>
     <string name="roaming_user_package_summary_kr">"Acquista, annulla e modifica il tuo pacchetto di roaming. Non ti verrà addebitato alcun costo per l'utilizzo di questo menu durante il roaming."</string>
     <string name="roaming_user_package_title_kr">Usa pacchetto roaming</string>
@@ -1567,6 +1597,23 @@ Interfaccia UT: %5$s"</string>
  &lt;br> - RTT non è disponibile per le videochiamate"</string>
     <string name="rtt_mode_summary">"Consenti l'utilizzo di messaggi durante le chiamate vocali"</string>
     <string name="rtt_mode_title">Chiamate con Real-time text (RTT)</string>
+    <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
+    <string name="satellite_exit_now_battery">Esci</string>
+    <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
+    <string name="satellite_mobile_settings_title">Enable satellite communications</string>
+    <string name="satellite_not_show_again">Non mostrare più</string>
+    <string name="satellite_notification_text">You can still make calls and send SMS without signal using Tiantong Satellite communications. Turn on this service first.</string>
+    <string name="satellite_notification_title">"You're in a weak signal area"</string>
+    <string name="satellite_point_title">Turn on Tiantong Satellite communications</string>
+    <string name="satellite_select_enable_sim">Seleziona una SIM</string>
+    <string name="satellite_signal_boost_setting_summary">Enhance signal strength and stability in cloudy or other non-optimal weather conditions</string>
+    <string name="satellite_signal_boost_setting_title">Use Tiantong signal amplifier</string>
+    <string name="satellite_start">Ho capito</string>
+    <string name="satellite_start_battery">Ho capito</string>
+    <string name="satellite_thermal_hangup_delay">Device is overheated. Call will end in %ds. Wait for your device to cool down.</string>
+    <string name="satellite_tiantong_setting">Tiantong Satellite communications</string>
+    <string name="satellite_user_reminder">Tiantong Satellite communications need to access your location. Mobile data, camera, and Face unlock will be temporarily unavailable. This feature is only available for satellite-compatible China Telecom SIM cards.</string>
     <string name="saturday">Sabato</string>
     <string name="saturday_short">Sab</string>
     <string name="saturday_shortest">Sab</string>
@@ -1680,6 +1727,8 @@ Conferma l'impostazione del tuo account predefinito per le chiamate."</string>
     <string name="skt_msim_emm_cause_3">"La SIM %1$d non è riuscita a verificare l'utente. Spegni il dispositivo, quindi riaccendilo e riprova. Se il problema persiste, contatta l'assistenza clienti (%2$d-%3$d-%4$d-%5$d)."</string>
     <string name="skt_msim_emm_cause_6">"La SIM %1$d non è riuscita a verificare il dispositivo. Spegni il dispositivo, quindi riaccendilo e riprova. Se il problema persiste, contatta l'assistenza clienti (%2$d-%3$d-%4$d-%5$d)."</string>
     <string name="skt_msim_emm_cause_7_8_15">"La SIM %1$d non è riuscita a registrare la rete. Spegni il dispositivo, quindi riaccendilo e riprova. Se il problema persiste, contatta l'assistenza clienti (%2$d-%3$d-%4$d-%5$d)."</string>
+    <string name="smart_dual_sim_available_message">Attiva Dual SIM smart per migliorare la qualità delle videochiamate. Attivare adesso?</string>
+    <string name="smart_dual_sim_available_title">Dual SIM smart</string>
     <string name="smart_dual_sim_prompt">Il dispositivo si connetterà a una rete dati mobile utilizzando la SIM secondaria se la connettività è scarsa. Ciò può generare costi aggiuntivi. Imposta un limite di utilizzo dei dati per evitare costi aggiuntivi.</string>
     <string name="smart_dual_sim_prompt_ok">Impostazioni</string>
     <string name="smart_dual_sim_prompt_title">"Avviso sull'utilizzo dei dati (SIM %s)"</string>
@@ -1696,7 +1745,10 @@ Conferma l'impostazione del tuo account predefinito per le chiamate."</string>
     <string name="smart_switch_dual_sim_title">"Passa da una scheda SIM dati all'altra"</string>
     <string name="sms_messages_title">SMS</string>
     <string name="smsc_dialog_message">Assicurati che il numero inserito sia corretto. Altrimenti, non sarai in grado di inviare o ricevere SMS. Contatta il tuo operatore per confermare il tuo numero SMSC.</string>
-    <string name="speed_limit_card_toast">Hai esaurito i dati a piena velocità. La velocità di connessione sarà limitata.</string>
+    <string name="speed_limit_card_toast">La velocità di connessione potrebbe essere limitata adesso. Contatta il tuo operatore per conferma.</string>
+    <string name="speed_limit_sim_notification">Limiti di velocità dei dati</string>
+    <string name="speed_limit_sim_summary">Hai raggiunto il limite di dati del tuo piano. La velocità dei dati rallenterà. Contatta il tuo operatore per maggiori dettagli.</string>
+    <string name="speed_limit_sim_title">La velocità dei dati è limitata</string>
     <string name="sports_news_settings">News sportive</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">Chiamata Wi-Fi da</string>
@@ -1913,6 +1965,8 @@ Contatta il tuo operatore se il problema persiste."</string>
     <string name="vm_change_pin_old_pin">Vecchio PIN</string>
     <string name="vm_change_pin_progress_message">Attendi.</string>
     <string name="vm_changed">Numero segreteria modificato.</string>
+    <string name="voice_link_switch_summary">Usa la SIM dati per facilitare la connessione delle chiamate quando non sei connesso a Internet</string>
+    <string name="voice_link_switch_title">Chiamate assistite dai dati</string>
     <string name="voice_number_setting_primary_user_only">"Le impostazioni della segreteria possono essere modificate solo dall'utente principale."</string>
     <string name="voice_privacy">Privacy pacchetti vocali</string>
     <string name="voice_privacy_summary">Attiva modalità privacy ottimizzata</string>

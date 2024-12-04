@@ -124,6 +124,7 @@
     <string name="auto_clean_time_every_day">Diariamente</string>
     <string name="auto_cleaner_open">Ativar</string>
     <string name="back">Voltar</string>
+    <string name="be_figuring">Calculando…</string>
     <string name="btn_text_done">Concluído</string>
     <string name="btn_text_quick_cleanup">Limpar</string>
     <string name="btn_text_quick_cleanup_apk">Excluir APKs selecionados (%1$s)</string>
@@ -166,6 +167,13 @@
     <string name="cache_title_empty_folder2">Pasta vazia</string>
     <string name="cache_title_system_cache">Cache de dados</string>
     <string name="cached_garbage">Cache</string>
+    <string name="call_notification_answer_action">Atender</string>
+    <string name="call_notification_answer_video_action">Vídeo</string>
+    <string name="call_notification_decline_action">Recusar</string>
+    <string name="call_notification_hang_up_action">Desligar</string>
+    <string name="call_notification_incoming_text">Chamada recebida</string>
+    <string name="call_notification_ongoing_text">Chamada em andamento</string>
+    <string name="call_notification_screening_text">Filtrando uma ligação recebida</string>
     <string name="cancel">Cancelar</string>
     <string name="cd_back">voltar</string>
     <string name="cd_check_box_checked">selecionado</string>
@@ -193,7 +201,12 @@
     <string name="clearable_edittext_clear_description">Limpar</string>
     <string name="close">Fechar</string>
     <string name="columbus_ad_flag_text">Anúncio</string>
+    <string name="columbus_reward_style_access">Saiba mais</string>
+    <string name="columbus_reward_style_close_cancel">Sair</string>
+    <string name="columbus_reward_style_close_desc">Termine de assistir o vídeo para receber uma recompensa. Continuar assistindo?</string>
+    <string name="columbus_reward_style_speed_confirm">Continuar</string>
     <string name="columbus_skip_ad">Pular</string>
+    <string name="columbus_skip_ad_time">Pular (%d)</string>
     <string name="common_google_play_services_enable_button">Ativar</string>
     <string name="common_google_play_services_enable_text">%1$s só funciona com o Google Play Services ativado.</string>
     <string name="common_google_play_services_enable_title">Ativar o Google Play Services</string>
@@ -570,6 +583,7 @@
     <string name="miuix_appcompat_delete_description">Excluir</string>
     <string name="miuix_appcompat_deselect_all">Desmarcar tudo</string>
     <string name="miuix_appcompat_deselect_all_description">Desmarcar tudo</string>
+    <string name="miuix_appcompat_edit">Editar</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Cancelar</string>
     <string name="miuix_appcompat_search_input_description">Pesquisar</string>
     <string name="miuix_appcompat_select_all">Selecionar tudo</string>
@@ -592,7 +606,7 @@
     <string name="month_august">Agosto</string>
     <string name="month_august_short">Ago</string>
     <string name="month_august_shortest">Ago</string>
-    <string name="month_day_format">"dd 'de' MMMM"</string>
+    <string name="month_day_format">dd/MMM</string>
     <string name="month_december">Dezembro</string>
     <string name="month_december_short">Dez</string>
     <string name="month_december_shortest">Dez</string>
@@ -645,34 +659,70 @@
     <string name="noon">Meio-dia</string>
     <string name="not_set">Não definido</string>
     <string name="notification_apk_clean_button_text">Limpar</string>
+    <string name="notification_checker_installed_apk_hint">Não é necessário manter APKs após instalá-los</string>
+    <string name="notification_checker_picture_hint_a">Imagens em cache podem ocupar muito espaço de armazenamento</string>
+    <string name="notification_checker_picture_hint_b">Libere espaço de armazenamento ao excluir itens que você não precisa mais</string>
+    <string name="notification_checker_picture_text_a">Limpar imagens em cache</string>
+    <string name="notification_checker_picture_text_b">Limpar %s de imagens em cache</string>
     <string name="notification_garbage_clean_botton_text">Limpar</string>
+    <string name="notification_garbage_clean_botton_text_new">Limpar</string>
     <string name="notification_garbage_clean_hint">Limpar espaço de armazenamento</string>
+    <string name="notification_garbage_clean_hint_new">Acelere ainda mais seu dispositivo</string>
     <string name="notification_garbage_clean_size">Liberar %s</string>
+    <string name="notification_garbage_clean_size_float_unit">%.1f GB</string>
+    <string name="notification_garbage_clean_size_found">Há %s de lixo</string>
+    <string name="notification_garbage_clean_size_found_hint">Hora de colocar o lixo pra fora!</string>
+    <string name="notification_garbage_clean_size_found_text">Muitos arquivos de lixo</string>
+    <string name="notification_garbage_clean_size_int_unit">%d GB</string>
+    <string name="notification_garbage_clean_size_new">Liberar %s de armazenamento</string>
     <string name="notification_garbage_cleanup_summary">Limpe o lixo (%s) para otimizar o seu dispositivo</string>
     <string name="notification_garbage_cleanup_title">Limpar arquivos de lixo</string>
     <string name="notification_installed_clean_size">Libere %2$s após instalar %1$s</string>
+    <string name="notification_low_memory_button_text">Corrigir</string>
     <string name="notification_low_memory_cache_title">Limpar cache</string>
     <string name="notification_low_memory_deepclean_summary">A limpeza profunda pode liberar espaço no seu dispositivo</string>
     <string name="notification_low_memory_deepclean_title">O armazenamento está ficando cheio</string>
+    <string name="notification_low_memory_hint">O lixo reduz a velocidade do seu dispositivo</string>
+    <string name="notification_low_memory_text">A memória está ficando baixa</string>
     <string name="notification_low_storage_button_text">Limpar</string>
+    <string name="notification_low_storage_size">Menos de %s disponível no armazenamento</string>
     <string name="notification_low_storage_size_1.5_GB">Menos de %.1f GB de armazenamento restante</string>
     <string name="notification_low_storage_size_1.5_GB_btn">Limpar</string>
     <string name="notification_low_storage_size_1.5_GB_hint">Libere espaço no armazenamento para acelerar seu dispositivo</string>
     <string name="notification_low_storage_size_1_GB">Menos de %d GB de armazenamento restante</string>
     <string name="notification_low_storage_size_1_GB_hint">A Limpeza profunda pode ajudar</string>
+    <string name="notification_low_storage_size_1_gb_hint">Libere espaço de armazenamento para acelerar o seu dispositivo</string>
+    <string name="notification_low_storage_size_1p5_gb_hint">Limpe o lixo para acelerar o seu dispositivo</string>
     <string name="notification_memory_clean_button_text">Acelerar</string>
     <string name="notification_memory_clean_hint">Toque para acelerar a velocidade</string>
     <string name="notification_memory_clean_used_size">%s de memória está ocupada</string>
+    <string name="notification_qq_clean_hint">O lixo reduz a velocidade do seu dispositivo</string>
+    <string name="notification_qq_clean_text">Limpar lixo do QQ</string>
     <string name="notification_summary_after_auto_cleanup">%s limpos.</string>
+    <string name="notification_uninstall_clean_hint">Limpe o lixo para liberar espaço no armazenamento</string>
+    <string name="notification_uninstall_clean_text">Apps desinstalados deixam arquivos residuais no seu dispositivo</string>
     <string name="notification_uninstalled_clean_button_text">Ver</string>
     <string name="notification_uninstalled_clean_with_name">Itens residuais do %s</string>
     <string name="notification_uninstalled_clean_without_name">Apps desinstalados deixam itens residuais</string>
+    <string name="notification_wechat_clean_high_level_hint">Limpe o lixo para acelerar o seu dispositivo</string>
+    <string name="notification_wechat_clean_high_level_text_a">O WeChat gerou muitos arquivos de lixo</string>
+    <string name="notification_wechat_clean_high_level_text_b">O lixo no WeChat reduz a velocidade do seu dispositivo</string>
+    <string name="notification_wechat_clean_low_level_hint">Libere espaço de armazenamento</string>
+    <string name="notification_wechat_clean_low_level_text">Limpar lixo do WeChat</string>
+    <string name="notification_wechat_clean_middle_level_hint">Limpe o lixo para receber notificações sem atrasos</string>
+    <string name="notification_wechat_clean_middle_level_text_a">O lixo do WeChat ocupa muito espaço no armazenamento</string>
+    <string name="notification_wechat_clean_middle_level_text_b">O lixo do WeChat deixa o app mais lento</string>
     <string name="notification_whatsapp_clean_button_text">Limpar</string>
     <string name="notification_whatsapp_clean_size">O cache do WhatsApp atingiu %s</string>
-    <string name="offline_notification_text">Toque para abrir o anúncio</string>
-    <string name="offline_notification_title">Ver o anúncio que você salvou quando estava off-line</string>
+    <string name="notifications_permission_confirm">Permitir</string>
+    <string name="notifications_permission_decline">Não permitir</string>
+    <string name="notifications_permission_title">Permitir que o app envie notificações?</string>
+    <string name="offline_dialog_image_description">Ícone</string>
+    <string name="offline_dialog_text">"Agradecemos seu interesse.
+Vamos compartilhar mais informações quando você estiver on-line de novo."</string>
+    <string name="offline_notification_title">Você está on-line de novo. Vamos continuar de onde paramos</string>
+    <string name="offline_notification_title_with_advertiser">Você está on-line de novo. Continue aprendendo sobre %s</string>
     <string name="offline_opt_in_confirm">OK</string>
-    <string name="offline_opt_in_confirmation">Você receberá uma notificação com o link quando ficar on-line novamente</string>
     <string name="offline_opt_in_decline">Não</string>
     <string name="offline_opt_in_message">Enviaremos uma notificação com um link para o site do anunciante.</string>
     <string name="offline_opt_in_title">Abrir o anúncio quando você ficar on-line novamente.</string>
@@ -693,7 +743,7 @@
     <string name="permission_dialog_storage_btn1">Configurações</string>
     <string name="permission_dialog_storage_btn2">Cancelar</string>
     <string name="permission_dialog_storage_content">O app Limpeza precisa de permissão para acessar o armazenamento interno para que funcione corretamente. Toque em \"Configurações\" para gerenciar as permissões de armazenamento.</string>
-    <string name="permission_dialog_storage_title">Permissões requeridas</string>
+    <string name="permission_dialog_storage_title">Permissões necessárias</string>
     <string name="petabyteShort">PB</string>
     <string name="pm">PM</string>
     <string name="positive_confirm">OK</string>
@@ -766,9 +816,9 @@
     <string name="recommend_news">Receber recomendações</string>
     <string name="recommend_the_following">Tome as seguintes ações para tirar o máximo proveito de seu dispositivo</string>
     <string name="recommended">Destaque</string>
-    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> mais arquivos podem ser limpos. Libere mais espaço.&lt;/Data></string>
-    <string name="resutl_function_qq_clean_summary">&lt;Data>Você pode limpar &lt;font color=#ff0000 >%1$s&lt;/font> de cache gerado pelo QQ&lt;/Data></string>
-    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> de cache do WeChat. Libere mais espaço.&lt;/Data></string>
+    <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> mais arquivos podem ser limpos. Libere mais espaço.</Data></string>
+    <string name="resutl_function_qq_clean_summary"><Data>Você pode limpar &lt;font color=#ff0000 >%1$s&lt;/font> de cache gerado pelo QQ</Data></string>
+    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> de cache do WeChat. Libere mais espaço.</Data></string>
     <string name="s1">Salvar imagem</string>
     <string name="s2">Permitir que os anúncios armazenem imagens na galeria de imagens?</string>
     <string name="s3">Aceitar</string>
@@ -870,7 +920,7 @@
     <string name="tips_low_storage_dialog_title">Espaço de armazenamento acabando</string>
     <string name="tips_of_app_manage">Excluir apps usados raramente para liberar espaço</string>
     <string name="tips_of_auto_launch_manage">Prevenir apps usados raramente de iniciar automaticamente</string>
-    <string name="tips_of_cloud_service">Faça o login em sua Conta Mi para usar mais serviços</string>
+    <string name="tips_of_cloud_service">Faça o login em sua Conta Xiaomi para usar mais serviços Xiaomi</string>
     <string name="tips_of_connect">Conectar-se à internet para usar o conjunto completo das funções de Segurança</string>
     <string name="tips_of_garbage_cloud_scan">Encontrar lixo oculto com a verificação na nuvem</string>
     <string name="tips_of_garbage_data_set">Atualizar o banco de dados de Limpeza para encontrar mais lixo em seu dispositivo</string>

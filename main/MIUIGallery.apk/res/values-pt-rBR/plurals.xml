@@ -104,6 +104,14 @@
         <item quantity="other">%d min</item>
         <item quantity="one">%d min</item>
     </plurals>
+    <plurals name="ai_search_picker_hint_text">
+        <item quantity="other">Selecione %1$d-%2$d fotos ou vídeos (%3$d selecionados)</item>
+        <item quantity="one">Selecione %1$d-%2$d foto ou vídeo (%3$d selecionado)</item>
+    </plurals>
+    <plurals name="ai_search_picker_total_duration_exceed_limit">
+        <item quantity="other">A duração total do vídeo não pode exceder %d segundos</item>
+        <item quantity="one">A duração total do vídeo não pode exceder %d segundo</item>
+    </plurals>
     <plurals name="ai_select_photo_time_count">
         <item quantity="other">Selecionando fotos (%d s restantes)…</item>
         <item quantity="one">Selecionando fotos (%d s restante)…</item>
@@ -224,6 +232,10 @@
         <item quantity="other">Excluir %d disparos contínuos?</item>
         <item quantity="one">Excluir %d disparo contínuo?</item>
     </plurals>
+    <plurals name="delete_confirm_count_down">
+        <item quantity="other">Excluir (%ds)</item>
+        <item quantity="one">Excluir (%ds)</item>
+    </plurals>
     <plurals name="delete_finish_format">
         <item quantity="other">%d itens excluídos</item>
         <item quantity="one">%d item excluído</item>
@@ -267,6 +279,10 @@
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">%1$d fotos que não puderam ser renderizadas foram ignoradas.</item>
         <item quantity="one">%1$d foto que não pôde ser renderizada foi ignorada.</item>
+    </plurals>
+    <plurals name="file_type_detail_count">
+        <item quantity="other">%1$d arquivos</item>
+        <item quantity="one">%1$d arquivo</item>
     </plurals>
     <plurals name="global_cloud_storage_warn_title_link">
         <item quantity="other">Não foi possível fazer o backup de %d itens devido ao armazenamento na nuvem ser insuficiente</item>
@@ -424,6 +440,14 @@
         <item quantity="other">Ignorando %d fotos que não estão no dispositivo.</item>
         <item quantity="one">Ignorando %d foto que não está no dispositivo.</item>
     </plurals>
+    <plurals name="picker_title_video_editor_component">
+        <item quantity="other">Selecione %d segmentos</item>
+        <item quantity="one">Selecione %d segmento</item>
+    </plurals>
+    <plurals name="picker_title_video_editor_component_format">
+        <item quantity="other">Selecione %1$d segmentos (%2$d)</item>
+        <item quantity="one">Selecione %1$d segmento (%2$d)</item>
+    </plurals>
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">%1$d novas fotos encontradas</item>
         <item quantity="one">%1$d nova foto encontrada</item>
@@ -456,6 +480,78 @@
         <item quantity="other">%d itens encontrados</item>
         <item quantity="one">%d item encontrado</item>
     </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">%2$d pacotes de instalação (%3$s) de %1$s</item>
+        <item quantity="one">%2$d pacote de instalação (%3$s) de %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">%2$d pacotes de instalação (%3$s) recebidos de %1$s</item>
+        <item quantity="one">%2$d pacote de instalação (%3$s) recebido de %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">Recebendo %2$d pacotes de instalação (%3$s) de %1$s…</item>
+        <item quantity="one">Recebendo %2$d pacote de instalação (%3$s) de %1$s…</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%2$d arquivos de áudio (%3$s) de %1$s</item>
+        <item quantity="one">%2$d arquivo de áudio (%3$s) de %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">%2$d arquivos de áudio (%3$s) recebidos de %1$s</item>
+        <item quantity="one">%2$d arquivo de áudio (%3$s) recebido de %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">Recebendo %2$d arquivos de áudio (%3$s) de %1$s…</item>
+        <item quantity="one">Recebendo %2$d arquivo de áudio (%3$s) de %1$s…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%2$d %3$s arquivos (%4$s) de %1$s</item>
+        <item quantity="one">%2$d %3$s arquivo (%4$s) de %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">%2$d arquivos %3$s (%4$s) recebidos de %1$s</item>
+        <item quantity="one">%2$d arquivo %3$s (%4$s) recebido de %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">Recebendo %2$d %3$s arquivos (%4$s) de %1$s…</item>
+        <item quantity="one">Recebendo %2$d %3$s arquivo (%4$s) de %1$s…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%2$d imagens de %1$s</item>
+        <item quantity="one">%2$d imagem de %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">%2$d imagens recebidas de %1$s</item>
+        <item quantity="one">%2$d imagem recebida de %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">Recebendo %2$d imagens de %1$s…</item>
+        <item quantity="one">Recebendo %2$d imagem de %1$s…</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%2$d imagens ou vídeos de %1$s</item>
+        <item quantity="one">%2$d imagem ou vídeo de %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">%2$d imagens ou vídeos recebidos(as) de %1$s</item>
+        <item quantity="one">%2$d imagem ou vídeo recebido(a) de %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">Recebendo %2$d imagens ou vídeos de %1$s…</item>
+        <item quantity="one">Recebendo %2$d imagem ou vídeo de %1$s…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%2$d arquivos de %1$s</item>
+        <item quantity="one">%2$d arquivo de %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">%2$d arquivos recebidos de %1$s</item>
+        <item quantity="one">%2$d arquivo recebido de %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">Recebendo %2$d arquivos de %1$s…</item>
+        <item quantity="one">Recebendo %2$d arquivo de %1$s…</item>
+    </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Não foi possível compartilhar. Ainda processando %d fotos…</item>
         <item quantity="one">Não foi possível compartilhar. Ainda processando %d foto…</item>
@@ -463,6 +559,30 @@
     <plurals name="send_too_many_files_error">
         <item quantity="other">Selecione até %d itens para enviar</item>
         <item quantity="one">Selecione até %d item para enviar</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%2$d vídeos de %1$s</item>
+        <item quantity="one">%2$d vídeo de %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">%2$d vídeos recebidos de %1$s</item>
+        <item quantity="one">%2$d vídeo recebido de %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">Recebendo %2$d vídeos de %1$s…</item>
+        <item quantity="one">Recebendo %2$d vídeo de %1$s…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%2$d arquivos (%3$s) de %1$s</item>
+        <item quantity="one">%2$d arquivo (%3$s) de %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">%2$d arquivos (%3$s) recebidos de %1$s</item>
+        <item quantity="one">%2$d arquivo (%3$s) recebido de %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">Recebendo %2$d arquivos (%3$s) de %1$s…</item>
+        <item quantity="one">Recebendo %2$d arquivo (%3$s) de %1$s…</item>
     </plurals>
     <plurals name="share_album_detail_photo_count">
         <item quantity="other">%d fotos enviadas</item>
@@ -596,6 +716,10 @@
         <item quantity="other">Não foi possível transferir %1$d itens. Acesse i.mi.com para baixá-los.</item>
         <item quantity="one">Não foi possível transferir %1$d item. Acesse i.mi.com para baixá-lo.</item>
     </plurals>
+    <plurals name="trash_purge_count_down">
+        <item quantity="other">Excluir (%ds)</item>
+        <item quantity="one">Excluir (%ds)</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_cloud">
         <item quantity="other">%d itens selecionados serão excluídos permanentemente da nuvem e de todos os dispositivos sincronizados. Excluir mesmo assim?</item>
         <item quantity="one">%d item selecionado será excluído permanentemente da nuvem e de todos os dispositivos sincronizados. Excluir mesmo assim?</item>
@@ -624,10 +748,6 @@
         <item quantity="other">Os itens podem ser armazenados aqui por %1$s dias. Toque para estender este período.</item>
         <item quantity="one">Os itens podem ser armazenados aqui por %1$s dia. Toque para estender este período.</item>
     </plurals>
-    <plurals name="trash_vip_info_text_no_sync_server">
-        <item quantity="other">Itens excluídos são armazenados na nuvem por %1$d dias</item>
-        <item quantity="one">Itens excluídos são armazenados na nuvem por %1$d dia</item>
-    </plurals>
     <plurals name="trash_vip_info_text_unlogin">
         <item quantity="other">Itens podem ser armazenados aqui por até %1$d dias. Faça o upgrade do seu plano para estender este período.</item>
         <item quantity="one">Itens podem ser armazenados aqui por %1$d dia. Faça o upgrade do seu plano para estender este período.</item>
@@ -637,16 +757,16 @@
         <item quantity="one">%1$d arquivo</item>
     </plurals>
     <plurals name="video_editor_component_hint_text">
-        <item quantity="other">Selecione %d segmentos do vídeo</item>
-        <item quantity="one">Selecione %d segmento do vídeo</item>
+        <item quantity="other">%d segmentos necessários</item>
+        <item quantity="one">%d segmento necessário</item>
     </plurals>
     <plurals name="video_editor_component_imageview_content_description">
-        <item quantity="other">Slot de vídeo %1$d, aguardando para adicionar vídeo de %2$s segundos ou mais</item>
-        <item quantity="one">Slot de vídeo %1$d, aguardando para adicionar vídeo de %2$s segundo ou mais</item>
+        <item quantity="other">Slot %1$d: Adicione um segmento não menor que %2$s segundos</item>
+        <item quantity="one">Slot %1$d: Adicione um segmento não menor que %2$s segundo</item>
     </plurals>
     <plurals name="video_editor_component_next_step_disabled_content_description">
-        <item quantity="other">Adicione mais %d vídeos para continuar</item>
-        <item quantity="one">Adicione mais %d vídeo para continuar</item>
+        <item quantity="other">Adicione mais %d segmentos para continuar</item>
+        <item quantity="one">Adicione mais %d segmento para continuar</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d vídeos</item>

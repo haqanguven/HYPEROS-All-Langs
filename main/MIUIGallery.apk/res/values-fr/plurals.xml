@@ -97,12 +97,20 @@
         <item quantity="one">%s heure</item>
     </plurals>
     <plurals name="ai_image_over_limit_msg">
-        <item quantity="other">"Une personne peut créer jusqu'à %d images AI."</item>
-        <item quantity="one">"Une personne peut créer jusqu'à %d image AI."</item>
+        <item quantity="other">"Une personne peut créer jusqu'à %d images IA."</item>
+        <item quantity="one">"Une personne peut créer jusqu'à %d image IA."</item>
     </plurals>
     <plurals name="ai_minute">
         <item quantity="other">%d minutes</item>
         <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="ai_search_picker_hint_text">
+        <item quantity="other">Sélectionnez %1$d-%2$d photos ou vidéos (%3$d sélectionnés)</item>
+        <item quantity="one">Sélectionnez %1$d-%2$d photo ou vidéo (%3$d sélectionné)</item>
+    </plurals>
+    <plurals name="ai_search_picker_total_duration_exceed_limit">
+        <item quantity="other">La durée totale de la vidéo ne peut pas dépasser %d secondes</item>
+        <item quantity="one">La durée totale de la vidéo ne peut pas dépasser %d seconde</item>
     </plurals>
     <plurals name="ai_select_photo_time_count">
         <item quantity="other">Sélection des photos (%d s restantes)…</item>
@@ -224,6 +232,10 @@
         <item quantity="other">Supprimer %d rafales de photos ?</item>
         <item quantity="one">Supprimer %d rafale de photos?</item>
     </plurals>
+    <plurals name="delete_confirm_count_down">
+        <item quantity="other">Supprimer (%d s)</item>
+        <item quantity="one">Supprimer (%d s)</item>
+    </plurals>
     <plurals name="delete_finish_format">
         <item quantity="other">%d éléments supprimés</item>
         <item quantity="one">%d élément supprimé</item>
@@ -254,7 +266,7 @@
     </plurals>
     <plurals name="downloading_title_link">
         <item quantity="other">"Téléchargement d'éléments depuis le cloud (%2$d/%1$d)"</item>
-        <item quantity="one">"Téléchargement d'élément depuis le cloud (%2$d/%1$d)"</item>
+        <item quantity="one">"Téléchargement d'éléments depuis le cloud (%2$d/%1$d)"</item>
     </plurals>
     <plurals name="face_count">
         <item quantity="other">Total : %d photos</item>
@@ -267,6 +279,10 @@
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">"%1$d photos qui n'ont pas pu être rendues ont été ignorées."</item>
         <item quantity="one">"%1$d photo qui n'a pas pu être rendue a été ignorée."</item>
+    </plurals>
+    <plurals name="file_type_detail_count">
+        <item quantity="other">%1$d fichiers</item>
+        <item quantity="one">%1$d fichier</item>
     </plurals>
     <plurals name="global_cloud_storage_warn_title_link">
         <item quantity="other">"Impossible de sauvegarder %d éléments en raison d'un stockage dans le cloud insuffisant"</item>
@@ -424,6 +440,14 @@
         <item quantity="other">"%d photos ignorées qui ne sont pas sur l'appareil."</item>
         <item quantity="one">"%d photo ignorée qui n'est pas sur l'appareil."</item>
     </plurals>
+    <plurals name="picker_title_video_editor_component">
+        <item quantity="other">Sélectionner %d segments</item>
+        <item quantity="one">Sélectionner %d segment</item>
+    </plurals>
+    <plurals name="picker_title_video_editor_component_format">
+        <item quantity="other">Sélectionner %1$d segments (%2$d)</item>
+        <item quantity="one">Sélectionner %1$d segment (%2$d)</item>
+    </plurals>
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">%1$d photos trouvées</item>
         <item quantity="one">%1$d photo trouvée</item>
@@ -456,6 +480,78 @@
         <item quantity="other">%d éléments trouvés</item>
         <item quantity="one">%d élément trouvé</item>
     </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">"%2$d packs d'installation (%3$s) de %1$s"</item>
+        <item quantity="one">"%2$d pack d'installation (%3$s) de %1$s"</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">"Reçu %2$d packs d'installation (%3$s) de %1$s"</item>
+        <item quantity="one">"Reçu %2$d pack d'installation (%3$s) de %1$s"</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">"Reçoit %2$d packs d'installation (%3$s) de %1$s…"</item>
+        <item quantity="one">"Reçoit %2$d pack d'installation (%3$s) de %1$s…"</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%2$d fichiers audio (%3$s) de %1$s</item>
+        <item quantity="one">%2$d fichier audio (%3$s) de %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">Reçu %2$d fichiers audio (%3$s) de %1$s</item>
+        <item quantity="one">Reçu %2$d fichier audio (%3$s) de %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">Reçoit %2$d fichiers audio (%3$s) de %1$s…</item>
+        <item quantity="one">Reçoit %2$d fichier audio (%3$s) de %1$s…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%2$d %3$s fichiers (%4$s) de %1$s</item>
+        <item quantity="one">%2$d %3$s fichier (%4$s) de %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">Reçu %2$d %3$s fichiers (%4$s) de %1$s</item>
+        <item quantity="one">Reçu %2$d %3$s fichier (%4$s) de %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">Reçoit %2$d %3$s fichiers (%4$s) de %1$s…</item>
+        <item quantity="one">Reçoit %2$d %3$s fichier (%4$s) de %1$s…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%2$d images de %1$s</item>
+        <item quantity="one">%2$d image de %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">Reçu %2$d images de %1$s</item>
+        <item quantity="one">Reçu %2$d image de %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">Reçoit %2$d images de %1$s…</item>
+        <item quantity="one">Reçoit %2$d image de %1$s…</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%2$d images et vidéos de %1$s</item>
+        <item quantity="one">%2$d image et vidéo de %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">Reçu %2$d images ou vidéos de %1$s</item>
+        <item quantity="one">Reçu %2$d image ou vidéo de %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">Reçoit %2$d images ou vidéos de %1$s…</item>
+        <item quantity="one">Reçoit %2$d image ou vidéo de %1$s…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%2$d fichiers de %1$s</item>
+        <item quantity="one">%2$d fichier de %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">Reçu %2$d fichiers de %1$s</item>
+        <item quantity="one">Reçu %2$d fichier de %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">Reçoit %2$d fichiers de %1$s…</item>
+        <item quantity="one">Reçoit %2$d fichier de %1$s…</item>
+    </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Impossible de partager. Traitement de %d photos encore en cours…</item>
         <item quantity="one">Impossible de partager. Traitement de %d photo encore en cours…</item>
@@ -463,6 +559,30 @@
     <plurals name="send_too_many_files_error">
         <item quantity="other">"Sélectionnez jusqu'à %d éléments à envoyer"</item>
         <item quantity="one">"Sélectionnez jusqu'à %d élément à envoyer"</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%2$d vidéos de %1$s</item>
+        <item quantity="one">%2$d vidéo de %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">Reçu %2$d vidéos de %1$s</item>
+        <item quantity="one">Reçu %2$d vidéo de %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">Reçoit %2$d vidéos de %1$s…</item>
+        <item quantity="one">Reçoit %2$d vidéo de %1$s…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%2$d archives (%3$s) de %1$s</item>
+        <item quantity="one">%2$d archive (%3$s) de %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">Reçu %2$d archives (%3$s) de %1$s</item>
+        <item quantity="one">Reçu %2$d archive (%3$s) de %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">Reçoit %2$d archives (%3$s) de %1$s…</item>
+        <item quantity="one">Reçoit %2$d archive (%3$s) de %1$s…</item>
     </plurals>
     <plurals name="share_album_detail_photo_count">
         <item quantity="other">%d photos téléchargées</item>
@@ -596,6 +716,10 @@
         <item quantity="other">Impossible de transférer %1$d éléments. Visitez i.mi.com pour les télécharger.</item>
         <item quantity="one">Impossible de transférer %1$d élément. Visitez i.mi.com pour le télécharger.</item>
     </plurals>
+    <plurals name="trash_purge_count_down">
+        <item quantity="other">Supprimer (%d s)</item>
+        <item quantity="one">Supprimer (%d s)</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_cloud">
         <item quantity="other">%d éléments sélectionnés sera définitivement supprimés du cloud et de tous les appareils synchronisés. Supprimer quand même ?</item>
         <item quantity="one">%d élément sélectionné sera définitivement supprimé du cloud et de tous les appareils synchronisés. Supprimer quand même ?</item>
@@ -624,10 +748,6 @@
         <item quantity="other">Les éléments peuvent être stockés ici pour %1$s jours. Appuyez pour prolonger cette période.</item>
         <item quantity="one">Les éléments peuvent être stockés ici pour %1$s jour. Appuyez pour prolonger cette période.</item>
     </plurals>
-    <plurals name="trash_vip_info_text_no_sync_server">
-        <item quantity="other">Les éléments supprimés sont stockés dans le cloud pendant %1$d jours</item>
-        <item quantity="one">Les éléments supprimés sont stockés dans le cloud pendant %1$d jour</item>
-    </plurals>
     <plurals name="trash_vip_info_text_unlogin">
         <item quantity="other">Les éléments peuvent être stockés ici pendant %1$d jours. Mettez à jour votre plan pour prolonger cette période.</item>
         <item quantity="one">Les éléments peuvent être stockés ici pendant %1$d jour. Mettez à jour votre plan pour prolonger cette période.</item>
@@ -637,16 +757,16 @@
         <item quantity="one">%1$d fichier</item>
     </plurals>
     <plurals name="video_editor_component_hint_text">
-        <item quantity="other">Sélectionner %d segments vidéo</item>
-        <item quantity="one">Sélectionner %d segment vidéo</item>
+        <item quantity="other">%d segments requis</item>
+        <item quantity="one">%d segment requis</item>
     </plurals>
     <plurals name="video_editor_component_imageview_content_description">
-        <item quantity="other">"Case vidéo %1$d, en attente d'ajouter une vidéo de %2$s secondes ou plus"</item>
-        <item quantity="one">"Case vidéo %1$d, en attente d'ajouter une vidéo de %2$s seconde ou plus"</item>
+        <item quantity="other">Espace %1$d : Ajouter un segment pas plus court que %2$s secondes</item>
+        <item quantity="one">Espace %1$d : Ajouter un segment pas plus court que %2$s seconde</item>
     </plurals>
     <plurals name="video_editor_component_next_step_disabled_content_description">
-        <item quantity="other">Ajouter %d vidéos de plus pour pouvoir continuer</item>
-        <item quantity="one">Ajouter %d vidéo de plus pour pouvoir continuer</item>
+        <item quantity="other">Ajouter %d segments supplémentaires pour continuer</item>
+        <item quantity="one">Ajouter %d segment supplémentaire pour continuer</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d vidéos</item>

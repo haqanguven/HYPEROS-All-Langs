@@ -43,7 +43,7 @@
     <string name="ColrMmi">Batasan ID Saluran yang Terhubung</string>
     <string name="CwMmi">Nada tunggu</string>
     <string name="DndMmi">Jangan ganggu</string>
-    <string name="EmergencyCallWarningSummary">Tidak dapat melakukan panggilan darurat melalui Wi-Fi</string>
+    <string name="EmergencyCallWarningSummary">Panggilan darurat memerlukan jaringan seluler</string>
     <string name="EmergencyCallWarningTitle">Panggilan darurat tidak tersedia</string>
     <string name="Midnight">Tengah malam</string>
     <string name="NetworkPreferenceSwitchSummary">Coba ubah jaringan pilihan. Ketuk untuk mengubah.</string>
@@ -174,19 +174,24 @@
     <string name="accessibility_button_prompt_text">Pilih fitur yang akan digunakan saat mengetuk tombol aksesibilitas:</string>
     <string name="accessibility_dialog_button_allow">Izinkan</string>
     <string name="accessibility_dialog_button_deny">Tolak</string>
+    <string name="accessibility_dialog_button_uninstall">Uninstal</string>
+    <string name="accessibility_dialog_touch_filtered_warning">Aplikasi menghalangi permintaan izin sehingga respons Anda tidak dapat diverifikasi.</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Pilih fitur yang akan digunakan dengan tombol aksesibilitas</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Pilih fitur yang akan digunakan dengan pintasan tombol volume</string>
     <string name="accessibility_enable_service_title">Izinkan %1$s mengontrol perangkat Anda secara penuh?</string>
-    <string name="accessibility_freeform_caption">Kolom teks %1$s.</string>
     <string name="accessibility_gesture_3finger_instructional_text">Geser ke atas dengan tiga jari dan tahan untuk beralih ke fitur lain.</string>
     <string name="accessibility_gesture_3finger_prompt_text">Pilih fitur yang akan digunakan dengan gestur aksesibilitas (geser ke atas dari bawah layar dengan tiga jari):</string>
     <string name="accessibility_gesture_instructional_text">Geser ke atas dengan dua jari dan tahan untuk beralih ke fitur lain.</string>
     <string name="accessibility_gesture_prompt_text">Pilih fitur yang akan digunakan dengan gestur aksesibilitas (geser ke atas dari bawah layar dengan dua jari):</string>
+    <string name="accessibility_label_clone_profile">Clone</string>
+    <string name="accessibility_label_communal_profile">Umum</string>
+    <string name="accessibility_label_managed_profile">Profil kerja</string>
+    <string name="accessibility_label_private_profile">Ruang privasi</string>
     <string name="accessibility_magnification_chooser_text">Pembesaran</string>
     <string name="accessibility_select_shortcut_menu_title">Ketuk fitur untuk mulai menggunakannya:</string>
-    <string name="accessibility_service_action_perform_description">Voice Access dapat melacak interaksi Anda dengan aplikasi atau sensor hardware, dan berinteraksi dengan aplikasi untuk Anda.</string>
+    <string name="accessibility_service_action_perform_description">Melacak interaksi Anda dengan aplikasi atau sensor hardware, dan berinteraksi dengan aplikasi untuk Anda.</string>
     <string name="accessibility_service_action_perform_title">Menampilkan dan melakukan tindakan</string>
-    <string name="accessibility_service_screen_control_description">Voice Access dapat membaca semua konten di layar dan menampilkan konten di atas aplikasi lain.</string>
+    <string name="accessibility_service_screen_control_description">Membaca semua konten di layar dan menampilkan konten di atas aplikasi lain.</string>
     <string name="accessibility_service_screen_control_title">Melihat dan mengontrol layar</string>
     <string name="accessibility_service_warning_description">Kontrol penuh sesuai untuk aplikasi yang mendukung kebutuhan aksesibilitas Anda, tetapi tidak untuk sebagian besar aplikasi.</string>
     <string name="accessibility_shortcut_disabling_service">Tombol volume ditahan. %1$s dinonaktifkan.</string>
@@ -267,6 +272,9 @@ Anda dapat mengubah pintasan ini ke fitur lain di Setelan > Aksesibilitas."</str
     <string name="alert_windows_notification_title">%s ditampilkan di atas aplikasi lain</string>
     <string name="alert_windows_notification_turn_off_action">Nonaktifkan</string>
     <string name="allow">Izinkan</string>
+    <string name="alternative_face_setup_notification_content">Gunakan Buka dengan Wajah saat sidik jari Anda tidak dikenali, seperti saat jari Anda basah</string>
+    <string name="alternative_fp_setup_notification_content">Gunakan Buka dengan Sidik Jari saat wajah Anda tidak dikenali, seperti saat pencahayaan tidak cukup</string>
+    <string name="alternative_unlock_setup_notification_title">Coba cara lain untuk membuka kunci</string>
     <string name="alwaysUse">Gunakan secara default untuk tindakan ini.</string>
     <string name="android_preparing_apk">Menyiapkan %1$s.</string>
     <string name="android_start_title">Menyalakan ponsel…</string>
@@ -297,12 +305,13 @@ Anda dapat mengubah pintasan ini ke fitur lain di Setelan > Aksesibilitas."</str
     <string name="app_running_notification_title">%1$s sedang berjalan</string>
     <string name="app_streaming_blocked_message">Aplikasi ini tidak dapat diakses di %1$s untuk saat ini. Coba di ponsel.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog">Aplikasi ini meminta keamanan tambahan. Coba di ponsel.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Aplikasi ini meminta izin tambahan, tetapi izin tidak dapat diberikan dalam sesi streaming. Berikan izin di ponsel terlebih dahulu.</string>
     <string name="app_streaming_blocked_message_for_settings_dialog">Setelan ini tidak dapat diakses di %1$s. Coba di ponsel.</string>
     <string name="app_streaming_blocked_title">%1$s tidak tersedia</string>
     <string name="app_streaming_blocked_title_for_camera_dialog">Kamera tidak tersedia</string>
     <string name="app_streaming_blocked_title_for_fingerprint_dialog">Lanjutkan di ponsel</string>
     <string name="app_streaming_blocked_title_for_microphone_dialog">Mikrofon tidak tersedia</string>
-    <string name="app_streaming_blocked_title_for_permission_dialog">Perlu izin</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Permintaan izin diblokir</string>
     <string name="app_streaming_blocked_title_for_playstore_dialog">Play Store tidak tersedia</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Setelan ponsel tidak tersedia</string>
     <string name="app_suspended_default_message">%1$s saat ini tidak tersedia. Aplikasi ini dikelola oleh %2$s.</string>
@@ -337,7 +346,7 @@ Anda dapat mengubah pintasan ini ke fitur lain di Setelan > Aksesibilitas."</str
     <string name="autofill_save_yes">Simpan</string>
     <string name="autofill_update_title">Perbarui di <b>%1$s</b>?</string>
     <string name="autofill_update_title_with_2types">Perbarui %1$s dan %2$s di <b>%3$s</b>?</string>
-    <string name="autofill_update_title_with_3types">Perbarui item-item berikut di <b>%4$s</b>: %1$s, %2$s, dan %3$s ?</string>
+    <string name="autofill_update_title_with_3types">Perbarui item-item berikut di <b>%4$s</b>: %1$s, %2$s, dan %3$s?</string>
     <string name="autofill_update_title_with_type">Perbarui %1$s di <b>%2$s</b>?</string>
     <string name="autofill_update_yes">Update</string>
     <string name="autofill_window_title">Isi otomatis dengan %1$s</string>
@@ -351,13 +360,16 @@ Anda dapat mengubah pintasan ini ke fitur lain di Setelan > Aksesibilitas."</str
     <string name="battery_saver_off_notification_title">Penghemat Baterai dinonaktifkan</string>
     <string name="beforeOneMonthDurationPast">Sebelum 1 bulan lalu</string>
     <string name="biometric_app_setting_name">Gunakan biometrik</string>
+    <string name="biometric_dangling_notification_action_not_now">Lain kali</string>
+    <string name="biometric_dangling_notification_action_set_up">Penyiapan</string>
     <string name="biometric_dialog_default_subtitle">Gunakan biometrik untuk melanjutkan</string>
-    <string name="biometric_dialog_default_title">Verifikasi bahwa ini memang Anda</string>
+    <string name="biometric_dialog_default_title">Verifikasi diri Anda</string>
     <string name="biometric_error_canceled">Autentikasi dibatalkan</string>
     <string name="biometric_error_device_not_secured">Tidak ada PIN, pola, atau sandi yang disetel</string>
     <string name="biometric_error_generic">Error saat mengautentikasi</string>
     <string name="biometric_error_hw_unavailable">Hardware biometrik tidak tersedia</string>
     <string name="biometric_error_user_canceled">Autentikasi dibatalkan</string>
+    <string name="biometric_face_not_recognized">Wajah tidak dikenali</string>
     <string name="biometric_not_recognized">Tidak dikenali</string>
     <string name="biometric_or_screen_lock_app_setting_name">Gunakan biometrik atau kunci layar</string>
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Gunakan biometrik atau kunci layar untuk melanjutkan</string>
@@ -421,10 +433,10 @@ Anda dapat mengubah pintasan ini ke fitur lain di Setelan > Aksesibilitas."</str
     <string name="common_name">Nama umum:</string>
     <string name="concurrent_display_notification_active_content">%1$s menggunakan kedua layar untuk menampilkan konten</string>
     <string name="concurrent_display_notification_active_title">Dual screen aktif</string>
-    <string name="concurrent_display_notification_name">Layar ganda</string>
+    <string name="concurrent_display_notification_name">Dual Screen</string>
     <string name="concurrent_display_notification_power_save_content">Dual Screen tidak tersedia karena Penghemat Baterai aktif. Anda dapat menonaktifkannya di Setelan.</string>
     <string name="concurrent_display_notification_power_save_title">Dual Screen tidak tersedia</string>
-    <string name="concurrent_display_notification_thermal_content">Layar ganda tidak tersedia karena suhu ponsel terlalu panas</string>
+    <string name="concurrent_display_notification_thermal_content">Dual Screen tidak tersedia karena suhu ponsel terlalu panas</string>
     <string name="concurrent_display_notification_thermal_title">Suhu perangkat terlalu panas</string>
     <string name="condition_provider_service_binding_label">Penyedia ketentuan</string>
     <string name="conference_call">Konferensi Telepon</string>
@@ -433,11 +445,16 @@ Anda dapat mengubah pintasan ini ke fitur lain di Setelan > Aksesibilitas."</str
     <string name="config_pdp_reject_service_not_subscribed" />
     <string name="config_pdp_reject_user_authentication_failed" />
     <string name="confirm_battery_saver">Oke</string>
+    <string name="connected_display_thermally_unavailable_notification_content">Perangkat terlalu panas dan tidak dapat mencerminkan ke layar sebelum suhunya cukup dingin</string>
+    <string name="connected_display_unavailable_notification_content">Gunakan kabel lain dan coba lagi</string>
+    <string name="connected_display_unavailable_notification_title">Tidak dapat mencerminkan ke layar</string>
     <string name="console_running_notification_message">Performa terpengaruh. Untuk menonaktifkan, periksa bootloader.</string>
     <string name="console_running_notification_title">Konsol serial diaktifkan</string>
     <string name="contentServiceSync">Sinkron</string>
     <string name="contentServiceSyncNotificationTitle">Tidak dapat menyinkronkan</string>
     <string name="contentServiceTooManyDeletesNotificationDesc">Berupaya menghapus terlalu banyak %s.</string>
+    <string name="content_description_collapsed">Diciutkan</string>
+    <string name="content_description_expanded">Diluaskan</string>
     <string name="content_description_sliding_handle">Gagang geser. Sentuh lama.</string>
     <string name="conversation_single_line_image_placeholder">mengirim gambar</string>
     <string name="conversation_single_line_name_display">%1$s:</string>
@@ -450,10 +467,10 @@ menggunakan %s"</string>
     <string name="crossSimFormat_spn_cross_sim_calling">Panggilan Cadangan %s</string>
     <string name="csd_dose_reached_warning">"Tetap mendengarkan dengan volume tinggi?
 
-Volume headphone tinggi selama lebih lama dari yang direkomendasikan, yang dapat merusak pendengaran Anda"</string>
+Volume headphone tinggi untuk waktu lebih lama dari yang direkomendasikan, sehingga dapat merusak pendengaran Anda"</string>
     <string name="csd_momentary_exposure_warning">"Suara keras terdeteksi
 
-Volume headphone tinggi selama lebih lama dari yang direkomendasikan, yang dapat merusak pendengaran Anda"</string>
+Volume headphone lebih tinggi dari yang direkomendasikan, yang dapat merusak pendengaran Anda"</string>
     <string name="data_saver_description">Untuk membantu mengurangi penggunaan data, Penghemat Data mencegah beberapa aplikasi mengirim atau menerima data di latar belakang. Aplikasi yang sedang digunakan dapat mengakses data, tetapi frekuensinya agak lebih jarang. Misalnya, gambar hanya akan ditampilkan setelah diketuk.</string>
     <string name="data_saver_enable_button">Aktifkan</string>
     <string name="data_saver_enable_title">Aktifkan Penghemat Data?</string>
@@ -461,7 +478,7 @@ Volume headphone tinggi selama lebih lama dari yang direkomendasikan, yang dapat
     <string name="data_usage_limit_snoozed_body">Anda telah menggunakan %s melebihi batas yang ditetapkan</string>
     <string name="data_usage_mobile_limit_snoozed_title">Melebihi batas kuota Anda</string>
     <string name="data_usage_mobile_limit_title">Batas seluler data tercapai</string>
-    <string name="data_usage_rapid_app_body">%s menggunakan lebih banyak kuota daripada biasanya</string>
+    <string name="data_usage_rapid_app_body">%s menggunakan lebih banyak data daripada biasanya</string>
     <string name="data_usage_rapid_body">Aplikasi Anda menggunakan lebih banyak kuota daripada biasanya</string>
     <string name="data_usage_rapid_title">Penggunaan data seluler tinggi</string>
     <string name="data_usage_restricted_body">Ketuk untuk menghapus batasan.</string>
@@ -502,7 +519,7 @@ Volume headphone tinggi selama lebih lama dari yang direkomendasikan, yang dapat
     <string name="demo_starting_message">Memulai demo...</string>
     <string name="deny">Tolak</string>
     <string name="deprecated_abi_message">Aplikasi ini tidak kompatibel dengan versi terbaru Android. Periksa update atau hubungi developer aplikasi.</string>
-    <string name="deprecated_target_sdk_app_store">Periksa apakah ada update</string>
+    <string name="deprecated_target_sdk_app_store">Periksa update</string>
     <string name="deprecated_target_sdk_message">Aplikasi ini dibuat untuk versi lama Android. Aplikasi mungkin tidak berfungsi dengan baik dan tidak menyertakan perlindungan privasi dan keamanan terbaru. Periksa update, atau hubungi developer aplikasi.</string>
     <string name="description_target_unlock_tablet">Geser untuk membuka kunci.</string>
     <string name="device_ownership_relinquished">Admin melepaskan perangkat untuk penggunaan pribadi</string>
@@ -510,13 +527,14 @@ Volume headphone tinggi selama lebih lama dari yang direkomendasikan, yang dapat
     <string name="device_state_notification_settings_button">Buka Setelan</string>
     <string name="device_state_notification_turn_off_button">Nonaktifkan</string>
     <string name="device_storage_monitor_notification_channel">Penyimpanan perangkat</string>
+    <string name="device_unlock_notification_name">Buka kunci perangkat</string>
     <string name="dial_number_using">"Telepon nomor 
 menggunakan%s"</string>
     <string name="disable_accessibility_shortcut">Nonaktifkan Pintasan</string>
     <string name="dismiss_action">Tutup</string>
     <string name="display_manager_built_in_display_name">Layar Built-In</string>
     <string name="display_manager_hdmi_display_name">Layar HDMI</string>
-    <string name="display_manager_overlay_display_name">Hamparan #%1$d</string>
+    <string name="display_manager_overlay_display_name">Overlay #%1$d</string>
     <string name="display_manager_overlay_display_secure_suffix">, aman</string>
     <string name="display_manager_overlay_display_title">%1$s: %2$dx%3$d, %4$d dpi</string>
     <string name="display_rotation_camera_compat_toast_after_rotation">Putar posisi layar untuk mendapatkan tampilan yang lebih baik</string>
@@ -524,6 +542,7 @@ menggunakan%s"</string>
     <string name="dlg_ok">Oke</string>
     <string name="done_accessibility_shortcut_menu_button">Selesai</string>
     <string name="done_label">Selesai</string>
+    <string name="dream_accessibility_action_click">tutup</string>
     <string name="dream_preview_title">Pratinjau, %1$s</string>
     <string name="dump_heap_notification">%1$s melampaui batas memori</string>
     <string name="dump_heap_notification_detail">Informasi memori dikumpulkan. Ketuk untuk membagikan.</string>
@@ -550,7 +569,9 @@ menggunakan%s"</string>
     <string name="duration_years_shortest_future">dalam %d t</string>
     <string name="dynamic_mode_notification_channel_name">Notifikasi info Mode Rutinitas</string>
     <string name="dynamic_mode_notification_summary">Mengurangi penggunaan baterai untuk memperpanjang masa pakai baterai</string>
+    <string name="dynamic_mode_notification_summary_v2">Penghemat Baterai diaktifkan untuk memperpanjang daya tahan baterai</string>
     <string name="dynamic_mode_notification_title">Penghemat Baterai diaktifkan</string>
+    <string name="dynamic_mode_notification_title_v2">Penghemat Baterai aktif</string>
     <string name="editTextMenuTitle">Tindakan teks</string>
     <string name="edit_accessibility_shortcut_menu_button">Edit pintasan</string>
     <string name="elapsed_time_short_format_h_mm_ss">%1$d.%2$02d.%3$02d</string>
@@ -565,6 +586,8 @@ menggunakan%s"</string>
     <string name="enablePin">Gagal, aktifkan Kunci SIM/RUIM.</string>
     <string name="enable_explore_by_touch_warning_message">%1$s ingin mengaktifkan Menjelajah dengan Sentuhan. Saat Menjelajah dengan Sentuhan diaktifkan, Anda dapat mendengar atau melihat deskripsi dari apa yang ada di bawah jari Anda atau melakukan gerakan untuk berinteraksi dengan ponsel.</string>
     <string name="enable_explore_by_touch_warning_title">Aktifkan Menjelajah dengan Sentuhan?</string>
+    <string name="error_handwriting_unsupported">Tulisan tangan tidak didukung di kolom ini</string>
+    <string name="error_handwriting_unsupported_password">Tulisan tangan tidak didukung di kolom sandi</string>
     <string name="error_message_change_not_allowed">Perubahan ini tidak diizinkan oleh admin Anda</string>
     <string name="error_message_title">Kesalahan</string>
     <string name="etws_primary_default_message_earthquake">Tetap tenang dan cari tempat berlindung terdekat.</string>
@@ -634,7 +657,7 @@ menggunakan%s"</string>
     <string name="face_acquired_too_bright">Terlalu terang. Coba cahaya yang lebih lembut.</string>
     <string name="face_acquired_too_close">Jauhkan ponsel</string>
     <string name="face_acquired_too_dark">Cahaya tidak cukup</string>
-    <string name="face_acquired_too_different">Tidak dapat mengenali wajah. Coba lagi.</string>
+    <string name="face_acquired_too_different">Wajah tidak dikenali. Coba lagi.</string>
     <string name="face_acquired_too_far">Dekatkan ponsel</string>
     <string name="face_acquired_too_high">Geser ponsel ke atas</string>
     <string name="face_acquired_too_left">Geser ponsel ke kanan</string>
@@ -645,6 +668,8 @@ menggunakan%s"</string>
     <string name="face_app_setting_name">Gunakan Buka dengan Wajah</string>
     <string name="face_authenticated_confirmation_required">Wajah diautentikasi, silakan tekan konfirmasi</string>
     <string name="face_authenticated_no_confirmation_required">Wajah diautentikasi</string>
+    <string name="face_dangling_notification_msg">Model wajah Anda tidak dapat dikenali lagi. Siapkan Buka dengan Wajah lagi.</string>
+    <string name="face_dangling_notification_title">Siapkan Buka dengan Wajah lagi</string>
     <string name="face_dialog_default_subtitle">Gunakan wajah untuk melanjutkan</string>
     <string name="face_error_canceled">Pemrosesan wajah dibatalkan.</string>
     <string name="face_error_hw_not_available">Tidak dapat memverifikasi wajah. Hardware tidak tersedia.</string>
@@ -667,8 +692,6 @@ menggunakan%s"</string>
     <string name="face_recalibrate_notification_name">Buka dengan Wajah</string>
     <string name="face_recalibrate_notification_title">Masalah pada Buka dengan Wajah</string>
     <string name="face_sensor_privacy_enabled">Untuk menggunakan Buka dengan Wajah, aktifkan <b>Akses kamera</b> di Setelan > Privasi</string>
-    <string name="face_setup_notification_content">Buka kunci ponsel dengan melihat ke ponsel</string>
-    <string name="face_setup_notification_title">Siapkan Buka dengan Wajah</string>
     <string name="faceunlock_multiple_failures">Percobaan Buka dengan Wajah melebihi batas maksimum</string>
     <string name="factory_reset_message">"Aplikasi admin tidak dapat digunakan. Perangkat Anda kini akan dihapus.
 
@@ -693,7 +716,7 @@ Jika ada pertanyaan, hubungi admin organisasi."</string>
     <string name="fingerprint_acquired_imager_dirty">Bersihkan sensor sidik jari lalu coba lagi</string>
     <string name="fingerprint_acquired_imager_dirty_alt">Bersihkan sensor lalu coba lagi</string>
     <string name="fingerprint_acquired_immobile">Ubah sedikit posisi jari di setiap percobaan</string>
-    <string name="fingerprint_acquired_insufficient">Tidak dapat mengenali sidik jari. Coba lagi.</string>
+    <string name="fingerprint_acquired_insufficient">Sidik jari tidak dikenali. Coba lagi.</string>
     <string name="fingerprint_acquired_partial">Tekan sensor dengan kuat</string>
     <string name="fingerprint_acquired_power_press">Penekanan tombol daya terdeteksi</string>
     <string name="fingerprint_acquired_too_bright">Terlalu terang</string>
@@ -702,21 +725,27 @@ Jika ada pertanyaan, hubungi admin organisasi."</string>
     <string name="fingerprint_acquired_try_adjusting">Coba sesuaikan</string>
     <string name="fingerprint_app_setting_name">Gunakan sidik jari</string>
     <string name="fingerprint_authenticated">Sidik jari diautentikasi</string>
+    <string name="fingerprint_dangling_notification_msg_1">%s tidak dapat dikenali lagi.</string>
+    <string name="fingerprint_dangling_notification_msg_2">%1$s dan %2$s tidak dapat dikenali lagi.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_1">%s tidak dapat dikenali lagi. Siapkan Buka dengan Sidik Jari lagi.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_2">%1$s dan %2$s tidak dapat dikenali lagi. Siapkan Buka dengan Sidik Jari lagi.</string>
+    <string name="fingerprint_dangling_notification_title">Siapkan Buka dengan Sidik Jari lagi</string>
     <string name="fingerprint_dialog_default_subtitle">Gunakan sidik jari untuk melanjutkan</string>
-    <string name="fingerprint_error_bad_calibration">Tidak dapat menggunakan sensor sidik jari. Kunjungi penyedia reparasi</string>
-    <string name="fingerprint_error_canceled">Operasi sidik jari dibatalkan.</string>
-    <string name="fingerprint_error_hw_not_available">Hardware sidik jari tidak tersedia.</string>
-    <string name="fingerprint_error_hw_not_present">Perangkat ini tidak memiliki sensor sidik jari.</string>
+    <string name="fingerprint_dialog_use_fingerprint_instead">Wajah tidak dikenali. Gunakan sidik jari.</string>
+    <string name="fingerprint_error_bad_calibration">Tidak dapat menggunakan sensor sidik jari. Kunjungi penyedia reparasi.</string>
+    <string name="fingerprint_error_canceled">Operasi sidik jari dibatalkan</string>
+    <string name="fingerprint_error_hw_not_available">Hardware sidik jari tidak tersedia</string>
+    <string name="fingerprint_error_hw_not_present">Perangkat ini tidak memiliki sensor sidik jari</string>
     <string name="fingerprint_error_lockout">Terlalu banyak upaya gagal. Gunakan kunci layar.</string>
     <string name="fingerprint_error_lockout_permanent">Terlalu banyak upaya gagal. Gunakan kunci layar.</string>
-    <string name="fingerprint_error_no_fingerprints">Tidak ada sidik jari yang terdaftar.</string>
+    <string name="fingerprint_error_no_fingerprints">Tidak ada sidik jari yang terdaftar</string>
     <string name="fingerprint_error_no_space">Tidak dapat menyiapkan sidik jari</string>
     <string name="fingerprint_error_not_match">Sidik jari tidak dikenali</string>
     <string name="fingerprint_error_power_pressed">Tombol daya ditekan</string>
-    <string name="fingerprint_error_security_update_required">Sensor dinonaktifkan untuk sementara.</string>
+    <string name="fingerprint_error_security_update_required">Sensor dinonaktifkan untuk sementara</string>
     <string name="fingerprint_error_timeout">Waktu penyiapan sidik jari habis. Coba lagi.</string>
     <string name="fingerprint_error_unable_to_process">Tidak dapat memproses sidik jari. Coba lagi.</string>
-    <string name="fingerprint_error_user_canceled">Operasi sidik jari dibatalkan oleh pengguna.</string>
+    <string name="fingerprint_error_user_canceled">Operasi sidik jari dibatalkan oleh pengguna</string>
     <string name="fingerprint_error_vendor_unknown">Terjadi error. Coba lagi.</string>
     <string name="fingerprint_name_template">Jari %d</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">Gunakan sidik jari atau kunci layar</string>
@@ -724,8 +753,6 @@ Jika ada pertanyaan, hubungi admin organisasi."</string>
     <string name="fingerprint_recalibrate_notification_content">Kunjungi penyedia reparasi.</string>
     <string name="fingerprint_recalibrate_notification_name">Buka dengan Sidik Jari</string>
     <string name="fingerprint_recalibrate_notification_title">Tidak dapat menggunakan sensor sidik jari</string>
-    <string name="fingerprint_setup_notification_content">Ketuk untuk menambahkan sidik jari</string>
-    <string name="fingerprint_setup_notification_title">Siapkan lebih banyak cara untuk membuka kunci</string>
     <string name="fingerprint_udfps_error_not_match">Sidik jari tidak dikenali</string>
     <string name="fingerprints">Sidik jari:</string>
     <string name="floating_toolbar_close_overflow_description">Tutup luapan</string>
@@ -784,7 +811,7 @@ Coba ketuk lembut saat menyiapkan sidik jari Anda."</string>
     <string name="granularity_label_link">link</string>
     <string name="granularity_label_word">kata</string>
     <string name="guest_name">Tamu</string>
-    <string name="hardware">Tampilkan keyboard virtual</string>
+    <string name="hardware">Gunakan keyboard virtual</string>
     <string name="harmful_app_warning_open_anyway">TETAP BUKA</string>
     <string name="harmful_app_warning_title">Aplikasi berbahaya terdeteksi</string>
     <string name="harmful_app_warning_uninstall">UNINSTAL</string>
@@ -832,7 +859,7 @@ Coba ketuk lembut saat menyiapkan sidik jari Anda."</string>
     <string name="ime_action_search">Telusuri</string>
     <string name="ime_action_send">Kirimkan</string>
     <string name="imei">IMEI</string>
-    <string name="immersive_cling_description">Untuk keluar, geser layar ke bawah dari atas.</string>
+    <string name="immersive_cling_description">Untuk keluar, geser ke bawah dari bagian atas layar</string>
     <string name="immersive_cling_positive">Mengerti</string>
     <string name="immersive_cling_title">Melihat layar penuh</string>
     <string name="importance_from_person">Ini penting karena orang-orang yang terlibat.</string>
@@ -1021,7 +1048,7 @@ Harap hubungi penyedia layanan nirkabel untuk mendapatkan kartu SIM lainnya."</s
     <string name="lockscreen_sim_unlock_progress_dialog_message">Membuka kunci SIM …</string>
     <string name="lockscreen_sound_off_label">Suara mati</string>
     <string name="lockscreen_sound_on_label">Suara hidup</string>
-    <string name="lockscreen_storage_locked">Membuka kunci untuk semua fitur dan data</string>
+    <string name="lockscreen_storage_locked">Buka kunci untuk melihat semua fitur dan data</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Coba lagi dalam %d detik.</string>
     <string name="lockscreen_too_many_failed_attempts_dialog_message">"Anda telah %1$d kali salah menggambar pola pembuka kunci. 
 
@@ -1195,6 +1222,8 @@ Coba lagi dalam %2$d detik."</string>
     <string name="miniresolver_open_in_personal">Buka di %s pribadi?</string>
     <string name="miniresolver_open_in_work">Buka di %s kerja?</string>
     <string name="miniresolver_open_work">Buka %s kerja?</string>
+    <string name="miniresolver_private_space_messages_information">Anda hanya dapat mengirim pesan SMS dari aplikasi Pesan pribadi.</string>
+    <string name="miniresolver_private_space_phone_information">Anda hanya dapat melakukan panggilan telepon dari aplikasi Telepon pribadi. Panggilan yang dilakukan dengan aplikasi Telepon pribadi akan ditambahkan ke histori panggilan pribadi.</string>
     <string name="miniresolver_sms_information">Organisasi Anda hanya mengizinkan pengiriman pesan dari aplikasi kerja</string>
     <string name="miniresolver_switch">Beralih</string>
     <string name="miniresolver_switch_to_work">Beralih ke aplikasi kerja?</string>
@@ -1274,6 +1303,7 @@ Notifikasi yang ditingkatkan dapat mengakses konten notifikasi, termasuk informa
     <string name="notification_channel_developer">Pesan developer</string>
     <string name="notification_channel_developer_important">Pesan developer penting</string>
     <string name="notification_channel_device_admin">Notifikasi dari admin IT</string>
+    <string name="notification_channel_display">Layar</string>
     <string name="notification_channel_do_not_disturb">Jangan Ganggu</string>
     <string name="notification_channel_emergency_callback">Mode telepon balik darurat</string>
     <string name="notification_channel_foreground_service">Aplikasi yang menggunakan baterai</string>
@@ -1295,6 +1325,7 @@ Notifikasi yang ditingkatkan dapat mengakses konten notifikasi, termasuk informa
     <string name="notification_channel_voice_mail">Notifikasi pesan suara</string>
     <string name="notification_channel_vpn">Status VPN</string>
     <string name="notification_channel_wfc">Panggilan Wi-Fi</string>
+    <string name="notification_compact_heads_up_reply">Balas</string>
     <string name="notification_content_abusive_bg_apps">%1$s sedang berjalan di latar belakang. Ketuk untuk mengelola penggunaan baterai.</string>
     <string name="notification_content_long_running_fgs">%1$s mungkin memengaruhi masa pakai baterai. Ketuk untuk meninjau aplikasi aktif.</string>
     <string name="notification_feedback_indicator">Beri Masukan</string>
@@ -1331,7 +1362,8 @@ Notifikasi yang ditingkatkan dapat mengakses konten notifikasi, termasuk informa
     <string name="other_networks_no_internet">Jaringan tidak memiliki akses internet</string>
     <string name="owner_name">Pemilik</string>
     <string name="package_deleted_device_owner">Dihapus oleh admin Anda</string>
-    <string name="package_installed_device_owner">Diinstal oleh admin Anda</string>
+    <string name="package_installed_device_owner">"Diinstal oleh admin Anda.
+Buka setelan untuk melihat izin yang diberikan"</string>
     <string name="package_updated_device_owner">Diupdate oleh admin Anda</string>
     <string name="passwordIncorrect">Sandi salah.</string>
     <string name="password_keyboard_label_alpha_key">ABC</string>
@@ -1348,7 +1380,9 @@ Notifikasi yang ditingkatkan dapat mengakses konten notifikasi, termasuk informa
     <string name="permdesc_accessCoarseLocation">Aplikasi ini bisa mendapatkan perkiraan lokasi Anda dari layanan lokasi saat aplikasi sedang digunakan. Layanan lokasi untuk perangkat harus diaktifkan agar aplikasi bisa mendapatkan lokasi.</string>
     <string name="permdesc_accessDrmCertificates">Memungkinkan aplikasi menyediakan dan menggunakan sertifikat DRM. Tidak pernah dibutuhkan untuk aplikasi normal.</string>
     <string name="permdesc_accessFineLocation">Aplikasi ini bisa mendapatkan lokasi pasti Anda dari layanan lokasi saat aplikasi sedang digunakan. Layanan lokasi untuk perangkat harus diaktifkan agar aplikasi bisa mendapatkan lokasi. Ini dapat meningkatkan penggunaan baterai.</string>
+    <string name="permdesc_accessHiddenProfile">Mengizinkan aplikasi untuk mengakses profil tersembunyi.</string>
     <string name="permdesc_accessImsCallService">Memungkinkan aplikasi menggunakan layanan IMS untuk melakukan panggilan tanpa campur tangan Anda.</string>
+    <string name="permdesc_accessLastKnownCellId">Mengizinkan aplikasi mengakses identitas seluler terakhir yang diketahui dan disediakan oleh telephony.</string>
     <string name="permdesc_accessLocationExtraCommands">Memungkinkan aplikasi mengakses perintah penyedia lokasi ekstra. Tindakan ini memungkinkan aplikasi mengganggu pengoperasian GPS atau sumber lokasi lain.</string>
     <string name="permdesc_accessNetworkConditions">Memungkinkan aplikasi mendengar untuk observasi kondisi jaringan. Tidak pernah dibutuhkan oleh aplikasi normal.</string>
     <string name="permdesc_accessNetworkState">Memungkinkan aplikasi melihat informasi tentang koneksi jaringan, misalnya jaringan yang ada dan terhubung.</string>
@@ -1380,6 +1414,7 @@ Notifikasi yang ditingkatkan dapat mengakses konten notifikasi, termasuk informa
     <string name="permdesc_callCompanionApp">Memungkinkan aplikasi melihat dan mengontrol panggilan telepon yang sedang berlangsung di perangkat. Ini mencakup informasi seperti nomor yang menelepon dan status panggilan telepon.</string>
     <string name="permdesc_callPhone">Mengizinkan aplikasi memanggil nomor telepon tanpa intervensi Anda. Hal ini dapat mengakibatkan adanya biaya atau panggilan yang tidak terduga. Perhatikan bahwa hal ini tidak memungkinkan aplikasi menghubungi nomor darurat. Anda dapat dikenai biaya oleh aplikasi berbahaya dengan melakukan panggilan tanpa konfirmasi dari Anda, atau menghubungi kode operator yang menyebabkan panggilan masuk dialihkan secara otomatis ke nomor lain.</string>
     <string name="permdesc_camera">Aplikasi ini dapat mengambil gambar dan merekam video menggunakan kamera saat aplikasi sedang digunakan.</string>
+    <string name="permdesc_cameraHeadlessSystemUser">Aplikasi ini dapat mengakses kamera sebagai Pengguna Sistem Headless.</string>
     <string name="permdesc_cameraOpenCloseListener">Aplikasi ini dapat menerima callback saat perangkat kamera dibuka (oleh aplikasi) atau ditutup.</string>
     <string name="permdesc_changeNetworkState">Mengizinkan apl mengubah keadaan konektivitas jaringan.</string>
     <string name="permdesc_changeTetherState">Mengizinkan apl mengubah status konektivitas jaringan yang tertambat.</string>
@@ -1404,6 +1439,7 @@ Notifikasi yang ditingkatkan dapat mengakses konten notifikasi, termasuk informa
     <string name="permdesc_foregroundServiceHealth">Mengizinkan aplikasi menggunakan layanan latar depan dengan jenis \"health\"</string>
     <string name="permdesc_foregroundServiceLocation">Mengizinkan aplikasi menggunakan layanan latar depan dengan jenis \"location\"</string>
     <string name="permdesc_foregroundServiceMediaPlayback">Mengizinkan aplikasi menggunakan layanan latar depan dengan jenis \"mediaPlayback\"</string>
+    <string name="permdesc_foregroundServiceMediaProcessing">Mengizinkan aplikasi menggunakan layanan latar depan dengan jenis \"mediaProcessing\"</string>
     <string name="permdesc_foregroundServiceMediaProjection">Mengizinkan aplikasi menggunakan layanan latar depan dengan jenis \"mediaProjection\"</string>
     <string name="permdesc_foregroundServiceMicrophone">Mengizinkan aplikasi menggunakan layanan latar depan dengan jenis \"microphone\"</string>
     <string name="permdesc_foregroundServicePhoneCall">Mengizinkan aplikasi menggunakan layanan latar depan dengan jenis \"phoneCall\"</string>
@@ -1431,6 +1467,7 @@ Notifikasi yang ditingkatkan dapat mengakses konten notifikasi, termasuk informa
     <string name="permdesc_modifyNetworkAccounting">Mengizinkan apl memodifikasi cara penggunaan jaringan diperhitungkan terhadap apl. Tidak untuk digunakan oleh apl normal.</string>
     <string name="permdesc_nearby_wifi_devices">Mengizinkan aplikasi menampilkan, menghubungkan, dan menentukan posisi relatif perangkat Wi-Fi di sekitar</string>
     <string name="permdesc_nfc">Mengizinkan apl berkomunikasi dengan tag, kartu, dan alat pembaca Komunikasi Nirkabel Jarak Dekat (NFC).</string>
+    <string name="permdesc_nfcTransactionEvent">Mengizinkan aplikasi menerima informasi tentang transaksi yang dilakukan pada Elemen Pengaman.</string>
     <string name="permdesc_observeCompanionDevicePresence">Mengizinkan aplikasi pendamping mengamati kehadiran perangkat pendamping saat perangkat terkait berada di sekitar atau jauh.</string>
     <string name="permdesc_persistentActivity">Memungkinkan aplikasi membuat bagian dari dirinya sendiri terus-menerus berada dalam memori. Izin ini dapat membatasi memori yang tersedia untuk aplikasi lain sehingga menjadikan ponsel lambat.</string>
     <string name="permdesc_postNotification">Mengizinkan aplikasi untuk menampilkan notifikasi</string>
@@ -1507,6 +1544,7 @@ Notifikasi yang ditingkatkan dapat mengakses konten notifikasi, termasuk informa
     <string name="permdesc_writeContacts">Mengizinkan aplikasi mengubah data tentang kontak yang disimpan di ponsel Anda. Izin ini mengizinkan aplikasi menghapus data kontak.</string>
     <string name="permdesc_writeSettings">Mengizinkan apl memodifikasi data setelan sistem. Apl berbahaya dapat merusak konfigurasi sistem anda.</string>
     <string name="permdesc_writeSyncSettings">Memungkinkan aplikasi mengubah setelan sinkronisasi untuk sebuah akun. Misalnya, izin ini dapat digunakan untuk mengaktifkan sinkronisasi dari aplikasi Orang dengan sebuah akun.</string>
+    <string name="permdesc_writeVerificationStateE2eeContactKeys">Mengizinkan aplikasi untuk mengupdate status verifikasi tombol kontak E2EE yang dimiliki oleh aplikasi lain</string>
     <string name="permgroupdesc_activityRecognition">mengakses aktivitas fisik Anda</string>
     <string name="permgroupdesc_calendar">mengakses kalender</string>
     <string name="permgroupdesc_calllog">membaca dan menulis log panggilan telepon</string>
@@ -1547,7 +1585,9 @@ untuk akun %s."</string>
     <string name="permlab_accessCoarseLocation">akses perkiraan lokasi hanya saat berada di latar depan</string>
     <string name="permlab_accessDrmCertificates">mengakses sertifikat DRM</string>
     <string name="permlab_accessFineLocation">akses lokasi presisi hanya saat di latar depan</string>
+    <string name="permlab_accessHiddenProfile">Mengakses profil tersembunyi</string>
     <string name="permlab_accessImsCallService">akses layanan panggilan IMS</string>
+    <string name="permlab_accessLastKnownCellId">Akses identitas seluler terakhir yang diketahui.</string>
     <string name="permlab_accessLocationExtraCommands">akses perintah penyedia lokasi ekstra</string>
     <string name="permlab_accessNetworkConditions">mendengar untuk observasi kondisi jaringan</string>
     <string name="permlab_accessNetworkState">lihat koneksi jaringan</string>
@@ -1579,6 +1619,7 @@ untuk akun %s."</string>
     <string name="permlab_callCompanionApp">melihat dan mengontrol panggilan melalui sistem.</string>
     <string name="permlab_callPhone">panggil nomor telepon secara langsung</string>
     <string name="permlab_camera">ambil gambar dan video</string>
+    <string name="permlab_cameraHeadlessSystemUser">Izinkan aplikasi atau layanan mengakses kamera sebagai Pengguna Sistem Headless.</string>
     <string name="permlab_cameraOpenCloseListener">Izinkan aplikasi atau layanan untuk menerima callback tentang perangkat kamera yang sedang dibuka atau ditutup.</string>
     <string name="permlab_changeNetworkState">ubah konektivitas jaringan</string>
     <string name="permlab_changeTetherState">mengubah konektivitas yang tertambat</string>
@@ -1603,6 +1644,7 @@ untuk akun %s."</string>
     <string name="permlab_foregroundServiceHealth">menjalankan layanan latar depan dengan jenis \"health\"</string>
     <string name="permlab_foregroundServiceLocation">menjalankan layanan latar depan dengan jenis \"location\"</string>
     <string name="permlab_foregroundServiceMediaPlayback">menjalankan layanan latar depan dengan jenis \"mediaPlayback\"</string>
+    <string name="permlab_foregroundServiceMediaProcessing">menjalankan layanan latar depan dengan jenis \"mediaProcessing\"</string>
     <string name="permlab_foregroundServiceMediaProjection">menjalankan layanan latar depan dengan jenis \"mediaProjection\"</string>
     <string name="permlab_foregroundServiceMicrophone">menjalankan layanan latar depan dengan jenis \"microphone\"</string>
     <string name="permlab_foregroundServicePhoneCall">menjalankan layanan latar depan dengan jenis \"phoneCall\"</string>
@@ -1630,6 +1672,7 @@ untuk akun %s."</string>
     <string name="permlab_modifyNetworkAccounting">mengubah penghitungan penggunaan jaringan</string>
     <string name="permlab_nearby_wifi_devices">berinteraksi dengan perangkat Wi-Fi di sekitar</string>
     <string name="permlab_nfc">kontrol NFC</string>
+    <string name="permlab_nfcTransactionEvent">Peristiwa transaksi Elemen Pengaman</string>
     <string name="permlab_observeCompanionDevicePresence">Mengamati kehadiran perangkat pendamping</string>
     <string name="permlab_persistentActivity">membuat apl selalu berjalan</string>
     <string name="permlab_postNotification">tampilkan notifikasi</string>
@@ -1705,6 +1748,7 @@ untuk akun %s."</string>
     <string name="permlab_writeContacts">ubah kontak Anda</string>
     <string name="permlab_writeSettings">ubah setelan sistem</string>
     <string name="permlab_writeSyncSettings">nyalakan dan matikan sinkronisasi</string>
+    <string name="permlab_writeVerificationStateE2eeContactKeys">update status verifikasi tombol kontak E2EE yang dimiliki oleh aplikasi lain</string>
     <string name="perms_description_app">Disediakan oleh %1$s.</string>
     <string name="perms_new_perm_prefix"><font fgcolor="#ff33b5e5" size="12">BARU: </font></string>
     <string name="personal_apps_suspended_turn_profile_on">Aktifkan</string>
@@ -1754,7 +1798,7 @@ untuk akun %s."</string>
     <string name="policylab_limitPassword">Setel aturan sandi</string>
     <string name="policylab_resetPassword">Mengubah kunci layar</string>
     <string name="policylab_setGlobalProxy">Setel proxy global perangkat</string>
-    <string name="policylab_watchLogin">Pantau upaya pembukaan kunci layar</string>
+    <string name="policylab_watchLogin">Memantau upaya pembukaan kunci layar</string>
     <string name="policylab_wipeData">Menghapus semua data</string>
     <string name="policylab_wipeData_secondaryUser">Menghapus data pengguna</string>
     <string name="popup_window_default_title">Jendela Pop-up</string>
@@ -1772,9 +1816,21 @@ untuk akun %s."</string>
     <string name="print_service_installed_title">Layanan %s telah terpasang</string>
     <string name="printing_disabled_by">Fitur pencetakan dinonaktifkan oleh %s.</string>
     <string name="private_dns_broken_detailed">Server DNS pribadi tidak dapat diakses</string>
+    <string name="private_profile_label_badge">%1$s Pribadi</string>
+    <string name="private_space_biometric_prompt_title">Ruang privasi</string>
+    <string name="private_space_deleted_by_admin">Ruang privasi dihapus</string>
+    <string name="private_space_deleted_by_admin_details">Organisasi Anda tidak mengizinkan adanya ruang privasi di perangkat terkelola ini.</string>
+    <string name="private_space_set_up_screen_lock_message">Untuk menggunakan ruang privasi, setel kunci layar di perangkat ini</string>
     <string name="profile_encrypted_detail">Profil kerja terkunci</string>
     <string name="profile_encrypted_message">Ketuk untuk membuka kunci profil kerja</string>
     <string name="profile_encrypted_title">Beberapa fitur tidak dapat digunakan</string>
+    <string name="profile_label_clone">Clone</string>
+    <string name="profile_label_communal">Umum</string>
+    <string name="profile_label_private">Privasi</string>
+    <string name="profile_label_test">Pengujian</string>
+    <string name="profile_label_work">Kerja</string>
+    <string name="profile_label_work_2">Kerja 2</string>
+    <string name="profile_label_work_3">Kerja 3</string>
     <string name="progress_erasing">Menghapus penyimpanan bersama…</string>
     <string name="quick_contacts_not_available">Tidak ada aplikasi yang ditemukan untuk melihat kontak ini.</string>
     <string name="rating_label">{rating,plural, =1{Satu bintang dari {max}}other{# bintang dari {max}}}</string>
@@ -1789,6 +1845,8 @@ untuk akun %s."</string>
     <string name="reboot_to_update_reboot">Memulai ulang…</string>
     <string name="reboot_to_update_title">Update sistem Android</string>
     <string name="recent_tasks_title">Terbaru</string>
+    <string name="redacted_notification_action_title" />
+    <string name="redacted_notification_message">Konten notifikasi sensitif disembunyikan</string>
     <string name="redo">Ulangi</string>
     <string name="reduce_bright_colors_feature_name">Ekstra redup</string>
     <string name="region_picker_section_all">Semua wilayah</string>
@@ -1865,12 +1923,34 @@ untuk akun %s."</string>
     <string name="safe_media_volume_warning">"Mengeraskan volume di atas tingkat yang disarankan?
 
 Mendengarkan dengan volume keras dalam waktu yang lama dapat merusak pendengaran Anda."</string>
+    <string name="satellite_notification_how_it_works">Cara kerjanya</string>
+    <string name="satellite_notification_open_message">Buka Message</string>
+    <string name="satellite_notification_summary">Anda dapat mengirim dan menerima pesan tanpa jaringan seluler atau Wi-Fi</string>
+    <string name="satellite_notification_title">Menghubungkan otomatis ke satelit</string>
+    <string name="scCellularNetworkSecuritySummary">Enkripsi, notifikasi untuk jaringan yang tidak terenkripsi</string>
+    <string name="scCellularNetworkSecurityTitle">Keamanan jaringan seluler</string>
+    <string name="scIdentifierDisclosureIssueSummary">"Pada %1$s, jaringan di sekitar merekam ID unik perangkat Anda (IMSI atau IMEI) saat menggunakan kartu SIM %2$s Anda.
+
+Hal ini berarti lokasi, aktivitas, atau identitas Anda telah dicatat dalam log. Tindakan ini adalah praktik umum tetapi dapat menjadi masalah bagi orang yang mengkhawatirkan privasi."</string>
+    <string name="scIdentifierDisclosureIssueSummaryNotification">Pada %1$s, jaringan di sekitar merekam ID unik perangkat Anda (IMSI atau IMEI) saat menggunakan kartu SIM %2$s Anda</string>
+    <string name="scIdentifierDisclosureIssueTitle">ID perangkat diakses</string>
+    <string name="scNullCipherIssueActionGotIt">Oke</string>
+    <string name="scNullCipherIssueActionLearnMore">Pelajari lebih lanjut</string>
+    <string name="scNullCipherIssueActionSettings">Setelan keamanan jaringan seluler</string>
+    <string name="scNullCipherIssueEncryptedSummary">Koneksi kartu SIM %1$s kini lebih aman</string>
+    <string name="scNullCipherIssueEncryptedTitle">Terhubung ke jaringan yang terenkripsi %1$s</string>
+    <string name="scNullCipherIssueNonEncryptedSummary">"Panggilan, pesan, dan data saat ini lebih rentan saat menggunakan kartu SIM %1$s Anda.
+
+Ketika koneksi Anda terenkripsi lagi, Anda akan kembali menerima notifikasi."</string>
+    <string name="scNullCipherIssueNonEncryptedSummaryNotification">Panggilan, pesan, dan data saat ini lebih rentan saat menggunakan kartu SIM %1$s Anda</string>
+    <string name="scNullCipherIssueNonEncryptedTitle">Terhubung ke jaringan yang tidak terenkripsi</string>
     <string name="screen_compat_mode_hint">Aktifkan kembali dialog ini di Setelan sistem > Apl > Terdownload.</string>
     <string name="screen_compat_mode_scale">Skala</string>
     <string name="screen_compat_mode_show">Selalu tampilkan</string>
     <string name="screen_lock">Kunci layar</string>
     <string name="screen_lock_app_setting_name">Gunakan kunci layar</string>
     <string name="screen_lock_dialog_default_subtitle">Masukkan kunci layar untuk melanjutkan</string>
+    <string name="screen_not_shared_sensitive_content">Konten aplikasi disembunyikan dari berbagi layar karena alasan keamanan</string>
     <string name="screenshot_edit">Edit</string>
     <string name="search_hint">Telusuri...</string>
     <string name="search_language_hint">Ketik nama bahasa</string>
@@ -1914,6 +1994,8 @@ Mendengarkan dengan volume keras dalam waktu yang lama dapat merusak pendengaran
     <string name="serviceErased">Penghapusan berhasil.</string>
     <string name="serviceNotProvisioned">Layanan tidak diperlengkapi.</string>
     <string name="serviceRegistered">Pendaftaran berhasil.</string>
+    <string name="set_up_screen_lock_action_label">Setel kunci layar</string>
+    <string name="set_up_screen_lock_title">Setel kunci layar</string>
     <string name="sha1_fingerprint">Sidik jari SHA-1:</string>
     <string name="sha256_fingerprint">Sidik jari SHA-256:</string>
     <string name="share">Bagikan</string>
@@ -1937,7 +2019,7 @@ Mendengarkan dengan volume keras dalam waktu yang lama dapat merusak pendengaran
     <string name="silent_mode_ring">Pendering nyala</string>
     <string name="silent_mode_silent">Pendering mati</string>
     <string name="silent_mode_vibrate">Pendering bergetar</string>
-    <string name="sim_added_message">Mulai ulang perangkat Anda untuk mengakses jaringan selular.</string>
+    <string name="sim_added_message">Mulai ulang perangkat Anda untuk mengakses jaringan seluler.</string>
     <string name="sim_added_title">SIM ditambahkan</string>
     <string name="sim_done_button">Selesai</string>
     <string name="sim_removed_message">Jaringan seluler tidak akan tersedia sampai Anda memulai ulang dengan SIM yang valid.</string>
@@ -2032,11 +2114,12 @@ Mendengarkan dengan volume keras dalam waktu yang lama dapat merusak pendengaran
     <string name="twilight_service">Layanan Twilight</string>
     <string name="ui_translation_accessibility_translated_text">%1$s Diterjemahkan.</string>
     <string name="ui_translation_accessibility_translation_finished">Pesan diterjemahkan dari bahasa %1$s ke %2$s.</string>
+    <string name="unarchival_session_app_label">Tertunda...</string>
     <string name="undo">Urungkan</string>
     <string name="unpin_specific_target">Lepas sematan %1$s</string>
     <string name="unpin_target">Lepas pin</string>
     <string name="unread_convo_overflow">%1$d+</string>
-    <string name="unsupported_compile_sdk_check_update">Periksa apakah ada update</string>
+    <string name="unsupported_compile_sdk_check_update">Periksa update</string>
     <string name="unsupported_compile_sdk_message">%1$s dibuat untuk versi OS Android yang tidak kompatibel dan mungkin berperilaku tak terduga. Versi aplikasi yang diupdate mungkin tersedia.</string>
     <string name="unsupported_compile_sdk_show">Selalu tampilkan</string>
     <string name="unsupported_display_size_message">%1$s tidak mendukung setelan Ukuran layar saat ini dan dapat menunjukkan perilaku yang tak diharapkan.</string>
@@ -2064,7 +2147,7 @@ Mendengarkan dengan volume keras dalam waktu yang lama dapat merusak pendengaran
     <string name="usb_unsupported_audio_accessory_message">Perangkat terhubung tidak kompatibel dengan ponsel ini. Ketuk untuk pelajari lebih lanjut.</string>
     <string name="usb_unsupported_audio_accessory_title">Aksesoris audio analog terdeteksi</string>
     <string name="usb_uvc_notification_title">Perangkat terhubung sebagai Webcam</string>
-    <string name="use_a_different_app">Gunakan aplikasi yang berbeda</string>
+    <string name="use_a_different_app">Gunakan aplikasi lain</string>
     <string name="user_creation_account_exists">Izinkan %1$s membuat Pengguna baru dengan %2$s (Pengguna dengan akun ini sudah ada) ?</string>
     <string name="user_creation_adding">Izinkan %1$s membuat Pengguna baru dengan %2$s ?</string>
     <string name="user_logging_out_message">Mengeluarkan %1$s…</string>
@@ -2192,7 +2275,13 @@ Apakah Anda ingin menutupnya?"</string>
     <string name="zen_mode_feature_name">Jangan ganggu</string>
     <string name="zen_mode_forever">Sampai Anda menonaktifkannya</string>
     <string name="zen_mode_forever_dnd">Hingga status Jangan Ganggu dinonaktifkan</string>
+    <string name="zen_mode_implicit_activated">Aktif</string>
+    <string name="zen_mode_implicit_deactivated">Nonaktif</string>
+    <string name="zen_mode_implicit_trigger_description">Dikelola oleh %1$s</string>
     <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
+    <string name="zen_mode_trigger_event_calendar_any">Kalender mana saja</string>
+    <string name="zen_mode_trigger_summary_divider_text">", "</string>
+    <string name="zen_mode_trigger_summary_range_symbol_combination">%1$s - %2$s</string>
     <string name="zen_mode_until">Hingga %1$s</string>
     <string name="zen_mode_until_next_day">Sampai %1$s</string>
     <string name="zen_upgrade_notification_content">Ketuk untuk memeriksa item yang diblokir.</string>

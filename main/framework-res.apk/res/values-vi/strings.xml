@@ -43,7 +43,7 @@
     <string name="ColrMmi">Giới hạn ID đường kết nối</string>
     <string name="CwMmi">Chờ cuộc gọi</string>
     <string name="DndMmi">Không làm phiền</string>
-    <string name="EmergencyCallWarningSummary">Không thể thực hiện cuộc gọi khẩn cấp qua Wi‑Fi</string>
+    <string name="EmergencyCallWarningSummary">Cần có mạng di động để thực hiện các cuộc gọi khẩn cấp</string>
     <string name="EmergencyCallWarningTitle">Không có dịch vụ gọi khẩn cấp</string>
     <string name="Midnight">Nửa đêm</string>
     <string name="NetworkPreferenceSwitchSummary">Hãy thử thay đổi mạng ưu tiên. Nhấn để thay đổi.</string>
@@ -174,14 +174,19 @@
     <string name="accessibility_button_prompt_text">Chọn một tính năng để dùng khi bạn nhấn nút hỗ trợ tiếp cận:</string>
     <string name="accessibility_dialog_button_allow">Cho phép</string>
     <string name="accessibility_dialog_button_deny">Từ chối</string>
+    <string name="accessibility_dialog_button_uninstall">Gỡ cài đặt</string>
+    <string name="accessibility_dialog_touch_filtered_warning">Một ứng dụng đang che khuất yêu cầu quyền này nên chúng tôi không thể xác minh phản hồi của bạn.</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Chọn các tính năng để dùng với nút hỗ trợ tiếp cận</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Chọn các tính năng để dùng với phím tắt là phím âm lượng</string>
     <string name="accessibility_enable_service_title">Cho phép %1$s toàn quyền kiểm soát thiết bị của bạn?</string>
-    <string name="accessibility_freeform_caption">Thanh phụ đề của %1$s.</string>
     <string name="accessibility_gesture_3finger_instructional_text">Để chuyển đổi giữa các tính năng, hãy dùng 3 ngón tay vuốt lên và giữ.</string>
     <string name="accessibility_gesture_3finger_prompt_text">Chọn một tính năng để dùng với cử chỉ hỗ trợ tiếp cận (dùng 3 ngón tay vuốt lên từ cuối màn hình):</string>
     <string name="accessibility_gesture_instructional_text">Để chuyển đổi giữa các tính năng, hãy dùng 2 ngón tay vuốt lên và giữ.</string>
     <string name="accessibility_gesture_prompt_text">Chọn một tính năng để dùng với cử chỉ hỗ trợ tiếp cận (dùng 2 ngón tay vuốt lên từ cuối màn hình):</string>
+    <string name="accessibility_label_clone_profile">Nhân bản</string>
+    <string name="accessibility_label_communal_profile">Dùng chung</string>
+    <string name="accessibility_label_managed_profile">Hồ sơ công việc</string>
+    <string name="accessibility_label_private_profile">Không gian riêng tư</string>
     <string name="accessibility_magnification_chooser_text">Phóng to</string>
     <string name="accessibility_select_shortcut_menu_title">Nhấn vào một tính năng để bắt đầu sử dụng:</string>
     <string name="accessibility_service_action_perform_description">Dịch vụ này có thể theo dõi các hoạt động tương tác của bạn với một ứng dụng hoặc bộ cảm biến phần cứng, cũng như có thể thay mặt bạn tương tác với các ứng dụng.</string>
@@ -217,13 +222,13 @@ Bạn có thể chuyển phím tắt này thành một tính năng khác trong p
     <string name="accessibility_system_action_dpad_left_label">Chuyển sang trái bằng bàn phím di chuyển</string>
     <string name="accessibility_system_action_dpad_right_label">Chuyển sang phải bằng bàn phím di chuyển</string>
     <string name="accessibility_system_action_dpad_up_label">Chuyển lên trên bằng bàn phím di chuyển</string>
-    <string name="accessibility_system_action_hardware_a11y_shortcut_label">Phím tắt hỗ trợ tiếp cận</string>
+    <string name="accessibility_system_action_hardware_a11y_shortcut_label">Lối tắt hỗ trợ tiếp cận</string>
     <string name="accessibility_system_action_headset_hook_label">Giá treo tai nghe</string>
     <string name="accessibility_system_action_home_label">Nhà</string>
     <string name="accessibility_system_action_lock_screen_label">Khóa màn hình</string>
     <string name="accessibility_system_action_notifications_label">Thông báo</string>
-    <string name="accessibility_system_action_on_screen_a11y_shortcut_chooser_label">Bộ chọn phím tắt hỗ trợ tiếp cận trên màn hình</string>
-    <string name="accessibility_system_action_on_screen_a11y_shortcut_label">Phím tắt hỗ trợ tiếp cận trên màn hình</string>
+    <string name="accessibility_system_action_on_screen_a11y_shortcut_chooser_label">Bộ chọn lối tắt hỗ trợ tiếp cận trên màn hình</string>
+    <string name="accessibility_system_action_on_screen_a11y_shortcut_label">Lối tắt hỗ trợ tiếp cận trên màn hình</string>
     <string name="accessibility_system_action_power_dialog_label">Hộp thoại thao tác với nguồn</string>
     <string name="accessibility_system_action_quick_settings_label">Cài đặt nhanh</string>
     <string name="accessibility_system_action_recents_label">Ứng dụng gần đây</string>
@@ -264,9 +269,12 @@ Bạn có thể chuyển phím tắt này thành một tính năng khác trong p
     <string name="alert_windows_notification_channel_group_name">Hiển thị trên các ứng dụng khác</string>
     <string name="alert_windows_notification_channel_name">%s hiển thị trên các ứng dụng khác</string>
     <string name="alert_windows_notification_message">Nếu bạn không muốn %s sử dụng tính năng này, hãy nhấn để mở cài đặt và tắt tính năng này.</string>
-    <string name="alert_windows_notification_title">%s hiển thị trên ứng dụng khác</string>
+    <string name="alert_windows_notification_title">%s đang hiện trên các ứng dụng khác</string>
     <string name="alert_windows_notification_turn_off_action">Tắt</string>
     <string name="allow">Cho phép</string>
+    <string name="alternative_face_setup_notification_content">Hãy dùng tính năng Mở khoá bằng khuôn mặt khi thiết bị không nhận diện được vân tay của bạn, chẳng hạn như khi ngón tay bị ướt</string>
+    <string name="alternative_fp_setup_notification_content">Hãy dùng tính năng Mở khoá bằng vân tay khi thiết bị không nhận diện được khuôn mặt của bạn, chẳng hạn như khi thiếu ánh sáng</string>
+    <string name="alternative_unlock_setup_notification_title">Thử mở khoá bằng cách khác</string>
     <string name="alwaysUse">Sử dụng theo mặc định đối với tác vụ này.</string>
     <string name="android_preparing_apk">Đang chuẩn bị %1$s.</string>
     <string name="android_start_title">Điện thoại đang khởi động…</string>
@@ -297,12 +305,13 @@ Bạn có thể chuyển phím tắt này thành một tính năng khác trong p
     <string name="app_running_notification_title">%1$s đang chạy</string>
     <string name="app_streaming_blocked_message">Hiện tại, bạn không thể truy cập vào ứng dụng này trên %1$s. Hãy thử trên điện thoại.</string>
     <string name="app_streaming_blocked_message_for_fingerprint_dialog">Ứng dụng này đang yêu cầu tính năng bảo mật bổ sung. Hãy thử trên điện thoại.</string>
+    <string name="app_streaming_blocked_message_for_permission_request">Ứng dụng này đang yêu cầu thêm quyền, nhưng bạn không thể cấp quyền trong một phiên truyền trực tuyến. Trước tiên, hãy cấp quyền trên điện thoại của bạn.</string>
     <string name="app_streaming_blocked_message_for_settings_dialog">Hiện tại, bạn không thể truy cập vào ứng dụng này trên %1$s. Hãy thử trên điện thoại.</string>
     <string name="app_streaming_blocked_title">Không hỗ trợ %1$s</string>
     <string name="app_streaming_blocked_title_for_camera_dialog">Không dùng được máy ảnh</string>
     <string name="app_streaming_blocked_title_for_fingerprint_dialog">Tiếp tục trên điện thoại</string>
     <string name="app_streaming_blocked_title_for_microphone_dialog">Không dùng được micrô</string>
-    <string name="app_streaming_blocked_title_for_permission_dialog">Cần có quyền</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Yêu cầu quyền đã bị chặn</string>
     <string name="app_streaming_blocked_title_for_playstore_dialog">Cửa hàng Play không có sẵn</string>
     <string name="app_streaming_blocked_title_for_settings_dialog">Không dùng được các chế độ cài đặt của điện thoại</string>
     <string name="app_suspended_default_message">%1$s hiện không sử dụng được. Chính sách này do %2$s quản lý.</string>
@@ -337,7 +346,7 @@ Bạn có thể chuyển phím tắt này thành một tính năng khác trong p
     <string name="autofill_save_yes">Lưu</string>
     <string name="autofill_update_title">Cập nhật trong <b>%1$s</b>?</string>
     <string name="autofill_update_title_with_2types">Cập nhật %1$s và %2$s trong <b>%3$s</b>?</string>
-    <string name="autofill_update_title_with_3types">Cập nhật các mục này: %1$s, %2$s và %3$s trong <b>%4$s</b>?</string>
+    <string name="autofill_update_title_with_3types">Cập nhật các mục %1$s, %2$s và %3$s trong <b>%4$s</b>?</string>
     <string name="autofill_update_title_with_type">Cập nhật %1$s trong <b>%2$s</b>?</string>
     <string name="autofill_update_yes">Cập nhật</string>
     <string name="autofill_window_title">Tự động điền với %1$s</string>
@@ -351,6 +360,8 @@ Bạn có thể chuyển phím tắt này thành một tính năng khác trong p
     <string name="battery_saver_off_notification_title">Trình tiết kiệm pin đã tắt</string>
     <string name="beforeOneMonthDurationPast">Trước 1 tháng trước</string>
     <string name="biometric_app_setting_name">Dùng dữ liệu sinh trắc học</string>
+    <string name="biometric_dangling_notification_action_not_now">Để sau</string>
+    <string name="biometric_dangling_notification_action_set_up">Thiết lập</string>
     <string name="biometric_dialog_default_subtitle">Dùng dữ liệu sinh trắc học của bạn để tiếp tục</string>
     <string name="biometric_dialog_default_title">Xác minh danh tính của bạn</string>
     <string name="biometric_error_canceled">Đã hủy xác thực</string>
@@ -358,6 +369,7 @@ Bạn có thể chuyển phím tắt này thành một tính năng khác trong p
     <string name="biometric_error_generic">Lỗi khi xác thực</string>
     <string name="biometric_error_hw_unavailable">Không có phần cứng sinh trắc học</string>
     <string name="biometric_error_user_canceled">Đã hủy xác thực</string>
+    <string name="biometric_face_not_recognized">Không nhận dạng được khuôn mặt</string>
     <string name="biometric_not_recognized">Không nhận dạng được</string>
     <string name="biometric_or_screen_lock_app_setting_name">Dùng dữ liệu sinh trắc học hoặc phương thức khóa màn hình</string>
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Dùng dữ liệu sinh trắc học của bạn hoặc phương thức khóa màn hình để tiếp tục</string>
@@ -433,11 +445,16 @@ Bạn có thể chuyển phím tắt này thành một tính năng khác trong p
     <string name="config_pdp_reject_service_not_subscribed" />
     <string name="config_pdp_reject_user_authentication_failed" />
     <string name="confirm_battery_saver">OK</string>
+    <string name="connected_display_thermally_unavailable_notification_content">Thiết bị của bạn quá nóng nên không phản chiếu được nội dung lên màn hình. Hãy để thiết bị nguội bớt</string>
+    <string name="connected_display_unavailable_notification_content">Hãy dùng một cáp khác rồi thử lại</string>
+    <string name="connected_display_unavailable_notification_title">Không chiếu được nội dung lên màn hình</string>
     <string name="console_running_notification_message">Hiệu suất sẽ bị ảnh hưởng. Để tắt, hãy chọn trình tải khởi động.</string>
     <string name="console_running_notification_title">Đã bật bảng điều khiển cổng nối tiếp</string>
     <string name="contentServiceSync">Đồng bộ hóa</string>
     <string name="contentServiceSyncNotificationTitle">Không thể đồng bộ hóa</string>
     <string name="contentServiceTooManyDeletesNotificationDesc">Đã cố xóa quá nhiều %s.</string>
+    <string name="content_description_collapsed">Đã thu gọn</string>
+    <string name="content_description_expanded">Đã mở rộng</string>
     <string name="content_description_sliding_handle">Tay trượt. Chạm &amp; giữ.</string>
     <string name="conversation_single_line_image_placeholder">đã gửi hình ảnh</string>
     <string name="conversation_single_line_name_display">%1$s:</string>
@@ -510,6 +527,7 @@ Bạn đã dùng tai nghe ở mức âm lượng cao hơn khuyến nghị, đi�
     <string name="device_state_notification_settings_button">Chuyển đến phần Cài đặt</string>
     <string name="device_state_notification_turn_off_button">Tắt</string>
     <string name="device_storage_monitor_notification_channel">Bộ nhớ của thiết bị</string>
+    <string name="device_unlock_notification_name">Mở khoá thiết bị</string>
     <string name="dial_number_using">"Quay số
 sử dụng %s"</string>
     <string name="disable_accessibility_shortcut">Tắt phím tắt</string>
@@ -524,6 +542,7 @@ sử dụng %s"</string>
     <string name="dlg_ok">OK</string>
     <string name="done_accessibility_shortcut_menu_button">Xong</string>
     <string name="done_label">Xong</string>
+    <string name="dream_accessibility_action_click">đóng</string>
     <string name="dream_preview_title">Bản xem trước, %1$s</string>
     <string name="dump_heap_notification">%1$s đã vượt quá giới hạn bộ nhớ</string>
     <string name="dump_heap_notification_detail">Đã thu thập tệp báo lỗi. Hãy nhấn để chia sẻ.</string>
@@ -550,7 +569,9 @@ sử dụng %s"</string>
     <string name="duration_years_shortest_future">%d năm nữa</string>
     <string name="dynamic_mode_notification_channel_name">Thông báo cung cấp thông tin về chế độ sạc thông thường</string>
     <string name="dynamic_mode_notification_summary">Giảm mức sử dụng pin để kéo dài thời lượng pin</string>
+    <string name="dynamic_mode_notification_summary_v2">Trình tiết kiệm pin được bật để kéo dài thời lượng pin</string>
     <string name="dynamic_mode_notification_title">Đã bật Trình tiết kiệm pin</string>
+    <string name="dynamic_mode_notification_title_v2">Trình tiết kiệm pin đang bật</string>
     <string name="editTextMenuTitle">Tác vụ văn bản</string>
     <string name="edit_accessibility_shortcut_menu_button">Chỉnh sửa phím tắt</string>
     <string name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
@@ -565,6 +586,8 @@ sử dụng %s"</string>
     <string name="enablePin">Không thành công, kích hoạt tính năng khóa SIM/RUIM.</string>
     <string name="enable_explore_by_touch_warning_message">%1$s muốn bật Khám phá bằng cách chạm. Khi Khám phá bằng cách chạm được bật, bạn có thể nghe hoặc xem mô tả dưới ngón tay bạn hoặc thực hiện cử chỉ để tương tác với điện thoại.</string>
     <string name="enable_explore_by_touch_warning_title">Bật Khám phá bằng cách chạm?</string>
+    <string name="error_handwriting_unsupported">Trường này không hỗ trợ tính năng Viết tay</string>
+    <string name="error_handwriting_unsupported_password">Các trường mật khẩu không hỗ trợ tính năng Viết tay</string>
     <string name="error_message_change_not_allowed">Quản trị viên của bạn không cho phép thực hiện thay đổi này</string>
     <string name="error_message_title">Lỗi</string>
     <string name="etws_primary_default_message_earthquake">Hãy bình tĩnh và tìm kiếm nơi trú ẩn gần đó.</string>
@@ -634,7 +657,7 @@ sử dụng %s"</string>
     <string name="face_acquired_too_bright">Quá sáng. Hãy thử giảm độ sáng.</string>
     <string name="face_acquired_too_close">Đưa điện thoại ra xa hơn</string>
     <string name="face_acquired_too_dark">Không đủ ánh sáng</string>
-    <string name="face_acquired_too_different">Không thể nhận dạng khuôn mặt. Hãy thử lại.</string>
+    <string name="face_acquired_too_different">Không nhận dạng được khuôn mặt. Hãy thử lại.</string>
     <string name="face_acquired_too_far">Đưa điện thoại lại gần hơn</string>
     <string name="face_acquired_too_high">Nâng điện thoại lên cao hơn</string>
     <string name="face_acquired_too_left">Đưa điện thoại sang bên phải</string>
@@ -645,6 +668,8 @@ sử dụng %s"</string>
     <string name="face_app_setting_name">Dùng tính năng Mở khóa bằng khuôn mặt</string>
     <string name="face_authenticated_confirmation_required">Đã xác thực khuôn mặt, vui lòng nhấn để xác nhận</string>
     <string name="face_authenticated_no_confirmation_required">Đã xác thực khuôn mặt</string>
+    <string name="face_dangling_notification_msg">Không nhận dạng được mẫu khuôn mặt của bạn nữa. Hãy thiết lập lại tính năng Mở khoá bằng khuôn mặt.</string>
+    <string name="face_dangling_notification_title">Thiết lập lại tính năng Mở khoá bằng khuôn mặt</string>
     <string name="face_dialog_default_subtitle">Hãy dùng khuôn mặt của bạn để tiếp tục</string>
     <string name="face_error_canceled">Đã hủy thao tác dùng khuôn mặt.</string>
     <string name="face_error_hw_not_available">Không thể xác minh khuôn mặt. Phần cứng không có sẵn.</string>
@@ -667,8 +692,6 @@ sử dụng %s"</string>
     <string name="face_recalibrate_notification_name">Mở khóa bằng khuôn mặt</string>
     <string name="face_recalibrate_notification_title">Vấn đề với tính năng Mở khóa bằng khuôn mặt</string>
     <string name="face_sensor_privacy_enabled">Để dùng tính năng Mở khoá bằng khuôn mặt, hãy bật tuỳ chọn <b>Truy cập máy ảnh</b> trong phần Cài đặt > Quyền riêng tư</string>
-    <string name="face_setup_notification_content">Mở khóa điện thoại bằng cách nhìn vào điện thoại</string>
-    <string name="face_setup_notification_title">Thiết lập tính năng Mở khóa bằng khuôn mặt</string>
     <string name="faceunlock_multiple_failures">Đã vượt quá số lần Mở khóa bằng khuôn mặt tối đa</string>
     <string name="factory_reset_message">"Không thể sử dụng ứng dụng quản trị. Thiết bị của bạn sẽ bị xóa ngay bây giờ.
 
@@ -702,21 +725,27 @@ Hãy liên hệ với quản trị viên của tổ chức nếu bạn có thắ
     <string name="fingerprint_acquired_try_adjusting">Hãy thử điều chỉnh</string>
     <string name="fingerprint_app_setting_name">Dùng vân tay</string>
     <string name="fingerprint_authenticated">Đã xác thực vân tay</string>
+    <string name="fingerprint_dangling_notification_msg_1">Không nhận dạng được %s nữa.</string>
+    <string name="fingerprint_dangling_notification_msg_2">Không nhận dạng được %1$s và %2$s nữa.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_1">Không nhận dạng được %s nữa. Hãy thiết lập lại tính năng Mở khoá bằng vân tay.</string>
+    <string name="fingerprint_dangling_notification_msg_all_deleted_2">Không nhận dạng được %1$s và %2$s nữa. Hãy thiết lập lại tính năng Mở khoá bằng vân tay.</string>
+    <string name="fingerprint_dangling_notification_title">Thiết lập lại tính năng Mở khoá bằng vân tay</string>
     <string name="fingerprint_dialog_default_subtitle">Sử dụng dấu vân tay của bạn để tiếp tục</string>
-    <string name="fingerprint_error_bad_calibration">Không thể dùng cảm biến vân tay. Hãy liên hệ với một nhà cung cấp dịch vụ sửa chữa</string>
-    <string name="fingerprint_error_canceled">Thao tác dùng dấu vân tay bị hủy.</string>
-    <string name="fingerprint_error_hw_not_available">Phần cứng vân tay không khả dụng.</string>
-    <string name="fingerprint_error_hw_not_present">Thiết bị này không có cảm biến vân tay.</string>
+    <string name="fingerprint_dialog_use_fingerprint_instead">Không nhận dạng được khuôn mặt. Hãy dùng vân tay.</string>
+    <string name="fingerprint_error_bad_calibration">Không dùng được cảm biến vân tay. Hãy liên hệ với một nhà cung cấp dịch vụ sửa chữa.</string>
+    <string name="fingerprint_error_canceled">Đã huỷ thao tác dùng vân tay</string>
+    <string name="fingerprint_error_hw_not_available">Không có phần cứng xử lý vân tay</string>
+    <string name="fingerprint_error_hw_not_present">Thiết bị này không có cảm biến vân tay</string>
     <string name="fingerprint_error_lockout">Bạn đã thử quá nhiều lần. Hãy dùng phương thức khoá màn hình.</string>
     <string name="fingerprint_error_lockout_permanent">Bạn đã thử quá nhiều lần. Hãy dùng phương thức khoá màn hình.</string>
-    <string name="fingerprint_error_no_fingerprints">Chưa đăng ký vân tay.</string>
+    <string name="fingerprint_error_no_fingerprints">Chưa đăng ký vân tay</string>
     <string name="fingerprint_error_no_space">Không thể thiết lập vân tay</string>
     <string name="fingerprint_error_not_match">Không nhận dạng được vân tay</string>
     <string name="fingerprint_error_power_pressed">Đã nhấn nút nguồn</string>
-    <string name="fingerprint_error_security_update_required">Đã tạm thời tắt cảm biến.</string>
+    <string name="fingerprint_error_security_update_required">Đã tắt tạm thời cảm biến</string>
     <string name="fingerprint_error_timeout">Hết thời gian chờ thiết lập vân tay. Hãy thử lại.</string>
     <string name="fingerprint_error_unable_to_process">Không xử lý được vân tay. Hãy thử lại.</string>
-    <string name="fingerprint_error_user_canceled">Người dùng đã hủy thao tác dùng dấu vân tay.</string>
+    <string name="fingerprint_error_user_canceled">Người dùng đã huỷ thao tác sử dụng vân tay</string>
     <string name="fingerprint_error_vendor_unknown">Đã xảy ra lỗi. Hãy thử lại.</string>
     <string name="fingerprint_name_template">Ngón tay %d</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">Dùng vân tay hoặc phương thức khóa màn hình</string>
@@ -724,8 +753,6 @@ Hãy liên hệ với quản trị viên của tổ chức nếu bạn có thắ
     <string name="fingerprint_recalibrate_notification_content">Hãy liên hệ với một nhà cung cấp dịch vụ sửa chữa.</string>
     <string name="fingerprint_recalibrate_notification_name">Mở khóa bằng vân tay</string>
     <string name="fingerprint_recalibrate_notification_title">Không thể dùng cảm biến vân tay</string>
-    <string name="fingerprint_setup_notification_content">Nhấn để thêm vân tay</string>
-    <string name="fingerprint_setup_notification_title">Thiết lập thêm những cách mở khóa khác</string>
     <string name="fingerprint_udfps_error_not_match">Không nhận dạng được vân tay</string>
     <string name="fingerprints">Tệp tham chiếu:</string>
     <string name="floating_toolbar_close_overflow_description">Đóng tràn</string>
@@ -784,7 +811,7 @@ Hãy thử nhấn nhẹ khi thiết lập vân tay của bạn."</string>
     <string name="granularity_label_link">liên kết</string>
     <string name="granularity_label_word">từ</string>
     <string name="guest_name">Khách</string>
-    <string name="hardware">Hiện bàn phím ảo</string>
+    <string name="hardware">Sử dụng bàn phím ảo</string>
     <string name="harmful_app_warning_open_anyway">VẪN MỞ</string>
     <string name="harmful_app_warning_title">Đã phát hiện ứng dụng độc hại</string>
     <string name="harmful_app_warning_uninstall">GỠ CÀI ĐẶT</string>
@@ -832,7 +859,7 @@ Hãy thử nhấn nhẹ khi thiết lập vân tay của bạn."</string>
     <string name="ime_action_search">Tìm kiếm</string>
     <string name="ime_action_send">Gửi</string>
     <string name="imei">IMEI</string>
-    <string name="immersive_cling_description">Để thoát, hãy vuốt từ trên cùng xuống dưới.</string>
+    <string name="immersive_cling_description">Để thoát, hãy vuốt xuống từ đầu màn hình</string>
     <string name="immersive_cling_positive">OK</string>
     <string name="immersive_cling_title">Xem toàn màn hình</string>
     <string name="importance_from_person">Thông báo này quan trọng vì những người có liên quan.</string>
@@ -1195,6 +1222,8 @@ Hãy thử lại sau %2$d giây."</string>
     <string name="miniresolver_open_in_personal">Mở trong %s cá nhân?</string>
     <string name="miniresolver_open_in_work">Mở trong %s công việc?</string>
     <string name="miniresolver_open_work">Mở %s công việc?</string>
+    <string name="miniresolver_private_space_messages_information">Bạn chỉ có thể gửi tin nhắn SMS qua ứng dụng Tin nhắn cá nhân của mình.</string>
+    <string name="miniresolver_private_space_phone_information">Bạn chỉ có thể gọi điện qua ứng dụng Điện thoại cá nhân của mình. Cuộc gọi được thực hiện bằng ứng dụng Điện thoại cá nhân sẽ được thêm vào nhật ký cuộc gọi cá nhân của bạn.</string>
     <string name="miniresolver_sms_information">Tổ chức của bạn chỉ cho phép bạn gửi tin nhắn bằng ứng dụng công việc</string>
     <string name="miniresolver_switch">Chuyển</string>
     <string name="miniresolver_switch_to_work">Chuyển sang ứng dụng công việc?</string>
@@ -1274,6 +1303,7 @@ Thông báo nâng cao có thể đọc mọi nội dung thông báo, bao gồm c
     <string name="notification_channel_developer">Thông báo liên quan đến nhà phát triển</string>
     <string name="notification_channel_developer_important">Thông báo quan trọng liên quan đến nhà phát triển</string>
     <string name="notification_channel_device_admin">Thông báo từ quản trị viên CNTT của bạn</string>
+    <string name="notification_channel_display">Hiển thị</string>
     <string name="notification_channel_do_not_disturb">Không làm phiền</string>
     <string name="notification_channel_emergency_callback">Chế độ gọi lại khẩn cấp</string>
     <string name="notification_channel_foreground_service">Các ứng dụng tiêu thụ pin</string>
@@ -1295,6 +1325,7 @@ Thông báo nâng cao có thể đọc mọi nội dung thông báo, bao gồm c
     <string name="notification_channel_voice_mail">Thư thoại</string>
     <string name="notification_channel_vpn">Trạng thái VPN</string>
     <string name="notification_channel_wfc">Gọi qua Wi-Fi</string>
+    <string name="notification_compact_heads_up_reply">Trả lời</string>
     <string name="notification_content_abusive_bg_apps">%1$s đang chạy ẩn. Nhấn để quản lý mức sử dụng pin.</string>
     <string name="notification_content_long_running_fgs">%1$s có thể ảnh hưởng đến thời lượng pin. Hãy nhấn để xem các ứng dụng đang hoạt động.</string>
     <string name="notification_feedback_indicator">Gửi ý kiến phản hồi</string>
@@ -1331,7 +1362,8 @@ Thông báo nâng cao có thể đọc mọi nội dung thông báo, bao gồm c
     <string name="other_networks_no_internet">Mạng không có quyền truy cập Internet</string>
     <string name="owner_name">Chủ sở hữu</string>
     <string name="package_deleted_device_owner">Do quản trị viên của bạn xóa</string>
-    <string name="package_installed_device_owner">Do quản trị viên của bạn cài đặt</string>
+    <string name="package_installed_device_owner">"Do quản trị viên của bạn cài đặt.
+Chuyển đến phần cài đặt để xem các quyền được cấp"</string>
     <string name="package_updated_device_owner">Do quản trị viên của bạn cập nhật</string>
     <string name="passwordIncorrect">Mật khẩu không chính xác.</string>
     <string name="password_keyboard_label_alpha_key">ABC</string>
@@ -1348,7 +1380,9 @@ Thông báo nâng cao có thể đọc mọi nội dung thông báo, bao gồm c
     <string name="permdesc_accessCoarseLocation">Khi bạn dùng ứng dụng này, ứng dụng có thể nhận được thông tin vị trí gần đúng của bạn từ dịch vụ vị trí. Bạn phải bật dịch vụ vị trí trên thiết bị của mình thì ứng dụng mới nhận được thông tin vị trí.</string>
     <string name="permdesc_accessDrmCertificates">Cho phép ứng dụng cung cấp và sử dụng chứng chỉ DRM. Không cần thiết cho các ứng dụng thông thường.</string>
     <string name="permdesc_accessFineLocation">Khi bạn dùng ứng dụng này, ứng dụng có thể nhận được thông tin vị trí chính xác của bạn từ dịch vụ vị trí. Bạn phải bật dịch vụ vị trí trên thiết bị của mình thì ứng dụng mới nhận được thông tin vị trí. Việc này có thể làm tăng mức sử dụng pin.</string>
+    <string name="permdesc_accessHiddenProfile">Cho phép ứng dụng truy cập vào hồ sơ bị ẩn.</string>
     <string name="permdesc_accessImsCallService">Cho phép ứng dụng sử dụng dịch vụ IMS để thực hiện cuộc gọi mà không có sự can thiệp của bạn.</string>
+    <string name="permdesc_accessLastKnownCellId">Cho phép ứng dụng truy cập thông tin nhận dạng mạng di động đã biết gần đây nhất do nhà mạng điện thoại cung cấp.</string>
     <string name="permdesc_accessLocationExtraCommands">Cho phép ứng dụng truy cập vào các lệnh của nhà cung cấp vị trí bổ sung. Điều này có thể cho phép ứng dụng can thiệp vào hoạt động của Hệ thống định vị toàn cầu (GPS) hoặc các nguồn vị trí khác.</string>
     <string name="permdesc_accessNetworkConditions">Cho phép ứng dụng quan sát các điều kiện mạng. Không bao giờ cần cho ứng dụng thông thường.</string>
     <string name="permdesc_accessNetworkState">Cho phép ứng dụng xem thông tin về các kết nối mạng như mạng nào thoát và mạng nào được kết nối.</string>
@@ -1380,6 +1414,7 @@ Thông báo nâng cao có thể đọc mọi nội dung thông báo, bao gồm c
     <string name="permdesc_callCompanionApp">Cho phép ứng dụng xem và kiểm soát cuộc gọi đến trên thiết bị. Ứng dụng sẽ xem và kiểm soát các thông tin như số điện thoại của các cuộc gọi và trạng thái cuộc gọi.</string>
     <string name="permdesc_callPhone">Cho phép ứng dụng gọi cho các số điện thoại mà không cần bạn phải can thiệp. Việc này có thể làm phát sinh các khoản phí hoặc cuộc gọi không mong muốn. Xin lưu ý rằng quyền này không cho phép ứng dụng gọi cho các số khẩn cấp. Các ứng dụng độc hại có thể khiến bạn bị mất tiền thông qua việc thực hiện cuộc gọi khi chưa có sự xác nhận của bạn, hoặc có thể quay số theo mã của nhà mạng, khiến các cuộc gọi đến bị tự động chuyển tiếp đến một số khác.</string>
     <string name="permdesc_camera">Ứng dụng này có thể chụp ảnh và quay video bằng máy ảnh khi bạn đang dùng ứng dụng.</string>
+    <string name="permdesc_cameraHeadlessSystemUser">Ứng dụng này có thể truy cập vào camera dưới vai trò Người dùng hệ thống không có giao diện người dùng.</string>
     <string name="permdesc_cameraOpenCloseListener">Ứng dụng này có thể nhận các lệnh gọi lại khi có bất kỳ thiết bị camera nào đang được mở (bằng ứng dụng) hoặc đóng.</string>
     <string name="permdesc_changeNetworkState">Cho phép ứng dụng thay đổi trạng thái kết nối mạng.</string>
     <string name="permdesc_changeTetherState">Cho phép ứng dụng thay đổi trạng thái của kết nối mạng được dùng làm điểm truy cập Internet.</string>
@@ -1404,6 +1439,7 @@ Thông báo nâng cao có thể đọc mọi nội dung thông báo, bao gồm c
     <string name="permdesc_foregroundServiceHealth">Cho phép ứng dụng dùng các dịch vụ trên nền trước thuộc loại \"health\"</string>
     <string name="permdesc_foregroundServiceLocation">Cho phép ứng dụng dùng các dịch vụ trên nền trước thuộc loại \"location\"</string>
     <string name="permdesc_foregroundServiceMediaPlayback">Cho phép ứng dụng dùng các dịch vụ trên nền trước thuộc loại \"mediaPlayback\"</string>
+    <string name="permdesc_foregroundServiceMediaProcessing">Cho phép ứng dụng dùng các dịch vụ trên nền trước thuộc loại \"mediaProcessing\"</string>
     <string name="permdesc_foregroundServiceMediaProjection">Cho phép ứng dụng dùng các dịch vụ trên nền trước thuộc loại \"mediaProjection\"</string>
     <string name="permdesc_foregroundServiceMicrophone">Cho phép ứng dụng dùng các dịch vụ trên nền trước thuộc loại \"microphone\"</string>
     <string name="permdesc_foregroundServicePhoneCall">Cho phép ứng dụng dùng các dịch vụ trên nền trước thuộc loại \"phoneCall\"</string>
@@ -1431,6 +1467,7 @@ Thông báo nâng cao có thể đọc mọi nội dung thông báo, bao gồm c
     <string name="permdesc_modifyNetworkAccounting">Cho phép ứng dụng sửa đổi cách tính mức sử dụng mạng so với ứng dụng. Không dành cho các ứng dụng thông thường.</string>
     <string name="permdesc_nearby_wifi_devices">Cho phép ứng dụng này thông báo, kết nối và xác định vị trí tương đối của các thiết bị Wi‑Fi lân cận</string>
     <string name="permdesc_nfc">Cho phép ứng dụng giao tiếp với thẻ Giao tiếp trường gần (NFC), thẻ và trình đọc.</string>
+    <string name="permdesc_nfcTransactionEvent">Cho phép ứng dụng nhận thông tin về giao dịch diễn ra trên Phần tử bảo mật.</string>
     <string name="permdesc_observeCompanionDevicePresence">Cho phép một ứng dụng đồng hành phát hiện thiết bị đồng hành khi các thiết bị ở gần hoặc ở xa.</string>
     <string name="permdesc_persistentActivity">Cho phép ứng dụng tạo sự đồng nhất cho các phần của mình trong bộ nhớ. Việc này có thể hạn chế bộ nhớ đối với các ứng dụng khác đang làm chậm điện thoại.</string>
     <string name="permdesc_postNotification">Cho phép ứng dụng hiển thị thông báo</string>
@@ -1473,7 +1510,7 @@ Thông báo nâng cao có thể đọc mọi nội dung thông báo, bao gồm c
     <string name="permdesc_sdcardRead">Cho phép ứng dụng đọc nội dung của bộ nhớ dùng chung.</string>
     <string name="permdesc_sdcardWrite">Cho phép ứng dụng ghi nội dung của bộ nhớ dùng chung.</string>
     <string name="permdesc_sendSms">Cho phép ứng dụng gửi tin nhắn SMS. Việc này có thể dẫn đến các khoản phí không mong muốn. Các ứng dụng độc hai có thể khiến bạn tốn tiền bằng cách gửi tin nhắn mà không cần sự xác nhận của bạn.</string>
-    <string name="permdesc_setAlarm">"Cho phép ứng dụng đặt báo thức trong ứng dụng đồng hồ báo thức được cài đặt. Một số ứng dụng đồng hồ báo thức có thể không thực thi tính  năng này."</string>
+    <string name="permdesc_setAlarm">Cho phép ứng dụng đặt chuông báo trong ứng dụng đồng hồ được cài đặt. Một số ứng dụng đồng hồ có thể không có năng này.</string>
     <string name="permdesc_setInputCalibration">Cho phép ứng dụng sửa đổi các thông số hiệu chỉnh của màn hình cảm ứng. Không cần cho ứng dụng thông thường.</string>
     <string name="permdesc_setTimeZone">Cho phép ứng dụng thay đổi múi giờ của điện thoại.</string>
     <string name="permdesc_setWallpaper">Cho phép ứng dụng đặt hình nền hệ thống.</string>
@@ -1507,6 +1544,7 @@ Thông báo nâng cao có thể đọc mọi nội dung thông báo, bao gồm c
     <string name="permdesc_writeContacts">Cho phép ứng dụng sửa đổi dữ liệu về người liên hệ mà bạn lưu trữ trên điện thoại của mình. Quyền này cho phép ứng dụng xóa dữ liệu về người liên hệ.</string>
     <string name="permdesc_writeSettings">Cho phép ứng dụng sửa đổi dữ liệu cài đặt của hệ thống. Ứng dụng độc hại có thể làm hỏng cấu hình hệ thống của bạn.</string>
     <string name="permdesc_writeSyncSettings">Cho phép ứng dụng sửa đổi cài đặt đồng bộ hóa cho tài khoản. Ví dụ: ứng dụng có thể được sử dụng để cho phép đồng bộ hóa ứng dụng Mọi người với tài khoản.</string>
+    <string name="permdesc_writeVerificationStateE2eeContactKeys">Cho phép ứng dụng cập nhật trạng thái xác minh các khoá liên hệ E2EE do các ứng dụng khác sở hữu</string>
     <string name="permgroupdesc_activityRecognition">truy cập vào hoạt động thể chất</string>
     <string name="permgroupdesc_calendar">truy cập lịch của bạn</string>
     <string name="permgroupdesc_calllog">đọc và ghi nhật ký cuộc gọi điện thoại</string>
@@ -1547,7 +1585,9 @@ cho tài khoản %s."</string>
     <string name="permlab_accessCoarseLocation">chỉ truy cập thông tin vị trí gần đúng khi ứng dụng mở trên màn hình</string>
     <string name="permlab_accessDrmCertificates">truy cập chứng chỉ DRM</string>
     <string name="permlab_accessFineLocation">chỉ truy cập vị trí chính xác trong nền trước</string>
+    <string name="permlab_accessHiddenProfile">Truy cập vào hồ sơ bị ẩn</string>
     <string name="permlab_accessImsCallService">truy cập dịch vụ gọi điện qua IMS</string>
+    <string name="permlab_accessLastKnownCellId">Truy cập thông tin danh tính mạng di động đã biết gần đây nhất.</string>
     <string name="permlab_accessLocationExtraCommands">truy cập vào các lệnh của nhà cung cấp vị trí bổ sung</string>
     <string name="permlab_accessNetworkConditions">quan sát các điều kiện mạng</string>
     <string name="permlab_accessNetworkState">xem kết nối mạng</string>
@@ -1579,6 +1619,7 @@ cho tài khoản %s."</string>
     <string name="permlab_callCompanionApp">xem và kiểm soát cuộc gọi thông qua hệ thống.</string>
     <string name="permlab_callPhone">gọi trực tiếp số điện thoại</string>
     <string name="permlab_camera">chụp ảnh và quay video</string>
+    <string name="permlab_cameraHeadlessSystemUser">Cho phép ứng dụng hoặc dịch vụ truy cập vào camera dưới vai trò Người dùng hệ thống không có giao diện người dùng.</string>
     <string name="permlab_cameraOpenCloseListener">Cho phép một ứng dụng hoặc dịch vụ nhận lệnh gọi lại khi các thiết bị máy ảnh đang được mở/đóng.</string>
     <string name="permlab_changeNetworkState">thay đổi kết nối mạng</string>
     <string name="permlab_changeTetherState">thay đổi kết nối được dùng làm điểm truy cập Internet</string>
@@ -1603,6 +1644,7 @@ cho tài khoản %s."</string>
     <string name="permlab_foregroundServiceHealth">chạy dịch vụ trên nền trước thuộc loại \"health\"</string>
     <string name="permlab_foregroundServiceLocation">chạy dịch vụ trên nền trước thuộc loại \"location\"</string>
     <string name="permlab_foregroundServiceMediaPlayback">chạy dịch vụ trên nền trước thuộc loại \"mediaPlayback\"</string>
+    <string name="permlab_foregroundServiceMediaProcessing">chạy dịch vụ trên nền trước thuộc loại \"mediaProcessing\"</string>
     <string name="permlab_foregroundServiceMediaProjection">chạy dịch vụ trên nền trước thuộc loại \"mediaProjection\"</string>
     <string name="permlab_foregroundServiceMicrophone">chạy dịch vụ trên nền trước thuộc loại \"microphone\"</string>
     <string name="permlab_foregroundServicePhoneCall">chạy dịch vụ trên nền trước thuộc loại \"phoneCall\"</string>
@@ -1630,6 +1672,7 @@ cho tài khoản %s."</string>
     <string name="permlab_modifyNetworkAccounting">sửa đổi hạch toán sử dụng mạng</string>
     <string name="permlab_nearby_wifi_devices">tương tác với các thiết bị Wi‑Fi lân cận</string>
     <string name="permlab_nfc">kiểm soát Liên lạc trường gần</string>
+    <string name="permlab_nfcTransactionEvent">Sự kiện giao dịch trên Phần tử bảo mật</string>
     <string name="permlab_observeCompanionDevicePresence">Phát hiện thiết bị đồng hành</string>
     <string name="permlab_persistentActivity">đặt ứng dụng luôn chạy</string>
     <string name="permlab_postNotification">hiển thị thông báo</string>
@@ -1672,7 +1715,7 @@ cho tài khoản %s."</string>
     <string name="permlab_sdcardRead">đọc nội dung của bộ nhớ dùng chung</string>
     <string name="permlab_sdcardWrite">sửa đổi hoặc xóa nội dung của bộ nhớ dùng chung</string>
     <string name="permlab_sendSms">gửi và xem tin nhắn SMS</string>
-    <string name="permlab_setAlarm">đặt báo thức</string>
+    <string name="permlab_setAlarm">đặt chuông báo</string>
     <string name="permlab_setInputCalibration">thay đổi hiệu chỉnh thiết bị đầu vào</string>
     <string name="permlab_setTimeZone">đặt múi giờ</string>
     <string name="permlab_setWallpaper">đặt hình nền</string>
@@ -1705,6 +1748,7 @@ cho tài khoản %s."</string>
     <string name="permlab_writeContacts">sửa đổi danh sách liên hệ của bạn</string>
     <string name="permlab_writeSettings">sửa đổi các chế độ cài đặt hệ thống</string>
     <string name="permlab_writeSyncSettings">chuyển đổi bật và tắt đồng bộ hóa</string>
+    <string name="permlab_writeVerificationStateE2eeContactKeys">cập nhật trạng thái xác minh các khoá liên hệ E2EE do các ứng dụng khác sở hữu</string>
     <string name="perms_description_app">Được cung cấp bởi %1$s.</string>
     <string name="perms_new_perm_prefix"><font fgcolor="#ff33b5e5" size="12">MỚI: </font></string>
     <string name="personal_apps_suspended_turn_profile_on">Bật</string>
@@ -1714,7 +1758,7 @@ cho tài khoản %s."</string>
     <string name="phoneTypeAssistant">Số hỗ trợ</string>
     <string name="phoneTypeCallback">Số gọi lại</string>
     <string name="phoneTypeCar">Ô tô</string>
-    <string name="phoneTypeCompanyMain">Số ĐT CQ chính</string>
+    <string name="phoneTypeCompanyMain">Số chính ở nơi làm việc</string>
     <string name="phoneTypeCustom">Tùy chỉnh</string>
     <string name="phoneTypeFaxHome">Số fax nhà riêng</string>
     <string name="phoneTypeFaxWork">Số fax cơ quan</string>
@@ -1772,9 +1816,21 @@ cho tài khoản %s."</string>
     <string name="print_service_installed_title">Đã cài đặt dịch vụ %s</string>
     <string name="printing_disabled_by">%s đã tắt tính năng in.</string>
     <string name="private_dns_broken_detailed">Không thể truy cập máy chủ DNS riêng tư</string>
+    <string name="private_profile_label_badge">%1$s riêng tư</string>
+    <string name="private_space_biometric_prompt_title">Không gian riêng tư</string>
+    <string name="private_space_deleted_by_admin">Đã xoá không gian riêng tư</string>
+    <string name="private_space_deleted_by_admin_details">Tổ chức của bạn không cho phép tạo không gian riêng tư trên thiết bị được quản lý này.</string>
+    <string name="private_space_set_up_screen_lock_message">Để dùng không gian riêng tư, hãy thiết lập một phương thức khoá màn hình trên thiết bị này</string>
     <string name="profile_encrypted_detail">Đã khóa hồ sơ công việc</string>
     <string name="profile_encrypted_message">Nhấn để mở khóa hồ sơ công việc</string>
     <string name="profile_encrypted_title">Một số chức năng có thể bị hạn chế</string>
+    <string name="profile_label_clone">Sao chép</string>
+    <string name="profile_label_communal">Dùng chung</string>
+    <string name="profile_label_private">Riêng tư</string>
+    <string name="profile_label_test">Kiểm thử</string>
+    <string name="profile_label_work">Công việc</string>
+    <string name="profile_label_work_2">Công việc 2</string>
+    <string name="profile_label_work_3">Công việc 3</string>
     <string name="progress_erasing">Đang xóa bộ nhớ dùng chung…</string>
     <string name="quick_contacts_not_available">Không tìm thấy ứng dụng nào để xem liên hệ này.</string>
     <string name="rating_label">{rating,plural, =1{1/{max} sao}other{#/{max} sao}}</string>
@@ -1789,6 +1845,8 @@ cho tài khoản %s."</string>
     <string name="reboot_to_update_reboot">Đang khởi động lại…</string>
     <string name="reboot_to_update_title">Cập nhật hệ thống Android</string>
     <string name="recent_tasks_title">Gần đây</string>
+    <string name="redacted_notification_action_title" />
+    <string name="redacted_notification_message">Đã ẩn nội dung thông báo nhạy cảm</string>
     <string name="redo">Làm lại</string>
     <string name="reduce_bright_colors_feature_name">Siêu tối</string>
     <string name="region_picker_section_all">Tất cả khu vực</string>
@@ -1843,7 +1901,7 @@ cho tài khoản %s."</string>
     <string name="ringtone_default">Nhạc chuông mặc định</string>
     <string name="ringtone_default_with_actual">Mặc định (%1$s)</string>
     <string name="ringtone_picker_title">Nhạc chuông</string>
-    <string name="ringtone_picker_title_alarm">Âm thanh báo thức</string>
+    <string name="ringtone_picker_title_alarm">Âm thanh chuông báo</string>
     <string name="ringtone_picker_title_notification">Âm thanh thông báo</string>
     <string name="ringtone_silent">Không</string>
     <string name="ringtone_unknown">Không xác định</string>
@@ -1865,12 +1923,34 @@ cho tài khoản %s."</string>
     <string name="safe_media_volume_warning">"Bạn tăng âm lượng lên quá mức khuyên dùng?
 
 Việc nghe ở mức âm lượng cao trong thời gian dài có thể gây tổn thương thính giác của bạn."</string>
+    <string name="satellite_notification_how_it_works">Cách hoạt động</string>
+    <string name="satellite_notification_open_message">Mở ứng dụng Tin nhắn</string>
+    <string name="satellite_notification_summary">Bạn có thể gửi và nhận tin nhắn mà không cần có mạng di động hoặc mạng Wi-Fi</string>
+    <string name="satellite_notification_title">Đã tự động kết nối với vệ tinh</string>
+    <string name="scCellularNetworkSecuritySummary">Mã hoá, thông báo cho mạng chưa được mã hoá</string>
+    <string name="scCellularNetworkSecurityTitle">Bảo mật mạng di động</string>
+    <string name="scIdentifierDisclosureIssueSummary">"Vào %1$s, một mạng lân cận đã ghi lại mã nhận dạng duy nhất của thiết bị của bạn (IMSI hoặc IMEI) trong lúc sử dụng SIM %2$s của bạn.
+
+Tức là vị trí, hoạt động hoặc danh tính của bạn đã được ghi lại. Đây là một phương thức thông dụng nhưng có thể trở thành vấn đề đối với những ai lo ngại về quyền riêng tư."</string>
+    <string name="scIdentifierDisclosureIssueSummaryNotification">Vào %1$s, một mạng lân cận đã ghi nhận mã nhận dạng duy nhất của thiết bị của bạn (IMSI hoặc IMEI) trong lúc sử dụng SIM %2$s của bạn</string>
+    <string name="scIdentifierDisclosureIssueTitle">Mã thiết bị đã bị truy cập</string>
+    <string name="scNullCipherIssueActionGotIt">Tôi hiểu</string>
+    <string name="scNullCipherIssueActionLearnMore">Tìm hiểu thêm</string>
+    <string name="scNullCipherIssueActionSettings">Cài đặt an ninh mạng di động</string>
+    <string name="scNullCipherIssueEncryptedSummary">Kết nối SIM %1$s nay an toàn hơn</string>
+    <string name="scNullCipherIssueEncryptedTitle">Đã kết nối với mạng %1$s đã mã hoá</string>
+    <string name="scNullCipherIssueNonEncryptedSummary">"Cuộc gọi, tin nhắn và dữ liệu hiện dễ bị tấn công trong lúc sử dụng SIM %1$s của bạn.
+
+Khi kết nối của bạn được mã hoá lại, bạn sẽ nhận được một thông báo khác."</string>
+    <string name="scNullCipherIssueNonEncryptedSummaryNotification">Cuộc gọi, tin nhắn và dữ liệu hiện dễ bị tấn công trong lúc sử dụng SIM %1$s của bạn.</string>
+    <string name="scNullCipherIssueNonEncryptedTitle">Đã kết nối với mạng chưa được mã hoá</string>
     <string name="screen_compat_mode_hint">Bật lại chế độ này trong cài đặt Hệ thống > Ứng dụng > Đã tải xuống.</string>
     <string name="screen_compat_mode_scale">Tỷ lệ</string>
     <string name="screen_compat_mode_show">Luôn hiển thị</string>
     <string name="screen_lock">Phương thức khoá màn hình</string>
     <string name="screen_lock_app_setting_name">Dùng phương thức khóa màn hình</string>
     <string name="screen_lock_dialog_default_subtitle">Hãy nhập phương thức khóa màn hình của bạn để tiếp tục</string>
+    <string name="screen_not_shared_sensitive_content">Nội dung ứng dụng bị ẩn khỏi tính năng chia sẻ màn hình vì lý do bảo mật</string>
     <string name="screenshot_edit">Chỉnh sửa</string>
     <string name="search_hint">Tìm kiếm…</string>
     <string name="search_language_hint">Nhập tên ngôn ngữ</string>
@@ -1914,6 +1994,8 @@ Việc nghe ở mức âm lượng cao trong thời gian dài có thể gây t�
     <string name="serviceErased">Xóa thành công.</string>
     <string name="serviceNotProvisioned">Dịch vụ không được cấp phép.</string>
     <string name="serviceRegistered">Đăng ký thành công.</string>
+    <string name="set_up_screen_lock_action_label">Đặt phương thức khoá màn hình</string>
+    <string name="set_up_screen_lock_title">Đặt phương thức khoá màn hình</string>
     <string name="sha1_fingerprint">Vân tay SHA-1:</string>
     <string name="sha256_fingerprint">Vân tay SHA-256:</string>
     <string name="share">Chia sẻ</string>
@@ -2032,6 +2114,7 @@ Việc nghe ở mức âm lượng cao trong thời gian dài có thể gây t�
     <string name="twilight_service">Dịch vụ Twilight</string>
     <string name="ui_translation_accessibility_translated_text">Đã dịch %1$s.</string>
     <string name="ui_translation_accessibility_translation_finished">Đã dịch thông báo từ %1$s sang %2$s.</string>
+    <string name="unarchival_session_app_label">Đang chờ xử lý...</string>
     <string name="undo">Hủy</string>
     <string name="unpin_specific_target">Bỏ ghim %1$s</string>
     <string name="unpin_target">Bỏ ghim</string>
@@ -2192,7 +2275,13 @@ Bạn có muốn đóng trang không?"</string>
     <string name="zen_mode_feature_name">Không làm phiền</string>
     <string name="zen_mode_forever">Cho đến khi bạn tắt</string>
     <string name="zen_mode_forever_dnd">Cho đến khi bạn tắt Đừng làm phiền</string>
+    <string name="zen_mode_implicit_activated">Bật</string>
+    <string name="zen_mode_implicit_deactivated">Tắt</string>
+    <string name="zen_mode_implicit_trigger_description">Do %1$s quản lý</string>
     <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
+    <string name="zen_mode_trigger_event_calendar_any">Bất kỳ lịch nào</string>
+    <string name="zen_mode_trigger_summary_divider_text">", "</string>
+    <string name="zen_mode_trigger_summary_range_symbol_combination">%1$s – %2$s</string>
     <string name="zen_mode_until">Cho đến %1$s</string>
     <string name="zen_mode_until_next_day">Cho tới %1$s</string>
     <string name="zen_upgrade_notification_content">Nhấn để xem những thông báo bị chặn.</string>
