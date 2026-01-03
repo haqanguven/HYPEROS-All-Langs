@@ -13,14 +13,14 @@
         <item>Grande</item>
     </string-array>
     <string-array name="ai_key_item_name">
-        <item>Hable con el Asistente de Google</item>
+        <item>Hablar con el Asistente de Google</item>
         <item>Abrir búsqueda de Google</item>
         <item>Abrir cámara trasera</item>
         <item>Abrir cámara frontal</item>
         <item>Abrir la aplicación anterior</item>
-        <item>Encender linterna</item>
-        <item>Activar modo lectura</item>
-        <item>Nada</item>
+        <item>Encender la linterna</item>
+        <item>Activar el Modo lectura</item>
+        <item>Ninguno</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Diario</item>
@@ -45,7 +45,7 @@
     </string-array>
     <string-array name="ap_identify">
         <item>Predeterminado</item>
-        <item>Punto de acceso móvil</item>
+        <item>Punto de acceso portátil</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>Ninguno</item>
@@ -94,7 +94,7 @@
         <item>Enfoque de audio</item>
         <item>Volumen principal</item>
         <item>Volumen de voz</item>
-        <item>Volumen de tono</item>
+        <item>Volumen del tono</item>
         <item>Volumen de medios</item>
         <item>Volumen de alarma</item>
         <item>Volumen de notificación</item>
@@ -202,7 +202,7 @@
     </string-array>
     <string-array name="autofill_logging_level_entries">
         <item>Desactivado</item>
-        <item>Depurado</item>
+        <item>Depuración</item>
         <item>Detallado</item>
     </string-array>
     <string-array name="automatic_storage_management_days">
@@ -313,18 +313,20 @@
         <item>Mejor efecto (tasa de bits automática)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Usar selección del sistema (predeterminado)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
+        <item>Usar preferencia del sistema (por defecto)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Usar selección del sistema (predeterminado)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
+        <item>Usar preferencia del sistema (Por defecto)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Usar preferencia del sistema (por defecto)</item>
@@ -543,7 +545,7 @@
         <item>Pantalla de bloqueo</item>
         <item>Contraseña de privacidad</item>
         <item>Modo infantil</item>
-        <item>Administrador</item>
+        <item>Administrador de archivos</item>
         <item>Bloqueo de aplicaciones</item>
         <item>Segundo espacio</item>
     </string-array>
@@ -582,6 +584,7 @@
         <item>Mostrar áreas superpuestas</item>
         <item>Mostrar áreas para deuteranomalía</item>
     </string-array>
+    <array name="display_over_apps_permission_change_exempt" />
     <string-array name="eap_ocsp_type">
         <item>No verificar</item>
         <item>Solicitar estado del certificado</item>
@@ -742,8 +745,8 @@
     </string-array>
     <string-array name="long_press_volume_down_action">
         <item>Nada</item>
-        <item>Modo disparo rápido (foto)</item>
-        <item>Modo disparo rápido (video)</item>
+        <item>Modo de toma rápida (foto)</item>
+        <item>Modo toma rápida (video)</item>
         <item>Atajos de transporte público</item>
     </string-array>
     <string-array name="max_number_titles">
@@ -1035,7 +1038,7 @@ Nota: solo para Ubuntu 8.04"</item>
     <string-array name="preferred_app_entries">
         <item>Ejecutador</item>
         <item>Marcar</item>
-        <item>Mensajes</item>
+        <item>Mensajería</item>
         <item>Navegador</item>
         <item>Cámara</item>
         <item>Galería</item>
@@ -1105,6 +1108,33 @@ Nota: solo para Ubuntu 8.04"</item>
         <item>Normal</item>
         <item>Frío</item>
     </string-array>
+    <string-array name="screen_flash_color_entries">
+        <item>@string/screen_flash_color_none</item>
+        <item>@string/screen_flash_color_blue</item>
+        <item>@string/screen_flash_color_green</item>
+        <item>@string/screen_flash_color_yellow</item>
+        <item>@string/screen_flash_color_orange</item>
+        <item>@string/screen_flash_color_red</item>
+        <item>@string/screen_flash_color_violet</item>
+    </string-array>
+    <array name="screen_flash_color_icons">
+        <item>@drawable/screen_flash_color_none</item>
+        <item>@drawable/screen_flash_color_blue</item>
+        <item>@drawable/screen_flash_color_green</item>
+        <item>@drawable/screen_flash_color_yellow</item>
+        <item>@drawable/screen_flash_color_orange</item>
+        <item>@drawable/screen_flash_color_red</item>
+        <item>@drawable/screen_flash_color_violet</item>
+    </array>
+    <string-array name="screen_flash_color_values">
+        <item>0</item>
+        <item>4D0000FE</item>
+        <item>6600FF01</item>
+        <item>66FFFF00</item>
+        <item>66FF7F00</item>
+        <item>66FE0000</item>
+        <item>667F00FF</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0.5 segundos</item>
         <item>1 segundo</item>
@@ -1112,8 +1142,8 @@ Nota: solo para Ubuntu 8.04"</item>
         <item>2 segundos</item>
     </string-array>
     <string-array name="screen_key_position_action">
-        <item>Botón Menú a la izquierda, botón Atrás a la derecha</item>
-        <item>Botón Atrás a la izquierda, botón Menú a la derecha</item>
+        <item>Botón de Menú a la izquierda, botón Atrás a la derecha</item>
+        <item>Botón Atrás a la izquierda, botón de Menú a la derecha</item>
     </string-array>
     <string-array name="screen_key_press_action">
         <item>Mostrar bandeja de aplicaciones recientes</item>
@@ -1124,9 +1154,17 @@ Nota: solo para Ubuntu 8.04"</item>
         <item>Siempre mejorar colores</item>
         <item>El contraste permanecerá constante</item>
     </string-array>
+    <string-array name="screen_optimize_summary_new">
+        <item>Colores mejorados para una visualización más vibrante</item>
+        <item>Restaurar los colores de pantalla estándar</item>
+    </string-array>
     <string-array name="screen_optimize_title">
         <item>Vivido (recomendado)</item>
         <item>Saturado</item>
+        <item>Estándar</item>
+    </string-array>
+    <string-array name="screen_optimize_title_new">
+        <item>Vívido (recomendado)</item>
         <item>Estándar</item>
     </string-array>
     <string-array name="screen_resolution_format">
@@ -1208,6 +1246,24 @@ Nota: solo para Ubuntu 8.04"</item>
         <item>Excepto radio</item>
         <item>solo kernel</item>
     </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Solo en la pantalla del dispositivo (predeterminado)</item>
+        <item>Pantalla externa</item>
+        <item>Última interacción con la barra de estado</item>
+        <item>Basado en el enfoque</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Mostrar sobra solo en la pantalla del dispositivo</item>
+        <item>Mostrar panel en una sola pantalla externa</item>
+        <item>Mostrar el panel de la última pantalla en la que se interactuó con su barra de estado</item>
+        <item>Mostrar el panel en la última pantalla enfocada</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>default_display</item>
+        <item>any_external_display</item>
+        <item>status_bar_latest_touch</item>
+        <item>focused_display</item>
+    </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Desactivado</item>
         <item>Recorte no rectangular en azul</item>
@@ -1265,12 +1321,6 @@ Nota: solo para Ubuntu 8.04"</item>
     <string-array name="tabs_taptic_detail_m2">
         <item>Nítido</item>
         <item>Sólido</item>
-    </string-array>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Cargando</item>
-        <item>Descanso</item>
-        <item>Modo de ahorro de energía</item>
-        <item>Estado del proceso</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1335,10 +1385,18 @@ Nota: solo para Ubuntu 8.04"</item>
         <item>Mejorar siempre los colores</item>
         <item>Restaurar el color estándar del contenido de la pantalla con la calibración del color</item>
     </string-array>
+    <string-array name="true_color_screen_optimize_summary_new">
+        <item>Colores mejorados para una visualización más vibrante</item>
+        <item>Restaure el color estándar del contenido de la pantalla con la calibración del color</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Vivido (recomendado)</item>
         <item>Saturado</item>
         <item>Color original</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title_new">
+        <item>Vívido (recomendado)</item>
+        <item>Original</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>60%</item>
@@ -1353,7 +1411,7 @@ Nota: solo para Ubuntu 8.04"</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
         <item>Muy lento</item>
-        <item>Lento</item>
+        <item>Lenta</item>
         <item>Normal</item>
         <item>Rápido</item>
         <item>Más rápido</item>
@@ -1393,10 +1451,10 @@ Nota: solo para Ubuntu 8.04"</item>
         <item>Manual</item>
     </string-array>
     <string-array name="vpn_states">
-        <item>Desconectado</item>
+        <item>Desconectada</item>
         <item>Iniciando...</item>
         <item>Conectando...</item>
-        <item>Conectado</item>
+        <item>Conectada</item>
         <item>Tiempo de espera agotado</item>
         <item>Incorrecta</item>
     </string-array>
@@ -1499,7 +1557,7 @@ Nota: solo para Ubuntu 8.04"</item>
     <string-array name="wifi_proxy_settings">
         <item>Ninguno</item>
         <item>Manual</item>
-        <item>Config. automática proxy</item>
+        <item>Config. automática de proxy</item>
     </string-array>
     <string-array name="wifi_security">
         <item>@string/wifi_security_none</item>
@@ -1538,7 +1596,7 @@ Nota: solo para Ubuntu 8.04"</item>
         <item>Conectando a %1$s…</item>
         <item>Autenticando con %1$s…</item>
         <item>Obteniendo dirección IP de %1$s…</item>
-        <item>Conectado a %1$s</item>
+        <item>Se estableció conexión con %1$s</item>
         <item>Suspendido</item>
         <item>Desconectando de %1$s…</item>
         <item>Desconectado</item>
@@ -1574,5 +1632,47 @@ Nota: solo para Ubuntu 8.04"</item>
         <item>Escala de animación 2x</item>
         <item>Escala de animación 5x</item>
         <item>Escala de animación 10x</item>
+    </string-array>
+    <string-array name="zen_mode_icon_options_descriptions">
+        <item>Maletín</item>
+        <item>Edificio clásico</item>
+        <item>Edificio de apartamentos</item>
+        <item>Globo de diálogo</item>
+        <item>Grupo de personas</item>
+        <item>Bombilla</item>
+        <item>Calendario</item>
+        <item>No interrumpir</item>
+        <item>Persona corriendo</item>
+        <item>Golf</item>
+        <item>Mancuerna</item>
+        <item>Natación</item>
+        <item>Persona caminando</item>
+        <item>Persona arrojando una pelota</item>
+        <item>Persona pateando</item>
+        <item>Control de juegos</item>
+        <item>Paleta de colores del artista</item>
+        <item>Copo de nieve</item>
+        <item>Sombrilla</item>
+        <item>Herramientas de taller</item>
+        <item>Piano</item>
+        <item>Rollo de película</item>
+        <item>Libro</item>
+        <item>Flor de loto</item>
+        <item>Mente de una persona</item>
+        <item>Auriculares</item>
+        <item>TV</item>
+        <item>Tren</item>
+        <item>Auto</item>
+        <item>Tenedor y cuchillo</item>
+        <item>Carrito de compras</item>
+        <item>Niño</item>
+        <item>Pata de animal</item>
+        <item>Insignia de estrella</item>
+        <item>Dos personas</item>
+        <item>Estrella</item>
+        <item>Corazón</item>
+        <item>Casa</item>
+        <item>Media luna</item>
+        <item>Reloj</item>
     </string-array>
 </resources>

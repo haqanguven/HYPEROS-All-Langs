@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Поділитися:</string>
     <string name="abc_shareactionprovider_share_with_application">Поділитися через додаток %s</string>
     <string name="abc_toolbar_collapse_description">Згорнути</string>
+    <string name="accessibility_sliding_button_state_description_off">Вимкнено</string>
+    <string name="accessibility_sliding_button_state_description_on">Увімкнено</string>
+    <string name="accessibility_tab_state_description_unselect">Не вибрано</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="activity_title_ad">Реклама</string>
     <string name="activity_title_apk">Пакети APK</string>
@@ -125,13 +128,11 @@
     <string name="auto_cleaner_open">Увімкнути</string>
     <string name="back">Назад</string>
     <string name="be_figuring">Обчислення…</string>
-    <string name="btn_text_done">Зроблено</string>
     <string name="btn_text_quick_cleanup">"Очищення пам'яті"</string>
     <string name="btn_text_quick_cleanup_apk">Видалити обрані APK %1$s</string>
     <string name="btn_text_quick_cleanup_appdata">Видалити обрані дані %1$s</string>
     <string name="btn_text_quick_cleanup_large_file">Видалити обрані файли %1$s</string>
     <string name="btn_text_quick_cleanup_video">Видалити обрані відео %1$s</string>
-    <string name="btn_text_quick_scan">Сканувати</string>
     <string name="btn_text_stop">Зупинити</string>
     <string name="button_text_add_to_white_list">Виняток</string>
     <string name="button_text_backup_uninstall">Створити бекап</string>
@@ -159,7 +160,6 @@
     <string name="button_text_unselect_pic">Зняти вибір</string>
     <string name="button_text_view_detail">Докладно</string>
     <string name="button_text_view_file">Файл</string>
-    <string name="buy_a_new_phone">Отримати більше місця</string>
     <string name="buy_immediately">Купити</string>
     <string name="buy_traffic_pack">Замовити додатковий трафік</string>
     <string name="byteShort">Б</string>
@@ -179,8 +179,8 @@
     <string name="cd_check_box_checked">вибрано</string>
     <string name="cd_check_box_middle">вибрано частково</string>
     <string name="cd_check_box_unchecked">не вибрано</string>
-    <string name="cd_list_item_collapse">згорнуто</string>
-    <string name="cd_list_item_expanded">розгорнуто</string>
+    <string name="cd_list_item_collapse">Згорнуто</string>
+    <string name="cd_list_item_expanded">Розгорнуто</string>
     <string name="cd_percent">відсоток</string>
     <string name="cd_scanning">сканування</string>
     <string name="cd_settings">налаштування</string>
@@ -226,7 +226,6 @@
     <string name="common_signin_button_text">Увійти</string>
     <string name="common_signin_button_text_long">Увійти в облік. запис Google</string>
     <string name="confirm_auto_cleaner">OK</string>
-    <string name="conn_of_function_safe">Мережеве підключення програми \"Безпека\"</string>
     <string name="connecting">Підключення…</string>
     <string name="copy">Скопіювати</string>
     <string name="copy_toast_msg">Посилання скопійовано в буфер обміну</string>
@@ -256,7 +255,9 @@
     <string name="dc_storage_info_new">%1$s доступно</string>
     <string name="deep_clean_completed_tips">Очищено успішно</string>
     <string name="deep_clean_data_path_clean_title">Очистити кеш</string>
+    <string name="deep_clean_down">За спаданням</string>
     <string name="deep_clean_uninstall_completed_tips">Видалено успішно</string>
+    <string name="deep_clean_up">За зростанням</string>
     <string name="deepclean_1_k_clean">"Очистити пам'ять"</string>
     <string name="deepclean_apk_content">Видалити APK або непотрібні програми</string>
     <string name="deepclean_apk_group_hint_checked">Вибрати все</string>
@@ -292,6 +293,7 @@
     <string name="deepclean_video_content">Видаліть вже переглянуті або непотрібні відео</string>
     <string name="deepclean_video_summary_empty">Зараз все добре</string>
     <string name="default_cache_type">Файли кеша</string>
+    <string name="delete">Видалити</string>
     <string name="delete_confirm">Видалити</string>
     <string name="delete_confirm_msg">Видалити всі вибрані файли назавжди?</string>
     <string name="desc_image">зображення</string>
@@ -303,8 +305,14 @@
     <string name="dialog_msg_esc_cleanmaster">Зупинити сканування та вийти?</string>
     <string name="dialog_msg_load_cleanup_engine_error">Двигун очищення був пошкоджений.</string>
     <string name="dialog_msg_stop_scan">Зупинити сканування зараз?</string>
+    <string name="dialog_msg_uninstall_app_os3">Видалення програми призведе до очищення всіх її даних.</string>
     <string name="dialog_msg_uninstall_apps">Видалити програми?</string>
+    <string name="dialog_msg_uninstall_apps_comfirm">Я розумію, що дані віддаленої програми не підлягають відновленню</string>
+    <string name="dialog_msg_uninstall_apps_os3">Видалення очистить всі дані програми.</string>
+    <string name="dialog_msg_uninstall_apps_toast">Підтвердіть, що ви розумієте, що дані віддаленої програми не підлягають відновленню</string>
     <string name="dialog_msg_uninstall_apps_xspace">Видалити ці програми, включаючи клоновані?</string>
+    <string name="dialog_msg_uninstall_apps_xspace_os3">Клонована програма буде видалена разом з цією.</string>
+    <string name="dialog_msg_uninstall_apps_xspace_os3_multiple">Відповідні клони програм будуть видалені разом із даними програми.</string>
     <string name="dialog_ok_add_white_list_error">Зрозуміло</string>
     <string name="dialog_title_add_white_list_error">Увага</string>
     <string name="dialog_title_backup_and_uninstall_apps">Створити бекап та видалити</string>
@@ -416,9 +424,8 @@
     <string name="friday_short">Пт</string>
     <string name="friday_shortest">Пт</string>
     <string name="function_app_lock_title">%d програм містять ризики конфіденційності</string>
-    <string name="garbage_clean_detail">Подробиці</string>
-    <string name="garbage_month">Очищено %s цього місяця</string>
     <string name="gigabyteShort">ГБ</string>
+    <string name="global_summary_wa_setting">Отримувати сповіщення, коли сміття у WhatsApp перевищує обраний розмір</string>
     <string name="global_wa_audio">Аудіо</string>
     <string name="global_wa_audio_item_title">Голосове повідомлення</string>
     <string name="global_wa_backend_alert_dialog_content">"Звільніть пам'ять видаляючи об'єкти WhatsApp"</string>
@@ -471,7 +478,6 @@
     <string name="global_wa_shortcut_toast">Іконку на робочому столі створено успішно</string>
     <string name="global_wa_wrapper">Шпалери</string>
     <string name="go_to">Продовжити</string>
-    <string name="golbal_wa_backend_alert_dialog_btn">Відкрити</string>
     <string name="goto_set">Налаштувати</string>
     <string name="grabage_rank_title">Очищено сьогодні</string>
     <string name="guide_dc_dialog_message_new">"Залишилося менше %d ГБ вільного місця. Це може сповільнити ваш пристрій. Запустіть глибоке очищення, щоб звільнити місце в пам'яті."</string>
@@ -540,7 +546,6 @@
     <string name="hints_title_garbage">Сміття</string>
     <string name="hints_video_camera">Зняті відео</string>
     <string name="hints_video_download">Завантажені відео</string>
-    <string name="hot">Популярні</string>
     <string name="hot_today">Популярні сьогодні</string>
     <string name="information_setting">Рекомендації</string>
     <string name="install_sucess">%s встановлено успішно</string>
@@ -572,7 +577,6 @@
     <string name="mainbtn_text_quick_cleanup">Очистити \"%s\"</string>
     <string name="mainbtn_text_quick_cleanup_default">Очищення</string>
     <string name="megabyteShort">МБ</string>
-    <string name="memeory_check_content">"Програм: %1$d | Пам'ять: %2$s"</string>
     <string name="memory_clean_icon_text">Збільшити швидкість</string>
     <string name="memory_clean_no_trash_tip">Зараз все добре</string>
     <string name="menu_add_to_white_list">Додати до винятків</string>
@@ -583,9 +587,16 @@
     <string name="menu_view">Переглянути у папці</string>
     <string name="midnight">Ніч</string>
     <string name="miuix_access_state_desc">Вибрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Згорнуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Розгорнуто</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Вийти з режиму редагування</string>
+    <string name="miuix_appcompat_accessibility_new_message">Нове сповіщення</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Ввійти в режим редагування</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Зняти вибір</string>
     <string name="miuix_appcompat_action_mode_select_all">Вибрати все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Вибрати</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Вибрати</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Ще</string>
     <string name="miuix_appcompat_cancel_description">Скасувати</string>
     <string name="miuix_appcompat_confirm_description">Підтвердити</string>
@@ -598,6 +609,8 @@
     <string name="miuix_appcompat_select_all">Вибрати все</string>
     <string name="miuix_appcompat_select_all_description">Вибрати все</string>
     <string name="miuix_appcompat_select_item">Вибрати елементи</string>
+    <string name="miuix_appcompat_show_dialog_description">Спливаюче вікно</string>
+    <string name="miuix_progressbar_loading">Завантаження</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потягніть вниз для оновлення</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Оновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Оновлення…</string>
@@ -606,6 +619,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Більше нічого немає</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Хвилинку…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не вдалося завантажити елементи</string>
+    <string name="miuix_show_password">Показати пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Згорнуто</string>
+    <string name="miuix_stretchablewidget_expanded">Розгорнуто</string>
     <string name="monday">Понеділок</string>
     <string name="monday_short">Пон</string>
     <string name="monday_shortest">Пн</string>
@@ -661,6 +677,7 @@
     <string name="native_media_view">Графічний контент</string>
     <string name="nb_clear_set">Очищуйте кеш, переглядайте статус батареї та інформацію про чорний список у панелі сповіщень</string>
     <string name="network_not_available">Не вдається підключитися до мережі</string>
+    <string name="never_remind">Ніколи</string>
     <string name="news_change">Змінити</string>
     <string name="night">Вечір</string>
     <string name="no_network">Не вдалося підключитися до мережі, повторіть спробу пізніше</string>
@@ -748,6 +765,7 @@
     <string name="open_app">Відкрити</string>
     <string name="open_browser">Відкрити у браузері</string>
     <string name="open_file_error">Не вдалося знайти програму, щоб відкрити цей файл</string>
+    <string name="out">Більше за %s</string>
     <string name="output_videos">Експорт відео</string>
     <string name="permission_dialog_storage_btn1">Налаштування</string>
     <string name="permission_dialog_storage_btn2">Скасувати</string>
@@ -775,10 +793,12 @@
     <string name="pref_category_title_cleanup_white_list">Винятки</string>
     <string name="pref_category_title_engine_settings">Налаштування сканування</string>
     <string name="pref_category_title_garbage_cleanup_check">Сповіщення</string>
+    <string name="pref_category_title_notification_settings">Сповіщення</string>
     <string name="pref_category_title_other_clean_settings">Додаткові налаштування</string>
     <string name="pref_content_cleanup_white_list_none">Нічого</string>
     <string name="pref_summary_auto_clean_and_alert">Налаштуйте автоматичний запуск очищення</string>
     <string name="pref_summary_auto_update_cleanup_db">Останнє оновлення: %s</string>
+    <string name="pref_summary_clean_settings">Отримувати сповіщення, коли сміття перевищує обраний розмір</string>
     <string name="pref_summary_cleanup_white_list">Файли зі списку винятків не будуть очищені</string>
     <string name="pref_summary_expand_cache_group">Показувати вміст кешу</string>
     <string name="pref_summary_garbage_auto_clean_content">Виберіть елементи для автоматичного очищення</string>
@@ -786,6 +806,8 @@
     <string name="pref_summary_garbage_cleanup_check_time">Створити розклад очищення</string>
     <string name="pref_summary_garbage_process_mode">Налаштувати сповіщення про очищення</string>
     <string name="pref_summary_open_optimizer_cloud_scan">Завантажувати та зіставляти назви невідомих файлів з їх визначеннями</string>
+    <string name="pref_summary_reminder_interval">Отримувати тільки одне сповіщення протягом обраного часу</string>
+    <string name="pref_summary_wechat_clean_settings">Отримувати сповіщення, коли сміття у WeChat перевищує обраний розмір</string>
     <string name="pref_title_apps_cleanup_size">Коли розмір кешу досягне</string>
     <string name="pref_title_auto_clean_content_choose">Вибрати елементи очищення</string>
     <string name="pref_title_auto_update_cleanup_db">Автооновлення</string>
@@ -793,6 +815,7 @@
     <string name="pref_title_clean_alert">Нагадати про очищення</string>
     <string name="pref_title_cleanup_white_list">Винятки</string>
     <string name="pref_title_create_onekeyclean_shortcut">Показати ярлик на робочому столі</string>
+    <string name="pref_title_engine">Сигнатури сканування</string>
     <string name="pref_title_expand_cache_group">Розкривати категорії кешу</string>
     <string name="pref_title_garbage_cleanup_check_size">Розмір сміття</string>
     <string name="pref_title_garbage_cleanup_check_time">Розклад</string>
@@ -813,18 +836,10 @@
     <string name="qq_clean">Очищення QQ</string>
     <string name="qq_clean_exit_confirm_msg">Зупинити сканування та вийти зараз?</string>
     <string name="qq_clean_finish_summary">Вибрані файли успішно видалено</string>
-    <string name="qq_data_type_cache">Кеш QQ</string>
-    <string name="qq_data_type_cache_desc">Ви зможете відновити ці файли після підключення до інтернету.</string>
-    <string name="qq_data_type_chat">Історія чату</string>
-    <string name="qq_data_type_chat_desc">Ви не зможете відновити історію чату.</string>
-    <string name="qq_data_type_normal">Сміття</string>
-    <string name="qq_data_type_normal_clean_tips">Це - технічні файли. Їх видалення не вплине на роботу.</string>
-    <string name="qq_data_type_normal_desc">Їх видалення не вплине на роботу.</string>
-    <string name="qq_data_type_other">Інше</string>
-    <string name="qq_data_type_other_desc">Будьте обережні, ви не зможете відновити ці файли після їх видалення.</string>
     <string name="recommend_news">Отримувати рекомендації</string>
     <string name="recommend_the_following">Виконайте наступні дії, щоб отримати максимальну продуктивність від вашого пристрою</string>
     <string name="recommended">Рекомендовані</string>
+    <string name="reminder_interval">Інтервал нагадування</string>
     <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> файлів можуть бути видаленими. Звільніть більше місця.</Data></string>
     <string name="resutl_function_qq_clean_summary"><Data>Ви можете очистити &lt;font color=#ff0000 >%1$s&lt;/font> кешу QQ</Data></string>
     <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> кешу WeChat. Очистіть більше місця.</Data></string>
@@ -865,7 +880,6 @@
     <string name="start_install">Встановити</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
-    <string name="summary_delete_apk">Видалити вибрані APK назавжди?</string>
     <string name="summary_delete_cache">Очистити кеш вибраних програм?</string>
     <string name="summary_delete_large_file">Видалити вибрані файли назавжди?</string>
     <string name="summary_delete_video">Видалити вибрані відео назавжди?</string>
@@ -982,6 +996,7 @@
     <string name="tuesday">Вівторок</string>
     <string name="tuesday_short">Вт</string>
     <string name="tuesday_shortest">Вт</string>
+    <string name="uninstall_one">Видалити \"%s\"</string>
     <string name="unit_gb">%s ГБ</string>
     <string name="unit_mb">%s МБ</string>
     <string name="unlike">Ні, дякую</string>
@@ -1065,6 +1080,5 @@
     <string name="wqfile_group_chat_pic">Зображення із месенджерів</string>
     <string name="wqfile_group_chat_video">Відео із месенджерів</string>
     <string name="wqfile_group_chat_voice">Голосові повідомлення</string>
-    <string name="year_month_day_format">d MMM yyyy</string>
-    <string name="yesterday">Вчора</string>
+    <string name="year_month_day_format">dd MMMM yyyy</string>
 </resources>

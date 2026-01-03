@@ -314,17 +314,19 @@
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
         <item>Systemauswahl verwenden (Standard)</item>
-        <item>44,1 kHz</item>
-        <item>48 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96 kHz</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
         <item>Systemauswahl verwenden (Standard)</item>
-        <item>44,1 kHz</item>
-        <item>48 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96 kHz</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Systemeinstellung verwenden (Standard)</item>
@@ -582,6 +584,7 @@
         <item>Überschneidungsbereiche anzeigen</item>
         <item>Bereiche für Deuteranomalie anzeigen</item>
     </string-array>
+    <array name="display_over_apps_permission_change_exempt" />
     <string-array name="eap_ocsp_type">
         <item>Nicht prüfen</item>
         <item>Zertifikatstatus anfordern</item>
@@ -1105,6 +1108,33 @@ Note: Nur für Ubuntu 8.04!"</item>
         <item>Standard</item>
         <item>Kühl</item>
     </string-array>
+    <string-array name="screen_flash_color_entries">
+        <item>@string/screen_flash_color_none</item>
+        <item>@string/screen_flash_color_blue</item>
+        <item>@string/screen_flash_color_green</item>
+        <item>@string/screen_flash_color_yellow</item>
+        <item>@string/screen_flash_color_orange</item>
+        <item>@string/screen_flash_color_red</item>
+        <item>@string/screen_flash_color_violet</item>
+    </string-array>
+    <array name="screen_flash_color_icons">
+        <item>@drawable/screen_flash_color_none</item>
+        <item>@drawable/screen_flash_color_blue</item>
+        <item>@drawable/screen_flash_color_green</item>
+        <item>@drawable/screen_flash_color_yellow</item>
+        <item>@drawable/screen_flash_color_orange</item>
+        <item>@drawable/screen_flash_color_red</item>
+        <item>@drawable/screen_flash_color_violet</item>
+    </array>
+    <string-array name="screen_flash_color_values">
+        <item>0</item>
+        <item>4D0000FE</item>
+        <item>6600FF01</item>
+        <item>66FFFF00</item>
+        <item>66FF7F00</item>
+        <item>66FE0000</item>
+        <item>667F00FF</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0.5 Sekunden</item>
         <item>1 Sekunde</item>
@@ -1124,9 +1154,17 @@ Note: Nur für Ubuntu 8.04!"</item>
         <item>Farben immer verbessern</item>
         <item>Kontrast bleibt konstant</item>
     </string-array>
+    <string-array name="screen_optimize_summary_new">
+        <item>Verbesserte Farben für eine lebendigere Anzeige</item>
+        <item>Standard-Bildschirmfarben wiederherstellen</item>
+    </string-array>
     <string-array name="screen_optimize_title">
         <item>Lebhaft (empfohlen)</item>
         <item>Gesättigt</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="screen_optimize_title_new">
+        <item>Lebhaft (empfohlen)</item>
         <item>Standard</item>
     </string-array>
     <string-array name="screen_resolution_format">
@@ -1208,6 +1246,24 @@ Note: Nur für Ubuntu 8.04!"</item>
         <item>Alle außer Funkschnittstelle</item>
         <item>Nur Kernel</item>
     </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Nur Gerätedisplay (Standard)</item>
+        <item>Externes Display</item>
+        <item>Letzte Berührung der Statusleiste</item>
+        <item>Fokusbasiert</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Leiste nur auf dem Display des Geräts anzeigen</item>
+        <item>Leiste auf einem einzigen externen Display anzeigen</item>
+        <item>Leiste auf dem Display anzeigen, auf dem zuletzt mit der Statusleiste interagiert wurde</item>
+        <item>Leiste auf dem zuletzt fokussierten Display anzeigen</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>default_display</item>
+        <item>any_external_display</item>
+        <item>status_bar_latest_touch</item>
+        <item>focused_display</item>
+    </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Aus</item>
         <item>Nicht rechteckigen Clipbereich blau zeichnen</item>
@@ -1265,12 +1321,6 @@ Note: Nur für Ubuntu 8.04!"</item>
     <string-array name="tabs_taptic_detail_m2">
         <item>Klar</item>
         <item>Solide</item>
-    </string-array>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Laden</item>
-        <item>Stromsparmodus</item>
-        <item>Energiesparmodus</item>
-        <item>Verarbeitungsstatus</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1335,10 +1385,18 @@ Note: Nur für Ubuntu 8.04!"</item>
         <item>Farben immer aufbessern</item>
         <item>Mit der Farbkalibrierung die Standardfarbe des Bildschirminhalts wiederherstellen</item>
     </string-array>
+    <string-array name="true_color_screen_optimize_summary_new">
+        <item>Verbesserte Farben für eine lebendigere Anzeige</item>
+        <item>Mit der Farbkalibrierung die Standardfarbe des Bildschirminhalts wiederherstellen</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Lebhaft (empfohlen)</item>
         <item>Gesättigt</item>
         <item>Originalfarbe</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title_new">
+        <item>Lebhaft (empfohlen)</item>
+        <item>Original</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>60 %</item>
@@ -1574,5 +1632,47 @@ Note: Nur für Ubuntu 8.04!"</item>
         <item>Animationsfaktor: 2x</item>
         <item>Animationsfaktor: 5x</item>
         <item>Animationsfaktor: 10x</item>
+    </string-array>
+    <string-array name="zen_mode_icon_options_descriptions">
+        <item>Aktentasche</item>
+        <item>Klassisches Gebäude</item>
+        <item>Apartmenthaus</item>
+        <item>Sprechblase</item>
+        <item>Gruppe von Menschen</item>
+        <item>Glühbirne</item>
+        <item>Kalender</item>
+        <item>Bitte nicht stören</item>
+        <item>Person, die läuft</item>
+        <item>Golf</item>
+        <item>Fitnessstudio-Hantel</item>
+        <item>Schwimmen</item>
+        <item>Person, die wandert</item>
+        <item>Person, die einen Ball wirft</item>
+        <item>Person, die kickt</item>
+        <item>Controller</item>
+        <item>Farbpalette eines Künstlers</item>
+        <item>Schneeflocke</item>
+        <item>Sonnenschirm</item>
+        <item>Workshop-Tools</item>
+        <item>Klavier</item>
+        <item>70er-Jahre-Film</item>
+        <item>Buch</item>
+        <item>Lotusblume</item>
+        <item>Die Gedanken einer Person</item>
+        <item>Kopfhörer</item>
+        <item>Fernseher</item>
+        <item>Zug</item>
+        <item>Auto</item>
+        <item>Messer und Gabel</item>
+        <item>Einkaufswagen</item>
+        <item>Kind</item>
+        <item>Tierpfote</item>
+        <item>Sternsymbol</item>
+        <item>Zwei Personen</item>
+        <item>Stern</item>
+        <item>Herz</item>
+        <item>Haus</item>
+        <item>Halbmond</item>
+        <item>Uhr</item>
     </string-array>
 </resources>

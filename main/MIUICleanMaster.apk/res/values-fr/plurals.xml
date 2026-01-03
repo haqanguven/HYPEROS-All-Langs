@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">Il y a 1 heure</item>
-        <item quantity="one">Il y a 1 heure</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="other">Il y a %d heures</item>
         <item quantity="one">Il y a %d heure</item>
@@ -63,8 +59,8 @@
         <item quantity="one">"Faire %1$d pas pour libérer jusqu'à %2$s"</item>
     </plurals>
     <plurals name="dc_item_summary_apk">
-        <item quantity="other">&lt;Data>"Vous pouvez supprimer &lt;font color=#0097FF>%d&lt;/font> pack d'installations"&lt;/Data></item>
-        <item quantity="one">&lt;Data>"Vous pouvez supprimer &lt;font color=#0097FF>%d&lt;/font> pack d'installation"&lt;/Data></item>
+        <item quantity="other">"&lt;Data>Vous pouvez supprimer &lt;font color=#0097FF>%d&lt;/font> pack d'installations&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Vous pouvez supprimer &lt;font color=#0097FF>%d&lt;/font> pack d'installation&lt;/Data>"</item>
     </plurals>
     <plurals name="dc_item_summary_app_data">
         <item quantity="other">&lt;Data>Vous pouvez nettoyer les données pour &lt;font color=#0097FF>%d&lt;/font> applications&lt;/Data></item>
@@ -79,8 +75,8 @@
         <item quantity="one">&lt;Data>Vous pouvez supprimer &lt;font color=#0097FF>%d&lt;/font> gros fichier&lt;/Data></item>
     </plurals>
     <plurals name="dc_item_summary_uninstall_app">
-        <item quantity="other">&lt;Data>Vous pouvez désinstaller &lt;font color=#0097FF>%d&lt;/font> applications rarement utilisées&lt;/Data></item>
-        <item quantity="one">&lt;Data>Vous pouvez désinstaller &lt;font color=#0097FF>%d&lt;/font> application rarement utilisée&lt;/Data></item>
+        <item quantity="other">&lt;&lt;Data>Applications&lt;font color=#0097FF>%d&lt;/font>trouvés&lt;/Data></item>
+        <item quantity="one">&lt;&lt;Data>Application&lt;font color=#0097FF>%d&lt;/font>trouvé&lt;/Data></item>
     </plurals>
     <plurals name="dc_item_summary_video">
         <item quantity="other">&lt;Data>Vous pouvez supprimer &lt;font color=#0097FF>%d&lt;/font> vidéos&lt;/Data></item>
@@ -146,10 +142,6 @@
         <item quantity="other">&lt;Data>Trouvé &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> messages vocaux&lt;/Data></item>
         <item quantity="one">&lt;Data>Trouvé &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> message vocal&lt;/Data></item>
     </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="other">Il y a une demi-heure</item>
-        <item quantity="one">Il y a une demi-heure</item>
-    </plurals>
     <plurals name="hint_similar_image_header_left">
         <item quantity="other">%d groupes</item>
         <item quantity="one">%d groupe</item>
@@ -202,10 +194,6 @@
         <item quantity="other">"Supprimer %d packs d'installation"</item>
         <item quantity="one">"Supprimer %d pack d'installation"</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">Il y a %d minutes</item>
-        <item quantity="one">Il y a 1 minute</item>
-    </plurals>
     <plurals name="people">
         <item quantity="other">Téléchargé par %1$d personnes</item>
         <item quantity="one">Téléchargé par %1$d personne</item>
@@ -215,12 +203,20 @@
         <item quantity="one">Téléchargé par %1$d personne</item>
     </plurals>
     <plurals name="resutl_function_install_app_summary">
-        <item quantity="other">&lt;Data>"&lt;font color=#ff0000 >%d&lt;/font> les applications n'ont pas été utilisées depuis longtemps, allez voir."&lt;/Data></item>
-        <item quantity="one">&lt;Data>"&lt;font color=#ff0000 >%d&lt;/font> l'application n'a pas été utilisée depuis longtemps, allez voir."&lt;/Data></item>
+        <item quantity="other">"&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> les applications n'ont pas été utilisées depuis longtemps, allez voir.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> l'application n'a pas été utilisée depuis longtemps, allez voir.&lt;/Data>"</item>
     </plurals>
     <plurals name="second">
         <item quantity="other">%1$d secondes</item>
         <item quantity="one">%1$d seconde</item>
+    </plurals>
+    <plurals name="summary_delete_apk">
+        <item quantity="other">Supprimer définitivement %d APKs sélectionnés ?</item>
+        <item quantity="one">Supprimer définitivement %d APK sélectionné ?</item>
+    </plurals>
+    <plurals name="uninstall_apps">
+        <item quantity="other">Désinstaller %1$d applications y compris %2$s</item>
+        <item quantity="one">Désinstaller %1$d application y compris %2$s</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$s vues</item>

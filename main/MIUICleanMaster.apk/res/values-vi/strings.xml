@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Chia sẻ với</string>
     <string name="abc_shareactionprovider_share_with_application">Chia sẻ với %s</string>
     <string name="abc_toolbar_collapse_description">Thu gọn</string>
+    <string name="accessibility_sliding_button_state_description_off">Đã tắt</string>
+    <string name="accessibility_sliding_button_state_description_on">Đã bật</string>
+    <string name="accessibility_tab_state_description_unselect">Chưa chọn</string>
     <string name="actionbar_button_up_description">Quay lại</string>
     <string name="activity_title_ad">Quảng cáo</string>
     <string name="activity_title_apk">Gói</string>
@@ -125,13 +128,11 @@
     <string name="auto_cleaner_open">Bật</string>
     <string name="back">Quay lại</string>
     <string name="be_figuring">Đang tính…</string>
-    <string name="btn_text_done">Hoàn tất</string>
     <string name="btn_text_quick_cleanup">Dọn dẹp</string>
     <string name="btn_text_quick_cleanup_apk">Xóa APK đã chọn %1$s</string>
     <string name="btn_text_quick_cleanup_appdata">Xóa dữ liệu đã chọn %1$s</string>
     <string name="btn_text_quick_cleanup_large_file">Xóa tập tin đã chọn %1$s</string>
     <string name="btn_text_quick_cleanup_video">Xóa video đã chọn %1$s</string>
-    <string name="btn_text_quick_scan">Quét</string>
     <string name="btn_text_stop">Dừng</string>
     <string name="button_text_add_to_white_list">Ngoại lệ</string>
     <string name="button_text_backup_uninstall">Sao lưu trước</string>
@@ -159,7 +160,6 @@
     <string name="button_text_unselect_pic">Bỏ chọn</string>
     <string name="button_text_view_detail">Chi tiết</string>
     <string name="button_text_view_file">Tập tin</string>
-    <string name="buy_a_new_phone">Thêm dung lượng lưu trữ</string>
     <string name="buy_immediately">Mua</string>
     <string name="buy_traffic_pack">Mua dữ liệu di động</string>
     <string name="byteShort">B</string>
@@ -179,8 +179,8 @@
     <string name="cd_check_box_checked">đã kiểm tra</string>
     <string name="cd_check_box_middle">chọn một phần</string>
     <string name="cd_check_box_unchecked">chưa kiểm tra</string>
-    <string name="cd_list_item_collapse">thu gọn</string>
-    <string name="cd_list_item_expanded">mở rộng</string>
+    <string name="cd_list_item_collapse">Thu gọn</string>
+    <string name="cd_list_item_expanded">Mở rộng</string>
     <string name="cd_percent">phần trăm</string>
     <string name="cd_scanning">đang quét</string>
     <string name="cd_settings">cài đặt</string>
@@ -226,7 +226,6 @@
     <string name="common_signin_button_text">Đăng nhập</string>
     <string name="common_signin_button_text_long">Đăng nhập bằng Google</string>
     <string name="confirm_auto_cleaner">OK</string>
-    <string name="conn_of_function_safe">Kết nối mạng an toàn</string>
     <string name="connecting">Đang kết nối…</string>
     <string name="copy">Sao chép</string>
     <string name="copy_toast_msg">Đã sao chép đường liên kết vào bảng nhớ tạm</string>
@@ -256,7 +255,9 @@
     <string name="dc_storage_info_new">Trống %1$s</string>
     <string name="deep_clean_completed_tips">Đã dọn dẹp thành công</string>
     <string name="deep_clean_data_path_clean_title">Xóa bộ nhớ đệm</string>
+    <string name="deep_clean_down">Thứ tự giảm dần</string>
     <string name="deep_clean_uninstall_completed_tips">Đã gỡ cài đặt thành công</string>
+    <string name="deep_clean_up">Thứ tự tăng dần</string>
     <string name="deepclean_1_k_clean">Xóa bộ nhớ</string>
     <string name="deepclean_apk_content">Xóa tập tin APK hoặc ứng dụng không cần thiết</string>
     <string name="deepclean_apk_group_hint_checked">Chọn tất cả</string>
@@ -270,7 +271,7 @@
     <string name="deepclean_empty">Mọi thứ đều tốt</string>
     <string name="deepclean_install_info_desc2">Xóa ứng dụng để giải phóng dung lượng</string>
     <string name="deepclean_large_summary_empty">Tất cả mọi thứ đều tốt, không có tập tin để xóa</string>
-    <string name="deepclean_list_item_from_app">Chợ Ứng dụng</string>
+    <string name="deepclean_list_item_from_app">Chợ ứng dụng</string>
     <string name="deepclean_list_item_from_dcim_thumbnails">Hình thu nhỏ</string>
     <string name="deepclean_list_item_from_download">Tải xuống</string>
     <string name="deepclean_list_item_from_gallery">Thư viện</string>
@@ -292,6 +293,7 @@
     <string name="deepclean_video_content">Xóa video đã xem hoặc không cần thiết</string>
     <string name="deepclean_video_summary_empty">Mọi thứ đều tốt</string>
     <string name="default_cache_type">Tập tin dữ liệu</string>
+    <string name="delete">Xóa</string>
     <string name="delete_confirm">Xóa</string>
     <string name="delete_confirm_msg">Xóa vĩnh viễn tất cả tập tin đã chọn?</string>
     <string name="desc_image">ảnh</string>
@@ -303,8 +305,14 @@
     <string name="dialog_msg_esc_cleanmaster">Dừng quét và thoát Dọn dẹp?</string>
     <string name="dialog_msg_load_cleanup_engine_error">Công cụ Dọn dẹp bị lỗi.</string>
     <string name="dialog_msg_stop_scan">Dừng quét ngay?</string>
+    <string name="dialog_msg_uninstall_app_os3">Gỡ cài đặt ứng dụng sẽ xóa tất cả dữ liệu.</string>
     <string name="dialog_msg_uninstall_apps">Gỡ cài đặt các ứng dụng này?</string>
+    <string name="dialog_msg_uninstall_apps_comfirm">Tôi hiểu dữ liệu ứng dụng đã xóa không thể khôi phục được</string>
+    <string name="dialog_msg_uninstall_apps_os3">Gỡ cài đặt sẽ xóa tất cả dữ liệu ứng dụng.</string>
+    <string name="dialog_msg_uninstall_apps_toast">Xác nhận bạn hiểu dữ liệu ứng dụng đã xóa không thể khôi phục được</string>
     <string name="dialog_msg_uninstall_apps_xspace">Gỡ cài đặt các ứng dụng này và cả ứng dụng nhân bản?</string>
+    <string name="dialog_msg_uninstall_apps_xspace_os3">Ứng dụng kép sẽ bị gỡ cài đặt cùng với ứng dụng này.</string>
+    <string name="dialog_msg_uninstall_apps_xspace_os3_multiple">Ứng dụng kép tương ứng sẽ bị gỡ cài đặt cùng với dữ liệu ứng dụng.</string>
     <string name="dialog_ok_add_white_list_error">Tôi biết</string>
     <string name="dialog_title_add_white_list_error">Chú ý</string>
     <string name="dialog_title_backup_and_uninstall_apps">Sao lưu và gỡ cài đặt</string>
@@ -416,9 +424,8 @@
     <string name="friday_short">Th 6</string>
     <string name="friday_shortest">Th 6</string>
     <string name="function_app_lock_title">%d ứng dụng tiềm ẩn nguy cơ rò rỉ thông tin cá nhân</string>
-    <string name="garbage_clean_detail">Chi tiết</string>
-    <string name="garbage_month">Đã dọn dẹp %s tháng này</string>
     <string name="gigabyteShort">GB</string>
+    <string name="global_summary_wa_setting">Nhận thông báo khi rác WhatsApp vượt quá kích thước đã chọn</string>
     <string name="global_wa_audio">Âm thanh</string>
     <string name="global_wa_audio_item_title">Tin nhắn thoại</string>
     <string name="global_wa_backend_alert_dialog_content">Giải phóng dung lượng bằng cách xóa các mục WhatsApp</string>
@@ -471,7 +478,6 @@
     <string name="global_wa_shortcut_toast">Tạo lối tắt Màn hình chính thành công</string>
     <string name="global_wa_wrapper">Hình nền</string>
     <string name="go_to">Đến</string>
-    <string name="golbal_wa_backend_alert_dialog_btn">Mở</string>
     <string name="goto_set">Vào thiết lập</string>
     <string name="grabage_rank_title">Đã dọn dẹp hôm nay</string>
     <string name="guide_dc_dialog_message_new">Dung lượng lưu trữ miễn phí còn lại ít hơn %d GB. Điều này có thể làm chậm thiết bị của bạn. Dọn dẹp sâu để giải phóng dung lượng lưu trữ.</string>
@@ -540,7 +546,6 @@
     <string name="hints_title_garbage">Thùng rác</string>
     <string name="hints_video_camera">Video đã quay</string>
     <string name="hints_video_download">Video đã tải xuống</string>
-    <string name="hot">Phổ biến</string>
     <string name="hot_today">Tiêu điểm hôm nay</string>
     <string name="information_setting">Kiến nghị</string>
     <string name="install_sucess">Đã cài đặt %s thành công</string>
@@ -572,7 +577,6 @@
     <string name="mainbtn_text_quick_cleanup">Dọn dẹp %s</string>
     <string name="mainbtn_text_quick_cleanup_default">Dọn dẹp</string>
     <string name="megabyteShort">MB</string>
-    <string name="memeory_check_content">%1$d ứng dụng, %2$s bộ nhớ</string>
     <string name="memory_clean_icon_text">Tăng tốc</string>
     <string name="memory_clean_no_trash_tip">Mọi thứ đều tốt</string>
     <string name="menu_add_to_white_list">Thêm vào d.sách ngoại lệ</string>
@@ -583,9 +587,16 @@
     <string name="menu_view">Xem trong thư mục</string>
     <string name="midnight">Ban đêm</string>
     <string name="miuix_access_state_desc">Đã chọn</string>
+    <string name="miuix_accessibility_title">Tiêu đề</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Thu gọn</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Mở rộng</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Thoát khỏi chế độ chỉnh sửa</string>
+    <string name="miuix_appcompat_accessibility_new_message">Thông báo mới</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Vào chế độ chỉnh sửa</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Bỏ chọn tất cả</string>
     <string name="miuix_appcompat_action_mode_select_all">Chọn tất cả</string>
     <string name="miuix_appcompat_action_mode_title_empty">Chọn mục</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Chọn</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Thêm</string>
     <string name="miuix_appcompat_cancel_description">Hủy</string>
     <string name="miuix_appcompat_confirm_description">Xác nhận</string>
@@ -598,6 +609,8 @@
     <string name="miuix_appcompat_select_all">Chọn tất cả</string>
     <string name="miuix_appcompat_select_all_description">Chọn tất cả</string>
     <string name="miuix_appcompat_select_item">Chọn mục</string>
+    <string name="miuix_appcompat_show_dialog_description">Cửa sổ nổi</string>
+    <string name="miuix_progressbar_loading">Đang tải</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Kéo xuống để làm mới</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Làm mới thành công</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Đang làm mới…</string>
@@ -606,6 +619,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Đã tải toàn bộ nội dung</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vui lòng chờ…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Không thể tải mục</string>
+    <string name="miuix_show_password">Hiển thị mật khẩu</string>
+    <string name="miuix_stretchablewidget_collapsed">Thu gọn</string>
+    <string name="miuix_stretchablewidget_expanded">Mở rộng</string>
     <string name="monday">Thứ hai</string>
     <string name="monday_short">Th 2</string>
     <string name="monday_shortest">Th 2</string>
@@ -661,6 +677,7 @@
     <string name="native_media_view">Nội dung nghe nhìn</string>
     <string name="nb_clear_set">Xóa bộ nhớ đệm, xem thông tin pin và danh sách chặn trên thanh thông báo</string>
     <string name="network_not_available">Không thể kết nối mạng</string>
+    <string name="never_remind">Không bao giờ</string>
     <string name="news_change">Thay đổi</string>
     <string name="night">Buổi tối</string>
     <string name="no_network">Không thể kết nối mạng, hãy thử lại sau</string>
@@ -748,6 +765,7 @@ Chúng tôi sẽ chia sẻ nhiều hơn khi bạn kết nối mạng trở lại
     <string name="open_app">Mở</string>
     <string name="open_browser">Mở trong trình duyệt</string>
     <string name="open_file_error">Không tìm thấy ứng dụng để mở tập tin này</string>
+    <string name="out">Quá %s</string>
     <string name="output_videos">Xuất video</string>
     <string name="permission_dialog_storage_btn1">Cài đặt</string>
     <string name="permission_dialog_storage_btn2">Hủy</string>
@@ -775,10 +793,12 @@ Chúng tôi sẽ chia sẻ nhiều hơn khi bạn kết nối mạng trở lại
     <string name="pref_category_title_cleanup_white_list">Danh sách ngoại lệ</string>
     <string name="pref_category_title_engine_settings">Cài đặt định dạng quét</string>
     <string name="pref_category_title_garbage_cleanup_check">Thông báo</string>
+    <string name="pref_category_title_notification_settings">Thông báo</string>
     <string name="pref_category_title_other_clean_settings">Cài đặt bổ sung</string>
     <string name="pref_content_cleanup_white_list_none">Không</string>
     <string name="pref_summary_auto_clean_and_alert">Lên lịch trình dọn dẹp tự động</string>
     <string name="pref_summary_auto_update_cleanup_db">Cập nhật lần cuối %s</string>
+    <string name="pref_summary_clean_settings">Nhận thông báo khi rác vượt quá kích thước đã chọn</string>
     <string name="pref_summary_cleanup_white_list">Ngăn chặn các tập tin đã chọn được dọn dẹp</string>
     <string name="pref_summary_expand_cache_group">Hiển thị chi tiết bộ nhớ đệm tự động</string>
     <string name="pref_summary_garbage_auto_clean_content">Chọn mục để dọn dẹp tự động</string>
@@ -786,6 +806,8 @@ Chúng tôi sẽ chia sẻ nhiều hơn khi bạn kết nối mạng trở lại
     <string name="pref_summary_garbage_cleanup_check_time">Lịch trình dọn dẹp định kỳ</string>
     <string name="pref_summary_garbage_process_mode">Thiết lập thông báo khi chạy trình dọn dẹp</string>
     <string name="pref_summary_open_optimizer_cloud_scan">Tải lên và so sánh tên các tập tin không xác định với cơ sở dữ liệu nhận dạng trực tuyến</string>
+    <string name="pref_summary_reminder_interval">Chỉ nhận một thông báo trong thời gian đã chọn</string>
+    <string name="pref_summary_wechat_clean_settings">Nhận thông báo khi rác WeChat vượt quá kích thước đã chọn</string>
     <string name="pref_title_apps_cleanup_size">Khi kích thước bộ nhớ đệm đạt đến</string>
     <string name="pref_title_auto_clean_content_choose">Chọn mục để dọn dẹp</string>
     <string name="pref_title_auto_update_cleanup_db">Tự động cập nhật</string>
@@ -793,6 +815,7 @@ Chúng tôi sẽ chia sẻ nhiều hơn khi bạn kết nối mạng trở lại
     <string name="pref_title_clean_alert">Nhắc nhở dọn dẹp</string>
     <string name="pref_title_cleanup_white_list">Danh sách ngoại lệ</string>
     <string name="pref_title_create_onekeyclean_shortcut">Hiển thị lối tắt Màn hình chính</string>
+    <string name="pref_title_engine">Định nghĩa quét</string>
     <string name="pref_title_expand_cache_group">Hiển thị mục bộ nhớ đệm</string>
     <string name="pref_title_garbage_cleanup_check_size">Giới hạn kích thước rác</string>
     <string name="pref_title_garbage_cleanup_check_time">Lịch trình</string>
@@ -813,18 +836,10 @@ Chúng tôi sẽ chia sẻ nhiều hơn khi bạn kết nối mạng trở lại
     <string name="qq_clean">Dọn dẹp QQ</string>
     <string name="qq_clean_exit_confirm_msg">Dừng quét và thoát ngay?</string>
     <string name="qq_clean_finish_summary">Xóa tập tin đã chọn thành công</string>
-    <string name="qq_data_type_cache">Bộ nhớ đệm QQ</string>
-    <string name="qq_data_type_cache_desc">Bạn có thể khôi phục các tập tin này sau khi bạn kết nối internet.</string>
-    <string name="qq_data_type_chat">Lịch sử trò chuyện</string>
-    <string name="qq_data_type_chat_desc">Bạn sẽ không thể khôi phục lịch sử trò chuyện.</string>
-    <string name="qq_data_type_normal">Rác</string>
-    <string name="qq_data_type_normal_clean_tips">Đây là những tập tin kỹ thuật. Xóa chúng sẽ không ảnh hưởng đến việc sử dụng.</string>
-    <string name="qq_data_type_normal_desc">Xóa tập tin rác sẽ không ảnh hưởng đến việc sử dụng.</string>
-    <string name="qq_data_type_other">Khác</string>
-    <string name="qq_data_type_other_desc">Hãy cẩn thận, bạn sẽ không thể khôi phục các tập tin này sau khi xóa.</string>
     <string name="recommend_news">Nhận kiến nghị</string>
     <string name="recommend_the_following">Làm theo bước sau để xem thêm nhiều nội dung thú vị</string>
     <string name="recommended">Đặc sắc</string>
+    <string name="reminder_interval">Khoảng thời gian nhắc nhở</string>
     <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> tập tin có thể bị xóa. Giải phóng thêm dung lượng.</Data></string>
     <string name="resutl_function_qq_clean_summary"><Data>Bạn có thể xóa &lt;font color=#ff0000 >%1$s&lt;/font> bộ nhớ đệm được tạo bởi QQ</Data></string>
     <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> bộ nhớ đệm WeChat. Giải phóng thêm dung lượng.</Data></string>
@@ -865,7 +880,6 @@ Chúng tôi sẽ chia sẻ nhiều hơn khi bạn kết nối mạng trở lại
     <string name="start_install">Cài đặt ngay</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
-    <string name="summary_delete_apk">Xóa vĩnh viễn tập tin APK đã chọn?</string>
     <string name="summary_delete_cache">Xóa bộ nhớ đệm của ứng dụng đã chọn?</string>
     <string name="summary_delete_large_file">Xóa vĩnh viễn các tập tin đã chọn?</string>
     <string name="summary_delete_video">Xóa vĩnh viễn video đã chọn?</string>
@@ -1107,6 +1121,7 @@ Chúng tôi sẽ chia sẻ nhiều hơn khi bạn kết nối mạng trở lại
     <string name="tuesday">Thứ ba</string>
     <string name="tuesday_short">Th 3</string>
     <string name="tuesday_shortest">Th 3</string>
+    <string name="uninstall_one">Gỡ cài đặt %s</string>
     <string name="unit_gb">%s GB</string>
     <string name="unit_mb">%s MB</string>
     <string name="unlike">Không, cảm ơn</string>
@@ -1191,5 +1206,4 @@ Chúng tôi sẽ chia sẻ nhiều hơn khi bạn kết nối mạng trở lại
     <string name="wqfile_group_chat_video">Video trò chuyện</string>
     <string name="wqfile_group_chat_voice">Tin nhắn thoại</string>
     <string name="year_month_day_format">dd MMM, yyyy</string>
-    <string name="yesterday">Hôm qua</string>
 </resources>

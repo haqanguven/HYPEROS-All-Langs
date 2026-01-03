@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">Hace 1 hora</item>
-        <item quantity="one">Hace 1 hora</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Hace %d horas</item>
-        <item quantity="one">Hace %d horas</item>
+        <item quantity="other">%d horas atrás</item>
+        <item quantity="one">%d hora atrás</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Hace media hora</item>
         <item quantity="one">Hace media hora</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">En %d hora</item>
+        <item quantity="other">En %d horas</item>
         <item quantity="one">En %d hora</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
@@ -25,28 +21,40 @@
         <item quantity="one">Inmediatamente</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">En %d minutos</item>
+        <item quantity="other">En %d min</item>
         <item quantity="one">En %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="other">Ahora</item>
+        <item quantity="other">Ahora mismo</item>
         <item quantity="one">Ahora mismo</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">Hace %d minutos</item>
-        <item quantity="one">Hace %d minutos</item>
+        <item quantity="other">%d mins atrás</item>
+        <item quantity="one">%d min atrás</item>
     </plurals>
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="other">¿Eliminar %1$s mensajes?</item>
         <item quantity="one">¿Eliminar %1$s mensaje?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="other">Puede recibir otro mensaje en %d s</item>
+        <item quantity="one">Puede recibir otro mensaje en %d s</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="other">" (%d mensajes restantes)"</item>
+        <item quantity="one">" (%d mensaje restante)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="other">Puede enviar otro mensaje en %d s</item>
+        <item quantity="one">Puede enviar otro mensaje en %d s</item>
     </plurals>
     <plurals name="cloud_sms_count">
         <item quantity="other">%d mensajes</item>
         <item quantity="one">%d mensaje</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
-        <item quantity="other">No se han sincronizado %d mensajes</item>
-        <item quantity="one">No se ha sincronizado %d mensaje</item>
+        <item quantity="other">%d mensajes no se han sincronizado</item>
+        <item quantity="one">%d mensaje no se ha sincronizado</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="other">¿Eliminar %1$s conversaciones seleccionadas?</item>
@@ -57,8 +65,8 @@
         <item quantity="one">%d seleccionado</item>
     </plurals>
     <plurals name="delivery_toast_body_more_plurals">
-        <item quantity="other">Mensaje recibido por %1$s y %2$d otras personas</item>
-        <item quantity="one">Mensaje recibido por %1$s y %2$d otra persona</item>
+        <item quantity="other">Mensaje recibido por %1$s y %2$d personas más</item>
+        <item quantity="one">Mensaje recibido por %1$s y %2$d persona más</item>
     </plurals>
     <plurals name="group_message_failed_title">
         <item quantity="other">No se pudo enviar a %d contactos</item>
@@ -67,10 +75,6 @@
     <plurals name="half_hour_ago">
         <item quantity="other">Hace media hora</item>
         <item quantity="one">Hace media hora</item>
-    </plurals>
-    <plurals name="hint_search_sms">
-        <item quantity="other">%d mensajes</item>
-        <item quantity="one">%d mensaje</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">En 1 hora</item>
@@ -88,33 +92,9 @@
         <item quantity="other">en %d minutos</item>
         <item quantity="one">en 1 minuto</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="other">Ahora</item>
-        <item quantity="one">Ahora mismo</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="other">Marcado como %2$s por %1$d personas</item>
         <item quantity="one">Marcado como %2$s por %1$d persona</item>
-    </plurals>
-    <plurals name="max_audio_length">
-        <item quantity="other">Los mensajes de audio pueden ser de hasta %1$4d segundos de duración</item>
-        <item quantity="one">Los mensajes de audio pueden durar hasta %1$4d segundos</item>
-    </plurals>
-    <plurals name="max_file_size">
-        <item quantity="other">Enviar archivos de hasta %1$4d MB</item>
-        <item quantity="one">Enviar archivos de hasta %1$4d MB</item>
-    </plurals>
-    <plurals name="max_recipients_size">
-        <item quantity="other">Enviar mensaje a hasta %1$4d contactos</item>
-        <item quantity="one">Enviar mensaje hasta un contacto con %1$4d</item>
-    </plurals>
-    <plurals name="max_text_size">
-        <item quantity="other">Los mensajes pueden contener hasta %1$4d caracteres</item>
-        <item quantity="one">Los mensajes pueden contener hasta %1$4d caracteres</item>
-    </plurals>
-    <plurals name="max_video_length">
-        <item quantity="other">Los videos pueden tener hasta %1$4d segundos de longitud</item>
-        <item quantity="one">Los videos pueden tener hasta %1$4d segundos de largo</item>
     </plurals>
     <plurals name="message_count">
         <item quantity="other">%1$s mensajes</item>
@@ -124,21 +104,37 @@
         <item quantity="other">%d elementos seleccionados</item>
         <item quantity="one">%d elemento seleccionado</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificaciones nuevas</item>
+        <item quantity="one">%d notificación nueva</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="other">"%s mensajes | "</item>
         <item quantity="one">"%s mensaje | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">hace %d minutos</item>
-        <item quantity="one">Hace 1 minuto</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="other">%s</item>
+        <item quantity="one">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="other">%s mensajes por satélite</item>
+        <item quantity="one">%s mensaje por satélite</item>
+    </plurals>
+    <plurals name="privacy_state_revoked_revoked_1">
+        <item quantity="other">Retirar (%d s)</item>
+        <item quantity="one">Retirar (%d s)</item>
     </plurals>
     <plurals name="rcs_group_notification_invitation_receive">
-        <item quantity="other">Has recibido %d invitaciones a un chat de grupo</item>
-        <item quantity="one">Has recibido %d invitación a un chat de grupo</item>
+        <item quantity="other">Ha recibido %d invitaciones de chat de grupo</item>
+        <item quantity="one">Ha recibido %d invitación de chat de grupo</item>
     </plurals>
     <plurals name="search_results_title">
-        <item quantity="other">%1$s resultados para %2$s\"</item>
-        <item quantity="one">%1$s resultado para %2$s\"</item>
+        <item quantity="other">%1$s resultados para \"%2$s\"</item>
+        <item quantity="one">%1$s resultado para \"%2$s\"</item>
+    </plurals>
+    <plurals name="select_dialog_item">
+        <item quantity="other">%s s</item>
+        <item quantity="one">%s s</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="other">%1$s mensajes enviados</item>
@@ -165,11 +161,11 @@
         <item quantity="one">%d destinatario</item>
     </plurals>
     <plurals name="vital_signs_data_bpm">
-        <item quantity="other">Tasa de corazón: %1$d BPM (%2$s)</item>
-        <item quantity="one">Tasa de corazón: %1$d BPM (%2$s)</item>
+        <item quantity="other">Ritmo cardíaco: %1$d LPM (%2$s)</item>
+        <item quantity="one">Ritmo cardíaco: %1$d LPM (%2$s)</item>
     </plurals>
     <plurals name="vital_signs_data_spo2">
-        <item quantity="other">SpO2: %1$d%% (%2$s)</item>
-        <item quantity="one">SpO2: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d %% (%2$s)</item>
+        <item quantity="one">SpO₂: %1$d %% (%2$s)</item>
     </plurals>
 </resources>

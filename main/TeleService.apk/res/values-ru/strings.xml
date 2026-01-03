@@ -30,6 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Поделиться с помощью %s</string>
     <string name="abc_toolbar_collapse_description">Свернуть</string>
     <string name="accessibility_settings_activity_title">Специальные возможности</string>
+    <string name="accessibility_sliding_button_state_description_off">Отключено</string>
+    <string name="accessibility_sliding_button_state_description_on">Включено</string>
+    <string name="accessibility_tab_state_description_unselect">Не выбрано</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="activity_title_fakecell">Protection from fake base stations</string>
     <string name="add">Добавить</string>
@@ -124,6 +127,12 @@
     <string name="band_mode_set">Сохранить</string>
     <string name="band_mode_succeeded">Успешно</string>
     <string name="band_mode_title">Настроить режим сети</string>
+    <string name="beidou_findout_settings_title">О спутниковых сообщениях BeiDou</string>
+    <string name="beidou_mobile_settings_summary">Доступно только пользователям China Mobile</string>
+    <string name="beidou_mobile_settings_summary_all">Доступно только для пользователей с активной службой спутниковой связи BeiDou</string>
+    <string name="beidou_mobile_settings_title">Спутниковая связь BeiDou</string>
+    <string name="beidou_satellite_enable_message_all">Для активации услуги обратитесь к своему оператору.</string>
+    <string name="beidou_sms_location_fail_toast">Сначала разрешите этой функции получать доступ к вашему местоположению</string>
     <string name="bf_news_settings">Финансовые и деловые новости</string>
     <string name="business_hall_settings_summary">Управление вызовами и мобильным интернетом</string>
     <string name="business_hall_settings_title">Настройки тарифа оператора</string>
@@ -333,6 +342,7 @@
     <string name="china_mobile_palm_category">Службы оператора</string>
     <string name="china_mobile_palm_title">Онлайн личный кабинет CMCC</string>
     <string name="choose_network_title">Выбрать сеть</string>
+    <string name="choose_satellite_data_mode">Режим фиктивных спутниковых данных (только отладка)</string>
     <string name="clearable_edittext_clear_description">Очистить</string>
     <string name="clh_callFailed_ACM_equal_to_or_greater_than_ACMmax_txt">Не удалось выполнить вызов (ошибка 68).</string>
     <string name="clh_callFailed_access_information_discarded_txt">Не удалось выполнить вызов (ошибка 43).</string>
@@ -427,7 +437,7 @@
     <string name="data_disable_warning_no_mms">Вы не сможете отправлять и получать MMS, если отключите мобильный интернет (WCDMA/LTE). Однако вы можете использовать для этого Wi-Fi.</string>
     <string name="data_disable_warning_with_mms">Вы сможете отправлять и получать MMS, даже если отключите мобильный интернет (WCDMA/LTE). Для доступа в интернет подключитесь к сети Wi-Fi.</string>
     <string name="data_enable_always_warn">Запрашивать разрешение на использование мобильного интернета</string>
-    <string name="data_enable_summary">Разрешить передачу данных по мобильной сети</string>
+    <string name="data_enable_summary">Разрешить передачу данных по мобильной сети.</string>
     <string name="data_enable_warning">Постоянное использование мобильного интернета может привести к дополнительным расходам, которые могут не входить в ваш тарифный план. Выполнить подключение?</string>
     <string name="data_enabled">Мобильный интернет</string>
     <string name="data_for_high_temperature_toast">"Your device is overheated. Can't use this feature now."</string>
@@ -454,6 +464,7 @@
     <string name="delete">Удалить</string>
     <string name="delete_fdn_contact">Удалить номер ограниченного набора</string>
     <string name="deleting_fdn_contact">Выполняется удаление номера ограниченного набора…</string>
+    <string name="demo_esos_satellite_string">Проверка демоверсии спутникового режима eSOS (только отладочная сборка)</string>
     <string name="depopulated_zone_satellite_notification">Напоминание о спутниковой связи</string>
     <string name="description_concat_format">%1$s, %2$s</string>
     <string name="description_delete_button">назад</string>
@@ -566,7 +577,9 @@
     <string name="enable_2g_dialog_title">Внимание!</string>
     <string name="enable_2g_dialog_warn_message">Если вы отключите 2G, находясь в месте, где доступна только сеть 2G, вы не сможете совершать любые вызовы, включая экстренные. Отключить?</string>
     <string name="enable_2g_summary">Использование сетей 2G менее безопасно, но может помочь улучшить качество соединения в некоторых местах</string>
+    <string name="enable_2g_summary_eu">Использовать сотовую связь 2G. Для экстренных вызовов 2G включено всегда.</string>
     <string name="enable_2g_title">Разрешить использовать для 2G</string>
+    <string name="enable_2g_title_eu">Разрешить 2G</string>
     <string name="enable_antispam_strange_summary">Не проигрывать начало мелодии звонка при вызове с неизвестного номера</string>
     <string name="enable_antispam_strange_title">Приглушать начало звонка</string>
     <string name="enable_cdma_call_waiting_setting">Во время телефонного разговора вы будете получать уведомления о входящих вызовах</string>
@@ -598,7 +611,7 @@
     <string name="enable_esim_dialog_title">Включить eSIM</string>
     <string name="enable_esim_error_toast_message">Не удалось включить eSIM</string>
     <string name="enable_esim_progress_activating_message">Включение eSIM…</string>
-    <string name="enable_esim_summary">Отключить SIM-карту %s после включения</string>
+    <string name="enable_esim_summary">eSIM заменит SIM %s</string>
     <string name="enable_esim_title">Включить eSIM</string>
     <string name="enable_fdn">Вкл. разрешенные номера</string>
     <string name="enable_fdn_ok">Откл. разреш. номера</string>
@@ -614,6 +627,7 @@
     <string name="enable_video_calling_dialog_settings">Настройки сети</string>
     <string name="enable_video_calling_title">Включить видеовстречи</string>
     <string name="enabled_by_admin">Включено администратором</string>
+    <string name="enforce_satellite_channel_string">Принудительно использовать спутниковый канал LTE (только для отладочной сборки)</string>
     <string name="enhanced_4g_lte_mode_off_failed">Не удалось отключить VoLTE.</string>
     <string name="enhanced_4g_lte_mode_on_failed">Не удалось включить VoLTE.</string>
     <string name="enhanced_4g_lte_mode_summary">Использовать сервисы LTE, чтобы улучшить качество связи (рекомендуется)</string>
@@ -621,6 +635,8 @@
     <string name="enhanced_4g_lte_mode_title">Режим 4G LTE</string>
     <string name="enter_callbarring_password">Введите пароль запрета вызовов (%d цифры)</string>
     <string name="enter_esim_manager_title">Управление eSIM</string>
+    <string name="enter_esim_service_support_summary">Просмотр списка поддерживаемых операторов связи</string>
+    <string name="enter_esim_service_support_title">Поддерживаемые операторы связи</string>
     <string name="enter_input">Допустимая длина USSD-сообщения: %1$d–%2$d символов. Повторите попытку.</string>
     <string name="enter_mep_esim_manager_title">Управление SIM-картами</string>
     <string name="enter_pin2_text">PIN %d</string>
@@ -643,6 +659,7 @@
     <string name="fdn">Разрешенные номера</string>
     <string name="fdnListLabel">Разрешенные номера</string>
     <string name="fdn_activation">Активация разреш. номеров</string>
+    <string name="fdn_blocked_mmi">Не удалось набрать код MMI, поскольку включена функция набора разрешенных номеров.</string>
     <string name="fdn_check_failure">Разрешенные номера в приложении \"Телефон\" включены. В результате некоторые функции вызовов недоступны.</string>
     <string name="fdn_contact_added">Номер ограниченного набора добавлен.</string>
     <string name="fdn_contact_deleted">Номер ограниченного набора удален.</string>
@@ -657,10 +674,15 @@
     <string name="fdn_summary">Настройки ограничения исходящих вызовов списком разрешенных номеров или определенными префиксами</string>
     <string name="fdn_with_label">Разрешенные номера (%s)</string>
     <string name="feedback_title">Отзыв</string>
+    <string name="filp_auto_answer_call_title">Раскрыть, чтобы ответить на вызов</string>
+    <string name="filp_auto_hangup_call_summary">Работает только при подключении проводных или Bluetooth-наушников</string>
+    <string name="filp_auto_hangup_call_title">Сложить, чтобы завершить вызов</string>
     <string name="fire_type_description">Пожарная служба</string>
     <string name="fiveg_carrier_aggregation_title">Агрегация операторов связи 5G</string>
     <string name="fiveg_hosted_mode_summary">Автоматически выбирать наилучшую сеть для экономии заряда.</string>
     <string name="fiveg_hosted_mode_title">Смарт-переключение 5G</string>
+    <string name="fiveg_interruption_remind">Похоже, ваша SIM-карта %s не поддерживает службы 5G SA. Свяжитесь со своим оператором связи для получения дополнительной информации.</string>
+    <string name="fiveg_interruption_remind_title">Нельзя воспользоваться службами 5G</string>
     <string name="fiveg_network_mode_default">Авто</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -941,7 +963,8 @@
     <string name="mhh_enable">Медицинские учреждения (включено)</string>
     <string name="mi_mobile_settings_summary">Тарифные планы, предоставляемые компанией Xiaomi.</string>
     <string name="mi_mobile_settings_title">Mi Mobile</string>
-    <string name="mi_mobile_sim_activate_message">Чтобы воспользоваться Mi Mobile, активируйте SIM %1$d. На это может потребоваться от %2$d до %3$d минут.</string>
+    <string name="mi_mobile_sim_activate_message">Похоже, SIM-карта %1$d не активирована. Нажмите «Активировать» и следуйте инструкциям, чтобы приступить к делу.</string>
+    <string name="mi_mobile_sim_activate_title">Активация SIM-карты Mi Mobile</string>
     <string name="mi_sim_settings_summary">Использование мобильного интернета без SIM-карты</string>
     <string name="mi_sim_settings_title">Mi SIM</string>
     <string name="midnight">Ночь</string>
@@ -962,6 +985,12 @@
     <string name="miui_notification_network_selection_title">SIM: Нет сети</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Нет сети</string>
     <string name="miuix_access_state_desc">Выбрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Свернуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Развернуто</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Выйти из режима редактирования</string>
+    <string name="miuix_appcompat_accessibility_new_message">Новое уведомление</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Перейти в режим редактирования</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Отменить выбор</string>
     <string name="miuix_appcompat_action_mode_select_all">Выбрать все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Выберите объекты</string>
@@ -977,6 +1006,8 @@
     <string name="miuix_appcompat_select_all">Выбрать все</string>
     <string name="miuix_appcompat_select_all_description">Выбрать все</string>
     <string name="miuix_appcompat_select_item">Выберите объекты</string>
+    <string name="miuix_appcompat_show_dialog_description">Всплывающее окно</string>
+    <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потяните вниз для обновления</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Обновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновление…</string>
@@ -985,6 +1016,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">На данный момент это все</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Секунду…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не удалось загрузить данные</string>
+    <string name="miuix_show_password">Показать пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Свернуто</string>
+    <string name="miuix_stretchablewidget_expanded">Развернуто</string>
     <string name="mmiCancelled">Код MMI отменен</string>
     <string name="mmiStarted">Код MMI запущен</string>
     <string name="mobile_advanced_dns_server_title">Адрес DNS-сервера</string>
@@ -1160,6 +1194,8 @@
     <string name="new_password_label">Новый%d-значный пароль</string>
     <string name="new_pin2_label">Новый PIN %d</string>
     <string name="new_pin_label">Новый PIN</string>
+    <string name="newcall_settings_summary">Услуги «Новые вызовы 5G» предоставляются вашим оператором связи</string>
+    <string name="newcall_settings_title">Новые вызовы 5G</string>
     <string name="night">Вечер</string>
     <string name="no_active_esim_text">Нет eSIM</string>
     <string name="no_change">Номер не изменен.</string>
@@ -1176,7 +1212,7 @@
     <string name="not_voice_capable">Голосовые вызовы не поддерживаются</string>
     <string name="notallow">Не предоставлено</string>
     <string name="notification_channel_sip_account">Неподдерживаемые SIP-аккаунты</string>
-    <string name="notification_network_selection_text">Выбранная сеть (%s) недоступна.</string>
+    <string name="notification_network_selection_text">Выбранная сеть%s недоступна.</string>
     <string name="notification_network_selection_title">Сеть не найдена</string>
     <string name="notification_switch_auto_text">Похоже, вы вернулись. Подключено к местной сети.</string>
     <string name="notification_switch_auto_title">Мобильные сети</string>
@@ -1196,6 +1232,8 @@
     <string name="obtain_location_information">Местоположение</string>
     <string name="obtain_location_information_summary">Для оптимизации текущей сетевой среды</string>
     <string name="oem_radio_info_label">Информация/настройки OEM</string>
+    <string name="offline_call_has_call">Другой человек занят. Повторите попытку через одну–две мнуты.</string>
+    <string name="offline_call_not_match_contact">Не удалось вызвать. Вы не являетесь контактом другого человека.</string>
     <string name="ok">ОК</string>
     <string name="oldPin2Label">Прежний PIN2</string>
     <string name="oldPinLabel">Прежний PIN</string>
@@ -1477,6 +1515,7 @@ SIM-карта будет заблокирована при неудачной �
     <string name="radio_info_data_connection_enable">Включить передачу данных</string>
     <string name="radio_info_data_network_type_label">Тип сети для передачи данных:</string>
     <string name="radio_info_data_raw_registration_state_label">Статус начальной регистрации данных:</string>
+    <string name="radio_info_data_view_satellite_config">Показать конфигурацию спутниковой связи</string>
     <string name="radio_info_dcnr_restricted">DCNR с ограничениями (NSA):</string>
     <string name="radio_info_dds">Доп. идентификатор SIM-карты для мобильного Интернета по умолчанию:</string>
     <string name="radio_info_dl_kbps">Пропускная способность DL-канала (кбит/c):</string>
@@ -1515,7 +1554,6 @@ UT-интерфейс: %5$s"</string>
     <string name="radio_info_smsc_refresh_label">Обновить</string>
     <string name="radio_info_smsc_update_label">Обновить</string>
     <string name="radio_info_subid">Текущий доп. идентификатор:</string>
-    <string name="radio_info_toggle_dns_check_label">Включить/отключить проверку DNS</string>
     <string name="radio_info_ul_kbps">Пропускная способность UL-канала (кбит/с):</string>
     <string name="radio_info_voice_network_type_label">Тип сети для голосовой связи:</string>
     <string name="radio_info_voice_raw_registration_state_label">Статус начальной регистрации Voice:</string>
@@ -1584,6 +1622,7 @@ UT-интерфейс: %5$s"</string>
     <string name="roaming_notification_content">Вы можете автоматически добавлять коды стран для удобства набора номеров.</string>
     <string name="roaming_notification_title">Активирован роуминг</string>
     <string name="roaming_on_notification_title">Активирован интернет-роуминг</string>
+    <string name="roaming_preferred_wificall_title">Режим сети (роуминг)</string>
     <string name="roaming_reenable_message">Используйте роуминг для повторного подключения.</string>
     <string name="roaming_user_package_summary_kr">Покупайте, отключайте и изменяйте пакет роуминга. Плата за использование этого меню в роуминге не взимается.</string>
     <string name="roaming_user_package_title_kr">Использовать пакет роуминга</string>
@@ -1593,9 +1632,23 @@ UT-интерфейс: %5$s"</string>
 &lt;br>– Функция RTT недоступна при видеовызове."</string>
     <string name="rtt_mode_summary">Разрешить обмен сообщениями во время голосового вызова</string>
     <string name="rtt_mode_title">Вызов RTT</string>
+    <string name="rtt_settings_summary">Текст в реальном времени (RTT) позволяет использовать пеердачу текста для общения во время телефонного вызова</string>
+    <string name="rtt_settings_title">Вызовы RTT</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
+    <string name="satellite_config_allow_access_label">allow_access:</string>
+    <string name="satellite_config_country_code_label">коды стран:</string>
+    <string name="satellite_config_json_label">JSON-файл конфигурации спутниковой связи</string>
+    <string name="satellite_config_service_type_label">subId/plmn/servicetype:</string>
+    <string name="satellite_config_size_of_sats2_dat_label">размер sats2.dat:</string>
+    <string name="satellite_config_version_label">версия:</string>
+    <string name="satellite_config_viewer">Средство просмотра конфигурации спутниковой связи</string>
+    <string name="satellite_data_constrained_string">С ограничениями</string>
+    <string name="satellite_data_restricted_string">Доступ ограничен</string>
+    <string name="satellite_data_unConstrained_string">Без ограничений</string>
+    <string name="satellite_enable_non_emergency_mode_string">Проверка спутниковой связи в режиме, отличном от eSOS (только отладочная сборка)</string>
     <string name="satellite_exit_now_battery">Выйти</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">Спутниковая сеть</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">Больше не показывать</string>
@@ -1603,6 +1656,9 @@ UT-интерфейс: %5$s"</string>
     <string name="satellite_notification_title">Вы находитесь в зоне со слабым сигналом.</string>
     <string name="satellite_point_title">Turn on Tiantong Satellite communications</string>
     <string name="satellite_select_enable_sim">Выберите SIM-карту</string>
+    <string name="satellite_setting_disabled_summary">Обмен текстовыми сообщениями по спутниковой связи отключен для вашего аккаунта.</string>
+    <string name="satellite_setting_enabled_summary">Обмен текстовыми сообщениями по спутниковой связи включен для вашего аккаунта.</string>
+    <string name="satellite_setting_title">Обмен сообщениями по спутниковой связи</string>
     <string name="satellite_signal_boost_setting_summary">Enhance signal strength and stability in cloudy or other non-optimal weather conditions</string>
     <string name="satellite_signal_boost_setting_title">Use Tiantong signal amplifier</string>
     <string name="satellite_start">Понятно</string>
@@ -1932,6 +1988,8 @@ UT-интерфейс: %5$s"</string>
     <string name="turnover_mute_summary">Если звонящий телефон лежит экраном вверх, переверните его экраном вниз для отключения звонка, вибрации и световых сигналов</string>
     <string name="turnover_mute_title">Отключать звонок при переворачивании</string>
     <string name="undefined">Нет</string>
+    <string name="unfold_show_bublle_pref_summary">Раскройте устройство во время вызова, чтобы отображать его в плавающем окне</string>
+    <string name="unfold_show_bublle_pref_title">Раскрыть, чтобы свернуть</string>
     <string name="unknown">Неизвестно</string>
     <string name="unlock_failed">Запрос на разблокировку сети не выполнен.</string>
     <string name="unlock_success">Разблокировка сети успешно завершена.</string>

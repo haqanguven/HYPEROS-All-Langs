@@ -139,10 +139,16 @@
         <item quantity="many">%d sieci Wi-Fi</item>
     </plurals>
     <plurals name="dirty_wlan_count_china">
-        <item quantity="other">%d WLAN networks</item>
-        <item quantity="one">%d WLAN network</item>
-        <item quantity="few">%d WLAN networks</item>
-        <item quantity="many">%d WLAN networks</item>
+        <item quantity="other">%d sieci WLAN</item>
+        <item quantity="one">%d sieć WLAN</item>
+        <item quantity="few">%d sieci WLAN</item>
+        <item quantity="many">%d sieci WLAN</item>
+    </plurals>
+    <plurals name="display_number_of_devices">
+        <item quantity="other">Aktualnie wyświetla się tylko pierwsze %s niezaufanego urządzenia.</item>
+        <item quantity="one">Aktualnie wyświetla się tylko pierwsze niezaufane urządzenie.</item>
+        <item quantity="few">Aktualnie wyświetlają się tylko %s pierwsze niezaufane urządzenia.</item>
+        <item quantity="many">Aktualnie wyświetla się tylko %s pierwszych niezaufanych urządzeń.</item>
     </plurals>
     <plurals name="e2ee_device_verification_num">
         <item quantity="other">%s niezweryfikowanego urządzenia</item>
@@ -173,12 +179,6 @@
         <item quantity="one">Spróbuj ponownie za %d sekundę</item>
         <item quantity="few">Spróbuj ponownie za %d sekundy</item>
         <item quantity="many">Spróbuj ponownie za %d sekund</item>
-    </plurals>
-    <plurals name="gallery_auto_sync_fail_noti_red_title">
-        <item quantity="other">Nie udało się zsynchronizować &lt;font color=#F22424>%s elementu&lt;/font></item>
-        <item quantity="one">Nie udało się zsynchronizować &lt;font color=#F22424>%s elementu&lt;/font></item>
-        <item quantity="few">Nie udało się zsynchronizować &lt;font color=#F22424>%s elementów&lt;/font></item>
-        <item quantity="many">Nie udało się zsynchronizować &lt;font color=#F22424>%s elementów&lt;/font></item>
     </plurals>
     <plurals name="gallery_auto_sync_fail_noti_title">
         <item quantity="other">Nie udało się zsynchronizować %s elementów</item>
@@ -252,11 +252,101 @@
         <item quantity="few">Wznowienie synchronizacji za %d minuty</item>
         <item quantity="many">Wznowienie synchronizacji za %d minut</item>
     </plurals>
+    <plurals name="micloud_preference_family_detail">
+        <item quantity="other">Udostępniono %1$d osoby. Wykorzystanie przez członków rodziny: %2$s.</item>
+        <item quantity="one">Udostępniono %1$d osobie. Wykorzystanie przez członków rodziny: %2$s.</item>
+        <item quantity="few">Udostępniono %1$d osobom. Wykorzystanie przez członków rodziny: %2$s.</item>
+        <item quantity="many">Udostępniono %1$d osobom. Wykorzystanie przez członków rodziny: %2$s.</item>
+    </plurals>
+    <plurals name="micloud_preference_items_count">
+        <item quantity="other">%s elementu</item>
+        <item quantity="one">%s element</item>
+        <item quantity="few">%s elementy</item>
+        <item quantity="many">%s elementów</item>
+    </plurals>
+    <plurals name="micloud_preference_photo_detail">
+        <item quantity="other">%1$s zdjęcia</item>
+        <item quantity="one">%1$s zdjęcie</item>
+        <item quantity="few">%1$s zdjęcia</item>
+        <item quantity="many">%1$s zdjęć</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted">
+        <item quantity="other">Członkostwo Premium daje możliwość przywracania elementów w ciągu %d dnia od usunięcia.</item>
+        <item quantity="one">Członkostwo Premium daje możliwość przywracania elementów w ciągu %d dnia od usunięcia.</item>
+        <item quantity="few">Członkostwo Premium daje możliwość przywracania elementów w ciągu %d dni od usunięcia.</item>
+        <item quantity="many">Członkostwo Premium daje możliwość przywracania elementów w ciągu %d dni od usunięcia.</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_1">
+        <item quantity="other">Użytkownicy nieposiadający członkostwa mogą odzyskiwać elementy w ciągu %d dnia od usunięcia</item>
+        <item quantity="one">Użytkownicy nieposiadający członkostwa mogą odzyskiwać elementy w ciągu %d dnia od usunięcia</item>
+        <item quantity="few">Użytkownicy nieposiadający członkostwa mogą odzyskiwać elementy w ciągu %d dni od usunięcia</item>
+        <item quantity="many">Użytkownicy nieposiadający członkostwa mogą odzyskiwać elementy w ciągu %d dni od usunięcia</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_2">
+        <item quantity="other">Użytkownicy posiadający członkostwo Mega mogą odzyskiwać elementy w ciągu %d dnia od usunięcia</item>
+        <item quantity="one">Użytkownicy posiadający członkostwo Mega mogą odzyskiwać elementy w ciągu %d dnia od usunięcia</item>
+        <item quantity="few">Użytkownicy posiadający członkostwo Mega mogą odzyskiwać elementy w ciągu %d dni od usunięcia</item>
+        <item quantity="many">Użytkownicy posiadający członkostwo Mega mogą odzyskiwać elementy w ciągu %d dni od usunięcia</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_3">
+        <item quantity="other">Użytkownicy posiadający członkostwo Ultra mogą odzyskiwać elementy w ciągu %d dnia od usunięcia</item>
+        <item quantity="one">Użytkownicy posiadający członkostwo Ultra mogą odzyskiwać elementy w ciągu %d dnia od usunięcia</item>
+        <item quantity="few">Użytkownicy posiadający członkostwo Ultra mogą odzyskiwać elementy w ciągu %d dni od usunięcia</item>
+        <item quantity="many">Użytkownicy posiadający członkostwo Ultra mogą odzyskiwać elementy w ciągu %d dni od usunięcia</item>
+    </plurals>
+    <plurals name="micloud_preference_record_detail">
+        <item quantity="other">%s elementu</item>
+        <item quantity="one">%s element</item>
+        <item quantity="few">%s elementy</item>
+        <item quantity="many">%s elementów</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_deleted_data">
+        <item quantity="other">Po zakupie członkostwa można odzyskiwać elementy w ciągu %d dnia od usunięcia</item>
+        <item quantity="one">Po zakupie członkostwa można odzyskiwać elementy w ciągu %d dnia od usunięcia</item>
+        <item quantity="few">Po zakupie członkostwa można odzyskiwać elementy w ciągu %d dni od usunięcia</item>
+        <item quantity="many">Po zakupie członkostwa można odzyskiwać elementy w ciągu %d dni od usunięcia</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary">
+        <item quantity="other">Użytkownicy nieposiadający członkostwa mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dnia</item>
+        <item quantity="one">Użytkownicy nieposiadający członkostwa mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dnia</item>
+        <item quantity="few">Użytkownicy nieposiadający członkostwa mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dni</item>
+        <item quantity="many">Użytkownicy nieposiadający członkostwa mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dni</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_1">
+        <item quantity="other">Użytkownicy posiadający członkostwo Premium mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dnia</item>
+        <item quantity="one">Użytkownicy posiadający członkostwo Premium mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dnia</item>
+        <item quantity="few">Użytkownicy posiadający członkostwo Premium mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dni</item>
+        <item quantity="many">Użytkownicy posiadający członkostwo Premium mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dni</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_2">
+        <item quantity="other">Użytkownicy posiadający członkostwo Mega mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dnia</item>
+        <item quantity="one">Użytkownicy posiadający członkostwo Mega mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dnia</item>
+        <item quantity="few">Użytkownicy posiadający członkostwo Mega mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dni</item>
+        <item quantity="many">Użytkownicy posiadający członkostwo Mega mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dni</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_3">
+        <item quantity="other">Użytkownicy posiadający członkostwo Ultra mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dnia</item>
+        <item quantity="one">Użytkownicy posiadający członkostwo Ultra mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dnia</item>
+        <item quantity="few">Użytkownicy posiadający członkostwo Ultra mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dni</item>
+        <item quantity="many">Użytkownicy posiadający członkostwo Ultra mogą przywrócić dowolną wersję kontaktów sprzed maks. %d dni</item>
+    </plurals>
+    <plurals name="micloud_preference_video_detail">
+        <item quantity="other">%1$s wideo</item>
+        <item quantity="one">%1$s wideo</item>
+        <item quantity="few">%1$s wideo</item>
+        <item quantity="many">%1$s wideo</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d zaznaczonych elementów</item>
         <item quantity="one">%d zaznaczony element</item>
         <item quantity="few">%d zaznaczone elementy</item>
         <item quantity="many">%d zaznaczonych elementów</item>
+    </plurals>
+    <plurals name="not_authenticated_devices">
+        <item quantity="other">Masz łącznie %s niezaufanego urządzenie.</item>
+        <item quantity="one">Masz łącznie %s niezaufane urządzenie.</item>
+        <item quantity="few">Masz łącznie %s niezaufane urządzenia.</item>
+        <item quantity="many">Masz łącznie %s niezaufanych urządzeń.</item>
     </plurals>
     <plurals name="noti_quota_full_title_with_icon_text">
         <item quantity="other">Brak miejsca w pamięci. Nie udało się zsynchronizować &lt;font color=#F22424>%d aplikacji&lt;/font>.</item>

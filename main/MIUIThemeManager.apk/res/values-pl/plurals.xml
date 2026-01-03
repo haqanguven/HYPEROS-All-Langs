@@ -55,7 +55,7 @@
         <item quantity="many">%d min temu</item>
     </plurals>
     <plurals name="account_coins_num">
-        <item quantity="other">%1s monet</item>
+        <item quantity="other">%1s monety</item>
         <item quantity="one">%1s moneta</item>
         <item quantity="few">%1s monety</item>
         <item quantity="many">%1s monet</item>
@@ -65,6 +65,24 @@
         <item quantity="one">Ciśnienie atmosferyczne: %s hektopaskal</item>
         <item quantity="few">Ciśnienie atmosferyczne: %s hektopaskale</item>
         <item quantity="many">Ciśnienie atmosferyczne: %s hektopaskali</item>
+    </plurals>
+    <plurals name="author_fans_number">
+        <item quantity="other">%d obserwującego</item>
+        <item quantity="one">%d obserwujący</item>
+        <item quantity="few">%d obserwujących</item>
+        <item quantity="many">%d obserwujących</item>
+    </plurals>
+    <plurals name="author_popularity_quantity">
+        <item quantity="other">%d wyświetlenia</item>
+        <item quantity="one">%d wyświetlenie</item>
+        <item quantity="few">%d wyświetlenia</item>
+        <item quantity="many">%d wyświetleń</item>
+    </plurals>
+    <plurals name="author_themes_number">
+        <item quantity="other">%d motywu</item>
+        <item quantity="one">%d motyw</item>
+        <item quantity="few">%d motywy</item>
+        <item quantity="many">%d motywów</item>
     </plurals>
     <plurals name="confirm_delete_tasks">
         <item quantity="other">Usunąć %d zadania?</item>
@@ -192,6 +210,18 @@
         <item quantity="few">za %d minuty</item>
         <item quantity="many">za %d minut</item>
     </plurals>
+    <plurals name="kg_history_count_selected">
+        <item quantity="other">Wybrano %d elementu</item>
+        <item quantity="one">Wybrano %d element</item>
+        <item quantity="few">Wybrano %d elementy</item>
+        <item quantity="many">Wybrano %d elementów</item>
+    </plurals>
+    <plurals name="kg_history_delete_tip_title">
+        <item quantity="other">Usunąć %d elementu?</item>
+        <item quantity="one">Usunąć %d element?</item>
+        <item quantity="few">Usunąć %d elementy?</item>
+        <item quantity="many">Usunąć %d elementów?</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Teraz</item>
         <item quantity="one">Teraz</item>
@@ -217,7 +247,7 @@
         <item quantity="many">%d minut temu</item>
     </plurals>
     <plurals name="payment_coins_tips">
-        <item quantity="other">"%1$d monet = %2$d IDR
+        <item quantity="other">"%1$d monety = %2$d IDR
 Monety nie podlegają zwrotowi"</item>
         <item quantity="one">"%1$d moneta = %2$d IDR
 Monety nie podlegają zwrotowi"</item>
@@ -226,11 +256,17 @@ Monety nie podlegają zwrotowi"</item>
         <item quantity="many">"%1$d monet = %2$d IDR
 Monety nie podlegają zwrotowi"</item>
     </plurals>
+    <plurals name="points_detail_retain_days_tips">
+        <item quantity="other">Wyświetlanie szczegółów z ostatniego %1$d dnia</item>
+        <item quantity="one">Wyświetlanie szczegółów z ostatniego dnia</item>
+        <item quantity="few">Wyświetlanie szczegółów z ostatnich %1$d dni</item>
+        <item quantity="many">Wyświetlanie szczegółów z ostatnich %1$d dni</item>
+    </plurals>
     <plurals name="portfolio">
-        <item quantity="other">%d prac</item>
-        <item quantity="one">%d praca</item>
-        <item quantity="few">%d prace</item>
-        <item quantity="many">%d prac</item>
+        <item quantity="other">%d dzieła</item>
+        <item quantity="one">%d dzieło</item>
+        <item quantity="few">%d dzieła</item>
+        <item quantity="many">%d dzieł</item>
     </plurals>
     <plurals name="processing_is_expected_text">
         <item quantity="other">Żądanie zostanie przetworzone za ok. %1$d sekundy.</item>
@@ -239,13 +275,13 @@ Monety nie podlegają zwrotowi"</item>
         <item quantity="many">Żądanie zostanie przetworzone za ok. %1$d sekund.</item>
     </plurals>
     <plurals name="purchase_refund_success_diag_notice_one">
-        <item quantity="other">"Pomyślnie zwrócono %d zamówień. "</item>
+        <item quantity="other">"Pomyślnie zwrócono %d zamówienia. "</item>
         <item quantity="one">"Pomyślnie zwrócono %d zamówienie. "</item>
         <item quantity="few">"Pomyślnie zwrócono %d zamówienia. "</item>
         <item quantity="many">"Pomyślnie zwrócono %d zamówień. "</item>
     </plurals>
     <plurals name="purchase_refund_success_diag_notice_two">
-        <item quantity="other">Twoje monety zostaną wpłacone w ciągu %d godzin.</item>
+        <item quantity="other">Twoje monety zostaną wpłacone w ciągu %d godziny.</item>
         <item quantity="one">Twoje monety zostaną wpłacone w ciągu %d godziny.</item>
         <item quantity="few">Twoje monety zostaną wpłacone w ciągu %d godzin.</item>
         <item quantity="many">Twoje monety zostaną wpłacone w ciągu %d godzin.</item>
@@ -263,40 +299,82 @@ Monety nie podlegają zwrotowi"</item>
         <item quantity="many">To może zająć chwilę. Jeśli nie otrzymano nabytych elementów w ciągu %d godzin, prześlij opinię, aby powiadomić nas o zaistniałym problemie.</item>
     </plurals>
     <plurals name="purchased_instructions">
-        <item quantity="other">&lt;Data>Dokonując płatności, zgadzasz się na &lt;a href=\"%1$s\">Powiadomienie o zakupach w aplikacjach&lt;/a>.&lt;br>Możliwe są zwroty przez &lt;xliff:g id=time>%2$d&lt;/xliff:g> godzin po dokonaniu zakupów.&lt;/Data></item>
-        <item quantity="one">&lt;Data>Dokonując płatności, zgadzasz się na &lt;a href=\"%1$s\">Powiadomienie o zakupach w aplikacjach&lt;/a>.&lt;br>Zwroty są dostępne przez &lt;xliff:g id=time>%2$d&lt;/xliff:g> godzinę po dokonaniu zakupów.&lt;/Data></item>
-        <item quantity="few">&lt;Data>Dokonując płatności, zgadzasz się na &lt;a href=\"%1$s\">Powiadomienie o zakupach w aplikacjach&lt;/a>.&lt;br>Możliwe są zwroty przez &lt;xliff:g id=time>%2$d&lt;/xliff:g> godziny po dokonaniu zakupów.&lt;/Data></item>
-        <item quantity="many">&lt;Data>Dokonując płatności, zgadzasz się na &lt;a href=\"%1$s\">Powiadomienie o zakupach w aplikacjach&lt;/a>.&lt;br>Możliwe są zwroty przez &lt;xliff:g id=time>%2$d&lt;/xliff:g> godzin po dokonaniu zakupów.&lt;/Data></item>
+        <item quantity="other">&lt;Data>Dokonanie płatności jest równoznaczne z akceptacją postanowień &lt;a href=\"%1$s\">Powiadomienia o zakupach w aplikacjach&lt;/a>.&lt;br>Zwroty są dostępne przez &lt;xliff:g id=time>%2$d&lt;/xliff:g> godziny po dokonaniu zakupów.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Dokonanie płatności jest równoznaczne z akceptacją postanowień &lt;a href=\"%1$s\">Powiadomienia o zakupach w aplikacjach&lt;/a>.&lt;br>Zwroty są dostępne przez &lt;xliff:g id=time>%2$d&lt;/xliff:g> godzinę od zakupu.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Dokonanie płatności jest równoznaczne z akceptacją postanowień &lt;a href=\"%1$s\">Powiadomienia o zakupach w aplikacjach&lt;/a>.&lt;br>Zwroty są dostępne przez &lt;xliff:g id=time>%2$d&lt;/xliff:g> godziny po dokonaniu zakupów.&lt;/Data></item>
+        <item quantity="many">&lt;Data>Dokonanie płatności jest równoznaczne z akceptacją postanowień &lt;a href=\"%1$s\">Powiadomienia o zakupach w aplikacjach&lt;/a>.&lt;br>Zwroty są dostępne przez &lt;xliff:g id=time>%2$d&lt;/xliff:g> godzin po dokonaniu zakupów.&lt;/Data></item>
     </plurals>
     <plurals name="purchased_refund_constact_us_success_dialog_message">
-        <item quantity="other">Zamówienie zostało zrealizowane ponad %d godzin temu. Wyślij do nas e-mail.</item>
+        <item quantity="other">Zamówienie zostało zrealizowane ponad %d godziny temu. Wyślij do nas e-mail.</item>
         <item quantity="one">Zamówienie zostało zrealizowane ponad %d godzinę temu. Wyślij do nas e-mail.</item>
         <item quantity="few">Zamówienie zostało zrealizowane ponad %d godziny temu. Wyślij do nas e-mail.</item>
         <item quantity="many">Zamówienie zostało zrealizowane ponad %d godzin temu. Wyślij do nas e-mail.</item>
     </plurals>
     <plurals name="purchased_refund_success_dialog_message">
-        <item quantity="other">Monety otrzymasz w ciągu %d godzin.</item>
+        <item quantity="other">Monety otrzymasz w ciągu %d godziny.</item>
         <item quantity="one">Monety otrzymasz w ciągu %d godziny.</item>
         <item quantity="few">Monety otrzymasz w ciągu %d godzin.</item>
         <item quantity="many">Monety otrzymasz w ciągu %d godzin.</item>
     </plurals>
+    <plurals name="redemption_consume_points">
+        <item quantity="other">Wymienić %1$d punktu na ten przedmiot?</item>
+        <item quantity="one">Wymienić %1$d punkt na ten przedmiot?</item>
+        <item quantity="few">Wymienić %1$d punkty na ten przedmiot?</item>
+        <item quantity="many">Wymienić %1$d punktów na ten przedmiot?</item>
+    </plurals>
+    <plurals name="redemption_current_own_points">
+        <item quantity="other">Obecnie posiadasz %1$d punktu.</item>
+        <item quantity="one">Obecnie posiadasz %1$d punkt.</item>
+        <item quantity="few">Obecnie posiadasz %1$d punkty.</item>
+        <item quantity="many">Obecnie posiadasz %1$d punktów.</item>
+    </plurals>
+    <plurals name="redemption_current_points_tips">
+        <item quantity="other">Obecna liczba punktów: %1$d</item>
+        <item quantity="one">Obecna liczba punktów: %1$d</item>
+        <item quantity="few">Obecna liczba punktów: %1$d</item>
+        <item quantity="many">Obecna liczba punktów: %1$d</item>
+    </plurals>
+    <plurals name="redemption_insufficient_points_tips">
+        <item quantity="other">Niewystarczająca liczba punktów. Obecna liczba punktów: %1$d</item>
+        <item quantity="one">Niewystarczająca liczba punktów. Obecna liczba punktów: %1$d</item>
+        <item quantity="few">Niewystarczająca liczba punktów. Obecna liczba punktów: %1$d</item>
+        <item quantity="many">Niewystarczająca liczba punktów. Obecna liczba punktów: %1$d</item>
+    </plurals>
     <plurals name="resource_font_download_notification_title_many">
-        <item quantity="other">Pobrano %1$s czcionek pomyślnie</item>
-        <item quantity="one">Pobrano %1$s czcionkę pomyślnie</item>
-        <item quantity="few">Pobrano %1$s czcionki pomyślnie</item>
-        <item quantity="many">Pobrano %1$s czcionek pomyślnie</item>
+        <item quantity="other">Pomyślnie pobrano %1$s czcionki</item>
+        <item quantity="one">Pomyślnie pobrano %1$s czcionkę</item>
+        <item quantity="few">Pomyślnie pobrano %1$s czcionki</item>
+        <item quantity="many">Pomyślnie pobrano %1$s czcionek</item>
     </plurals>
     <plurals name="resource_theme_download_notification_title_many">
-        <item quantity="other">Pobrano %1$s motywów pomyślnie</item>
-        <item quantity="one">Pobrano %1$s motyw pomyślnie</item>
-        <item quantity="few">Pobrano %1$s motywy pomyślnie</item>
-        <item quantity="many">Pobrano %1$s motywów pomyślnie</item>
+        <item quantity="other">Pomyślnie pobrano %1$s motywu</item>
+        <item quantity="one">Pomyślnie pobrano %1$s motyw</item>
+        <item quantity="few">Pomyślnie pobrano %1$s motywy</item>
+        <item quantity="many">Pomyślnie pobrano %1$s motywów</item>
+    </plurals>
+    <plurals name="reward_guaranteed_countdown_time_text">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="few">%d sek.</item>
+        <item quantity="many">%d sek.</item>
+    </plurals>
+    <plurals name="talkback_ringtone_time_one">
+        <item quantity="other">%1$d minuty</item>
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="few">%1$d minuty</item>
+        <item quantity="many">%1$d minut</item>
+    </plurals>
+    <plurals name="talkback_ringtone_time_two">
+        <item quantity="other">%1$d sekundy</item>
+        <item quantity="one">%1$d sekunda</item>
+        <item quantity="few">%1$d sekundy</item>
+        <item quantity="many">%1$d sekund</item>
     </plurals>
     <plurals name="theme_designer_products_count">
-        <item quantity="other">%1$s pracy</item>
-        <item quantity="one">%1$s praca</item>
-        <item quantity="few">%1$s prac</item>
-        <item quantity="many">%1$s prac</item>
+        <item quantity="other">%1$s dzieła</item>
+        <item quantity="one">%1$s dzieło</item>
+        <item quantity="few">%1$s dzieła</item>
+        <item quantity="many">%1$s dzieł</item>
     </plurals>
     <plurals name="tiny_accessibility_battery_level">
         <item quantity="other">Poziom baterii: %s procent</item>
@@ -311,7 +389,7 @@ Monety nie podlegają zwrotowi"</item>
         <item quantity="many">Ładowanie. Poziom baterii: %d procent.</item>
     </plurals>
     <plurals name="wallpaper_staggered_item_text">
-        <item quantity="other">%1$s | %2$d obrazów</item>
+        <item quantity="other">%1$s | %2$d obrazu</item>
         <item quantity="one">%1$s | %2$d obraz</item>
         <item quantity="few">%1$s | %2$d obrazy</item>
         <item quantity="many">%1$s | %2$d obrazów</item>

@@ -44,6 +44,18 @@
         <item quantity="other">Luftdruck: %s Hektopascal</item>
         <item quantity="one">Luftdruck: %s Hektopascal</item>
     </plurals>
+    <plurals name="author_fans_number">
+        <item quantity="other">%d Follower</item>
+        <item quantity="one">%d Follower</item>
+    </plurals>
+    <plurals name="author_popularity_quantity">
+        <item quantity="other">%d Ansichten</item>
+        <item quantity="one">%d Ansicht</item>
+    </plurals>
+    <plurals name="author_themes_number">
+        <item quantity="other">%d Themen</item>
+        <item quantity="one">%d Thema</item>
+    </plurals>
     <plurals name="confirm_delete_tasks">
         <item quantity="other">%d Aufgaben jetzt löschen?</item>
         <item quantity="one">%d Aufgabe jetzt löschen?</item>
@@ -128,13 +140,21 @@
         <item quantity="other">In %d Min</item>
         <item quantity="one">In 1 Minute</item>
     </plurals>
+    <plurals name="kg_history_count_selected">
+        <item quantity="other">%d Elemente ausgewählt</item>
+        <item quantity="one">%d Element ausgewählt</item>
+    </plurals>
+    <plurals name="kg_history_delete_tip_title">
+        <item quantity="other">%d Elemente jetzt löschen?</item>
+        <item quantity="one">%d Element jetzt löschen?</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Gerade eben</item>
         <item quantity="one">Gerade eben</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
-        <item quantity="other">%d Elemente ausgewählt</item>
-        <item quantity="one">%d Element ausgewählt</item>
+        <item quantity="other">%d ausgesuchte Elemente</item>
+        <item quantity="one">%d ausgesuchtes Element</item>
     </plurals>
     <plurals name="mtrl_badge_content_description">
         <item quantity="other">%d neue Benachrichtigungen</item>
@@ -149,6 +169,10 @@
 Münzen sind nicht erstattungsfähig"</item>
         <item quantity="one">"%1$d Münze = %2$d IDR
 Münzen sind nicht erstattungsfähig"</item>
+    </plurals>
+    <plurals name="points_detail_retain_days_tips">
+        <item quantity="other">Nur Details der letzten %1$d Tage werden angezeigt</item>
+        <item quantity="one">Nur Details des letzten %1$d Tages wird angezeigt</item>
     </plurals>
     <plurals name="portfolio">
         <item quantity="other">%d Werke</item>
@@ -167,16 +191,16 @@ Münzen sind nicht erstattungsfähig"</item>
         <item quantity="one">Deine Münzen werden innerhalb von %d Stunde eingezahlt.</item>
     </plurals>
     <plurals name="purchase_refund_success_notice">
-        <item quantity="other">Deine Rückerstattung wurde verarbeitet. Deine Münzen werden innerhalb von %d Stunden eingezahlt.</item>
-        <item quantity="one">Deine Rückerstattung wurde verarbeitet. Deine Münzen werden innerhalb von %d Stunde eingezahlt.</item>
+        <item quantity="other">Deine Rückerstattung wurde bearbeitet. Deine Münzen werden innerhalb von %d Stunden gutgeschrieben.</item>
+        <item quantity="one">Deine Rückerstattung wurde bearbeitet. Deine Münzen werden innerhalb von %d Stunde gutgeschrieben.</item>
     </plurals>
     <plurals name="purchased_authorizing_dialog_content">
-        <item quantity="other">Dies könnte einen Augenblick dauern. Solltest du die gekauften Elemente nicht innerhalb von %d Stunden erhalten, schicke uns Feedback und informiere uns über das Problem.</item>
-        <item quantity="one">Dies könnte einen Augenblick dauern. Solltest du die gekauften Elemente nicht innerhalb von %d Stunde erhalten, schicke uns Feedback und informiere uns über das Problem.</item>
+        <item quantity="other">Dies könnte einen Augenblick dauern. Solltest du die gekauften Elemente nicht innerhalb von %d Stunden erhalten, sende uns Feedback und informiere uns über das Problem.</item>
+        <item quantity="one">Dies könnte einen Augenblick dauern. Solltest du die gekauften Elemente nicht innerhalb von %d Stunde erhalten, sende uns Feedback und informiere uns über das Problem.</item>
     </plurals>
     <plurals name="purchased_instructions">
-        <item quantity="other">&lt;Data>Durch das Abschließen der Zahlung, stimmst du dem &lt;a href=\"%1$s\">Hinweis zu In-App-Käufen&lt;/a> zu.&lt;br>Erstattungen sind für &lt;xliff:g id=time>%2$d&lt;/xliff:g> Stunden nach dem Kauf möglich.&lt;/Data></item>
-        <item quantity="one">&lt;Data>Durch das Abschließen der Zahlung, stimmst du dem &lt;a href=\"%1$s\">Hinweis zu In-App-Käufen&lt;/a> zu.&lt;br>Erstattungen sind für &lt;xliff:g id=time>%2$d&lt;/xliff:g> Stunde nach dem Kauf möglich.&lt;/Data></item>
+        <item quantity="other">&lt;Data>Durch das Abschließen der Zahlung stimmst du dem &lt;a href=\"%1$s\">Hinweis zu In-App-Käufen&lt;/a> zu.&lt;br>Erstattungen sind für &lt;xliff:g id=time>%2$d&lt;/xliff:g> Stunden nach dem Kauf möglich.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Durch das Abschließen der Zahlung stimmst du dem &lt;a href=\"%1$s\">Hinweis zu In-App-Käufen&lt;/a> zu.&lt;br>Erstattungen sind für &lt;xliff:g id=time>%2$d&lt;/xliff:g> Stunde nach dem Kauf möglich.&lt;/Data></item>
     </plurals>
     <plurals name="purchased_refund_constact_us_success_dialog_message">
         <item quantity="other">Die Bestellung wurde vor über %d Stunden abgeschlossen. Sende uns eine E-Mail.</item>
@@ -186,17 +210,45 @@ Münzen sind nicht erstattungsfähig"</item>
         <item quantity="other">Du erhältst die Münzen innerhalb von %d Stunden.</item>
         <item quantity="one">Du erhältst die Münzen innerhalb von %d Stunde.</item>
     </plurals>
+    <plurals name="redemption_consume_points">
+        <item quantity="other">Dieses Element für %1$d Punkte einlösen?</item>
+        <item quantity="one">Dieses Element für %1$d Punkt einlösen?</item>
+    </plurals>
+    <plurals name="redemption_current_own_points">
+        <item quantity="other">Du hast derzeit %1$d Punkte.</item>
+        <item quantity="one">Du hast derzeit %1$d Punkt.</item>
+    </plurals>
+    <plurals name="redemption_current_points_tips">
+        <item quantity="other">Aktuelle Punkte: %1$d</item>
+        <item quantity="one">Aktuelle Punkte: %1$d</item>
+    </plurals>
+    <plurals name="redemption_insufficient_points_tips">
+        <item quantity="other">Unzureichende Punkte. Aktuelle Punkte: %1$d</item>
+        <item quantity="one">Unzureichende Punkte. Aktuelle Punkte: %1$d</item>
+    </plurals>
     <plurals name="resource_font_download_notification_title_many">
         <item quantity="other">%1$s Schriftarten erfolgreich heruntergeladen</item>
         <item quantity="one">%1$s Schriftart erfolgreich heruntergeladen</item>
     </plurals>
     <plurals name="resource_theme_download_notification_title_many">
-        <item quantity="other">%1$s Designs erfolgreich heruntergeladen</item>
-        <item quantity="one">%1$s Design erfolgreich heruntergeladen</item>
+        <item quantity="other">%1$s Themen erfolgreich heruntergeladen</item>
+        <item quantity="one">%1$s Thema erfolgreich heruntergeladen</item>
+    </plurals>
+    <plurals name="reward_guaranteed_countdown_time_text">
+        <item quantity="other">%d Sek.</item>
+        <item quantity="one">%d Sek.</item>
+    </plurals>
+    <plurals name="talkback_ringtone_time_one">
+        <item quantity="other">%1$d Minuten</item>
+        <item quantity="one">%1$d Minute</item>
+    </plurals>
+    <plurals name="talkback_ringtone_time_two">
+        <item quantity="other">%1$d Sekunden</item>
+        <item quantity="one">%1$d Sekunde</item>
     </plurals>
     <plurals name="theme_designer_products_count">
-        <item quantity="other">hat %1$s Designs erstellt</item>
-        <item quantity="one">hat %1$s Design erstellt</item>
+        <item quantity="other">%1$s Werke</item>
+        <item quantity="one">%1$s Werk</item>
     </plurals>
     <plurals name="tiny_accessibility_battery_level">
         <item quantity="other">Akkustand ist jetzt %s Prozent</item>

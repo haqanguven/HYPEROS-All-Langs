@@ -139,10 +139,16 @@
         <item quantity="many">%d Wi-Fi sietí</item>
     </plurals>
     <plurals name="dirty_wlan_count_china">
-        <item quantity="other">%d WLAN networks</item>
-        <item quantity="one">%d WLAN network</item>
-        <item quantity="few">%d WLAN networks</item>
-        <item quantity="many">%d WLAN networks</item>
+        <item quantity="other">%d sietí WLAN</item>
+        <item quantity="one">%d sieť WLAN</item>
+        <item quantity="few">%d siete WLAN</item>
+        <item quantity="many">%d siete WLAN</item>
+    </plurals>
+    <plurals name="display_number_of_devices">
+        <item quantity="other">Zobrazuje sa len prvých %s nedôveryhodných zariadení.</item>
+        <item quantity="one">Zobrazuje sa len prvé %s nedôveryhodné zariadenie.</item>
+        <item quantity="few">Zobrazujú sa len prvé %s nedôveryhodné zariadenia.</item>
+        <item quantity="many">Zobrazujú sa len prvých %s nedôveryhodných zariadení.</item>
     </plurals>
     <plurals name="e2ee_device_verification_num">
         <item quantity="other">%s neoverených zariadení</item>
@@ -173,12 +179,6 @@
         <item quantity="one">Skúste to znova za %d sekundu</item>
         <item quantity="few">Skúste to znova za %d sekundy</item>
         <item quantity="many">Skúste to znova za %d sekúnd</item>
-    </plurals>
-    <plurals name="gallery_auto_sync_fail_noti_red_title">
-        <item quantity="other">Nebolo možné synchr. &lt;font color=#F22424>%s položiek&lt;/font></item>
-        <item quantity="one">Nebolo možné synchr. &lt;font color=#F22424>%s položku&lt;/font></item>
-        <item quantity="few">Nebolo možné synchr. &lt;font color=#F22424>%s položky&lt;/font></item>
-        <item quantity="many">Nebolo možné synchr. &lt;font color=#F22424>%s položky&lt;/font></item>
     </plurals>
     <plurals name="gallery_auto_sync_fail_noti_title">
         <item quantity="other">Nebolo možné synchronizovať %s položiek</item>
@@ -252,11 +252,101 @@
         <item quantity="few">Synchr. sa obnoví za %d minúty</item>
         <item quantity="many">Synchr. sa obnoví za %d minúty</item>
     </plurals>
+    <plurals name="micloud_preference_family_detail">
+        <item quantity="other">Zdieľané s %1$d osobami. Členovia rodiny použili %2$s.</item>
+        <item quantity="one">Zdieľané s %1$d osobou. Člen rodiny použil %2$s.</item>
+        <item quantity="few">Zdieľané s %1$d osobami. Členovia rodiny použili %2$s.</item>
+        <item quantity="many">Zdieľané s %1$d osobami. Členovia rodiny použili %2$s.</item>
+    </plurals>
+    <plurals name="micloud_preference_items_count">
+        <item quantity="other">%s položiek</item>
+        <item quantity="one">%s položka</item>
+        <item quantity="few">%s položky</item>
+        <item quantity="many">%s položiek</item>
+    </plurals>
+    <plurals name="micloud_preference_photo_detail">
+        <item quantity="other">%1$s fotografií</item>
+        <item quantity="one">%1$s fotografia</item>
+        <item quantity="few">%1$s fotografie</item>
+        <item quantity="many">%1$s fotografie</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted">
+        <item quantity="other">Členovia Prémium môžu obnoviť položky do %d dní od vymazania</item>
+        <item quantity="one">Členovia Prémium môžu obnoviť položky do %d dňa od vymazania</item>
+        <item quantity="few">Členovia Prémium môžu obnoviť položky do %d dní od vymazania</item>
+        <item quantity="many">Členovia Prémium môžu obnoviť položky do %d dní od vymazania</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_1">
+        <item quantity="other">Používatelia bez členstva môžu obnoviť odstránené položky do %d dní</item>
+        <item quantity="one">Používatelia bez členstva môžu obnoviť odstránené položky do %d dňa</item>
+        <item quantity="few">Používatelia bez členstva môžu obnoviť odstránené položky do %d dní</item>
+        <item quantity="many">Používatelia bez členstva môžu obnoviť odstránené položky do %d dňa</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_2">
+        <item quantity="other">Členovia plánu Mega môžu obnoviť odstránené položky do %d dní</item>
+        <item quantity="one">Členovia plánu Mega môžu obnoviť odstránené položky do %d dňa</item>
+        <item quantity="few">Členovia plánu Mega môžu obnoviť odstránené položky do %d dní</item>
+        <item quantity="many">Členovia plánu Mega môžu obnoviť odstránené položky do %d dňa</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_3">
+        <item quantity="other">Členovia plánu Ultra môžu obnoviť odstránené položky do %d dní</item>
+        <item quantity="one">Členovia plánu Ultra môžu obnoviť odstránené položky do %d dňa</item>
+        <item quantity="few">Členovia plánu Ultra môžu obnoviť odstránené položky do %d dní</item>
+        <item quantity="many">Členovia plánu Ultra môžu obnoviť odstránené položky do %d dňa</item>
+    </plurals>
+    <plurals name="micloud_preference_record_detail">
+        <item quantity="other">%s položiek</item>
+        <item quantity="one">%s položka</item>
+        <item quantity="few">%s položky</item>
+        <item quantity="many">%s položky</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_deleted_data">
+        <item quantity="other">Členovia môžu obnoviť vymazané položky do %d dní</item>
+        <item quantity="one">Členovia môžu obnoviť vymazané položky do %d dňa</item>
+        <item quantity="few">Členovia môžu obnoviť vymazané položky do %d dní</item>
+        <item quantity="many">Členovia môžu obnoviť vymazané položky do %d dní</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary">
+        <item quantity="other">Používatelia bez členstva môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dní</item>
+        <item quantity="one">Používatelia bez členstva môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dňa</item>
+        <item quantity="few">Používatelia bez členstva môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dní</item>
+        <item quantity="many">Používatelia bez členstva môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dňa</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_1">
+        <item quantity="other">Členovia plánu Premium môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dní</item>
+        <item quantity="one">Členovia plánu Premium môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dňa</item>
+        <item quantity="few">Členovia plánu Premium môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dní</item>
+        <item quantity="many">Členovia plánu Premium môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dňa</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_2">
+        <item quantity="other">Členovia plánu Mega môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dní</item>
+        <item quantity="one">Členovia plánu Mega môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dňa</item>
+        <item quantity="few">Členovia plánu Mega môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dní</item>
+        <item quantity="many">Členovia plánu Mega môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dňa</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_3">
+        <item quantity="other">Členovia plánu Ultra môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dní</item>
+        <item quantity="one">Členovia plánu Ultra môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dňa</item>
+        <item quantity="few">Členovia plánu Ultra môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dní</item>
+        <item quantity="many">Členovia plánu Ultra môžu obnoviť kontakty do akejkoľvek verzie uloženej do %d dňa</item>
+    </plurals>
+    <plurals name="micloud_preference_video_detail">
+        <item quantity="other">%1$s videí</item>
+        <item quantity="one">%1$s video</item>
+        <item quantity="few">%1$s videá</item>
+        <item quantity="many">%1$s videa</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">Vybraných %d položiek</item>
         <item quantity="one">Vybraná %d položka</item>
         <item quantity="few">Vybrané %d položky</item>
-        <item quantity="many">Vybranej %d položky</item>
+        <item quantity="many">Vybraných %d položiek</item>
+    </plurals>
+    <plurals name="not_authenticated_devices">
+        <item quantity="other">Celkovo máte %s nedôveryhodných zariadení.</item>
+        <item quantity="one">Celkovo máte %s nedôveryhodné zariadenie.</item>
+        <item quantity="few">Celkovo máte %s nedôveryhodné zariadenia.</item>
+        <item quantity="many">Celkovo máte %s nedôveryhodných zariadení.</item>
     </plurals>
     <plurals name="noti_quota_full_title_with_icon_text">
         <item quantity="other">Úložisko je plné. Nebolo možné synchr. &lt;font color=#F22424>%d aplikácií&lt;/font>.</item>

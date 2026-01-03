@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Redmi_Pad_Pro">Redmi Pad Pro</string>
+    <string name="Redmi_Pad_Pro_5G">Redmi Pad Pro 5G</string>
+    <string name="Xiaomi_Civi_3">Xiaomi Civi 3</string>
+    <string name="Xiaomi_Civi_4_Pro">Xiaomi Civi 4 Pro</string>
+    <string name="Xiaomi_Pad_6S_Pro">Xiaomi Pad 6S Pro 12.4</string>
     <string name="abc_action_bar_home_description">Перейти на главный экран</string>
     <string name="abc_action_bar_up_description">Перейти вверх</string>
     <string name="abc_action_menu_overflow_description">Ещё</string>
@@ -27,12 +32,17 @@
     <string name="abc_shareactionprovider_share_with">Поделиться с помощью</string>
     <string name="abc_shareactionprovider_share_with_application">Поделиться с помощью %s</string>
     <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="accessibility_sliding_button_state_description_off">Отключено</string>
+    <string name="accessibility_sliding_button_state_description_on">Включено</string>
+    <string name="accessibility_tab_state_description_unselect">Не выбрано</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">День</string>
     <string name="agree_desc">Предоставьте обязательные разрешения, перечисленные выше.</string>
     <string name="am">AM</string>
+    <string name="apple">Apple</string>
     <string name="asus">Asus</string>
     <string name="asus_phone">Asus</string>
+    <string name="background_wait">Скрыть</string>
     <string name="blackshark">Black Shark</string>
     <string name="blackshark_1">Black Shark</string>
     <string name="blackshark_2">Black Shark 2</string>
@@ -57,13 +67,18 @@
     <string name="cancel_receive">Отмена</string>
     <string name="cancel_send">Передача отменена</string>
     <string name="cancel_task">Отмена</string>
+    <string name="canceled">Отменено</string>
     <string name="clearable_edittext_clear_description">Очистить</string>
     <string name="close">Закрыть</string>
     <string name="complete">Готово</string>
+    <string name="confirm">OK</string>
     <string name="confirm_cancel_receive">Вы не сможете получить этот объект, если прервете передачу. Отменить передачу?</string>
-    <string name="confirm_cancel_task_files">Отменить отправку файлов на %1$s?</string>
-    <string name="confirm_cancel_task_images">Отменить отправку изображений на%1$s?</string>
+    <string name="confirm_cancel_task_files">Отменить отправку файлов?</string>
+    <string name="confirm_cancel_task_images">Отменить отправку фото?</string>
+    <string name="connect">Подключиться</string>
+    <string name="connected">Подключено</string>
     <string name="copy">Копировать</string>
+    <string name="count_and_size_of_file">%1$s %2$s</string>
     <string name="custom_define_permission_desc_android.permission_group.LOCATION">Для передачи файлов по Bluetooth и WLAN</string>
     <string name="custom_define_permission_desc_android.permission_group.STORAGE">Для отправки и получения файлов</string>
     <string name="date_picker_label_day" />
@@ -95,17 +110,21 @@
     <string name="eras_ad">н. э.</string>
     <string name="eras_bc">до н. э.</string>
     <string name="err_send_short_connect_error">Не удалось подключиться</string>
-    <string name="err_send_short_remote_busy">Не беспокоить</string>
+    <string name="err_send_short_remote_busy">Устройство занято</string>
     <string name="err_send_short_remote_cancel">Отменено</string>
     <string name="err_send_short_remote_refuse">Отклоненные</string>
     <string name="err_send_short_remote_timeout">Нет ответа</string>
-    <string name="error_ap_in_use">Отправка файлов невозможна, когда включена мобильная точка доступа</string>
+    <string name="err_send_short_send_cancel">Отмененный перенос</string>
     <string name="error_ap_or_screen_already_hosting">Отправка объектов на другие устройства недоступна во время трансляции или использования портативной точки доступа.</string>
     <string name="error_ble_connect_failure">Принимающее устройство не подключено по Bluetooth. Убедитесь, что экран устройства включен.</string>
     <string name="error_ble_connect_timeout">Не удалось подключиться по Bluetooth. Повторно подключитесь по Bluetooth на обоих устройствах и повторите попытку.</string>
     <string name="error_device_lost">Другое устройство не отвечает. Подождите немного и повторите попытку.</string>
     <string name="error_has_occurred">Произошла ошибка</string>
-    <string name="error_mirror_working">Нельзя передавать данные во время дублирования экрана</string>
+    <string name="error_local_ap_in_use">Выключите точку доступа на этом устройстве и повторите попытку</string>
+    <string name="error_local_easytether">Отключите общий доступ к сети на этом устройстве и попробуйте снова</string>
+    <string name="error_local_mirror">Выключите Screen Combo на этом устройстве и повторите попытку</string>
+    <string name="error_local_p2p_in_use">Выключите функции для различных устройств и повторите попытку</string>
+    <string name="error_local_screening">Остановите трансляцию на этом устройстве и повторите попытку</string>
     <string name="error_msg_network_error">Не удалось подключиться к сети. Проверьте соединение по Wi-Fi и Bluetooth на устройствах.</string>
     <string name="error_msg_network_error_china">"Couldn't connect to the network. Check both devices' WLAN and Bluetooth connections."</string>
     <string name="error_msg_wlan_error">Не удалось подключиться. Повторно подключитесь к Wi-Fi и повторите попытку.</string>
@@ -113,7 +132,7 @@
     <string name="error_p2p_create_group_failure">Не удалось подключиться. Повторно подключитесь по Wi-Fi на обоих устройствах и повторите попытку.</string>
     <string name="error_p2p_create_group_failure_china">"Couldn't connect. Reconnect to WLAN on both devices and try again."</string>
     <string name="error_p2p_recv_connect_timeout">Не удалось подключиться. Повторно подключитесь по Wi-Fi на обоих устройствах и повторите попытку.</string>
-    <string name="error_p2p_recv_connect_timeout_china">"Couldn't connect. Reconnect to WLAN on both devices and try again."</string>
+    <string name="error_p2p_recv_connect_timeout_china">Не удалось подключиться. Повторно подключитесь по WLAN на обоих устройствах и повторите попытку.</string>
     <string name="error_permission_denied">Предоставьте Xiaomi Share все необходимые разрешения в Настройках, чтобы воспользоваться этой функцией.</string>
     <string name="error_receive_file_cannot_read">Сбой получения файла</string>
     <string name="error_receive_file_changed">Произошла ошибка. Файл был изменен.</string>
@@ -123,9 +142,14 @@
     <string name="error_receive_user_cancel">Передача отменена</string>
     <string name="error_receive_user_interrupted">Другой пользователь отменил передачу</string>
     <string name="error_refuse_receive">Передача отменена</string>
-    <string name="error_remote_ap_working">Попросите другого пользователя отключить точку доступа.</string>
+    <string name="error_remote_ap_in_use">Выключите точку доступа на другом устройстве и повторите попытку</string>
     <string name="error_remote_busy">Другое устройство не отвечает. Подождите немного и повторите попытку.</string>
-    <string name="error_remote_mirror_working">Во время дублирования экрана другие устройства не могут получать доступ к объектам</string>
+    <string name="error_remote_easytether">Отключите общий доступ к сети на другом устройстве и попробуйте снова</string>
+    <string name="error_remote_mirror">Выключите Screen Combo на другом устройстве и повторите попытку</string>
+    <string name="error_remote_p2p_in_use">Выключите функции для различных устройств на другом устройстве и повторите попытку</string>
+    <string name="error_remote_screening">Остановите трансляцию на другом устройстве и повторите попытку</string>
+    <string name="error_remote_wlan_off">Включите Wi-Fi на другом устройстве</string>
+    <string name="error_remote_wlan_off_china">Включите WLAN на другом устройстве</string>
     <string name="error_self_busy">Устройство не отвечает. Подождите немного и повторите попытку.</string>
     <string name="error_send_file_cannot_read">Ошибка отправки файла. Повторите попытку.</string>
     <string name="error_send_file_no_enough_space">Произошла ошибка. Недостаточно памяти на другом устройстве.</string>
@@ -208,29 +232,49 @@
     <string name="friday_shortest">Пт</string>
     <string name="functions_are_being_developed">Эта функция скоро будет доступна. Следите за обновлениями!</string>
     <string name="global_help">Не удалось найти устройство</string>
-    <string name="global_pad">Мой планшет</string>
-    <string name="global_pc">Мой ноутбук</string>
-    <string name="global_phone">Мой телефон</string>
+    <string name="global_my">"Мое устройство
+%1$s"</string>
     <string name="go_to_settings">Настройки</string>
+    <string name="guide_page_view1">Включите Xiaomi Share на обоих устройствах. Другой пользователь может нажать на переключатель в Центре управления. Страница %1$d из %2$d. Для переключения проведите двумя пальцами влево или вправо.</string>
+    <string name="guide_page_view1_lyra">Вы можете включить Xiaomi Share в Центре управления. Страница: %1$d из %2$d. Для переключения проведите двумя пальцами влево или вправо.</string>
+    <string name="guide_page_view1_os3">Вы можете включить Xiaomi Share в Центре управления, чтобы получать файлы. Страница %1$d из %2$d. Для переключения проведите двумя пальцами влево или вправо.</string>
+    <string name="guide_page_view2">Выберите устройство, на которое вы хотите отправить объекты, и нажмите на его значок. Страница: %1$d из %2$d. Для переключения проведите двумя пальцами влево или вправо.</string>
+    <string name="guide_page_view2_os3">Выберите устройство, на которое хотите отправить объект. Страница %1$d из %2$d. Для переключения проведите двумя пальцами влево или вправо.</string>
+    <string name="guide_page_view3">Расположите задние NFC-зоны двух устройств близко друг к другу, чтобы начать обмен данными. Страница %1$d из %2$d. Для переключения проведите двумя пальцами влево или вправо.</string>
     <string name="guide_summary_1">Другой пользователь должен нажать на переключатель в Шторке уведомлений.</string>
     <string name="guide_summary_1_lyra">Вы можете включить Xiaomi Share в Центре управления</string>
+    <string name="guide_summary_1_os3">Вы можете включить Xiaomi Share в Центре управления</string>
     <string name="guide_summary_2">Выберите устройство, которому вы хотите отправить данные, и нажмите на его значок.</string>
+    <string name="guide_summary_2_os3">Выберите устройство, на которое вы хотите отправить объекты</string>
+    <string name="guide_summary_3">Расположите задние NFC-зоны двух устройств близко друг к другу, чтобы начать обмен данными</string>
     <string name="guide_title_1">Включите Xiaomi Share на обоих устройствах</string>
     <string name="guide_title_1_lyra">Включите Xiaomi Share для получения файлов</string>
+    <string name="guide_title_1_os3">Включите Xiaomi Share для получения файлов</string>
     <string name="guide_title_2">Выберите устройство для передачи</string>
+    <string name="guide_title_2_os3">Выберите устройство для отправки файлов</string>
+    <string name="guide_title_3">Передача касанием</string>
     <string name="help">Не удалось обнаружить устройства?</string>
-    <string name="help_content">Если вы не можете найти необходимое устройство, попросите другого пользователя включить Xiaomi Share.</string>
     <string name="hide">Скрыть</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
+    <string name="honor">Honor</string>
+    <string name="honor_phone">Телефон Honor</string>
     <string name="i_know">Понятно</string>
+    <string name="imac">iMac</string>
     <string name="international_privacy_dialog_agree">Согласиться</string>
     <string name="international_privacy_dialog_content">При использовании приложения ему требуется собирать необходимую информацию, чтобы иметь возможность устанавливать соединение между устройствами для передачи файлов. Если вы решите не предоставлять эту информацию, мы, возможно, не сможем предоставить вам соответствующие услуги или ответить на ваши запросы. Вы можете в любое время отправить запрос на отзыв своего согласия в разделе \"Конфиденциальность\" > \"Отзыв согласия\".</string>
     <string name="international_privacy_dialog_disagree">Отклонить</string>
     <string name="international_privacy_dialog_title">Xiaomi Share</string>
+    <string name="ipad">iPad</string>
+    <string name="iphone">iPhone</string>
     <string name="lenovo">Lenovo</string>
     <string name="lenovo_phone">Lenovo</string>
     <string name="location_enabled">Приложение Xiaomi Share включило службу определения местоположения для поиска устройств поблизости</string>
+    <string name="mac">Mac</string>
+    <string name="mac_mini">Mac mini</string>
+    <string name="mac_pro">Mac Pro</string>
+    <string name="mac_studio">Mac Studio</string>
+    <string name="macbook">MacBook</string>
     <string name="meizu">Meizu</string>
     <string name="meizu_phone">Meizu</string>
     <string name="menu_item_permission_manager_and_use_guide_title">Сведения о разрешениях</string>
@@ -255,18 +299,37 @@
     <string name="mi_pad_5">Xiaomi Pad 5</string>
     <string name="mi_pad_5_pro">Xiaomi Pad 5 Pro</string>
     <string name="mi_pad_5_pro_5g">Xiaomi Pad 5 Pro 5G</string>
+    <string name="mi_pad_6">Xiaomi Pad 6</string>
+    <string name="mi_pad_6_pro">Xiaomi Pad 6 Pro</string>
     <string name="mi_share_turbo_mode">Турбопередача</string>
     <string name="midnight">Ночь</string>
     <string name="mini_pc_xiaomi_device_model_name">Xiaomi Mini PC</string>
+    <string name="mishare_device_find_conditions_comment">Обнаружение устройств</string>
+    <string name="mishare_device_version_comment">* Устройства, вошедшие в один и тот же аккаунт Xiaomi, могут автоматически распознавать друг друга как доверенные устройства и получать сообщения друг от друга. Для этой функции требуется, чтобы на обоих устройствах была установлена ​​ОС Xiaomi HyperOS, а приложение Xiaomi Share было обновлено ​​до версии 3.0.0 или более поздней.</string>
     <string name="mishare_folder_in_file_explorer">Проводник > Xiaomi Share</string>
     <string name="mishare_service_channel_desc">Уведомления о процессах Xiaomi Share</string>
-    <string name="mishare_settings_summary_international">"Xiaomi Share позволяет переносить данные на другие устройства поблизости по беспроводной сети.
-Эта функция поддерживается OPPO, vivo, realme и другими смартфонами. Со списком совместимых устройств можно ознакомиться на официальных веб-сайтах соответствующих производителей."</string>
+    <string name="mishare_settings_summary_international">"Телефоны и планшеты Xiaomi
+Другие устройства Android: vivo, Realme, OPPO и другие бренды могут поддерживать эту функцию. Подробная информация приводится на официальном сайте каждого бренда."</string>
+    <string name="mishare_settings_summary_international_ios">"Телефоны и планшеты Xiaomi
+Устройства Apple: iPhone, iPad и Mac
+Другие устройства Android: vivo, realme, OPPO и другие выбранные бренды могут поддерживать эту функцию. См. подробнее на официальном сайте каждого бренда."</string>
     <string name="mishare_state_protection">Включать автоматически</string>
     <string name="mishare_state_protection_summary">Автоматически включать Xiaomi Share, если Bluetooth или Wi-Fi вновь были включены.</string>
     <string name="mishare_state_protection_summary_china">Автоматически включать Xiaomi Share, если Bluetooth или WLAN вновь были включены.</string>
+    <string name="mishare_support_device_comment">Поддерживаемые устройства</string>
+    <string name="mishare_support_device_summary">"Телефоны, планшеты и ноутбуки Xiaomi
+Android-устройства других производителей: vivo, realme, OPPO, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO, Honor"</string>
+    <string name="mishare_support_device_summary_ios">"Телефоны, планшеты и ноутбуки Xiaomi
+Устройства Apple: iPhone, iPad, Mac
+Устройства Android других производителей: vivo, realme, OPPO, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO, Honor"</string>
     <string name="mishare_transefer_channel_desc">Уведомления об отправленных и полученных объекта Xiaomi Share</string>
     <string name="miuix_access_state_desc">Выбрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Свернуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Развернуто</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Выйти из режима редактирования</string>
+    <string name="miuix_appcompat_accessibility_new_message">Новое уведомление</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Перейти в режим редактирования</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Отменить выбор</string>
     <string name="miuix_appcompat_action_mode_select_all">Выбрать все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Выберите объекты</string>
@@ -282,6 +345,8 @@
     <string name="miuix_appcompat_select_all">Выбрать все</string>
     <string name="miuix_appcompat_select_all_description">Выбрать все</string>
     <string name="miuix_appcompat_select_item">Выберите объекты</string>
+    <string name="miuix_appcompat_show_dialog_description">Всплывающее окно</string>
+    <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потяните вниз для обновления</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Обновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновление…</string>
@@ -290,6 +355,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">На данный момент это все</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Секунду…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не удалось загрузить данные</string>
+    <string name="miuix_show_password">Показать пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Свернуто</string>
+    <string name="miuix_stretchablewidget_expanded">Развернуто</string>
     <string name="monday">Понедельник</string>
     <string name="monday_short">Пн</string>
     <string name="monday_shortest">Пн</string>
@@ -345,7 +413,7 @@
     <string name="nfc_connecting">Соединение…</string>
     <string name="nfc_need_to_enable_your_bluetooth_and_wlan">Чтобы установить соединение, включите Wi-Fi и Bluetooth на этом устройстве. Включить?</string>
     <string name="nfc_need_to_enable_your_bluetooth_and_wlan_china">To connect the devices, turn on WLAN and Bluetooth on this device first. Turn on now?</string>
-    <string name="nfc_pc_need_to_enable_your_bluetooth_and_wlan">"Couldn't connect to computer. Make sure you've turned on Wi-Fi and Bluetooth on both your mobile device and computer, and that your computer is running Xiaomi PC Manager."</string>
+    <string name="nfc_pc_need_to_enable_your_bluetooth_and_wlan">Не удалось подключиться к компьютеру. Убедитесь, что вы включили Wi-Fi и Bluetooth на мобильном устройстве и компьютере, и что на компьютере запущен Xiaomi PC Manager.</string>
     <string name="nfc_pc_need_to_enable_your_bluetooth_and_wlan_china">"Couldn't connect to computer. Make sure you've turned on WLAN and Bluetooth on both your mobile device and computer, and that your computer is running Xiaomi PC Manager."</string>
     <string name="nfc_wifi_and_bluetooth">Включите Wi-Fi и Bluetooth</string>
     <string name="nfc_wifi_and_bluetooth_china">Turn on WLAN and Bluetooth</string>
@@ -359,6 +427,13 @@
     <string name="notification_channel_name">Уведомления о передаче</string>
     <string name="nubia">Nubia</string>
     <string name="nubia_phone">Nubia</string>
+    <string name="onehop_connecting_tips">Соединение…</string>
+    <string name="onehop_file_security_tips">Удаление личной информации…</string>
+    <string name="onehop_option_send_confirm">Отправить</string>
+    <string name="onehop_recv_tips">Ожидание, пока другой человек поделиться объектами…</string>
+    <string name="onehop_remote_cancel">Другой пользователь отменил передачу</string>
+    <string name="onehop_remote_refuse">Другой человек отклонил передачу</string>
+    <string name="onehop_wait_for_connect_ap">В ожидании подключения другого устройства к точке доступе…</string>
     <string name="oneplus">OnePlus</string>
     <string name="oneplus_phone">OnePlus</string>
     <string name="operate_too_fast">Не так быстро! Дождитесь завершения текущей операции.</string>
@@ -379,6 +454,7 @@
 Перед использованием Xiaomi Share вы должны предоставить указанные разрешения, а также разрешить сбор необходимой личной информации:"</string>
     <string name="purpose_v12">Добро пожаловать в Xiaomi Share! Используйте это приложения для переноса файлов между устройствами.</string>
     <string name="queue_full">Перед добавлением новой передачи, дождитесь завершения текущей.</string>
+    <string name="ratio">%1$d%%</string>
     <string name="realme">realme</string>
     <string name="realme_phone">realme</string>
     <string name="receive_complete">Передача завершена</string>
@@ -406,6 +482,8 @@
     <string name="redmi_k40">Redmi K40</string>
     <string name="redmi_k40_g">Redmi K40 Gaming Edition</string>
     <string name="redmi_k40_pro">Redmi K40 Pro</string>
+    <string name="redmi_k50_ultra">Redmi K50 Ultra</string>
+    <string name="redmi_k70">Redmi K70</string>
     <string name="redmi_note_10">Redmi Note 10</string>
     <string name="redmi_note_10_pro">Redmi Note 10 Pro</string>
     <string name="redmi_note_5">Redmi Note 5</string>
@@ -419,6 +497,7 @@
     <string name="redmi_note_9_pro_max">Redmi Note 9 Pro Max</string>
     <string name="redmi_note_9s">Redmi Note 9S</string>
     <string name="refuse_file">Отклонить</string>
+    <string name="refused">Отклонено</string>
     <string name="retry_task">Повторить</string>
     <string name="rog">ROG</string>
     <string name="rog_phone">ROG</string>
@@ -430,27 +509,65 @@
     <string name="scanning_device_tips"><Data>Выполняется поиск устройств поблизости. Другому человеку необходимо включить Xiaomi Share в Центре управления. &lt;a>Подробнее&lt;/a></Data></string>
     <string name="scanning_only_xiaomi_device">Этот объект может быть перенесен только на устройства Xiaomi или Black Shark.</string>
     <string name="search_menu_title">Поиск</string>
-    <string name="seize_content">Для передачи данных необходимо остановить повтор экрана. Остановить?</string>
-    <string name="seize_title">Остановить дублирование экрана</string>
     <string name="send">Отправить</string>
     <string name="send_files_by">Отправить файлы через</string>
     <string name="send_files_to">Отправить на</string>
     <string name="send_files_to_remote_success">Отправка объектов на %1$s завершена</string>
     <string name="send_files_to_remote_success_title">Отправлено</string>
-    <string name="send_one_apk_dialog_desc">%2$d APK \"%3$s\" from %1$s</string>
-    <string name="send_one_apk_dialog_desc_received">Received %2$d APK \"%3$s\" from %1$s</string>
-    <string name="send_one_apk_dialog_desc_receiving">Receiving %2$d APK \"%3$s\" from %1$s</string>
-    <string name="send_one_audio_dialog_desc">%2$d audio file \"%3$s\" from %1$s</string>
-    <string name="send_one_audio_dialog_desc_received">Received %2$d audio file \"%3$s\" from %1$s</string>
-    <string name="send_one_audio_dialog_desc_receiving">Receiving %2$d audio file \"%3$s\" from %1$s</string>
-    <string name="send_one_file_dialog_desc">%2$d %3$s file \"%4$s\" from %1$s</string>
-    <string name="send_one_file_dialog_desc_received">Received %2$d %3$s file \"%4$s\" from %1$s</string>
-    <string name="send_one_file_dialog_desc_receiving">Receiving %2$d %3$s file \"%4$s\" from %1$s</string>
-    <string name="send_one_zip_dialog_desc">%2$d ZIP file \"%3$s\" from %1$s</string>
-    <string name="send_one_zip_dialog_desc_received">Received %2$d ZIP file \"%3$s\" from %1$s</string>
-    <string name="send_one_zip_dialog_desc_receiving">Receiving %2$d ZIP file \"%3$s\" from %1$s</string>
+    <string name="send_one_apk_dialog_desc">%2$d APK \"%3$s\" от %1$s</string>
+    <string name="send_one_apk_dialog_desc_received">Получен %2$d APK \"%3$s\" от %1$s</string>
+    <string name="send_one_apk_dialog_desc_receiving">Получение %2$d APK \"%3$s\" от %1$s</string>
+    <string name="send_one_audio_dialog_desc">%2$d аудиофайл \"%3$s\" от %1$s</string>
+    <string name="send_one_audio_dialog_desc_received">Получен %2$d аудиофайл \"%3$s\" от %1$s</string>
+    <string name="send_one_audio_dialog_desc_receiving">Получение %2$d аудиофайла \"%3$s\" от %1$s</string>
+    <string name="send_one_file_dialog_desc">%2$d %3$s файл \"%4$s\" от %1$s</string>
+    <string name="send_one_file_dialog_desc_received">Получен %2$d %3$s файл \"%4$s\" от %1$s</string>
+    <string name="send_one_file_dialog_desc_receiving">Получени %2$d %3$s файла \"%4$s\" от %1$s</string>
+    <string name="send_one_zip_dialog_desc">%2$d ZIP-файл \"%3$s\" от %1$s</string>
+    <string name="send_one_zip_dialog_desc_received">Получен %2$d ZIP-файл \"%3$s\" от %1$s</string>
+    <string name="send_one_zip_dialog_desc_receiving">Получение %2$d ZIP-файла \"%3$s\" от %1$s</string>
     <string name="send_successfully">Отправлено</string>
     <string name="sender_error">Сбой отправки. Подождите немного и повторите попытку.</string>
+    <string name="share_canceled">Перенос отменен</string>
+    <string name="share_complete">Перенос выполнен</string>
+    <string name="share_device_near_share">Делитесь, когда рядом</string>
+    <string name="share_device_near_share_condition">Условия предоставления общего доступа</string>
+    <string name="share_device_near_share_condition_describe">"%1$d. Убедитесь, что на обоих устройствах включены NFC, Bluetooth и Wi-Fi.
+%2$d. Обновите Xiaomi Share до версии %3$s.
+%4$d. Если вы используете iPhone, установите Взаимосвязанность Xiaomi."</string>
+    <string name="share_device_near_share_condition_describe_china">"%1$d. Убедитесь, что на обоих устройствах включены NFC, Bluetooth и WLAN.
+%2$d. Обновите Xiaomi Share до версии %3$s.
+%4$d. Если вы используете iPhone, установите Взаимосвязанность Xiaomi."</string>
+    <string name="share_device_near_share_content_describe" formatted="false">"Вы можете отправлять следующие типы контента:
+%d. Как поделиться фото: в Галерее нажмите «Поделиться» рядом с фото.
+%d. Как поделиться файлами: выберите файл в Проводнике."</string>
+    <string name="share_device_near_share_content_title">Предоставляется общий доступ к контенту</string>
+    <string name="share_device_near_share_image_describe">Расположите NFC- зоны двух устройств близко друг к другу, чтобы начать обмен данными</string>
+    <string name="share_device_near_share_subtitle">Поместите два устройства рядом друг с другом, чтобы поделиться</string>
+    <string name="share_failed">Не удалось выполнить перенос</string>
+    <string name="share_file_timeout">Время ожидания истекло. Попробуйте еще раз с меньшим количеством файлов.</string>
+    <string name="share_not_supported">Не поддерживается</string>
+    <string name="share_notification_receive_confirm_content">От %1$s</string>
+    <string name="share_open_nfc_content">Включите NFC, чтобы использовать эту функцию. Включить сейчас?</string>
+    <string name="share_open_nfc_title">Включить NFC</string>
+    <string name="share_refuse">Перенос отклонен</string>
+    <string name="share_send_notification_describe">Получатель: %1$s</string>
+    <string name="share_show_nfc_position"><Data>&lt;a href=%1$s>Посмотреть область NFC&lt;/a></Data></string>
+    <string name="share_to_be_sent">Ожидание</string>
+    <string name="share_waiting_connect">Ожидание</string>
+    <string name="share_waiting_other_recv">Отправляются файлы</string>
+    <string name="share_waiting_recv">Ожидание</string>
+    <string name="size_of_B">%d Б</string>
+    <string name="size_of_GB">%d ГБ</string>
+    <string name="size_of_KB">%d КБ</string>
+    <string name="size_of_MB">%d МБ</string>
+    <string name="size_of_one_float_GB">%.1f ГБ</string>
+    <string name="size_of_one_float_KB">%.1f КБ</string>
+    <string name="size_of_one_float_MB">%.1f МБ</string>
+    <string name="size_of_two_float_GB">%.2f ГБ</string>
+    <string name="size_of_two_float_KB">%.2f КБ</string>
+    <string name="size_of_two_float_MB">%.2f МБ</string>
+    <string name="size_of_two_float_TB">%.2f ТБ</string>
     <string name="smartisan">Smartisan</string>
     <string name="smartisan_phone">Smartisan</string>
     <string name="some_files_receive_completed">Полученные файлы можно просмотреть в %1$s.</string>
@@ -460,8 +577,10 @@
     <string name="sub_title_mishare_switch">Эта функция будет отключена автоматически через %d минут</string>
     <string name="sub_title_mishare_switch_all">Вы можете получать все файлы</string>
     <string name="sub_title_mishare_switch_mine">Вы можете получать файлы с устройств, на которых выполнен вход в ваш аккаунт</string>
+    <string name="sub_title_mishare_switch_mine_desc">Прежде чем установить статус получения «Из этого аккаунта», убедитесь, что версия системы другого устройства обновлена ​​до Xiaomi HyperOS или более новой, а приложение Xiaomi Share обновлено ​​до версии 3.0.0 или более новой.</string>
     <string name="sub_title_mishare_switch_none">Включите Xiaomi Share для получения файлов</string>
-    <string name="sub_title_turbo_mode">Сверхбыстрая передача между телефонами и планшетами Xiaomi. Во время передачи данных устройства будут отключены от сети.</string>
+    <string name="sub_title_mishare_switch_none_os3">Может быть найдено устройствами поблизости</string>
+    <string name="sub_title_turbo_mode">Если эта функция включена, сеть будет отключена во время передачи</string>
     <string name="sub_title_withdraw_privacy_policy_consent">Отзыв согласия с Политикой конфиденциальности также приведет к выключению Xiaomi Share</string>
     <string name="success_receive_much_file_from_pc">Получено более %2$d файлов от устройства %1$s. Нажмите для просмотра.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -471,7 +590,53 @@
     <string name="support_device_type">Поддерживаемые устройства</string>
     <string name="switch_mode_all">От кого угодно (в течение %d мин.)</string>
     <string name="switch_mode_close">Откл.</string>
-    <string name="switch_mode_sameaccount">От этого аккаунта</string>
+    <string name="switch_mode_close_os3">Выкл.</string>
+    <string name="switch_mode_sameaccount">Из этого аккаунта</string>
+    <string name="tap_share_condition_describe">"%1$d. На обоих устройствах включены NFC, Bluetooth и Wi-Fi.
+%2$d. На своем устройстве Xiaomi обновите Xiaomi Share до версии %3$s.
+%4$d. Установите на свой iPhone приложение «Взаимосвязанность Xiaomi»."</string>
+    <string name="tap_share_condition_describe_china">"%1$d. На обоих устройствах включены NFC, Bluetooth и WLAN.
+%2$d. На своем устройстве Xiaomi обновите Xiaomi Share до версии %3$s.
+%4$d. Установите на свой iPhone приложение «Взаимосвязанность Xiaomi»."</string>
+    <string name="tap_share_condition_describe_os3">"%1$d. Убедитесь, что оба устройства разблокированы и на них включены NFC, Bluetooth и Wi-Fi.
+%2$d. Обновите ОС устройства Xiaomi до %3$s или более новой версии. Вы также можете выполнить поиск по запросу Xiaomi Share в настройках, чтобы проверить, поддерживается ли функция «Передача касанием».
+%4$d. Убедитесь, что вы используете iPhone 12 или более новую модель и на нем установлена iOS 17 или более поздняя версия. Установите последнюю версию приложения «Взаимосвязанность Xiaomi» на iPhone."</string>
+    <string name="tap_share_condition_describe_os3_china">"%1$d. Убедитесь, что оба устройства разблокированы и на них включены NFC, Bluetooth и WLAN.
+%2$d. Обновите ОС устройства Xiaomi до %3$s или более новой версии. Вы также можете выполнить поиск по запросу Xiaomi Share в настройках, чтобы проверить, поддерживается ли функция «Передача касанием».
+%4$d. Убедитесь, что вы используете iPhone 12 или более новую модель и на нем установлена iOS 17 или более поздняя версия. Установите последнюю версию приложения «Взаимосвязанность Xiaomi» на iPhone."</string>
+    <string name="tap_share_connecting_this_wifi">Подключение к этой сети Wi-Fi</string>
+    <string name="tap_share_connecting_this_wlan">Подключение к этой сети WLAN</string>
+    <string name="tap_share_connecting_wifi">Выполняется подключение к «%1$s»</string>
+    <string name="tap_share_content_describe" formatted="false">"Отправитель может использовать функцию «Передача касанием», чтобы поделиться:
+%d. Фото и видео, просмотрев полное изображение в Галерее или на странице выбора или нажав на «Отправить», чтобы открыть всплывающее окно передачи.
+%d. Файлами со страницы выбора в Проводнике или нажав на «Отправить», чтобы отобразилось всплывающее окно передачи.
+%d. Сетью Wi-Fi, к которой вы подключены, открыв список сетей Wi-Fi или нажав на подключенную сети Wi-Fi, чтобы отобразилось всплывающее окно передачи.
+%d. Контактами, просмотрев страницу сведений о контакте, на странице выбора или нажав на «Поделиться», чтобы открыть всплывающее окно для передачи.
+%d. Веб-страницей открыв ее в Mi Browser или нажав на «Поделиться», чтобы отобразилось всплывающее окно передачи.
+"</string>
+    <string name="tap_share_content_describe_china" formatted="false">"Отправитель может использовать функцию «Передача касанием», чтобы поделиться:
+%d. Фото и видео, просмотрев полное изображение в Галерее или на странице выбора или нажав на «Отправить», чтобы открыть всплывающее окно передачи.
+%d. Файлами со страницы выбора в Проводнике или нажав на «Отправить», чтобы отобразилось всплывающее окно передачи.
+%d. Сетью WLAN, к которой вы подключены, открыв список сетей WLAN или нажав на подключенную сети WLAN, чтобы отобразилось всплывающее окно передачи.
+%d. Контактами, просмотрев страницу сведений о контакте, на странице выбора или нажав на «Поделиться», чтобы открыть всплывающее окно для передачи.
+%d. Веб-страницей открыв ее в Mi Browser или нажав на «Поделиться», чтобы отобразилось всплывающее окно передачи.
+"</string>
+    <string name="tap_share_image_describe">Для быстрой передачи объектов приложите устройства друг к другу зонами NFC на задних панелях</string>
+    <string name="tap_share_is_connect_this_wifi">Подключиться к этой сети Wi-Fi?</string>
+    <string name="tap_share_is_connect_this_wlan">Подключиться к этой сети WLAN?</string>
+    <string name="tap_share_preparing">Выполняется подготовка</string>
+    <string name="tap_share_preparing_file">Файлы готовятся</string>
+    <string name="tap_share_send_this_wifi">Поделиться этой сетью Wi-Fi</string>
+    <string name="tap_share_send_this_wlan">Поделиться этой сетью WLAN</string>
+    <string name="tap_share_subTitle">Приложите устройства друг к другу задними панелями для передачи объектов</string>
+    <string name="tap_share_tips_title">Приложите устройства друг к другу задними панелями для передачи объектов</string>
+    <string name="tap_share_title">Передача касанием</string>
+    <string name="tap_share_wifi_cannot_share">Не удалось поделиться этой сетью</string>
+    <string name="tap_share_wifi_connect_cancel">Подключение отменено</string>
+    <string name="tap_share_wifi_connect_success">Подключено</string>
+    <string name="tap_share_wifi_connected">Подключено к «%1$s»</string>
+    <string name="tap_share_wifi_fail">Не удалось подключиться</string>
+    <string name="tapshare_receive_describe_wifi">Подключиться к «%1$s»</string>
     <string name="the_anniversary_of_lifting_martial_law">Годовщина отмены военного положения</string>
     <string name="the_anti_aggression_day">День борьбы с агрессией</string>
     <string name="the_arbor_day">День древонасаждения</string>
@@ -534,14 +699,17 @@
     <string name="today">Сегодня</string>
     <string name="tomorrow">Завтра</string>
     <string name="transfer_intercept_to_remote">Ошибка отправки: %1$s</string>
-    <string name="transfer_to_different_account_summary">Сначала убедитесь, что Xiaomi Share включено в Центре управления. Ваше устройство будет доступно для обнаружения другим устройствам в течение %d минут.</string>
-    <string name="transfer_to_different_account_title">Обнаружение устройств в разных аккаунтах</string>
-    <string name="transfer_to_pc_summary_new_plus"><Data>Теперь Xiaomi PC Manager поддерживает Xiaomi Share! Ознакомиться со списком совместимых моделей компьютеров можно &lt;a href=%1$s>здесь&lt;/a>.</Data></string>
-    <string name="transfer_to_pc_title">Передача файлов на компьютер</string>
+    <string name="transfer_to_different_account_summary">На обоих устройствах (Xiaomi и других устройствах Android) необходимо включить Xiaomi Share в Центре управления. Вы сможете получать файлы от кого угодно в течение %d минут.</string>
+    <string name="transfer_to_different_account_summary_ios" formatted="false">"%d. На обоих устройствах (Xiaomi и других устройствах Android) необходимо включить Xiaomi Share в Центре управления. Вы сможете получать файлы от кого угодно в течение %d минут.
+%d. На iPhone и iPad необходимо включить Службы взаимосвязанности Xiaomi и убедиться, что оба устройства подключены к одной и той же локальной сети."</string>
+    <string name="transfer_to_different_account_title">Обнаружение телефонов и планшетов</string>
+    <string name="transfer_to_pc_summary_new_plus"><Data>Убедитесь, что Xiaomi PC Manager скачан, затем включите Xiaomi Share в Центре управления, чтобы получать файлы. Cписок поддерживаемых моделей компьютеров приводится &lt;a href=%1$s>здесь&lt;/a>.</Data></string>
+    <string name="transfer_to_pc_summary_new_plus_ios"><Data>&lt;xliff:g id=mishare_ios_1 refersto=1>%1$d&lt;/xliff:g>. На ноутбуке Xiaomi убедитесь, что Xiaomi PC Manager скачан, затем включите Xiaomi Share в Центре управления, чтобы получать файлы. Cписок поддерживаемых моделей компьютеров приводится &lt;a href=%2$s>здесь&lt;/a>.&lt;br>&lt;xliff:g id=mishare_ios_2 refersto=2>%3$d&lt;/xliff:g>. На Mac необходимо включить Службы взаимосвязанности Xiaomi и убедиться, что оба устройства подключены к одной и той же локальной сети.</Data></string>
+    <string name="transfer_to_pc_title">Обнаружение компьютеров</string>
     <string name="transfer_to_phone_summary">Включите Xiaomi Share при помощи переключателя в Шторке уведомлений. После этого вы сможете видеть устройства поблизости, когда захотите передать фото или файл. Нажмите на значок устройства получателя, чтобы отправить файл.</string>
     <string name="transfer_to_phone_summary_new">Включите Xiaomi Share в Центре управления, чтобы отправлять и получать объекты. После включения функции вы сможете обмениваться объектами с находящимися поблизости устройствами в течение %d минут, прежде чем функция автоматически выключится.</string>
     <string name="transfer_to_phone_title">Передача файлов на телефон</string>
-    <string name="transfer_to_same_account_summary">Устройства в рамках одного аккаунта должны быть легко обнаруживаемы. Убедитесь, что Xiaomi Share включено в Настройках.</string>
+    <string name="transfer_to_same_account_summary">Чтобы перенести объекты на устройства, на которых выполнен вход в ваш аккаунт, сначала убедитесь, что версия системы другого устройства обновлена ​​до Xiaomi HyperOS или более новой, а приложение Xiaomi Share обновлено ​до версии 3.0.0 или более новой. Установите статус получения «Из этого аккаунта». В противном случае вам придется включить Xiaomi Share в Центре управления, чтобы иметь возможность получать файлы от кого-либо в течение %d минут.</string>
     <string name="transfer_to_same_account_title">Обнаружение устройств в рамках одного аккаунта</string>
     <string name="transfer_to_summary">Включите Xiaomi Share при помощи переключателя в Шторке уведомлений. После этого вы сможете видеть устройства поблизости, когда захотите передать фото или файл. Нажмите на значок устройства получателя, чтобы отправить файл.</string>
     <string name="transfer_to_summary_new">Включите Xiaomi Share в Центре управления, чтобы отправлять и получать объекты. После включения функции вы сможете обмениваться объектами с находящимися поблизости устройствами в течение %d минут, прежде чем функция автоматически выключится.</string>
@@ -593,6 +761,11 @@
     <string name="xiaomi_12">Xiaomi 12</string>
     <string name="xiaomi_12_pro">Xiaomi 12 Pro</string>
     <string name="xiaomi_12x">Xiaomi 12X</string>
+    <string name="xiaomi_13">Xiaomi 13</string>
+    <string name="xiaomi_13t">Xiaomi 13T</string>
+    <string name="xiaomi_14">Xiaomi 14</string>
+    <string name="xiaomi_14_pro">Xiaomi 14 Pro</string>
+    <string name="xiaomi_14_ultra">Xiaomi 14 Ultra</string>
     <string name="xiaomi_6">Mi 6</string>
     <string name="xiaomi_6x">Mi 6X</string>
     <string name="xiaomi_8">Mi 8</string>
@@ -608,6 +781,7 @@
     <string name="xiaomi_cc_9_pro">Mi CC9 Pro</string>
     <string name="xiaomi_cc_9e">Mi CC9e</string>
     <string name="xiaomi_civi">Xiaomi Civi</string>
+    <string name="xiaomi_civi2">Xiaomi Civi 2</string>
     <string name="xiaomi_max_3">Mi MAX 3</string>
     <string name="xiaomi_mix_2">Mi MIX 2</string>
     <string name="xiaomi_mix_2s">Mi MIX 2S</string>

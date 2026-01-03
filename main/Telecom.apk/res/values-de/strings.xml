@@ -28,7 +28,10 @@
     <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
     <string name="abc_toolbar_collapse_description">Minimieren</string>
     <string name="accessibility_call_muted">Anruf stummgeschaltet</string>
+    <string name="accessibility_sliding_button_state_description_off">Ausgeschaltet</string>
+    <string name="accessibility_sliding_button_state_description_on">Eingeschaltet</string>
     <string name="accessibility_speakerphone_enabled">Freisprechfunktion aktiviert</string>
+    <string name="accessibility_tab_state_description_unselect">Nicht ausgewählt</string>
     <string name="actionbar_button_up_description">Zurück</string>
     <string name="add_blocked_dialog_body">Anrufe und SMS blockieren von</string>
     <string name="add_blocked_number_hint">Telefonnummer</string>
@@ -61,7 +64,13 @@
     <string name="blocked_numbers_number_already_blocked_message">%1$s ist bereits blockiert.</string>
     <string name="blocked_numbers_number_blocked_message">%1$s blockiert</string>
     <string name="blocked_numbers_number_unblocked_message">Blockierung von %1$s aufgehoben</string>
+    <string name="callFailed_already_ringing">Anruf nicht möglich, da ein nicht angenommener eingehender Anruf vorhanden ist. Nimm den eingehenden Anruf an oder lehne ihn ab, bevor du einen neuen Anruf startest.</string>
+    <string name="callFailed_outgoing_already_present">Anruf nicht möglich, weil bereits ein anderer Anruf verbunden wird. Warte, bis der Anruf angenommen wird, oder lege auf, bevor du einen neuen Anruf startest.</string>
+    <string name="callFailed_reject_mmi">Dieser MMI-Code ist nicht für Anrufe mit mehreren Konten verfügbar.</string>
     <string name="callFailed_simError">SIM-Karten Fehler</string>
+    <string name="callFailed_too_many_calls_exclude_merge">Anruf nicht möglich, weil bereits zwei Anrufe aktiv sind. Beende einen der Anrufe, bevor du einen neuen startest.</string>
+    <string name="callFailed_too_many_calls_include_merge">Anruf nicht möglich, weil bereits zwei Anrufe aktiv sind. Beende einen der Anrufe oder führe beide Anrufe in einer Telefonkonferenz zusammen, bevor du einen neuen Anruf startest.</string>
+    <string name="callFailed_unholdable_call">Anruf nicht möglich, da ein Anruf nicht gehalten werden kann. Beende den Anruf, bevor du einen neuen Anruf startest.</string>
     <string name="call_notification_answer_action">Annehmen</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Ablehnen</string>
@@ -81,7 +90,8 @@
     <string name="can_not_dial_vt_while_voice_prompt">Solange ein Sprachanruf aktiv ist, kann kein Videoanruf durchgeführt werden</string>
     <string name="can_not_dial_while_vt_prompt">Wählen während eines laufenden Videoanrufs nicht möglich</string>
     <string name="cancel">Abbrechen</string>
-    <string name="cant_call_due_to_no_supported_service">Der Anruf kann nicht ausgehen, da es keine Anrufkonten gibt, die Anrufe dieses Typs unterstützen.</string>
+    <string name="cant_call_due_to_dsdstransition_invalid_sub">Das aktuelle Konto ist nicht gültig. Es können keine Anrufe getätigt werden.</string>
+    <string name="cant_call_due_to_no_supported_service">Keine Anrufe möglich. Prüfe die Verbindung deines Geräts.</string>
     <string name="cant_call_due_to_ongoing_call">Dieser Anruf kann aufgrund des Anrufs in %1$s nicht getätigt werden.</string>
     <string name="cant_call_due_to_ongoing_calls">Dieser Anruf kann aufgrund deiner Anrufe in %1$s nicht getätigt werden.</string>
     <string name="cant_call_due_to_ongoing_unknown_call">Dieser Anruf kann aufgrund eines Anrufs in einer anderen App nicht getätigt werden.</string>
@@ -110,6 +120,7 @@
     <string name="do_not_show_again">Nicht mehr anzeigen</string>
     <string name="duplicate_video_call_not_allowed">Der Anruf kann momentan nicht hinzugefügt werden.</string>
     <string name="early_morning">Morgen</string>
+    <string name="emergencyCall_reject_mmi">MMI-Codes können während eines Notrufs nicht gewählt werden.</string>
     <string name="empty" />
     <string name="enable_account_preference_title">Anrufkonten</string>
     <string name="eras_ad">n. Chr.</string>
@@ -177,6 +188,12 @@
     <string name="midnight">Nacht</string>
     <string name="missedcall_notification_public_version_title">Telefon</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Eingeklappt</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Erweitert</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus beenden</string>
+    <string name="miuix_appcompat_accessibility_new_message">Neue Benachrichtigung</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus starten</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Auswahl aufheben</string>
     <string name="miuix_appcompat_action_mode_select_all">Alles auswählen</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elemente auswählen</string>
@@ -192,6 +209,8 @@
     <string name="miuix_appcompat_select_all">Alles auswählen</string>
     <string name="miuix_appcompat_select_all_description">Alles auswählen</string>
     <string name="miuix_appcompat_select_item">Elemente auswählen</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop-up-Fenster</string>
+    <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Wird aktualisiert…</string>
@@ -200,6 +219,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">"Das war's fürs Erste"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Moment...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Laden von Elementen fehlgeschlagen</string>
+    <string name="miuix_show_password">Vis adgangskode</string>
+    <string name="miuix_stretchablewidget_collapsed">Eingeklappt</string>
+    <string name="miuix_stretchablewidget_expanded">Erweitert</string>
     <string name="monday">Montag</string>
     <string name="monday_short">Mo</string>
     <string name="monday_shortest">Mo</string>

@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Поделиться с помощью</string>
     <string name="abc_shareactionprovider_share_with_application">Поделиться с помощью %s</string>
     <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="accessibility_sliding_button_state_description_off">Отключено</string>
+    <string name="accessibility_sliding_button_state_description_on">Включено</string>
+    <string name="accessibility_tab_state_description_unselect">Не выбрано</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="activity_title_ad">Реклама</string>
     <string name="activity_title_apk">Пакеты</string>
@@ -125,13 +128,11 @@
     <string name="auto_cleaner_open">Включить</string>
     <string name="back">Назад</string>
     <string name="be_figuring">Оценка…</string>
-    <string name="btn_text_done">Готово</string>
     <string name="btn_text_quick_cleanup">Очистить</string>
     <string name="btn_text_quick_cleanup_apk">Удалить выбранные пакеты %1$s</string>
     <string name="btn_text_quick_cleanup_appdata">Удалить выбранные данные %1$s</string>
     <string name="btn_text_quick_cleanup_large_file">Удалить выбранные файлы %1$s</string>
     <string name="btn_text_quick_cleanup_video">Удалить выбранные видео %1$s</string>
-    <string name="btn_text_quick_scan">Проверить</string>
     <string name="btn_text_stop">Остановить</string>
     <string name="button_text_add_to_white_list">Исключение</string>
     <string name="button_text_backup_uninstall">Резервировать</string>
@@ -159,7 +160,6 @@
     <string name="button_text_unselect_pic">Снять выбор</string>
     <string name="button_text_view_detail">Подробности</string>
     <string name="button_text_view_file">Файл</string>
-    <string name="buy_a_new_phone">Получите больше свободного места</string>
     <string name="buy_immediately">Купить</string>
     <string name="buy_traffic_pack">Оплатить дополнительный трафик</string>
     <string name="byteShort">Б</string>
@@ -179,8 +179,8 @@
     <string name="cd_check_box_checked">выбрано</string>
     <string name="cd_check_box_middle">выбрано частично</string>
     <string name="cd_check_box_unchecked">не выбрано</string>
-    <string name="cd_list_item_collapse">свернуто</string>
-    <string name="cd_list_item_expanded">развернуто</string>
+    <string name="cd_list_item_collapse">Свернуто</string>
+    <string name="cd_list_item_expanded">Развернуто</string>
     <string name="cd_percent">процент</string>
     <string name="cd_scanning">проверка</string>
     <string name="cd_settings">настройки</string>
@@ -226,7 +226,6 @@
     <string name="common_signin_button_text">Войти</string>
     <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
     <string name="confirm_auto_cleaner">OK</string>
-    <string name="conn_of_function_safe">Сетевое подключение приложения \"Безопасность\"</string>
     <string name="connecting">Подключение…</string>
     <string name="copy">Копировать</string>
     <string name="copy_toast_msg">Ссылка скопирована в буфер обмена.</string>
@@ -256,7 +255,9 @@
     <string name="dc_storage_info_new">Доступно %1$s</string>
     <string name="deep_clean_completed_tips">Очистка завершена</string>
     <string name="deep_clean_data_path_clean_title">Очистить кэш</string>
+    <string name="deep_clean_down">По убыванию</string>
     <string name="deep_clean_uninstall_completed_tips">Удаление завершено</string>
+    <string name="deep_clean_up">По возрастанию</string>
     <string name="deepclean_1_k_clean">Очистка памяти</string>
     <string name="deepclean_apk_content">Удалите APK или ненужные приложения</string>
     <string name="deepclean_apk_group_hint_checked">Выбрать все</string>
@@ -292,6 +293,7 @@
     <string name="deepclean_video_content">Удалите уже просмотренные или ненужные видео</string>
     <string name="deepclean_video_summary_empty">Всё в порядке</string>
     <string name="default_cache_type">Файлы данных</string>
+    <string name="delete">Удалить</string>
     <string name="delete_confirm">Удалить</string>
     <string name="delete_confirm_msg">Удалить выбранные файлы навсегда?</string>
     <string name="desc_image">изображение</string>
@@ -303,8 +305,14 @@
     <string name="dialog_msg_esc_cleanmaster">Остановить проверку и выйти?</string>
     <string name="dialog_msg_load_cleanup_engine_error">Модуль очистки был поврежден.</string>
     <string name="dialog_msg_stop_scan">Остановить проверку?</string>
+    <string name="dialog_msg_uninstall_app_os3">Удаление приложения приведет к удалению всех его данных.</string>
     <string name="dialog_msg_uninstall_apps">Удалить эти приложения?</string>
+    <string name="dialog_msg_uninstall_apps_comfirm">Я понимаю, что данные удалённого приложения не подлежат восстановлению</string>
+    <string name="dialog_msg_uninstall_apps_os3">Удаление приложения очистит все его данные.</string>
+    <string name="dialog_msg_uninstall_apps_toast">Подтвердите, что вы понимаете: удалённые данные приложения не подлежат восстановлению</string>
     <string name="dialog_msg_uninstall_apps_xspace">Удалить эти приложения, включая их клоны?</string>
+    <string name="dialog_msg_uninstall_apps_xspace_os3">Клон приложения будет удален вместе с основным.</string>
+    <string name="dialog_msg_uninstall_apps_xspace_os3_multiple">Соответствующие клоны приложений и их данные будут удалены.</string>
     <string name="dialog_ok_add_white_list_error">Понятно</string>
     <string name="dialog_title_add_white_list_error">Внимание</string>
     <string name="dialog_title_backup_and_uninstall_apps">Резервирование и удаление</string>
@@ -416,9 +424,8 @@
     <string name="friday_short">Пт</string>
     <string name="friday_shortest">Пт</string>
     <string name="function_app_lock_title">Приложений с риском конфиденциальности: %d</string>
-    <string name="garbage_clean_detail">Подробности</string>
-    <string name="garbage_month">Очищено %s в этом месяце</string>
     <string name="gigabyteShort">ГБ</string>
+    <string name="global_summary_wa_setting">Получать уведомления, когда мусор WhatsApp превосходит выбранный размер</string>
     <string name="global_wa_audio">Аудио</string>
     <string name="global_wa_audio_item_title">Голосовые сообщения</string>
     <string name="global_wa_backend_alert_dialog_content">Очищайте ненужные объекты WhatsApp, чтобы освободить место</string>
@@ -471,7 +478,6 @@
     <string name="global_wa_shortcut_toast">Ярлык добавлен на рабочий стол</string>
     <string name="global_wa_wrapper">Обои</string>
     <string name="go_to">Перейти</string>
-    <string name="golbal_wa_backend_alert_dialog_btn">Открыть</string>
     <string name="goto_set">Настроить</string>
     <string name="grabage_rank_title">Очищено сегодня</string>
     <string name="guide_dc_dialog_message_new">Осталось менее %d ГБ свободного места. Это может замедлить работу вашего устройства. Запустите глубокую очистку, чтобы освободить место в памяти.</string>
@@ -540,7 +546,6 @@
     <string name="hints_title_garbage">Мусор</string>
     <string name="hints_video_camera">Снятые видео</string>
     <string name="hints_video_download">Загруженные видео</string>
-    <string name="hot">Популярные</string>
     <string name="hot_today">Популярные сегодня</string>
     <string name="information_setting">Рекомендации</string>
     <string name="install_sucess">Установка %s завершена</string>
@@ -572,7 +577,6 @@
     <string name="mainbtn_text_quick_cleanup">Очистить %s</string>
     <string name="mainbtn_text_quick_cleanup_default">Очистить</string>
     <string name="megabyteShort">МБ</string>
-    <string name="memeory_check_content">Приложений: %1$d | Память: %2$s</string>
     <string name="memory_clean_icon_text">Ускорение</string>
     <string name="memory_clean_no_trash_tip">Всё в порядке</string>
     <string name="menu_add_to_white_list">Добавить в исключения</string>
@@ -583,9 +587,16 @@
     <string name="menu_view">Просмотреть в папке</string>
     <string name="midnight">Ночь</string>
     <string name="miuix_access_state_desc">Выбрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Свернуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Развернуто</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Выйти из режима редактирования</string>
+    <string name="miuix_appcompat_accessibility_new_message">Новое уведомление</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Перейти в режим редактирования</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Отменить выбор</string>
     <string name="miuix_appcompat_action_mode_select_all">Выбрать все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Выберите объекты</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Выбрать</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Еще</string>
     <string name="miuix_appcompat_cancel_description">Отмена</string>
     <string name="miuix_appcompat_confirm_description">Подтвердить</string>
@@ -598,6 +609,8 @@
     <string name="miuix_appcompat_select_all">Выбрать все</string>
     <string name="miuix_appcompat_select_all_description">Выбрать все</string>
     <string name="miuix_appcompat_select_item">Выберите объекты</string>
+    <string name="miuix_appcompat_show_dialog_description">Всплывающее окно</string>
+    <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потяните вниз для обновления</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Обновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновление…</string>
@@ -606,6 +619,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">На данный момент это все</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Секунду…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не удалось загрузить данные</string>
+    <string name="miuix_show_password">Показать пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Свернуто</string>
+    <string name="miuix_stretchablewidget_expanded">Развернуто</string>
     <string name="monday">Понедельник</string>
     <string name="monday_short">Пн</string>
     <string name="monday_shortest">Пн</string>
@@ -661,6 +677,7 @@
     <string name="native_media_view">Просмотр мультимедиа</string>
     <string name="nb_clear_set">Очищайте память, управляйте батареей и антиспамом из шторки уведомлений</string>
     <string name="network_not_available">Не удалось подключиться к сети</string>
+    <string name="never_remind">Никогда</string>
     <string name="news_change">Изменить</string>
     <string name="night">Вечер</string>
     <string name="no_network">Не удалось подключиться к сети. Повторите попытку позже.</string>
@@ -748,6 +765,7 @@
     <string name="open_app">Открыть</string>
     <string name="open_browser">Открыть в браузере</string>
     <string name="open_file_error">Нет приложения для открытия этого файла</string>
+    <string name="out">Более %s</string>
     <string name="output_videos">Экспорт видео</string>
     <string name="permission_dialog_storage_btn1">Настройки</string>
     <string name="permission_dialog_storage_btn2">Отмена</string>
@@ -775,10 +793,12 @@
     <string name="pref_category_title_cleanup_white_list">Исключения</string>
     <string name="pref_category_title_engine_settings">Настройки сигнатур</string>
     <string name="pref_category_title_garbage_cleanup_check">Уведомления</string>
+    <string name="pref_category_title_notification_settings">Уведомления</string>
     <string name="pref_category_title_other_clean_settings">Дополнительные настройки</string>
     <string name="pref_content_cleanup_white_list_none">Нет</string>
     <string name="pref_summary_auto_clean_and_alert">Настройте автоматический запуск очистки</string>
     <string name="pref_summary_auto_update_cleanup_db">Последнее обновление: %s</string>
+    <string name="pref_summary_clean_settings">Получать уведомления, когда мусор превосходит выбранный размер</string>
     <string name="pref_summary_cleanup_white_list">Файлы из списка исключений не будут очищены.</string>
     <string name="pref_summary_expand_cache_group">Показывать содержимое кэша</string>
     <string name="pref_summary_garbage_auto_clean_content">Выберите объекты для автоматической очистки</string>
@@ -786,6 +806,8 @@
     <string name="pref_summary_garbage_cleanup_check_time">Создать расписание очистки</string>
     <string name="pref_summary_garbage_process_mode">Настроить уведомления об очистке</string>
     <string name="pref_summary_open_optimizer_cloud_scan">Загружать имена неизвестных файлов на сервер для сопоставления</string>
+    <string name="pref_summary_reminder_interval">Получать только одно уведомление в выбранное время</string>
+    <string name="pref_summary_wechat_clean_settings">Получать уведомления, когда мусор WeChat превосходит выбранный размер</string>
     <string name="pref_title_apps_cleanup_size">Когда размер кэша достигнет</string>
     <string name="pref_title_auto_clean_content_choose">Объекты для очистки</string>
     <string name="pref_title_auto_update_cleanup_db">Обновлять автоматически</string>
@@ -793,6 +815,7 @@
     <string name="pref_title_clean_alert">Напоминать об очистке</string>
     <string name="pref_title_cleanup_white_list">Исключения</string>
     <string name="pref_title_create_onekeyclean_shortcut">Создать ярлык на рабочем столе</string>
+    <string name="pref_title_engine">Сигнатуры сканирования</string>
     <string name="pref_title_expand_cache_group">Раскрывать категории кэша</string>
     <string name="pref_title_garbage_cleanup_check_size">Размер мусора</string>
     <string name="pref_title_garbage_cleanup_check_time">Расписание проверки</string>
@@ -813,18 +836,10 @@
     <string name="qq_clean">Очистка QQ</string>
     <string name="qq_clean_exit_confirm_msg">Остановить проверку и выйти?</string>
     <string name="qq_clean_finish_summary">Выбранные файлы удалены</string>
-    <string name="qq_data_type_cache">Кэш QQ</string>
-    <string name="qq_data_type_cache_desc">Вы сможете восстановить эти файлы после подключения к интернету.</string>
-    <string name="qq_data_type_chat">История чата</string>
-    <string name="qq_data_type_chat_desc">Вы не сможете восстановить историю чата.</string>
-    <string name="qq_data_type_normal">Мусор</string>
-    <string name="qq_data_type_normal_clean_tips">Это технические файлы. Их удаление не повлияет на работу.</string>
-    <string name="qq_data_type_normal_desc">Удаление не повлияет на работу.</string>
-    <string name="qq_data_type_other">Прочее</string>
-    <string name="qq_data_type_other_desc">Будьте осторожны, вы не сможете восстановить файлы после их удаления.</string>
     <string name="recommend_news">Получать рекомендации</string>
     <string name="recommend_the_following">Следующие действия помогут вам эффективнее использовать устройство</string>
     <string name="recommended">Рекомендуемые</string>
+    <string name="reminder_interval">Интервал напоминаний</string>
     <string name="resutl_function_deep_clean_summary"><Data>Вы можете очистить &lt;font color=#ff0000 >%1$s&lt;/font> данных.</Data></string>
     <string name="resutl_function_qq_clean_summary"><Data>Вы можете очистить &lt;font color=#ff0000 >%1$s&lt;/font> кэша QQ.</Data></string>
     <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> кэша WeChat. Освободите больше места.</Data></string>
@@ -865,7 +880,6 @@
     <string name="start_install">Установить</string>
     <string name="status_bar_notification_info_overflow">>999</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
-    <string name="summary_delete_apk">Удалить выбранные APK-файлы без возможности восстановления?</string>
     <string name="summary_delete_cache">Очистить кэш выбранных приложений?</string>
     <string name="summary_delete_large_file">Удалить выбранные файлы навсегда?</string>
     <string name="summary_delete_video">Удалить выбранные видео навсегда?</string>
@@ -1107,6 +1121,7 @@
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт</string>
     <string name="tuesday_shortest">Вт</string>
+    <string name="uninstall_one">Удалить %s</string>
     <string name="unit_gb">%s ГБ</string>
     <string name="unit_mb">%s МБ</string>
     <string name="unlike">Нет, спасибо</string>
@@ -1191,5 +1206,4 @@
     <string name="wqfile_group_chat_video">Видео из мессенджеров</string>
     <string name="wqfile_group_chat_voice">Голосовые сообщения</string>
     <string name="year_month_day_format">d MMM yyyy</string>
-    <string name="yesterday">Вчера</string>
 </resources>

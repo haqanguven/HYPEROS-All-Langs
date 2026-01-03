@@ -28,7 +28,10 @@
     <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
     <string name="abc_toolbar_collapse_description">Réduire</string>
     <string name="accessibility_call_muted">Son coupé</string>
+    <string name="accessibility_sliding_button_state_description_off">Désactivé</string>
+    <string name="accessibility_sliding_button_state_description_on">Activé</string>
     <string name="accessibility_speakerphone_enabled">Haut-parleur activé</string>
+    <string name="accessibility_tab_state_description_unselect">Non sélectionné</string>
     <string name="actionbar_button_up_description">Retour</string>
     <string name="add_blocked_dialog_body">Bloquer les appels et les SMS provenant du :</string>
     <string name="add_blocked_number_hint">Numéro de téléphone</string>
@@ -61,7 +64,13 @@
     <string name="blocked_numbers_number_already_blocked_message">Le numéro \"%1$s\" est déjà bloqué.</string>
     <string name="blocked_numbers_number_blocked_message">%1$s bloqué</string>
     <string name="blocked_numbers_number_unblocked_message">%1$s débloqué</string>
+    <string name="callFailed_already_ringing">"Impossible de passer un appel lorsqu'un appel entrant attend une réponse. Répondez à cet appel ou refusez-le avant de passer un nouvel appel."</string>
+    <string name="callFailed_outgoing_already_present">"Impossible de passer un appel, car un autre appel est en cours de connexion. Attendez que l'appel aboutisse ou mettez-y fin avant de passer un autre appel."</string>
+    <string name="callFailed_reject_mmi">"Ce code IHM n'est pas disponible pour les appels sur plusieurs comptes."</string>
     <string name="callFailed_simError">Erreur de la Carte SIM</string>
+    <string name="callFailed_too_many_calls_exclude_merge">"Impossible de passer un appel, car deux appels sont déjà en cours. Mettez fin à l'un des appels avant de passer un nouvel appel."</string>
+    <string name="callFailed_too_many_calls_include_merge">"Impossible de passer un appel, car deux appels sont déjà en cours. Mettez fin à l'un des appels ou fusionnez-les afin de créer une conférence avant de passer un nouvel appel."</string>
+    <string name="callFailed_unholdable_call">"Impossible de passer un appel, car un appel est en cours et ne peut pas être mis en attente. Mettez fin à l'appel avant de passer un nouvel appel."</string>
     <string name="call_notification_answer_action">Répondre</string>
     <string name="call_notification_answer_video_action">Vidéo</string>
     <string name="call_notification_decline_action">Refuser</string>
@@ -81,7 +90,8 @@
     <string name="can_not_dial_vt_while_voice_prompt">"Impossible d'effectuer un appel vidéo pendant un appel vocal en cours"</string>
     <string name="can_not_dial_while_vt_prompt">"Impossible composer un numéro lors d'un appel vidéo"</string>
     <string name="cancel">Annuler</string>
-    <string name="cant_call_due_to_no_supported_service">"Impossible de passer cet appel, car aucun compte téléphonique ne prend en charge ce type d'appel."</string>
+    <string name="cant_call_due_to_dsdstransition_invalid_sub">"Le compte actuel n'est pas valide. Impossible de passer des appels."</string>
+    <string name="cant_call_due_to_no_supported_service">"Impossible de passer l'appel. Vérifiez la connexion de votre appareil."</string>
     <string name="cant_call_due_to_ongoing_call">Vous ne pouvez pas passer cet appel, car vous avez une communication en cours dans %1$s.</string>
     <string name="cant_call_due_to_ongoing_calls">Vous ne pouvez pas passer cet appel, car vous avez des communications en cours dans %1$s.</string>
     <string name="cant_call_due_to_ongoing_unknown_call">Vous ne pouvez pas passer cet appel, car vous avez une communication en cours dans une autre application.</string>
@@ -110,6 +120,7 @@
     <string name="do_not_show_again">Ne plus afficher</string>
     <string name="duplicate_video_call_not_allowed">"Impossible d'ajouter un appel pour le moment."</string>
     <string name="early_morning">Matin</string>
+    <string name="emergencyCall_reject_mmi">"Impossible de composer des codes IHM pendant un appel d'urgence."</string>
     <string name="empty" />
     <string name="enable_account_preference_title">Comptes téléphoniques</string>
     <string name="eras_ad">EC</string>
@@ -177,6 +188,12 @@
     <string name="midnight">Nuit</string>
     <string name="missedcall_notification_public_version_title">Téléphone</string>
     <string name="miuix_access_state_desc">Sélectionné</string>
+    <string name="miuix_accessibility_title">Titre</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Réduit</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Étendu</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">"Quitter le mode d'édition"</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nouvelle notification</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Entrer en mode édition</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Tout désélectionner</string>
     <string name="miuix_appcompat_action_mode_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_action_mode_title_empty">Sélectionner des éléments</string>
@@ -192,6 +209,8 @@
     <string name="miuix_appcompat_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_select_all_description">Tout sélectionner</string>
     <string name="miuix_appcompat_select_item">Sélectionnez les éléments</string>
+    <string name="miuix_appcompat_show_dialog_description">Fenêtre contextuelle</string>
+    <string name="miuix_progressbar_loading">Chargement</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Faites glisser vers le bas pour actualiser</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualisé avec succès</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Actualisation…</string>
@@ -200,6 +219,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">"C'est tout pour le moment"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Juste un instant…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Impossible de charger les éléments</string>
+    <string name="miuix_show_password">Afficher le mot de passe</string>
+    <string name="miuix_stretchablewidget_collapsed">Réduit</string>
+    <string name="miuix_stretchablewidget_expanded">Étendu</string>
     <string name="monday">Lundi</string>
     <string name="monday_short">Lun</string>
     <string name="monday_shortest">Lun</string>

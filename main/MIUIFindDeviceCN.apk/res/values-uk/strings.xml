@@ -61,10 +61,10 @@
     <string name="find_device_error_unknown">Невідома помилка (%s).</string>
     <string name="find_device_noise_title">Сигнал Пошуку пристрою</string>
     <string name="find_device_notice">Якщо вашого пристрою немає у списку, то ви можете перейти на &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b>, щоб віддалено знайти, заблокувати або стерти дані на пристрої.</string>
-    <string name="find_device_notice_sms_alert_with_common_charge_hint">Якщо ви заміните SIM-карту, для оновлення інформації про її стан та перевірки правильної роботи всії послуг буде відправлено одне &lt;font color=#0097FF>&lt;b>платне SMS&lt;/b>&lt;/font>. Ваш оператор може стягувати плату за це повідомлення.</string>
-    <string name="find_device_notice_sms_alert_with_domestic_charge_hint">Якщо ви заміните SIM-карту, для оновлення інформації про її стан та перевірки правильної роботи всії послуг буде відправлено одне &lt;font color=#0097FF>&lt;b>платне внутрішнє SMS&lt;/b>&lt;/font>. Ваш оператор може стягувати плату за це повідомлення.</string>
-    <string name="find_device_notice_sms_alert_with_internal_charge_hint">Якщо ви заміните SIM-карту, для оновлення інформації про її стан та перевірки правильної роботи всії послуг буде відправлено одне &lt;font color=#0097FF>&lt;b>платне міжнародне SMS&lt;/b>&lt;/font>. Ваш оператор може стягувати плату за це повідомлення.</string>
-    <string name="find_device_stop_noise">Натисніть \"OK\", щоб вимкнути звук</string>
+    <string name="find_device_notice_sms_alert_with_common_charge_hint">Якщо ви заміните SIM-карту, для оновлення інформації про її стан та перевірки правильної роботи всіх послуг буде відправлено одне &lt;font color=#0097FF>&lt;b>платне SMS&lt;/b>&lt;/font>. Ваш оператор може стягувати плату за це повідомлення.</string>
+    <string name="find_device_notice_sms_alert_with_domestic_charge_hint">Якщо ви заміните SIM-карту, для оновлення інформації про її стан та перевірки правильної роботи всіх послуг буде відправлено одне &lt;font color=#0097FF>&lt;b>платне внутрішнє SMS&lt;/b>&lt;/font>. Ваш оператор може стягувати плату за це повідомлення.</string>
+    <string name="find_device_notice_sms_alert_with_internal_charge_hint">Якщо ви заміните SIM-карту, для оновлення інформації про її стан та перевірки правильної роботи всіх послуг буде відправлено одне &lt;font color=#0097FF>&lt;b>платне міжнародне SMS&lt;/b>&lt;/font>. Ваш оператор може стягувати плату за це повідомлення.</string>
+    <string name="find_device_stop_noise">Зупинити</string>
     <string name="find_device_storage_corrupted">Сховище програми пошкоджене. Ваш пристрій зараз у небезпеці.</string>
     <string name="find_device_success_title">Пошук пристрою увімкнено</string>
     <string name="find_device_telephony_fault">Знайти пристрій: Помилка телефонії (%s).</string>
@@ -72,8 +72,10 @@
     <string name="lock_msg_phone">Контактна інформація: %s</string>
     <string name="login_extra_steps">Перевірка доступу</string>
     <string name="login_failed">Не вдалося увійти. %s.</string>
-    <string name="open_wifi_settings">Open WLAN settings</string>
-    <string name="open_wifi_settings_china">Open WLAN settings</string>
+    <string name="notification_locate_device">Визначення місцезнаходження пристроїв</string>
+    <string name="notification_open_find">Увімкнути Пошук пристроїв</string>
+    <string name="open_wifi_settings">Відкрити налаштування WLAN</string>
+    <string name="open_wifi_settings_china">Відкрити налаштування WLAN</string>
     <string name="passport_checking_vcode">Перевірка пароля…</string>
     <string name="passport_error_empty_vcode">Введіть код підтвердження</string>
     <string name="passport_notification_need_unlock_again">Спробуйте розблокувати знову</string>
@@ -95,6 +97,7 @@
     <string name="sys_notification_async_verify_title">Активувати Пошук пристрою</string>
     <string name="talkback_back">Назад</string>
     <string name="talkback_hide_pwd">Приховати пароль</string>
+    <string name="talkback_pwd_error_too_many">Забагато невдалих спроб. Спробуйте пізніше.</string>
     <string name="talkback_show_pwd">Показати пароль</string>
     <string name="time_correction_failure">Не можливо виправити час. %s</string>
     <string name="time_correction_success">Час виправлений</string>
@@ -110,22 +113,22 @@
     <string name="unlock_error_unknown">Не вдалося увійти</string>
     <string name="unlock_error_user_name">"Неправильне ім'я користувача"</string>
     <string name="unlock_error_wrong_vcode">Код введено невірно</string>
-    <string name="unlock_help">"Підключення до мережі.
-Вставте SIM-карту та не підключайтеся до недійсних мереж WLAN.
+    <string name="unlock_help">"Залиште пристрій підключеним до мережі.
+Вставте SIM-карту, до якої можна отримати звичайний доступ (якщо це підтримується пристроєм), і відключіться від недійсної мережі Wi-Fi.
 
 Забули пароль?
-Перейдіть на id.mi.com, виберіть \"Забули пароль?\" і слідуйте подальшим інструкціям.
+Зайдіть на id.mi.com і натисніть \"Забули пароль\", щоб відновити його.
 
-Не вдається активувати пристрій?
-Перейдіть на i.mi.com/ss та залиште заявку на розблокування пристрою."</string>
-    <string name="unlock_help_china">"Підключення до мережі.
-Вставте SIM-карту та не підключайтеся до недійсних мереж WLAN.
+Не можете активувати з інших причин?
+Перейдіть на i.mi.com/ss і надішліть необхідну інформацію для активації."</string>
+    <string name="unlock_help_china">"Залиште пристрій підключеним до мережі.
+Вставте SIM-карту, до якої можна отримати звичайний доступ (якщо це підтримується пристроєм), і відключіться від недійсної мережі WLAN.
 
 Забули пароль?
-Перейдіть на id.mi.com, виберіть \"Забули пароль?\" і слідуйте подальшим інструкціям.
+Зайдіть на id.mi.com і натисніть \"Забули пароль\", щоб відновити його.
 
-Не вдається активувати пристрій?
-Перейдіть на i.mi.com/ss та залиште заявку на розблокування пристрою."</string>
+Не можете активувати з інших причин?
+Перейдіть на i.mi.com/ss і надішліть необхідну інформацію для активації."</string>
     <string name="unlock_help_title">Інструкція з розблокування:</string>
     <string name="unlock_number">Код розблокування: %s</string>
     <string name="unlock_wrong_captcha">Код введено невірно</string>

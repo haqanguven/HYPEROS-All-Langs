@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="accessibility_button_gesture_selector_titles">
-        <item>Кнопка</item>
+        <item>Кнопку</item>
         <item>Жест</item>
     </string-array>
     <string-array name="accessibility_button_location_selector_titles">
@@ -33,39 +33,6 @@
         <item>По будням</item>
         <item>По выходным</item>
         <item>Выбрать дни</item>
-    </string-array>
-    <string-array name="alphabet_sub_table_with_starred">
-        <item>!</item>
-        <item>А</item>
-        <item>Б</item>
-        <item>В</item>
-        <item>Ж</item>
-        <item>З</item>
-        <item>И</item>
-        <item>Й</item>
-        <item>К</item>
-        <item>Л</item>
-        <item>М</item>
-        <item>Н</item>
-        <item>О</item>
-        <item>П</item>
-        <item>Р</item>
-        <item>С</item>
-        <item>Т</item>
-        <item>У</item>
-        <item>Ф</item>
-        <item>Х</item>
-        <item>Ц</item>
-        <item>Ч</item>
-        <item>Ш</item>
-        <item>Щ</item>
-        <item>Ъ</item>
-        <item>Ы</item>
-        <item>Ь</item>
-        <item>Э</item>
-        <item>Ю</item>
-        <item>Я</item>
-        <item>\#</item>
     </string-array>
     <string-array name="alphabet_table">
         <item>А</item>
@@ -420,17 +387,19 @@
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
         <item>Выбор системы (по умолчанию)</item>
-        <item>44,1 кГц</item>
-        <item>48 кГц</item>
-        <item>88,2 кГц</item>
-        <item>96 кГц</item>
+        <item>44,1 кГц</item>
+        <item>48,0 кГц</item>
+        <item>88,2 кГц</item>
+        <item>96,0 кГц</item>
+        <item>192,0 кГц</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
         <item>Выбор системы (по умолчанию)</item>
-        <item>44,1 кГц</item>
-        <item>48 кГц</item>
-        <item>88,2 кГц</item>
-        <item>96 кГц</item>
+        <item>44,1 кГц</item>
+        <item>48,0 кГц</item>
+        <item>88,2 кГц</item>
+        <item>96,0 кГц</item>
+        <item>192,0 кГц</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Выбор системы (по умолчанию)</item>
@@ -490,7 +459,7 @@
     <string-array name="bluetooth_leaudio_mode">
         <item>Disabled</item>
         <item>Unicast</item>
-        <item>Unicast and Broadcast</item>
+        <item>Unicast и Broadcast</item>
     </string-array>
     <string-array name="bluetooth_map_version_values">
         <item>map12</item>
@@ -688,6 +657,7 @@
         <item>Показывать области наложения</item>
         <item>Выделять области определенного цвета</item>
     </string-array>
+    <array name="display_over_apps_permission_change_exempt" />
     <string-array name="eap_ocsp_type">
         <item>Не проверять</item>
         <item>Запрашивать статус сертификата</item>
@@ -723,10 +693,10 @@
         <item>3,5 дюйма</item>
     </string-array>
     <string-array name="haptic_feedback_level_texts">
-        <item>Откл.</item>
-        <item>Слабо</item>
-        <item>Средне</item>
-        <item>Сильно</item>
+        <item>Нет</item>
+        <item>Слабый</item>
+        <item>Средний</item>
+        <item>Сильный</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Не использовать проверку HDCP</item>
@@ -1146,7 +1116,7 @@
         <item>Камера</item>
         <item>Галерея</item>
         <item>Музыка</item>
-        <item>Почта</item>
+        <item>E-mail</item>
         <item>Видео</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
@@ -1211,6 +1181,33 @@
         <item>Стандарт</item>
         <item>Холодный</item>
     </string-array>
+    <string-array name="screen_flash_color_entries">
+        <item>@string/screen_flash_color_none</item>
+        <item>@string/screen_flash_color_blue</item>
+        <item>@string/screen_flash_color_green</item>
+        <item>@string/screen_flash_color_yellow</item>
+        <item>@string/screen_flash_color_orange</item>
+        <item>@string/screen_flash_color_red</item>
+        <item>@string/screen_flash_color_violet</item>
+    </string-array>
+    <array name="screen_flash_color_icons">
+        <item>@drawable/screen_flash_color_none</item>
+        <item>@drawable/screen_flash_color_blue</item>
+        <item>@drawable/screen_flash_color_green</item>
+        <item>@drawable/screen_flash_color_yellow</item>
+        <item>@drawable/screen_flash_color_orange</item>
+        <item>@drawable/screen_flash_color_red</item>
+        <item>@drawable/screen_flash_color_violet</item>
+    </array>
+    <string-array name="screen_flash_color_values">
+        <item>0</item>
+        <item>4D0000FE</item>
+        <item>6600FF01</item>
+        <item>66FFFF00</item>
+        <item>66FF7F00</item>
+        <item>66FE0000</item>
+        <item>667F00FF</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0,5 секунды</item>
         <item>1 секунда</item>
@@ -1230,10 +1227,18 @@
         <item>Всегда увеличивать насыщенность.</item>
         <item>Контрастность останется неизменной при любом освещении.</item>
     </string-array>
+    <string-array name="screen_optimize_summary_new">
+        <item>Улучшенные цвета для более яркого отображения</item>
+        <item>Восстановить стандартные цвета экрана</item>
+    </string-array>
     <string-array name="screen_optimize_title">
         <item>Яркие (рекомендуется)</item>
         <item>Насыщенные</item>
         <item>По умолчанию</item>
+    </string-array>
+    <string-array name="screen_optimize_title_new">
+        <item>Яркий (рекомендуется)</item>
+        <item>Стандартный</item>
     </string-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
@@ -1314,6 +1319,24 @@
         <item>Все, кроме системных</item>
         <item>только ядро</item>
     </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Только экран устройства (по умолчанию)</item>
+        <item>Внешний дисплей</item>
+        <item>Последнее нажатие на строку состояния</item>
+        <item>Последняя активность</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Показывать тень только на экране устройства</item>
+        <item>Показывать панель уведомлений на единственном внешнем дисплее</item>
+        <item>Показывать панель уведомлений на дисплее, со строкой состояния которого пользователь взаимодействовал в последний раз</item>
+        <item>Показывать панель уведомлений на дисплее, на который пользователь перешел в последний раз</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>default_display</item>
+        <item>any_external_display</item>
+        <item>status_bar_latest_touch</item>
+        <item>focused_display</item>
+    </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Отключено</item>
         <item>Непрямоугольное усечение синим</item>
@@ -1371,12 +1394,6 @@
     <string-array name="tabs_taptic_detail_m2">
         <item>Щелчок</item>
         <item>Усилие</item>
-    </string-array>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Зарядка</item>
-        <item>Спящий режим</item>
-        <item>Режим энергосбережения</item>
-        <item>Состояние процесса</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1441,10 +1458,18 @@
         <item>Всегда увеличивать насыщенность.</item>
         <item>Восстановить исходные оттенки цветов отображаемого контента при помощи калибровки цветов.</item>
     </string-array>
+    <string-array name="true_color_screen_optimize_summary_new">
+        <item>Улучшенные цвета для более яркого отображения</item>
+        <item>Восстановить исходные оттенки цветов отображаемого контента при помощи калибровки цветов.</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Яркие (рекомендуется)</item>
         <item>Насыщенные</item>
         <item>Стандартные</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title_new">
+        <item>Яркий (рекомендуется)</item>
+        <item>Оригинал</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>60 %</item>
@@ -1465,7 +1490,7 @@
         <item>Быстрее</item>
     </string-array>
     <string-array name="typing_style_entries">
-        <item>Обычный</item>
+        <item>По умолчанию</item>
         <item>Касание</item>
         <item>Прямое касание</item>
     </string-array>
@@ -1680,5 +1705,47 @@
         <item>Анимация 2x</item>
         <item>Анимация 5x</item>
         <item>Анимация 10x</item>
+    </string-array>
+    <string-array name="zen_mode_icon_options_descriptions">
+        <item>Портфель</item>
+        <item>Здание в классическом стиле</item>
+        <item>Многоквартирный дом</item>
+        <item>Выноска</item>
+        <item>Группа людей</item>
+        <item>Лампочка</item>
+        <item>Календарь</item>
+        <item>Не беспокоить</item>
+        <item>Человек бежит</item>
+        <item>Гольф</item>
+        <item>Гантеля для спортзала</item>
+        <item>Плавание</item>
+        <item>Человек занимается пешим туризмом</item>
+        <item>Человек бросает мяч</item>
+        <item>Человек наносит удар</item>
+        <item>Игровой контроллер</item>
+        <item>Палитра художника</item>
+        <item>Снежинка</item>
+        <item>Пляжный зонт</item>
+        <item>Инструменты в мастерской</item>
+        <item>Пианино</item>
+        <item>Кинопленка</item>
+        <item>Книга</item>
+        <item>Цветок лотоса</item>
+        <item>Разум человека</item>
+        <item>Наушники</item>
+        <item>Телевизор</item>
+        <item>Поезд</item>
+        <item>Автомобиль</item>
+        <item>Вилка и нож</item>
+        <item>Корзина</item>
+        <item>Ребенок</item>
+        <item>Лапа животного</item>
+        <item>Звездочка</item>
+        <item>Два человека</item>
+        <item>Звездочка</item>
+        <item>Сердце</item>
+        <item>Дом</item>
+        <item>Полумесяц</item>
+        <item>Часы</item>
     </string-array>
 </resources>

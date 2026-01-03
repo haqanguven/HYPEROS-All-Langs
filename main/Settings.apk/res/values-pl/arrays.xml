@@ -17,7 +17,7 @@
         <item>Otwórz wyszukiwanie Google</item>
         <item>Otwórz główny aparat</item>
         <item>Otwórz przedni aparat</item>
-        <item>Otwórz poprzednią aplikację</item>
+        <item>Otówrz poprzednią aplikację</item>
         <item>Włącz latarkę</item>
         <item>Włącz tryb czytania</item>
         <item>Brak</item>
@@ -26,13 +26,13 @@
         <item>Codziennie</item>
         <item>Noce w tygodniu</item>
         <item>Weekend</item>
-        <item>Własne</item>
+        <item>Niestandardowe</item>
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
         <item>Codziennie</item>
         <item>Noce w tygodniu</item>
         <item>Weekend</item>
-        <item>Własne</item>
+        <item>Niestandardowe</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Animacja wyłączona</item>
@@ -284,7 +284,7 @@
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
         <item>Zoptymalizowany dla jakości dźwięku (990kbps/909kbps)</item>
-        <item>Zbilansowany dla jakość dźwięku i połączenia (660kbps/606kbps)</item>
+        <item>Zbilansowany dla jakości dźwięku i połączenia (660kbps/606kbps)</item>
         <item>Zoptymalizowany dla jakości połączenia (330kbps/303kbps)</item>
         <item>Najlepszy efekt (Adaptacyjny bit rate)</item>
     </string-array>
@@ -313,18 +313,20 @@
         <item>Najlepszy efekt (automatyczna prędkość transmisji)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Używaj wyboru systemu (domyślnie)</item>
-        <item>44,1 kHz</item>
-        <item>48,0 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96,0 kHz</item>
+        <item>Użyj preferowanych przez system (Domyślnie)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+        <item>192,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Używaj wyboru systemu (domyślnie)</item>
-        <item>44,1 kHz</item>
-        <item>48,0 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96,0 kHz</item>
+        <item>Użyj preferowanych przez system (Domyślnie)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+        <item>192,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Użyj preferowanych przez system (Domyślnie)</item>
@@ -333,7 +335,7 @@
         <item>Qualcomm® aptX™ audio</item>
         <item>Qualcomm®aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ adaptacyjny audio</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
         <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
@@ -349,7 +351,7 @@
         <item>Qualcomm®aptX™ audio</item>
         <item>Qualcomm® aptX™ HD audio</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ adaptacyjne audio</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
         <item>Qualcomm® aptX™ TWS+ audio</item>
         <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
@@ -582,6 +584,7 @@
         <item>Pokaż przerysowywane obszary</item>
         <item>Pokaż obszary dostosowane do deuteranomalii</item>
     </string-array>
+    <array name="display_over_apps_permission_change_exempt" />
     <string-array name="eap_ocsp_type">
         <item>Nie weryfikuj</item>
         <item>Żądaj stanu certyfikatu</item>
@@ -1105,6 +1108,33 @@ Informacja: Tylko dla Ubuntu 8.04!"</item>
         <item>Standardowe</item>
         <item>Chłodne</item>
     </string-array>
+    <string-array name="screen_flash_color_entries">
+        <item>@string/screen_flash_color_none</item>
+        <item>@string/screen_flash_color_blue</item>
+        <item>@string/screen_flash_color_green</item>
+        <item>@string/screen_flash_color_yellow</item>
+        <item>@string/screen_flash_color_orange</item>
+        <item>@string/screen_flash_color_red</item>
+        <item>@string/screen_flash_color_violet</item>
+    </string-array>
+    <array name="screen_flash_color_icons">
+        <item>@drawable/screen_flash_color_none</item>
+        <item>@drawable/screen_flash_color_blue</item>
+        <item>@drawable/screen_flash_color_green</item>
+        <item>@drawable/screen_flash_color_yellow</item>
+        <item>@drawable/screen_flash_color_orange</item>
+        <item>@drawable/screen_flash_color_red</item>
+        <item>@drawable/screen_flash_color_violet</item>
+    </array>
+    <string-array name="screen_flash_color_values">
+        <item>0</item>
+        <item>4D0000FE</item>
+        <item>6600FF01</item>
+        <item>66FFFF00</item>
+        <item>66FF7F00</item>
+        <item>66FE0000</item>
+        <item>667F00FF</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0,5 sekundy</item>
         <item>1 sekunda</item>
@@ -1124,10 +1154,18 @@ Informacja: Tylko dla Ubuntu 8.04!"</item>
         <item>Zawsze poprawiaj kolory</item>
         <item>Kontrast pozostanie na stałym poziomie</item>
     </string-array>
+    <string-array name="screen_optimize_summary_new">
+        <item>Ulepszone kolory zapewniające żywszy obraz</item>
+        <item>Przywróć standardową kolorystykę ekranu</item>
+    </string-array>
     <string-array name="screen_optimize_title">
         <item>Żywe (zalecane)</item>
         <item>Nasycone</item>
         <item>Standardowy</item>
+    </string-array>
+    <string-array name="screen_optimize_title_new">
+        <item>Żywe (zalecane)</item>
+        <item>Standardowe</item>
     </string-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
@@ -1208,6 +1246,24 @@ Informacja: Tylko dla Ubuntu 8.04!"</item>
         <item>Bez radiowych</item>
         <item>tylko jądro</item>
     </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Tylko wyświetlanie na urządzeniu (domyślnie)</item>
+        <item>Wyświetlacz zewnętrzny</item>
+        <item>Ostatnie dotknięcie paska stanu</item>
+        <item>Na podstawie aktywnego wyświetlacza</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Pokaż cień tylko na wyświetlaczu urządzenia</item>
+        <item>Pokazuj cień na pojedynczym wyświetlaczu zewnętrznym</item>
+        <item>Pokazuj cień na wyświetlaczu, na którym ostatnio nastąpiła interakcja z paskiem stanu</item>
+        <item>Pokazuj cień na ostatnim aktywnym wyświetlaczu</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>default_display</item>
+        <item>any_external_display</item>
+        <item>status_bar_latest_touch</item>
+        <item>focused_display</item>
+    </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Wyłączone</item>
         <item>Rysuj nieprostokątny region przycinania na niebiesko</item>
@@ -1265,12 +1321,6 @@ Informacja: Tylko dla Ubuntu 8.04!"</item>
     <string-array name="tabs_taptic_detail_m2">
         <item>Wyraźny</item>
         <item>Solidny</item>
-    </string-array>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Ładowanie</item>
-        <item>Uśpienie</item>
-        <item>Tryb oszczędzania energii</item>
-        <item>Stan procesu</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1335,10 +1385,18 @@ Informacja: Tylko dla Ubuntu 8.04!"</item>
         <item>Zawsze poprawiaj kolory</item>
         <item>Przywróć standardowy kolor zawartości ekranu za pomocą kalibracji kolorów</item>
     </string-array>
+    <string-array name="true_color_screen_optimize_summary_new">
+        <item>Ulepszone kolory zapewniające żywszy obraz</item>
+        <item>Przywróć standardowy kolor zawartości ekranu za pomocą kalibracji kolorów</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Żywe (zalecane)</item>
         <item>Nasycone</item>
         <item>Oryginalny kolor</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title_new">
+        <item>Żywe (zalecane)</item>
+        <item>Oryginalne</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>60%</item>
@@ -1359,9 +1417,9 @@ Informacja: Tylko dla Ubuntu 8.04!"</item>
         <item>Bardzo szybko</item>
     </string-array>
     <string-array name="typing_style_entries">
-        <item>Standardowa</item>
-        <item>Dotykowa</item>
-        <item>Bezpośrednia</item>
+        <item>Standardowy</item>
+        <item>Dotyk</item>
+        <item>Bezpośredni dotyk</item>
     </string-array>
     <string-array name="usb_configuration_titles">
         <item>Ładowanie</item>
@@ -1574,5 +1632,47 @@ Informacja: Tylko dla Ubuntu 8.04!"</item>
         <item>Skala animacji 2x</item>
         <item>Skala animacji 5x</item>
         <item>Skala animacji 10x</item>
+    </string-array>
+    <string-array name="zen_mode_icon_options_descriptions">
+        <item>Teczka</item>
+        <item>Budynek klasycystyczny</item>
+        <item>Blok mieszkalny</item>
+        <item>Dymek z tekstem</item>
+        <item>Grupa ludzi</item>
+        <item>Żarówka</item>
+        <item>Kalendarz</item>
+        <item>Nie przeszkadzać</item>
+        <item>Biegnąca osoba</item>
+        <item>Golf</item>
+        <item>Hantla gimnastyczna</item>
+        <item>Pływanie</item>
+        <item>Osoba wędrująca</item>
+        <item>Osoba rzucająca piłkę</item>
+        <item>Osoba kopiąca</item>
+        <item>Kontroler do gier</item>
+        <item>Paleta kolorów artysty</item>
+        <item>Płatek śniegu</item>
+        <item>Parasol plażowy</item>
+        <item>Narzędzia warsztatowe</item>
+        <item>Fortepian</item>
+        <item>Klatka filmowa</item>
+        <item>Książka</item>
+        <item>Kwiat lotosu</item>
+        <item>Umysł osoby</item>
+        <item>Słuchawki</item>
+        <item>Telewizor</item>
+        <item>Pociąg</item>
+        <item>Samochód</item>
+        <item>Nóż i widelec</item>
+        <item>Koszyk na zakupy</item>
+        <item>Dziecko</item>
+        <item>Łapa zwierzęcia</item>
+        <item>Plakietka z gwiazdką</item>
+        <item>2 osoby</item>
+        <item>Gwiazdka</item>
+        <item>Serce</item>
+        <item>Dom</item>
+        <item>Półksiężyc</item>
+        <item>Zegar</item>
     </string-array>
 </resources>

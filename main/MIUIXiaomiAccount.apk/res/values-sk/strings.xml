@@ -30,6 +30,9 @@
     <string name="about_device_info">Zobraziť podrobnosti o zariadení</string>
     <string name="about_mi_account">O službe Xiaomi konto</string>
     <string name="accept">Povoliť</string>
+    <string name="accessibility_sliding_button_state_description_off">Vypnuté</string>
+    <string name="accessibility_sliding_button_state_description_on">Povolené</string>
+    <string name="accessibility_tab_state_description_unselect">Nevybrané</string>
     <string name="account_and_password">Heslo</string>
     <string name="account_auth_failed_message">Platnosť prihlasovacích údajov pre Xiaomi konto %1$s vypršala. Skúste to znova.</string>
     <string name="account_bind_devices">Zariadenia</string>
@@ -81,7 +84,7 @@
     <string name="agreement_and_privacy">Pravidlá a podmienky</string>
     <string name="am">dop.</string>
     <string name="app_name">Xiaomi konto</string>
-    <string name="area_code_no_search_result">Nenašli sa žiadne výsledky</string>
+    <string name="area_code_no_search_result">Žiadne výsledky</string>
     <string name="area_code_search_hint">Vyhľadať krajinu alebo región</string>
     <string name="auth_fail_warning">Prihlásenie k účtu vypršalo, skúste to znova</string>
     <string name="auto_fill_not_sport_on_water_mark_version">Prihlasovanie pomocou automatického dopĺňania nie je podporované pre verzie s vodoznakom</string>
@@ -93,10 +96,22 @@
     <string name="binded">Účet pridaný</string>
     <string name="binded_description" formatted="false">"%s sa pripojil ku vášmu Xiaomi kontu.
 Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
+    <string name="bottomsheet_action_collapse">Zložte spodný list</string>
+    <string name="bottomsheet_action_expand">Rozbaľte spodný list</string>
+    <string name="bottomsheet_action_expand_halfway">Rozbaliť na polovicu</string>
+    <string name="bottomsheet_drag_handle_clicked">Potiahnite rukoväť s dvojitým ťuknutím</string>
+    <string name="bottomsheet_drag_handle_content_description">Potiahnite rukoväť</string>
     <string name="button_agree">Súhlasím</string>
     <string name="button_close">Zatvoriť</string>
     <string name="button_refuse">Nesúhlasím</string>
     <string name="button_unbind">Odhlásiť sa</string>
+    <string name="call_notification_answer_action">Prijať</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Odmietnuť</string>
+    <string name="call_notification_hang_up_action">Zložiť</string>
+    <string name="call_notification_incoming_text">Prichádzajúci hovor</string>
+    <string name="call_notification_ongoing_text">Prebiehajúci hovor</string>
+    <string name="call_notification_screening_text">Preveruje sa prichádzajúci hovor</string>
     <string name="cancel">Zrušiť</string>
     <string name="change_password">Zmeniť heslo</string>
     <string name="check_apk_update">Skontrolovať aktualizácie</string>
@@ -118,6 +133,7 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="cloud_service_cloud_open">Povoliť</string>
     <string name="cloud_service_space_full">Úložisko je plné</string>
     <string name="cloud_service_space_not_enough">Nedostatok miesta na úložisku</string>
+    <string name="cloud_service_space_over_quota">Prekročený limit úložiska</string>
     <string name="cloud_service_space_used">Obsadené</string>
     <string name="cloud_service_state_error">Nepodarilo sa načítať</string>
     <string name="cloud_service_status_backup_not_open">Zálohovanie je vypnuté</string>
@@ -176,6 +192,7 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="copy_link">Kopírovať URL</string>
     <string name="copy_to_clipboard_successful">Úspešne skopírované</string>
     <string name="current_account_can_use_pwd_login">Pre prihlásenie zadajte heslo</string>
+    <string name="data_access_management">Spravovať prístup k údajom</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -185,14 +202,22 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="default_popup_window_title">Vyskakovacie okno</string>
     <string name="delete_bank_card_message">Po odhlásení budú vymazané Mi Pay bankové karty a NFC karty.</string>
     <string name="delete_bank_card_title">Upozornenie</string>
-    <string name="delete_device_btn">Odstrániť</string>
+    <string name="delete_device_btn">Odstrániť zariadenie</string>
     <string name="delete_device_failed">Nie je možné odobrať zariadenie</string>
-    <string name="delete_device_notice">Po odobratí zariadenia budete automaticky odhlásený z vášho Xiaomi konta. Nebudete mať viac prístup ku fotografiám, správam alebo ostatnému obsahu uloženému na vašom konte.</string>
+    <string name="delete_device_notice">Odstránením tohto zariadenia sa tiež odhlásite zo svojho Xiaomi konta. Po odstránení nebudete mať prístup k položkám uloženým v cloude.</string>
     <string name="deny">Zakázať</string>
     <string name="device_delete_success_message">Ak ste sa neprihlásili na toto zariadenie, odporúčame vám čo najskôr si zmeniť vaše heslo.</string>
     <string name="device_delete_success_title">Odhlásený</string>
+    <string name="device_id">ID zariadenia</string>
+    <string name="device_list_error_tip"><Data>Nahrávanie zlyhalo. &lt;a href=>Skúste to znova&lt;/a></Data></string>
     <string name="device_list_title">Zoznam zariadení</string>
     <string name="device_name">Názov zariadenia</string>
+    <string name="device_recent_login_time">Posledné prihlásenie</string>
+    <string name="device_status_failed">Odoslanie zlyhalo</string>
+    <string name="device_status_receiver">Akceptované</string>
+    <string name="device_status_reject">Odmietnuté</string>
+    <string name="device_status_success">Odoslané</string>
+    <string name="device_status_waiting">Odosielanie…</string>
     <string name="dind_device_service_not_open">Vyp.</string>
     <string name="dind_device_service_opened">Zap.</string>
     <string name="dropdown_menu">Rozbaľovacia ponuka</string>
@@ -241,7 +266,7 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="find_device_close">Vyp.</string>
     <string name="find_device_error_password_not_confirmed">Nie je možné deaktivovať funkciu Vyhľadať zariadenie. Znovu zadajte heslo pre vaše Xiaomi konto.</string>
     <string name="find_device_error_password_recently_changed">Vaše heslo bolo zmenené v priebehu posledných %d dní. Funkciu Vyhľadať zariadenie teraz nie je možné vypnúť z bezpečnostných dôvodov.</string>
-    <string name="find_device_interrupted">Akcia bola prerušená, skúste to znovu neskôr</string>
+    <string name="find_device_interrupted">Akcia bola prerušená, skúste to znova neskôr</string>
     <string name="find_device_io_error">Nie je možné sa pripojiť k sieti</string>
     <string name="find_device_location">Lokalizovať</string>
     <string name="find_device_locked_account_email" formatted="false">%s, prepojená e-mailová adresa: %s</string>
@@ -249,14 +274,14 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="find_device_message">Zariadenie je uzamknuté, správa: %1$s, telefón: %2$s.</string>
     <string name="find_device_null_credential_error">Nie je možné načítať stav zariadenia, kontaktujte Xiaomi podporu zákazníkom</string>
     <string name="find_device_open">Zap.</string>
-    <string name="find_device_operation_failed_error">Vyskytla sa chyba servera. Chvíľu počkajte a skúste to znovu</string>
-    <string name="find_device_operation_failed_error_unknown">Vyskytla sa chyba. Skúste to znovu neskôr</string>
+    <string name="find_device_operation_failed_error">Vyskytla sa chyba servera. Chvíľu počkajte a skúste to znova</string>
+    <string name="find_device_operation_failed_error_unknown">Vyskytla sa chyba. Skúste to znova neskôr</string>
     <string name="find_device_owner_phone">Zariadenie je uzamknuté, telefón: %1$s.</string>
     <string name="find_device_play_sound">Prehrať zvuk</string>
     <string name="find_device_prompt_message">Zariadenie je uzamknuté, správa: %1$s.</string>
     <string name="find_device_remote_exception">Chyba RPC</string>
-    <string name="find_device_request_error">Vyskytla sa chyba servera. Chvíľu počkajte a skúste to znovu</string>
-    <string name="find_device_request_prepare_error">Nie je možné načítať stav zariadenia skúste to znovu neskôr.</string>
+    <string name="find_device_request_error">Vyskytla sa chyba servera. Chvíľu počkajte a skúste to znova</string>
+    <string name="find_device_request_prepare_error">Nie je možné načítať stav zariadenia skúste to znova neskôr.</string>
     <string name="find_device_set_lost_model">Režim straty</string>
     <string name="find_device_title">Vyhľadať zariadenie</string>
     <string name="find_device_unknown_error">Nie je možné načítať stav zariadenia. Skúste to znova neskôr.</string>
@@ -314,11 +339,13 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="forget_password_or_skip">Zabudnuté heslo alebo preskočiť prihlásenie</string>
     <string name="friday">Piatok</string>
     <string name="friday_short">Pia</string>
     <string name="friday_shortest">Pia</string>
     <string name="get_back_password">Obnoviť heslo</string>
     <string name="get_back_pwd">Heslo sa obnovuje</string>
+    <string name="get_device_info_error">Nebolo možné získať informácie o zariadení</string>
     <string name="get_identity_auth_url_failed">ID sa nepodarilo overiť</string>
     <string name="get_phone_bind_exceed_limit">So Xiaomi kontom môžete prepojiť až %d telefónne čísla. Nové kontá nie je možné pridať.</string>
     <string name="get_phone_verifycode_exceed_limit">Na toto číslo nie je možné odoslať viac overovacích kódov</string>
@@ -346,18 +373,24 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="io_error_title">Potvrďte vašu sieť</string>
     <string name="just_a_second">Malý moment…</string>
     <string name="keep_phone_ticket_login">Prihlásiť sa s overovacím kódom</string>
-    <string name="kr_license_desc">Pred tým, ako začnete používať služby Xiaomi konta a Xiaomi cloud, musíte súhlasiť s našimi Podmienkami používania a Zásadami ochrany osobných údajov.</string>
+    <string name="kr_license_desc">Pred tým, ako začnete používať služby Xiaomi konta a Xiaomi Cloud, musíte súhlasiť s našimi Podmienkami používania a Zásadami ochrany osobných údajov.</string>
     <string name="kr_permission_contacts_desc">Pre prístup ku informáciám o kontaktoch</string>
     <string name="kr_permission_desc">Vyžadujú sa povolenia</string>
     <string name="kr_permission_phone_desc">Pre zabezpečenie vášho konta</string>
     <string name="kr_permission_sms_desc">Pre automatické vypĺňanie kódov overenia</string>
     <string name="kr_permission_storage_desc">Pre ukladanie diagnostiky</string>
+    <string name="local_invite_help">Neviete nájsť zariadenie?</string>
+    <string name="local_invite_prompt_disable_btn">Zapnúť</string>
+    <string name="local_invite_prompt_disable_describe">Zapnite Bluetooth na vyhľadanie zariadení v okolí</string>
+    <string name="local_invite_prompt_disable_title">Pozvať zariadenia v okolí</string>
+    <string name="local_invite_prompt_enable_describe">Vyhľadávanie zariadení v okolí. Zapnite Bluetooth na oboch zariadeniach.</string>
+    <string name="local_invite_prompt_enable_title">Pozvať zariadenia v okolí</string>
     <string name="login_3rd_app_with_system_account">Prihlásiť sa k %s</string>
     <string name="login_check_find_device">Získavanie info o zabezpečení…</string>
     <string name="login_check_find_device_failed_title">Nebolo možné skontrolovať zabezpečenie zariadenia</string>
     <string name="login_find_device_bind">Toto zariadenie je spojené s existujúcim ID Xiaomi konta (%s).</string>
     <string name="login_notification_button_text">Prihlásiť sa</string>
-    <string name="login_notification_desc">Užite si cloudové služby, rodinné cloudové úložisko a viac</string>
+    <string name="login_notification_desc">Užite si cloudové služby, rodinné úložisko a viac</string>
     <string name="login_notification_title">Prihlásiť sa k Xiaomi kontu teraz</string>
     <string name="login_or_register_by_other_way">Použite inú metódu</string>
     <string name="login_with_other">Viac možností</string>
@@ -370,6 +403,12 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="mipay_identity">Overenie ID</string>
     <string name="mipay_indentity_done">Overené</string>
     <string name="miuix_access_state_desc">Vybraté</string>
+    <string name="miuix_accessibility_title">Nadpis</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Zbalené</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Rozbalené</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Ukončiť režim úprav</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nové upozornenie</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Prejsť do režimu úprav</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Zrušiť výber</string>
     <string name="miuix_appcompat_action_mode_select_all">Vybrať všetko</string>
     <string name="miuix_appcompat_action_mode_title_empty">Označiť položky</string>
@@ -385,6 +424,20 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="miuix_appcompat_select_all">Vybrať všetko</string>
     <string name="miuix_appcompat_select_all_description">Vybrať všetko</string>
     <string name="miuix_appcompat_select_item">Vybrať položky</string>
+    <string name="miuix_appcompat_show_dialog_description">Vyskakovacie okno</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Potiahnutím nadol zatvoriť</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Potiahnite prstom nadol na prepnutie na polovicu obrazovky</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Potiahnutím nadol minimalizovať</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Potiahnite prstom nahor na prepnutie na polovicu obrazovky</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Potiahnutím nahor maximalizovať</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Polovičná obrazovka</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximalizované</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimalizované</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Prepnúť na polovičnú obrazovku</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximalizovať</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalizovať</string>
+    <string name="miuix_popup_window_default_title">Vyskakovacie okno</string>
+    <string name="miuix_progressbar_loading">Načítanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potiahnite pre obnovenie</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Úspešne obnovené</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Obnovuje sa…</string>
@@ -393,6 +446,9 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">To je na teraz všetko</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Malý moment…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nepodarilo sa načítať položky</string>
+    <string name="miuix_show_password">Zobraziť heslo</string>
+    <string name="miuix_stretchablewidget_collapsed">Zbalené</string>
+    <string name="miuix_stretchablewidget_expanded">Rozbalené</string>
     <string name="monday">Pondelok</string>
     <string name="monday_short">Pon</string>
     <string name="monday_shortest">Pon</string>
@@ -445,11 +501,14 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="new_version">Nová verzia</string>
     <string name="night">Večer</string>
     <string name="no_account_or_forget_password">Vytvoriť konto alebo zabudnuté heslo?</string>
+    <string name="no_account_or_skip">Nemám Xiaomi konto alebo preskočiť prihlásenie</string>
+    <string name="no_device_tip_message">Ak vaše zariadenie nie je uvedené v tomto zozname, aktualizujte ho na najnovšiu verziu</string>
     <string name="no_network_btn">Obnoviť</string>
+    <string name="no_network_refresh_btn">Obnoviť</string>
     <string name="no_network_title">Nie je možné sa pripojiť k sieti.</string>
     <string name="no_password_set">Nenastavené</string>
     <string name="no_phone">Žiadne číslo</string>
-    <string name="no_response_retry">Žiadna odpoveď, skúste to znovu.</string>
+    <string name="no_response_retry">Žiadna odpoveď, skúste to znova.</string>
     <string name="no_sim_card_or_unactivated">Žiadna SIM karta alebo nie je aktivovaná</string>
     <string name="nobind">Odhlásené</string>
     <string name="noon">Poludnie</string>
@@ -479,6 +538,7 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="operator_unicom_agreement">Služby overenia poskytuje China Unicom</string>
     <string name="optional_permissions">Voliteľné povolenia</string>
     <string name="page_load_failed">Stránku nie je možné otvoriť</string>
+    <string name="pasport_register_dialog_message">Vytvoriť Xiaomi konto prostredníctvom telefónneho čísla %s teraz?</string>
     <string name="passport_access_denied">Prístup zamietnutý</string>
     <string name="passport_account_crop_user_avatar">Orezať fotografiu</string>
     <string name="passport_account_empty_user_name">Zadajte vaše meno</string>
@@ -530,6 +590,10 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_checking_account">Kontrola hesla…</string>
     <string name="passport_clear_input">Vymazať vložený obsah</string>
     <string name="passport_click_email_to_valid">Pre aktiváciu vášho účtu kliknite na odkaz, ktorý sme odoslali do vašej e-mailovej schránky.</string>
+    <string name="passport_close_dialog_close_btn">Vypnúť</string>
+    <string name="passport_close_dialog_hint">Ak túto funkciu vypnete, pri prihlasovaní do konta sa už nebude vyžadovať dvojfaktorové overovanie. Vaše konto tak môže byť menej bezpečné.</string>
+    <string name="passport_close_dialog_open_btn">Ponechať</string>
+    <string name="passport_close_two_factor_auth">Vypnúť dvojfaktorové overovanie</string>
     <string name="passport_confirm_login">Prihlásiť sa</string>
     <string name="passport_confirm_recycle_account">Áno</string>
     <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Zdá sa,&lt;/font> že vaše číslo %s bolo zrecyklované vašim operátorom. S týmto číslom je prepojené Xiaomi konto. Je toto konto vaše?</string>
@@ -537,7 +601,9 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_copy_message_text_success">Text skopírovaný</string>
     <string name="passport_copy_message_vcode">Kopírovať overovací kód</string>
     <string name="passport_copy_to_clipboard_successful">Úspešne skopírované</string>
+    <string name="passport_cta_provision_content">Xiaomi konto vám umožňuje registrovať sa, prihlasovať sa a spravovať systémové kontá. Aby táto služba mohla fungovať normálne, musí sa pripojiť k internetu a vyžaduje nasledujúce povolenia: Prístup k telefónnemu číslu tohto zariadenia pre rýchle prihlásenie.</string>
     <string name="passport_delete_account">Odhlásiť sa</string>
+    <string name="passport_device_code_dialog_hint">Tento kód s nikým nezdieľajte</string>
     <string name="passport_dialog_captcha_title">Kód</string>
     <string name="passport_dialog_doing_login">Prihlasovanie…</string>
     <string name="passport_dialog_doing_register">Vytvára sa konto…</string>
@@ -569,8 +635,9 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_error_length_limit">Zadaný text je príliš dlhý</string>
     <string name="passport_error_network">Nie je možné sa pripojiť k sieti</string>
     <string name="passport_error_no_password_user">Zatiaľ ste nenastavili heslo. Prihláste sa prostredníctvom SMS.</string>
-    <string name="passport_error_phone">Neplatné telefónne číslo</string>
+    <string name="passport_error_phone">Zadajte platné telefónne číslo</string>
     <string name="passport_error_server">Chyba servera</string>
+    <string name="passport_error_server_msg">Skontrolujte nastavenia siete a obnovte stránku</string>
     <string name="passport_error_sim_not_ready">Nenašla sa SIM karta</string>
     <string name="passport_error_sms_limit">Na toto číslo bolo odoslaných príliš veľa overovacích kódov. Skúste to znova neskôr.</string>
     <string name="passport_error_ssl_hand_shake">Chyba spojenia so serverom. Skúste nastaviť aktuálny systémový čas.</string>
@@ -586,8 +653,9 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_error_user_password">Heslá sa nezhodujú</string>
     <string name="passport_facebook_login_btn_content_description">Prihlásiť sa pomocou Facebooku</string>
     <string name="passport_failed_to_send_activate_email">Nie je možné odoslať aktivačný email</string>
+    <string name="passport_family_invite_member_sms">Rodinné služby: Telefón %1$s vás pozýva do svojej rodiny, kde môžete využívať zdieľané cloudové úložisko a ďalšie služby. Na ochranu neplnoletých a iných členov rodiny môžete použiť aj službu Family Guard. Ťuknite na %2$s na pripojenie.</string>
+    <string name="passport_family_invite_member_wechat_title">Telefón %s vás pozýva, aby ste sa pripojili k ich rodine</string>
     <string name="passport_find_password_on_web_msg">Prejdite na account.mi.com pre obnovenie vášho hesla.</string>
-    <string name="passport_first_login_prompt">Xiaomi konto sa vytvorí automaticky pri prvom použití telefónneho čísla.</string>
     <string name="passport_forget_password"><u>Zabudnuté heslo</u></string>
     <string name="passport_forget_password_no_underline">Zabudol som heslo</string>
     <string name="passport_frequency_try_later">Príliš veľa pokusov. Chvíľu počkajte a skúste to znova.</string>
@@ -618,6 +686,18 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_input_verify_code">Zadajte overovací kód</string>
     <string name="passport_input_voice_captcha_hint">Vložte hlasový overovací kód</string>
     <string name="passport_input_voice_hint">Zadajte hlasový kód</string>
+    <string name="passport_invite_family_member_ticker">Rodinné zdieľanie</string>
+    <string name="passport_invite_family_member_title">Pozvať člena</string>
+    <string name="passport_invite_member_accountid_label">Xiaomi konto</string>
+    <string name="passport_invite_member_exceed">Nie je možné pozvať ďalších členov rodiny. Odvolajte čakajúcu pozvánku alebo odstráňte jedného člena, aby ste mohli pozvať ďalšieho.</string>
+    <string name="passport_invite_member_frequent">Príliš veľa pokusov. Chvíľu počkajte a skúste to znova.</string>
+    <string name="passport_invite_member_local_describe">Telefón %s vás pozýva, aby ste sa pripojili k ich rodine</string>
+    <string name="passport_invite_member_local_title">Rodinné zdieľanie</string>
+    <string name="passport_invite_member_no_organizer">Požiadajte organizátora o zaslanie pozvánky</string>
+    <string name="passport_invite_member_overseas_account">Táto služba je dostupná iba na čínskej pevnine</string>
+    <string name="passport_invite_member_qrcode_label">QR kód</string>
+    <string name="passport_invite_member_sms_label">SMS</string>
+    <string name="passport_invite_member_wechat_label">WeChat</string>
     <string name="passport_loading">Načítavanie…</string>
     <string name="passport_login">Prihláste sa</string>
     <string name="passport_login_by_local_phone_long_text">Prihlásiť sa teraz</string>
@@ -634,7 +714,6 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_login_with_sns">Iné možnosti prihlásenia</string>
     <string name="passport_logout_account">Odhlásiť</string>
     <string name="passport_message_dialog_title">Overovací kód v správe</string>
-    <string name="passport_mi_account_first_title">Konto vytvoríme automaticky, keď použijete telefónne číslo prvýkrát.</string>
     <string name="passport_mi_account_title">Prihlásiť sa so Xiaomi kontom</string>
     <string name="passport_network_error">Vyskytla sa chyba siete. Skontrolujte nastavenia siete a skúste to znova.</string>
     <string name="passport_network_error_hint">Skontrolujte adresu URL a skúste to znova alebo skopírujte URL a otvorte ju vo svojom prehliadači.</string>
@@ -643,6 +722,7 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_no_account">Neprihlásený/-á</string>
     <string name="passport_open_settings">Nastavenia</string>
     <string name="passport_page_load_failed">Stránku nie je možné otvoriť</string>
+    <string name="passport_password_hide_show">Skryť heslo</string>
     <string name="passport_password_login_btn">Prihlásiť sa</string>
     <string name="passport_password_not_show">Nezobrazovať heslo</string>
     <string name="passport_password_phone_login">Prihláste sa pomocou Xiaomi konta</string>
@@ -655,7 +735,7 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_privacy_policy">Zásady ochrany osobných údajov</string>
     <string name="passport_privacy_policy_required">Zásady ochrany osobných údajov (povinné)</string>
     <string name="passport_provision_input_email_register_prompt">Vaše osobné údaje budú uložené v súlade so zákonmi a predpismi oblasti, ktorú si vyberiete.</string>
-    <string name="passport_provision_password_req_notice"><xliff id="min_pwd_len" refersto="8">%1$d</xliff>-<xliff id="max_pwd_len" refersto="16">%2$d</xliff> znakov z aspoň <xliff id="min_pwd_type" refersto="2">%3$d</xliff> z nasledujúcich typov: písmená, číslice, špeciálne symboly</string>
+    <string name="passport_provision_password_req_notice"><xliff refersto="8" id="min_pwd_len">%1$d</xliff>-<xliff refersto="16" id="max_pwd_len">%2$d</xliff> znakov z aspoň <xliff refersto="2" id="min_pwd_type">%3$d</xliff> z nasledujúcich typov: písmená, číslice, špeciálne symboly</string>
     <string name="passport_qq_login_btn_content_description">Prihlásiť sa pomocou QQ</string>
     <string name="passport_querying_phone_info">Žiadam údajte o účte…</string>
     <string name="passport_quick_login">Prihlásenie</string>
@@ -675,6 +755,8 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_register_account_verified_confirm">Účet je overený</string>
     <string name="passport_register_by_local_phone_long_text">Vytvoriť konto</string>
     <string name="passport_register_by_local_phone_short_text">Vytvoriť konto</string>
+    <string name="passport_register_dialog_positive">Vytvoriť</string>
+    <string name="passport_register_dialog_title">Vytvoriť Xiaomi konto</string>
     <string name="passport_register_restricted">S týmto číslom je spárovaných viacero účtov, zadajte iné telefónne číslo</string>
     <string name="passport_register_restricted_title">Toto telefónne číslo nie je možné použiť</string>
     <string name="passport_registered_phone_num">Telefón: %s</string>
@@ -697,19 +779,20 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_reset_fail_title">Nie je možné obnoviť</string>
     <string name="passport_reset_password_prompt">Heslo nie je správne</string>
     <string name="passport_reset_password_title">Obnoviť heslo</string>
-    <string name="passport_retry">Skúste to znovu</string>
+    <string name="passport_retry">Skúste to znova</string>
     <string name="passport_select_reg_ways_title">Iné možnosti prihlásenia</string>
     <string name="passport_send_sms_to">Kód odoslaný na %1$s</string>
     <string name="passport_send_too_many_code">Na toto číslo bolo odoslaných príliš veľa overovacích kódov. Počkajte %d hodín a skúste to znova.</string>
     <string name="passport_send_vcode_failed">Nepodarilo sa odoslať kód</string>
     <string name="passport_sending_vcode">Odosielanie kódu…</string>
     <string name="passport_set">Nastaviť</string>
+    <string name="passport_set_password_hint">Nastavte heslo konta, aby ste mohli používať dvojfaktorové overovanie</string>
     <string name="passport_set_password_no_phone_msg">Pridajte svoje tel. číslo a chráňte svoj účet.</string>
     <string name="passport_setting">Nastavuje sa…</string>
     <string name="passport_skip_login">Preskočiť</string>
     <string name="passport_skip_query_account">Preskočiť</string>
     <string name="passport_skip_register">Preskočiť registráciu</string>
-    <string name="passport_skip_setup_account_msg">Prihlásenie do Xiaomi konta vám umožňuje používanie služieb Xiaomi cloudu. Naozaj chcete preskočiť tento krok?</string>
+    <string name="passport_skip_setup_account_msg">Prihlásenie do Xiaomi konta vám umožňuje používanie služieb Xiaomi Cloudu. Naozaj chcete preskočiť tento krok?</string>
     <string name="passport_skip_setup_account_title">Xiaomi konto a Xiaomi cloud</string>
     <string name="passport_sms_send_success">Odoslané</string>
     <string name="passport_sns_bind_limit">Príliš veľa pokusov. Skúste iné spôsoby prihlásenia.</string>
@@ -728,6 +811,18 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_to_password_login">Prihlásiť sa pomocou hesla</string>
     <string name="passport_to_verify_code_login">Prihlásiť sa cez SMS</string>
     <string name="passport_trust_device">Dôverovať tomuto zariadeniu</string>
+    <string name="passport_two_factor_auth">Dvojfaktorové overovanie</string>
+    <string name="passport_two_factor_auth_dialog_desc">Ak zapnete dvojfaktorovú autentifikáciu, budete odhlásený(-á) zo svojho Xiaomi konta na ostatných zariadeniach a všetkých webových stránkach. Zapnúť teraz?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Zrušiť</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Zapnúť</string>
+    <string name="passport_two_factor_auth_dialog_title">Odhlásiť sa na ostatných zariadeniach</string>
+    <string name="passport_two_factor_auth_hint"><Data>Pri každom prihlásení do Xiaomi konta vykonať dve kolá overovania. &lt;a href= >Zistite viac&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Nastavte heslo konta, aby ste mohli používať dvojfaktorové overovanie</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Nastavte heslo konta, aby ste mohli zapnúť dvojfaktorové overovanie.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Zrušiť</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Nastaviť</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Nastaviť heslo konta</string>
+    <string name="passport_two_factor_set_phone_hint">Pridajte telefónne číslo, aby ste mohli používať dvojfaktorové overovanie</string>
     <string name="passport_tz_invalid">Zistené bezpečnostné riziká. Toto zariadenie by mohlo byť rootované alebo flashnuté. Skúste iné možnosti prihlásenia.</string>
     <string name="passport_unknown_error">Neznáma chyba</string>
     <string name="passport_unknown_host_network_error">Skontrolujte nastavenia siete a skúste to znova</string>
@@ -741,15 +836,15 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_uplink_suggest_dialog_msg">Kód nebolo možné doručiť. Použiť platenú uplink SMS aj tak?</string>
     <string name="passport_uplink_suggest_dialog_title">Upozornenie</string>
     <string name="passport_user_agreement">Podmienky používania</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a> a &lt;a href=%3$s>Podmienky používania&lt;/a> a &lt;a href=%4$s>Zásady ochrany osobných údajov&lt;/a> aplikácie Xiaomi konto.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a>, ďalej &lt;a href=%3$s>Podmienky používania&lt;/a> a &lt;a href=%4$s>Zásady ochrany osobných údajov&lt;/a> aplikácie Xiaomi konto a &lt;a href=%5$s>Pravidlá a podmienky overovacích služieb spoločnosti China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a>, ďalej &lt;a href=%3$s>Podmienky používania&lt;/a> a &lt;a href=%4$s>Zásady ochrany osobných údajov&lt;/a> aplikácie Xiaomi konto a &lt;a href=%5$s>Pravidlá a podmienky overovacích služieb eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a>, ďalej &lt;a href=%3$s>Podmienky používania&lt;/a> a &lt;a href=%4$s>Zásady ochrany osobných údajov&lt;/a> aplikácie Xiaomi konto a &lt;a href=%5$s>Pravidlá a podmienky overovacích služieb spoločnosti China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Prečítal/a som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a> Xiaomi konta.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a> a &lt;a href=%3$s>Podmienky používania&lt;/a> a &lt;a href=%4$s>Zásady ochrany osobných údajov&lt;/a> aplikácie Xiaomi konto.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a>, ďalej &lt;a href=%3$s>Podmienky používania&lt;/a> a &lt;a href=%4$s>Zásady ochrany osobných údajov&lt;/a> aplikácie Xiaomi konto a &lt;a href=%5$s>Pravidlá a podmienky overovacích služieb spoločnosti China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a>, ďalej &lt;a href=%3$s>Podmienky používania&lt;/a> a &lt;a href=%4$s>Zásady ochrany osobných údajov&lt;/a> aplikácie Xiaomi konto a &lt;a href=%5$s>Pravidlá a podmienky overovacích služieb eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a>, ďalej &lt;a href=%3$s>Podmienky používania&lt;/a> a &lt;a href=%4$s>Zásady ochrany osobných údajov&lt;/a> aplikácie Xiaomi konto a &lt;a href=%5$s>Pravidlá a podmienky overovacích služieb spoločnosti China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Prečítal/a som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a> Xiaomi konta.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Konto vytvoríme automaticky, keď použijete telefónne číslo prvýkrát.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov Xiaomi konta &lt;/a> a &lt;a href=%3$s>Pravidlá a podmienky overovacích služieb China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov Xiaomi konta &lt;/a> a &lt;a href=%3$s>Pravidlá a podmienky overovacích služieb konta eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov Xiaomi konta &lt;/a> a &lt;a href=%3$s>Pravidlá a podmienky overovacích služieb China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov Xiaomi konta &lt;/a> a &lt;a href=%3$s>Pravidlá a podmienky overovacích služieb China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov Xiaomi konta &lt;/a> a &lt;a href=%3$s>Pravidlá a podmienky overovacích služieb konta eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Prečítal(a) som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov Xiaomi konta &lt;/a> a &lt;a href=%3$s>Pravidlá a podmienky overovacích služieb China Unicom&lt;/a>.</Data></string>
     <string name="passport_user_agreement_link"><Data>Prečítal som si a súhlasím so zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a> spoločnosti Xiaomi.</Data></string>
     <string name="passport_user_agreement_required">Podmienky používania (povinné)</string>
     <string name="passport_user_avatar_update_title">Zmeniť profilovú fotografiu</string>
@@ -807,7 +902,7 @@ Načítajte kód nižšie pomocou aplikácie Xiaomi."</string>
     <string name="qrcode_login_entry_text"><Data>Prihlásený/-á na inom zariadení? Skúste &lt;a href=>rýchle prihlásenie&lt;/a></Data></string>
     <string name="qrcode_login_load_refresh"><Data>Platnosť tohto QR kódu vypršala. Ťuknite sem pre &lt;a href=>obnovenie&lt;/a>.</Data></string>
     <string name="qrcode_login_load_retry"><Data>Nahrávanie zlyhalo. &lt;a href=>Skúste to znova&lt;/a>.</Data></string>
-    <string name="qrcode_login_message">Načítajte pomocou aplikácie Mi AI Scanner alebo inej aplikácie Xiaomi a prihláste sa do svojho Xiaomi konta</string>
+    <string name="qrcode_login_message">Prejdite do časti Nastavenia > Xiaomi konto na zariadení Xiaomi a naskenujte QR kód, aby ste sa prihlásili, alebo použite iný skener QR kódov</string>
     <string name="qrcode_login_title">Prihlásiť sa načítaním</string>
     <string name="range_end">Koniec rozsahu</string>
     <string name="range_start">Začiatok rozsahu</string>
@@ -974,6 +1069,9 @@ Načítajte kód nižšie pomocou aplikácie Xiaomi."</string>
 "</Data></string>
     <string name="v7_preference_off">Vypnuté</string>
     <string name="v7_preference_on">Zapnuté</string>
+    <string name="wear_account_auth_failed_message">"Ak sa chcete znova prihlásiť, postupujte podľa týchto krokov:
+%1$d. Pripojte telefón a nositeľné zariadenie.
+%2$d. Otvorte aplikáciu Mi Fitness a prihláste sa."</string>
     <string name="wednesday">Streda</string>
     <string name="wednesday_short">Str</string>
     <string name="wednesday_shortest">Str</string>

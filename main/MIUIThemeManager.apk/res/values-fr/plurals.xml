@@ -44,6 +44,18 @@
         <item quantity="other">Pression atmosphérique : %s hectopascals</item>
         <item quantity="one">Pression atmosphérique : %s hectopascal</item>
     </plurals>
+    <plurals name="author_fans_number">
+        <item quantity="other">%d abonnés</item>
+        <item quantity="one">%d abonné</item>
+    </plurals>
+    <plurals name="author_popularity_quantity">
+        <item quantity="other">%d vues</item>
+        <item quantity="one">%d vue</item>
+    </plurals>
+    <plurals name="author_themes_number">
+        <item quantity="other">%d thèmes</item>
+        <item quantity="one">%d thème</item>
+    </plurals>
     <plurals name="confirm_delete_tasks">
         <item quantity="other">Supprimer %d tâches maintenant ?</item>
         <item quantity="one">Supprimer %d tâche maintenant ?</item>
@@ -128,6 +140,14 @@
         <item quantity="other">dans %d minutes</item>
         <item quantity="one">dans 1 minute</item>
     </plurals>
+    <plurals name="kg_history_count_selected">
+        <item quantity="other">%d éléments sélectionnés</item>
+        <item quantity="one">%d élément sélectionné</item>
+    </plurals>
+    <plurals name="kg_history_delete_tip_title">
+        <item quantity="other">Supprimer %d éléments maintenant ?</item>
+        <item quantity="one">Supprimer %d élément maintenant ?</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">"À l'instant"</item>
         <item quantity="one">"À l'instant"</item>
@@ -145,14 +165,18 @@
         <item quantity="one">Il y a 1 minute</item>
     </plurals>
     <plurals name="payment_coins_tips">
-        <item quantity="other">"%1$d pièces = %2$d Les pièces IDR
- ne sont pas remboursables"</item>
-        <item quantity="one">"%1$d pièce = %2$d Les pièces IDR
- ne sont pas remboursables"</item>
+        <item quantity="other">"%1$d pièces = %2$d IDR
+Pièces sont non remboursables"</item>
+        <item quantity="one">"%1$d pièce = %2$d IDR
+Pièces sont non remboursables"</item>
+    </plurals>
+    <plurals name="points_detail_retain_days_tips">
+        <item quantity="other">Only displaying details from the past %1$d days</item>
+        <item quantity="one">Only displaying details from the past %1$d day</item>
     </plurals>
     <plurals name="portfolio">
-        <item quantity="other">%d oeuvres</item>
-        <item quantity="one">%d oeuvre</item>
+        <item quantity="other">%d œuvres</item>
+        <item quantity="one">%d œuvre</item>
     </plurals>
     <plurals name="processing_is_expected_text">
         <item quantity="other">Votre demande sera traitée dans environ %1$d secondes.</item>
@@ -167,8 +191,8 @@
         <item quantity="one">Vos pièces seront déposées dans %d heure.</item>
     </plurals>
     <plurals name="purchase_refund_success_notice">
-        <item quantity="other">Votre remboursement a été traité. Vos pièces seront déposées dans%d heures.</item>
-        <item quantity="one">Votre remboursement a été traité. Vos pièces seront déposées dans%d heure.</item>
+        <item quantity="other">Votre remboursement a été traité. Vos pièces seront déposées dans %d heures.</item>
+        <item quantity="one">Votre remboursement a été traité. Vos pièces seront déposées dans %d heure.</item>
     </plurals>
     <plurals name="purchased_authorizing_dialog_content">
         <item quantity="other">"Cela peut prendre un moment. Si vous n'avez pas reçu les articles que vous avez achetés dans %d heures, soumettez des commentaires pour nous informer du problème."</item>
@@ -186,17 +210,45 @@
         <item quantity="other">Vous recevrez les pièces dans %d heures.</item>
         <item quantity="one">Vous recevrez les pièces dans %d heure.</item>
     </plurals>
+    <plurals name="redemption_consume_points">
+        <item quantity="other">Redeem this item for %1$d points?</item>
+        <item quantity="one">Redeem this item for %1$d point?</item>
+    </plurals>
+    <plurals name="redemption_current_own_points">
+        <item quantity="other">You currently have %1$d points.</item>
+        <item quantity="one">You currently have %1$d point.</item>
+    </plurals>
+    <plurals name="redemption_current_points_tips">
+        <item quantity="other">Current points: %1$d</item>
+        <item quantity="one">Current points: %1$d</item>
+    </plurals>
+    <plurals name="redemption_insufficient_points_tips">
+        <item quantity="other">Insufficient points. Current points: %1$d</item>
+        <item quantity="one">Insufficient points. Current points: %1$d</item>
+    </plurals>
     <plurals name="resource_font_download_notification_title_many">
-        <item quantity="other">%1$s de polices de caractères téléchargés avec succès</item>
-        <item quantity="one">%1$s de police de caractère téléchargé avec succès</item>
+        <item quantity="other">%1$s polices téléchargées avec succès</item>
+        <item quantity="one">%1$s police téléchargée avec succès</item>
     </plurals>
     <plurals name="resource_theme_download_notification_title_many">
-        <item quantity="other">%1$s de thèmes téléchargés avec succès</item>
-        <item quantity="one">%1$s de thème téléchargé avec succès</item>
+        <item quantity="other">%1$s thèmes téléchargés avec succès</item>
+        <item quantity="one">%1$s thème téléchargé avec succès</item>
+    </plurals>
+    <plurals name="reward_guaranteed_countdown_time_text">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="talkback_ringtone_time_one">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+    <plurals name="talkback_ringtone_time_two">
+        <item quantity="other">%1$d secondes</item>
+        <item quantity="one">%1$d seconde</item>
     </plurals>
     <plurals name="theme_designer_products_count">
-        <item quantity="other">%1$s marchent</item>
-        <item quantity="one">%1$s marche</item>
+        <item quantity="other">%1$s œuvres</item>
+        <item quantity="one">%1$s œuvre</item>
     </plurals>
     <plurals name="tiny_accessibility_battery_level">
         <item quantity="other">Le niveau de la batterie est désormais de %s pourcent</item>

@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Bagikan dengan</string>
     <string name="abc_shareactionprovider_share_with_application">Bagikan dengan %s</string>
     <string name="abc_toolbar_collapse_description">Ciutkan</string>
+    <string name="accessibility_sliding_button_state_description_off">Dimatikan</string>
+    <string name="accessibility_sliding_button_state_description_on">Dihidupkan</string>
+    <string name="accessibility_tab_state_description_unselect">Tidak ada yang dipilih</string>
     <string name="actionbar_button_up_description">Kembali</string>
     <string name="activity_title_ad">Iklan</string>
     <string name="activity_title_apk">Paket</string>
@@ -125,13 +128,11 @@
     <string name="auto_cleaner_open">Hidupkan</string>
     <string name="back">Kembali</string>
     <string name="be_figuring">Menghitung…</string>
-    <string name="btn_text_done">Selesai</string>
     <string name="btn_text_quick_cleanup">Bersihkan</string>
     <string name="btn_text_quick_cleanup_apk">Hapus APK terpilih %1$s</string>
     <string name="btn_text_quick_cleanup_appdata">Hapus data terpilih %1$s</string>
     <string name="btn_text_quick_cleanup_large_file">Hapus berkas terpilih %1$s</string>
     <string name="btn_text_quick_cleanup_video">Hapus video terpilih %1$s</string>
-    <string name="btn_text_quick_scan">Pindai</string>
     <string name="btn_text_stop">Hentikan</string>
     <string name="button_text_add_to_white_list">Pengecualian</string>
     <string name="button_text_backup_uninstall">Cadangkan dulu</string>
@@ -159,7 +160,6 @@
     <string name="button_text_unselect_pic">Batal pilih</string>
     <string name="button_text_view_detail">Rincian</string>
     <string name="button_text_view_file">Berkas</string>
-    <string name="buy_a_new_phone">Dapatkan ruang ekstra</string>
     <string name="buy_immediately">Beli</string>
     <string name="buy_traffic_pack">Beli data lagi</string>
     <string name="byteShort">B</string>
@@ -179,15 +179,15 @@
     <string name="cd_check_box_checked">dicentang</string>
     <string name="cd_check_box_middle">sebagian terpilih</string>
     <string name="cd_check_box_unchecked">belum dicentang</string>
-    <string name="cd_list_item_collapse">dibuat menjadi kecil</string>
-    <string name="cd_list_item_expanded">dibuka lebar</string>
+    <string name="cd_list_item_collapse">Dibuat menjadi kecil</string>
+    <string name="cd_list_item_expanded">Dibuka lebar</string>
     <string name="cd_percent">persen</string>
     <string name="cd_scanning">memindai</string>
     <string name="cd_settings">setelan</string>
     <string name="cd_sort_type">jenis urutan</string>
-    <string name="clean_master_icon_recall_button_text">Tambahkan</string>
+    <string name="clean_master_icon_recall_button_text">Tambah</string>
     <string name="clean_master_icon_recall_dialog_button_negative">Tidak</string>
-    <string name="clean_master_icon_recall_dialog_button_positive">Tambahkan</string>
+    <string name="clean_master_icon_recall_dialog_button_positive">Tambah</string>
     <string name="clean_master_icon_recall_dialog_summary">Buat pintasan di Layar utama untuk membersihkan sampah kapan saja.</string>
     <string name="clean_master_icon_recall_dialog_title">Membersihkan sampah lebih cepat</string>
     <string name="clean_master_icon_recall_hint">Tambah pintasan Layar utama</string>
@@ -226,7 +226,6 @@
     <string name="common_signin_button_text">Login</string>
     <string name="common_signin_button_text_long">Login dengan Google</string>
     <string name="confirm_auto_cleaner">Oke</string>
-    <string name="conn_of_function_safe">Koneksi jaringan untuk Keamanan</string>
     <string name="connecting">Menghubungkan…</string>
     <string name="copy">Salin</string>
     <string name="copy_toast_msg">Link disalin ke papan klip</string>
@@ -256,7 +255,9 @@
     <string name="dc_storage_info_new">%1$s tersedia</string>
     <string name="deep_clean_completed_tips">Berhasil dibersihkan</string>
     <string name="deep_clean_data_path_clean_title">Hapus cache</string>
+    <string name="deep_clean_down">Urutan menurun</string>
     <string name="deep_clean_uninstall_completed_tips">Berhasil uninstal</string>
+    <string name="deep_clean_up">Urutan meningkat</string>
     <string name="deepclean_1_k_clean">Bersihkan memori</string>
     <string name="deepclean_apk_content">Hapus APK atau apl yang tak berguna</string>
     <string name="deepclean_apk_group_hint_checked">Pilih semua</string>
@@ -292,6 +293,7 @@
     <string name="deepclean_video_content">Hapus video yang telah dilihat atau tak berguna</string>
     <string name="deepclean_video_summary_empty">Semuanya dalam kondisi baik</string>
     <string name="default_cache_type">Berkas data</string>
+    <string name="delete">Hapus</string>
     <string name="delete_confirm">Hapus</string>
     <string name="delete_confirm_msg">Hapus berkas terpilih secara permanen?</string>
     <string name="desc_image">gambar</string>
@@ -303,8 +305,14 @@
     <string name="dialog_msg_esc_cleanmaster">Berhenti memindai dan keluar dari Pembersih?</string>
     <string name="dialog_msg_load_cleanup_engine_error">Mesin pembersih rusak.</string>
     <string name="dialog_msg_stop_scan">Hentikan pemindaian sekarang?</string>
+    <string name="dialog_msg_uninstall_app_os3">Menguninstal apl akan menghapus semua datanya.</string>
     <string name="dialog_msg_uninstall_apps">Uninstal apl ini?</string>
+    <string name="dialog_msg_uninstall_apps_comfirm">Saya mengerti bahwa data apl yang telah dihapus tidak dapat dipulihkan</string>
+    <string name="dialog_msg_uninstall_apps_os3">Uninstal akan menghapus semua data apl.</string>
+    <string name="dialog_msg_uninstall_apps_toast">Saya memahami bahwa data apl yang telah dihapus tidak dapat dipulihkan</string>
     <string name="dialog_msg_uninstall_apps_xspace">Uninstal apl-apl ini termasuk apl Ganda-nya?</string>
+    <string name="dialog_msg_uninstall_apps_xspace_os3">Aplikasi yang digandakan akan diuninstal bersama yang satu ini.</string>
+    <string name="dialog_msg_uninstall_apps_xspace_os3_multiple">Apl ganda yang terkait akan diuninstal bersama dengan data apl.</string>
     <string name="dialog_ok_add_white_list_error">Mengerti</string>
     <string name="dialog_title_add_white_list_error">Perhatian</string>
     <string name="dialog_title_backup_and_uninstall_apps">Cadang dan uninstal</string>
@@ -416,9 +424,8 @@
     <string name="friday_short">Jum</string>
     <string name="friday_shortest">Jum</string>
     <string name="function_app_lock_title">%d apl mengandung risiko privasi</string>
-    <string name="garbage_clean_detail">Rincian</string>
-    <string name="garbage_month">Bulan ini dibersihkan %s</string>
     <string name="gigabyteShort">GB</string>
+    <string name="global_summary_wa_setting">Terima notifikasi saat sampah WhatsApp melebihi ukuran yang dipilih</string>
     <string name="global_wa_audio">Audio</string>
     <string name="global_wa_audio_item_title">Pesan suara</string>
     <string name="global_wa_backend_alert_dialog_content">Bebaskan ruang dengan membersihkan item WhatsApp</string>
@@ -471,7 +478,6 @@
     <string name="global_wa_shortcut_toast">Pintasan Layar utama berhasil dibuat</string>
     <string name="global_wa_wrapper">Wallpaper</string>
     <string name="go_to">Lanjutkan</string>
-    <string name="golbal_wa_backend_alert_dialog_btn">Buka</string>
     <string name="goto_set">Setel</string>
     <string name="grabage_rank_title">Dibersihkan hari ini</string>
     <string name="guide_dc_dialog_message_new">Kurang dari %d GB penyimpanan yang tersisa. Hal ini dapat memperlambat perangkat Anda. Lakukan pembersihan menyeluruh untuk membebaskan ruang.</string>
@@ -540,7 +546,6 @@
     <string name="hints_title_garbage">Sampah</string>
     <string name="hints_video_camera">Video terekam</string>
     <string name="hints_video_download">Video terunduh</string>
-    <string name="hot">Populer</string>
     <string name="hot_today">Populer hari ini</string>
     <string name="information_setting">Rekomendasi</string>
     <string name="install_sucess">%s berhasil diinstal</string>
@@ -572,7 +577,6 @@
     <string name="mainbtn_text_quick_cleanup">Bersihkan %s</string>
     <string name="mainbtn_text_quick_cleanup_default">Bersihkan</string>
     <string name="megabyteShort">MB</string>
-    <string name="memeory_check_content">%1$d apl, memori %2$s</string>
     <string name="memory_clean_icon_text">Peningkat kecepatan</string>
     <string name="memory_clean_no_trash_tip">Semuanya terlihat baik</string>
     <string name="menu_add_to_white_list">Tambah ke pengecualian</string>
@@ -583,9 +587,16 @@
     <string name="menu_view">Lihat di folder</string>
     <string name="midnight">Malam</string>
     <string name="miuix_access_state_desc">Terpilih</string>
+    <string name="miuix_accessibility_title">Judul</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Dibuat menjadi kecil</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Dibuka lebar</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Keluar dari mode penyuntingan</string>
+    <string name="miuix_appcompat_accessibility_new_message">Notifikasi baru</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Masuk ke mode pengeditan</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Batal pilih</string>
     <string name="miuix_appcompat_action_mode_select_all">Pilih semua</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pilih item</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Pilih</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Lainnya</string>
     <string name="miuix_appcompat_cancel_description">Batal</string>
     <string name="miuix_appcompat_confirm_description">Konfirmasi</string>
@@ -598,6 +609,8 @@
     <string name="miuix_appcompat_select_all">Pilih semua</string>
     <string name="miuix_appcompat_select_all_description">Pilih semua</string>
     <string name="miuix_appcompat_select_item">Pilih item</string>
+    <string name="miuix_appcompat_show_dialog_description">Jendela pop-up</string>
+    <string name="miuix_progressbar_loading">Memuat</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tarik ke bawah untuk segarkan</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Berhasil disegarkan</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Menyegarkan…</string>
@@ -606,6 +619,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Tidak ada yang lainnya lagi.</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Tunggu sebentar…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Tidak dapat memuat item</string>
+    <string name="miuix_show_password">Tampilkan kata sandi</string>
+    <string name="miuix_stretchablewidget_collapsed">Dibuat menjadi kecil</string>
+    <string name="miuix_stretchablewidget_expanded">Dibuka lebar</string>
     <string name="monday">Senin</string>
     <string name="monday_short">Sen</string>
     <string name="monday_shortest">Sen</string>
@@ -661,6 +677,7 @@
     <string name="native_media_view">Tampilan Media</string>
     <string name="nb_clear_set">Hapus cache, lihat info baterai dan daftar blokir di Layar notifikasi</string>
     <string name="network_not_available">Tidak dapat terhubung ke jaringan</string>
+    <string name="never_remind">Jangan pernah</string>
     <string name="news_change">Ganti</string>
     <string name="night">Malam</string>
     <string name="no_network">Tidak dapat terhubung ke jaringan, coba lagi nanti</string>
@@ -748,6 +765,7 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="open_app">Buka</string>
     <string name="open_browser">Buka di browser</string>
     <string name="open_file_error">Tidak menemukan apl untuk membuka berkas ini</string>
+    <string name="out">Lebih dari %s</string>
     <string name="output_videos">Ekspor video</string>
     <string name="permission_dialog_storage_btn1">Setelan</string>
     <string name="permission_dialog_storage_btn2">Batal</string>
@@ -766,8 +784,8 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="powerful_acceleration_notification_summary">Ketuk untuk bebaskan ruang</string>
     <string name="powerful_acceleration_notification_title">Defragmentasi selesai</string>
     <string name="powerful_acceleration_tip">Penyimpanan internal mengalami fragmentasi, yang dapat memperlambat perangkat Anda secara signifikan. Defragmentasi secara fisik mengatur berkas Anda ke dalam jumlah fragmen terkecil yang akan mengurangi jeda.</string>
-    <string name="powerful_acceleration_tip_high"><Data>Penyimpanan Anda &lt;font color=#ff0000 >sangat&lt;/font> terfragmentasi. Defragmentasi dapat menyelesaikan masalah tersebut.</Data></string>
-    <string name="powerful_acceleration_tip_middle"><Data>Penyimpanan Anda &lt;font color=#ff0000 >sedikit&lt;/font> terfragmentasi. Defragmentasi dapat menyelesaikan masalah tersebut.</Data></string>
+    <string name="powerful_acceleration_tip_high">&lt;Data>Penyimpanan Anda &lt;font color=#ff0000 >sangat&lt;/font> terfragmentasi. Defragmentasi dapat menyelesaikan masalah tersebut.&lt;/Data></string>
+    <string name="powerful_acceleration_tip_middle">&lt;Data>Penyimpanan Anda &lt;font color=#ff0000 >sedikit&lt;/font> terfragmentasi. Defragmentasi dapat menyelesaikan masalah tersebut.&lt;/Data></string>
     <string name="powerful_acceleration_toast">Defragmentasi akan dilakukan saat Anda tidak menggunakan perangkat</string>
     <string name="pref_about_privacy_title">Kebijakan Privasi</string>
     <string name="pref_category_title_auto_clean_settings">Pengingat untuk bersihkan</string>
@@ -775,10 +793,12 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="pref_category_title_cleanup_white_list">Pengecualian</string>
     <string name="pref_category_title_engine_settings">Setelan definisi pindai</string>
     <string name="pref_category_title_garbage_cleanup_check">Notifikasi</string>
+    <string name="pref_category_title_notification_settings">Notifikasi</string>
     <string name="pref_category_title_other_clean_settings">Setelan tambahan</string>
     <string name="pref_content_cleanup_white_list_none">Tak ada</string>
     <string name="pref_summary_auto_clean_and_alert">Jadwalkan pembersih untuk otomatis bekerja</string>
     <string name="pref_summary_auto_update_cleanup_db">Pembaruan terakhir: %s</string>
+    <string name="pref_summary_clean_settings">Terima notifikasi saat sampah melebihi ukuran yang dipilih</string>
     <string name="pref_summary_cleanup_white_list">Mencegah berkas terpilih dari proses pembersihan</string>
     <string name="pref_summary_expand_cache_group">Otomatis tampilkan rincian cache</string>
     <string name="pref_summary_garbage_auto_clean_content">Pilih item untuk dibersihkan secara otomatis</string>
@@ -786,6 +806,8 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="pref_summary_garbage_cleanup_check_time">Jadwal rutin pembersihan</string>
     <string name="pref_summary_garbage_process_mode">Tampil notifikasi saat pembersih berjalan</string>
     <string name="pref_summary_open_optimizer_cloud_scan">Unggah dan bandingkan nama berkas yang tak dikenal dengan definisi online</string>
+    <string name="pref_summary_reminder_interval">Hanya menerima satu notifikasi dalam waktu yang dipilih</string>
+    <string name="pref_summary_wechat_clean_settings">Terima notifikasi saat sampah WeChat melebihi ukuran yang dipilih</string>
     <string name="pref_title_apps_cleanup_size">Saat ukuran cache mencapai</string>
     <string name="pref_title_auto_clean_content_choose">Pilih item untuk dibersihkan</string>
     <string name="pref_title_auto_update_cleanup_db">Pembaruan otomatis</string>
@@ -793,6 +815,7 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="pref_title_clean_alert">Pengingat untuk bersihkan</string>
     <string name="pref_title_cleanup_white_list">Pengecualian</string>
     <string name="pref_title_create_onekeyclean_shortcut">Tampilkan pintasan Layar utama</string>
+    <string name="pref_title_engine">Definisi pemindaian</string>
     <string name="pref_title_expand_cache_group">Tampilkan item cache</string>
     <string name="pref_title_garbage_cleanup_check_size">Batas jumlah sampah</string>
     <string name="pref_title_garbage_cleanup_check_time">Jadwal</string>
@@ -813,21 +836,13 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="qq_clean">Pembersih QQ</string>
     <string name="qq_clean_exit_confirm_msg">Berhenti memindai dan keluar sekarang?</string>
     <string name="qq_clean_finish_summary">Berkas terpilih terhapus</string>
-    <string name="qq_data_type_cache">Cache QQ</string>
-    <string name="qq_data_type_cache_desc">Anda dapat memulihkan berkas-berkas ini setelah terhubung ke internet.</string>
-    <string name="qq_data_type_chat">Riwayat percakapan</string>
-    <string name="qq_data_type_chat_desc">Anda tidak bisa memulihkan riwayat percakapan.</string>
-    <string name="qq_data_type_normal">Sampah</string>
-    <string name="qq_data_type_normal_clean_tips">Berkas-berkas ini bersifat teknis. Penghapusan ini tidak akan mempengaruhi penggunaan Anda.</string>
-    <string name="qq_data_type_normal_desc">Penghapusan ini tidak akan mempengaruhi penggunaan Anda.</string>
-    <string name="qq_data_type_other">Lainnya</string>
-    <string name="qq_data_type_other_desc">Hati-hati, Anda mungkin tidak dapat memulihkan kembali berkas-berkas ini setelah dihapus.</string>
     <string name="recommend_news">Terima rekomendasi</string>
     <string name="recommend_the_following">Ambil tindakan berikut untuk mendapatkan hasil maksimal dari perangkat Anda</string>
     <string name="recommended">Pilihan</string>
-    <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> berkas lagi dapat dihapus. Bebaskan ruang yang lebih banyak.</Data></string>
-    <string name="resutl_function_qq_clean_summary"><Data>Anda dapat menghapus &lt;font color=#ff0000 >%1$s&lt;/font> QQ cache</Data></string>
-    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> cache WeChat. Bebaskan ruang yang lebih banyak.</Data></string>
+    <string name="reminder_interval">Interval pengingat</string>
+    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> berkas lagi dapat dihapus. Bebaskan ruang yang lebih banyak.&lt;/Data></string>
+    <string name="resutl_function_qq_clean_summary">&lt;Data>Anda dapat menghapus &lt;font color=#ff0000 >%1$s&lt;/font> QQ cache&lt;/Data></string>
+    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> cache WeChat. Bebaskan ruang yang lebih banyak.&lt;/Data></string>
     <string name="s1">Simpan gambar</string>
     <string name="s2">Izinkan Iklan menyimpan gambar di Galeri foto?</string>
     <string name="s3">Terima</string>
@@ -865,7 +880,6 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="start_install">Instal sekarang</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
-    <string name="summary_delete_apk">Hapus Paket Aplikasi (APK) secara permanen?</string>
     <string name="summary_delete_cache">Hapus cache apl terpilih?</string>
     <string name="summary_delete_large_file">Hapus berkas secara permanen?</string>
     <string name="summary_delete_video">Hapus video terpilih secara permanen?</string>
@@ -1106,6 +1120,7 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="tuesday">Selasa</string>
     <string name="tuesday_short">Sel</string>
     <string name="tuesday_shortest">Sel</string>
+    <string name="uninstall_one">Uninstal %s</string>
     <string name="unit_gb">%s GB</string>
     <string name="unit_mb">%s MB</string>
     <string name="unlike">Tidak, terimakasih</string>
@@ -1189,6 +1204,5 @@ Kami akan membagikan lebih banyak informasi setelah Anda kembali online."</strin
     <string name="wqfile_group_chat_pic">Gambar dari percakapan</string>
     <string name="wqfile_group_chat_video">Video dari percakapan</string>
     <string name="wqfile_group_chat_voice">Pesan suara</string>
-    <string name="year_month_day_format">d MMM yyyy</string>
-    <string name="yesterday">Kemarin</string>
+    <string name="year_month_day_format">dd MMM yyyy</string>
 </resources>

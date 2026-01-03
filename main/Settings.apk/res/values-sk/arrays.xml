@@ -313,18 +313,20 @@
         <item>Najlepší výsledok (Autom. bitová rýchlosť)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Použiť voľbu systému (predvolené)</item>
-        <item>44,1 kHz</item>
-        <item>48,0 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96,0 kHz</item>
+        <item>Použiť systémové nastavenia (Predvolené)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+        <item>192,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Použiť voľbu systému (predvolené)</item>
-        <item>44,1 kHz</item>
-        <item>48,0 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96,0 kHz</item>
+        <item>Použiť systémové nastavenia (Predvolené)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+        <item>192,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Použiť systémové nastavenia (Predvolené)</item>
@@ -557,7 +559,7 @@
     </string-array>
     <string-array name="dark_ui_mode_entries">
         <item>Tmavé</item>
-        <item>Svetlé</item>
+        <item>Svetlý</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>"Dnes (mobilné dáta) "</item>
@@ -582,6 +584,7 @@
         <item>Zobraziť oblasti prekreslení</item>
         <item>Zobraziť oblasti pre deuteranomáliu</item>
     </string-array>
+    <array name="display_over_apps_permission_change_exempt" />
     <string-array name="eap_ocsp_type">
         <item>Neoverovať</item>
         <item>Požiadať o stav certifikátu</item>
@@ -756,9 +759,9 @@
         <item>Neobmedzené</item>
     </string-array>
     <string-array name="media_feedback_level_entries">
-        <item>Silné</item>
-        <item>Stredné</item>
-        <item>Slabé</item>
+        <item>Silná</item>
+        <item>Stredná</item>
+        <item>Slabá</item>
     </string-array>
     <string-array name="mi1_led_color_entries">
         <item>Modrá</item>
@@ -1105,10 +1108,37 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Štandard</item>
         <item>Chladné farby</item>
     </string-array>
+    <string-array name="screen_flash_color_entries">
+        <item>@string/screen_flash_color_none</item>
+        <item>@string/screen_flash_color_blue</item>
+        <item>@string/screen_flash_color_green</item>
+        <item>@string/screen_flash_color_yellow</item>
+        <item>@string/screen_flash_color_orange</item>
+        <item>@string/screen_flash_color_red</item>
+        <item>@string/screen_flash_color_violet</item>
+    </string-array>
+    <array name="screen_flash_color_icons">
+        <item>@drawable/screen_flash_color_none</item>
+        <item>@drawable/screen_flash_color_blue</item>
+        <item>@drawable/screen_flash_color_green</item>
+        <item>@drawable/screen_flash_color_yellow</item>
+        <item>@drawable/screen_flash_color_orange</item>
+        <item>@drawable/screen_flash_color_red</item>
+        <item>@drawable/screen_flash_color_violet</item>
+    </array>
+    <string-array name="screen_flash_color_values">
+        <item>0</item>
+        <item>4D0000FE</item>
+        <item>6600FF01</item>
+        <item>66FFFF00</item>
+        <item>66FF7F00</item>
+        <item>66FE0000</item>
+        <item>667F00FF</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0,5 sekundy</item>
         <item>1 sekunda</item>
-        <item>1.5 sekundy</item>
+        <item>1,5 sekundy</item>
         <item>2 sekundy</item>
     </string-array>
     <string-array name="screen_key_position_action">
@@ -1124,10 +1154,18 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Vždy vylepšiť farby</item>
         <item>Zachovať kontrast</item>
     </string-array>
+    <string-array name="screen_optimize_summary_new">
+        <item>Vylepšené farby pre živšie zobrazenie</item>
+        <item>Obnova štandardných farieb obrazovky</item>
+    </string-array>
     <string-array name="screen_optimize_title">
         <item>Živé (odporúčané)</item>
         <item>Sýte</item>
         <item>Štandard</item>
+    </string-array>
+    <string-array name="screen_optimize_title_new">
+        <item>Živé (odporúčané)</item>
+        <item>Štandardné</item>
     </string-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
@@ -1163,7 +1201,7 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Vždy povoliť</item>
     </string-array>
     <string-array name="select_gpo_version_summaries">
-        <item>Off</item>
+        <item>Vyp.</item>
         <item>GPO4</item>
         <item>GPO5</item>
         <item>GPO6</item>
@@ -1207,6 +1245,24 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Všetko</item>
         <item>Okrem rádia</item>
         <item>iba jadro</item>
+    </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Iba obrazovka zariadenia (predvolené)</item>
+        <item>Externá obrazovka</item>
+        <item>Posledné klepnutie na stavový riadok</item>
+        <item>Na základe označenia</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Zobraziť panel iba na obrazovke zariadenia</item>
+        <item>Zobraziť panel na jednej externej obrazovke</item>
+        <item>Zobraziť panel na obrazovke, na ktorej došlo naposledy k interakcii so stavovým riadkom</item>
+        <item>Zobraziť panel na poslednej označenej obrazovke</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>default_display</item>
+        <item>any_external_display</item>
+        <item>status_bar_latest_touch</item>
+        <item>focused_display</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Vypnuté</item>
@@ -1265,12 +1321,6 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
     <string-array name="tabs_taptic_detail_m2">
         <item>Silná</item>
         <item>Jemná</item>
-    </string-array>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Nabíjanie</item>
-        <item>Zdriemnutie</item>
-        <item>Úsporný režim</item>
-        <item>Stav procesov</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1335,10 +1385,18 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Vždy vylepšiť farby</item>
         <item>Obnoviť štandardnú farbu obsahu obrazovky s kalibráciou farieb</item>
     </string-array>
+    <string-array name="true_color_screen_optimize_summary_new">
+        <item>Vylepšené farby pre živšie zobrazenie</item>
+        <item>Obnoviť štandardnú farbu obsahu obrazovky s kalibráciou farieb</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Živé (odporúčané)</item>
         <item>Sýte</item>
         <item>Pôvodná farba</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title_new">
+        <item>Živé (odporúčané)</item>
+        <item>Originál</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>60 %</item>
@@ -1352,8 +1410,8 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>400 %</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
-        <item>Veľmi pomaly</item>
-        <item>Pomalá</item>
+        <item>Veľmi pomalé</item>
+        <item>Pomalé</item>
         <item>Normálne</item>
         <item>Rýchla</item>
         <item>Rýchlejšie</item>
@@ -1415,7 +1473,7 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
     <string-array name="whetstone_level_entries">
         <item>Vypnuté</item>
         <item>Nízka</item>
-        <item>Stredné</item>
+        <item>Stredná</item>
         <item>Vysoká</item>
     </string-array>
     <string-array name="wide_notch_battery_indicator_style_entries">
@@ -1450,8 +1508,8 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Vždy sa pýtať</item>
     </string-array>
     <string-array name="wifi_dhcp_entries">
-        <item>Odoslať názov zariadenia sieti</item>
-        <item>Neodoslať názov zariadenia sieti</item>
+        <item>Odosielať názov zariadenia sieti</item>
+        <item>Neodosielať názov zariadenia sieti</item>
     </string-array>
     <string-array name="wifi_hidden_entries">
         <item>Nie</item>
@@ -1574,5 +1632,47 @@ Poznámka: Iba pre Ubuntu 8.04!"</item>
         <item>Mierka animácie 2x</item>
         <item>Mierka animácie 5x</item>
         <item>Mierka animácie 10x</item>
+    </string-array>
+    <string-array name="zen_mode_icon_options_descriptions">
+        <item>Kufrík</item>
+        <item>Klasická budova</item>
+        <item>Bytový dom</item>
+        <item>Rečová bublina</item>
+        <item>Skupina ľudí</item>
+        <item>Žiarovka</item>
+        <item>Kalendár</item>
+        <item>Režim bez vyrušení</item>
+        <item>Bežiaca osoba</item>
+        <item>Golf</item>
+        <item>Činka</item>
+        <item>Plávanie</item>
+        <item>Osoba na túre</item>
+        <item>Osoba, ktorá hádže loptu</item>
+        <item>Osoba, ktorá kope</item>
+        <item>Herný ovládač</item>
+        <item>Maliarova paleta farieb</item>
+        <item>Snehová vločka</item>
+        <item>Plážový slnečník</item>
+        <item>Nástroje v dielni</item>
+        <item>Klavír</item>
+        <item>Filmový pásik</item>
+        <item>Kniha</item>
+        <item>Lotosový kvet</item>
+        <item>Ľudská myseľ</item>
+        <item>Slúchadlá</item>
+        <item>Televízor</item>
+        <item>Vlak</item>
+        <item>Auto</item>
+        <item>Vidlička a nôž</item>
+        <item>Nákupný košík</item>
+        <item>Dieťa</item>
+        <item>Zvieracia labka</item>
+        <item>Odznak hviezdičky</item>
+        <item>Dvaja ľudia</item>
+        <item>Hviezda</item>
+        <item>Srdce</item>
+        <item>Dom</item>
+        <item>Polmesiac</item>
+        <item>Hodiny</item>
     </string-array>
 </resources>

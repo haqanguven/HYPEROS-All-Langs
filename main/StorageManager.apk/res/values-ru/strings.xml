@@ -167,6 +167,16 @@
     <string name="bluetooth_disconnecting">Отключение...</string>
     <string name="bluetooth_enable_gabeldorsche">Включить Gabeldorsche</string>
     <string name="bluetooth_enable_gabeldorsche_summary">Включить стек Bluetooth Gabeldorsche</string>
+    <string name="bluetooth_guest_battery_level">Гостевое устройство. Заряд батареи: %1$s.</string>
+    <string name="bluetooth_guest_battery_level_lea_support">Гостевое устройство (поддерживает передачу аудио). Заряд батареи: %1$s.</string>
+    <string name="bluetooth_guest_battery_level_untethered">Гостевое устройство. Заряд батареи: %1$s (Л), %2$s (П).</string>
+    <string name="bluetooth_guest_battery_level_untethered_lea_support">Гостевое устройство (поддерживает передачу аудио). Заряд батареи: %1$s (Л), %2$s (П).</string>
+    <string name="bluetooth_guest_media_only_battery_level">Гостевое устройство (только медиафайлы). Заряд батареи: %1$s.</string>
+    <string name="bluetooth_guest_media_only_battery_level_untethered">Гостевое устройство (только медиафайлы). Заряд батареи: %1$s (Л), %2$s (П).</string>
+    <string name="bluetooth_guest_media_only_no_battery_level">Гостевое устройство (только медиафайлы)</string>
+    <string name="bluetooth_guest_no_battery_level">Гостевое устройство</string>
+    <string name="bluetooth_guest_no_battery_level_lea_support">Гостевое устройство (поддерживает передачу аудио)</string>
+    <string name="bluetooth_guest_saved_device_lea_support">Гостевое устройство. Поддерживает передачу аудио.</string>
     <string name="bluetooth_headset_profile_summary_connected">Подключено к аудиоустройству телефона</string>
     <string name="bluetooth_headset_profile_summary_use_for">Использовать для аудиоустройства телефона</string>
     <string name="bluetooth_hearing_aid_left_active">Используется (только левый)</string>
@@ -177,8 +187,10 @@
     <string name="bluetooth_hearing_aid_profile_summary_connected">Слуховой аппарат подключен</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Использовать для слухового аппарата</string>
     <string name="bluetooth_hearing_aid_right_active">Используется (только правый)</string>
+    <string name="bluetooth_hearing_device_ambient_error">Не удалось отрегулировать окружающие звуки.</string>
     <string name="bluetooth_hid_profile_summary_connected">Подключено к устройству ввода</string>
     <string name="bluetooth_hid_profile_summary_use_for">Использовать для ввода</string>
+    <string name="bluetooth_key_missing_subtext">Ошибка подключения</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Подключено к LE Audio</string>
     <string name="bluetooth_le_audio_profile_summary_use_for">Использовать для LE_AUDIO</string>
     <string name="bluetooth_map_profile_summary_connected">Доступ к сообщениям</string>
@@ -199,12 +211,12 @@
     <string name="bluetooth_pan_nap_profile_summary_connected">Устройство работает в режиме модема</string>
     <string name="bluetooth_pan_profile_summary_use_for">Использовать для доступа к Интернету</string>
     <string name="bluetooth_pan_user_profile_summary_connected">Используется подключение другого устройства</string>
-    <string name="bluetooth_profile_a2dp">Профиль A2DP</string>
+    <string name="bluetooth_profile_a2dp">Аудио мультимедиа</string>
     <string name="bluetooth_profile_a2dp_high_quality">HD Audio: %1$s</string>
     <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">HD Audio</string>
     <string name="bluetooth_profile_headset">Звонки</string>
     <string name="bluetooth_profile_hearing_aid">Слуховые аппараты</string>
-    <string name="bluetooth_profile_hid">Профиль HID</string>
+    <string name="bluetooth_profile_hid">Устройство ввода</string>
     <string name="bluetooth_profile_le_audio">LE Audio</string>
     <string name="bluetooth_profile_map">Текстовые сообщения</string>
     <string name="bluetooth_profile_opp">Профиль OPP</string>
@@ -363,12 +375,14 @@
     <string name="development_settings_summary">Настройка параметров для разработчиков</string>
     <string name="development_settings_title">Для разработчиков</string>
     <string name="direct_boot_unaware_dialog_message">Примечание. Чтобы запустить это приложение после перезагрузки, разблокируйте экран.</string>
+    <string name="disable_linux_terminal_disclaimer">Если отключить эту функцию, данные терминала Linux будут удалены</string>
     <string name="disable_overlays">Откл. аппарат. наложения</string>
     <string name="disable_overlays_summary">Всегда использовать GPU при компоновке экрана</string>
     <string name="disabled">Отключено</string>
     <string name="disabled_by_admin">Отключено администратором</string>
     <string name="disabled_by_admin_summary_text">Контролируется администратором</string>
     <string name="disabled_by_app_ops_text">Контролируется настройками с ограниченным доступом</string>
+    <string name="disabled_in_phone_call_text">Недоступно во время вызовов</string>
     <string name="done">Готово</string>
     <string name="edit_user_info_message">Выбранные вами имя пользователя и фото профиля будут видны всем, кто использует это устройство.</string>
     <string name="empty_state_review_items_link">Просмотреть последние объекты</string>
@@ -379,16 +393,20 @@
     <string name="enable_adb_wireless">Отладка по Wi-Fi</string>
     <string name="enable_adb_wireless_summary">Режим отладки при подключении по Wi‑Fi</string>
     <string name="enable_freeform_support">Разрешить создание окон произвольной формы</string>
-    <string name="enable_freeform_support_summary">Включить экспериментальную функцию создания окон произвольной формы</string>
     <string name="enable_gpu_debug_layers">Отладка графического процессора</string>
     <string name="enable_gpu_debug_layers_summary">Включить загрузку слоев отладки графического процессора</string>
+    <string name="enable_linux_terminal_summary">Запустить терминал Linux в Android (экспериментальная функция)</string>
+    <string name="enable_linux_terminal_title">Среда разработки Linux</string>
     <string name="enable_opengl_traces_title">Вкл. трассировку OpenGL</string>
     <string name="enable_terminal_summary">Разрешить терминальный доступ к локальной оболочке</string>
     <string name="enable_terminal_title">Локальный терминальный доступ</string>
     <string name="enable_verbose_vendor_logging">Подробный журнал поставщика</string>
+    <string name="enable_verbose_vendor_logging_checkbox">Отключить через день</string>
     <string name="enable_verbose_vendor_logging_summary">Включать в информацию об ошибках дополнительные записи поставщика об устройстве, которые могут содержать личные данные и занимать больше места. Также это может увеличить расход заряда батареи.</string>
+    <string name="enabled">Включено</string>
     <string name="enabled_by_admin">Включено администратором</string>
     <string name="enhanced_connectivity_summary">Включить улучшенный обмен данными</string>
+    <string name="error_a11y_label">Ошибка: недопустимое значение</string>
     <string name="error_icon_content_description">Ошибка</string>
     <string name="expand_button_title">Дополнительно</string>
     <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
@@ -466,6 +484,7 @@
     <string name="local_backup_password_toast_confirmation_mismatch">Пароли не совпадают</string>
     <string name="local_backup_password_toast_success">Новый пароль для резервной копии установлен</string>
     <string name="local_backup_password_toast_validation_failure">Не удалось установить пароль для резервной копии</string>
+    <string name="m3_loading_indicator_content_description">Загрузка</string>
     <string name="managed_user_title">Корпоративные приложения</string>
     <string name="masculine">Мужской</string>
     <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
@@ -474,6 +493,9 @@
     <string name="material_hour_suffix">%1$s ч.</string>
     <string name="material_minute_selection">Выберите минуты</string>
     <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_slider_range_end">Конец диапазона</string>
+    <string name="material_slider_range_start">Начало диапазона</string>
+    <string name="material_slider_value">Значение</string>
     <string name="material_timepicker_am">AM</string>
     <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
     <string name="material_timepicker_hour">Час</string>
@@ -489,20 +511,33 @@
     <string name="media_output_status_try_after_ad">Повторите попытку после просмотра объявления</string>
     <string name="media_output_status_unauthorized">Для воспроизведения необходима авторизация.</string>
     <string name="media_output_status_unknown_error">Невозможно воспроизвести на этом устройстве.</string>
+    <string name="media_transfer_analog_line_name">Аналоговый выход</string>
+    <string name="media_transfer_aux_line_name">AUX</string>
+    <string name="media_transfer_bt_device_mic_name">Bluetooth-микрофон</string>
     <string name="media_transfer_default_device_name">Подключенное устройство</string>
+    <string name="media_transfer_digital_line_name">S/PDIF</string>
     <string name="media_transfer_dock_speaker_device_name">Колонка с док-станцией</string>
     <string name="media_transfer_external_device_name">Внешнее устройство</string>
+    <string name="media_transfer_headphone_name">Проводное аудиоустройство</string>
     <string name="media_transfer_this_device_name">Этот смартфон</string>
+    <string name="media_transfer_this_device_name_desktop">Встроенное</string>
     <string name="media_transfer_this_device_name_tablet">Этот планшет</string>
+    <string name="media_transfer_this_device_name_tv">Этот телевизор</string>
     <string name="media_transfer_this_phone">Этот смартфон</string>
+    <string name="media_transfer_usb_audio_name">USB-аудиоустройство</string>
+    <string name="media_transfer_usb_device_mic_name">USB-микрофон</string>
+    <string name="media_transfer_wired_device_mic_name">Проводной микрофон</string>
     <string name="media_transfer_wired_device_name">Проводное аудиоустройство</string>
-    <string name="media_transfer_wired_usb_device_name">Проводные наушники</string>
+    <string name="media_transfer_wired_headphone_name">Проводные наушники</string>
     <string name="mobile_data_always_on">Не отключать мобильный интернет</string>
     <string name="mobile_data_always_on_summary">Не отключать передачу данных по мобильной сети даже при активном Wi-Fi-подключении (для быстрого переключения между сетями)</string>
     <string name="mock_location_app">Выбрать приложение для фиктивных местоположений</string>
     <string name="mock_location_app_not_set">Нет приложения для фиктивных местоположений</string>
     <string name="mock_location_app_set">Приложение для создания фиктивных местоположений: %1$s</string>
     <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_checkbox_state_description_checked">Флажок установлен.</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Флажки установлены частично.</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Флажок не установлен.</string>
     <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Новых уведомлений больше %1$d</string>
     <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
@@ -515,7 +550,7 @@
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Выберите дату</string>
     <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
-    <string name="mtrl_picker_day_of_week_column_header">Столбец со днями недели: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
     <string name="mtrl_picker_end_date_description">Дата окончания: %1$s</string>
     <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
     <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
@@ -525,7 +560,7 @@
     <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$d году</string>
     <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
-    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Дата окончания</string>
     <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
     <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
     <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
@@ -542,6 +577,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к Календарю</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
     <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы выбрать год</string>
+    <string name="mtrl_picker_toggled_to_day_selection">Вы перешли к Календарю</string>
+    <string name="mtrl_picker_toggled_to_year_selection">Вы перешли к выбору года</string>
     <string name="mtrl_timepicker_cancel">Отмена</string>
     <string name="mtrl_timepicker_confirm">ОК</string>
     <string name="neuter">Средний</string>
@@ -551,7 +588,7 @@
     <string name="not_grant_admin">Не предоставлять права администратора</string>
     <string name="not_set">Не указано</string>
     <string name="not_specified">Не указан</string>
-    <string name="oem_unlock_enable">Заводская разблокировка</string>
+    <string name="oem_unlock_enable">Разблокировка загрузчика</string>
     <string name="oem_unlock_enable_summary">Разрешить разблокировку загрузчика ОС</string>
     <string name="okay">ОК</string>
     <string name="osu_completing_sign_up">Завершение регистрации…</string>
@@ -570,7 +607,7 @@
     <string name="power_charging_duration">%1$s – %2$s до полной зарядки</string>
     <string name="power_charging_duration_v2">%1$s – полностью зарядится к %2$s</string>
     <string name="power_charging_future_paused">%1$s – заряжается</string>
-    <string name="power_charging_limited">%1$s – зарядка оптимизирована</string>
+    <string name="power_charging_limited">%1$s, зарядка приостановлена для защиты батареи</string>
     <string name="power_charging_on_hold_settings_home_page">%1$s, зарядка приостановлена для защиты батареи</string>
     <string name="power_discharge_by">Заряда (%2$s) хватит примерно до %1$s</string>
     <string name="power_discharge_by_enhanced">При текущем уровне использования (%2$s) заряда хватит примерно до %1$s</string>
@@ -590,10 +627,10 @@
     <string name="power_remaining_less_than_duration_only">Осталось менее %1$s</string>
     <string name="power_remaining_more_than_subtext">Уровень заряда батареи: %2$s (хватит более чем на %1$s)</string>
     <string name="power_remaining_only_more_than_subtext">Осталось более %1$s</string>
-    <string name="power_remaining_settings_home_page">Уровень заряда – %1$s. %2$s.</string>
+    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_suggestion_battery_run_out">Батарея может разрядиться к %1$s</string>
     <string name="preference_copied">Текст \"%1$s\" скопирован в буфер обмена</string>
-    <string name="preference_summary_default_combination">%1$s / %2$s</string>
+    <string name="preference_summary_default_combination">%1$s/%2$s</string>
     <string name="private_dns_broken">Доступа к частному DNS-серверу нет.</string>
     <string name="private_dns_mode_off">Отключен</string>
     <string name="private_dns_mode_opportunistic">Автоматически</string>
@@ -620,6 +657,8 @@
     <string name="screen_zoom_summary_very_large">Очень крупный</string>
     <string name="search_menu">Поиск настроек</string>
     <string name="search_menu_title">Поиск</string>
+    <string name="searchview_clear_text_content_description">Очистить текстовое поле</string>
+    <string name="searchview_navigation_content_description">Назад</string>
     <string name="select_application">Выбор приложения</string>
     <string name="select_logd_size_dialog_title">Выберите размер буфера журнала</string>
     <string name="select_logd_size_title">Размер буфера журнала</string>
@@ -636,7 +675,11 @@
     <string name="settingslib_category_personal">Личный профиль</string>
     <string name="settingslib_category_private">Частный профиль</string>
     <string name="settingslib_category_work">Рабочий профиль</string>
+    <string name="settingslib_dismiss_button_content_description">Закрыть</string>
+    <string name="settingslib_expressive_text_collapse">Свернуть</string>
+    <string name="settingslib_expressive_text_expand">Развернуть</string>
     <string name="settingslib_learn_more_text">Подробнее…</string>
+    <string name="shade_display_awareness_title">Расположение панели уведомлений</string>
     <string name="shared_data_delete_failure_text">При удалении общих данных произошла ошибка.</string>
     <string name="shared_data_no_accessors_dialog_text">Нет разрешений, полученных для этих общих данных. Удалить их?</string>
     <string name="shared_data_no_blobs_text">Для этого пользователя нет общих данных</string>
@@ -658,6 +701,7 @@
     <string name="show_screen_updates_summary">Подсвечивать поверхности окон при обновлении</string>
     <string name="show_touches">Показывать нажатия</string>
     <string name="show_touches_summary">Визуальный отклик при нажатии</string>
+    <string name="side_sheet_accessibility_pane_title">Боковая панель</string>
     <string name="simulate_color_space">Имитировать аномалию</string>
     <string name="speed_label_fast">Быстрая</string>
     <string name="speed_label_okay">ОК</string>
@@ -682,6 +726,8 @@
     <string name="tethering_hardware_offload_summary">Использовать аппаратное ускорение в режиме модема (если доступно)</string>
     <string name="tethering_settings_not_available">Этот пользователь не может изменять настройки режима модема</string>
     <string name="time_unit_just_now">Только что</string>
+    <string name="touchpad_visualizer">Показать входные данные сенсорной панели</string>
+    <string name="touchpad_visualizer_summary">Экранный оверлей, на котором изображены входные данные сенсорной панели и распознанные жесты</string>
     <string name="track_frame_time">Учет времени работы HWUI</string>
     <string name="transcode_default">Считать, что приложения поддерживают современные форматы кодирования</string>
     <string name="transcode_disable_cache">Отключить кеш перекодирования</string>
@@ -727,11 +773,10 @@
     <string name="tv_media_transfer_arc_fallback_title">HDMI ARC</string>
     <string name="tv_media_transfer_arc_subtitle">Подключено через ARC</string>
     <string name="tv_media_transfer_connected">Подключено</string>
-    <string name="tv_media_transfer_default">Стандартный выход на телевизоре</string>
     <string name="tv_media_transfer_earc_fallback_title">HDMI eARC</string>
     <string name="tv_media_transfer_earc_subtitle">Подключено через eARC</string>
-    <string name="tv_media_transfer_hdmi">Выход HDMI</string>
-    <string name="tv_media_transfer_internal_speakers">Внутренние динамики</string>
+    <string name="tv_media_transfer_hdmi_title">Аудиовыход телевизора</string>
+    <string name="tv_media_transfer_internal_speakers">Встроенный динамик</string>
     <string name="unknown">Неизвестно</string>
     <string name="usb_audio_disable_routing">Откл. передачу аудио (USB)</string>
     <string name="usb_audio_disable_routing_summary">Отключить автоматическую передачу на внешние USB-устройства</string>
@@ -746,9 +791,9 @@
 Из профиля можно поменять и общие настройки устройства, например сеть Wi-Fi.
 
 Обновлять общие приложения могут все, однако специальные возможности настраиваются индивидуально."</string>
-    <string name="user_add_user_message_short">"После создания профиля его потребуется настроить.
+    <string name="user_add_user_message_short">"Новому пользователю потребуется настроить свой профиль.
 
-Любой пользователь устройства может обновлять приложения для всех аккаунтов."</string>
+Любой пользователь может обновлять приложения для всех остальных."</string>
     <string name="user_add_user_title">Добавить пользователя?</string>
     <string name="user_add_user_type_title">Добавление</string>
     <string name="user_grant_admin_button">Назначить администратором</string>
@@ -769,15 +814,24 @@
     <string name="user_switch_to_user">Войти как %s</string>
     <string name="v7_preference_off">ВЫКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
+    <string name="verbose_vendor_logging_notification_action">Включить ещё на один день</string>
+    <string name="verbose_vendor_logging_notification_summary">Включено на один день</string>
+    <string name="verbose_vendor_logging_notification_title">Ведение подробного журнала поставщика завершено</string>
+    <string name="verbose_vendor_logging_preference_summary_on">Включено без ограничения по времени</string>
+    <string name="verbose_vendor_logging_preference_summary_will_disable">Отключится через один день</string>
     <string name="verify_apps_over_usb_summary">Выполнять проверку безопасности приложений при установке через ADB/ADT</string>
     <string name="verify_apps_over_usb_title">Проверять приложения при установке</string>
     <string name="vpn_settings_not_available">Этот пользователь не может изменять настройки VPN</string>
     <string name="wait_for_debugger">Ждать подключения отладчика</string>
     <string name="wait_for_debugger_summary">Отлаживаемое приложение будет ожидать подключения отладчика перед выполнением</string>
+    <string name="webview_launch_devtools_no_activity">Не удалось запустить инструменты разработчика.</string>
+    <string name="webview_launch_devtools_no_package">Пакет WebView не найден.</string>
+    <string name="webview_launch_devtools_title">Инструменты разработчика от поставщика WebView</string>
     <string name="wifi_ap_unable_to_handle_new_sta">К точке доступа подключено слишком много устройств</string>
     <string name="wifi_cant_connect">Ошибка подключения</string>
     <string name="wifi_cant_connect_to_ap">Не удалось подключиться к сети \"%1$s\"</string>
     <string name="wifi_check_password_try_again">Возможно, вы указали неверный пароль. Повторите попытку.</string>
+    <string name="wifi_connected_less_secure">%1$s (менее надежная защита)</string>
     <string name="wifi_connected_low_quality">низкое качество</string>
     <string name="wifi_connected_no_internet">Нет подключения к Интернету</string>
     <string name="wifi_disabled_generic">Отключено</string>
@@ -870,6 +924,7 @@
     <string name="wifitrackerlib_wifi_band_unknown">Неизвестно</string>
     <string name="wifitrackerlib_wifi_check_password_try_again">Неверный пароль. Повторите попытку.</string>
     <string name="wifitrackerlib_wifi_connected_cannot_provide_internet">Подключено к устройству. Нет доступа к интернету.</string>
+    <string name="wifitrackerlib_wifi_disabled_consecutive_failures">Ошибка подключения</string>
     <string name="wifitrackerlib_wifi_disabled_generic">Отключено</string>
     <string name="wifitrackerlib_wifi_disabled_network_failure">Ошибка конфигурации IP</string>
     <string name="wifitrackerlib_wifi_disabled_password_failure">Ошибка аутентификации</string>
@@ -882,7 +937,6 @@
     <string name="wifitrackerlib_wifi_metered_label">Сеть с тарификацией трафика</string>
     <string name="wifitrackerlib_wifi_network_not_found">Ошибка подключения. Повторите попытку позже.</string>
     <string name="wifitrackerlib_wifi_no_internet">Без доступа к интернету</string>
-    <string name="wifitrackerlib_wifi_no_internet_no_reconnect">Подключение не будет выполняться автоматически</string>
     <string name="wifitrackerlib_wifi_passpoint_expired">Срок действия истек</string>
     <string name="wifitrackerlib_wifi_poor_channel_conditions">Временное нестабильное подключение к сети.</string>
     <string name="wifitrackerlib_wifi_remembered">Сохранено</string>
@@ -916,14 +970,18 @@
     <string name="wifitrackerlib_wifi_wont_autoconnect_for_now">Подключение по Wi-Fi не установится автоматически.</string>
     <string name="window_animation_scale_title">Анимация окон</string>
     <string name="window_blurs">Размытие на уровне окон</string>
+    <string name="window_management_category">Управление окнами</string>
     <string name="zen_alarm_warning">Следующий будильник: %1$s. Звук отключен.</string>
     <string name="zen_alarm_warning_indef">Следующий будильник: %1$s. Чтобы услышать сигнал, включите звук.</string>
     <string name="zen_interruption_level_priority">Только важные</string>
     <string name="zen_mode_and_condition">%1$s. %2$s.</string>
+    <string name="zen_mode_do_not_disturb_name">Не беспокоить</string>
     <string name="zen_mode_duration_always_prompt_title">Всегда спрашивать</string>
     <string name="zen_mode_duration_settings_title">Длительность</string>
     <string name="zen_mode_enable_dialog_turn_on">Включить</string>
     <string name="zen_mode_forever">Пока вы не отключите</string>
     <string name="zen_mode_settings_summary_off">Никогда</string>
+    <string name="zen_mode_settings_title">Не беспокоить</string>
     <string name="zen_mode_settings_turn_on_dialog_title">Включите режим \"Не беспокоить\"</string>
+    <string name="zen_mode_starred_contacts_empty_name">Имя не указано</string>
 </resources>

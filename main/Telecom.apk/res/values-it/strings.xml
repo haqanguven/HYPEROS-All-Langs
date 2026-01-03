@@ -28,7 +28,10 @@
     <string name="abc_shareactionprovider_share_with_application">Condividi tramite %s</string>
     <string name="abc_toolbar_collapse_description">Comprimi</string>
     <string name="accessibility_call_muted">Chiamata disattivata.</string>
+    <string name="accessibility_sliding_button_state_description_off">Disattivato</string>
+    <string name="accessibility_sliding_button_state_description_on">Attivato</string>
     <string name="accessibility_speakerphone_enabled">Vivavoce attivo.</string>
+    <string name="accessibility_tab_state_description_unselect">Non selezionato</string>
     <string name="actionbar_button_up_description">Indietro</string>
     <string name="add_blocked_dialog_body">Blocca chiamate e SMS da</string>
     <string name="add_blocked_number_hint">Numero di telefono</string>
@@ -61,7 +64,13 @@
     <string name="blocked_numbers_number_already_blocked_message">%1$s è già bloccato.</string>
     <string name="blocked_numbers_number_blocked_message">%1$s bloccato</string>
     <string name="blocked_numbers_number_unblocked_message">%1$s sbloccato</string>
+    <string name="callFailed_already_ringing">Impossibile effettuare una chiamata perché è presente una chiamata in arrivo senza risposta. Rispondi o rifiuta la chiamata in arrivo prima di effettuare una nuova chiamata.</string>
+    <string name="callFailed_outgoing_already_present">"Impossibile effettuare una chiamata perché è già in corso un'altra chiamata. Attendi che qualcuno risponda alla chiamata o disconnetti prima di effettuarne un'altra."</string>
+    <string name="callFailed_reject_mmi">Questo codice MMI non è disponibile per le chiamate su più account.</string>
     <string name="callFailed_simError">Errore scheda SIM</string>
+    <string name="callFailed_too_many_calls_exclude_merge">Impossibile effettuare una chiamata perché due chiamate sono già in corso. Termina una delle chiamate prima di effettuarne una nuova.</string>
+    <string name="callFailed_too_many_calls_include_merge">Impossibile effettuare una chiamata perché due chiamate sono già in corso. Unisci le chiamate in una conferenza o scollegane una prima di effettuare una nuova chiamata.</string>
+    <string name="callFailed_unholdable_call">Impossibile effettuare una chiamata perché è presente una chiamata non bloccabile. Termina la chiamata prima di effettuarne una nuova.</string>
     <string name="call_notification_answer_action">Rispondi</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Rifiuta</string>
@@ -81,7 +90,8 @@
     <string name="can_not_dial_vt_while_voice_prompt">Impossibile effettuare una chiamata video mentre una chiamata vocale è in corso</string>
     <string name="can_not_dial_while_vt_prompt">Impossibile effettuare una chiamata vocale mentre una chiamata video è in corso</string>
     <string name="cancel">Annulla</string>
-    <string name="cant_call_due_to_no_supported_service">Impossibile effettuare la chiamata perché non sono presenti account che supportano chiamate di questo tipo.</string>
+    <string name="cant_call_due_to_dsdstransition_invalid_sub">"L'account attuale non è valido. Non è possibile effettuare chiamate."</string>
+    <string name="cant_call_due_to_no_supported_service">Impossibile effettuare la chiamata. Controlla la connessione del dispositivo.</string>
     <string name="cant_call_due_to_ongoing_call">Impossibile effettuare la chiamata a causa della chiamata %1$s.</string>
     <string name="cant_call_due_to_ongoing_calls">Impossibile effettuare la chiamata a causa delle chiamate %1$s.</string>
     <string name="cant_call_due_to_ongoing_unknown_call">"Impossibile effettuare la chiamata a causa di una chiamata in un'altra app."</string>
@@ -110,6 +120,7 @@
     <string name="do_not_show_again">Non mostrare più</string>
     <string name="duplicate_video_call_not_allowed">Al momento non è possibile aggiungere la chiamata.</string>
     <string name="early_morning">Mattino</string>
+    <string name="emergencyCall_reject_mmi">Impossibile comporre codici MMI durante una chiamata di emergenza.</string>
     <string name="empty" />
     <string name="enable_account_preference_title">Account di chiamata</string>
     <string name="eras_ad">d.C.</string>
@@ -177,6 +188,12 @@
     <string name="midnight">Notte</string>
     <string name="missedcall_notification_public_version_title">Telefono</string>
     <string name="miuix_access_state_desc">Selezionato</string>
+    <string name="miuix_accessibility_title">Titolo</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Compresso</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Esteso</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Esci dalla modalità di modifica</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nuova notifica</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Entra in modalità di modifica</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleziona tutti</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleziona tutto</string>
     <string name="miuix_appcompat_action_mode_title_empty">Seleziona elementi</string>
@@ -192,6 +209,8 @@
     <string name="miuix_appcompat_select_all">Seleziona tutto</string>
     <string name="miuix_appcompat_select_all_description">Seleziona tutto</string>
     <string name="miuix_appcompat_select_item">Seleziona elementi</string>
+    <string name="miuix_appcompat_show_dialog_description">Finestra pop-up</string>
+    <string name="miuix_progressbar_loading">Caricamento</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Trascina in basso per aggiornare</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Aggiornamento completato</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Aggiornamento…</string>
@@ -200,6 +219,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">È tutto per ora</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Solo un secondo…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Impossibile caricare</string>
+    <string name="miuix_show_password">Mostra password</string>
+    <string name="miuix_stretchablewidget_collapsed">Compresso</string>
+    <string name="miuix_stretchablewidget_expanded">Esteso</string>
     <string name="monday">Lunedì</string>
     <string name="monday_short">Lun</string>
     <string name="monday_shortest">Lun</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AI_Customer_service_hotline">Customer service hotline: 400–100–5678</string>
-    <string name="AI_Record_number">ICP registration number: 京ICP备10046444号-98A</string>
+    <string name="AI_Customer_service_hotline">Hotline du service client : 400–100–5678</string>
+    <string name="AI_Record_number">"Numéro d'enregistrement ICP : 京ICP备10046444号-98A"</string>
     <string name="AI_diwbkiad_dekete_model">Supprimer le modèle</string>
     <string name="AI_download_delete_message">"Si vous supprimez le modèle Mi AI Créateur d'Image, vous ne pourrez plus utiliser ses fonctionnalités. Supprimer quand même ?"</string>
     <string name="AI_download_delete_model">Supprimer le modèle</string>
@@ -11,7 +11,7 @@
     <string name="AI_download_file_message">"Prend en charge Mi AI Créateur d'Image, ≈%.1f Go"</string>
     <string name="AI_download_function_message">"Installez Mi AI Créateur d'Image pour que Mi AI génère des images à partir de vos descriptions."</string>
     <string name="AI_download_title">"Modèle Mi AI Créateur d'Image"</string>
-    <string name="AI_version_number">Version: %d</string>
+    <string name="AI_version_number">Version %d</string>
     <string name="HM_permission_desc_common">"Pour les modèles d'apprentissage et l'amélioration de la précision des recommandations"</string>
     <string name="HM_permission_desc_phone_state">"Pour exécuter des modèles liés à l'appel"</string>
     <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
@@ -41,18 +41,68 @@
     <string name="abc_shareactionprovider_share_with">Partager avec</string>
     <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
     <string name="abc_toolbar_collapse_description">Réduire</string>
-    <string name="about_MiAI_engine">About Mi AI Engine</string>
+    <string name="about_MiAI_engine">À propos de Mi AI Engine</string>
     <string name="about_MiAI_engine_hyper">À propos de Moteur Xiaomi HyperAI</string>
     <string name="accessbility_permission_title">Applications téléchargées</string>
     <string name="accessbility_permission_toast_msg">"Activer les fonctionnalités d'accessibilité de Moteur Xiaomi HyperAI pour pouvoir effectuer cette action"</string>
+    <string name="accessibility_sliding_button_state_description_off">Désactivé</string>
+    <string name="accessibility_sliding_button_state_description_on">Activé</string>
+    <string name="accessibility_tab_state_description_unselect">Non sélectionné</string>
     <string name="actionbar_button_up_description">Retour</string>
     <string name="afternoon">Après midi</string>
+    <string name="aiSearch_buildDB_dialog_analysis_completed_progress">%1$s terminé</string>
+    <string name="aiSearch_buildDB_dialog_analysis_completed_progress_stop">"L'analyse est %1$s terminée et en pause"</string>
+    <string name="aiSearch_buildDB_dialog_analysis_completed_progress_time">%1$s terminé</string>
+    <string name="aiSearch_buildDB_dialog_analysis_completed_progress_time_notice">"%1$s terminé. Votre appareil peut chauffer ou consommer un peu plus d'énergie pendant ce processus."</string>
+    <string name="aiSearch_buildDB_dialog_analysis_notice_five">"L'analyse reprendra lorsque le dispositif se refroidit et a suffisamment de puissance"</string>
+    <string name="aiSearch_buildDB_dialog_analysis_notice_four">"Ce processus commencera lorsque l'appareil est frais et a suffisamment de puissance"</string>
+    <string name="aiSearch_buildDB_dialog_analysis_notice_one">"Votre appareil peut chauffer ou consommer un peu plus d'énergie pendant ce processus"</string>
+    <string name="aiSearch_buildDB_dialog_analysis_notice_three">"L'analyse reprendra demain lorsque votre appareil est chargé et froid"</string>
+    <string name="aiSearch_buildDB_dialog_analysis_notice_two">"L'analyse reprendra lorsque votre appareil est chargé et froid"</string>
+    <string name="aiSearch_buildDB_dialog_analysis_running_file">"Les fichiers sont en train d'être analysé sur votre appareil pour fournir des résultats plus précis"</string>
+    <string name="aiSearch_buildDB_dialog_analysis_running_gallery">"Les éléments de la Galerie sont en cours d'analyse sur votre appareil pour fournir des résultats plus précis"</string>
+    <string name="aiSearch_buildDB_dialog_analysis_running_note">"Les notes sont en train d'être analysé sur votre appareil pour fournir des résultats plus précis"</string>
+    <string name="aiSearch_buildDB_dialog_analysis_running_sms">"Les messages sont en train d'être analysé sur votre appareil pour fournir des résultats plus précis"</string>
+    <string name="aiSearch_buildDB_dialog_analysis_running_soundrecord">"Les enregistrements sont en train d'être analysé sur votre appareil pour fournir des résultats plus précis"</string>
+    <string name="aiSearch_buildDB_dialog_analysis_start_file">Les fichiers seront analysés sur votre appareil pour fournir des résultats plus précis</string>
+    <string name="aiSearch_buildDB_dialog_analysis_start_gallery">Les éléments de la Galerie seront analysés sur votre appareil pour fournir des résultats plus précis</string>
+    <string name="aiSearch_buildDB_dialog_analysis_start_note">Les notes seront analysées sur votre appareil pour fournir des résultats plus précis</string>
+    <string name="aiSearch_buildDB_dialog_analysis_start_sms">Les messages seront analysés sur votre appareil pour fournir des résultats plus précis</string>
+    <string name="aiSearch_buildDB_dialog_analysis_start_soundrecord">Les enregistrements seront analysés sur votre appareil pour fournir des résultats plus précis</string>
+    <string name="aiSearch_buildDB_dialog_analysis_unstart">"L'analyse n'a pas encore démarrée"</string>
+    <string name="aiSearch_buildDB_dialog_button_cancel">Annuler</string>
+    <string name="aiSearch_buildDB_dialog_button_confirm_start">Commencer</string>
+    <string name="aiSearch_buildDB_dialog_button_konwn">"C'est compris"</string>
+    <string name="aiSearch_buildDB_dialog_button_start">Commencer</string>
+    <string name="aiSearch_buildDB_dialog_button_stop">Pause</string>
+    <string name="aiSearch_buildDB_dialog_file_search_title">Recherche IA du Gestionnaire de fichiers</string>
+    <string name="aiSearch_buildDB_dialog_gallery_search_title">Recherche IA de la Galerie</string>
+    <string name="aiSearch_buildDB_dialog_high_temperature_content">"Reprendre l'analyse une fois que votre appareil se refroidit."</string>
+    <string name="aiSearch_buildDB_dialog_high_temperature_title">"L'appareil est en surchauffe"</string>
+    <string name="aiSearch_buildDB_dialog_note_search_title">Recherche IA des notes</string>
+    <string name="aiSearch_buildDB_dialog_notice_window_five">Suspendu</string>
+    <string name="aiSearch_buildDB_dialog_notice_window_four">"Le contenu sera analysé sur votre appareil pour fournir des résultats plus précis. L'analyse est mise en pause et reprendra lorsque votre appareil est chargé et froid."</string>
+    <string name="aiSearch_buildDB_dialog_notice_window_local_analysis">Analyse de la recherche IA sur les appareils</string>
+    <string name="aiSearch_buildDB_dialog_notice_window_one">Analyse de la recherche IA en cours</string>
+    <string name="aiSearch_buildDB_dialog_notice_window_three">Analyse des fichiers sur votre appareil pour obtenir des résultats de recherche plus précis</string>
+    <string name="aiSearch_buildDB_dialog_notice_window_two">Analyse de la recherche IA en pause</string>
+    <string name="aiSearch_buildDB_dialog_secondary_confirmation_content">"Votre appareil peut chauffer ou consommer un peu plus d'énergie pendant le processus d'analyse. Démarrer l'analyse maintenant ?"</string>
+    <string name="aiSearch_buildDB_dialog_secondary_confirmation_remarks">"Gardez votre appareil en charge et l'écran éteint pour une analyse plus rapide"</string>
+    <string name="aiSearch_buildDB_dialog_secondary_confirmation_title">Commencer maintenant ?</string>
+    <string name="aiSearch_buildDB_dialog_secondary_tmp_confirmation_remarks">"La vitesse d'analyse sera affectée par les applications exécutées au premier plan. Pour une analyse plus rapide, gardez votre appareil en charge avec l'écran éteint."</string>
+    <string name="aiSearch_buildDB_dialog_sms_search_title">Recherche IA de la Messagerie</string>
+    <string name="aiSearch_buildDB_dialog_soundrecord_search_title">Recherche IA du Magnétophone</string>
+    <string name="aiSearch_enhance_setting_analysis_one">"L'analyse des éléments pour obtenir des résultats plus précis"</string>
+    <string name="aiSearch_enhance_setting_analysis_two">Les éléments seront analysés sur votre appareil</string>
     <string name="aiSearch_enhance_setting_desc">Utilisez la recherche en langage naturel pour trouver des éléments dans les applications système</string>
-    <string name="aiSearch_enhance_setting_quick_desc">"Recherchez plus d'applications système pour des résultats plus précis"</string>
-    <string name="aiSearch_enhance_setting_quick_title">Recherche</string>
-    <string name="aiSearch_enhance_setting_system_desc">Recherchez des photos, des vidéos, des fichiers, des enregistrements, des notes et des messages et trouvez exactement où ils se trouvent dans Galerie, Gestionnaire de fichiers, Magnétophone, Notes et Messages.</string>
-    <string name="aiSearch_enhance_setting_system_title">Rechercher les applications système</string>
+    <string name="aiSearch_enhance_setting_quick_desc">Utilisez la recherche en langage naturel pour trouver des photos, des fichiers, des enregistrements, des notes et des messages.</string>
+    <string name="aiSearch_enhance_setting_quick_title">"Recherche IA dans l'appareil"</string>
+    <string name="aiSearch_enhance_setting_system_desc">Utilisez la recherche en langage naturel pour trouver des éléments dans les applications système. La recherche est actuellement prise en charge dans la Galerie, le Gestionnaire de fichiers, Magnétophone, Notes et la Messagerie.</string>
+    <string name="aiSearch_enhance_setting_system_title">Recherche IA dans les applications système</string>
     <string name="aiSearch_enhance_setting_title">Recherche IA</string>
+    <string name="aiSearch_enhance_setting_use_description_quick_content">"Sur l'écran d'accueil, appuyez sur la barre de recherche en bas et saisissez le nom ou la description d'un élément à rechercher sur votre appareil."</string>
+    <string name="aiSearch_enhance_setting_use_description_system_content">"Ouvrez une application prise en charge et appuyez sur le bouton Rechercher ou, dans la barre de recherche en haut, saisissez le nom ou la description d'une photo ou d'un fichier."</string>
+    <string name="aiSearch_enhance_setting_use_description_title">Utilisation de cette fonctionnalité</string>
     <string name="aiSearch_enhance_setting_xiaoai_desc">"Recherchez des fichiers et consultez tous les résultats dans l'application correspondante. Vous pouvez également trouver vos fichiers via Q&amp;A avec Mi IA."</string>
     <string name="aiSearch_enhance_setting_xiaoai_title">Mi IA</string>
     <string name="aiSearch_privacy_cta_all_purpose_version_one">"Mi AI Engine fournit des capacités de système qui prennent en charge des fonctionnalités telles que les suggestions Mi IA, Xiaomi HyperMind, la recherche Xiaomi HyperMindAI et le Coffre d'applications en recueillant et analysant des informations sur la façon dont vous utilisez votre appareil. Il fournit des capacités de recherche pour la recherche Xiaomi HyperAI et vous permet de trouver des éléments via la recherche en langage naturel. Vous pouvez utiliser Mi AI Engine pour rechercher dans les applications système, y compris la galerie, le gestionnaire de fichiers, l'enregistreur, Mi IA et plus encore. Votre accord à la Politique de Confidentialité du moteur Mi IA couvre également les services qui reposent sur le moteur Mi IA (par ex. Xiaomi HyperMind)."</string>
@@ -65,14 +115,21 @@
     <string name="aiSearch_privacy_dialog_permission_desc_user_notice_hyper">"Moteur Xiaomi HyperAI fournit des capacités de recherche en langage naturel pour certaines applications. J'accepte la Politique de Confidentialité du Moteur Xiaomi HyperAI pour pouvoir utiliser ces fonctionnalités."</string>
     <string name="aiSearch_privacy_dialog_permission_title_data_to_cloud">Télécharger des données personnelles dans le cloud</string>
     <string name="aiSearch_privacy_dialog_permission_title_user_notice">"Conditions d'utilisation"</string>
+    <string name="aiSearch_support_service">Services pris en charge</string>
+    <string name="aiSearch_support_service_connect">Lien avec Windows</string>
+    <string name="aiSearch_support_service_connect_computer">Connectez-vous à un ordinateur et utilisez la recherche IA pour obtenir des résultats plus précis</string>
+    <string name="aiSearch_support_service_search">Recherche</string>
+    <string name="aiSearch_support_service_search_aiSearch">"Recherche avec l'IA pour des résultats plus précis"</string>
+    <string name="aiSearch_support_service_search_aiSearch_global">"Recherche avec l'IA pour des résultats plus précis"</string>
+    <string name="aiSearch_support_service_search_global">"Sélecteur d'application"</string>
     <string name="am">Matin</string>
     <string name="app_name">Mi AI Engine</string>
     <string name="app_name_hyper">Moteur Xiaomi HyperAI</string>
     <string name="background_download">"C'est compris"</string>
-    <string name="bottomsheet_action_collapse">Réduire la bottom sheet</string>
-    <string name="bottomsheet_action_expand">Développer la bottom sheet</string>
-    <string name="bottomsheet_action_expand_halfway">Développer en entier</string>
-    <string name="bottomsheet_drag_handle_clicked">A appuyé deux fois sur la poignée de déplacement</string>
+    <string name="bottomsheet_action_collapse">Réduire la feuille du bas</string>
+    <string name="bottomsheet_action_expand">Développer la feuille du bas</string>
+    <string name="bottomsheet_action_expand_halfway">Élargir à mi-chemin</string>
+    <string name="bottomsheet_drag_handle_clicked">Faire glisser la poignée en appuyant deux fois</string>
     <string name="bottomsheet_drag_handle_content_description">Poignée de déplacement</string>
     <string name="call_notification_answer_action">Répondre</string>
     <string name="call_notification_answer_video_action">Vidéo</string>
@@ -141,7 +198,7 @@
     <string name="cognition_cta_main_purpose">Le moteur de cognition sur appareil peut reconnaître les situations, connaître vos préférences et vous fournir des services plus précis et personnalisés.</string>
     <string name="cognition_cta_optional_Perm_Location_Desc">"Accès et modification de fichiers audios stockés sur l'appareil"</string>
     <string name="cognition_cta_runtime_Perm_Location_Desc">Pour accéder à votre localisation actuelle</string>
-    <string name="cognition_func_detail_msg">Recognizes and predicts situations aund provides personalized services</string>
+    <string name="cognition_func_detail_msg">Reconnaît et prédit les situations et fournit des services personnalisés</string>
     <string name="cognition_func_name">Moteur de cognition intégré</string>
     <string name="cognition_func_open">Moteur de cognition intégré</string>
     <string name="cognition_os2_permission_cta_desc_HM">Commandes intelligentes</string>
@@ -149,19 +206,22 @@
     <string name="cognition_os2_permission_cta_desc_aiSearch">Recherche de Moteur Xiaomi HyperAI</string>
     <string name="cognition_os2_permission_cta_desc_computingSharing">Soutien informatique</string>
     <string name="cognition_os2_permission_cta_desc_title">"Moteur Xiaomi HyperAI est un centre de capacités système qui acquiert et analyse le comportement de l'utilisateur sur votre appareil pour fournir une reconnaissance de scène et des contrôles intelligents pour les services suivants : %1$s."</string>
-    <string name="cognition_os2_permission_cta_desc_xiaoaiPlus">Super Mi IA</string>
-    <string name="cognition_os2_permission_default_desc_appList">"Pour permettre à Super Mi IA d'obtenir la prise en charge des actions d'application"</string>
+    <string name="cognition_os2_permission_cta_desc_xiaoaiPlus">Xiaomi Hyper XiaoAi</string>
+    <string name="cognition_os2_permission_default_desc_appList">"Pour permettre à Xiaomi Hyper XiaoAi d'obtenir la prise en charge des actions d'application"</string>
+    <string name="cognition_os2_permission_default_desc_calendar">Pour fournir des rappels d’événements via Intelligence proactive</string>
     <string name="cognition_os2_permission_default_desc_location">"Pour percevoir l'environnement"</string>
     <string name="cognition_os2_permission_default_desc_microphone">Pour déterminer quand vous êtes éveillé ou endormi</string>
     <string name="cognition_os2_permission_default_desc_phoneState">"Pour évaluer l'état de l'appel"</string>
     <string name="cognition_os2_permission_default_desc_serchIndex">"Pour construire l'index de recherche Xiaomi HyperAI"</string>
-    <string name="cognition_os2_permission_default_desc_title">"Moteur Xiaomi HyperAI est un centre de capacités système qui acquiert et analyse le comportement de l'tilisateur sur votre appareil pour fournir une reconnaissance de scène et des contrôles intelligents pour des services tels que Super Mi IA, les contrôles intelligents, la recherche Xiaomi HyperAI, le support informatique et le moteur de charge intelligent."</string>
+    <string name="cognition_os2_permission_default_desc_title">"Moteur Xiaomi HyperAI est un centre de capacités système qui acquiert et analyse le comportement de l'utilisateur sur votre appareil pour fournir une reconnaissance de scène et des contrôles intelligents pour des services tels que la recherche Xiaomi HyperAI, le support informatique et le moteur de charge intelligent."</string>
     <string name="cognition_os2_permission_request_content_desc">Afin de fournir des services de recherche de contenu, Moteur Xiaomi HyperAI a besoin des autorisations suivantes : %1$s.</string>
     <string name="cognition_permission_all_files_name">Accéder à tous les fichiers</string>
+    <string name="cognition_permission_calendar_name">"Accéder et modifier l'agenda"</string>
     <string name="cognition_permission_comma">", "</string>
     <string name="cognition_permission_content_no">Pas maintenant</string>
     <string name="cognition_permission_content_set">Paramètres</string>
     <string name="cognition_permission_declaration">Détails des autorisations</string>
+    <string name="cognition_permission_guidance_desc">"Pour que cette fonctionnalité fonctionne normalement, accordez l'autorisation suivante et définissez \"Toujours autoriser\" : %s"</string>
     <string name="cognition_permission_guidance_message">Xiaomi HyperMind ne peut fonctionner normalement que lorsque les autorisations suivantes sont accordées et définies sur \"Toujours autoriser\" : %s</string>
     <string name="cognition_permission_guidance_title">Autorisations requises</string>
     <string name="cognition_permission_image_video_name">Accéder aux photos et vidéos</string>
@@ -180,7 +240,7 @@
     <string name="cognition_permission_storage">"Accès aux fichiers stockés sur l'appareil"</string>
     <string name="cognition_permission_storage_msg">"Pour accéder aux informations de localisation passées stockées sur l'appareil"</string>
     <string name="cognition_privacy_cta_all_purpose">"Xiaomi HyperMind est alimenté par Mi AI Engine. Mi AI Engine peut reconnaître les scénarios, apprendre vos modèles et vous offrir des services précis et personnalisés. "</string>
-    <string name="cognition_privacy_cta_general_purpose">Mi AI Engine provides system capabilities that support features like Mi AI suggestions, Xiaomi HyperMind, and App vault by collecting and analyzing information about how you use your device.</string>
+    <string name="cognition_privacy_cta_general_purpose">"Mi AI Engine fournit des capacités de système qui prennent en charge des fonctionnalités telles que les suggestions Mi AI, Xiaomi HyperMind et Coffre d'applications en recueillant et analysant des informations sur la façon dont vous utilisez votre appareil."</string>
     <string name="cognition_privacy_dialog_get_background_loc_permission_message">"Autorisez Xiaomi HyperMind à accéder à votre localisation tout en exécutant en arrière-plan pour qu'il puisse utiliser des modèles. Vous pouvez accorder cette autorisation dans Paramètres."</string>
     <string name="cognition_privacy_dialog_get_background_loc_permission_title">Autorisations requises</string>
     <string name="cognition_privacy_dialog_get_mijia_cta_message">"Mi AI Engine doit collecter des informations sur vos appareils domestiques intelligents afin d'apprendre vos modèles. Connectez-vous à Xiaomi Home pour commencer. Ouvrir l'application maintenant ?"</string>
@@ -203,7 +263,7 @@
     <string name="cognition_privacy_revoke_and">Le retrait de votre consentement désactivera cette fonctionnalité</string>
     <string name="cognition_privacy_revoke_dialog_message">"Si vous continuez, vous retirerez votre consentement à la Politique de Confidentialité du Moteur de cognition intégré. Nous cesserons de collecter vos informations personnelles et les informations personnelles déjà collectées et conservées seront supprimées dans le délai imparti conformément aux lois et réglementations applicables, sauf indication contraire. Étant donné que le Moteur de cognition intégré fournit ses services sur la base de la collecte d'informations personnelles nécessaires, votre retrait de consentement sera considéré comme un refus d'accepter ces services."</string>
     <string name="cognition_privacy_revoke_dialog_negative">Retirer</string>
-    <string name="cognition_privacy_revoke_dialog_negative_count">Retirer (%ds)</string>
+    <string name="cognition_privacy_revoke_dialog_negative_count">Retirer (%d s)</string>
     <string name="cognition_privacy_revoke_dialog_positive">Annuler</string>
     <string name="cognition_privacy_revoke_dialog_title">Retrait du consentement</string>
     <string name="cognition_privacy_revoke_tip_dialog_content"><Data>由于您不同意我们变更后的隐私政策，您将无法继续使用%1$s应用。是否确定同意%2$s变更后的&lt;a href=\"%3$s\">《隐私政策》&lt;/a>？</Data></string>
@@ -211,9 +271,9 @@
     <string name="cognition_privacy_setting">Confidentialité</string>
     <string name="cognition_privacy_statement_show">Voir la Politique de Confidentialité</string>
     <string name="cognition_privacy_statement_string">Politique de confidentialité</string>
-    <string name="cognition_privacy_update_dialog_content_1">%s Privacy Policy was updated:</string>
-    <string name="cognition_privacy_update_dialog_content_2"><Data> Read and agree to the new version of &lt;a href=\"%1$s\">Privacy policy&lt;/a> before you continue. </Data></string>
-    <string name="cognition_privacy_update_dialog_title">Updated Privacy Policy</string>
+    <string name="cognition_privacy_update_dialog_content_1">La politique de confidentialité de %s a été mise à jour :</string>
+    <string name="cognition_privacy_update_dialog_content_2"><Data> Lisez et acceptez la nouvelle version de la &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a> avant de continuer. </Data></string>
+    <string name="cognition_privacy_update_dialog_title">Politique de Confidentialité mise à jour</string>
     <string name="common_google_play_services_enable_button">Activer</string>
     <string name="common_google_play_services_enable_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
     <string name="common_google_play_services_enable_title">Activer les services Google Play</string>
@@ -319,11 +379,15 @@
     <string name="dist_compute_ai_list_summary_content">"Obtenez des résumés intelligents des notifications et des messages pour voir les informations clés en un coup d'œil"</string>
     <string name="dist_compute_ai_list_summary_title">"Séance d'information IA"</string>
     <string name="dist_compute_ai_writing_content">"Polissez votre écriture via l'IA avec le soutien de vos appareils à plus haute puissance de calcul"</string>
-    <string name="dist_compute_ai_writing_title">Écriture IA</string>
+    <string name="dist_compute_ai_writing_title">Rédaction IA</string>
     <string name="dist_compute_cancel">Annuler</string>
+    <string name="dist_compute_download_again_reminder">Impossible de télécharger Attendez une minute ou deux et réessayez.</string>
     <string name="dist_compute_download_guidance_content">Téléchargez les modèles de grande taille nécessaires sur votre appareil pour pouvoir utiliser le support informatique. Télécharger maintenant ?</string>
     <string name="dist_compute_download_guidance_title">Télécharger le grand modèle</string>
     <string name="dist_compute_download_now">Télécharger</string>
+    <string name="dist_compute_download_reminder_content">"Installez le grand modèle sur l'appareil pour pouvoir utiliser cette fonctionnalité. Installer maintenant ?"</string>
+    <string name="dist_compute_download_reminder_modelmanager">"Téléchargez et installez le grand modèle sur l'appareil pour pouvoir utiliser les fonctionnalités de l'IA sur votre appareil. Télécharger maintenant ?"</string>
+    <string name="dist_compute_download_reminder_title">"Installer le grand modèle sur l'appareil"</string>
     <string name="dist_compute_pad_already_connected">Connecté : %1$s</string>
     <string name="dist_compute_pad_button_neutral">"C'est compris"</string>
     <string name="dist_compute_pad_notification_content">Puissance des fonctionnalités IA avec le soutien des appareils à proximité</string>
@@ -333,14 +397,16 @@
     <string name="dist_compute_pad_subtitle_local">"Utilisez les fonctionnalités de séance d'information et d'écriture IA avec le soutien des appareils à proximité"</string>
     <string name="dist_compute_privacy_management">Confidentialité</string>
     <string name="dist_compute_setting_switch_content_local">"Les appareils à proximité peuvent utiliser les fonctionnalités de séance d'information et d'écriture IA en utilisant la puissance de calcul de cet appareil"</string>
+    <string name="dist_compute_summary_dist">Puissance des fonctionnalités IA avec le soutien des appareils à proximité</string>
+    <string name="dist_compute_summary_local">"Aidez à alimenter les fonctionnalités de l'IA sur les appareils à proximité"</string>
     <string name="dist_compute_title">Soutien informatique</string>
-    <string name="download_cancel">Cancel</string>
+    <string name="download_cancel">Annuler</string>
     <string name="download_complete">Mis à jour</string>
-    <string name="download_done">Done</string>
-    <string name="download_notification_title">Improve stability and optimize your experience</string>
-    <string name="download_notification_update">Tap to update</string>
+    <string name="download_done">Terminé</string>
+    <string name="download_notification_title">Améliorez la stabilité et optimisez votre expérience</string>
+    <string name="download_notification_update">Appuyez pour mettre à jour</string>
     <string name="download_paused">Reprendre</string>
-    <string name="download_process_content_wenshengtu_title">Downloading Mi AI Image Creator model…</string>
+    <string name="download_process_content_wenshengtu_title">"Téléchargement du Modèle Mi AI Créateur d'Image…"</string>
     <string name="download_start">Télécharger</string>
     <string name="download_updata">Mettre à jour</string>
     <string name="download_update">Mettre à jour</string>
@@ -348,6 +414,7 @@
     <string name="empty" />
     <string name="eras_ad">EC</string>
     <string name="eras_bc">BCE</string>
+    <string name="error_a11y_label">Erreur : Non valide</string>
     <string name="error_icon_content_description">Erreur</string>
     <string name="evening">Après midi</string>
     <string name="expand_button_title">Paramètres avancés</string>
@@ -404,6 +471,8 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="form_action_fill_failed">Impossible de remplir. Attendez une minute ou deux et réessayez.</string>
+    <string name="form_action_partial_fill_failed">Remplir un formulaire de contenu</string>
     <string name="friday">Vendredi</string>
     <string name="friday_short">Ven</string>
     <string name="friday_shortest">Ven</string>
@@ -424,13 +493,18 @@
     <string name="material_timepicker_text_input_mode_description">"Passer en mode saisie de texte pour la saisie de l'heure."</string>
     <string name="midnight">Nuit</string>
     <string name="miuix_access_state_desc">Sélectionné</string>
+    <string name="miuix_accessibility_title">Titre</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Réduit</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Étendu</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">"Quitter le mode d'édition"</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nouvelle notification</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Entrer en mode édition</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Tout désélectionner</string>
     <string name="miuix_appcompat_action_mode_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_action_mode_title_empty">Sélectionner des éléments</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Plus</string>
     <string name="miuix_appcompat_cancel_description">Annuler</string>
     <string name="miuix_appcompat_cloud_state_disabled">La synchronisation avec the cloud est désactivée</string>
-    <string name="miuix_appcompat_cloud_state_encrypt_disabled">Activer la protection de bout en bout pour synchroniser les éléments</string>
     <string name="miuix_appcompat_cloud_state_finished">Le cloud synchronisé avec succès</string>
     <string name="miuix_appcompat_cloud_state_syncing">Synchronisation avec le cloud…</string>
     <string name="miuix_appcompat_confirm_description">Confirmer</string>
@@ -443,6 +517,20 @@
     <string name="miuix_appcompat_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_select_all_description">Tout sélectionner</string>
     <string name="miuix_appcompat_select_item">Sélectionnez les éléments</string>
+    <string name="miuix_appcompat_show_dialog_description">Fenêtre contextuelle</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Glissez vers le bas pour fermer</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Balayez vers le bas pour passer au demi-écran</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Balayez vers le bas pour minimiser</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Balayez vers le haut pour passer au demi-écran</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Balayez vers le haut pour maximiser</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Demi-écran</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximisé</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimisé</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">"Passer à la moitié de l'écran"</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximiser</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimiser</string>
+    <string name="miuix_popup_window_default_title">Fenêtre contextuelle</string>
+    <string name="miuix_progressbar_loading">Chargement</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Faites glisser vers le bas pour actualiser</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualisé avec succès</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Actualisation…</string>
@@ -451,6 +539,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">"C'est tout pour le moment"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Juste un instant…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Impossible de charger les éléments</string>
+    <string name="miuix_show_password">Afficher le mot de passe</string>
+    <string name="miuix_stretchablewidget_collapsed">Réduit</string>
+    <string name="miuix_stretchablewidget_expanded">Étendu</string>
     <string name="model_manager_title">Gérer les modèles</string>
     <string name="model_message">Version %d</string>
     <string name="model_notification">Téléchargement du grand modèle…</string>
@@ -498,6 +589,9 @@
     <string name="more">Plus</string>
     <string name="morning">Matin</string>
     <string name="mtrl_badge_numberless_content_description">Nouvelle notification</string>
+    <string name="mtrl_checkbox_state_description_checked">Cochée</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Partiellement cochée</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Non cochée</string>
     <string name="mtrl_chip_close_icon_content_description">Supprimer %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Plus de %1$d nouvelles notifications</string>
     <string name="mtrl_picker_a11y_next_month">Passer au mois suivant</string>
@@ -510,7 +604,7 @@
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Sélectionnez une date</string>
     <string name="mtrl_picker_date_header_unselected">Date sélectionnée</string>
-    <string name="mtrl_picker_day_of_week_column_header">Colonne du jour de la semaine : %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
     <string name="mtrl_picker_end_date_description">Date de fin : %1$s</string>
     <string name="mtrl_picker_invalid_format">Format incorrect.</string>
     <string name="mtrl_picker_invalid_format_example">Exemple : %1$s</string>
@@ -550,6 +644,7 @@
     <string name="notification_operation_failed">"Impossible de se souvenir de l'habitude"</string>
     <string name="notification_remember_habit">Habitude retenu</string>
     <string name="notification_remember_this_habit">"Se souvenir de l'habitude"</string>
+    <string name="pasport_register_dialog_message">Créer un Compte Xiaomi avec votre numéro de téléphone %s maintenant ?</string>
     <string name="passport_access_denied">Accès refusé</string>
     <string name="passport_account_crop_user_avatar">Rogner une photo</string>
     <string name="passport_account_empty_user_name">Saisir votre nom</string>
@@ -566,7 +661,7 @@
     <string name="passport_account_secure_info_pref_title">Informations du compte</string>
     <string name="passport_account_security_info_pref_title">Informations de sécurité</string>
     <string name="passport_account_user_avatar">Photo de profil</string>
-    <string name="passport_account_user_avatar_from_album">Galerie</string>
+    <string name="passport_account_user_avatar_from_album">Sélectionnez depuis Galerie</string>
     <string name="passport_account_user_avatar_from_camera">Appareil photo</string>
     <string name="passport_account_user_base_info">Informations de base</string>
     <string name="passport_account_user_details">Informations personnelles</string>
@@ -580,7 +675,6 @@
     <string name="passport_agree">Accepter</string>
     <string name="passport_area_code_title">Indicatif régional</string>
     <string name="passport_attention">Attention</string>
-    <string name="passport_auth_fail_warning">Session expirée. Reconnectez-vous.</string>
     <string name="passport_back">Retour</string>
     <string name="passport_bad_authentication">Identifiant ou mot de passe incorrect</string>
     <string name="passport_can_not_recevie_verify_code">"Vous n'avez pas reçu de code ?"</string>
@@ -602,11 +696,9 @@
     <string name="passport_doing_query_account">Vérification des informations du compte…</string>
     <string name="passport_error_auth_fail">La session a expiré. Connectez-vous à nouveau.</string>
     <string name="passport_error_device_id">"Impossible d'obtenir l'identifiant de l'appareil"</string>
-    <string name="passport_error_dup_binded_email">Cette adresse e-mail est déjà associée avec un autre Compte Xiaomi.</string>
     <string name="passport_error_empty_password">Entrez votre mot de passe</string>
     <string name="passport_error_empty_pwd">Le mot de passe ne peut pas être vide</string>
     <string name="passport_error_empty_user_id">"Saisissez votre nom d'utilisateur"</string>
-    <string name="passport_error_invalid_bind_address">"L'adresse e-mail saisie n'est pas valide."</string>
     <string name="passport_error_length_limit">Le texte que vous avez saisi est trop long</string>
     <string name="passport_error_network">Impossible de se connecter au réseau</string>
     <string name="passport_error_no_password_user">"Vous n'avez pas encore défini le mot de passe. Connectez-vous avec un SMS."</string>
@@ -622,17 +714,14 @@
     <string name="passport_error_unknown">Erreur inconnue</string>
     <string name="passport_error_user_name">"Le nom d'utilisateur que vous avez saisi n'est pas valide"</string>
     <string name="passport_error_user_password">Les mots de passe ne correspondent pas</string>
-    <string name="passport_exceed_binded_phone_times_notice">Ce numéro de téléphone est déjà associé avec un autre Compte Xiaomi.</string>
     <string name="passport_facebook_login_btn_content_description">Se connecter avec Facebook</string>
     <string name="passport_frequency_try_later">Trop de tentatives. Patientez une minute ou deux et réessayez.</string>
     <string name="passport_get_login_type_next">Suivant</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Trop de codes de vérification ont été envoyés à ce numéro. Attendez 24 heures et réessayez.</string>
     <string name="passport_google_login_btn_content_description">Se connecter avec Google</string>
     <string name="passport_help">Aide</string>
     <string name="passport_i_know">"C'est compris"</string>
     <string name="passport_identification_expired">Le code de vérification a expiré. Recommencez.</string>
     <string name="passport_input_captcha_hint">Saisir le code</string>
-    <string name="passport_input_email_address_notice">Nous utiliserons cet e-mail pour vérifier votre compte</string>
     <string name="passport_input_password_hint">Saisir le mot de passe</string>
     <string name="passport_input_phone_number_hint">Entrez un numéro de téléphone</string>
     <string name="passport_input_verify_code">Entrez le code de vérification</string>
@@ -644,7 +733,6 @@
     <string name="passport_login_register_by_local_phone_long_text">Créer un compte</string>
     <string name="passport_login_with_sns">Autres méthodes pour se connecter</string>
     <string name="passport_logout_account">Se déconnecter</string>
-    <string name="passport_mi_account_first_title">Nous créerons automatiquement un compte si vous utilisez votre numéro de téléphone pour la première fois.</string>
     <string name="passport_mi_account_title">Se connecter avec Compte Xiaomi</string>
     <string name="passport_network_error">"Une erreur de réseau s'est produite. Vérifiez vos paramètres de réseau et réessayez."</string>
     <string name="passport_network_error_hint">"Vérifiez l'URL et réessayez, ou copiez l'URL et ouvrez-le dans votre navigateur."</string>
@@ -653,6 +741,7 @@
     <string name="passport_no_account">Non connecté</string>
     <string name="passport_open_settings">Paramètres</string>
     <string name="passport_page_load_failed">"Impossible d'ouvrir la page"</string>
+    <string name="passport_password_hide_show">Masquer le mot de passe</string>
     <string name="passport_password_login_btn">Se connecter</string>
     <string name="passport_password_not_show">Ne pas afficher le mot de passe</string>
     <string name="passport_password_show">Afficher le mot de passe</string>
@@ -664,6 +753,8 @@
     <string name="passport_reging">Création du compte en cours…</string>
     <string name="passport_register_by_local_phone_long_text">Créer un compte</string>
     <string name="passport_register_by_local_phone_short_text">Créer un compte</string>
+    <string name="passport_register_dialog_positive">Créer</string>
+    <string name="passport_register_dialog_title">Créer un Compte Xiaomi</string>
     <string name="passport_register_restricted">Trop de comptes ont été associés à ce numéro. Essayez avec un numéro différent.</string>
     <string name="passport_relogin_notice">Vous devez de nouveau vous connecter</string>
     <string name="passport_request_agree">Autoriser</string>
@@ -672,40 +763,37 @@
     <string name="passport_request_error_invalid_token">Impossible de vérifier</string>
     <string name="passport_request_error_network">"Une erreur de réseau s'est produite. Vérifiez vos paramètres de réseau et réessayez."</string>
     <string name="passport_request_error_unknown">"Une erreur système s'est produite. Revenez en arrière et réessayez."</string>
-    <string name="passport_request_gallery_permission_message">"Autoriser l'accès à la Galerie :&lt;br />Pour définir les photos de profil"</string>
-    <string name="passport_resend_email_reach_limit_message">"Vous avez envoyé trop d'e-mails de vérification. Assurez-vous que l'e-mail de vérification n'est pas dans le dossier de courriers indésirables de votre boîte de réception."</string>
-    <string name="passport_resend_email_reach_limit_title">Trop de tentatives</string>
+    <string name="passport_request_gallery_permission_message">Cette application doit accéder à certains éléments de la Galerie pour pouvoir définir votre photo de profil. Autoriser maintenant ?</string>
+    <string name="passport_request_permission_title">Autorisations requises</string>
     <string name="passport_resend_ticket">Renvoyer le code</string>
     <string name="passport_retry">Réessayer</string>
-    <string name="passport_same_new_and_old_pwd">Ne peut pas être identique au mot de passe actuel</string>
     <string name="passport_send_sms_to">Code envoyé à %1$s</string>
     <string name="passport_send_too_many_code">Trop de codes de vérification ont été envoyés à ce numéro. Attendez 24 heures et réessayez.</string>
     <string name="passport_sending_vcode">Envoi du code en cours…</string>
-    <string name="passport_service_error">Erreur serveur</string>
     <string name="passport_set_password_no_phone_msg">Ajoutez votre numéro de téléphone pour protéger votre compte.</string>
     <string name="passport_skip_query_account">Passer</string>
-    <string name="passport_sns_access_token_expired_warning">Session expirée. Connectez-vous à nouveau pour reconnecter ce compte.</string>
     <string name="passport_sns_bind_limit">"Trop de tentatives. Essayez d'autres moyens pour vous connecter."</string>
     <string name="passport_system_error">Le système est occupé. Patientez une ou deux minutes et réessayez.</string>
     <string name="passport_talkback_image_captcha">Image du code de vérification</string>
     <string name="passport_talkback_switch_image_captcha">Changer pour le code de vérification image</string>
     <string name="passport_talkback_switch_voice_captcha">Changer pour le code de vérification vocal</string>
     <string name="passport_talkback_voice_captcha">Lire le code de vérification vocal</string>
+    <string name="passport_third_sns_service_unavailable">"Le service n'est pas disponible. Assurez-vous que l'application est installée et non bloquée."</string>
     <string name="passport_ticket_send_by_second">Envoyer dans %d</string>
     <string name="passport_to_forget_password">Mot de passe oublié ?</string>
     <string name="passport_to_password_login">Se connecter avec un mot de passe</string>
     <string name="passport_to_verify_code_login">Se connecter via SMS</string>
     <string name="passport_unknown_error">Erreur inconnue</string>
     <string name="passport_unknown_host_network_error">Vérifiez vos paramètres de réseau et réessayez</string>
-    <string name="passport_user_agreement_hint_3rd_app">"&lt;Data>J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et la &lt;a href=%2$s>Politique de Confidentialité&lt;/a> et l'&lt;a href=%3$s>Accord Utilisateur&lt;/a> et &lt;a href=%4$s>Politique de Confidentialité&lt;/a> du Compte Xiaomi.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">"&lt;Data>J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et la &lt;a href=%2$s>Politique de Confidentialité&lt;/a> , et l'&lt;a href=%3$s>Accord Utilisateur&lt;/a> et &lt;a href=%4$s>Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%5$s>Conditions d'utilisation des services de vérification de China Mobile&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">"&lt;Data>J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et &lt;a href=%2$s>Politique de Confidentialité&lt;/a>, et l' &lt;a href=%3$s>Accord Utilisateur&lt;/a> et &lt;a href=%4$s>Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%5$s>Conditions d'utilisation des services de vérification du compte eSurfing&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">"&lt;Data>J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et la &lt;a href=%2$s>Politique de Confidentialité&lt;/a>, et l' &lt;a href=%3$s>Accord Utilisateur&lt;/a> et &lt;a href=%4$s>Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%5$s>Conditions d'utilisation des services de vérification de China Unicom&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_default">"&lt;Data>J'ai lu et accepté l'&lt;a href=%1$s>Accord Utilisateur&lt;/a> et &lt;a href=%2$s>Politique de Confidentialité&lt;/a> du Compte Xiaomi.&lt;/Data>"</string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>"J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et la &lt;a href=%2$s>Politique de Confidentialité&lt;/a> et l'&lt;a href=%3$s>Accord Utilisateur&lt;/a> et &lt;a href=%4$s>Politique de Confidentialité&lt;/a> du Compte Xiaomi."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>"J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et la &lt;a href=%2$s>Politique de Confidentialité&lt;/a> , et l'&lt;a href=%3$s>Accord Utilisateur&lt;/a> et &lt;a href=%4$s>Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%5$s>Conditions d'utilisation des services de vérification de China Mobile&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>"J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et &lt;a href=%2$s>Politique de Confidentialité&lt;/a>, et l' &lt;a href=%3$s>Accord Utilisateur&lt;/a> et &lt;a href=%4$s>Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%5$s>Conditions d'utilisation des services de vérification du compte eSurfing&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>"J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et la &lt;a href=%2$s>Politique de Confidentialité&lt;/a>, et l' &lt;a href=%3$s>Accord Utilisateur&lt;/a> et &lt;a href=%4$s>Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%5$s>Conditions d'utilisation des services de vérification de China Unicom&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>"J'ai lu et accepté l'&lt;a href=%1$s>Accord Utilisateur&lt;/a> et &lt;a href=%2$s>Politique de Confidentialité&lt;/a> du Compte Xiaomi."</Data></string>
     <string name="passport_user_agreement_hint_first_login">Nous créerons automatiquement un compte si vous utilisez votre numéro de téléphone pour la première fois.</string>
-    <string name="passport_user_agreement_hint_with_mobile">"&lt;Data>J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et &lt;a href=%2$s> Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%3$s>Conditions d'utilisation des services de vérification de China Mobile&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_with_telecom">"&lt;Data>J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et &lt;a href=%2$s> Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%3$s>Conditions d'utilisation des services de vérification du compte eSurfing&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_with_unicom">"&lt;Data>J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et &lt;a href=%2$s> Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%3$s>Conditions d'utilisation des services de vérification de China Unicom&lt;/a>.&lt;/Data>"</string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>"J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et &lt;a href=%2$s> Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%3$s>Conditions d'utilisation des services de vérification de China Mobile&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>"J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et &lt;a href=%2$s> Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%3$s>Conditions d'utilisation des services de vérification du compte eSurfing&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>"J'ai lu et accepté l' &lt;a href=%1$s>Accord Utilisateur&lt;/a> et &lt;a href=%2$s> Politique de Confidentialité&lt;/a> du Compte Xiaomi, ainsi que les &lt;a href=%3$s>Conditions d'utilisation des services de vérification de China Unicom&lt;/a>."</Data></string>
     <string name="passport_user_avatar_update_title">Changer de photo de profil</string>
     <string name="passport_user_avatar_uploading">Un instant…</string>
     <string name="passport_user_id_hint">E-mail/Numéro de téléphone/Identifiant Compte Xiaomi</string>
@@ -722,17 +810,20 @@
     <string name="password_toggle_content_description">Afficher le mot de passe</string>
     <string name="pm">Après-midi</string>
     <string name="preference_copied">\"%1$s\" copié dans le presse-papier.</string>
-    <string name="privacy_agree">Agree</string>
-    <string name="privacy_cancel">Cancel</string>
-    <string name="privacy_cta_all_purpose_new_user">Mi AI Engine is a basic service supporting Mi AI suggestions, providing contextual awareness and smart recognition capabilities. It can perceive your situation, learn your habits, and provide accurate, personalized services. Your agreement to the Mi AI Engine Privacy Policy also covers services that rely on Mi AI Engine (e.g. Xiaomi HyperMind).</string>
-    <string name="privacy_cta_all_purpose_old_user">Mi AI Engine is a basic service supporting Mi AI suggestions, providing contextual awareness and smart recognition capabilities. It can perceive your situation, learn your habits, and provide accurate, personalized services. With this update, Mi AI suggestions cloud data will be transferred to the new service, and local data will no longer be used. Mi AI Engine will relearn this information. Your agreement to the Mi AI Engine Privacy Policy also covers services that rely on Mi AI Engine (e.g. Xiaomi HyperMind).</string>
+    <string name="privacy_agree">Accepter</string>
+    <string name="privacy_cancel">Annuler</string>
+    <string name="privacy_cta_all_purpose_new_user">Mi AI Engine est un service de base qui prend en charge les suggestions de Mi IA, offrant une prise de conscience contextuelle et des capacités de reconnaissance intelligente. Il peut percevoir votre situation, apprendre vos habitudes et fournir des services précis et personnalisés. Votre accord à la Politique de Confidentialité de Mi AI Engine couvre également les services qui reposent sur Mi AI Engine (par ex. Xiaomi HyperMind).</string>
+    <string name="privacy_cta_all_purpose_old_user">Mi AI Engine est un service de base qui prend en charge les suggestions de Mi IA, offrant une prise de conscience contextuelle et des capacités de reconnaissance intelligente. Il peut percevoir votre situation, apprendre vos habitudes et fournir des services précis et personnalisés. Avec cette mise à jour, les données du cloud de suggestions Mi IA seront transférées vers le nouveau service et les données locales ne seront plus utilisées. Mi AI Engine va relire cette information. Votre accord à la Politique de Confidentialité de Mi AI Engine couvre également les services qui reposent sur Mi AI Engine (par ex. Xiaomi HyperMind).</string>
     <string name="privacy_update_user_notice_title">Attention</string>
     <string name="prompt_delete_model">Supprimer ce modèle ?</string>
     <string name="saturday">Samedi</string>
     <string name="saturday_short">Sam</string>
     <string name="saturday_shortest">Sam</string>
     <string name="search_menu_title">Rechercher</string>
+    <string name="searchview_clear_text_content_description">Effacer le texte</string>
+    <string name="searchview_navigation_content_description">Retour</string>
     <string name="send">Envoyer</string>
+    <string name="side_sheet_accessibility_pane_title">Feuille latérale</string>
     <string name="space_btn">"C'est compris"</string>
     <string name="space_message">"Espace insuffisant sur le stockage interne. Libérez de l'espace et réessayez."</string>
     <string name="space_title">Espace de stockage insuffisant</string>

@@ -192,6 +192,12 @@
         <item quantity="few">%d aplikácie sa nemôžu pripojiť na sieť na pozadí</item>
         <item quantity="many">%d aplikácie sa nemôže pripojiť na sieť na pozadí</item>
     </plurals>
+    <plurals name="biometric_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Skúste to znova a %d sekúnd</item>
+        <item quantity="one">Skúste to znova a %d sekundu</item>
+        <item quantity="few">Skúste to znova a %d sekundy</item>
+        <item quantity="many">Skúste to znova a %d sekúnd</item>
+    </plurals>
     <plurals name="cache_check_content">
         <item quantity="other">Chránených %d aplikácií</item>
         <item quantity="one">Chránená %d aplikácia</item>
@@ -260,6 +266,18 @@ Ak znova zapnete mobilné dáta, váš operátor vám môže účtovať ďalšie
         <item quantity="few">%s min.</item>
         <item quantity="many">%s min.</item>
     </plurals>
+    <plurals name="fast_open_list_not_open_title">
+        <item quantity="other">Režim rýchleho otvorenia nemôže prerušiť %s aplikácie</item>
+        <item quantity="one">Režim rýchleho otvorenia nemôže prerušiť %s aplikáciu</item>
+        <item quantity="few">Režim rýchleho otvorenia nemôže prerušiť %s aplikáciu</item>
+        <item quantity="many">Režim rýchleho otvorenia nemôže prerušiť %s aplikácie</item>
+    </plurals>
+    <plurals name="fast_open_list_open_title">
+        <item quantity="other">Režim rýchleho otvorenia môže prerušiť %s aplikácií</item>
+        <item quantity="one">Režim rýchleho otvorenia môže prerušiť %s aplikáciu</item>
+        <item quantity="few">Režim rýchleho otvorenia môže prerušiť %s aplikácie</item>
+        <item quantity="many">Režim rýchleho otvorenia môže prerušiť %s aplikácií</item>
+    </plurals>
     <plurals name="find_applications">
         <item quantity="other">Vyhľadať medzi %d aplikáciami</item>
         <item quantity="one">Vyhľadať medzi %d apl.</item>
@@ -321,16 +339,28 @@ Ak znova zapnete mobilné dáta, váš operátor vám môže účtovať ďalšie
         <item quantity="many">%1$s</item>
     </plurals>
     <plurals name="gamebooster_push_expiring_soon_link_message">
-        <item quantity="other">Your Game Turbo membership will expire in %d days.</item>
-        <item quantity="one">Your Game Turbo membership will expire in %d day.</item>
-        <item quantity="few">Your Game Turbo membership will expire in %d days.</item>
-        <item quantity="many">Your Game Turbo membership will expire in %d days.</item>
+        <item quantity="other">Platnosť vášho členstva v Game Turbo vyprší za %d dní</item>
+        <item quantity="one">Platnosť vášho členstva v Game Turbo vyprší za %d deň</item>
+        <item quantity="few">Platnosť vášho členstva v Game Turbo vyprší za %d dni</item>
+        <item quantity="many">Platnosť vášho členstva v Game Turbo vyprší za %d dňa</item>
     </plurals>
     <plurals name="gamebooster_push_expiring_soon_message">
         <item quantity="other">Vaše členstvo Game Turbo vyprší za %d dní. Obnovte si členstvo a užívajte si rýchlejšie herné prostredie.</item>
         <item quantity="one">Vaše členstvo Game Turbo vyprší za %d deň. Obnovte si členstvo a užívajte si rýchlejšie herné prostredie.</item>
         <item quantity="few">Vaše členstvo Game Turbo vyprší za %d dni. Obnovte si členstvo a užívajte si rýchlejšie herné prostredie.</item>
         <item quantity="many">Vaše členstvo Game Turbo vyprší za %d dňa. Obnovte si členstvo a užívajte si rýchlejšie herné prostredie.</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_minute_talkback">
+        <item quantity="other">%1$d minút</item>
+        <item quantity="one">%1$d minúta</item>
+        <item quantity="few">%1$d minúty</item>
+        <item quantity="many">%1$d minúty</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_second_talkback">
+        <item quantity="other">%1$d sekúnd</item>
+        <item quantity="one">%1$d sekunda</item>
+        <item quantity="few">%1$d sekundy</item>
+        <item quantity="many">%1$d sekundy</item>
     </plurals>
     <plurals name="gb_ad_people_play">
         <item quantity="other">práve hrá %1$d ľudí</item>
@@ -470,6 +500,12 @@ Teraz môžete získať %d-dňovú skúšobnú verziu zadarmo!"</item>
         <item quantity="few">Pridajte až %d aplikácie. Stlačte a podržte pre usporiadanie.</item>
         <item quantity="many">Pridajte až %d aplikácie. Stlačte a podržte pre usporiadanie.</item>
     </plurals>
+    <plurals name="group_have_hongbao">
+        <item quantity="other">%2$d červených obálok od %1$s</item>
+        <item quantity="one">%2$d červená obálka od %1$s</item>
+        <item quantity="few">%2$d červené obálky od %1$s</item>
+        <item quantity="many">%2$d červenej obálky od %1$s</item>
+    </plurals>
     <plurals name="gtb_brightness_dialog_message">
         <item quantity="other">Táto funkcia automaticky znižuje jas obrazovky po %d minútach nečinnosti a šetrí batériu. Ponechať túto funkciu zapnutú?</item>
         <item quantity="one">Táto funkcia automaticky znižuje jas obrazovky po %d minúte nečinnosti a šetrí batériu. Ponechať túto funkciu zapnutú?</item>
@@ -483,10 +519,10 @@ Teraz môžete získať %d-dňovú skúšobnú verziu zadarmo!"</item>
         <item quantity="many">Automaticky znížte jas obrazovky a šetrite batériu po %d minútach nečinnosti</item>
     </plurals>
     <plurals name="gtb_spring_festival_colored_egg">
-        <item quantity="other">"Congrats! You've unlocked %s Easter eggs."</item>
-        <item quantity="one">"Congrats! You've unlocked %s Easter egg."</item>
-        <item quantity="few">"Congrats! You've unlocked %s Easter eggs."</item>
-        <item quantity="many">"Congrats! You've unlocked %s Easter eggs."</item>
+        <item quantity="other">Gratulujeme! Odomkli ste %s veľkonočných vajíčok.</item>
+        <item quantity="one">Gratulujeme! Odomkli ste %s veľkonočné vajíčko.</item>
+        <item quantity="few">Gratulujeme! Odomkli ste %s veľkonočné vajíčka.</item>
+        <item quantity="many">Gratulujeme! Odomkli ste %s veľkonočného vajíčka.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Pred pol hodinou</item>
@@ -512,11 +548,23 @@ Teraz môžete získať %d-dňovú skúšobnú verziu zadarmo!"</item>
         <item quantity="few">%d aplikácie sa nespustia automaticky</item>
         <item quantity="many">%d aplikácie sa nespustí automaticky</item>
     </plurals>
+    <plurals name="hints_auto_start_disable_title_global">
+        <item quantity="other">%d aplikácií sa nedá spustiť na pozadí</item>
+        <item quantity="one">%d aplikácia sa nedá spustiť na pozadí</item>
+        <item quantity="few">%d aplikácie sa nedajú spustiť na pozadí</item>
+        <item quantity="many">%d aplikácie sa nedá spustiť na pozadí</item>
+    </plurals>
     <plurals name="hints_auto_start_enable_title">
         <item quantity="other">%d aplikácií sa spustí automaticky</item>
         <item quantity="one">%d aplikácia sa spustí automaticky</item>
         <item quantity="few">%d aplikácie sa spustia automaticky</item>
         <item quantity="many">%d aplikácia sa spustí automaticky</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title_global">
+        <item quantity="other">Na pozadí sa môže spustiť %d aplikácií</item>
+        <item quantity="one">Na pozadí sa môže spustiť %d aplikácia</item>
+        <item quantity="few">Na pozadí sa môžu spustiť %d aplikácie</item>
+        <item quantity="many">Na pozadí sa môže spustiť %d aplikácie</item>
     </plurals>
     <plurals name="hints_get_root_disable_title">
         <item quantity="other">%d aplikácií nemá prístup k root</item>
@@ -557,7 +605,7 @@ Teraz môžete získať %d-dňovú skúšobnú verziu zadarmo!"</item>
     <plurals name="hints_roaming_enable_title">
         <item quantity="other">%d aplikácií môže používať roamingové dáta</item>
         <item quantity="one">%d aplikácia môže používať roamingové dáta</item>
-        <item quantity="few">%d aplikácie môžu používať roamingové dáta</item>
+        <item quantity="few">Aplikácie (%d) môžu použiť mobilné dáta</item>
         <item quantity="many">%d aplikácie môže používať roamingové dáta</item>
     </plurals>
     <plurals name="hints_roaming_found_app_count_title">
@@ -656,11 +704,23 @@ Teraz môžete získať %d-dňovú skúšobnú verziu zadarmo!"</item>
         <item quantity="few">"Počkajte %d sekundy a skúste to znova. "</item>
         <item quantity="many">"Počkajte %d sekundy a skúste to znova. "</item>
     </plurals>
+    <plurals name="main_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
+    </plurals>
     <plurals name="manual_white_list_header">
         <item quantity="other">%d výnimiek</item>
         <item quantity="one">%d výnimka</item>
         <item quantity="few">%d výnimky</item>
         <item quantity="many">%d výnimky</item>
+    </plurals>
+    <plurals name="mark_call_intercept_threshold_dialog_title">
+        <item quantity="other">Limit: %d</item>
+        <item quantity="one">Limit: %d</item>
+        <item quantity="few">Limit: %d</item>
+        <item quantity="many">Limit: %d</item>
     </plurals>
     <plurals name="marked_by_others">
         <item quantity="other">%d iných používateľov označilo položku ako</item>
@@ -696,7 +756,7 @@ Teraz môžete získať %d-dňovú skúšobnú verziu zadarmo!"</item>
         <item quantity="other">Vybraných %d položiek</item>
         <item quantity="one">Vybraná %d položka</item>
         <item quantity="few">Vybrané %d položky</item>
-        <item quantity="many">Vybranej %d položky</item>
+        <item quantity="many">Vybraných %d položiek</item>
     </plurals>
     <plurals name="mixed_recording_incorrect_too_short">
         <item quantity="other">Zadajte najmenej %d znakov</item>
@@ -847,6 +907,18 @@ Teraz môžete získať %d-dňovú skúšobnú verziu zadarmo!"</item>
         <item quantity="one">%d aplikácia vybíja batériu</item>
         <item quantity="few">%d aplikácie vybíjajú batériu</item>
         <item quantity="many">%d aplikácie vybíja batériu</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_hour">
+        <item quantity="other">%d hodín</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodiny</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_minute">
+        <item quantity="other">%d minút</item>
+        <item quantity="one">%d minúta</item>
+        <item quantity="few">%d minúty</item>
+        <item quantity="many">%d minúty</item>
     </plurals>
     <plurals name="pc_battery_history_hour">
         <item quantity="other">" hod."</item>
@@ -1196,6 +1268,12 @@ Teraz môžete získať %d-dňovú skúšobnú verziu zadarmo!"</item>
         <item quantity="few">%s-krát</item>
         <item quantity="many">%s-krát</item>
     </plurals>
+    <plurals name="privacy_revoke_dialog_positive_text_numbers_description">
+        <item quantity="other">Súhlas môžete odvolať do %d sekúnd</item>
+        <item quantity="one">Súhlas môžete odvolať do %d sekundy</item>
+        <item quantity="few">Súhlas môžete odvolať do %d sekúnd</item>
+        <item quantity="many">Súhlas môžete odvolať do %d sekundy</item>
+    </plurals>
     <plurals name="privacy_risk_app_count">
         <item quantity="other">%d aplikácií</item>
         <item quantity="one">%d aplikácia</item>
@@ -1364,6 +1442,24 @@ Teraz môžete získať %d-dňovú skúšobnú verziu zadarmo!"</item>
         <item quantity="few">Upravenie %1$d povolení</item>
         <item quantity="many">Upravenie %1$d povolenia</item>
     </plurals>
+    <plurals name="storage_fbo_btn_result_time">
+        <item quantity="other">Zostáva %1$d minút</item>
+        <item quantity="one">Zostáva %1$d minúta</item>
+        <item quantity="few">Zostávajú %1$d minúty</item>
+        <item quantity="many">Zostáva %1$d minúty</item>
+    </plurals>
+    <plurals name="storage_fbo_finish_tip">
+        <item quantity="other">Defragmentácia dokončená. Usporiadaných %1$d fragmentov.</item>
+        <item quantity="one">Defragmentácia dokončená. Usporiadaný %1$d fragment.</item>
+        <item quantity="few">Defragmentácia dokončená. Usporiadanýé %1$d fragmenty.</item>
+        <item quantity="many">Defragmentácia dokončená. Usporiadaného %1$d fragmentu.</item>
+    </plurals>
+    <plurals name="storage_fbo_notification_finish_content">
+        <item quantity="other">Usporiadaných %1$d fragmentov</item>
+        <item quantity="one">Usporiadaný %1$d fragment</item>
+        <item quantity="few">Usporiadané %1$d fragmenty</item>
+        <item quantity="many">Usporiadaného %1$d fragmentu</item>
+    </plurals>
     <plurals name="storage_fbo_number_unit">
         <item quantity="other">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragmentov</item>
         <item quantity="one">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragment</item>
@@ -1441,6 +1537,18 @@ Teraz môžete získať %d-dňovú skúšobnú verziu zadarmo!"</item>
         <item quantity="one">Zadajte %s číslicu</item>
         <item quantity="few">Zadajte %s číslice</item>
         <item quantity="many">Zadajte %s číslic</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_hour">
+        <item quantity="other">%d hod.</item>
+        <item quantity="one">%d hod.</item>
+        <item quantity="few">%d hod.</item>
+        <item quantity="many">%d hod.</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_minute">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
     </plurals>
     <plurals name="videobox_settings_manager_apps_count">
         <item quantity="other">%d aplikácií</item>

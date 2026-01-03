@@ -45,7 +45,7 @@
     </string-array>
     <string-array name="ap_identify">
         <item>Par défaut</item>
-        <item>"Point d'accès Wi-Fi mobile"</item>
+        <item>"Point d'accès mobile"</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>Aucune</item>
@@ -286,7 +286,7 @@
         <item>Optimisé pour la qualité audio (990kbps/909kbps)</item>
         <item>Équilibre audio et qualité de connexion (660kbps / 606kbps)</item>
         <item>Optimisé pour la qualité de connexion (330kbps/303kbps)</item>
-        <item>Meilleur effort (débit binaire adaptatif)</item>
+        <item>Meilleur effet (débit binaire adaptatif)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
         <item>Latence courte</item>
@@ -313,18 +313,20 @@
         <item>Meilleur effort (débit binaire automatique)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Utiliser la sélection du système (par défaut)</item>
-        <item>44,1 kHz</item>
-        <item>48 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96 kHz</item>
+        <item>Utiliser la préférence de système (Par défaut)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Utiliser la sélection du système (par défaut)</item>
-        <item>44,1 kHz</item>
-        <item>48 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96 kHz</item>
+        <item>Utiliser la préférence de système (Par défaut)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Utiliser la préférence de système (par défaut)</item>
@@ -339,7 +341,7 @@
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Autoriser les codecs facultatifs</item>
+        <item>Activer les codecs facultatifs</item>
         <item>Désactiver les codecs facultatifs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
@@ -540,7 +542,7 @@
         <item>Orange</item>
     </string-array>
     <string-array name="common_password_business_names">
-        <item>Écran de verrouillage</item>
+        <item>"Verrouillage d'écran"</item>
         <item>Mot de passe de protection de la vie privée</item>
         <item>Mode enfant</item>
         <item>Gestionnaire de fichiers</item>
@@ -582,6 +584,7 @@
         <item>Afficher les zones de conflit</item>
         <item>Afficher couleurs de zones adaptées à deutéranomalie</item>
     </string-array>
+    <array name="display_over_apps_permission_change_exempt" />
     <string-array name="eap_ocsp_type">
         <item>Ne pas vérifier</item>
         <item>"Demander l'état du certificat"</item>
@@ -620,7 +623,7 @@
         <item>Désactivé</item>
         <item>Faible</item>
         <item>Moyen</item>
-        <item>Fort</item>
+        <item>Élevé</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Ne jamais utiliser la vérification HDCP</item>
@@ -828,7 +831,7 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>En déplacement…</item>
     </string-array>
     <string-array name="nfc_notification_mode_summaries">
-        <item>Paiement, accès et cartes à puce</item>
+        <item>Paiement, accès et cartes connectés</item>
         <item>Appariement Bluetooth, connexion sans fil et cartes à puce</item>
     </string-array>
     <string-array name="nfc_notification_mode_titles">
@@ -882,7 +885,7 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>ke</item>
         <item>ls</item>
         <item>mw</item>
-        <item>my</item>
+        <item>mon</item>
         <item>mx</item>
         <item>ma</item>
         <item>mz</item>
@@ -1029,12 +1032,12 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>@drawable/powerclick01</item>
     </array>
     <string-array name="power_mode_entries">
-        <item>Performance</item>
+        <item>Haute performance</item>
         <item>Équilibré</item>
     </string-array>
     <string-array name="preferred_app_entries">
         <item>Lanceur</item>
-        <item>Composer un numéro</item>
+        <item>Composer</item>
         <item>Messagerie</item>
         <item>Navigateur</item>
         <item>Appareil photo</item>
@@ -1105,6 +1108,33 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>Standard</item>
         <item>Froid</item>
     </string-array>
+    <string-array name="screen_flash_color_entries">
+        <item>@string/screen_flash_color_none</item>
+        <item>@string/screen_flash_color_blue</item>
+        <item>@string/screen_flash_color_green</item>
+        <item>@string/screen_flash_color_yellow</item>
+        <item>@string/screen_flash_color_orange</item>
+        <item>@string/screen_flash_color_red</item>
+        <item>@string/screen_flash_color_violet</item>
+    </string-array>
+    <array name="screen_flash_color_icons">
+        <item>@drawable/screen_flash_color_none</item>
+        <item>@drawable/screen_flash_color_blue</item>
+        <item>@drawable/screen_flash_color_green</item>
+        <item>@drawable/screen_flash_color_yellow</item>
+        <item>@drawable/screen_flash_color_orange</item>
+        <item>@drawable/screen_flash_color_red</item>
+        <item>@drawable/screen_flash_color_violet</item>
+    </array>
+    <string-array name="screen_flash_color_values">
+        <item>0</item>
+        <item>4D0000FE</item>
+        <item>6600FF01</item>
+        <item>66FFFF00</item>
+        <item>66FF7F00</item>
+        <item>66FE0000</item>
+        <item>667F00FF</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0,5 seconde</item>
         <item>1 seconde</item>
@@ -1124,9 +1154,17 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>Toujours améliorer les couleurs</item>
         <item>Le contraste restera constant</item>
     </string-array>
+    <string-array name="screen_optimize_summary_new">
+        <item>Couleurs améliorées pour un affichage plus dynamique</item>
+        <item>"Restaurer les couleurs d'écran standard"</item>
+    </string-array>
     <string-array name="screen_optimize_title">
         <item>Intense (recommandé)</item>
         <item>Saturé</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="screen_optimize_title_new">
+        <item>Intense (recommandé)</item>
         <item>Standard</item>
     </string-array>
     <string-array name="screen_resolution_format">
@@ -1208,6 +1246,24 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>Tous sauf radio</item>
         <item>noyau uniquement</item>
     </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>"Écran de l'appareil uniquement (par défaut)"</item>
+        <item>Écran externe</item>
+        <item>"Dernière interaction avec la barre d'état"</item>
+        <item>Basé sur la sélection</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>"Afficher le volet sur l'écran de l'appareil uniquement"</item>
+        <item>Afficher le volet sur un seul écran externe</item>
+        <item>"Afficher le volet sur l'écran avec lequel la barre d'état a été utilisée en dernier lieu"</item>
+        <item>"Afficher le volet sur le dernier écran avec lequel l'utilisateur a interagi"</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>default_display</item>
+        <item>any_external_display</item>
+        <item>status_bar_latest_touch</item>
+        <item>focused_display</item>
+    </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Désactivé</item>
         <item>Dessiner zone de découpage non rectangulaire en bleu</item>
@@ -1266,12 +1322,6 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>Clair</item>
         <item>Solide</item>
     </string-array>
-    <string-array name="tare_modifiers_subfactors">
-        <item>En charge</item>
-        <item>Sommeil</item>
-        <item>"Mode Économie d'énergie"</item>
-        <item>État du processus</item>
-    </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
         <item>@drawable/threedrop01</item>
@@ -1298,7 +1348,7 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>@drawable/threedrop07</item>
     </array>
     <string-array name="time_format_entries">
-        <item>12-heures 1:00 PM</item>
+        <item>12-heures 13:00</item>
         <item>24-heures 13:00</item>
         <item>Auto (basé sur la langue du système)</item>
     </string-array>
@@ -1335,10 +1385,18 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>Toujours améliorer les couleurs</item>
         <item>"Restaurez la couleur standard du contenu de l'écran avec l'étalonnage des couleurs"</item>
     </string-array>
+    <string-array name="true_color_screen_optimize_summary_new">
+        <item>Couleurs améliorées pour un affichage plus dynamique</item>
+        <item>"Restaurez la couleur standard du contenu de l'écran avec l'étalonnage des couleurs"</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Intense (recommandé)</item>
         <item>Saturé</item>
         <item>Couleur original</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title_new">
+        <item>Intense (recommandé)</item>
+        <item>Original</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>60 %</item>
@@ -1374,7 +1432,7 @@ Note : seulement pour Ubuntu 8.04 !"</item>
     <string-array name="usb_connection_mode_entries">
         <item>Demander lors de la connexion</item>
         <item>Charge seulement</item>
-        <item>Monter la carte SD</item>
+        <item>Monter la carte mémoire</item>
     </string-array>
     <string-array name="vip_mode_text">
         <item>"De n'importe qui"</item>
@@ -1405,7 +1463,7 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>@string/wapi_psk_type_hex</item>
     </string-array>
     <string-array name="wfd_status">
-        <item>Démarrage de la session…</item>
+        <item>Préparation de la session…</item>
         <item>Session démarrée</item>
         <item>Désactivation du service…</item>
         <item>Impossible de démarrer la session</item>
@@ -1574,5 +1632,47 @@ Note : seulement pour Ubuntu 8.04 !"</item>
         <item>"Échelle d'animation x 2"</item>
         <item>"Échelle d'animation x 5"</item>
         <item>"Échelle d'animation x 10"</item>
+    </string-array>
+    <string-array name="zen_mode_icon_options_descriptions">
+        <item>Sacoche</item>
+        <item>Bâtiment classique</item>
+        <item>"Immeuble d'appartements"</item>
+        <item>Bulle de texte</item>
+        <item>Groupe de personnes</item>
+        <item>Ampoule</item>
+        <item>Agenda</item>
+        <item>Ne pas déranger</item>
+        <item>Personne qui court</item>
+        <item>Golf</item>
+        <item>Haltère</item>
+        <item>Natation</item>
+        <item>Personne faisant de la randonnée</item>
+        <item>Personne lançant une balle</item>
+        <item>Personne donnant un coup de pied</item>
+        <item>Manette de jeu</item>
+        <item>"Palette de couleurs d'artiste"</item>
+        <item>Flocon de neige</item>
+        <item>Parasol</item>
+        <item>"Outils d'atelier"</item>
+        <item>Piano</item>
+        <item>Bobine de film</item>
+        <item>Livre</item>
+        <item>Fleur de lotus</item>
+        <item>"Esprit d'une personne"</item>
+        <item>Écouteurs</item>
+        <item>TV</item>
+        <item>Train</item>
+        <item>Voiture</item>
+        <item>Fourchette et couteau</item>
+        <item>Panier</item>
+        <item>Enfant</item>
+        <item>"Patte d'animal"</item>
+        <item>"Badge en forme d'étoile"</item>
+        <item>Deux personnes</item>
+        <item>Étoile</item>
+        <item>Cœur</item>
+        <item>Maison</item>
+        <item>Demi-lune</item>
+        <item>Horloge</item>
     </string-array>
 </resources>

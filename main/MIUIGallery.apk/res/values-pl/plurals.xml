@@ -145,10 +145,10 @@
         <item quantity="many">%s godz.</item>
     </plurals>
     <plurals name="ai_image_over_limit_msg">
-        <item quantity="other">Jedna osoba może utworzyć maks. %d obrazu SI.</item>
-        <item quantity="one">Jedna osoba może utworzyć maks. %d obraz SI.</item>
-        <item quantity="few">Jedna osoba może utworzyć maks. %d obrazy SI.</item>
-        <item quantity="many">Jedna osoba może utworzyć maks. %d obrazów SI.</item>
+        <item quantity="other">Jedna osoba może utworzyć maks. %d Obrazu SI.</item>
+        <item quantity="one">Jedna osoba może utworzyć maks. %d Obraz SI.</item>
+        <item quantity="few">Jedna osoba może utworzyć maks. %d Obrazy SI.</item>
+        <item quantity="many">Jedna osoba może utworzyć maks. %d Obrazów SI.</item>
     </plurals>
     <plurals name="ai_minute">
         <item quantity="other">%d min</item>
@@ -319,10 +319,10 @@
         <item quantity="many">Nie można zsynchronizować %d elementów z powodu niewystarczającej ilości miejsca w chmurze</item>
     </plurals>
     <plurals name="collage_select_image_dynamic_range">
-        <item quantity="other">Kolaże mogą zawierać %1$d-%2$d zdjęć</item>
-        <item quantity="one">Kolaże mogą zawierać %1$d-%2$d zdjęcie</item>
-        <item quantity="few">Kolaże mogą zawierać %1$d-%2$d zdjęcia</item>
-        <item quantity="many">Kolaże mogą zawierać %1$d-%2$d zdjęć</item>
+        <item quantity="other">Kolaże mogą zawierać %1$d–%2$d elementu</item>
+        <item quantity="one">Kolaże mogą zawierać %1$d–%2$d element</item>
+        <item quantity="few">Kolaże mogą zawierać %1$d–%2$d elementy</item>
+        <item quantity="many">Kolaże mogą zawierać %1$d–%2$d elementów</item>
     </plurals>
     <plurals name="creation_max_image">
         <item quantity="other">Wybierz do %d zdjęć</item>
@@ -360,6 +360,12 @@
         <item quantity="few">Usunięto %d elementy</item>
         <item quantity="many">Usunięto %d elementów</item>
     </plurals>
+    <plurals name="delete_media_dialog_local">
+        <item quantity="other">Usunąć %d zaznaczonego elementu? Możesz przejść do „Ostatnio usuniętych elementów”, aby odzyskać elementy albo trwale je usunąć.</item>
+        <item quantity="one">Usunąć %d zaznaczony element? Możesz przejść do „Ostatnio usuniętych elementów”, aby odzyskać elementy albo trwale je usunąć.</item>
+        <item quantity="few">Usunąć %d zaznaczone elementy? Możesz przejść do „Ostatnio usuniętych elementów”, aby odzyskać elementy albo trwale je usunąć.</item>
+        <item quantity="many">Usunąć %d zaznaczonych elementów? Możesz przejść do „Ostatnio usuniętych elementów”, aby odzyskać elementy albo trwale je usunąć.</item>
+    </plurals>
     <plurals name="delete_media_from_all_devices_and_cloud_msg">
         <item quantity="other">Usunąć %d elementów ze wszystkich urządzeń i Chmury Xiaomi?</item>
         <item quantity="one">Usunąć %d element ze wszystkich urządzeń i Chmury Xiaomi?</item>
@@ -367,8 +373,8 @@
         <item quantity="many">Usunąć %d elementów ze wszystkich urządzeń i Chmury Xiaomi?</item>
     </plurals>
     <plurals name="delete_media_from_local">
-        <item quantity="other">Usunąć %d elementów?</item>
-        <item quantity="one">Usunąć %d element?</item>
+        <item quantity="other">Usunąć %d elementu?</item>
+        <item quantity="one">Usunąć %d elementów?</item>
         <item quantity="few">Usunąć %d elementy?</item>
         <item quantity="many">Usunąć %d elementów?</item>
     </plurals>
@@ -397,10 +403,16 @@
         <item quantity="many">Nie udało się pobrać %1$d plików, sprawdź połączenie z siecią i spróbuj ponownie</item>
     </plurals>
     <plurals name="downloading_title_link">
-        <item quantity="other">Pobieranie elementów z chmury (%2$d/%1$d)</item>
-        <item quantity="one">Pobieranie elementów z chmury (%2$d/%1$d)</item>
-        <item quantity="few">Pobieranie elementów z chmury (%2$d/%1$d)</item>
-        <item quantity="many">Pobieranie elementów z chmury (%2$d/%1$d)</item>
+        <item quantity="other">Ładowanie elementów z chmury (%2$d/%1$d)</item>
+        <item quantity="one">Ładowanie elementów z chmury (%2$d/%1$d)</item>
+        <item quantity="few">Ładowanie elementów z chmury (%2$d/%1$d)</item>
+        <item quantity="many">Ładowanie elementów z chmury (%2$d/%1$d)</item>
+    </plurals>
+    <plurals name="drop_contain_several_same_name_file">
+        <item quantity="other">Nie udało się zapisać. Istnieje już %d pliku o takiej nazwie.</item>
+        <item quantity="one">Nie udało się zapisać. Istnieje już %d plik o takiej nazwie.</item>
+        <item quantity="few">Nie udało się zapisać. Istnieją już %d pliki o takiej nazwie.</item>
+        <item quantity="many">Nie udało się zapisać. Istnieje już %d plików o takiej nazwie.</item>
     </plurals>
     <plurals name="face_count">
         <item quantity="other">W sumie %d zdjęć</item>
@@ -456,6 +468,24 @@
         <item quantity="few">Pół godziny temu</item>
         <item quantity="many">Pół godziny temu</item>
     </plurals>
+    <plurals name="home_page_share_burst_over_limit_toast">
+        <item quantity="other">Możesz przeciągnąć maks. %d elementu (z uwzględnieniem zdjęć seryjnych)</item>
+        <item quantity="one">Możesz przeciągnąć maks. %d element (z uwzględnieniem zdjęć seryjnych)</item>
+        <item quantity="few">Możesz przeciągnąć maks. %d elementy (z uwzględnieniem zdjęć seryjnych)</item>
+        <item quantity="many">Możesz przeciągnąć maks. %d elementów (z uwzględnieniem zdjęć seryjnych)</item>
+    </plurals>
+    <plurals name="home_page_share_count_over_limit_toast">
+        <item quantity="other">Możesz przeciągnąć maks. %d elementu</item>
+        <item quantity="one">Możesz przeciągnąć maks. %d element</item>
+        <item quantity="few">Możesz przeciągnąć maks. %d elementy</item>
+        <item quantity="many">Możesz przeciągnąć maks. %d elementów</item>
+    </plurals>
+    <plurals name="hours_talkback">
+        <item quantity="other">%d godzin</item>
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+    </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Za godzinę</item>
         <item quantity="one">Za godzinę</item>
@@ -485,6 +515,12 @@
         <item quantity="one">Teraz</item>
         <item quantity="few">Teraz</item>
         <item quantity="many">Teraz</item>
+    </plurals>
+    <plurals name="minutes_talkback">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
     </plurals>
     <plurals name="miplay_time_minute_unit">
         <item quantity="other">%d minut</item>
@@ -558,6 +594,12 @@
         <item quantity="few">%1$d wideo czekają na synchronizację</item>
         <item quantity="many">%1$d wideo czeka na synchronizację</item>
     </plurals>
+    <plurals name="other_group_name">
+        <item quantity="other">%1$s i jeszcze %2$d osoby</item>
+        <item quantity="one">%1$s i jeszcze %2$d osoba</item>
+        <item quantity="few">%1$s i jeszcze %2$d osoby</item>
+        <item quantity="many">%1$s i jeszcze %2$d osób</item>
+    </plurals>
     <plurals name="photo_count">
         <item quantity="other">%d zdjęć</item>
         <item quantity="one">%d zdjęcie</item>
@@ -569,6 +611,18 @@
         <item quantity="one">W sumie %1$d element</item>
         <item quantity="few">W sumie %1$d elementy</item>
         <item quantity="many">W sumie %1$d elementów</item>
+    </plurals>
+    <plurals name="photo_count_talkback">
+        <item quantity="other">%d elementu</item>
+        <item quantity="one">%d element</item>
+        <item quantity="few">%d elementy</item>
+        <item quantity="many">%d elementów</item>
+    </plurals>
+    <plurals name="photo_picker_title_format">
+        <item quantity="other">Wybierz %d zdjęć</item>
+        <item quantity="one">Wybierz %d zdjęcie</item>
+        <item quantity="few">Wybierz %d zdjęć</item>
+        <item quantity="many">Wybierz %d zdjęć</item>
     </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d dni</item>
@@ -642,6 +696,12 @@
         <item quantity="few">%1$d pliki (%2$d MB) nie zostały jeszcze pobrane. Pobrać za pomocą danych mobilnych?</item>
         <item quantity="many">%1$d plików (%2$d MB) nie zostało jeszcze pobranych. Pobrać za pomocą danych mobilnych?</item>
     </plurals>
+    <plurals name="picker_overview_page_title">
+        <item quantity="other">Wybrano %1$d elementów</item>
+        <item quantity="one">Wybrano %1$d element</item>
+        <item quantity="few">Wybrano %1$d elementy</item>
+        <item quantity="many">Wybrano %1$d elementów</item>
+    </plurals>
     <plurals name="picker_retry_image_confirm_message">
         <item quantity="other">Nie udało się pobrać %d pliku. Spróbować ponownie?</item>
         <item quantity="one">Nie udało się pobrać %d pliku. Spróbować ponownie?</item>
@@ -660,6 +720,24 @@
         <item quantity="few">Pominięto %d zdjęcia, które nie znajdują się na urządzeniu.</item>
         <item quantity="many">Pominięto %d zdjęć, które nie znajdują się na urządzeniu.</item>
     </plurals>
+    <plurals name="picker_title_format_allow_image_and_video">
+        <item quantity="other">Wybierz %1$d–%2$d elementu</item>
+        <item quantity="one">Wybierz %1$d–%2$d element</item>
+        <item quantity="few">Wybierz %1$d–%2$d elementy</item>
+        <item quantity="many">Wybierz %1$d–%2$d elementów</item>
+    </plurals>
+    <plurals name="picker_title_selection_format_multiple_os2">
+        <item quantity="other">Wybierz %1$d – %2$d zdjęcia</item>
+        <item quantity="one">Wybierz %1$d – %2$d zdjęcie</item>
+        <item quantity="few">Wybierz %1$d – %2$d zdjęcia</item>
+        <item quantity="many">Wybierz %1$d – %2$d zdjęć</item>
+    </plurals>
+    <plurals name="picker_title_specify_format_allow_image_and_video">
+        <item quantity="other">Wybierz %d elementu</item>
+        <item quantity="one">Wybierz %d element</item>
+        <item quantity="few">Wybierz %d elementy</item>
+        <item quantity="many">Wybierz %d elementów</item>
+    </plurals>
     <plurals name="picker_title_video_editor_component">
         <item quantity="other">Wybierz %d segmentu</item>
         <item quantity="one">Wybierz %d segment</item>
@@ -672,11 +750,29 @@
         <item quantity="few">Wybierz %1$d segmenty (%2$d)</item>
         <item quantity="many">Wybierz %1$d segmentów (%2$d)</item>
     </plurals>
+    <plurals name="picker_title_video_editor_component_format_os2">
+        <item quantity="other">Wybierz %1$d segmentu</item>
+        <item quantity="one">Wybierz %1$d segment</item>
+        <item quantity="few">Wybierz %1$d segmenty</item>
+        <item quantity="many">Wybierz %1$d segmentów</item>
+    </plurals>
+    <plurals name="privacy_watermark_word_count_not_full">
+        <item quantity="other">Wprowadź jeszcze maks. %d znaku</item>
+        <item quantity="one">Wprowadź jeszcze maks. %d znak</item>
+        <item quantity="few">Wprowadź jeszcze maks. %d znaki</item>
+        <item quantity="many">Wprowadź jeszcze maks. %d znaków</item>
+    </plurals>
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">Znaleziono %1$d nowych zdjęć</item>
         <item quantity="one">Znaleziono %1$d nowe zdjęcie</item>
         <item quantity="few">Znaleziono %1$d nowe zdjęcia</item>
         <item quantity="many">Znaleziono %1$d nowych zdjęć</item>
+    </plurals>
+    <plurals name="rear_screen_confirm_delete_media_title">
+        <item quantity="other">Usunąć %d elementu teraz?</item>
+        <item quantity="one">Usunąć %d elementów teraz?</item>
+        <item quantity="few">Usunąć %d elementy teraz?</item>
+        <item quantity="many">Usunąć %d elementów teraz?</item>
     </plurals>
     <plurals name="remind_face_recommend_confirm_text">
         <item quantity="other">W sumie %d zdjęć</item>
@@ -719,6 +815,18 @@
         <item quantity="one">Znaleziono %d element</item>
         <item quantity="few">Znaleziono %d elementy</item>
         <item quantity="many">Znaleziono %d elementów</item>
+    </plurals>
+    <plurals name="search_title_new_ai">
+        <item quantity="other">Znaleziono %d elementu</item>
+        <item quantity="one">Znaleziono %d element</item>
+        <item quantity="few">Znaleziono %d elementy</item>
+        <item quantity="many">Znaleziono %d elementów</item>
+    </plurals>
+    <plurals name="seconds_talkback">
+        <item quantity="other">%d sekund</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
     </plurals>
     <plurals name="send_apk_dialog_desc">
         <item quantity="other">%2$d pakietów instalacyjnych (%3$s) od %1$s</item>
@@ -809,6 +917,24 @@
         <item quantity="one">Otrzymywanie %2$d obrazu lub wideo od %1$s…</item>
         <item quantity="few">Otrzymywanie %2$d obrazów lub wideo od %1$s…</item>
         <item quantity="many">Otrzymywanie %2$d obrazów lub wideo od %1$s…</item>
+    </plurals>
+    <plurals name="send_live_photo_dialog_desc">
+        <item quantity="other">%1$s wysyła Ci %2$d Live photo</item>
+        <item quantity="one">%1$s wysyła Ci %2$d Live photo</item>
+        <item quantity="few">%1$s wysyła Ci %2$d Live photo</item>
+        <item quantity="many">%1$s wysyła Ci %2$d Live photo</item>
+    </plurals>
+    <plurals name="send_live_photo_dialog_desc_received">
+        <item quantity="other">Odebrano %2$d Live photo od użytkownika %1$s</item>
+        <item quantity="one">Odebrano %2$d Live photo od użytkownika %1$s</item>
+        <item quantity="few">Odebrano %2$d Live photo od użytkownika %1$s</item>
+        <item quantity="many">Odebrano %2$d Live photo od użytkownika %1$s</item>
+    </plurals>
+    <plurals name="send_live_photo_dialog_desc_receiving">
+        <item quantity="other">Odbieranie %2$d Live photo od użytkownika %1$s</item>
+        <item quantity="one">Odbieranie %2$d Live photo od użytkownika %1$s</item>
+        <item quantity="few">Odbieranie %2$d Live photo od użytkownika %1$s</item>
+        <item quantity="many">Odbieranie %2$d Live photo od użytkownika %1$s</item>
     </plurals>
     <plurals name="send_more_type_file_dialog_desc">
         <item quantity="other">%2$d plików od %1$s</item>
@@ -929,6 +1055,18 @@
         <item quantity="one">Nie udało się zsynchronizować %d elementu. Właściciel tego albumu nie ma wolnego miejsca w chmurze.</item>
         <item quantity="few">Nie udało się zsynchronizować %d elementów. Właściciel tego albumu nie ma wolnego miejsca w chmurze.</item>
         <item quantity="many">Nie udało się zsynchronizować %d elementów. Właściciel tego albumu nie ma wolnego miejsca w chmurze.</item>
+    </plurals>
+    <plurals name="share_burst_over_limit_toast">
+        <item quantity="other">Nie udało się wysłać. Łączna liczba elementów, z uwzględnieniem zdjęć seryjnych, przekracza %d.</item>
+        <item quantity="one">Nie udało się wysłać. Łączna liczba elementów, z uwzględnieniem zdjęć seryjnych, przekracza %d.</item>
+        <item quantity="few">Nie udało się wysłać. Łączna liczba elementów, z uwzględnieniem zdjęć seryjnych, przekracza %d.</item>
+        <item quantity="many">Nie udało się wysłać. Łączna liczba elementów, z uwzględnieniem zdjęć seryjnych, przekracza %d.</item>
+    </plurals>
+    <plurals name="share_count_over_limit_toast">
+        <item quantity="other">Nie udało się wysłać. Łączna liczba elementów przekracza %d.</item>
+        <item quantity="one">Nie udało się wysłać. Łączna liczba elementów przekracza %d.</item>
+        <item quantity="few">Nie udało się wysłać. Łączna liczba elementów przekracza %d.</item>
+        <item quantity="many">Nie udało się wysłać. Łączna liczba elementów przekracza %d.</item>
     </plurals>
     <plurals name="slideshow_interval_value">
         <item quantity="other">%1$d sekund</item>
@@ -1124,6 +1262,12 @@
         <item quantity="few">Elementy mogą być tu przechowywane przez %1$d dni. Rozszerz swój plan, aby przedłużyć ten okres.</item>
         <item quantity="many">Elementy mogą być tu przechowywane przez %1$d dni. Rozszerz swój plan, aby przedłużyć ten okres.</item>
     </plurals>
+    <plurals name="universal_pick_bottom_bar_selected_content_format">
+        <item quantity="other">Pokaż %d wybranego elementu</item>
+        <item quantity="one">Pokaż %d wybrany element</item>
+        <item quantity="few">Pokaż %d wybrane elementy</item>
+        <item quantity="many">Pokaż %d wybranych elementów</item>
+    </plurals>
     <plurals name="video_count_format">
         <item quantity="other">%1$d plików</item>
         <item quantity="one">%1$d plik</item>
@@ -1131,10 +1275,10 @@
         <item quantity="many">%1$d plików</item>
     </plurals>
     <plurals name="video_editor_component_hint_text">
-        <item quantity="other">Wymagane %d segmentu</item>
-        <item quantity="one">Wymagany %d segment</item>
-        <item quantity="few">Wymagane %d segmenty</item>
-        <item quantity="many">Wymagane %d segmentów</item>
+        <item quantity="other">Dodaj %1$d segmentu (%2$d/%3$d)</item>
+        <item quantity="one">Dodaj %1$d segment (%2$d/%3$d)</item>
+        <item quantity="few">Dodaj %1$d segmenty (%2$d/%3$d)</item>
+        <item quantity="many">Dodaj %1$d segmentów (%2$d/%3$d)</item>
     </plurals>
     <plurals name="video_editor_component_imageview_content_description">
         <item quantity="other">Slot %1$d: Dodano segment nie krótszy niż %2$s sek.</item>
@@ -1147,6 +1291,30 @@
         <item quantity="one">Dodaj %d segment więcej, aby kontynuować</item>
         <item quantity="few">Dodaj %d segmenty więcej, aby kontynuować</item>
         <item quantity="many">Dodaj %d segmentów więcej, aby kontynuować</item>
+    </plurals>
+    <plurals name="video_hours_talkback">
+        <item quantity="other">%d godziny</item>
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+    </plurals>
+    <plurals name="video_millseconds_talkback">
+        <item quantity="other">%d milisekundy</item>
+        <item quantity="one">%d milisekunda</item>
+        <item quantity="few">%d milisekundy</item>
+        <item quantity="many">%d milisekund</item>
+    </plurals>
+    <plurals name="video_minutes_talkback">
+        <item quantity="other">%d minuty</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="video_seconds_talkback">
+        <item quantity="other">%d sekundy</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d wideo</item>

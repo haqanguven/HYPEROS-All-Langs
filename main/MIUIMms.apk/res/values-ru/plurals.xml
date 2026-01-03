@@ -1,177 +1,255 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">Час назад</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">%d час назад</item>
+        <item quantity="other">%d ч назад</item>
+        <item quantity="one">%d ч назад</item>
+        <item quantity="few">%d ч назад</item>
+        <item quantity="many">%d ч назад</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Полчаса назад</item>
+        <item quantity="one">Полчаса назад</item>
+        <item quantity="few">Полчаса назад</item>
+        <item quantity="many">Полчаса назад</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">Через %d час</item>
+        <item quantity="other">Через %d ч</item>
+        <item quantity="one">Через %d ч</item>
+        <item quantity="few">Через %d ч</item>
+        <item quantity="many">Через %d ч</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">Через полчаса</item>
+        <item quantity="one">Через полчаса</item>
+        <item quantity="few">Через полчаса</item>
+        <item quantity="many">Через полчаса</item>
     </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="other">Сейчас</item>
+        <item quantity="other">Немедленно</item>
+        <item quantity="one">Немедленно</item>
+        <item quantity="few">Немедленно</item>
+        <item quantity="many">Немедленно</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">Через %d мин.</item>
-        <item quantity="one">Через %d мин.</item>
+        <item quantity="other">Через %d мин</item>
+        <item quantity="one">Через %d мин</item>
+        <item quantity="few">Через %d мин</item>
+        <item quantity="many">Через %d мин</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Только что</item>
+        <item quantity="one">Только что</item>
+        <item quantity="few">Только что</item>
+        <item quantity="many">Только что</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%d мин. назад</item>
-        <item quantity="one">%d мин. назад</item>
+        <item quantity="other">%d мин назад</item>
+        <item quantity="one">%d мин назад</item>
+        <item quantity="few">%d мин назад</item>
+        <item quantity="many">%d мин назад</item>
     </plurals>
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="other">Удалить %1$s сообщений?</item>
         <item quantity="one">Удалить %1$s сообщение?</item>
         <item quantity="few">Удалить %1$s сообщения?</item>
+        <item quantity="many">Удалить %1$s сообщений?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="other">You can receive another message in %ds</item>
+        <item quantity="one">You can receive another message in %ds</item>
+        <item quantity="few">You can receive another message in %ds</item>
+        <item quantity="many">You can receive another message in %ds</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="other">" (%d messages remaining)"</item>
+        <item quantity="one">" (%d message remaining)"</item>
+        <item quantity="few">" (%d messages remaining)"</item>
+        <item quantity="many">" (%d messages remaining)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="other">You can send another message in %ds</item>
+        <item quantity="one">You can send another message in %ds</item>
+        <item quantity="few">You can send another message in %ds</item>
+        <item quantity="many">You can send another message in %ds</item>
     </plurals>
     <plurals name="cloud_sms_count">
         <item quantity="other">%d сообщений</item>
         <item quantity="one">%d сообщение</item>
         <item quantity="few">%d сообщения</item>
+        <item quantity="many">%d сообщений</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">Не синхронизировано %d сообщений</item>
         <item quantity="one">Не синхронизировано %d сообщение</item>
         <item quantity="few">Не синхронизировано %d сообщения</item>
+        <item quantity="many">Не синхронизировано %d сообщений</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="other">Удалить %1$s выбранных диалогов?</item>
         <item quantity="one">Удалить %1$s выбранный диалог?</item>
         <item quantity="few">Удалить %1$s выбранных диалога?</item>
+        <item quantity="many">Удалить %1$s выбранных диалогов?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">Выбрано: %d</item>
         <item quantity="one">Выбрано: %d</item>
+        <item quantity="few">Выбрано: %d</item>
+        <item quantity="many">Выбрано: %d</item>
     </plurals>
     <plurals name="delivery_toast_body_more_plurals">
-        <item quantity="other">Сообщение получено %1$s и %2$d другими людьми</item>
-        <item quantity="one">Сообщение получено %1$s и %2$d другим человеком</item>
+        <item quantity="other">Сообщение для %1$s и еще %2$d адресатов доставлено</item>
+        <item quantity="one">Сообщение для %1$s и еще %2$d адресата доставлено</item>
+        <item quantity="few">Сообщение для %1$s и еще %2$d адресатов доставлено</item>
+        <item quantity="many">Сообщение для %1$s и еще %2$d адресатов доставлено</item>
     </plurals>
     <plurals name="group_message_failed_title">
         <item quantity="other">Не удалось отправить %d контактам</item>
         <item quantity="one">Не удалось отправить %d контакту</item>
         <item quantity="few">Не удалось отправить %d контактам</item>
+        <item quantity="many">Не удалось отправить %d контактам</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Полчаса назад</item>
-    </plurals>
-    <plurals name="hint_search_sms">
-        <item quantity="other">%d сообщений</item>
-        <item quantity="one">%d сообщение</item>
-        <item quantity="few">%d сообщения</item>
+        <item quantity="one">Полчаса назад</item>
+        <item quantity="few">Полчаса назад</item>
+        <item quantity="many">Полчаса назад</item>
     </plurals>
     <plurals name="in_a_hour">
-        <item quantity="other">Через час</item>
+        <item quantity="other">Через 1 час</item>
+        <item quantity="one">Через 1 час</item>
+        <item quantity="few">Через 1 час</item>
+        <item quantity="many">Через 1 час</item>
     </plurals>
     <plurals name="in_half_hour">
         <item quantity="other">Через полчаса</item>
+        <item quantity="one">Через полчаса</item>
+        <item quantity="few">Через полчаса</item>
+        <item quantity="many">Через полчаса</item>
     </plurals>
     <plurals name="in_less_than_one_minute">
-        <item quantity="other">Сейчас</item>
+        <item quantity="other">Немедленно</item>
+        <item quantity="one">Немедленно</item>
+        <item quantity="few">Немедленно</item>
+        <item quantity="many">Немедленно</item>
     </plurals>
     <plurals name="in_num_minutes">
-        <item quantity="other">через %d минут</item>
-        <item quantity="one">через 1 минуту</item>
-        <item quantity="few">через %d минуты</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="other">Только что</item>
+        <item quantity="other">через %d мин</item>
+        <item quantity="one">через 1 мин</item>
+        <item quantity="few">через %d мин</item>
+        <item quantity="many">через %d мин</item>
     </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="other">Отмечен как %2$s %1$d людьми</item>
         <item quantity="one">Отмечен как %2$s %1$d человеком</item>
         <item quantity="few">Отмечен как %2$s %1$d людьми</item>
-    </plurals>
-    <plurals name="max_audio_length">
-        <item quantity="other">Аудиосообщения должны быть до %1$4d сек.</item>
-        <item quantity="one">Аудиосообщения должны быть до %1$4d сек.</item>
-    </plurals>
-    <plurals name="max_file_size">
-        <item quantity="other">Файлы должны быть до %1$4d МБ</item>
-        <item quantity="one">Файлы должны быть до %1$4d МБ</item>
-    </plurals>
-    <plurals name="max_recipients_size">
-        <item quantity="other">Можно отправить сообщение %1$4d контактам</item>
-        <item quantity="one">Можно отправить сообщение %1$4d контакту</item>
-    </plurals>
-    <plurals name="max_text_size">
-        <item quantity="other">Сообщения должны быть до %1$4d символов</item>
-        <item quantity="one">Сообщения должны быть до %1$4d символа</item>
-    </plurals>
-    <plurals name="max_video_length">
-        <item quantity="other">Видео должны быть не более %1$4d сек.</item>
-        <item quantity="one">Видео должны быть не более %1$4d сек.</item>
+        <item quantity="many">Отмечен как %2$s %1$d людьми</item>
     </plurals>
     <plurals name="message_count">
         <item quantity="other">%1$s сообщений</item>
         <item quantity="one">%1$s сообщение</item>
         <item quantity="few">%1$s сообщения</item>
+        <item quantity="many">%1$s сообщений</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">Выбрано %d объектов</item>
         <item quantity="one">Выбран %d объект</item>
         <item quantity="few">Выбрано %d объекта</item>
+        <item quantity="many">Выбрано %d объектов</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
     </plurals>
     <plurals name="notification_multiple">
         <item quantity="other">"%s сообщений | "</item>
         <item quantity="one">"%s сообщение | "</item>
         <item quantity="few">"%s сообщения | "</item>
+        <item quantity="many">"%s сообщений | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">%d минут назад</item>
-        <item quantity="one">1 минуту назад</item>
-        <item quantity="few">%d минуты назад</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="other">%s</item>
+        <item quantity="one">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="other">%s спутниковых сообщений</item>
+        <item quantity="one">%s спутниковое сообщение</item>
+        <item quantity="few">%s спутниковых сообщения</item>
+        <item quantity="many">%s спутниковых сообщений</item>
+    </plurals>
+    <plurals name="privacy_state_revoked_revoked_1">
+        <item quantity="other">Отозвать (%d с)</item>
+        <item quantity="one">Отозвать (%d с)</item>
+        <item quantity="few">Отозвать (%d с)</item>
+        <item quantity="many">Отозвать (%d с)</item>
     </plurals>
     <plurals name="rcs_group_notification_invitation_receive">
-        <item quantity="other">У вас %d приглашений в групповой чат</item>
-        <item quantity="one">У вас %d приглашение в групповой чат</item>
-        <item quantity="few">У вас %d приглашения в групповой чат</item>
+        <item quantity="other">Вы получили %d приглашений в групповой чат</item>
+        <item quantity="one">Вы получили %d приглашение в групповой чат</item>
+        <item quantity="few">Вы получили %d приглашения в групповой чат</item>
+        <item quantity="many">Вы получили %d приглашений в групповой чат</item>
     </plurals>
     <plurals name="search_results_title">
-        <item quantity="other">%1$s результатов для %2$s\"</item>
-        <item quantity="one">%1$s результат для %2$s\"</item>
-        <item quantity="few">%1$s результата для %2$s\"</item>
+        <item quantity="other">%1$s результатов для \"%2$s\"</item>
+        <item quantity="one">%1$s результат для \"%2$s\"</item>
+        <item quantity="few">%1$s результата для \"%2$s\"</item>
+        <item quantity="many">%1$s результатов для \"%2$s\"</item>
+    </plurals>
+    <plurals name="select_dialog_item">
+        <item quantity="other">%s с</item>
+        <item quantity="one">%s с</item>
+        <item quantity="few">%s с</item>
+        <item quantity="many">%s с</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="other">Отправлено %1$s сообщений</item>
         <item quantity="one">Отправлено %1$s сообщение</item>
         <item quantity="few">Отправлено %1$s сообщения</item>
+        <item quantity="many">Отправлено %1$s сообщений</item>
     </plurals>
     <plurals name="slide_audio_duration">
-        <item quantity="other">%d сек.</item>
-        <item quantity="one">%d сек.</item>
+        <item quantity="other">%d с</item>
+        <item quantity="one">%d с</item>
+        <item quantity="few">%d с</item>
+        <item quantity="many">%d с</item>
     </plurals>
     <plurals name="slide_duration">
-        <item quantity="other">%d сек.</item>
-        <item quantity="one">%d сек.</item>
+        <item quantity="other">%d с</item>
+        <item quantity="one">%d с</item>
+        <item quantity="few">%d с</item>
+        <item quantity="many">%d с</item>
     </plurals>
     <plurals name="timed_message_expired_title">
         <item quantity="other">Не отправлено %d запланированных сообщений</item>
         <item quantity="one">Не отправлено %d запланированное сообщение</item>
         <item quantity="few">Не отправлено %d запланированных сообщения</item>
+        <item quantity="many">Не отправлено %d запланированных сообщений</item>
     </plurals>
     <plurals name="timed_message_in_total">
         <item quantity="other">(%d сообщений)</item>
         <item quantity="one">(%d сообщение)</item>
         <item quantity="few">(%d сообщения)</item>
+        <item quantity="many">(%d сообщений)</item>
     </plurals>
     <plurals name="to_count">
         <item quantity="other">%d получателей</item>
         <item quantity="one">%d получатель</item>
         <item quantity="few">%d получателя</item>
+        <item quantity="many">%d получателей</item>
     </plurals>
     <plurals name="vital_signs_data_bpm">
-        <item quantity="other">ЧСС: %1$d уд/мин (%2$s)</item>
-        <item quantity="one">ЧСС: %1$d уд/мин (%2$s)</item>
+        <item quantity="other">Пульс: %1$d BPM (%2$s)</item>
+        <item quantity="one">Пульс: %1$d BPM (%2$s)</item>
+        <item quantity="few">Пульс: %1$d BPM (%2$s)</item>
+        <item quantity="many">Пульс: %1$d BPM (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="few">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="many">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

@@ -313,18 +313,20 @@
         <item>Melhor desempenho (Taxa de bits automática)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Usar seleção do sistema (padrão)</item>
-        <item>44,1 kHz</item>
-        <item>48 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96 kHz</item>
+        <item>Usar preferência do sistema (Padrão)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Usar seleção do sistema (padrão)</item>
-        <item>44,1 kHz</item>
-        <item>48 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96 kHz</item>
+        <item>Usar preferência do sistema (Padrão)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Usar preferência do sistema (Padrão)</item>
@@ -493,7 +495,7 @@
     <string-array name="change_security_lock_picker">
         <item>Desbloqueio facial</item>
         <item>Padrão</item>
-        <item>Fixar</item>
+        <item>PIN</item>
         <item>Senha</item>
     </string-array>
     <array name="click_bottom">
@@ -582,6 +584,7 @@
         <item>Mostrar áreas de overdraw</item>
         <item>Mostrar áreas para daltonismo</item>
     </string-array>
+    <array name="display_over_apps_permission_change_exempt" />
     <string-array name="eap_ocsp_type">
         <item>Não verificar</item>
         <item>Solicitar status de certificados</item>
@@ -1105,6 +1108,33 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>Padrão</item>
         <item>Fria</item>
     </string-array>
+    <string-array name="screen_flash_color_entries">
+        <item>@string/screen_flash_color_none</item>
+        <item>@string/screen_flash_color_blue</item>
+        <item>@string/screen_flash_color_green</item>
+        <item>@string/screen_flash_color_yellow</item>
+        <item>@string/screen_flash_color_orange</item>
+        <item>@string/screen_flash_color_red</item>
+        <item>@string/screen_flash_color_violet</item>
+    </string-array>
+    <array name="screen_flash_color_icons">
+        <item>@drawable/screen_flash_color_none</item>
+        <item>@drawable/screen_flash_color_blue</item>
+        <item>@drawable/screen_flash_color_green</item>
+        <item>@drawable/screen_flash_color_yellow</item>
+        <item>@drawable/screen_flash_color_orange</item>
+        <item>@drawable/screen_flash_color_red</item>
+        <item>@drawable/screen_flash_color_violet</item>
+    </array>
+    <string-array name="screen_flash_color_values">
+        <item>0</item>
+        <item>4D0000FE</item>
+        <item>6600FF01</item>
+        <item>66FFFF00</item>
+        <item>66FF7F00</item>
+        <item>66FE0000</item>
+        <item>667F00FF</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0.5 segundos</item>
         <item>1 segundo</item>
@@ -1124,9 +1154,17 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>Sempre aprimorar cores</item>
         <item>O contraste permanecerá constante</item>
     </string-array>
+    <string-array name="screen_optimize_summary_new">
+        <item>Cores aprimoradas para uma tela mais vibrante</item>
+        <item>Restaurar cores predefinidas da tela</item>
+    </string-array>
     <string-array name="screen_optimize_title">
         <item>Vívido (recomendado)</item>
-        <item>Saturada</item>
+        <item>Saturado</item>
+        <item>Padrão</item>
+    </string-array>
+    <string-array name="screen_optimize_title_new">
+        <item>Vívido (recomendado)</item>
         <item>Padrão</item>
     </string-array>
     <string-array name="screen_resolution_format">
@@ -1208,6 +1246,24 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>Todos, exceto o rádio</item>
         <item>somente kernel</item>
     </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Somente a tela do dispositivo (padrão)</item>
+        <item>Tela externa</item>
+        <item>Toque mais recente na barra de status</item>
+        <item>Com base no foco</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Mostrar sombra apenas na tela do dispositivo</item>
+        <item>Mostrar sombra em uma única tela externa</item>
+        <item>Mostrar sombra na tela que teve a última interação na barra de status</item>
+        <item>Mostrar sombra na última tela focada</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>default_display</item>
+        <item>any_external_display</item>
+        <item>status_bar_latest_touch</item>
+        <item>focused_display</item>
+    </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Desativado</item>
         <item>Desenhar região de corte não retangular em azul</item>
@@ -1266,12 +1322,6 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>Nítido</item>
         <item>Sólido</item>
     </string-array>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Carregando</item>
-        <item>Soneca</item>
-        <item>Modo de economia de energia</item>
-        <item>Estado do processo</item>
-    </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
         <item>@drawable/threedrop01</item>
@@ -1323,10 +1373,10 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animação desligada</item>
-        <item>Escala da animação 0,5 x</item>
-        <item>Escala da animação 1x</item>
+        <item>Escala de animação 0,5 x</item>
+        <item>Escala de animação 1x</item>
         <item>Escala de animação 1,5 x</item>
-        <item>Escala da animação 2x</item>
+        <item>Escala de animação 2x</item>
         <item>Escala de animação 5 x</item>
         <item>Escala de animação 10 x</item>
     </string-array>
@@ -1335,10 +1385,18 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
         <item>Sempre aprimorar cores</item>
         <item>Restaurar cor padrão do conteúdo da tela com a calibração de cores</item>
     </string-array>
+    <string-array name="true_color_screen_optimize_summary_new">
+        <item>Cores aprimoradas para uma tela mais vibrante</item>
+        <item>Restaurar cor padrão do conteúdo da tela com a calibração de cores</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Vívido (recomendado)</item>
         <item>Saturado</item>
         <item>Cor original</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title_new">
+        <item>Vívido (recomendado)</item>
+        <item>Original</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>60%</item>
@@ -1568,11 +1626,53 @@ Atenção: Apenas para Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animação desligada</item>
-        <item>Escala da animação 0,5 x</item>
-        <item>Escala da animação 1x</item>
+        <item>Escala de animação 0,5 x</item>
+        <item>Escala de animação 1x</item>
         <item>Escala de animação 1,5 x</item>
-        <item>Escala da animação 2x</item>
+        <item>Escala de animação 2x</item>
         <item>Escala de animação 5 x</item>
         <item>Escala de animação 10 x</item>
+    </string-array>
+    <string-array name="zen_mode_icon_options_descriptions">
+        <item>Maleta</item>
+        <item>Edifício clássico</item>
+        <item>Edifício de apartamentos</item>
+        <item>Balão de diálogo</item>
+        <item>Grupo de pessoas</item>
+        <item>Lâmpada</item>
+        <item>Calendário</item>
+        <item>Não perturbe</item>
+        <item>Pessoa correndo</item>
+        <item>Golfe</item>
+        <item>Peso de academia</item>
+        <item>Natação</item>
+        <item>Pessoa escalando</item>
+        <item>Pessoa jogando bola</item>
+        <item>Pessoa chutando</item>
+        <item>Controle de jogo</item>
+        <item>Paleta de cores do artista</item>
+        <item>Floco de neve</item>
+        <item>Guarda-sol</item>
+        <item>Ferramentas</item>
+        <item>Piano</item>
+        <item>Rolo de filme</item>
+        <item>Livro</item>
+        <item>Flor de lótus</item>
+        <item>Mente humana</item>
+        <item>Fones de ouvido</item>
+        <item>TV</item>
+        <item>Trem</item>
+        <item>Carro</item>
+        <item>Garfo e faca</item>
+        <item>Carrinho de compras</item>
+        <item>Criança</item>
+        <item>Pata de animal</item>
+        <item>Selo de estrela</item>
+        <item>Duas pessoas</item>
+        <item>Estrela</item>
+        <item>Coração</item>
+        <item>Casa</item>
+        <item>Meia-lua</item>
+        <item>Relógio</item>
     </string-array>
 </resources>

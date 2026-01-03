@@ -28,7 +28,10 @@
     <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
     <string name="abc_toolbar_collapse_description">Contraer</string>
     <string name="accessibility_call_muted">Llamada silenciada</string>
+    <string name="accessibility_sliding_button_state_description_off">Desactivado</string>
+    <string name="accessibility_sliding_button_state_description_on">Activado</string>
     <string name="accessibility_speakerphone_enabled">Bocina habilitada</string>
+    <string name="accessibility_tab_state_description_unselect">No seleccionado</string>
     <string name="actionbar_button_up_description">Atrás</string>
     <string name="add_blocked_dialog_body">Bloquear llamadas y mensajes de texto de</string>
     <string name="add_blocked_number_hint">Número de teléfono</string>
@@ -61,7 +64,13 @@
     <string name="blocked_numbers_number_already_blocked_message">%1$s ya está bloqueado.</string>
     <string name="blocked_numbers_number_blocked_message">%1$s bloqueado</string>
     <string name="blocked_numbers_number_unblocked_message">%1$s desbloqueado</string>
+    <string name="callFailed_already_ringing">No puedes realizar la llamada porque hay una llamada entrante que aún no contestas. Contéstala o recházala antes de realizar una nueva.</string>
+    <string name="callFailed_outgoing_already_present">No puedes realizar la llamada porque hay otra en curso. Espera a que se responda la llamada en curso o finalízala antes de realizar otra.</string>
+    <string name="callFailed_reject_mmi">Este código MMI no está disponible para llamadas en varias cuentas.</string>
     <string name="callFailed_simError">Error de tarjeta SIM</string>
+    <string name="callFailed_too_many_calls_exclude_merge">No puedes realizar la llamada porque hay otras dos en curso. Finaliza una de ellas antes de realizar una nueva.</string>
+    <string name="callFailed_too_many_calls_include_merge">No puedes realizar la llamada porque hay otras dos en curso. Finaliza una de ellas o combínalas en una conferencia antes de iniciar una nueva.</string>
+    <string name="callFailed_unholdable_call">No puedes realizar la llamada porque hay otra que no se puede mantener en espera. Finalízala antes de iniciar una nueva.</string>
     <string name="call_notification_answer_action">Responder</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Rechazar</string>
@@ -81,7 +90,8 @@
     <string name="can_not_dial_vt_while_voice_prompt">No puede hacer una videollamada mientras una llamada de voz está en progreso</string>
     <string name="can_not_dial_while_vt_prompt">No se puede marcar cuando hay una videollamada en proceso</string>
     <string name="cancel">Cancelar</string>
-    <string name="cant_call_due_to_no_supported_service">No se puede realizar la llamada porque no hay ninguna cuenta compatible con este tipo de llamadas.</string>
+    <string name="cant_call_due_to_dsdstransition_invalid_sub">La cuenta actual no es válida. No se pueden realizar llamadas.</string>
+    <string name="cant_call_due_to_no_supported_service">No se puede realizar la llamada. Comprueba la conexión del dispositivo.</string>
     <string name="cant_call_due_to_ongoing_call">No se puede realizar la llamada porque hay una llamada en curso en %1$s.</string>
     <string name="cant_call_due_to_ongoing_calls">No se puede realizar la llamada porque hay otras llamadas en curso en %1$s.</string>
     <string name="cant_call_due_to_ongoing_unknown_call">No se puede realizar la llamada porque hay una llamada en curso en otra app.</string>
@@ -110,6 +120,7 @@
     <string name="do_not_show_again">No mostrar de nuevo</string>
     <string name="duplicate_video_call_not_allowed">No se puede agregar la llamada en este momento.</string>
     <string name="early_morning">Mañana</string>
+    <string name="emergencyCall_reject_mmi">No se pueden marcar códigos MMI durante las llamadas de emergencia.</string>
     <string name="empty" />
     <string name="enable_account_preference_title">Cuentas telefónicas</string>
     <string name="eras_ad">d.C</string>
@@ -177,6 +188,12 @@
     <string name="midnight">Noche</string>
     <string name="missedcall_notification_public_version_title">Teléfono</string>
     <string name="miuix_access_state_desc">Seleccionado</string>
+    <string name="miuix_accessibility_title">Título</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Contraído</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Expandido</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Salir del modo de edición</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nueva notificación</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Entrar en modo de edición</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleccionar todo</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleccionar todo</string>
     <string name="miuix_appcompat_action_mode_title_empty">Seleccionar elementos</string>
@@ -192,6 +209,8 @@
     <string name="miuix_appcompat_select_all">Seleccionar todo</string>
     <string name="miuix_appcompat_select_all_description">Seleccionar todo</string>
     <string name="miuix_appcompat_select_item">Seleccionar elementos</string>
+    <string name="miuix_appcompat_show_dialog_description">Ventana emergente</string>
+    <string name="miuix_progressbar_loading">Cargando</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Deslice hacia abajo para actualizar</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualizado con éxito</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Actualizando…</string>
@@ -200,6 +219,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Eso es todo por ahora</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Un momento…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">No se pudieron cargar los elementos</string>
+    <string name="miuix_show_password">Mostrar contraseña</string>
+    <string name="miuix_stretchablewidget_collapsed">Contraído</string>
+    <string name="miuix_stretchablewidget_expanded">Expandido</string>
     <string name="monday">Lunes</string>
     <string name="monday_short">Lun</string>
     <string name="monday_shortest">Lun</string>

@@ -34,11 +34,14 @@
         <item>У вихідні</item>
         <item>Вибрати дні</item>
     </string-array>
-    <string-array name="alphabet_sub_table_with_starred">
-        <item>!</item>
+    <string-array name="alphabet_table">
         <item>А</item>
         <item>Б</item>
         <item>В</item>
+        <item>Г</item>
+        <item>Ґ</item>
+        <item>Д</item>
+        <item>Е</item>
         <item>Є</item>
         <item>Ж</item>
         <item>З</item>
@@ -67,7 +70,8 @@
         <item>Я</item>
         <item>\#</item>
     </string-array>
-    <string-array name="alphabet_table">
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
         <item>А</item>
         <item>Б</item>
         <item>В</item>
@@ -352,9 +356,9 @@
         <item>Найкраща якість (адаптивна швидкість передавання)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Оптимізувати якість звуку (990 - 909 Кбіт/сек)</item>
+        <item>Оптимізувати якість звуку (990/909 Кбіт/сек)</item>
         <item>Баланс якості звуку та швидкості підключення (660/606 Кбіт/сек)</item>
-        <item>Оптимізувати швидкість підключення (330 - 303 Кбіт/сек)</item>
+        <item>Оптимізувати швидкість підключення (330/303 Кбіт/сек)</item>
         <item>Найкращий можливий результат (адаптивний бітрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
@@ -382,28 +386,30 @@
         <item>Найкращий результат (автоматичний бітрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Використовувати вибір системи (за умовчанням)</item>
-        <item>44,1 кГц</item>
-        <item>48 кГц</item>
-        <item>88,2 кГц</item>
-        <item>96 кГц</item>
+        <item>Вибір системи (за замовчуванням)</item>
+        <item>44.1 кГц</item>
+        <item>48.0 кГц</item>
+        <item>88.2 кГц</item>
+        <item>96.0 кГц</item>
+        <item>192.0 кГц</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Використовувати вибір системи (за умовчанням)</item>
-        <item>44,1 кГц</item>
-        <item>48 кГц</item>
-        <item>88,2 кГц</item>
-        <item>96 кГц</item>
+        <item>Вибір системи (за замовчуванням)</item>
+        <item>44.1 кГц</item>
+        <item>48.0 кГц</item>
+        <item>88.2 кГц</item>
+        <item>96.0 кГц</item>
+        <item>192.0 кГц</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Вибір системи (за замовчуванням)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>Qualcomm® aptX™ audio</item>
-        <item>Qualcomm® aptX™ HD audio</item>
+        <item>Qualcomm® aptX™ звук</item>
+        <item>Qualcomm® aptX™ HD звук</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>Qualcomm® aptX™ Adaptive звук</item>
+        <item>Qualcomm® aptX™ TWS+ звук</item>
         <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
@@ -424,7 +430,7 @@
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Вмикати додаткові кодеки</item>
+        <item>Увімкнути додаткові кодеки</item>
         <item>Відключити додаткові кодеки</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
@@ -647,10 +653,11 @@
         <item>"За минулий місяць: "</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>Показувати області накладання</item>
         <item>Показувати області дейтераномалії</item>
     </string-array>
+    <array name="display_over_apps_permission_change_exempt" />
     <string-array name="eap_ocsp_type">
         <item>Не перевіряти</item>
         <item>Запит статусу сертифіката</item>
@@ -898,7 +905,7 @@
     </string-array>
     <string-array name="nfc_notification_mode_summaries">
         <item>Платіжні картки, картки доступу та картки розумного дому</item>
-        <item>"Прив'язування по Bluetooth, безпровідне підключення та картки розумного дому"</item>
+        <item>"Прив'язування по Bluetooth, бездротове підключення та картки розумного дому"</item>
     </string-array>
     <string-array name="nfc_notification_mode_titles">
         <item>Всі карти</item>
@@ -1174,6 +1181,33 @@
         <item>Натуральний</item>
         <item>Холодний</item>
     </string-array>
+    <string-array name="screen_flash_color_entries">
+        <item>@string/screen_flash_color_none</item>
+        <item>@string/screen_flash_color_blue</item>
+        <item>@string/screen_flash_color_green</item>
+        <item>@string/screen_flash_color_yellow</item>
+        <item>@string/screen_flash_color_orange</item>
+        <item>@string/screen_flash_color_red</item>
+        <item>@string/screen_flash_color_violet</item>
+    </string-array>
+    <array name="screen_flash_color_icons">
+        <item>@drawable/screen_flash_color_none</item>
+        <item>@drawable/screen_flash_color_blue</item>
+        <item>@drawable/screen_flash_color_green</item>
+        <item>@drawable/screen_flash_color_yellow</item>
+        <item>@drawable/screen_flash_color_orange</item>
+        <item>@drawable/screen_flash_color_red</item>
+        <item>@drawable/screen_flash_color_violet</item>
+    </array>
+    <string-array name="screen_flash_color_values">
+        <item>0</item>
+        <item>4D0000FE</item>
+        <item>6600FF01</item>
+        <item>66FFFF00</item>
+        <item>66FF7F00</item>
+        <item>66FE0000</item>
+        <item>667F00FF</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0,5 секунди</item>
         <item>1 секунда</item>
@@ -1193,10 +1227,18 @@
         <item>Завжди покращувати кольори</item>
         <item>Не змінювати контрастність</item>
     </string-array>
+    <string-array name="screen_optimize_summary_new">
+        <item>Покращені кольори для більш яскравого відображення</item>
+        <item>Відновити стандартні кольори екрана</item>
+    </string-array>
     <string-array name="screen_optimize_title">
         <item>Яскравий (рекомендується)</item>
         <item>Насичені</item>
         <item>Стандарт</item>
+    </string-array>
+    <string-array name="screen_optimize_title_new">
+        <item>Яскравий (рекомендується)</item>
+        <item>Стандартний</item>
     </string-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
@@ -1277,6 +1319,24 @@
         <item>Усі, крім радіо</item>
         <item>лише ядро</item>
     </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Лише екран пристрою (за умовчанням)</item>
+        <item>Зовнішній дисплей</item>
+        <item>Останнє натискання рядка стану</item>
+        <item>На основі фокусування</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Показувати панель лише на екрані пристрою</item>
+        <item>Показувати панель на одному зовнішньому дисплеї</item>
+        <item>Показувати панель на дисплеї, де відбулася остання взаємодія з рядком стану</item>
+        <item>Показувати панель на останньому активному дисплеї</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>default_display</item>
+        <item>any_external_display</item>
+        <item>status_bar_latest_touch</item>
+        <item>focused_display</item>
+    </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Вимкнено</item>
         <item>Непрямокутне обрізання синім</item>
@@ -1335,12 +1395,6 @@
         <item>Клацання</item>
         <item>Зусилля</item>
     </string-array>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Заряджання</item>
-        <item>Режиму сну</item>
-        <item>Режим економії заряду</item>
-        <item>Статус процесу</item>
-    </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
         <item>@drawable/threedrop01</item>
@@ -1372,7 +1426,7 @@
         <item>Авто (на основі мови системи)</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Вимк.</item>
+        <item>Вимкнено</item>
         <item>На екрані у вигляді смужок</item>
         <item>У команді \"adb shell dumpsys gfxinfo\"</item>
     </string-array>
@@ -1404,10 +1458,18 @@
         <item>Завжди покращувати кольори</item>
         <item>Відновити стандартний колір змісту екрана з калібруванням кольорів</item>
     </string-array>
+    <string-array name="true_color_screen_optimize_summary_new">
+        <item>Покращені кольори для більш яскравого відображення</item>
+        <item>Відновити стандартний колір змісту екрана з калібруванням кольорів</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Яскравий (рекомендується)</item>
         <item>Насичені</item>
         <item>Початковий колір</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title_new">
+        <item>Яскравий (рекомендується)</item>
+        <item>Оригінал</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>60%</item>
@@ -1428,7 +1490,7 @@
         <item>Дуже швидко</item>
     </string-array>
     <string-array name="typing_style_entries">
-        <item>Звичайний</item>
+        <item>За замовчуванням</item>
         <item>Дотик</item>
         <item>Прямий дотик</item>
     </string-array>
@@ -1536,7 +1598,7 @@
     </string-array>
     <string-array name="wifi_link_turbo_mode_summary_entries">
         <item>"Використовувати мобільний інтернет для збільшення швидкості з'єднання тільки за слабкого сигналу Wi-Fi."</item>
-        <item>"Поєднувати Wi-Fi і мобільний інтернет для збільшення швидкості з'єднання."</item>
+        <item>"Поєднувати Wi-Fi та мобільний інтернет для збільшення швидкості з'єднання."</item>
     </string-array>
     <string-array name="wifi_metered_entries">
         <item>Визначати автоматично</item>
@@ -1643,5 +1705,47 @@
         <item>Анімація 2x</item>
         <item>Анімація 5x</item>
         <item>Анімація 10x</item>
+    </string-array>
+    <string-array name="zen_mode_icon_options_descriptions">
+        <item>Портфель</item>
+        <item>Будівля в класичному стилі</item>
+        <item>Багатоквартирний будинок</item>
+        <item>Виноска з текстом</item>
+        <item>Група людей</item>
+        <item>Лампочка</item>
+        <item>Календар</item>
+        <item>Не турбувати</item>
+        <item>Людина біжить</item>
+        <item>Гольф</item>
+        <item>Спортивна гантель</item>
+        <item>Плавання</item>
+        <item>Людина в поході</item>
+        <item>Людина кидає м’яч</item>
+        <item>Людина б’є ногою</item>
+        <item>Ігровий контролер</item>
+        <item>Палітра художника</item>
+        <item>Сніжинка</item>
+        <item>Пляжна парасоля</item>
+        <item>Інструменти для майстерні</item>
+        <item>Піаніно</item>
+        <item>Кіноплівка</item>
+        <item>Книга</item>
+        <item>Квітка лотоса</item>
+        <item>Людський розум</item>
+        <item>Навушники</item>
+        <item>Телевізор</item>
+        <item>Поїзд</item>
+        <item>Автомобіль</item>
+        <item>Виделка й ніж</item>
+        <item>Кошик для покупок</item>
+        <item>Дитина</item>
+        <item>Лапа тварини</item>
+        <item>Значок зірочки</item>
+        <item>Двоє людей</item>
+        <item>Зірка</item>
+        <item>Серце</item>
+        <item>Будинок</item>
+        <item>Півмісяць</item>
+        <item>Годинник</item>
     </string-array>
 </resources>

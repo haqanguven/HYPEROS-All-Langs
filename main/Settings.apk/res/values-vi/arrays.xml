@@ -19,7 +19,7 @@
         <item>Mở camera trước</item>
         <item>Mở ứng dụng trước</item>
         <item>Bật đèn Flash</item>
-        <item>Bật chế độ Đọc sách</item>
+        <item>Bật Chế độ đọc sách</item>
         <item>Không</item>
     </string-array>
     <string-array name="alarm_repeat_type">
@@ -45,7 +45,7 @@
     </string-array>
     <string-array name="ap_identify">
         <item>Mặc định</item>
-        <item>Điểm phát sóng</item>
+        <item>Điểm phát sóng di động</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>Không</item>
@@ -286,45 +286,47 @@
         <item>Tối ưu chất lượng âm thanh (990kbps/909kbps)</item>
         <item>Chất lượng kết nối và âm thanh cân bằng (660kbps/606kbps)</item>
         <item>Tối ưu chất lượng kết nối (330kbps/303kbps)</item>
-        <item>Hiệu ứng tốt nhất (Truyền bitrate thích ứng)</item>
+        <item>Hiệu ứng tốt nhất (Tốc độ bit thích ứng)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_summaries">
-        <item>Độ trễ thấp</item>
+        <item>Độ trễ ngắn</item>
         <item>Độ trễ trung bình</item>
-        <item>Độ trễ cao</item>
+        <item>Độ trễ dài</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_latency_titles">
-        <item>Độ trễ thấp (50~100ms)</item>
+        <item>Độ trễ ngắn (50~100ms)</item>
         <item>Độ trễ trung bình (150~200ms)</item>
-        <item>Độ trễ cao (300~500ms)</item>
+        <item>Độ trễ dài (300~500ms)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_summaries">
         <item>Tối ưu độ trễ thấp</item>
         <item>Tối ưu chất lượng kết nối</item>
         <item>Chất lượng kết nối và âm thanh cân bằng</item>
         <item>Tối ưu chất lượng âm thanh</item>
-        <item>Tốt nhất (Truyền bitrate thích ứng)</item>
+        <item>Tốt nhất (Tốc độ bit tự động)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_lhdc_playback_quality_titles">
         <item>Tối ưu độ trễ thấp (256kbps)</item>
         <item>Tối ưu chất lượng kết nối (400kbps)</item>
         <item>Chất lượng kết nối và âm thanh cân bằng (500/560kbps)</item>
         <item>Tối ưu chất lượng âm thanh (900kbps)</item>
-        <item>Tốt nhất (Truyền bitrate thích ứng)</item>
+        <item>Tốt nhất (Tốc độ bit tự động)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Sử dụng lựa chọn của hệ thống (Mặc định)</item>
-        <item>44,1 kHz</item>
-        <item>48,0 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96,0 kHz</item>
+        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Sử dụng lựa chọn của hệ thống (Mặc định)</item>
-        <item>44,1 kHz</item>
-        <item>48,0 kHz</item>
-        <item>88,2 kHz</item>
-        <item>96,0 kHz</item>
+        <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Sử dụng ưu tiên hệ thống (Mặc định)</item>
@@ -582,6 +584,7 @@
         <item>Hiển thị các vùng vẽ quá</item>
         <item>Hiển thị các vùng mô phỏng mù màu lục</item>
     </string-array>
+    <array name="display_over_apps_permission_change_exempt" />
     <string-array name="eap_ocsp_type">
         <item>Không xác minh</item>
         <item>Yêu cầu trạng thái chứng chỉ</item>
@@ -619,7 +622,7 @@
     <string-array name="haptic_feedback_level_texts">
         <item>Tắt</item>
         <item>Nhẹ</item>
-        <item>Vừa</item>
+        <item>Trung bình</item>
         <item>Mạnh</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
@@ -757,8 +760,8 @@
     </string-array>
     <string-array name="media_feedback_level_entries">
         <item>Mạnh</item>
-        <item>Vừa</item>
-        <item>Yếu</item>
+        <item>Trung bình</item>
+        <item>Nhẹ</item>
     </string-array>
     <string-array name="mi1_led_color_entries">
         <item>Xanh lam</item>
@@ -769,12 +772,12 @@
         <item>Tía</item>
     </string-array>
     <string-array name="miui_entries_font_size">
-        <item>Rất nhỏ</item>
-        <item>Nhỏ</item>
-        <item>Trung bình</item>
-        <item>Lớn</item>
-        <item>Rất lớn</item>
-        <item>Cực lớn</item>
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
     </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP và cũ hơn</item>
@@ -785,7 +788,7 @@
     <string-array name="msd_pc_system_install_finish_summary">
         <item>@string/msd_pc_system_install_finish_summary_xp</item>
         <item>@string/msd_pc_system_install_finish_summary_vista</item>
-        <item>Lưu trữ USB (USB mass storage) sẽ tự động mở khi kết nối với máy tính.</item>
+        <item>Lưu trữ USB sẽ tự động mở khi kết nối với máy tính.</item>
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_install_summary">
@@ -799,7 +802,7 @@
         <item>Tạo một thư mục: mkdir/media/mtp</item>
         <item>Xác nhận quyền nhóm người dùng ở nhóm người dùng fuse hiện tại</item>
         <item>Đăng nhập lại</item>
-        <item>Truy cập thiết bị đã liên kết: mtpfs /media/mtp thông qua Quản lý Tập tin; cùng thư mục trên máy.</item>
+        <item>Truy cập thiết bị đã kết nối: mtpfs /media/mtp thông qua Quản lý Tập tin; cùng thư mục trên máy.</item>
         <item>"Gỡ cài đặt thiết bị: fusermount -u /media/mtp
 Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
     </string-array>
@@ -925,7 +928,7 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="paper_color_values">
         <item>Đầy đủ màu</item>
-        <item>Màu sáng</item>
+        <item>Màu nhạt</item>
         <item>Đen và trắng</item>
     </string-array>
     <string-array name="perm_hips_action">
@@ -1101,9 +1104,36 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Kiểu tay phải</item>
     </string-array>
     <string-array name="screen_color_title">
-        <item>Ấm áp</item>
+        <item>Ấm</item>
         <item>Tiêu chuẩn</item>
-        <item>Mát lạnh</item>
+        <item>Lạnh</item>
+    </string-array>
+    <string-array name="screen_flash_color_entries">
+        <item>@string/screen_flash_color_none</item>
+        <item>@string/screen_flash_color_blue</item>
+        <item>@string/screen_flash_color_green</item>
+        <item>@string/screen_flash_color_yellow</item>
+        <item>@string/screen_flash_color_orange</item>
+        <item>@string/screen_flash_color_red</item>
+        <item>@string/screen_flash_color_violet</item>
+    </string-array>
+    <array name="screen_flash_color_icons">
+        <item>@drawable/screen_flash_color_none</item>
+        <item>@drawable/screen_flash_color_blue</item>
+        <item>@drawable/screen_flash_color_green</item>
+        <item>@drawable/screen_flash_color_yellow</item>
+        <item>@drawable/screen_flash_color_orange</item>
+        <item>@drawable/screen_flash_color_red</item>
+        <item>@drawable/screen_flash_color_violet</item>
+    </array>
+    <string-array name="screen_flash_color_values">
+        <item>0</item>
+        <item>4D0000FE</item>
+        <item>6600FF01</item>
+        <item>66FFFF00</item>
+        <item>66FF7F00</item>
+        <item>66FE0000</item>
+        <item>667F00FF</item>
     </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0,5 giây</item>
@@ -1122,11 +1152,19 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
     <string-array name="screen_optimize_summary">
         <item>Điều chỉnh màu sắc dựa trên nội dung hiển thị</item>
         <item>Luôn tăng cường màu sắc</item>
-        <item>Độ tương phản sẽ không thay đổi</item>
+        <item>Tương phản sẽ không thay đổi</item>
+    </string-array>
+    <string-array name="screen_optimize_summary_new">
+        <item>Tăng cường màu sắc để hiển thị sống động hơn</item>
+        <item>Khôi phục màu màn hình chuẩn</item>
     </string-array>
     <string-array name="screen_optimize_title">
         <item>Sống động (kiến nghị)</item>
         <item>Bão hòa</item>
+        <item>Tiêu chuẩn</item>
+    </string-array>
+    <string-array name="screen_optimize_title_new">
+        <item>Sống động (kiến nghị)</item>
         <item>Tiêu chuẩn</item>
     </string-array>
     <string-array name="screen_resolution_format">
@@ -1153,9 +1191,9 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Không bao giờ</item>
     </string-array>
     <string-array name="screen_zoom_level">
-        <item>Rất nhỏ</item>
-        <item>Nhỏ</item>
-        <item>Lớn</item>
+        <item>XS</item>
+        <item>S</item>
+        <item>L</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
         <item>Hỏi</item>
@@ -1207,6 +1245,24 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Tất cả</item>
         <item>Tất cả trừ đài</item>
         <item>chỉ kernel</item>
+    </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Chỉ hiển thị trên thiết bị (Mặc định)</item>
+        <item>Màn hình ngoài</item>
+        <item>Lần gần đây nhất chạm vào thanh trạng thái</item>
+        <item>Theo tiêu điểm</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Chỉ hiện ngăn thông báo trên màn hình thiết bị</item>
+        <item>Hiện ngăn trên một màn hình ngoài</item>
+        <item>Hiện ngăn trên màn hình mà gần đây nhất người dùng đã tương tác với thanh trạng thái của màn hình đó</item>
+        <item>Hiện ngăn trên màn hình mà gần đây nhất người dùng đã đặt tiêu điểm</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>default_display</item>
+        <item>any_external_display</item>
+        <item>status_bar_latest_touch</item>
+        <item>focused_display</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Tắt</item>
@@ -1265,12 +1321,6 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
     <string-array name="tabs_taptic_detail_m2">
         <item>Mạnh mẽ</item>
         <item>Chắc chắn</item>
-    </string-array>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Đang sạc</item>
-        <item>Nghỉ</item>
-        <item>Chế độ tiết kiệm điện</item>
-        <item>Trạng thái xử lý</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1335,10 +1385,18 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Luôn tăng cường màu sắc</item>
         <item>Khôi phục màu tiêu chuẩn của nội dung màn hình bằng hiệu chỉnh màu</item>
     </string-array>
+    <string-array name="true_color_screen_optimize_summary_new">
+        <item>Tăng cường màu sắc để hiển thị sống động hơn</item>
+        <item>Khôi phục màu tiêu chuẩn của nội dung màn hình bằng hiệu chỉnh màu</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Sống động (kiến nghị)</item>
         <item>Bão hòa</item>
         <item>Màu gốc</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title_new">
+        <item>Sống động (kiến nghị)</item>
+        <item>Gốc</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>60%</item>
@@ -1359,7 +1417,7 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Nhanh hơn</item>
     </string-array>
     <string-array name="typing_style_entries">
-        <item>Chuẩn</item>
+        <item>Tiêu chuẩn</item>
         <item>Chạm</item>
         <item>Chạm trực tiếp</item>
     </string-array>
@@ -1379,7 +1437,7 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
     <string-array name="vip_mode_text">
         <item>Từ mọi người</item>
         <item>Chỉ từ liên hệ</item>
-        <item>Chỉ từ liên hệ yêu thích</item>
+        <item>Chỉ từ liên hệ đã gắn dấu sao</item>
         <item>Không</item>
     </string-array>
     <string-array name="vip_mode_value">
@@ -1405,10 +1463,10 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>@string/wapi_psk_type_hex</item>
     </string-array>
     <string-array name="wfd_status">
-        <item>Bắt đầu dịch vụ…</item>
-        <item>Dịch vụ đã bắt đầu</item>
+        <item>Đang bắt đầu phiên dịch vụ…</item>
+        <item>Phiên dịch vụ đã bắt đầu</item>
         <item>Đang tắt dịch vụ…</item>
-        <item>Không thể bắt đầu dịch vụ</item>
+        <item>Không thể bắt đầu phiên dịch vụ</item>
         <item>Hết thời gian. Đang thử lại…</item>
         <item>Thiết bị đã kết nối</item>
     </string-array>
@@ -1494,7 +1552,7 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="wifi_privacy_entries">
         <item>Sử dụng MAC ngẫu nhiên</item>
-        <item>Sử dụng thiết bị MAC</item>
+        <item>Sử dụng MAC thiết bị</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
         <item>Không có</item>
@@ -1574,5 +1632,47 @@ Ghi chú: Chỉ dành cho Ubuntu 8.04!"</item>
         <item>Tỷ lệ hình động 2x</item>
         <item>Tỷ lệ hình động 5x</item>
         <item>Tỷ lệ hình động 10x</item>
+    </string-array>
+    <string-array name="zen_mode_icon_options_descriptions">
+        <item>Cặp tài liệu</item>
+        <item>Toà nhà cổ điển</item>
+        <item>Chung cư</item>
+        <item>Ô lời thoại</item>
+        <item>Nhóm người</item>
+        <item>Bóng đèn</item>
+        <item>Lịch</item>
+        <item>Không làm phiền</item>
+        <item>Người đang chạy</item>
+        <item>Gôn</item>
+        <item>Tạ tập thể dục</item>
+        <item>Bơi</item>
+        <item>Người đang đi bộ đường dài</item>
+        <item>Người đang ném bóng</item>
+        <item>Người đang đá</item>
+        <item>Tay điều khiển trò chơi</item>
+        <item>Bảng màu của nghệ sĩ</item>
+        <item>Bông tuyết</item>
+        <item>Dù che trên bãi biển</item>
+        <item>Công cụ trong xưởng</item>
+        <item>Piano</item>
+        <item>Cuộn phim</item>
+        <item>Sách</item>
+        <item>Hoa sen</item>
+        <item>Suy nghĩ của một người</item>
+        <item>Tai nghe</item>
+        <item>TV</item>
+        <item>Xe lửa</item>
+        <item>Ô tô</item>
+        <item>Dao và nĩa</item>
+        <item>Giỏ hàng</item>
+        <item>Trẻ em</item>
+        <item>Dấu chân động vật</item>
+        <item>Huy hiệu ngôi sao</item>
+        <item>2 người</item>
+        <item>Ngôi sao</item>
+        <item>Trái tim</item>
+        <item>Nhà</item>
+        <item>Nửa vầng trăng</item>
+        <item>Đồng hồ</item>
     </string-array>
 </resources>

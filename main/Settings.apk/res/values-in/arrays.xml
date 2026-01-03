@@ -23,13 +23,13 @@
         <item>Tidak ada</item>
     </string-array>
     <string-array name="alarm_repeat_type">
-        <item>Tiap hari</item>
+        <item>Setiap hari</item>
         <item>Malam hari kerja</item>
         <item>Akhir pekan</item>
         <item>Kustom</item>
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
-        <item>Tiap hari</item>
+        <item>Setiap hari</item>
         <item>Malam hari kerja</item>
         <item>Akhir pekan</item>
         <item>Kustom</item>
@@ -44,7 +44,7 @@
         <item>Skala animasi 10x</item>
     </string-array>
     <string-array name="ap_identify">
-        <item>Bawaan</item>
+        <item>Default</item>
         <item>Hotspot portabel</item>
     </string-array>
     <string-array name="apn_auth_entries">
@@ -248,11 +248,11 @@
     </string-array>
     <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_summaries">
         <item>Mode kualitas tinggi (Bawaan)</item>
-        <item>Mode latensi rendah</item>
+        <item>Mode Latensi rendah</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_aptxadaptive_mode_titles">
         <item>Mode kualitas tinggi (Bawaan)</item>
-        <item>Mode latensi rendah</item>
+        <item>Mode Latensi rendah</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
         <item>Gunakan Pilihan Sistem (Default)</item>
@@ -313,28 +313,30 @@
         <item>Usaha optimal (Laju bit otomatis)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Gunakan Pilihan Sistem (Default)</item>
+        <item>Gunakan preferensi sistem (Default)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
+        <item>192,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Gunakan Pilihan Sistem (Default)</item>
+        <item>Gunakan preferensi sistem (Default)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
+        <item>192,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Gunakan pilihan sistem (Bawaan)</item>
+        <item>Gunakan preferensi sistem (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>Qualcomm® aptX™ audio</item>
-        <item>Qualcomm® aptX™ HD audio</item>
+        <item>Audio Qualcomm® aptX™</item>
+        <item>Audio Qualcomm® aptX™ HD</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptif audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>Audio Qualcomm® aptX™ Adaptive</item>
+        <item>Audio Qualcomm® aptX™ TWS+</item>
         <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
@@ -343,14 +345,14 @@
         <item>Nonaktifkan codec opsional</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Gunakan pilihan sistem (Bawaan)</item>
+        <item>Gunakan preferensi sistem (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>Qualcomm® aptX™ audio</item>
-        <item>Qualcomm® aptX™ HD audio</item>
+        <item>Audio Qualcomm® aptX™</item>
+        <item>Audio Qualcomm® aptX™ HD</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptif audio</item>
-        <item>Qualcomm® aptX™ TWS+ audio</item>
+        <item>Audio Qualcomm® aptX™ Adaptive</item>
+        <item>Audio Qualcomm® aptX™ TWS+</item>
         <item>LHDC V5</item>
         <item>LHDC V3/V4</item>
         <item>LHDC V2</item>
@@ -582,6 +584,7 @@
         <item>Tampilkan area overdraw</item>
         <item>Tampilkan area untuk Buta Warna</item>
     </string-array>
+    <array name="display_over_apps_permission_change_exempt" />
     <string-array name="eap_ocsp_type">
         <item>Jangan verifikasi</item>
         <item>Minta status sertifikat</item>
@@ -1105,6 +1108,33 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Standar</item>
         <item>Dingin</item>
     </string-array>
+    <string-array name="screen_flash_color_entries">
+        <item>@string/screen_flash_color_none</item>
+        <item>@string/screen_flash_color_blue</item>
+        <item>@string/screen_flash_color_green</item>
+        <item>@string/screen_flash_color_yellow</item>
+        <item>@string/screen_flash_color_orange</item>
+        <item>@string/screen_flash_color_red</item>
+        <item>@string/screen_flash_color_violet</item>
+    </string-array>
+    <array name="screen_flash_color_icons">
+        <item>@drawable/screen_flash_color_none</item>
+        <item>@drawable/screen_flash_color_blue</item>
+        <item>@drawable/screen_flash_color_green</item>
+        <item>@drawable/screen_flash_color_yellow</item>
+        <item>@drawable/screen_flash_color_orange</item>
+        <item>@drawable/screen_flash_color_red</item>
+        <item>@drawable/screen_flash_color_violet</item>
+    </array>
+    <string-array name="screen_flash_color_values">
+        <item>0</item>
+        <item>4D0000FE</item>
+        <item>6600FF01</item>
+        <item>66FFFF00</item>
+        <item>66FF7F00</item>
+        <item>66FE0000</item>
+        <item>667F00FF</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0,5 detik</item>
         <item>1 detik</item>
@@ -1124,9 +1154,17 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Selalu tingkatkan warna</item>
         <item>Kontras tetap konstan</item>
     </string-array>
+    <string-array name="screen_optimize_summary_new">
+        <item>Warna yang ditingkatkan untuk tampilan yang lebih hidup</item>
+        <item>Pulihkan warna layar standar</item>
+    </string-array>
     <string-array name="screen_optimize_title">
         <item>Vivid (rekomendasi)</item>
         <item>Tersaturasi</item>
+        <item>Standar</item>
+    </string-array>
+    <string-array name="screen_optimize_title_new">
+        <item>Vivid (rekomendasi)</item>
         <item>Standar</item>
     </string-array>
     <string-array name="screen_resolution_format">
@@ -1208,6 +1246,24 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Selain radio</item>
         <item>khusus kernel</item>
     </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Hanya layar perangkat (Default)</item>
+        <item>Layar eksternal</item>
+        <item>Sentuhan status bar terbaru</item>
+        <item>Berbasis fokus</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>Tampilkan shade hanya di layar perangkat</item>
+        <item>Tampilkan menu di satu layar eksternal</item>
+        <item>Tampilkan menu di layar yang terakhir kali berinteraksi dengan status bar-nya</item>
+        <item>Tampilkan menu di layar yang terakhir difokuskan</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>default_display</item>
+        <item>any_external_display</item>
+        <item>status_bar_latest_touch</item>
+        <item>focused_display</item>
+    </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Nonaktif</item>
         <item>Gambar wilayah non-kotak biru</item>
@@ -1265,12 +1321,6 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
     <string-array name="tabs_taptic_detail_m2">
         <item>Crisp</item>
         <item>Solid</item>
-    </string-array>
-    <string-array name="tare_modifiers_subfactors">
-        <item>Mengisi daya</item>
-        <item>Istirahatkan</item>
-        <item>Mode Hemat Daya</item>
-        <item>Status Proses</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1335,10 +1385,18 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Selalu tingkatkan warna</item>
         <item>Pulihkan warna standar dari konten layar dengan kalibrasi warna</item>
     </string-array>
+    <string-array name="true_color_screen_optimize_summary_new">
+        <item>Warna yang ditingkatkan untuk tampilan yang lebih hidup</item>
+        <item>Pulihkan warna standar dari konten layar dengan kalibrasi warna</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Vivid (rekomendasi)</item>
         <item>Tersaturasi</item>
         <item>Warna awal</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title_new">
+        <item>Vivid (rekomendasi)</item>
+        <item>Asli</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>60%</item>
@@ -1374,7 +1432,7 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
     <string-array name="usb_connection_mode_entries">
         <item>Tanya saat terhubung</item>
         <item>Isi daya saja</item>
-        <item>Muat kartu SD</item>
+        <item>Pasang kartu SD</item>
     </string-array>
     <string-array name="vip_mode_text">
         <item>Dari siapa saja</item>
@@ -1393,7 +1451,7 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Manual</item>
     </string-array>
     <string-array name="vpn_states">
-        <item>Terputus</item>
+        <item>Tidak terhubung</item>
         <item>Memulai...</item>
         <item>Menghubungkan…</item>
         <item>Terhubung</item>
@@ -1527,7 +1585,7 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Terhubung</item>
         <item>Ditangguhkan</item>
         <item>Memutus sambungan...</item>
-        <item>Sambungan terputus</item>
+        <item>Tidak terhubung</item>
         <item>Gagal</item>
         <item>Diblokir</item>
         <item>Menghindari sambungan buruk untuk sementara</item>
@@ -1541,7 +1599,7 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Terhubung ke %1$s</item>
         <item>Ditangguhkan</item>
         <item>Diputus dari %1$s…</item>
-        <item>Sambungan terputus</item>
+        <item>Tidak terhubung</item>
         <item>Gagal</item>
         <item>Diblokir</item>
         <item>Menghindari sambungan buruk untuk sementara</item>
@@ -1561,7 +1619,7 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Terhubung</item>
         <item>Ditangguhkan</item>
         <item>Memutus koneksi …</item>
-        <item>Koneksi terputus</item>
+        <item>Tidak terhubung</item>
         <item>Gagal</item>
         <item>Diblokir</item>
         <item>Menghindari koneksi buruk untuk sementara</item>
@@ -1574,5 +1632,47 @@ Catatan: Hanya untuk Ubuntu 8.04!"</item>
         <item>Skala animasi 2x</item>
         <item>Skala animasi 5x</item>
         <item>Skala animasi 10x</item>
+    </string-array>
+    <string-array name="zen_mode_icon_options_descriptions">
+        <item>Tas kantor</item>
+        <item>Bangunan klasik</item>
+        <item>Gedung apartemen</item>
+        <item>Balon kata-kata</item>
+        <item>Sekelompok orang</item>
+        <item>Bohlam</item>
+        <item>Kalender</item>
+        <item>Jangan Ganggu</item>
+        <item>Orang berlari</item>
+        <item>Golf</item>
+        <item>Barbel gym</item>
+        <item>Renang</item>
+        <item>Seseorang mendaki</item>
+        <item>Seseorang melempar bola</item>
+        <item>Seseorang menendang</item>
+        <item>Controller game</item>
+        <item>Palet warna seniman</item>
+        <item>Kepingan salju</item>
+        <item>Payung pantai</item>
+        <item>Alat workshop</item>
+        <item>Piano</item>
+        <item>Rol film</item>
+        <item>Buku</item>
+        <item>Bunga teratai</item>
+        <item>Pikiran seseorang</item>
+        <item>Headphone</item>
+        <item>TV</item>
+        <item>Kereta</item>
+        <item>Mobil</item>
+        <item>Garpu dan pisau</item>
+        <item>Keranjang belanja</item>
+        <item>Anak</item>
+        <item>Cakar hewan</item>
+        <item>Badge bintang</item>
+        <item>Dua orang</item>
+        <item>Bintang</item>
+        <item>Hati</item>
+        <item>Rumah</item>
+        <item>Bulan sabit</item>
+        <item>Jam</item>
     </string-array>
 </resources>

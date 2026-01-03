@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">Hace 1 hora</item>
-        <item quantity="one">Hace 1 hora</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="other">%d horas atrás</item>
         <item quantity="one">%d hora atrás</item>
@@ -79,8 +75,8 @@
         <item quantity="one">&lt;Data>Puede eliminar &lt;font color=#0097FF>%d&lt;/font> archivo grande&lt;/Data></item>
     </plurals>
     <plurals name="dc_item_summary_uninstall_app">
-        <item quantity="other">&lt;Data>Puede desinstalar &lt;font color=#0097FF>%d&lt;/font> aplicaciones poco usadas&lt;/Data></item>
-        <item quantity="one">&lt;Data>Puede desinstalar &lt;font color=#0097FF>%d&lt;/font> aplicación poco usada&lt;/Data></item>
+        <item quantity="other">&lt;Data>Se encontraron &lt;font color=#0097FF>%d&lt;/font> aplicaciones&lt;/Data></item>
+        <item quantity="one">&lt;Data>Se encontró &lt;font color=#0097FF>%d&lt;/font> aplicación&lt;/Data></item>
     </plurals>
     <plurals name="dc_item_summary_video">
         <item quantity="other">&lt;Data>Puede eliminar &lt;font color=#0097FF>%d&lt;/font> videos&lt;/Data></item>
@@ -146,10 +142,6 @@
         <item quantity="other">&lt;Data>Se encontraron &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> mensajes de voz&lt;/Data></item>
         <item quantity="one">&lt;Data>Se encontró &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> mensaje de voz&lt;/Data></item>
     </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="other">Hace media hora</item>
-        <item quantity="one">Hace media hora</item>
-    </plurals>
     <plurals name="hint_similar_image_header_left">
         <item quantity="other">%d grupos</item>
         <item quantity="one">%d grupo</item>
@@ -202,10 +194,6 @@
         <item quantity="other">Eliminar %d paquetes de instalación</item>
         <item quantity="one">Eliminar %d paquete de instalación</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">Hace %d minutos</item>
-        <item quantity="one">Hace 1 minuto</item>
-    </plurals>
     <plurals name="people">
         <item quantity="other">Descargado por %1$d personas</item>
         <item quantity="one">Descargado por %1$d persona</item>
@@ -221,6 +209,14 @@
     <plurals name="second">
         <item quantity="other">%1$d segundos</item>
         <item quantity="one">%1$d segundo</item>
+    </plurals>
+    <plurals name="summary_delete_apk">
+        <item quantity="other">¿Eliminar permanentemente %d APK seleccionadas?</item>
+        <item quantity="one">¿Eliminar permanentemente %d APK seleccionada?</item>
+    </plurals>
+    <plurals name="uninstall_apps">
+        <item quantity="other">Desinstalar %1$d aplicaciones incluyendo %2$s</item>
+        <item quantity="one">Desinstalar %1$d aplicación incluyendo %2$s</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$s vistas</item>

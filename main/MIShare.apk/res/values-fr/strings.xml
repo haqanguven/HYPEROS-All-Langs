@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Redmi_Pad_Pro">Redmi Pad Pro</string>
+    <string name="Redmi_Pad_Pro_5G">Redmi Pad Pro 5G</string>
+    <string name="Xiaomi_Civi_3">Xiaomi Civi 3</string>
+    <string name="Xiaomi_Civi_4_Pro">Xiaomi Civi 4 Pro</string>
+    <string name="Xiaomi_Pad_6S_Pro">Xiaomi Pad 6S Pro 12.4</string>
     <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
     <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
     <string name="abc_action_menu_overflow_description">Autres options</string>
@@ -27,12 +32,17 @@
     <string name="abc_shareactionprovider_share_with">Partager avec</string>
     <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
     <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="accessibility_sliding_button_state_description_off">Désactivé</string>
+    <string name="accessibility_sliding_button_state_description_on">Activé</string>
+    <string name="accessibility_tab_state_description_unselect">Non sélectionné</string>
     <string name="actionbar_button_up_description">Retour</string>
     <string name="afternoon">Après midi</string>
     <string name="agree_desc">Accordez les autorisations obligatoires répertoriées ci-dessus.</string>
     <string name="am">Matin</string>
+    <string name="apple">Apple</string>
     <string name="asus">Asus</string>
     <string name="asus_phone">Asus</string>
+    <string name="background_wait">Masquer</string>
     <string name="blackshark">Black Shark</string>
     <string name="blackshark_1">Black Shark</string>
     <string name="blackshark_2">Black Shark 2</string>
@@ -57,14 +67,19 @@
     <string name="cancel_receive">Annuler</string>
     <string name="cancel_send">Transfert annulé</string>
     <string name="cancel_task">Annuler</string>
+    <string name="canceled">Annulé</string>
     <string name="clearable_edittext_clear_description">Nettoyer</string>
     <string name="close">Fermer</string>
     <string name="complete">Terminé</string>
+    <string name="confirm">OK</string>
     <string name="confirm_cancel_receive">Vous ne pourrez pas recevoir cet élément si vous annulez le transfert maintenant. Annuler quand même?</string>
-    <string name="confirm_cancel_task_files">"Annuler l'envoi des fichiers sur %1$s?"</string>
-    <string name="confirm_cancel_task_images">"Annuler l'envoi des images sur %1$s?"</string>
+    <string name="confirm_cancel_task_files">"Annuler l'envoi des fichiers ?"</string>
+    <string name="confirm_cancel_task_images">"Annuler l'envoi des photos ?"</string>
+    <string name="connect">Connecter</string>
+    <string name="connected">Connecté</string>
     <string name="copy">Copier</string>
-    <string name="custom_define_permission_desc_android.permission_group.LOCATION">For transferring files using Bluetooth and WLAN</string>
+    <string name="count_and_size_of_file">%1$s %2$s</string>
+    <string name="custom_define_permission_desc_android.permission_group.LOCATION">Pour transférer les fichiers en utilisant le Bluetooth et le WLAN</string>
     <string name="custom_define_permission_desc_android.permission_group.STORAGE">Pour envoyer et recevoir des fichiers</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -79,7 +94,7 @@
     <string name="device_offline">"L'autre appareil est hors-ligne. Recommencez."</string>
     <string name="device_status_failed">"Impossible d'envoyer"</string>
     <string name="device_status_sending">"En cours d'envoi…"</string>
-    <string name="device_status_success">Envoyé avec succès</string>
+    <string name="device_status_success">Envoyé</string>
     <string name="device_status_waiting">En attente…</string>
     <string name="device_type_blackshark_phone">Black Shark</string>
     <string name="device_type_meizu_phone">Meizu</string>
@@ -95,25 +110,29 @@
     <string name="eras_ad">EC</string>
     <string name="eras_bc">BCE</string>
     <string name="err_send_short_connect_error">Impossible de se connecter</string>
-    <string name="err_send_short_remote_busy">Occupé</string>
+    <string name="err_send_short_remote_busy">"L'appareil est occupé"</string>
     <string name="err_send_short_remote_cancel">Annulé</string>
     <string name="err_send_short_remote_refuse">Rejeté</string>
     <string name="err_send_short_remote_timeout">Aucune réponse</string>
-    <string name="error_ap_in_use">"Impossible d'envoyer des fichiers à d'autres appareils lorsque le point de connexion est activé"</string>
+    <string name="err_send_short_send_cancel">Transfert annulé</string>
     <string name="error_ap_or_screen_already_hosting">"Impossible d'envoyer les éléments vers d'autres appareils pendant la diffusion ou l'utilisation de point de connexion."</string>
     <string name="error_ble_connect_failure">"L'appareil récepteur n'a pas pu se connecter à Bluetooth. Assurez-vous que son écran est allumé."</string>
     <string name="error_ble_connect_timeout">Impossible de se connecter au Bluetooth. Reconnectez-vous au Bluetooth sur les deux appareils et réessayez.</string>
     <string name="error_device_lost">"Il semble que l'autre appareil ne répond pas. Attendez une minute ou deux et réessayez."</string>
     <string name="error_has_occurred">"Une erreur s'est produite"</string>
-    <string name="error_mirror_working">"Impossible de partager des éléments lors du partage de l'écran"</string>
+    <string name="error_local_ap_in_use">"Désactiver le point d'accès sur cet appareil et réessayer"</string>
+    <string name="error_local_easytether">Désactivez la connectivité partagée sur cet appareil et réessayez</string>
+    <string name="error_local_mirror">Désactiver Screen Combo sur cet appareil et réessayer</string>
+    <string name="error_local_p2p_in_use">Désactiver les fonctionnalités multi-appareils et réessayer</string>
+    <string name="error_local_screening">Arrêter la diffusion sur cet appareil et réessayer</string>
     <string name="error_msg_network_error">Impossible de se connecter au réseau. Vérifiez les connexions Wi-Fi et Bluetooth des deux appareils.</string>
-    <string name="error_msg_network_error_china">"Couldn't connect to the network. Check both devices' WLAN and Bluetooth connections."</string>
+    <string name="error_msg_network_error_china">Impossible de se connecter au réseau. Vérifiez les connexions WLAN et Bluetooth des deux appareils.</string>
     <string name="error_msg_wlan_error">Impossible de se connecter. Reconnectez-vous au Wi-Fi et réessayez.</string>
-    <string name="error_msg_wlan_error_china">"Couldn't connect. Reconnect to WLAN and try again."</string>
+    <string name="error_msg_wlan_error_china">Impossible de se connecter. Reconnectez-vous au WLAN et réessayez.</string>
     <string name="error_p2p_create_group_failure">Impossible de se connecter. Reconnectez-vous au Wi-Fi sur les deux appareils et réessayez.</string>
-    <string name="error_p2p_create_group_failure_china">"Couldn't connect. Reconnect to WLAN on both devices and try again."</string>
+    <string name="error_p2p_create_group_failure_china">Impossible de se connecter. Reconnectez-vous au WLAN sur les deux appareils et réessayez.</string>
     <string name="error_p2p_recv_connect_timeout">Impossible de se connecter. Reconnectez-vous au Wi-Fi sur les deux appareils et réessayez.</string>
-    <string name="error_p2p_recv_connect_timeout_china">"Couldn't connect. Reconnect to WLAN on both devices and try again."</string>
+    <string name="error_p2p_recv_connect_timeout_china">Impossible de se connecter. Reconnectez-vous au WLAN sur les deux appareils et réessayez.</string>
     <string name="error_permission_denied">Pour pouvoir utiliser cette fonctionnalité, accordez à Xiaomi Share toutes les autorisations requises dans les paramètres.</string>
     <string name="error_receive_file_cannot_read">Impossible de recevoir le fichier</string>
     <string name="error_receive_file_changed">"Impossible de recevoir. L'élément à changé."</string>
@@ -123,16 +142,21 @@
     <string name="error_receive_user_cancel">Transfert annulé</string>
     <string name="error_receive_user_interrupted">"L'autre personne à annulé le transfert"</string>
     <string name="error_refuse_receive">Transfert annulé</string>
-    <string name="error_remote_ap_working">"Demandez à l'autre personne de désactiver le point d'accès mobile"</string>
+    <string name="error_remote_ap_in_use">"Désactiver le point d'accès sur l'autre appareil et réessayer"</string>
     <string name="error_remote_busy">"Il semblerait que l'autre appareil soit occupé. Attendez une minute ou deux et réessayez."</string>
-    <string name="error_remote_mirror_working">"L'autre appareil ne peut pas accepter les éléments lors du partage de l'écran"</string>
+    <string name="error_remote_easytether">"Désactivez la connectivité partagée sur l'autre appareil et réessayez"</string>
+    <string name="error_remote_mirror">"Désactiver Screen Combo sur l'autre appareil et réessayer"</string>
+    <string name="error_remote_p2p_in_use">"Désactiver les fonctionnalités multi-appareils sur l'autre appareil et réessayer"</string>
+    <string name="error_remote_screening">"Arrêter la diffusion sur l'autre appareil et réessayer"</string>
+    <string name="error_remote_wlan_off">"Activez le Wi-Fi sur l'autre appareil"</string>
+    <string name="error_remote_wlan_off_china">"Activez WLAN sur l'autre appareil"</string>
     <string name="error_self_busy">"L'appareil est occupé. Attendez une minute ou deux et réessayez."</string>
     <string name="error_send_file_cannot_read">"Impossible d'envoyer le fichier. Réessayez."</string>
     <string name="error_send_file_no_enough_space">"Impossible d'envoyer. Espace de stockage insuffisant sur l'autre appareil."</string>
     <string name="error_send_file_not_found">Impossible de trouver le fichier. Réessayez.</string>
     <string name="error_send_file_service_disabled">Transfert sortant annulé</string>
     <string name="error_send_transfer_error">"Impossible d'envoyer des éléments. Attendez une minute ou deux et réessayez."</string>
-    <string name="error_send_transfer_pc_error">Transfer timed out. Update Xiaomi PC Manager to the latest version and try again.</string>
+    <string name="error_send_transfer_pc_error">Le transfert a expiré. Mettez à jour le Gestionnaire PC Xiaomi vers la dernière version et réessayez.</string>
     <string name="error_slave_wifi_in_use">Xiaomi Share ne fonctionne pas lorsque le double Wi-Fi est activé. Désactivez le double Wi-Fi dans les paramètres et réessayez.</string>
     <string name="error_slave_wifi_in_use_china">Xiaomi Share ne fonctionne pas lorsque le double Wi-Fi est activé. Désactivez le double Wi-Fi dans les paramètres et réessayez.</string>
     <string name="error_timeout">La session à expirée. Attendez une minute ou deux et réessayez.</string>
@@ -208,29 +232,49 @@
     <string name="friday_shortest">Ven</string>
     <string name="functions_are_being_developed">Cette fonctionnalité sera disponible sous peu. Restez au courant!</string>
     <string name="global_help">"Impossible de trouver l'appareil"</string>
-    <string name="global_pad">Ma tablette</string>
-    <string name="global_pc">Mon ordinateur portable</string>
-    <string name="global_phone">Mon téléphone</string>
+    <string name="global_my">"Mon appareil
+%1$s"</string>
     <string name="go_to_settings">Paramètres</string>
+    <string name="guide_page_view1">"Activez Xiaomi Share sur les deux appareils. L'autre personne peut appuyer sur la bascule dans le centre de contrôle. Page %1$d de %2$d. Balayez vers la gauche ou la droite avec deux doigts pour basculer."</string>
+    <string name="guide_page_view1_lyra">Vous pouvez activer Xiaomi Share dans le centre de contrôle. Page %1$d de %2$d. Balayez vers la gauche ou la droite avec deux doigts pour basculer.</string>
+    <string name="guide_page_view1_os3">Activez Xiaomi Share dans le centre de contrôle pour recevoir des fichiers. Page %1$d de %2$d. Balayez vers la gauche ou la droite avec deux doigts pour basculer.</string>
+    <string name="guide_page_view2">"Sélectionnez l'appareil auquel vous souhaitez envoyer des éléments et appuyez sur son icône. Page : %1$d de %2$d. Balayez vers la gauche ou la droite avec deux doigts pour basculer."</string>
+    <string name="guide_page_view2_os3">"Sélectionnez l'appareil auquel vous souhaitez envoyer des éléments. Page : %1$d de %2$d. Balayez vers la gauche ou la droite avec deux doigts pour basculer."</string>
+    <string name="guide_page_view3">"Mettez les zones arrière NFC des deux appareils proches l'un de l'autre pour commencer à partager. Page : %1$d de %2$d. Balayez vers la gauche ou la droite avec deux doigts pour basculer."</string>
     <string name="guide_summary_1">"L'autre personne peut appuyer sur le raccourci dans le Panneau de notification"</string>
     <string name="guide_summary_1_lyra">Vous pouvez activer Xiaomi Share dans le Centre de contrôle</string>
+    <string name="guide_summary_1_os3">Vous pouvez activer Xiaomi Share dans le Centre de contrôle</string>
     <string name="guide_summary_2">"Sélectionnez l'appareil auquel vous souhaitez envoyer des éléments et appuyez sur son icône"</string>
+    <string name="guide_summary_2_os3">"Sélectionnez l'appareil auquel vous souhaitez envoyer des éléments"</string>
+    <string name="guide_summary_3">"Mettez les zones arrière NFC des deux appareils proches l'un de l'autre pour commencer à partager"</string>
     <string name="guide_title_1">Activez Xiaomi Share sur les deux appareils</string>
     <string name="guide_title_1_lyra">Activez Xiaomi Share pour recevoir des fichiers</string>
+    <string name="guide_title_1_os3">Activez Xiaomi Share pour recevoir des fichiers</string>
     <string name="guide_title_2">"Sélectionnez l'appareil à partager"</string>
+    <string name="guide_title_2_os3">Sélectionnez un appareil pour envoyer des fichiers</string>
+    <string name="guide_title_3">Appuyez pour partager</string>
     <string name="help">Vous ne trouvez pas les appareils?</string>
-    <string name="help_content">"Si vous ne trouvez pas l'appareil dont vous avez besoin, demandez à l'autre personne d'activer Xiaomi Share."</string>
     <string name="hide">Masquer</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
+    <string name="honor">Honor</string>
+    <string name="honor_phone">Téléphone Honor</string>
     <string name="i_know">"C'est compris"</string>
+    <string name="imac">iMac</string>
     <string name="international_privacy_dialog_agree">Accepter</string>
     <string name="international_privacy_dialog_content">Pendant que vous utilisez cette application, nous devons collecter les informations nécessaires pour pouvoir vous connecter à des appareils et transférer des fichiers. Si vous choisissez de ne pas fournir ces informations, nous pourrions ne pas être en mesure de vous fournir les services correspondants ou de répondre à vos questions. Vous pouvez soumettre une demande de retrait de votre consentement en tout temps dans Confidentialité > Retrait du consentement.</string>
     <string name="international_privacy_dialog_disagree">Refuser</string>
     <string name="international_privacy_dialog_title">Xiaomi Share</string>
+    <string name="ipad">iPad</string>
+    <string name="iphone">iPhone</string>
     <string name="lenovo">Lenovo</string>
     <string name="lenovo_phone">Lenovo</string>
     <string name="location_enabled">Xiaomi Share a activé les services de localisation pour trouver des appareils à proximité</string>
+    <string name="mac">Mac</string>
+    <string name="mac_mini">Mac mini</string>
+    <string name="mac_pro">Mac Pro</string>
+    <string name="mac_studio">Mac Studio</string>
+    <string name="macbook">MacBook</string>
     <string name="meizu">Meizu</string>
     <string name="meizu_phone">Meizu</string>
     <string name="menu_item_permission_manager_and_use_guide_title">Détails des autorisations</string>
@@ -255,18 +299,37 @@
     <string name="mi_pad_5">Xiaomi Pad 5</string>
     <string name="mi_pad_5_pro">Xiaomi Pad 5 Pro</string>
     <string name="mi_pad_5_pro_5g">Xiaomi Pad 5 Pro 5G</string>
+    <string name="mi_pad_6">Xiaomi Pad 6</string>
+    <string name="mi_pad_6_pro">Xiaomi Pad 6 Pro</string>
     <string name="mi_share_turbo_mode">Transfert Turbo</string>
     <string name="midnight">Nuit</string>
     <string name="mini_pc_xiaomi_device_model_name">Xiaomi Mini PC</string>
+    <string name="mishare_device_find_conditions_comment">"Découverte d'appareils"</string>
+    <string name="mishare_device_version_comment">*Les appareils connectés au même Compte Xiaomi peuvent automatiquement se connecter et recevoir des messages les uns des autres. Cette fonctionnalité nécessite que les deux appareils exécutent Xiaomi HyperOS et Xiaomi Share pour être mis à jour vers la version 3.0.0 ou ultérieure.</string>
     <string name="mishare_folder_in_file_explorer">Gestionnaire de fichiers > Xiaomi Share</string>
     <string name="mishare_service_channel_desc">Notifications sur les processus Xiaomi Share</string>
-    <string name="mishare_settings_summary_international">"Xiaomi Share vous permet d'envoyer des éléments sans fil à d'autres appareils à proximité. 
-Cette fonctionnalité est prise en charge par OPPO, vivo, realme et d'autres fabricants de smartphones. Vous pouvez consulter la liste des appareils pris en charge sur le site officiel de n'importe quelle marque sélectionnée."</string>
+    <string name="mishare_settings_summary_international">"Téléphones et tablettes Xiaomi
+Plus d'appareils Android : vivo, realme, OPPO et d'autres marques peuvent prendre en charge cette fonctionnalité. Reportez-vous au site officiel de chaque marque pour plus de détails."</string>
+    <string name="mishare_settings_summary_international_ios">"Téléphones et tablettes Xiaomi
+Appareils Apple : iPhone, iPad et Mac
+Autres appareils Android : vivo, realme, OPPO et d'autres marques sélectionnées peuvent prendre en charge cette fonctionnalité. Consultez le site officiel de chaque marque pour plus de détails."</string>
     <string name="mishare_state_protection">Activez automatiquement Xiaomi Share</string>
     <string name="mishare_state_protection_summary">Activer automatiquement Xiaomi Share quand le Bluetooth ou le Wi-fi sont réactivés</string>
     <string name="mishare_state_protection_summary_china">Activer automatiquement Xiaomi Share quand le Bluetooth ou le Wifi sont réactivés</string>
+    <string name="mishare_support_device_comment">Appareils pris en charge</string>
+    <string name="mishare_support_device_summary">"Téléphones, tablettes et ordinateurs portables Xiaomi
+Appareils Android d'autres fabricants : vivo, realme, OPPO, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO, Honor"</string>
+    <string name="mishare_support_device_summary_ios">"Téléphones, tablettes et ordinateurs portables Xiaomi
+Appareils Apple : iPhone, iPad, Mac
+Appareils Android d'autres fabricants : vivo, realme, OPPO, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO, Honor"</string>
     <string name="mishare_transefer_channel_desc">Notifications sur les articles envoyés et reçus par Xiaomi Share</string>
     <string name="miuix_access_state_desc">Sélectionné</string>
+    <string name="miuix_accessibility_title">Titre</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Réduit</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Étendu</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">"Quitter le mode d'édition"</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nouvelle notification</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Entrer en mode édition</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Tout désélectionner</string>
     <string name="miuix_appcompat_action_mode_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_action_mode_title_empty">Sélectionner des éléments</string>
@@ -282,6 +345,8 @@ Cette fonctionnalité est prise en charge par OPPO, vivo, realme et d'autres fab
     <string name="miuix_appcompat_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_select_all_description">Tout sélectionner</string>
     <string name="miuix_appcompat_select_item">Sélectionnez les éléments</string>
+    <string name="miuix_appcompat_show_dialog_description">Fenêtre contextuelle</string>
+    <string name="miuix_progressbar_loading">Chargement</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Faites glisser vers le bas pour actualiser</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualisé avec succès</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Actualisation…</string>
@@ -290,6 +355,9 @@ Cette fonctionnalité est prise en charge par OPPO, vivo, realme et d'autres fab
     <string name="miuix_sbl_tracking_progress_labe_up_none">"C'est tout pour le moment"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Juste un instant…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Impossible de charger les éléments</string>
+    <string name="miuix_show_password">Afficher le mot de passe</string>
+    <string name="miuix_stretchablewidget_collapsed">Réduit</string>
+    <string name="miuix_stretchablewidget_expanded">Étendu</string>
     <string name="monday">Lundi</string>
     <string name="monday_short">Lun</string>
     <string name="monday_shortest">Lun</string>
@@ -344,11 +412,11 @@ Cette fonctionnalité est prise en charge par OPPO, vivo, realme et d'autres fab
     <string name="nfc_connect_fail_pad">Impossible de se connecter</string>
     <string name="nfc_connecting">Connexion…</string>
     <string name="nfc_need_to_enable_your_bluetooth_and_wlan">"Pour connecter les appareils, activez d'abord le Wi-Fi et Bluetooth sur cet appareil. Activer maintenant ?"</string>
-    <string name="nfc_need_to_enable_your_bluetooth_and_wlan_china">To connect the devices, turn on WLAN and Bluetooth on this device first. Turn on now?</string>
-    <string name="nfc_pc_need_to_enable_your_bluetooth_and_wlan">"Couldn't connect to computer. Make sure you've turned on Wi-Fi and Bluetooth on both your mobile device and computer, and that your computer is running Xiaomi PC Manager."</string>
-    <string name="nfc_pc_need_to_enable_your_bluetooth_and_wlan_china">"Couldn't connect to computer. Make sure you've turned on WLAN and Bluetooth on both your mobile device and computer, and that your computer is running Xiaomi PC Manager."</string>
+    <string name="nfc_need_to_enable_your_bluetooth_and_wlan_china">"Pour connecter les appareils, activez d'abord le WLAN et le Bluetooth sur cet appareil. Activer maintenant ?"</string>
+    <string name="nfc_pc_need_to_enable_your_bluetooth_and_wlan">"Impossible de se connecter à l'ordinateur. Assurez-vous que vous avez activé WLAN et Bluetooth sur votre appareil mobile et votre ordinateur et que votre ordinateur exécute le Gestionnaire PC Xiaomi."</string>
+    <string name="nfc_pc_need_to_enable_your_bluetooth_and_wlan_china">"Impossible de se connecter à l'ordinateur. Assurez-vous que vous avez activé WLAN et Bluetooth sur votre appareil mobile et votre ordinateur et que votre ordinateur exécute le Gestionnaire PC Xiaomi."</string>
     <string name="nfc_wifi_and_bluetooth">Activer le Wi-Fi et le Bluetooth</string>
-    <string name="nfc_wifi_and_bluetooth_china">Turn on WLAN and Bluetooth</string>
+    <string name="nfc_wifi_and_bluetooth_china">Activez le WLAN et le Bluetooth</string>
     <string name="night">Soirée</string>
     <string name="nio">NIO</string>
     <string name="nio_phone">Téléphone NIO</string>
@@ -359,6 +427,13 @@ Cette fonctionnalité est prise en charge par OPPO, vivo, realme et d'autres fab
     <string name="notification_channel_name">Notifications de transfert</string>
     <string name="nubia">Nubia</string>
     <string name="nubia_phone">Nubia</string>
+    <string name="onehop_connecting_tips">Connexion…</string>
+    <string name="onehop_file_security_tips">Suppression des informations personnelles…</string>
+    <string name="onehop_option_send_confirm">Envoyé</string>
+    <string name="onehop_recv_tips">"En attente que l'autre personne partage des éléments…"</string>
+    <string name="onehop_remote_cancel">"L'autre personne a annulé le transfert"</string>
+    <string name="onehop_remote_refuse">"L'autre personne a rejeté le transfert"</string>
+    <string name="onehop_wait_for_connect_ap">"En attente de l'autre appareil pour se connecter au point d'accès…"</string>
     <string name="oneplus">OnePlus</string>
     <string name="oneplus_phone">OnePlus</string>
     <string name="operate_too_fast">"Trop rapide! Attendez jusqu'à ce que les opérations en cours soient complètes."</string>
@@ -379,6 +454,7 @@ Cette fonctionnalité est prise en charge par OPPO, vivo, realme et d'autres fab
 Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, aussi bien que l'autoriser à collecter les informations personnelles nécessaires."</string>
     <string name="purpose_v12">Bienvenue sur Xiaomi Share ! Vous pouvez utiliser cette application pour transférer des fichiers entre appareils.</string>
     <string name="queue_full">"Terminer les transferts en cours avant d'en ajouter de nouveaux."</string>
+    <string name="ratio">%1$d %%</string>
     <string name="realme">realme</string>
     <string name="realme_phone">realme</string>
     <string name="receive_complete">Reçu avec succès</string>
@@ -406,6 +482,8 @@ Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, a
     <string name="redmi_k40">Redmi K40</string>
     <string name="redmi_k40_g">Edition Redmi K40 Gaming</string>
     <string name="redmi_k40_pro">Redmi K40 Pro</string>
+    <string name="redmi_k50_ultra">Redmi K50 Ultra</string>
+    <string name="redmi_k70">Redmi K70</string>
     <string name="redmi_note_10">Redmi Note 10</string>
     <string name="redmi_note_10_pro">Redmi Note 10 Pro</string>
     <string name="redmi_note_5">Redmi Note 5</string>
@@ -419,6 +497,7 @@ Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, a
     <string name="redmi_note_9_pro_max">Redmi Note 9 Pro Max</string>
     <string name="redmi_note_9s">Redmi Note 9S</string>
     <string name="refuse_file">Refuser</string>
+    <string name="refused">Rejeté</string>
     <string name="retry_task">Renvoyer</string>
     <string name="rog">ROG</string>
     <string name="rog_phone">ROG</string>
@@ -430,8 +509,6 @@ Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, a
     <string name="scanning_device_tips"><Data>"Recherche d'appareils à proximité. L'autre personne doit activer Xiaomi Share dans le centre de contrôle. &lt;a>En savoir plus&lt;/a>"</Data></string>
     <string name="scanning_only_xiaomi_device">Cet élément ne peut être transféré que sur les appareils Xiaomi ou Black Shark</string>
     <string name="search_menu_title">Rechercher</string>
-    <string name="seize_content">Arrêtez de partager votre écran pour pouvoir transférer des éléments. Arrêter de partager maintenant ?</string>
-    <string name="seize_title">"Arrêter de partager l'écran"</string>
     <string name="send">Envoyer</string>
     <string name="send_files_by">Partager des fichiers via</string>
     <string name="send_files_to">Envoyer des éléments vers</string>
@@ -445,12 +522,52 @@ Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, a
     <string name="send_one_audio_dialog_desc_receiving">Reçoit %2$d fichier audio \"%3$s\" de %1$s</string>
     <string name="send_one_file_dialog_desc">%2$d %3$s fichier \"%4$s\" de %1$s</string>
     <string name="send_one_file_dialog_desc_received">Reçu %2$d %3$s fichier \"%4$s\" de %1$s</string>
-    <string name="send_one_file_dialog_desc_receiving">"Reçoit %2$d %3$s fichiers \"%4$s'' de %1$s"</string>
+    <string name="send_one_file_dialog_desc_receiving">Reçoit %2$d %3$s fichiers \"%4$s\" de %1$s</string>
     <string name="send_one_zip_dialog_desc">%2$d fichier ZIP \"%3$s\" de %1$s</string>
     <string name="send_one_zip_dialog_desc_received">Reçu %2$d fichier ZIP \"%3$s\" de %1$s</string>
     <string name="send_one_zip_dialog_desc_receiving">Reçoit %2$d fichier ZIP \"%3$s\" de %1$s</string>
     <string name="send_successfully">Envoyé avec succès</string>
     <string name="sender_error">"Impossible d'envoyer. Attendez une minute ou deux et réessayez."</string>
+    <string name="share_canceled">Transfert annulé</string>
+    <string name="share_complete">Transfert effectué avec succès</string>
+    <string name="share_device_near_share">Partager lorsque à proximité</string>
+    <string name="share_device_near_share_condition">Conditions de partage</string>
+    <string name="share_device_near_share_condition_describe">"%1$d. Assurez-vous que NFC, Bluetooth et Wi-Fi sont activés sur les deux appareils.
+%2$d. Mettre à jour Xiaomi Share vers la version %3$s.
+%4$d. Si vous utilisez un iPhone, installez l'interconnectivité Xiaomi."</string>
+    <string name="share_device_near_share_condition_describe_china">"%1$d. Assurez-vous que NFC, Bluetooth et WLAN sont activés sur les deux appareils.
+%2$d. Mettre à jour Xiaomi Share vers la version %3$s.
+%4$d. Si vous utilisez un iPhone, installez l'interconnectivité Xiaomi."</string>
+    <string name="share_device_near_share_content_describe" formatted="false">"Vous pouvez envoyer les types de contenu suivants : 
+%d. Partager des photos : Dans la Galerie, appuyez sur « Partager » à côté d’une photo.
+%d. Partager des fichiers : sélectionnez un fichier dans le gestionnaire de fichiers."</string>
+    <string name="share_device_near_share_content_title">Partage de contenu</string>
+    <string name="share_device_near_share_image_describe">"Mettez les zones NFC des deux appareils proches l'un de l'autre pour commencer à partager"</string>
+    <string name="share_device_near_share_subtitle">"Mettre deux appareils à proximité l'un de l'autre pour partager"</string>
+    <string name="share_failed">Impossible de terminer ce transfert</string>
+    <string name="share_file_timeout">La demande a expiré. Réessayez avec moins de fichiers.</string>
+    <string name="share_not_supported">Non pris en charge</string>
+    <string name="share_notification_receive_confirm_content">De %1$s</string>
+    <string name="share_open_nfc_content">Activez le NFC pour pouvoir utiliser cette fonctionnalité. Activer maintenant ?</string>
+    <string name="share_open_nfc_title">Activer NFC</string>
+    <string name="share_refuse">Transfert rejeté</string>
+    <string name="share_send_notification_describe">Destinataire : %1$s</string>
+    <string name="share_show_nfc_position"><Data>&lt;a href=%1$s>Afficher la zone de NFC&lt;/a></Data></string>
+    <string name="share_to_be_sent">En attente</string>
+    <string name="share_waiting_connect">En attente</string>
+    <string name="share_waiting_other_recv">Envoi des fichiers en cours</string>
+    <string name="share_waiting_recv">En attente</string>
+    <string name="size_of_B">%d o</string>
+    <string name="size_of_GB">%d Go</string>
+    <string name="size_of_KB">%d Ko</string>
+    <string name="size_of_MB">%d Mo</string>
+    <string name="size_of_one_float_GB">%.1f Go</string>
+    <string name="size_of_one_float_KB">%.1f Ko</string>
+    <string name="size_of_one_float_MB">%.1f Mo</string>
+    <string name="size_of_two_float_GB">%.2f Go</string>
+    <string name="size_of_two_float_KB">%.2f Ko</string>
+    <string name="size_of_two_float_MB">%.2f Mo</string>
+    <string name="size_of_two_float_TB">%.2f To</string>
     <string name="smartisan">Smartisan</string>
     <string name="smartisan_phone">Smartisan</string>
     <string name="some_files_receive_completed">Voir les fichiers que vous avez déjà reçu dans %1$s.</string>
@@ -460,8 +577,10 @@ Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, a
     <string name="sub_title_mishare_switch">"Cette fonctionnalité s'éteindra automatiquement après %d minutes"</string>
     <string name="sub_title_mishare_switch_all">Vous pouvez recevoir tous les fichiers</string>
     <string name="sub_title_mishare_switch_mine">"Vous pouvez recevoir des fichiers à partir d'appareils connectés à votre compte"</string>
+    <string name="sub_title_mishare_switch_mine_desc">"Avant de définir votre statut de réception sur \"À partir de ce compte\", assurez-vous que la version système de l'autre appareil est mise à jour vers Xiaomi HyperOS ou une version ultérieure et que Xiaomi Share est mis à jour vers la version 3.0.0 ou une version ultérieure."</string>
     <string name="sub_title_mishare_switch_none">Activez Xiaomi Share pour pouvoir recevoir des fichiers</string>
-    <string name="sub_title_turbo_mode">Transferts super rapides entre les téléphones Xiaomi et les tablettes. Le réseau sera déconnecté pendant le transfert.</string>
+    <string name="sub_title_mishare_switch_none_os3">Peut être trouvé par les appareils à proximité</string>
+    <string name="sub_title_turbo_mode">Lorsque cette fonctionnalité est activée, le réseau sera déconnecté pendant le transfert</string>
     <string name="sub_title_withdraw_privacy_policy_consent">Le retrait du consentement à la Politique de Confidentialité désactivera également Xiaomi Share</string>
     <string name="success_receive_much_file_from_pc">Plus de %2$d fichiers reçus depuis %1$s. Appuyez pour afficher.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -469,9 +588,55 @@ Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, a
     <string name="sunday_short">Dim</string>
     <string name="sunday_shortest">Dim</string>
     <string name="support_device_type">Appareils pris en charge</string>
-    <string name="switch_mode_all">De n’importe qui (pour %d m)</string>
+    <string name="switch_mode_all">"De n'importe qui (pendant %d min)"</string>
     <string name="switch_mode_close">Désactivé</string>
-    <string name="switch_mode_sameaccount">Depuis ce compte</string>
+    <string name="switch_mode_close_os3">Désactivé</string>
+    <string name="switch_mode_sameaccount">De ce compte</string>
+    <string name="tap_share_condition_describe">"%1$d. NFC, Bluetooth et Wi-Fi sont activés sur les deux appareils.
+%2$d. Sur votre appareil Xiaomi, mettez à jour Xiaomi Share vers la version %3$s.
+%4$d. Sur votre iPhone, installez l'application Interconnectivité Xiaomi."</string>
+    <string name="tap_share_condition_describe_china">"%1$d. NFC, Bluetooth et WLAN sont activés sur les deux appareils.
+%2$d. Sur votre appareil Xiaomi, mettez à jour Xiaomi Share vers la version %3$s.
+%4$d. Sur votre iPhone, installez l'application Interconnectivité Xiaomi."</string>
+    <string name="tap_share_condition_describe_os3">"%1$d. Assurez-vous que les deux appareils sont déverrouillés et que le NFC, le Bluetooth et le Wi-Fi sont activés.
+%2$d. Mettez à jour votre appareil Xiaomi vers %3$s ou une version ultérieure. Vous pouvez également rechercher Xiaomi Share dans les Paramètres pour vérifier si l'option « Appuyer pour partager » est prise en charge.
+%4$d. Assurez-vous d'utiliser un iPhone 12 ou un modèle plus récent et qu'il exécute iOS 17 ou une version ultérieure. Installez la dernière version de Interconnectivité Xiaomi sur votre iPhone."</string>
+    <string name="tap_share_condition_describe_os3_china">"%1$d. Assurez-vous que les deux appareils sont déverrouillés et que le NFC, le Bluetooth et le WLAN sont activés.
+%2$d. Mettez à jour votre appareil Xiaomi vers %3$s ou une version ultérieure. Vous pouvez également rechercher Xiaomi Share dans les Paramètres pour vérifier si l'option « Appuyer pour partager » est prise en charge.
+%4$d. Assurez-vous d'utiliser un iPhone 12 ou un modèle plus récent et qu'il exécute iOS 17 ou une version ultérieure. Installez la dernière version de Interconnectivité Xiaomi sur votre iPhone."</string>
+    <string name="tap_share_connecting_this_wifi">Connexion à ce réseau Wi-Fi</string>
+    <string name="tap_share_connecting_this_wlan">Connexion à ce réseau WLAN</string>
+    <string name="tap_share_connecting_wifi">Connexion à \"%1$s\"</string>
+    <string name="tap_share_content_describe" formatted="false">"L'expéditeur peut utiliser Appuyer pour partager des manières suivantes :
+%d. Partagez des photos et des vidéos en affichant une image complète dans la Galerie, sur la page de sélection ou en appuyant sur « Envoyer » pour ouvrir une fenêtre contextuelle de partage.
+%d. Partagez des fichiers depuis la page de sélection du Gestionnaire de fichiers ou en appuyant sur « Envoyer » pour ouvrir une fenêtre contextuelle de partage.
+%d. Pour partager un réseau Wi-Fi auquel vous êtes connecté, ouvrez la liste Wi-Fi ou appuyez sur le réseau Wi-Fi connecté pour ouvrir une fenêtre contextuelle de partage.
+%d. Partagez vos contacts en consultant la page de détails d'un contact, sur la page de sélection ou en appuyant sur « Partager » pour ouvrir une fenêtre de partage.
+%d. Partagez une page web en l'ouvrant dans le navigateur Mi ou en appuyant sur « Partager » pour ouvrir une fenêtre de partage.
+"</string>
+    <string name="tap_share_content_describe_china" formatted="false">"L'expéditeur peut utiliser Appuyer pour partager des manières suivantes :
+%d. Partagez des photos et des vidéos en affichant une image complète dans la Galerie, sur la page de sélection ou en appuyant sur « Envoyer » pour ouvrir une fenêtre contextuelle de partage.
+%d. Partagez des fichiers depuis la page de sélection du Gestionnaire de fichiers ou en appuyant sur « Envoyer » pour ouvrir une fenêtre contextuelle de partage.
+%d. Pour partager un réseau WLAN auquel vous êtes connecté, ouvrez la liste WLAN ou appuyez sur le réseau WLAN connecté pour ouvrir une fenêtre contextuelle de partage.
+%d. Partagez vos contacts en consultant la page de détails d'un contact, sur la page de sélection ou en appuyant sur « Partager » pour ouvrir une fenêtre de partage.
+%d. Partagez une page web en l'ouvrant dans le navigateur Mi ou en appuyant sur « Partager » pour ouvrir une fenêtre de partage.
+"</string>
+    <string name="tap_share_image_describe">Touchez les zones NFC arrière de deux appareils ensemble pour partager rapidement des éléments</string>
+    <string name="tap_share_is_connect_this_wifi">Se connecter à ce réseau Wi-Fi ?</string>
+    <string name="tap_share_is_connect_this_wlan">Se connecter à ce réseau WLAN ?</string>
+    <string name="tap_share_preparing">Préparation en cours</string>
+    <string name="tap_share_preparing_file">Préparation des fichiers</string>
+    <string name="tap_share_send_this_wifi">Partager ce réseau Wi-Fi</string>
+    <string name="tap_share_send_this_wlan">Partager ce réseau WLAN</string>
+    <string name="tap_share_subTitle">"Touchez l'arrière de deux appareils ensemble pour partager des éléments"</string>
+    <string name="tap_share_tips_title">"Touchez l'arrière de deux appareils ensemble pour partager des éléments"</string>
+    <string name="tap_share_title">Appuyez pour partager</string>
+    <string name="tap_share_wifi_cannot_share">Impossible de partager ce réseau</string>
+    <string name="tap_share_wifi_connect_cancel">Connexion annulée</string>
+    <string name="tap_share_wifi_connect_success">Connecté</string>
+    <string name="tap_share_wifi_connected">Connecté à \"%1$s\"</string>
+    <string name="tap_share_wifi_fail">Impossible de se connecter</string>
+    <string name="tapshare_receive_describe_wifi">Connecter à \"%1$s\"</string>
     <string name="the_anniversary_of_lifting_martial_law">Anniversaire de la Levée de la Loi Martiale</string>
     <string name="the_anti_aggression_day">Journée Anti-agression</string>
     <string name="the_arbor_day">"Journée de l'Arbre"</string>
@@ -524,7 +689,7 @@ Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, a
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
     <string name="tips_p2p_support_use5g">Pour de meilleurs résultats, utilisez un réseau Wi-Fi de 5 GHz.</string>
-    <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
+    <string name="tips_p2p_support_use5g_china">Pour de meilleurs résultats, utilisez un réseau WLAN de 5 GHz.</string>
     <string name="tips_prompt_enable_midrop">Xiaomi Share</string>
     <string name="to_feedback">Signaler</string>
     <string name="toast_auto_close_in_minutes">"Xiaomi Share s'éteindra automatiquement en %d minutes"</string>
@@ -534,14 +699,17 @@ Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, a
     <string name="today">"Aujourd'hui"</string>
     <string name="tomorrow">Demain</string>
     <string name="transfer_intercept_to_remote">"Impossible d'envoyer: %1$s"</string>
-    <string name="transfer_to_different_account_summary">"Assurez-vous que Xiaomi Share est activé dans le Centre de contrôle d'abord. Votre appareil pourra être découvert par d'autres personnes pendant %d minutes."</string>
-    <string name="transfer_to_different_account_title">"Découverte d'appareils sous différents comptes"</string>
-    <string name="transfer_to_pc_summary_new_plus"><Data> Gestionnaire PC Xiaomi prend désormais en charge Xiaomi Share ! Vous trouverez une liste des modèles informatiques pris en charge &lt;a href=%1$s>ici&lt;/a>.</Data></string>
-    <string name="transfer_to_pc_title">Envoyer les fichiers vers des ordinateurs</string>
+    <string name="transfer_to_different_account_summary">"Les deux appareils (Xiaomi et autres appareils Android) doivent activer Xiaomi Share dans le centre de contrôle. Vous pourrez recevoir des fichiers de n'importe qui pendant %d minutes."</string>
+    <string name="transfer_to_different_account_summary_ios" formatted="false">"%d. Les deux appareils (Xiaomi et autres appareils Android) doivent activer Xiaomi Share dans le centre de contrôle. Vous pourrez recevoir des fichiers de n'importe qui pendant %d minutes.
+%d. Les iPhones et iPads doivent activer les services d'interconnectivité Xiaomi et s'assurer que les deux appareils sont connectés au même réseau local."</string>
+    <string name="transfer_to_different_account_title">Découverte des téléphones et des tablettes</string>
+    <string name="transfer_to_pc_summary_new_plus"><Data>Assurez-vous que le Gestionnaire PC Xiaomi est téléchargé, puis activez Xiaomi Share dans le centre de contrôle pour pouvoir recevoir des fichiers. Vous trouverez une liste des modèles d’ordinateurs pris en charge &lt;a href=%1$s>ici&lt;/a>.</Data></string>
+    <string name="transfer_to_pc_summary_new_plus_ios"><Data>"&lt;xliff:g id=mishare_ios_1 refersto=1>%1$d&lt;/xliff:g>. Sur un ordinateur portable Xiaomi, assurez-vous que le Gestionnaire PC Xiaomi est téléchargé, puis activez Xiaomi Share dans le centre de contrôle pour pouvoir recevoir des fichiers. Vous trouverez une liste des modèles d'ordinateurs pris en charge &lt;a href=%2$s>ici&lt;/a>.&lt;br>&lt;xliff:g id=mishare_ios_2 refersto=2>%3$d&lt;/xliff:g>. Sur un Mac, activer les services d'interconnectivité Xiaomi et vérifier que les deux appareils sont connectés au même réseau local."</Data></string>
+    <string name="transfer_to_pc_title">Détection des ordinateurs</string>
     <string name="transfer_to_phone_summary">"Activez Xiaomi Share à l'aide de la bascule dans le Panneau de notification. Après cela, vous pourrez voir les appareils à proximité lorsque vous commencerez à partager une photo ou un fichier. Appuyez sur l'appareil du destinataire pour envoyer l'élément que vous partagez."</string>
     <string name="transfer_to_phone_summary_new">"Activez Xiaomi Share dans le Centre de contrôle pour pouvoir facilement envoyer et recevoir des éléments. Après l'avoir activé vous pouvez partager des éléments avec des appareils à proximité pendant %d minutes avant qu'il ne s'éteigne automatiquement."</string>
     <string name="transfer_to_phone_title">Envoyer les fichiers vers les téléphones</string>
-    <string name="transfer_to_same_account_summary">Les appareils sous le même compte doivent être facilement détectables. Assurez-vous que Xiaomi Share est activé dans les Paramètres.</string>
+    <string name="transfer_to_same_account_summary">"Pour transférer des éléments vers des appareils connectés à votre compte, assurez-vous d'abord que la version du système de l'autre appareil est mise à jour vers Xiaomi HyperOS ou une version ultérieure et que Xiaomi Share est mis à jour vers la version 3.0.0 ou une version ultérieure. Définir le statut de réception sur \"À partir de ce compte\". Sinon, vous devrez activer Xiaomi Share dans le centre de contrôle pour pouvoir recevoir des fichiers de n'importe qui pendant %d minutes."</string>
     <string name="transfer_to_same_account_title">"Découverte d'appareils sous le même compte"</string>
     <string name="transfer_to_summary">"Activez Xiaomi Share à l'aide de la bascule dans le Panneau de notification. Après cela, vous pourrez voir les appareils à proximité lorsque vous commencerez à partager une photo ou un fichier. Appuyez sur l'appareil du destinataire pour envoyer l'élément que vous partagez."</string>
     <string name="transfer_to_summary_new">"Activez Xiaomi Share dans le Centre de contrôle pour pouvoir facilement envoyer et recevoir des éléments. Après l'avoir activé vous pouvez partager des éléments avec des appareils à proximité pendant %d minutes avant qu'il ne s'éteigne automatiquement."</string>
@@ -569,7 +737,7 @@ Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, a
     <string name="vivo_phone">vivo</string>
     <string name="wait_receive_file">En attente de réception…</string>
     <string name="wait_remote_receive_tips">Assurez-vous que les écrans des deux appareils sont allumés et que le Wi-Fi et le Bluetooth sont activés.</string>
-    <string name="wait_remote_receive_tips_china">"Make sure both devices' screens are on and they have WLAN and Bluetooth turned on."</string>
+    <string name="wait_remote_receive_tips_china">Assurez-vous que les écrans des deux appareils sont allumés et que le WLAN et le Bluetooth sont activés.</string>
     <string name="wednesday">Mercredi</string>
     <string name="wednesday_short">Mer</string>
     <string name="wednesday_shortest">Mer</string>
@@ -593,6 +761,11 @@ Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, a
     <string name="xiaomi_12">Xiaomi 12</string>
     <string name="xiaomi_12_pro">Xiaomi 12 Pro</string>
     <string name="xiaomi_12x">Xiaomi 12X</string>
+    <string name="xiaomi_13">Xiaomi 13</string>
+    <string name="xiaomi_13t">Xiaomi 13T</string>
+    <string name="xiaomi_14">Xiaomi 14</string>
+    <string name="xiaomi_14_pro">Xiaomi 14 Pro</string>
+    <string name="xiaomi_14_ultra">Xiaomi 14 Ultra</string>
     <string name="xiaomi_6">Mi 6</string>
     <string name="xiaomi_6x">Mi 6X</string>
     <string name="xiaomi_8">Mi 8</string>
@@ -608,6 +781,7 @@ Avant d'utiliser Xiaomi Share, vous devez forunir les autorisations suivantes, a
     <string name="xiaomi_cc_9_pro">Mi CC9 Pro</string>
     <string name="xiaomi_cc_9e">Mi CC9e</string>
     <string name="xiaomi_civi">Xiaomi Civi</string>
+    <string name="xiaomi_civi2">Xiaomi Civi 2</string>
     <string name="xiaomi_max_3">Mi MAX 3</string>
     <string name="xiaomi_mix_2">Mi MIX 2</string>
     <string name="xiaomi_mix_2s">Mi MIX 2S</string>

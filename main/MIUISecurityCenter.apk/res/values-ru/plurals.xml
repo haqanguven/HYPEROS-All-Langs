@@ -192,6 +192,12 @@
         <item quantity="few">%d приложения без подключения к сети в фоне</item>
         <item quantity="many">%d приложений без подключения к сети в фоне</item>
     </plurals>
+    <plurals name="biometric_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Повторите попытку через %d секунд</item>
+        <item quantity="one">Повторите попытку через %d секунду</item>
+        <item quantity="few">Повторите попытку через %d секунды</item>
+        <item quantity="many">Повторите попытку через %d секунд</item>
+    </plurals>
     <plurals name="cache_check_content">
         <item quantity="other">Защищено: %d</item>
         <item quantity="one">Защищено: %d</item>
@@ -260,6 +266,18 @@
         <item quantity="few">%s мин</item>
         <item quantity="many">%s мин</item>
     </plurals>
+    <plurals name="fast_open_list_not_open_title">
+        <item quantity="other">Режим быстрого открытия не может прервать работу %s приложений</item>
+        <item quantity="one">Режим быстрого открытия не может прервать работу %s приложения</item>
+        <item quantity="few">Режим быстрого открытия не может прервать работу %s приложений</item>
+        <item quantity="many">Режим быстрого открытия не может прервать работу %s приложений</item>
+    </plurals>
+    <plurals name="fast_open_list_open_title">
+        <item quantity="other">Режим быстрого открытия может прервать работу %s приложений</item>
+        <item quantity="one">Режим быстрого открытия может прервать работу %s приложения</item>
+        <item quantity="few">Режим быстрого открытия может прервать работу %s приложений</item>
+        <item quantity="many">Режим быстрого открытия может прервать работу %s приложений</item>
+    </plurals>
     <plurals name="find_applications">
         <item quantity="other">%d приложений</item>
         <item quantity="one">%d приложение</item>
@@ -321,16 +339,28 @@
         <item quantity="many">%1$s</item>
     </plurals>
     <plurals name="gamebooster_push_expiring_soon_link_message">
-        <item quantity="other">Your Game Turbo membership will expire in %d days.</item>
-        <item quantity="one">Your Game Turbo membership will expire in %d day.</item>
-        <item quantity="few">Your Game Turbo membership will expire in %d days.</item>
-        <item quantity="many">Your Game Turbo membership will expire in %d days.</item>
+        <item quantity="other">Срок действия вашей подписки на «Ускорение игр» истекает через %d дней.</item>
+        <item quantity="one">Срок действия вашей подписки на «Ускорение игр» истекает через %d день.</item>
+        <item quantity="few">Срок действия вашей подписки на «Ускорение игр» истекает через %d дня.</item>
+        <item quantity="many">Срок действия вашей подписки на «Ускорение игр» истекает через %d дней.</item>
     </plurals>
     <plurals name="gamebooster_push_expiring_soon_message">
         <item quantity="other">Срок действия подписки \"Ускорения игр\" истекает через %d дней. Продлите ее, чтобы получить наилучший игровой опыт.</item>
         <item quantity="one">Срок действия подписки \"Ускорения игр\" истекает через %d день. Продлите ее, чтобы получить наилучший игровой опыт.</item>
         <item quantity="few">Срок действия подписки \"Ускорения игр\" истекает через %d дня. Продлите ее, чтобы получить наилучший игровой опыт.</item>
         <item quantity="many">Срок действия подписки \"Ускорения игр\" истекает через %d дней. Продлите ее, чтобы получить наилучший игровой опыт.</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_minute_talkback">
+        <item quantity="other">%1$d минут</item>
+        <item quantity="one">%1$d минута</item>
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="many">%1$d минут</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_second_talkback">
+        <item quantity="other">%1$d секунд</item>
+        <item quantity="one">%1$d секунда</item>
+        <item quantity="few">%1$d секунды</item>
+        <item quantity="many">%1$d секунд</item>
     </plurals>
     <plurals name="gb_ad_people_play">
         <item quantity="other">Играют %1$d человек</item>
@@ -470,6 +500,12 @@
         <item quantity="few">Добавьте до %d приложений. Нажмите и удерживайте, чтобы изменить порядок отображения.</item>
         <item quantity="many">Добавьте до %d приложений. Нажмите и удерживайте, чтобы изменить порядок отображения.</item>
     </plurals>
+    <plurals name="group_have_hongbao">
+        <item quantity="other">%2$d красных конвертов от %1$s</item>
+        <item quantity="one">%2$d красный конверт от %1$s</item>
+        <item quantity="few">%2$d красных конверта от %1$s</item>
+        <item quantity="many">%2$d красных конвертов от %1$s</item>
+    </plurals>
     <plurals name="gtb_brightness_dialog_message">
         <item quantity="other">Эта функция автоматически уменьшает яркость экрана для экономии энергии после %d минут простоя. Не отключать эту функцию?</item>
         <item quantity="one">Эта функция автоматически уменьшает яркость экрана для экономии энергии после %d минуты простоя. Не отключать эту функцию?</item>
@@ -483,10 +519,10 @@
         <item quantity="many">Автоматически уменьшать яркость экрана для экономии энергии после %d минут простоя.</item>
     </plurals>
     <plurals name="gtb_spring_festival_colored_egg">
-        <item quantity="other">"Congrats! You've unlocked %s Easter eggs."</item>
-        <item quantity="one">"Congrats! You've unlocked %s Easter egg."</item>
-        <item quantity="few">"Congrats! You've unlocked %s Easter eggs."</item>
-        <item quantity="many">"Congrats! You've unlocked %s Easter eggs."</item>
+        <item quantity="other">Поздравляем! Вы разблокировали %s пасхальных яиц.</item>
+        <item quantity="one">Поздравляем! Вы разблокировали %s пасхальное яйцо.</item>
+        <item quantity="few">Поздравляем! Вы разблокировали %s пасхальных яйца.</item>
+        <item quantity="many">Поздравляем! Вы разблокировали %s пасхальных яиц.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Полчаса назад</item>
@@ -668,11 +704,23 @@
         <item quantity="few">"Подождите %d с и повторите попытку. "</item>
         <item quantity="many">"Подождите %d с и повторите попытку. "</item>
     </plurals>
+    <plurals name="main_minutes">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+        <item quantity="few">%d мин</item>
+        <item quantity="many">%d мин</item>
+    </plurals>
     <plurals name="manual_white_list_header">
         <item quantity="other">%d исключений</item>
         <item quantity="one">%d исключение</item>
         <item quantity="few">%d исключения</item>
         <item quantity="many">%d исключений</item>
+    </plurals>
+    <plurals name="mark_call_intercept_threshold_dialog_title">
+        <item quantity="other">Порог: %d</item>
+        <item quantity="one">Порог: %d</item>
+        <item quantity="few">Порог: %d</item>
+        <item quantity="many">Порог: %d</item>
     </plurals>
     <plurals name="marked_by_others">
         <item quantity="other">%d человек отметили как</item>
@@ -705,10 +753,10 @@
         <item quantity="many">Доступно %d обновлений</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
-        <item quantity="other">Выбрано: %d</item>
-        <item quantity="one">Выбрано: %d</item>
-        <item quantity="few">Выбрано: %d</item>
-        <item quantity="many">Выбрано: %d</item>
+        <item quantity="other">Выбрано %d объектов</item>
+        <item quantity="one">Выбран %d объект</item>
+        <item quantity="few">Выбрано %d объекта</item>
+        <item quantity="many">Выбрано %d объектов</item>
     </plurals>
     <plurals name="mixed_recording_incorrect_too_short">
         <item quantity="other">Введите не менее %d символов</item>
@@ -859,6 +907,18 @@
         <item quantity="one">%d приложение разряжает батарею</item>
         <item quantity="few">%d приложения разряжают батарею</item>
         <item quantity="many">%d приложений разряжают батарею</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_hour">
+        <item quantity="other">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_minute">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
     </plurals>
     <plurals name="pc_battery_history_hour">
         <item quantity="other">" ч"</item>
@@ -1208,6 +1268,12 @@
         <item quantity="few">%s раза</item>
         <item quantity="many">%s раз</item>
     </plurals>
+    <plurals name="privacy_revoke_dialog_positive_text_numbers_description">
+        <item quantity="other">Вы можете отозвать свое согласие через %d секунд</item>
+        <item quantity="one">Вы можете отозвать свое согласие через %d секунду</item>
+        <item quantity="few">Вы можете отозвать свое согласие через %d секунды</item>
+        <item quantity="many">Вы можете отозвать свое согласие через %d секунд</item>
+    </plurals>
     <plurals name="privacy_risk_app_count">
         <item quantity="other">%d приложений</item>
         <item quantity="one">%d приложение</item>
@@ -1376,6 +1442,24 @@
         <item quantity="few">Изменение %1$d разрешений</item>
         <item quantity="many">Изменение %1$d разрешений</item>
     </plurals>
+    <plurals name="storage_fbo_btn_result_time">
+        <item quantity="other">Остается %1$d мин.</item>
+        <item quantity="one">Остается %1$d мин.</item>
+        <item quantity="few">Остается %1$d мин.</item>
+        <item quantity="many">Остается %1$d мин.</item>
+    </plurals>
+    <plurals name="storage_fbo_finish_tip">
+        <item quantity="other">Дефрагментация завершена. Упорядочено %1$d фрагментов.</item>
+        <item quantity="one">Дефрагментация завершена. Упорядочен %1$d фрагмент.</item>
+        <item quantity="few">Дефрагментация завершена. Упорядочено %1$d фрагмента.</item>
+        <item quantity="many">Дефрагментация завершена. Упорядочено %1$d фрагментов.</item>
+    </plurals>
+    <plurals name="storage_fbo_notification_finish_content">
+        <item quantity="other">Оптимизировано %1$d фрагментов</item>
+        <item quantity="one">Оптимизирован %1$d фрагмент</item>
+        <item quantity="few">Оптимизировано %1$d фрагмента</item>
+        <item quantity="many">Оптимизировано %1$d фрагментов</item>
+    </plurals>
     <plurals name="storage_fbo_number_unit">
         <item quantity="other">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> фрагментов</item>
         <item quantity="one">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> фрагмент</item>
@@ -1453,6 +1537,18 @@
         <item quantity="one">Введите %s цифру</item>
         <item quantity="few">Введите %s цифры</item>
         <item quantity="many">Введите %s цифр</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_hour">
+        <item quantity="other">%d ч</item>
+        <item quantity="one">%d ч</item>
+        <item quantity="few">%d ч</item>
+        <item quantity="many">%d ч</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_minute">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+        <item quantity="few">%d мин.</item>
+        <item quantity="many">%d мин.</item>
     </plurals>
     <plurals name="videobox_settings_manager_apps_count">
         <item quantity="other">%d приложений</item>

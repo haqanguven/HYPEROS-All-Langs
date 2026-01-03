@@ -29,9 +29,12 @@
     <string name="abc_toolbar_collapse_description">Minimieren</string>
     <string name="abort_backup_confirm">Sicherung nicht abgeschlossen, trotzdem beenden?</string>
     <string name="abort_restore_confirm">Wiederherstellung nicht abgeschlossen, trotzdem beenden?</string>
-    <string name="account_contact_backup_info">Google-Konto, Mi-Konto und Kontaktdaten</string>
+    <string name="accessibility_sliding_button_state_description_off">Ausgeschaltet</string>
+    <string name="accessibility_sliding_button_state_description_on">Eingeschaltet</string>
+    <string name="accessibility_tab_state_description_unselect">Nicht ausgewählt</string>
+    <string name="account_contact_backup_info">Google-Konto, Xiaomi-Konto und Kontaktdaten</string>
     <string name="account_login">Anmelden</string>
-    <string name="account_summary">Google-Konto, Mi-Konto und weitere Benutzerdaten sichern</string>
+    <string name="account_summary">Google-Konto, Xiaomi-Konto und weitere Benutzerdaten sichern</string>
     <string name="actionbar_button_up_description">Zurück</string>
     <string name="afternoon">Nachmittag</string>
     <string name="agree_button">Zustimmen</string>
@@ -82,6 +85,8 @@
     <string name="backup_hint_onpad">Gerät nicht ausschalten</string>
     <string name="backup_hint_pad">Gerät nicht ausschalten</string>
     <string name="backup_is_running">Gerät sichern</string>
+    <string name="backup_item_collapsed">Eingeklappt</string>
+    <string name="backup_item_expanded">Erweitert</string>
     <string name="backup_new">Neu:</string>
     <string name="backup_notice_content">Deine Sicherungen werden nicht verschlüsselt, was bedeutet, dass Dritte auf sie zugreifen oder sie manipulieren können. Auch andere Sicherheitsrisiken können auftreten. Stelle sicher, dass du die gesicherten Elemente in einer gut geschützten Umgebung speicherst.</string>
     <string name="backup_notice_title">Achtung</string>
@@ -92,11 +97,6 @@
     <string name="backup_security_tips_title">Sicherungen eventuell nicht möglich</string>
     <string name="backup_update">Aktualisieren</string>
     <string name="batch_delete_backup_confirm">Ausgewählte Sicherungen löschen?</string>
-    <string name="bottomsheet_action_collapse">Ansicht am unteren Rand minimieren</string>
-    <string name="bottomsheet_action_expand">Ansicht am unteren Rand maximieren</string>
-    <string name="bottomsheet_action_expand_halfway">Zur Hälfte maximieren</string>
-    <string name="bottomsheet_drag_handle_clicked">Auf Ziehpunkt doppelt getippt</string>
-    <string name="bottomsheet_drag_handle_content_description">Ziehpunkt</string>
     <string name="broken_screen_rescue_service">Sicherungen mit beschädigtem Bildschirm</string>
     <string name="broken_screen_rescue_service_content">Diese Funktion erlaubt es dir, Elemente über ein USB-Kabel zu sichern, wenn der Bildschirm deines Gerätes beschädigt ist oder nicht reagiert. Um Elemente sichern zu können, wenn der Bildschirm nicht reagiert, solltest du diese Funktion einschalten, wenn der Bildschirm noch korrekt funktioniert.</string>
     <string name="broken_screen_rescue_service_disable">Sicherungen mit beschädigtem Bildschirm abschalten</string>
@@ -119,7 +119,7 @@
     <string name="broken_screen_rescue_service_turn_on_confirm">Sicherungen mit beschädigtem Bildschirm jetzt einschalten?</string>
     <string name="btn_got_it">Verstanden</string>
     <string name="button_backup">Sichern</string>
-    <string name="button_cancel">Abbruch</string>
+    <string name="button_cancel">Abbrechen</string>
     <string name="button_clean_garbage">Speicherplatz freigeben</string>
     <string name="button_continue">Weiter</string>
     <string name="button_finish">Fertig</string>
@@ -131,27 +131,20 @@
     <string name="button_return">Zurück</string>
     <string name="button_select">Auswählen</string>
     <string name="button_send">Senden</string>
-    <string name="call_notification_answer_action">Annehmen</string>
-    <string name="call_notification_answer_video_action">Video</string>
-    <string name="call_notification_decline_action">Ablehnen</string>
-    <string name="call_notification_hang_up_action">Auflegen</string>
-    <string name="call_notification_incoming_text">Eingehender Anruf</string>
-    <string name="call_notification_ongoing_text">Aktueller Anruf</string>
-    <string name="call_notification_screening_text">Filter für eingehenden Anruf</string>
     <string name="call_title">Anrufverlauf</string>
     <string name="camera_summary">Kameraeinstellungen (ohne Fotos)</string>
     <string name="camera_summary_for_cta">Kameraeinstellungen</string>
-    <string name="cancel">Abbruch</string>
+    <string name="cancel">Abbrechen</string>
     <string name="cancel_backup">Beenden</string>
     <string name="cancel_moving_dialog_message">Jetzt Import stoppen?</string>
     <string name="cancel_moving_dialog_title">Import stoppen</string>
     <string name="cancel_restore">Beenden</string>
+    <string name="cannot_use_backup_summary">Sicherungsdienste werden derzeit von %s verwendet. Versuche es erneut, nachdem der Datentransfer abgeschlossen ist.</string>
+    <string name="cannot_use_backup_title">Sicherung nicht möglich</string>
+    <string name="cannot_use_mi_backup_summary">Der System-Sicherungsdienst ist derzeit ausgelastet. Warte, bis er fertig ist und versuche es dann erneut oder starte dein Gerät neu.</string>
     <string name="category_contacts">Kontakte</string>
     <string name="category_message_contacts">Nachrichten und Kontakte</string>
-    <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
-    <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
     <string name="check_privacy_policy">Datenschutzerklärung anzeigen</string>
-    <string name="clear_text_end_icon_content_description">Text löschen</string>
     <string name="clearable_edittext_clear_description">Löschen</string>
     <string name="click_soft_ap_to_link">Zum Verbinden Hotspot auswählen</string>
     <string name="click_to_view">Zum Anzeigen tippen</string>
@@ -160,15 +153,12 @@
     <string name="close_twice_auth_note">"Hinweis:
 Nach Erstellen einer neuen Sicherheitsfrage und Bestätigung deines Geburtsdatums ist die Zwei-Faktor-Authentifizierung deiner Apple ID deaktiviert. Wenn du die Option zum Ausschalten der Zwei-Faktor-Authentifizierung auf der Kontenseite der Apple ID nicht findest, kannst du sie nicht ausschalten."</string>
     <string name="close_twice_auth_operation">"URL:
-https://appleid.apple.com/#!&amp;page=Zum Schließen anmelden"</string>
-    <string name="close_twice_auth_step_1">1. Öffne einen Browser auf einem Computer und gehe zu appleid.apple.com.</string>
-    <string name="close_twice_auth_step_2">2. Melde dich mit der Apple ID an, für die du die Zwei-Faktor-Authentifizierung deaktivieren möchtest, gehe zu \"Sicherheit\" in den Kontoeinstellungen und wähle \"Bearbeiten\".</string>
-    <string name="close_twice_auth_step_3">3. Klicke auf \"Zwei-Faktor-Authentifizierung deaktivieren\". Klicke erneut zur Bestätigung.</string>
+https://appleid.apple.com/#!undpage=Zum Schließen anmelden"</string>
     <string name="close_twice_auth_steps">Folge diesen Schritten, um die Zwei-Faktor-Authentifizierung der Apple ID auszuschalten:</string>
     <string name="close_twice_auth_tutor">Apple ID Zwei-Faktor-Authentifizierung ausschalten</string>
     <string name="cloud_app_name">Xiaomi Cloud-Sicherung</string>
     <string name="cloud_backup_hint">Jetzt anmelden, um auf deine Sicherungen zuzugreifen</string>
-    <string name="cloud_backup_login">Im Mi-Konto anmelden</string>
+    <string name="cloud_backup_login">Im Xiaomi-Konto anmelden</string>
     <string name="cloud_backup_window_title">Xiaomi Cloud Sicherungen</string>
     <string name="cloud_home_title">Xiaomi Cloud</string>
     <string name="cloud_item_info_summary">" (Local: %1$s | Xiaomi Cloud: %2$s)"</string>
@@ -213,7 +203,7 @@ https://appleid.apple.com/#!&amp;page=Zum Schließen anmelden"</string>
     <string name="dialog_app_upgrade_message">Eine neue Version von Mi Mover ist verfügbar. Mi Mover jetzt aktualisieren?</string>
     <string name="dialog_backup_password_auto_backup_tips">Es ist nicht möglich, Elemente automatisch zu sichern, wenn das Sicherungspasswort aktiv ist. Schalte zuerst das Sicherungspasswort aus.</string>
     <string name="dialog_backup_password_backup_tips">Sicherung von Elementen bei aktivem Sicherungspasswort nicht möglich. Das Sicherungspasswort muss ausgeschaltet werden.</string>
-    <string name="dialog_backup_password_cancel">Abbruch</string>
+    <string name="dialog_backup_password_cancel">Abbrechen</string>
     <string name="dialog_backup_password_change_device_restore_tips">Mi Mover kann nicht verwendet werden, wenn das Sicherungspasswort aktiv ist. Schalte zuerst das Sicherungsasswort aus.</string>
     <string name="dialog_backup_password_change_machine_tips">Passwortgeschützte Sicherungen können nicht übertragen werden. Vor Benutzung von Datenumzug (Mi Mover) muss das Sicherungspasswort ausgeschaltet werden.</string>
     <string name="dialog_backup_password_restore_tips">Elemente können nicht wiederhergestellt werden, wenn das Sicherungspasswort aktiv ist. Schalte zuerst das Sicherungspasswort aus.</string>
@@ -231,8 +221,8 @@ https://appleid.apple.com/#!&amp;page=Zum Schließen anmelden"</string>
     <string name="enable_encrypt_description">Verschlüsseln</string>
     <string name="enable_encrypt_fail">Verschlüsselungsfehler</string>
     <string name="enable_encrypt_indicator">Zum Verschlüsseln berühren</string>
-    <string name="enable_encrypt_summery1">Im Mi-Konto anmelden zum Zugriff auf verschlüsselte Sicherungen.</string>
-    <string name="enable_encrypt_summery2">Nach der Wiederherstellung der Werkseinstellungen oder bei der Wiederherstellung von Sicherungen mit anderen Geräten, bei deinem Mi-Konto anmelden!</string>
+    <string name="enable_encrypt_summery1">Im Xiaomi-Konto anmelden zum Zugriff auf verschlüsselte Sicherungen.</string>
+    <string name="enable_encrypt_summery2">Nach der Wiederherstellung der Werkseinstellungen oder bei der Wiederherstellung von Sicherungen mit anderen Geräten, bei deinem Xiaomi-Konto anmelden!</string>
     <string name="enable_encrypt_title">Sicherungen verschlüsseln</string>
     <string name="enable_local_backup">Lokale Sicherungen einschalten</string>
     <string name="enable_local_backup_and_restore">Lokale Sicherungen einschalten</string>
@@ -256,17 +246,14 @@ https://appleid.apple.com/#!&amp;page=Zum Schließen anmelden"</string>
     <string name="err_user_abort">Vom Nutzer abgebrochen.</string>
     <string name="err_version_too_old">Sicherungsdatei ist zu alt.</string>
     <string name="err_version_unsupported">Sicherungsversion wird nicht unterstützt.</string>
-    <string name="error_a11y_label">Fehler: ungültig</string>
-    <string name="error_icon_content_description">Fehler</string>
     <string name="error_permissions">Diese App hat nicht die erforderlichen Berechtigungen für den Kalenderzugriff. Einstellungen öffnen und Berechtigungen prüfen, um fortzufahren.</string>
     <string name="evening">Nachmittag</string>
     <string name="every_day">Täglich</string>
     <string name="exchange_account">Konten wechseln</string>
     <string name="expand_button_title">Erweitert</string>
-    <string name="exposed_dropdown_menu_content_description">Drop-down-Menü anzeigen</string>
     <string name="fail">Fehlgeschlagen</string>
     <string name="failed_description">Fehlgeschlagen</string>
-    <string name="feature_title_account">Mi-Konto</string>
+    <string name="feature_title_account">Xiaomi-Konto</string>
     <string name="feature_title_antispam">Sperrliste</string>
     <string name="feature_title_call_log">Anrufverlauf</string>
     <string name="feature_title_contacts">Kontakte</string>
@@ -278,8 +265,8 @@ https://appleid.apple.com/#!&amp;page=Zum Schließen anmelden"</string>
     <string name="findlost_contact">Kontakte wiederherstellen</string>
     <string name="findlost_contact_online">Kontakte aus Xiaomi Cloud wiederherstellen</string>
     <string name="flash_drive_backup_btn">Auf USB-Laufwerk sichern</string>
-    <string name="flash_drive_backup_note">"Apps auf einem USB-Laufwerk sichern.
-Das USB-Laufwerk muss über genug Speicherplatz verfügen vor dem Start."</string>
+    <string name="flash_drive_backup_note">"Inhalte auf einem USB-Laufwerk sichern.
+Das USB-Laufwerk muss über genug Speicherplatz verfügen, bevor du beginnst."</string>
     <string name="flash_drive_backup_restore">USB-Sicherungen</string>
     <string name="flash_drive_connection_failed">USB-Laufwerk getrennt</string>
     <string name="flash_drive_restore_btn">Von USB-Laufwerk wiederherstellen</string>
@@ -354,11 +341,7 @@ Sicherungsdateien nicht ändern oder umbenennen."</string>
     <string name="hsa_send_again_countdown">Erneut senden (%ds)</string>
     <string name="hsa_send_failed">Senden des Bestätigungscode fehlgeschlagen. Nach ein paar Minuten erneut versuchen.</string>
     <string name="hsa_sending">Senden…</string>
-    <string name="hsa_tip_message">"1. Wenn du den Bestätigungscode nicht erhalten kannst, stelle sicher, dass du dich bereits auf deinem Apple-Gerät bei iCloud angemeldet hast.r
-2. Wenn die Eingabe des Verifizierungscodes nicht hilft, deaktiviere die Zwei-Faktor-Authentifizierung. "</string>
     <string name="hsa_tip_message_shutdown_hsa">So deaktiviert man die Zwei-Faktor-Authentifizierung</string>
-    <string name="hsa_tip_message_with_device">"1. Eine Nachricht mit Bestätigungscode wurde an \"%s\"gesendet, verbunden mit deiner Apple ID.r
-2. Wenn der Bestätigungscode nicht funktioniert, schalte die Zwei-Faktor-Authentifizierung aus."</string>
     <string name="hsa_tip_title">Tipps:</string>
     <string name="hsa_title">Zwei-Faktor-Authentifizierung</string>
     <string name="hsa_verify_failed">Zwei-Faktor-Authentifizierung fehlgeschlagen</string>
@@ -367,9 +350,6 @@ Sicherungsdateien nicht ändern oder umbenennen."</string>
     <string name="hsa_verify_shutdown">Ausschalten</string>
     <string name="iCloud_ID_verification_tip">Auf deinem Apple-Gerät auf \"Zulassen\" tippen, damit der Bestätigungscode angezeigt wird. Hier den Bestätigungscode eingeben.</string>
     <string name="icloud_backup_tip">Melde dich im iCloud Konto deines alten Geräts an</string>
-    <string name="icloud_how_to_backup_tip_steps">"1. Öffne Einstellungen auf deinem iOS-Gerät und wähle iCloud.r
-2. Lege die Taster für Kontakte und andere Elemente um.r
-3. Wähle Fotos und lege den Taster für iCloud-Fotobibliothek um."</string>
     <string name="icloud_how_to_backup_tip_summary">Um Daten von iOS zu importieren, musst du eine iCloud-Sicherung erstellen.</string>
     <string name="icloud_how_to_backup_tip_title">Tipps:</string>
     <string name="icloud_login_title">In der iCloud anmelden</string>
@@ -377,23 +357,17 @@ Sicherungsdateien nicht ändern oder umbenennen."</string>
 solltest du zuerst eine iCloud-Sicherung erstellen."</string>
     <string name="icloud_need_wifi_message">Du bist jetzt nicht mit WLAN verbunden. Um Daten aus der iCloud zu importieren, mit WLAN verbinden.</string>
     <string name="icloud_need_wifi_title">Mit WLAN verbinden</string>
-    <string name="icon_content_description">Dialogfeldsymbol</string>
     <string name="import_again">Erneut importieren</string>
     <string name="import_data_from_icloud">Daten von iCloud importieren</string>
     <string name="import_from_xiaomi_account_hint2">Falls eine Sicherung bereits erstellt wurde, auf Weiter tippen.</string>
     <string name="import_from_xiaomi_account_hint_title">Zur geräteübergreifenden Sicherung von Kontakten Mi Talk verwenden.</string>
     <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Wegen Kompatibilitätsproblemen lassen sich von iOS-Geräten nur Kontakte und Fotos übertragen. Vor Beginn der Übertragung sollte eine iCloud-Sicherung erstellt werden.</string>
-    <string name="item_view_role_description">Tab</string>
     <string name="lack_perm_msg">Mi Mover benötigt folgende Berechtigungen:&lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Berechtigungen erforderlich</string>
     <string name="list_footer_tip_title">Tipps:</string>
     <string name="loading_data">Daten werden geladen</string>
     <string name="local_app_name">Sicherung</string>
-    <string name="local_back_up_detail_description">"Note:
-1. Um Datenverlust zu vermeiden, kopieren Sie lokale Backups auf Ihren Computer.
-2. Kopieren Sie immer lokale Backups auf Ihren Computer, bevor Sie eine Zurücksetzung auf die Werkseinstellungen vornehmen. Ansonsten gehen die Backups verloren.
-3. Wo werden die lokalen Backups gespeichert? %1$s"</string>
     <string name="local_backup_select_activity">Backup erstellen</string>
     <string name="local_backup_window_title">Lokale Datensicherung</string>
     <string name="local_button_backup_data">Sichern</string>
@@ -414,8 +388,8 @@ solltest du zuerst eine iCloud-Sicherung erstellen."</string>
     <string name="local_main_backup_settings">Lokale Backup-Einstellungen</string>
     <string name="local_main_backup_time">Letztes Backup: %1$s</string>
     <string name="local_main_date_format">dd.MM.yyyy HH:mm</string>
-    <string name="local_main_encrypt_backup_summary">Verschlüsseln Sie die Elemente, die Sie mit Ihrem Mi-Konto sichern</string>
-    <string name="local_main_encrypt_backup_title">Backups verschlüsseln</string>
+    <string name="local_main_encrypt_backup_summary">Verschlüsseln Sie die Elemente, die Sie mit Ihrem Xiaomi-Konto sichern</string>
+    <string name="local_main_encrypt_backup_title">Konto verifizieren, um Elemente wiedererzustellen</string>
     <string name="local_main_latest_backup_time_loading">Einen Moment…</string>
     <string name="local_no_backup">Keine Sicherungen.</string>
     <string name="local_no_backup_data">Hier gibt es noch keine Backups</string>
@@ -433,23 +407,16 @@ solltest du zuerst eine iCloud-Sicherung erstellen."</string>
     <string name="login">Anmelden</string>
     <string name="login_failed">Anmelden nicht möglich, erneut versuchen.</string>
     <string name="logining">Anmelden…</string>
-    <string name="material_clock_toggle_content_description">Vormittags oder Nachmittags auswählen</string>
-    <string name="material_hour_24h_suffix">%1$s Stunden</string>
-    <string name="material_hour_selection">Stunde auswählen</string>
-    <string name="material_hour_suffix">%1$s Uhr</string>
-    <string name="material_minute_selection">Minuten auswählen</string>
-    <string name="material_minute_suffix">%1$s Minuten</string>
-    <string name="material_timepicker_am">AM</string>
-    <string name="material_timepicker_clock_mode_description">In den Uhrzeitmodus wechseln, um die Uhrzeit einzugeben.</string>
-    <string name="material_timepicker_hour">Stunde</string>
-    <string name="material_timepicker_minute">Minute</string>
-    <string name="material_timepicker_pm">PM</string>
-    <string name="material_timepicker_select_time">Uhrzeit auswählen</string>
-    <string name="material_timepicker_text_input_mode_description">In den Texteingabemodus wechseln, um die Uhrzeit einzugeben.</string>
     <string name="midnight">Nacht</string>
-    <string name="miliao_account_guide">Benutzen Sie ihr Mi Konto, um sich in die Xiaomi Cloud, in die MIUI Themes und andere Mi-Dienste von überall anzumelden.</string>
+    <string name="miliao_account_guide">Benutze dein Xiaomi-Konto, um dich von überall aus in der Xiaomi-Cloud, MIUI-Themen und andere Mi-Dienste anzumelden.</string>
     <string name="miliao_account_login">Mit Mi Talk anmelden</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Eingeklappt</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Erweitert</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus beenden</string>
+    <string name="miuix_appcompat_accessibility_new_message">Neue Benachrichtigung</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus starten</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Auswahl aufheben</string>
     <string name="miuix_appcompat_action_mode_select_all">Alles auswählen</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elemente auswählen</string>
@@ -465,6 +432,8 @@ solltest du zuerst eine iCloud-Sicherung erstellen."</string>
     <string name="miuix_appcompat_select_all">Alles auswählen</string>
     <string name="miuix_appcompat_select_all_description">Alles auswählen</string>
     <string name="miuix_appcompat_select_item">Elemente auswählen</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop-up-Fenster</string>
+    <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Wird aktualisiert…</string>
@@ -473,6 +442,9 @@ solltest du zuerst eine iCloud-Sicherung erstellen."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">"Das war's fürs Erste"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Moment...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Laden von Elementen fehlgeschlagen</string>
+    <string name="miuix_show_password">Vis adgangskode</string>
+    <string name="miuix_stretchablewidget_collapsed">Eingeklappt</string>
+    <string name="miuix_stretchablewidget_expanded">Erweitert</string>
     <string name="mms_title">MMS</string>
     <string name="monday">Montag</string>
     <string name="monday_short">Mo</string>
@@ -515,51 +487,6 @@ solltest du zuerst eine iCloud-Sicherung erstellen."</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mehr</string>
     <string name="morning">Morgen</string>
-    <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
-    <string name="mtrl_checkbox_state_description_checked">Aktiviert</string>
-    <string name="mtrl_checkbox_state_description_indeterminate">Teilweise aktiviert</string>
-    <string name="mtrl_checkbox_state_description_unchecked">Nicht aktiviert</string>
-    <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
-    <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
-    <string name="mtrl_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
-    <string name="mtrl_picker_announce_current_range_selection">Ausgewähltes Startdatum: %1$s – Ausgewähltes Enddatum: %2$s</string>
-    <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
-    <string name="mtrl_picker_announce_current_selection_none">Keines</string>
-    <string name="mtrl_picker_cancel">Abbrechen</string>
-    <string name="mtrl_picker_confirm">OK</string>
-    <string name="mtrl_picker_date_header_selected">%1$s</string>
-    <string name="mtrl_picker_date_header_title">Datum auswählen</string>
-    <string name="mtrl_picker_date_header_unselected">Ausgewähltes Datum</string>
-    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
-    <string name="mtrl_picker_end_date_description">Enddatum %1$s</string>
-    <string name="mtrl_picker_invalid_format">Ungültiges Format.</string>
-    <string name="mtrl_picker_invalid_format_example">Beispiel: %1$s</string>
-    <string name="mtrl_picker_invalid_format_use">Format: %1$s</string>
-    <string name="mtrl_picker_invalid_range">Ungültiger Bereich.</string>
-    <string name="mtrl_picker_navigate_to_current_year_description">Zum aktuellen Jahr %1$d wechseln</string>
-    <string name="mtrl_picker_navigate_to_year_description">Zum Jahr %1$d wechseln</string>
-    <string name="mtrl_picker_out_of_range">Außerhalb des Bereichs: %1$s</string>
-    <string name="mtrl_picker_range_header_only_end_selected">Startdatum – %1$s</string>
-    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Enddatum</string>
-    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
-    <string name="mtrl_picker_range_header_title">Zeitraum auswählen</string>
-    <string name="mtrl_picker_range_header_unselected">Startdatum – Enddatum</string>
-    <string name="mtrl_picker_save">Speichern</string>
-    <string name="mtrl_picker_start_date_description">Startdatum %1$s</string>
-    <string name="mtrl_picker_text_input_date_hint">Datum</string>
-    <string name="mtrl_picker_text_input_date_range_end_hint">Enddatum</string>
-    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
-    <string name="mtrl_picker_text_input_day_abbr">T</string>
-    <string name="mtrl_picker_text_input_month_abbr">M</string>
-    <string name="mtrl_picker_text_input_year_abbr">J</string>
-    <string name="mtrl_picker_today_description">Heute %1$s</string>
-    <string name="mtrl_picker_toggle_to_calendar_input_mode">In den Kalendereingabemodus wechseln</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Kalenderansicht zu wechseln</string>
-    <string name="mtrl_picker_toggle_to_text_input_mode">In den Texteingabemodus wechseln</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresansicht zu wechseln</string>
-    <string name="mtrl_timepicker_cancel">Abbrechen</string>
-    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="multi_select_title">%1$s ausgewählt</string>
     <string name="multi_user_mode_backup_message">Sicherung kann nicht im Multiuser-Modus verwendet werden. Zum Fortfahren Multiuser-Modus ausschalten.</string>
     <string name="multi_user_mode_dialog_message">Mi Mover kann nicht im Multiuser-Modus verwendet werden. Zum Fortfahren Multiuser-Modus ausschalten.</string>
@@ -572,18 +499,18 @@ solltest du zuerst eine iCloud-Sicherung erstellen."</string>
     <string name="new_britem_other">Andere</string>
     <string name="new_britem_pic">Bilder</string>
     <string name="new_britem_video">Videos</string>
-    <string name="new_confirm_enable_encrypt_content">MIUI assoziiert verschlüsselte Backups mit deinem Mi-Konto. Du musst dich bei deinem Mi-Konto anmelden, um Elemente aus solchen Backups wiederherzustellen.</string>
+    <string name="new_confirm_enable_encrypt_content">Verschlüsselte Sicherungen sind mit deinem Xiaomi-Konto verbunden. Du musst dich bei deinem Xiaomi-Konto anmelden, um Elemente aus solchen Sicherungen wiederherzustellen.</string>
     <string name="new_confirm_enable_encrypt_title">Verschlüsseln</string>
     <string name="new_local_button_backup">Sichern</string>
     <string name="new_local_button_restore">Wiederherstellen</string>
     <string name="new_local_click_to_jump">Tippen, um detaillierte Anweisungen zu sehen</string>
     <string name="new_local_detail_description">"Hinweis:
-%1$d. Backups auf deinen Computer kopieren, um Datenverlust zu vermeiden. %2$s.
-%3$d. Backups werden unter MIUI-Backup-AllBackup gespeichert."</string>
+%1$d. Kopiere Sicherungen auf deinen Computer, um Datenverlust zu vermeiden. %2$s.
+%3$d. Sicherungen werden unter MIUI > backup > AllBackup gespeichert."</string>
     <string name="new_local_detail_description_global">"Hinweis:
-%1$d. Backups auf deinen Computer kopieren, um Datenverlust zu vermeiden. %2$s.
-%3$d. Backups werden unter MIUI-Backup-AllBackup gespeichert.
-%4$dEinige Apps unterstützen Backups eventuell nicht."</string>
+%1$d. Kopiere Sicherungen auf deinen Computer, um Datenverlust zu vermeiden. %2$s
+%3$d. Sicherungen werden unter MIUI > backup > AllBackup gespeichert.
+%4$d. Einige Apps können nicht gesichert oder wiederhergestellt werden."</string>
     <string name="new_local_tab_backup">Sicherung erstellen</string>
     <string name="new_local_tab_backup_pad">Sichern</string>
     <string name="new_local_tab_restore">Wiederherstellen</string>
@@ -592,7 +519,7 @@ solltest du zuerst eine iCloud-Sicherung erstellen."</string>
     <string name="new_more_settings_label">Zusätzliche Einstellungen</string>
     <string name="new_pc_backup_content1">%1$d. \"%2$s\" öffnen.</string>
     <string name="new_pc_backup_content2">%d. Warten bis alle Elemente gesichert wurden.</string>
-    <string name="new_pc_backup_content3">%d. Suche das Backup in MIUI-Backup-AllBackup.</string>
+    <string name="new_pc_backup_content3">%d. Öffne MIUI > backup > AllBackup und finde den gesuchten Sicherungsordner oder die gesuchte *zip-Datei anhand des Datums im Namen.</string>
     <string name="new_pc_backup_content4">%d. Kopiere die Datei auf deinen Computer.</string>
     <string name="new_pc_backup_restore_link">Mobile Geräte</string>
     <string name="new_pc_backup_restore_link_pad">Mobilgerät</string>
@@ -602,8 +529,8 @@ solltest du zuerst eine iCloud-Sicherung erstellen."</string>
     <string name="new_pc_backup_summary4">Hinweis: Du kannst Fotos und Videos auch von DCIM kopieren.</string>
     <string name="new_pc_restore_content1">%d. Schließe dein mobiles Gerät über ein USB-Kabel an den Computer an.</string>
     <string name="new_pc_restore_content1_pad">%d. Verbinde dein Mobilgerät über ein USB-Kabel mit dem Computer.</string>
-    <string name="new_pc_restore_content2">%d. Kopiere das Backup von deinem Computer nach MIUI-Backup-AllBackup.</string>
-    <string name="new_pc_restore_content2_pad">%d. Kopiere das Backup von deinem Computer nach MIUI-Backup-AllBackup.</string>
+    <string name="new_pc_restore_content2">%d. Kopiere die Sicherung von deinem Computer nach MIUI > backup > AllBackup.</string>
+    <string name="new_pc_restore_content2_pad">%d. Kopiere die Sicherung von deinem Computer nach MIUI > backup > AllBackup.</string>
     <string name="new_pc_restore_content3">%1$d. Öffne \"%2$s\" und wähle Elemente zum Wiederherstellen aus.</string>
     <string name="new_pc_title">Backups kopieren</string>
     <string name="new_select_file">Audio, Videos und Dateien</string>
@@ -618,13 +545,15 @@ solltest du zuerst eine iCloud-Sicherung erstellen."</string>
     <string name="new_tab_pc_restore">Wiederherstellen</string>
     <string name="new_task_finished">Fertig</string>
     <string name="new_usb_detail_description">"Hinweis:
-%1$d. Diese Methode ermöglicht die Sicherung von Apps und App-Daten von Drittanbietern.
-%2$d. Stelle sicher, dass es ausreichend Speicherplatz auf deinem USB-Laufwerk gibt, um Backups zu speichern."</string>
+%1$d. Inhalte auf einem USB-Laufwerk sichern.
+%2$d. Das USB-Laufwerk muss über genug Speicherplatz verfügen, bevor du beginnst."</string>
     <string name="new_usb_disconnect_dialog_message">Zuerst mit einem USB-Laufwerk verbinden.</string>
     <string name="new_usb_disconnect_dialog_title">USB-Laufwerk konnte nicht gefunden werden</string>
     <string name="new_usb_select_data_no_space">Nur %s des Speicherplatzes ist auf deinem USB-Laufwerk verfügbar. Speicherplatz freigeben.</string>
     <string name="new_usb_tab_backup">Sicherung erstellen</string>
     <string name="new_usb_tab_restore">Wiederherstellen</string>
+    <string name="new_usb_unwritable_storage_content">Speichern der Elemente auf externem Speicher fehlgeschlagen. Erneute Verbindung probieren.</string>
+    <string name="new_usb_unwritable_storage_title">Speichern fehlgeschlagen</string>
     <string name="night">Abend</string>
     <string name="no_encrypt_password">Kein Passwort</string>
     <string name="no_network">Netzwerkverbindung nicht möglich</string>
@@ -664,10 +593,10 @@ solltest du zuerst eine iCloud-Sicherung erstellen."</string>
     <string name="notif_trans_wait_for_reconnecting">Verbindung unterbrochen. Erneut verbinden.</string>
     <string name="old_soft_name">Verbindung über QR-Code</string>
     <string name="old_way">Auf dem neuen Gerät kann auch ein QR-Code generiert werden, der mit dem alten gescannt wird.</string>
+    <string name="open_compatibility_mode">Einschalten</string>
     <string name="page_loading">Einen Moment…</string>
     <string name="password">Passwort</string>
     <string name="password_null">Passwort darf nicht leer sein</string>
-    <string name="password_toggle_content_description">Passwort anzeigen</string>
     <string name="pause">Pause</string>
     <string name="perm_camera">Kamera</string>
     <string name="perm_location">Standort</string>
@@ -772,7 +701,7 @@ Mindestens %s freigeben."</string>
     <string name="sc_internal_server_error">Interner Serverfehler</string>
     <string name="sc_network_unavailable">Verbindung überprüfen und erneut versuchen.</string>
     <string name="sc_others">Ein Fehler ist aufgetreten</string>
-    <string name="sc_precondition_failed">Du musst zuerst eine E-Mail-Adresse zum Mi-Konto hinzufügen.</string>
+    <string name="sc_precondition_failed">Du musst zuerst eine E-Mail-Adresse zum Xiaomi-Konto hinzufügen.</string>
     <string name="sc_request_timeout">Zeitüberschreitung der Anfrage</string>
     <string name="sc_service_unavailable">Xiaomi Cloud ist nicht verfügbar</string>
     <string name="sc_unaccess_password_file">Kann WLAN-Passwort nicht finden</string>
@@ -784,8 +713,6 @@ Mindestens %s freigeben."</string>
     <string name="sdcard_no_enough_space_message">Auf der SD-Karte ist nicht genug Speicherplatz vorhanden.</string>
     <string name="sdcard_unmounted">SD-Karte jetzt einlegen</string>
     <string name="search_menu_title">Suche</string>
-    <string name="searchview_clear_text_content_description">Text löschen</string>
-    <string name="searchview_navigation_content_description">Zurück</string>
     <string name="see_backup_files_on_router">Sicherungen auf dem Mi-Router %s anzeigen</string>
     <string name="select_all">Alles auswählen</string>
     <string name="select_backup_item">Elemente auswählen</string>
@@ -800,8 +727,8 @@ Mindestens %s freigeben."</string>
     <string name="select_storage_location">Speicherort auswählen</string>
     <string name="send">Senden</string>
     <string name="service_stoped">Dienst beendet</string>
+    <string name="set_app_suspend">Diese App wird jetzt gesichert. Warte, bis die Sicherung abgeschlossen ist, und versuche es erneut.</string>
     <string name="settings_summary">Telefon- und Nachrichteneinstellungen</string>
-    <string name="side_sheet_accessibility_pane_title">Seitenblatt</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -809,6 +736,7 @@ Mindestens %s freigeben."</string>
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="skip_compatibility_mode">Überspringen</string>
     <string name="sms_title">Nachrichten</string>
     <string name="soft_ap_create_failed">Hotspot erstellen fehlgeschlagen</string>
     <string name="soft_ap_creating">Hotspot erstellen…</string>
@@ -820,12 +748,13 @@ Mindestens %s freigeben."</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_sd_card">SD-Karte</string>
     <string name="storage_usb">USB-Laufwerk</string>
+    <string name="subtitle_compatibility_mode">Diese Apps sind mit der %d-Bit-Architektur inkompatibel. Tippe unten, um den App-Kompatibilitätsmodus einzuschalten und diese Apps wiederherzustellen</string>
     <string name="succ_description">Erfolgreich</string>
     <string name="succeed">Abgeschlossen</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
-    <string name="summary_err_backup_encrypting">Im Mi Konto anmelden.</string>
+    <string name="summary_err_backup_encrypting">Im Xiaomi-Konto anmelden.</string>
     <string name="summary_err_backup_no_network">Netzwerkverbindung fehlgeschlagen</string>
-    <string name="summary_err_restore_encrypting">Wiederherstellung fehlgeschlagen. Stelle sicher, dass diese Sicherung mit deinem Mi-Konto durchgeführt wurde.</string>
+    <string name="summary_err_restore_encrypting">Wiederherstellung fehlgeschlagen. Stelle sicher, dass diese Sicherung mit deinem Xiaomi-Konto durchgeführt wurde.</string>
     <string name="summary_err_restore_no_network">Netzwerkverbindung fehlgeschlagen</string>
     <string name="sunday">Sonntag</string>
     <string name="sunday_short">So</string>
@@ -905,6 +834,7 @@ Mindestens %s freigeben."</string>
     <string name="time_picker_dialog_title">Uhrzeit einstellen</string>
     <string name="time_picker_label_hour">Std</string>
     <string name="time_picker_label_minute">Min.</string>
+    <string name="title_compatibility_mode">App-Kompatibilitätsmodus</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
     <string name="total_size">, %s</string>
@@ -945,9 +875,6 @@ Mindestens %s freigeben."</string>
     <string name="trans_detail_item_app_data_selected_tip">Die dazugehörigen Apps wurden ebenso ausgewählt.</string>
     <string name="trans_detail_item_app_data_skip_data">App-Daten können nicht übertragen werden</string>
     <string name="trans_detail_item_app_data_too_large_tip">Das Element ist anscheinend zu groß zum Übertragen.</string>
-    <string name="trans_detail_list_footer">"1. Du kannst einzelne Apps auswählen, die du übertragen möchtest.
-2. Wenn du App-Daten auswählst, werden auch die entsprechenden Apps ausgewählt.
-3. WeChat- und QQ-App-Daten werden möglicherweise aus Kompatibilitätsgründen nicht übertragen. Du kannst In-App-Transfer-Funktionen ausprobieren."</string>
     <string name="trans_detail_page_tip">Je mehr Elemente ausgewählt werden, desto länger dauert die Übertragung.</string>
     <string name="trans_detail_qq_data">QQ-Daten (inkl. Chatverlauf)</string>
     <string name="trans_detail_sys_data_list_title">System-Apps</string>
@@ -970,25 +897,18 @@ Mindestens %s freigeben."</string>
     <string name="trans_install_guide_scan_install_tip">"Den QR-Code mit dem alten Telefon scannen
 zum Herunterladen und Installieren von Mi Mover."</string>
     <string name="trans_install_guide_step1_content">Den QR-Code mit dem alten Telefon scannen zum Herunterladen und Installieren von Mi Mover.</string>
-    <string name="trans_install_guide_step1_title">Schritt 1</string>
     <string name="trans_install_guide_step2_content">"Nachdem die Installation abgeschlossen ist, unten auf 'Start' tippen."</string>
-    <string name="trans_install_guide_step2_title">Schritt 2</string>
     <string name="trans_intro_desc_1">Auf einem Mi Telefon mit WLAN verbinden und auf \"Ich bin ein Empfänger\" tippen. Das richtige iOS-Gerät auswählen, in der iCloud anmelden und Daten importieren.</string>
     <string name="trans_intro_desc_10">Tippe auf \"Verbinden über QR-Code\" auf dem neuen Gerät und scanne den QR-Code, um eine Verbindung herzustellen.</string>
     <string name="trans_intro_desc_3">Transfer abbrechen, Mi Mover/Mi Mover verlassen und von vorn beginnen. Doppelte Dateien werden während der neuen Übertragung überschrieben.</string>
     <string name="trans_intro_desc_4">Mi Mover verwendet WLAN für die Datenübertragung. Daher können bei der Übertragung beide Gerät nicht über WLAN mit dem Internet verbunden werden. Es können aber weiterhin mobile Daten verwendet werden. Einige neuere Geräte (z. B. Mi 6) können sich jedoch auch während der Übertragung über WLAN mit dem Internet verbinden.</string>
     <string name="trans_intro_desc_4_market">Mi Mover verwendet WLAN für die Datenübertragung. Daher können bei der Übertragung beide Gerät nicht über WLAN mit dem Internet verbunden werden. Es können aber weiterhin mobile Daten verwendet werden.</string>
-    <string name="trans_intro_desc_5">Der Speicherplatz auf alten Geräten wird für die Erstellung von Übertragungspaketen genutzt. Es muss mindestens 500MB bis 1GB freier Speicherplatz auf dem alten Telefon vorhanden sein, bevor mit der Übertragung begonnen werden kann.</string>
     <string name="trans_intro_desc_6">Das kann aus verschiedenen Gründen passieren: Kompatibilitätsprobleme bei System- und App-Versionen, Netzwerkprobleme, gerätespezifische Inkompatibilität etc.</string>
     <string name="trans_intro_desc_7">Einige App-Profile (E-Banking, Finanzen etc.) sind aus Sicherheitsgründen mit einem bestimmten Gerät verbunden. Als mögliche Abhilfe können die App-Daten gelöscht oder die App auf dem neuen Gerät neu installiert werden.</string>
     <string name="trans_intro_desc_8">Bei der Verwendung von Datenumzug (Mi Mover) werden möglicherweise App- und Chatverlaufsdaten von WeChat nicht vollständig übertragen. Unter den Einstellungen bei WeChat aus dem Konto abmelden, damit eine erfolgreiche Übertragung begünstigt wird.</string>
     <string name="trans_intro_desc_9_method_1_dec">Gehe zu Startseite > Tools > Feedback.</string>
-    <string name="trans_intro_desc_9_method_1_title">"1. Teile dein Feedback mithilfe der 'Feedback-App'."</string>
     <string name="trans_intro_desc_9_method_2_dec">Sende dein Feedback an miui-mover@xiaomi.com.</string>
-    <string name="trans_intro_desc_9_method_2_title">2. Sende uns eine E-Mail</string>
-    <string name="trans_intro_desc_9_method_3_dec">Mi Movers QQ Gruppe: 687338378</string>
-    <string name="trans_intro_desc_9_method_3_title">3. Melde Probleme in QQ</string>
-    <string name="trans_intro_desc_account">Aus Sicherheitsgründen musst du dich mit einem neuen Gerät erneut in deinen Konten (z. B. Mi-Konto, Exchange, Google etc.) anmelden.</string>
+    <string name="trans_intro_desc_account">Aus Sicherheitsgründen musst du dich mit einem neuen Gerät erneut in deinen Konten (z. B. Xiaomi-Konto, Exchange, Google etc.) anmelden.</string>
     <string name="trans_intro_desc_gms">Aufgrund der hohen Wahrscheinlichkeit erfolgloser Übertragungen durch Kompatibilitätsprobleme unterstützt Datenumzug (Mi Mover) nicht die Übertragung der von Google-Apps generierten Daten.</string>
     <string name="trans_intro_desc_multiapp">Der Mi Mover überträgt keine Daten dualer Apps zur Konfliktvermeidung.</string>
     <string name="trans_intro_desc_multiuser">Mi Mover hat keinen Zugriff auf Elemente im Zweitprofil. Verschiebe die Elemente in das Hauptprofil und starte Mi Mover dort.</string>
@@ -1031,9 +951,6 @@ Speicherplatz freigeben oder nur wichtige Elemente übertragen."</string>
     <string name="trans_operate_func_two">Methode B</string>
     <string name="trans_operate_new_phone_tips">"Gehe zu Einstellungen > Weitere Einstellungen > Mi Mover
 Auf [Ich bin ein Empfänger] tippen zum Erstellen eines QR-Codes"</string>
-    <string name="trans_operate_old_phone_tips1">"1. Mi Mover auf dem alten Gerät installieren
-2. Die App öffnen und auf Start tippen
-3. Den QR-Code mit dem alten Gerät scannen"</string>
     <string name="trans_operate_old_phone_tips2">Gehe zu Einstellungen > Weitere Einstellungen > Mi Mover auf [Ich bin ein Sender] tippen</string>
     <string name="trans_operate_reconnect_new_tips">"Warten, bis auf dem neuen Telefon \"Verbindung wurde unterbrochen\" angezeigt wird.
 Dann auf \"Erneut verbinden\" tippen zum Erstellen eines QR-Codes."</string>
@@ -1098,8 +1015,6 @@ Geräte nahe beieinanderhalten."</string>
 Wie fandest du Mi Mover?"</string>
     <string name="trans_success_dialog_survey_title">Wir freuen uns über dein Feedback</string>
     <string name="trans_success_survey_hint">Zuerst alle Felder ausfüllen.</string>
-    <string name="trans_switching_5g">Umschalten auf 5GHz-WLAN…</string>
-    <string name="trans_time_format_second">Weniger als 1 Minute</string>
     <string name="trans_time_spent">Gesamtdauer: %s</string>
     <string name="trans_wait_trans_data">"Mit dem alten Gerät verbunden.
 Auf Übertragung warten…"</string>

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">Pred 1 hodinou</item>
-        <item quantity="one">Pred 1 hodinou</item>
-        <item quantity="few">Pred 1 hodinou</item>
-        <item quantity="many">Pred 1 hodinou</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="other">Pred %d hod.</item>
         <item quantity="one">Pred %d hod.</item>
@@ -73,13 +67,13 @@
         <item quantity="many">Naposledy použité pred %d rokom</item>
     </plurals>
     <plurals name="clean_long_msg_p1">
-        <item quantity="other">"Vymazáva sa %1$d súborov (%2$d%%)
+        <item quantity="other">"Čistí sa %1$d súborov (%2$d%%)
 "</item>
-        <item quantity="one">"Vymazáva sa %1$d súbor (%2$d%%)
+        <item quantity="one">"Čistí sa %1$d súbor (%2$d%%)
 "</item>
-        <item quantity="few">"Vymazávajú sa %1$d súbory (%2$d%%)
+        <item quantity="few">"Čistia sa %1$d súbory (%2$d%%)
 "</item>
-        <item quantity="many">"Vymazáva sa %1$d súboru (%2$d%%)
+        <item quantity="many">"Čistí sa %1$d súboru (%2$d%%)
 "</item>
     </plurals>
     <plurals name="clean_long_msg_p2">
@@ -119,10 +113,10 @@
         <item quantity="many">&lt;Data>Môžete vymazať &lt;font color=#0097FF>%d&lt;/font> veľkého súboru&lt;/Data></item>
     </plurals>
     <plurals name="dc_item_summary_uninstall_app">
-        <item quantity="other">&lt;Data>Môžete odinštalovať &lt;font color=#0097FF>%d&lt;/font> málo používaných aplikácií&lt;/Data></item>
-        <item quantity="one">&lt;Data>Môžete odinštalovať &lt;font color=#0097FF>%d&lt;/font> málo používanú aplikáciu&lt;/Data></item>
-        <item quantity="few">&lt;Data>Môžete odinštalovať &lt;font color=#0097FF>%d&lt;/font> málo používané aplikácie&lt;/Data></item>
-        <item quantity="many">&lt;Data>Môžete odinštalovať &lt;font color=#0097FF>%d&lt;/font> málo používanej aplikácie&lt;/Data></item>
+        <item quantity="other">&lt;Data>Nájdených &lt;font color=#0097FF>%d&lt;/font> aplikácií&lt;/Data></item>
+        <item quantity="one">&lt;Data>Nájdená &lt;font color=#0097FF>%d&lt;/font> aplikácia&lt;/Data></item>
+        <item quantity="few">&lt;Data>Nájdené &lt;font color=#0097FF>%d&lt;/font> aplikácie&lt;/Data></item>
+        <item quantity="many">&lt;Data>Nájdených &lt;font color=#0097FF>%d&lt;/font> aplikácií&lt;/Data></item>
     </plurals>
     <plurals name="dc_item_summary_video">
         <item quantity="other">&lt;Data>Môžete vymazať &lt;font color=#0097FF>%d&lt;/font> videí&lt;/Data></item>
@@ -143,10 +137,10 @@
         <item quantity="many">Nainštalovanej %d aplikácie, ktorú môžete vymazať</item>
     </plurals>
     <plurals name="deepclean_cache_summary">
-        <item quantity="other">Môžete vyčistiť zbytočné súbory pre %d aplikácií</item>
-        <item quantity="one">Môžete vyčistiť zbytočné súbory pre %d aplikáciu</item>
-        <item quantity="few">Môžete vyčistiť zbytočné súbory pre %d aplikácie</item>
-        <item quantity="many">Môžete vyčistiť zbytočné súbory pre %d aplikácie</item>
+        <item quantity="other">Môžete vymazať zbytočné súbory pre %d aplikácií</item>
+        <item quantity="one">Môžete vymazať zbytočné súbory pre %d aplikáciu</item>
+        <item quantity="few">Môžete vymazať zbytočné súbory pre %d aplikácie</item>
+        <item quantity="many">Môžete vymazať zbytočné súbory pre %d aplikácie</item>
     </plurals>
     <plurals name="deepclean_install_info_desc1">
         <item quantity="other">Nainštalovaných %d aplikácií</item>
@@ -220,12 +214,6 @@
         <item quantity="few">&lt;Data>Nájdené &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> hlasové správy&lt;/Data></item>
         <item quantity="many">&lt;Data>Nájdenej &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> hlasovej správy&lt;/Data></item>
     </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="other">Pred pol hodinou</item>
-        <item quantity="one">Pred pol hodinou</item>
-        <item quantity="few">Pred pol hodinou</item>
-        <item quantity="many">Pred pol hodinou</item>
-    </plurals>
     <plurals name="hint_similar_image_header_left">
         <item quantity="other">%d skupín</item>
         <item quantity="one">%d skupina</item>
@@ -296,19 +284,13 @@
         <item quantity="other">Vybraných %d položiek</item>
         <item quantity="one">Vybraná %d položka</item>
         <item quantity="few">Vybrané %d položky</item>
-        <item quantity="many">Vybranej %d položky</item>
+        <item quantity="many">Vybraných %d položiek</item>
     </plurals>
     <plurals name="notification_checker_installed_apk_text">
         <item quantity="other">Vymazať %d inštalačných balíkov</item>
         <item quantity="one">Vymazať %d inštalačný balík</item>
         <item quantity="few">Vymazať %d inštalačné balíky</item>
         <item quantity="many">Vymazať %d inštalačných balíkov</item>
-    </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">Pred %d minútami</item>
-        <item quantity="one">Pred 1 minútou</item>
-        <item quantity="few">Pred %d minútami</item>
-        <item quantity="many">Pred %d minútou</item>
     </plurals>
     <plurals name="people">
         <item quantity="other">Stiahnuté %1$d ľuďmi</item>
@@ -333,6 +315,18 @@
         <item quantity="one">%1$d sekunda</item>
         <item quantity="few">%1$d sekundy</item>
         <item quantity="many">%1$d sekundy</item>
+    </plurals>
+    <plurals name="summary_delete_apk">
+        <item quantity="other">Trvalo odstrániť %d vybraných aplikácií?</item>
+        <item quantity="one">Trvalo odstrániť %d vybranú aplikáciu?</item>
+        <item quantity="few">Trvalo odstrániť %d vybrané aplikácie?</item>
+        <item quantity="many">Trvalo odstrániť %d vybranej aplikácie?</item>
+    </plurals>
+    <plurals name="uninstall_apps">
+        <item quantity="other">Odinštalovať %1$d aplikácií vrátane %2$s</item>
+        <item quantity="one">Odinštalovať %1$d aplikáciu vrátane %2$s</item>
+        <item quantity="few">Odinštalovať %1$d aplikácie vrátane %2$s</item>
+        <item quantity="many">Odinštalovať %1$d aplikácie vrátane %2$s</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$s zobrazení</item>

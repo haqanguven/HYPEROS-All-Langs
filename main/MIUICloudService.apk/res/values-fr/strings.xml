@@ -32,6 +32,9 @@
     <string name="accept_all_positive">Sélectionner</string>
     <string name="accept_use_permissions">Accorder</string>
     <string name="access_denied">Accès refusé</string>
+    <string name="accessibility_sliding_button_state_description_off">Désactivé</string>
+    <string name="accessibility_sliding_button_state_description_on">Activé</string>
+    <string name="accessibility_tab_state_description_unselect">Non sélectionné</string>
     <string name="account_related">"Votre appareil est associé avec un Compte Xiaomi existant (%s). Connectez-vous au réseau pour vérifier l'appareil."</string>
     <string name="actionbar_button_up_description">Retour</string>
     <string name="activate_find_device_success">"Activé Localiser l'appareil avec succès"</string>
@@ -39,7 +42,7 @@
     <string name="activating">Activation…</string>
     <string name="afternoon">Après midi</string>
     <string name="agree_and_continue">Accepter</string>
-    <string name="agreement_and_privacy_description">"Lisez et acceptez la &lt;a href=%1$s>&lt;u>Politique de confidentialité&lt;/u>&lt;/a> de Xiaomi Cloud et l' &lt;a href=%2$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> avant de continuer."</string>
+    <string name="agreement_and_privacy_description_new">"Lisez et acceptez l' &lt;a href=%1$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et la &lt;a href=%2$s>&lt;u>Politique de confidentialité&lt;/u>&lt;/a> de Xiaomi Cloud avant de continuer."</string>
     <string name="alert_sync_data_merge_dialog_title">Les éléments seront fusionnés</string>
     <string name="alert_sync_merge_dialog_cancel">Annuler</string>
     <string name="alert_sync_merge_dialog_confirm">Activer</string>
@@ -53,20 +56,19 @@
     <string name="button_cancel">Annuler</string>
     <string name="button_quit">Quitter</string>
     <string name="button_revoke">Retirer</string>
+    <string name="calendar_sync_item_permission">agenda</string>
+    <string name="call_log_sync_item_permission">historique des appels</string>
     <string name="check_contact">Ajouter</string>
+    <string name="checked">Sélectionné</string>
     <string name="choose_contact_title">Contacts</string>
     <string name="clearable_edittext_clear_description">Nettoyer</string>
     <string name="close">Fermer</string>
     <string name="cloud_find_device">"Localiser l'appareil"</string>
     <string name="cloud_find_device_off">Désactivé</string>
     <string name="cloud_find_device_on">Activé</string>
-    <string name="cloud_lab_title">Laboratoire</string>
     <string name="cloud_manage_storage_text">Gérer le stockage cloud</string>
     <string name="cloud_service_open_authorization">"Bienvenue dans les services Xiaomi Cloud ! Vous pouvez utiliser Xiaomi Cloud pour synchroniser vos notes, photos et vidéos, enregistrements et autres éléments des applications système sur tous les appareils connectés. Les sauvegardes de la disposition de l'écran d'accueil seront également stockées dans Xiaomi Cloud. Vous pourrez voir tous les éléments synchronisés sur i.mi.com."</string>
-    <string name="cloud_storage_almost_full_upgrade_text">Le stockage est presque complet. Peut ne pas être en mesure de synchroniser les photos.</string>
-    <string name="cloud_storage_common_functions_text">Utilisé fréquemment</string>
     <string name="cloud_storage_default_title">Stockage cloud</string>
-    <string name="cloud_storage_full_upgrade_default_text">Stockage insuffisant. Impossible de synchroniser des photos.</string>
     <string name="cloud_storage_info_type_creation">Mi Canvas</string>
     <string name="cloud_storage_info_type_drive">Mi Drive</string>
     <string name="cloud_storage_info_type_duokan">Duokan</string>
@@ -78,8 +80,6 @@
     <string name="cloud_storage_no_data">"Pas d'élément dans the cloud pour le moment"</string>
     <string name="cloud_storage_sufficient_text">"Mise à niveau pour obtenir jusqu'à %d To de stockage"</string>
     <string name="cloud_storage_upgrade_text">Mettre à niveau</string>
-    <string name="cloud_storage_upgrade_text_now">Mettre à niveau</string>
-    <string name="cloud_storage_zero_upgrade_button_text_now">Mettre à niveau gratuitement</string>
     <string name="common_google_play_services_enable_button">Activer</string>
     <string name="common_google_play_services_enable_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
     <string name="common_google_play_services_enable_title">Activer les services Google Play</string>
@@ -104,6 +104,7 @@
     <string name="connect_wlan">Se connecter au Wi-Fi</string>
     <string name="connect_wlan_china">Se connecter au Wi-Fi</string>
     <string name="contact_alert_sync_data_merge_dialog_msg">Si vous activez la synchronisation, les contacts téléchargés depuis cet appareil seront fusionnés avec les contacts stockés dans le cloud. Activer la synchronisation quand même ?</string>
+    <string name="contacts_sync_item_permission">contacts</string>
     <string name="copy">Copier</string>
     <string name="creation_dialog_message">Affichez les données Mi Canvas sur votre tablette.</string>
     <string name="creation_dialog_positive_btn">OK </string>
@@ -133,14 +134,16 @@
     <string name="date_time_picker_dialog_title">"Définir la date et l'heure"</string>
     <string name="default_noti_quota_full_title">Le stockage cloud est plein</string>
     <string name="detect_sim_card">Détection de la carte SIM</string>
-    <string name="device_activation_card_cannot_get_yet">"Couldn't get info. Try again in 3-5 days."</string>
-    <string name="device_activation_card_description">"First activation is registered when a device connects to the network (including but not limited to Wi-Fi and mobile networks) for the first time. It normally takes a while to register first activation, so it's better to wait for 3-5 days after connecting to the network before checking activation status.&lt;br>&lt;br>Device activation is the main factor in determining the validity period of our extended warranty. Check our &lt;a href=%1$s>Return, Exchange, and Repair Policy&lt;/a> for more details.&lt;br>&lt;br>Feel free to call our customer support hotline if you have any questions: 400-100-5678."</string>
-    <string name="device_activation_card_description_china">"First activation is registered when a device connects to the network (including but not limited to WLAN and mobile networks) for the first time. It normally takes a while to register first activation, so it's better to wait for 3-5 days after connecting to the network before checking activation status.&lt;br>&lt;br>Device activation is the main factor in determining the validity period of our extended warranty. Check our &lt;a href=%1$s>Return, Exchange, and Repair Policy&lt;/a> for more details.&lt;br>&lt;br>Feel free to call our customer support hotline if you have any questions: 400-100-5678."</string>
-    <string name="device_activation_card_device_not_support">Not supported on this device</string>
-    <string name="device_activation_card_local_service_error">"Couldn't get info. Wait a minute or two and try again."</string>
-    <string name="device_activation_card_no_network_error">"Couldn't connect to the network. Check your network settings and try again."</string>
-    <string name="device_activation_card_title">First activation</string>
-    <string name="device_activation_page_title">Device activation</string>
+    <string name="device_activation_card_cannot_get_yet">"Impossible d'obtenir des informations. Réessayer dans 3 à 5 jours."</string>
+    <string name="device_activation_card_description">"La première activation est enregistrée lorsqu'un appareil se connecte au réseau (y compris, mais sans s'y limiter, aux réseaux Wi-Fi et mobiles) pour la première fois. Il faut normalement un certain temps pour enregistrer la première activation, il est donc préférable d'attendre 3 à 5 jours après la connexion au réseau avant de vérifier l'état d'activation. &lt;br>&lt;br>L'activation de l'appareil est le principal facteur déterminant la période de validité de notre garantie prolongée. Consulter notre &lt;a href=%1$s>Politique de retour, d'échange et de réparation&lt;/a> pour plus de détails. &lt;br>&lt;br>Si vous avez des questions, n'hésitez pas à appeler notre service clientèle au 400-100-5678."</string>
+    <string name="device_activation_card_description_china">"La première activation est enregistrée lorsqu'un appareil se connecte au réseau (y compris, mais sans s'y limiter, aux réseaux WLAN et mobiles) pour la première fois. Il faut normalement un certain temps pour enregistrer la première activation, il est donc préférable d'attendre 3 à 5 jours après la connexion au réseau avant de vérifier l'état d'activation. &lt;br>&lt;br>L'activation de l'appareil est le principal facteur déterminant la période de validité de notre garantie prolongée. Consulter notre &lt;a href=%1$s>Politique de retour, d'échange et de réparation&lt;/a> pour plus de détails. &lt;br>&lt;br>Si vous avez des questions, n'hésitez pas à appeler notre service clientèle au 400-100-5678."</string>
+    <string name="device_activation_card_device_not_support">Non pris en charge sur cet appareil</string>
+    <string name="device_activation_card_local_service_error">"Impossible d'obtenir les informations. Attendez une minute ou deux et réessayez."</string>
+    <string name="device_activation_card_no_network_error">Impossible de se connecter au réseau. Vérifiez vos paramètres réseau et réessayez.</string>
+    <string name="device_activation_card_title">Première activation</string>
+    <string name="device_activation_page_title">"Activation de l'appareil"</string>
+    <string name="dialog_btn_yes_install_icon">Installer</string>
+    <string name="dialog_msg_install_manager_content">"Installer Localiser l'appareil à nouveau ?"</string>
     <string name="dialog_storage_full_title">Le stockage cloud est plein</string>
     <string name="dialog_storage_low_content">Mettez à niveau votre plan de stockage pour continuer à synchroniser les éléments.</string>
     <string name="dialog_storage_low_title">Stockage cloud insuffisant</string>
@@ -151,10 +154,12 @@
     <string name="download_gallery_data_summary">Accédez à i.mi.com pour télécharger des photos et des vidéos synchronisées sur votre appareil.</string>
     <string name="download_gallery_data_title">Télécharger des éléments à votre appareil</string>
     <string name="e2ee_button_close">Désactiver</string>
+    <string name="e2ee_button_exit_all_devices">Se déconnecter de tous les appareils</string>
     <string name="e2ee_button_next">Suivant</string>
     <string name="e2ee_change_security_key_lockscreen_tip">"Activez le verrouillage de l'écran pour que cet appareil puisse mettre à jour votre clé d'accès de sécurité."</string>
     <string name="e2ee_data_protection_close_button">Désactiver</string>
     <string name="e2ee_data_protection_label_auto_fill">Gestionnaire de mots de passe</string>
+    <string name="e2ee_data_protection_label_auto_fill_new">Mots de passe</string>
     <string name="e2ee_data_protection_label_browser">Signets du Navigateur</string>
     <string name="e2ee_data_protection_label_call_log">Historique des appels</string>
     <string name="e2ee_data_protection_label_creation">Mi Canvas</string>
@@ -180,7 +185,7 @@
     <string name="e2ee_device_exit_failed_tip">Impossible de se déconnecter. Attendez une minute ou deux et réessayez.</string>
     <string name="e2ee_device_exit_failed_toast">Impossible de se déconnecter. Attendez une minute ou deux et réessayez.</string>
     <string name="e2ee_device_exit_tip">%s est déconnecté</string>
-    <string name="e2ee_device_management_subtitle">"Ces appareils n'ont pas encore été vérifiés comme étant des appareils de confiance. Déconnectez-vous de votre Compte Xiaomi sur ces appareils avant d'activer la protection des données avancée. "</string>
+    <string name="e2ee_device_management_subtitle">"Ces appareils n'ont pas encore été vérifiés comme étant des appareils de confiance. Déconnectez-vous de votre Compte Xiaomi sur ces appareils avant d'activer la Protection avancée des données. "</string>
     <string name="e2ee_device_management_title">Gestion des appareils</string>
     <string name="e2ee_device_name">"Nom de l'appareil"</string>
     <string name="e2ee_device_sim">Carte SIM</string>
@@ -191,7 +196,7 @@
     <string name="e2ee_device_verification_os_tip">Mise à jour vers Xiaomi HyperOS 2 ou version ultérieure</string>
     <string name="e2ee_device_verification_result_subtitle">"Les appareils déconnectés de votre Compte Xiaomi ne pourront pas utiliser le cloud Xiaomi et d'autres services connexes jusqu'à ce qu'ils se reconnectent."</string>
     <string name="e2ee_device_verification_result_title">Tous les appareils sont déconnectés</string>
-    <string name="e2ee_device_verification_tip">Supprimer cet appareil de votre compte</string>
+    <string name="e2ee_device_verification_tip">Appuyez ici pour retirer cet appareil</string>
     <string name="e2ee_dialog_close_subtitle">Les données protégées par cette fonctionnalité ne prendront plus en charge le chiffrement de bout en bout et la protection avancée des données sera désactivée sur tous les appareils.</string>
     <string name="e2ee_dialog_close_title">Désactiver la protection des données avancée</string>
     <string name="e2ee_dialog_exit_account_subtitle">"Lorsqu'un appareil est déconnecté, la protection des données avancée est désactivée automatiquement. Cela n'affecte pas les autres appareils. Lorsque vous vous reconnecterez, vous devrez réactiver cette fonctionnalité."</string>
@@ -205,16 +210,24 @@
     <string name="e2ee_exit_account_button_exit">Déconnexion</string>
     <string name="e2ee_exit_account_subtitle">"Vous êtes sur le point de déconnecter le dernier appareil actuellement connecté associé à votre Compte Xiaomi. Vous devrez utiliser un verrouillage d'écran ou une clé de sécurité pour vous connecter à nouveau et accéder à vos données stockées dans le cloud. Vous pouvez également appuyer sur \"Désactiver\" ci-dessous pour désactiver la protection des données avancée."</string>
     <string name="e2ee_exit_account_title">Déconnexion</string>
+    <string name="e2ee_exit_many_devices_hint">%1$s %2$s</string>
     <string name="e2ee_load_failed">Le serveur est occupé. Attendez une minute ou deux et réessayez.</string>
     <string name="e2ee_loading">Un instant…</string>
     <string name="e2ee_loading_close">Désactivation…</string>
     <string name="e2ee_loading_open">Activation…</string>
-    <string name="e2ee_name_data_protection">Protection des données avancée</string>
+    <string name="e2ee_name_data_protection">Protection avancée des données</string>
+    <string name="e2ee_need_bind_phone_button_sure">"C'est compris"</string>
+    <string name="e2ee_need_bind_phone_subtitle">Vous n’avez pas ajouté de téléphone de récupération. Si vous oubliez votre mot de passe, vous ne pourrez pas vous connecter. Ajouter un numéro de récupération pour pouvoir récupérer votre mot de passe.</string>
+    <string name="e2ee_need_bind_phone_title">Ajouter un numéro de récupération</string>
+    <string name="e2ee_open_local_dialog_msg">La protection avancée des données est activée pour votre compte et vos données cloud sont chiffrées. Effectuez une vérification de sécurité pour y accéder.</string>
+    <string name="e2ee_open_local_dialog_neg_btn">Annuler</string>
+    <string name="e2ee_open_local_dialog_pos_btn">Vérifier</string>
+    <string name="e2ee_open_local_dialog_title">Vérification de la sécurité</string>
     <string name="e2ee_result_close">La protection des données avancée est désactivée</string>
     <string name="e2ee_result_close_failed">Impossible de désactiver</string>
     <string name="e2ee_result_close_failed_tip">Impossible de désactiver cette fonctionnalité. Attendez une minute ou deux et réessayez.</string>
     <string name="e2ee_result_close_tip">"Cette fonctionnalité a été désactivée sur tous les appareils qui l'utilisaient auparavant. Les données protégées par cette fonctionnalité ne prennent plus en charge le chiffrement de bout en bout."</string>
-    <string name="e2ee_result_open">La protection des données avancée est activée</string>
+    <string name="e2ee_result_open">La protection avancée des données est activée</string>
     <string name="e2ee_result_open_failed">"Impossible d'activer"</string>
     <string name="e2ee_result_open_failed_tip">"Impossible d'activer cette fonctionnalité. Attendez une minute ou deux et réessayez."</string>
     <string name="e2ee_result_open_tip">La protection avancée des données est activée pour cet appareil. Assurez-vous de garder vos méthodes de récupération à jour.</string>
@@ -226,10 +239,14 @@
     <string name="e2ee_set_recovery_method_security_key">Clé de sécurité (non définie)</string>
     <string name="e2ee_set_recovery_method_tip">"Vous pouvez accéder à vos données cloud via le verrouillage de l'écran de votre appareil ou en envoyant un code de vérification. Vous pouvez ajouter une méthode de récupération supplémentaire en configurant une clé d'accès de sécurité."</string>
     <string name="e2ee_set_recovery_method_title">Méthodes de récupération disponibles</string>
+    <string name="e2ee_tip_forget_securityKey_button">Passer la vérification</string>
+    <string name="e2ee_tip_forget_securityKey_subtitle">Si vous oubliez votre clé de sécurité, vous ne pourrez pas accéder à vos données Xiaomi Cloud.</string>
+    <string name="e2ee_tip_forget_securityKey_title">Mot de passe de sécurité oublié ?</string>
     <string name="e2ee_tip_loading">Un instant…</string>
     <string name="e2ee_tip_lockscreen_open_button">Activer</string>
-    <string name="e2ee_tip_lockscreen_open_subtitle">"Activez le verrouillage d'écran pour que cet appareil puisse utiliser la protection des données avancée"</string>
+    <string name="e2ee_tip_lockscreen_open_subtitle">"Activez le verrouillage d'écran pour que cet appareil puisse utiliser la Protection avancée des données"</string>
     <string name="e2ee_tip_lockscreen_open_title">"Activer le verrouillage de l'écran"</string>
+    <string name="e2ee_tip_security_test">"Vérification de l'environnement de sécurité…"</string>
     <string name="early_morning">Matin</string>
     <string name="empty" />
     <string name="enable_find_device_success">"Localiser l'appareil est activé."</string>
@@ -265,13 +282,15 @@
     <string name="find_device_dspt_provision">"Si vous perdez votre appareil, vous pouvez aller sur &lt;font color=#0097FF>%s&lt;/font> pour le localiser, le verouiller ou le réinitialiser. Vous pouvez activer ou désactiver cette fonctionnalité n'importe quand dans les Paramètres."</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">"En activant Localiser l'appareil, vous acceptez notre "<u><a href="app://com.miui.cloudservice.gdpr.license">Politique de Confidentialité</a></u>. Désactivez cette fonctionnalité si vous souhaitez retirer votre consentement.</string>
+    <string name="find_device_gdpr_prompt">"En activant Localiser l'appareil, vous acceptez la "<u><a href="app://com.miui.cloudservice.gdpr.license">Politique de confidentialité de Xiaomi Cloud</a></u>. Pour retirer votre consentement à la politique de confidentialité, désactivez cette fonctionnalité.</string>
     <string name="find_device_operation_failure_rpc">"Impossible d'exécuter l'opération en raison d'une erreur RPC."</string>
     <string name="find_device_permissions_footer">Appuyez sur « Accorder » pour accorder les autorisations que vous avez sélectionnées.</string>
     <string name="find_device_permissions_header">"Bienvenue à Localiser l'appareil ! Vous pouvez utiliser cette application pour localiser, suivre et verrouiller votre appareil lorsqu'il est perdu. Vous pouvez également aider les autres à localiser leurs appareils Xiaomi de manière anonyme. Cette application nécessite les autorisations suivantes pour fonctionner normalement :"</string>
+    <string name="find_device_permissions_header_without_offline_find">"Avec Localiser l'appareil, vous pouvez localiser, suivre et verrouiller votre appareil lorsqu'il est perdu. Cette application nécessite les autorisations suivantes pour fonctionner normalement :"</string>
     <string name="find_device_service_title">"Localiser l'appareil"</string>
     <string name="find_device_status_summary">"Activez pour localiser et suivre votre appareil ou effacer ses données à distance.
 Vous pouvez également aider anonymement les autres à localiser leurs appareils Xiaomi."</string>
+    <string name="find_device_status_summary_without_offline_find">Activez pour localiser et suivre votre appareil ou effacer ses données à distance</string>
     <string name="find_device_status_title_pad">"Localiser l'appareil"</string>
     <string name="find_device_status_title_phone">"Localiser l'appareil"</string>
     <string name="find_permission_location_summary">Pour localiser cet appareil</string>
@@ -340,6 +359,7 @@ Vous pouvez également aider anonymement les autres à localiser leurs appareils
     <string name="friday">Vendredi</string>
     <string name="friday_short">Ven</string>
     <string name="friday_shortest">Ven</string>
+    <string name="gallery_auto_sync_fail_international_noti_content">Stockage insuffisant. Impossible de finir de synchroniser des photos.</string>
     <string name="gallery_auto_sync_fail_noti_content">"Pas assez d'espace de stockage dans le cloud. Mettez à niveau votre forfait de stockage pour synchroniser des photos et des vidéos."</string>
     <string name="gallery_auto_sync_fail_noti_content_lite">"Le stockage dans le cloud est insuffisant. Impossible d'enregistrer des photos."</string>
     <string name="gallery_data_transfer_ddl">Date limite : %s</string>
@@ -409,30 +429,41 @@ Vous pouvez également aider anonymement les autres à localiser leurs appareils
     <string name="local_lockscreen_need_sub_title_verify_e2ee">"Définissez un Verrouillage d'écran pour que cet appareil puisse être vérifié comme étant de confiance."</string>
     <string name="local_lockscreen_pattern_title">Confirmer votre schéma</string>
     <string name="local_lockscreen_pin_title">"Entrer le verrouillage de l'écran"</string>
+    <string name="local_lockscreen_sub_title_2fa">"Le verrouillage de l'écran de votre appareil peut être utilisé pour l'authentification à deux facteurs"</string>
+    <string name="local_lockscreen_sub_title_2fa_device">"Le verrouillage d'écran de « %s » peut être utilisé pour l'authentification à deux facteurs"</string>
     <string name="local_lockscreen_sub_title_close_e2ee">"Confirmer votre verrouillage d'écran pour désactiver la protection des données avancée"</string>
     <string name="local_lockscreen_sub_title_open_e2ee">"Vérifier le verrouillage de l'écran de cet appareil pour pouvoir activer la protection avancée des données"</string>
+    <string name="local_lockscreen_sub_title_passkeeper">"Vérifiez votre verrouillage d'écran pour pouvoir synchroniser vos mots de passe avec le cloud"</string>
     <string name="local_lockscreen_sub_title_update_key">"Entrez le verrouillage d'écran de votre appareil"</string>
-    <string name="local_lockscreen_sub_title_verify_e2ee">"Confirmez votre Verrouillage d'écran pour pouvoir vérifier que cet appareil est approuvé"</string>
+    <string name="local_lockscreen_sub_title_verify_e2ee">"Confirmez votre verrouillage d'écran pour pouvoir vérifier que cet appareil est approuvé"</string>
+    <string name="lockscreen_access_pattern_area">Zone du Schéma.</string>
+    <string name="lockscreen_access_pattern_cell_added">Cellule ajoutée</string>
+    <string name="lockscreen_access_pattern_cell_added_verbose">Cellule%1$s ajoutée</string>
+    <string name="lockscreen_access_pattern_cleared">Schéma effacé</string>
+    <string name="lockscreen_access_pattern_detected">Schéma terminé</string>
+    <string name="lockscreen_access_pattern_start">Schéma commencé</string>
     <string name="lockscreen_device_list_title">"Sélectionnez un appareil pour vérifier son verrouillage d'écran"</string>
     <string name="lockscreen_error_hint">Incorrect. Réessayer.</string>
     <string name="lockscreen_negative_btn">Annuler</string>
     <string name="lockscreen_positive_btn">Suivant</string>
     <string name="low_battery_locate_summary">Signaler automatiquement les informations de localisation lorsque la batterie est faible</string>
     <string name="low_battery_locate_title">Signaler la localisation lorsque la batterie est faible</string>
+    <string name="manual_activation">Réactiver</string>
     <string name="master_alert_notif_content">"Sauvegarder les éléments régulièrement pour ne rien perdre d'important."</string>
     <string name="master_alert_notif_title">Activez Xiaomi Cloud</string>
+    <string name="member_menu_vip_expire_time">Expire le %s</string>
     <string name="member_menu_vipname_free">Gratuit</string>
     <string name="member_menu_vipname_mega">Méga</string>
     <string name="member_menu_vipname_premium">Premium</string>
     <string name="member_menu_vipname_ultra">Ultra</string>
     <string name="menu_add_short_cut">"Créer un raccourci sur l'écran d'accueil"</string>
-    <string name="menu_migrate_to_google_photos">Transfert de données vers Google Photos</string>
     <string name="merge">Fusionner</string>
     <string name="mi_drive_title">Mi Drive</string>
     <string name="micloud_alert_dialog_positive">OK </string>
     <string name="micloud_all_sub_resend_common_sms_with_charge_hint">"Pour activer les services de Localiser l'appareil et Xiaomi Cloud, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS payant&lt;/b>&lt;/font> sera envoyé automatiquement.&lt;br/>Lorsque vous changez de carte SIM, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS payant&lt;/b>&lt;/font> sera envoyé automatiquement pour réactivation. &lt;br/> Tous les frais de SMS générés par les actions susmentionnées seront collectés par votre opérateur. Xiaomi ne vous facturera pas ces messages."</string>
     <string name="micloud_all_sub_resend_domestic_sms_with_charge_hint">"Pour activer les services de Localiser l'appareil et Xiaomi Cloud, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS local payant&lt;/b>&lt;/font> sera envoyé automatiquement.&lt;br/>Lorsque vous changez de carte SIM, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS local payant&lt;/b>&lt;/font> sera envoyé automatiquement pour réactivation. &lt;br/> Tous les frais de SMS générés par les actions susmentionnées seront collectés par votre opérateur. Xiaomi ne vous facturera pas ces messages."</string>
     <string name="micloud_all_sub_resend_inter_sms_with_charge_hint">"Pour activer les services de Localiser l'appareil et Xiaomi Cloud, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS international payant&lt;/b>&lt;/font> sera envoyé automatiquement.&lt;br/>Lorsque vous changez de carte SIM, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS international payant&lt;/b>&lt;/font> sera envoyé automatiquement pour réactivation. &lt;br/> Tous les frais de SMS générés par les actions susmentionnées seront collectés par votre opérateur. Xiaomi ne vous facturera pas ces messages."</string>
+    <string name="micloud_check_account_toast">Les services Xiaomi Cloud ne peuvent pas être utilisés avec des comptes démos</string>
     <string name="micloud_confusion_account_hint">"Les changements que vous avez effectués sur cet appareil seront synchronisés sur tous vos appareils. Pour protéger votre compte, nous vous recommandons de désactiver la synchronisation pour les autres appareils lorsqu'ils ne sont pas utilisés."</string>
     <string name="micloud_confusion_account_name">Compte :</string>
     <string name="micloud_confusion_account_notify_text">Un autre appareil est en train de modifier votre Compte Xiaomi. Vérifiez votre compte maintenant.</string>
@@ -464,7 +495,7 @@ Vous pouvez également aider anonymement les autres à localiser leurs appareils
     <string name="micloud_confusion_toast_deny">Connectez-vous à votre Compte Xiaomi</string>
     <string name="micloud_confusion_yes">Oui</string>
     <string name="micloud_dspt_provision">"Vous pouvez utiliser Xiaomi Cloud pour synchroniser des photos, des contacts, des messages, l'historique des appels, des notes et d'autres données, localiser votre appareil et partager des éléments avec des amis. Cette application doit se connecter à Internet pour fonctionner normalement. La synchronisation des éléments peut nécessiter une connexion de données mobile et l'activation du Wi-Fi."</string>
-    <string name="micloud_dspt_provision_china">Use Xiaomi Cloud to sync data, locate your device, and share things with friends.</string>
+    <string name="micloud_dspt_provision_china">Utilisez Xiaomi Cloud pour synchroniser vos données, localiser votre appareil et partager du contenu avec des amis.</string>
     <string name="micloud_dspt_provision_china_no_call">"Vous pouvez utiliser Xiaomi Cloud pour synchroniser des photos, des contacts, des messages, des notes, des enregistrements et d'autres données, localiser votre appareil et partager des éléments avec des amis. Cette application doit se connecter à Internet pour fonctionner normalement. La synchronisation des éléments peut nécessiter une connexion de données mobile et l'activation du WLAN."</string>
     <string name="micloud_dspt_provision_china_no_sms">"Vous pouvez utiliser Xiaomi Cloud pour synchroniser des photos, des contacts, l'historique des appels, des notes et d'autres données, localiser votre appareil et partager des éléments avec des amis. Cette application doit se connecter à Internet pour fonctionner normalement. La synchronisation des éléments peut nécessiter une connexion de données mobile et l'activation du WLAN."</string>
     <string name="micloud_dspt_provision_china_no_sms_and_call">"Vous pouvez utiliser Xiaomi Cloud pour synchroniser des photos, des contacts, des notes, des enregistrements et d'autres données, localiser votre appareil et partager des éléments avec des amis. Cette application doit se connecter à Internet pour fonctionner normalement. La synchronisation des éléments peut nécessiter une connexion de données mobile et l'activation du WLAN."</string>
@@ -504,13 +535,20 @@ Vous pouvez également aider anonymement les autres à localiser leurs appareils
     <string name="micloud_find_device_verify_close">"Désactiver Localiser l'appareil"</string>
     <string name="micloud_find_device_verify_fail">"Impossible d'activer la recherche d'appareil"</string>
     <string name="micloud_find_device_verify_progress">"Réactivation de Localiser l'appareil…"</string>
+    <string name="micloud_label_name_browser">Navigateur</string>
+    <string name="micloud_label_name_call_logs">Historique des appels</string>
+    <string name="micloud_label_name_cloud_sync">Synchronisation cloud</string>
+    <string name="micloud_label_name_contacts">Contacts</string>
+    <string name="micloud_label_name_notes">Notes</string>
+    <string name="micloud_label_name_password">Mots de passe</string>
+    <string name="micloud_label_name_password_manager">Gestionnaire de mots de passe</string>
+    <string name="micloud_label_name_recorder">Magnétophone</string>
+    <string name="micloud_label_name_sms">Messagerie</string>
     <string name="micloud_last_sync_canceled">La synchronisation a été annulée. Réessayez.</string>
     <string name="micloud_main_head_menu_cloud_backup">Sauvegardes</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">"Localiser l'appareil n'est pas disponible dans le Second espace. Vous pouvez l'utiliser dans le Premier espace."</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Éléments supprimés récemment</string>
     <string name="micloud_main_network_error">Impossible de se connecter au réseau</string>
     <string name="micloud_main_sync_mode_summary">"Synchronisez les données de l'application en temps réel. La consommation électrique augmentera lorsque cette fonction est activée."</string>
-    <string name="micloud_main_sync_mode_title">Synchronisation rapide</string>
     <string name="micloud_manaul_sync_success_button_text">Afficher les détails</string>
     <string name="micloud_manaul_sync_success_title">Synchronisé</string>
     <string name="micloud_manual_activating">Activation…</string>
@@ -519,6 +557,7 @@ Vous pouvez également aider anonymement les autres à localiser leurs appareils
     <string name="micloud_manual_all_sync_off_title">La synchronisation est désactivée</string>
     <string name="micloud_manual_buy_vip">"Obtenir plus d'espace de stockage"</string>
     <string name="micloud_manual_cloud_storage_full_button_text">"Obtenir plus d'espace de stockage"</string>
+    <string name="micloud_manual_cloud_storage_full_international_summary">Impossible de synchroniser les photos et les contacts</string>
     <string name="micloud_manual_cloud_storage_full_summary">"Impossible de synchroniser des photos, des contacts et d'autres éléments. Mettez à niveau votre plan ou libérez de l'espace de stockage."</string>
     <string name="micloud_manual_cloud_storage_full_title">"Impossible de synchroniser. Pas assez d'espace de stockage dans Xiaomi Cloud."</string>
     <string name="micloud_manual_cloud_storage_low_button_text">"Obtenir plus d'espace de stockage"</string>
@@ -552,7 +591,7 @@ Vous pouvez également aider anonymement les autres à localiser leurs appareils
     <string name="micloud_member_pay_order_error_toast">Erreur de données</string>
     <string name="micloud_notif_content_battery_low">Batterie trop faible.</string>
     <string name="micloud_notif_content_depend_wifi">Se connecter au Wi-Fi pour synchroniser.</string>
-    <string name="micloud_notif_content_depend_wifi_china">Connect to WLAN to sync.</string>
+    <string name="micloud_notif_content_depend_wifi_china">Se connecter au WLAN pour synchroniser.</string>
     <string name="micloud_notif_content_dirty_data">Détails</string>
     <string name="micloud_notif_content_master_depend_wifi">Connectez-vous au Wi-Fi ou modifiez les paramètres de synchronisation. Appuyez pour changer.</string>
     <string name="micloud_notif_content_master_depend_wifi_china">Connectez-vous au Wi-Fi ou modifiez les paramètres de synchronisation. Appuyez pour changer.</string>
@@ -567,8 +606,73 @@ Vous pouvez également aider anonymement les autres à localiser leurs appareils
     <string name="micloud_notif_title_multi_user_error">Impossible de synchroniser avec Xiaomi Cloud</string>
     <string name="micloud_notif_title_privacy_reopen_failed">"Impossible d'activer les services de Xiaomi Cloud"</string>
     <string name="micloud_notif_title_sync_with_off">Synchroniser avec Xiaomi Cloud</string>
+    <string name="micloud_preference_activate_now">Activer</string>
+    <string name="micloud_preference_backup_disabled">Sauvegarde Cloud désactivé</string>
+    <string name="micloud_preference_backup_paused">Sauvegarde Cloud mis en pause</string>
+    <string name="micloud_preference_cloud_cancel">Annuler</string>
+    <string name="micloud_preference_cloud_disable_and_revoke">Annuler</string>
+    <string name="micloud_preference_cloud_disabled">Désactivé</string>
+    <string name="micloud_preference_cloud_enabled">Activé</string>
+    <string name="micloud_preference_cloud_go_to_authorize">Paramètres</string>
+    <string name="micloud_preference_cloud_membership">Abonnement Xiaomi Cloud</string>
+    <string name="micloud_preference_cloud_permission_description">"Xiaomi Cloud a besoin d'une autorisation pour accéder à vos données afin de synchroniser les éléments avec le cloud. Si vous n'accordez pas cette autorisation, la synchronisation dans le cloud sera désactivée. Vous pouvez accorder cette autorisation dans les paramètres."</string>
+    <string name="micloud_preference_cloud_permission_required">Autorisations requises</string>
+    <string name="micloud_preference_cloud_space_share">Partager le stockage cloud</string>
+    <string name="micloud_preference_cloud_sync_wlan_only">Synchroniser uniquement lorsque connecté au Wi-Fi</string>
+    <string name="micloud_preference_cloud_sync_wlan_only_china">Synchroniser uniquement lorsque connecté au WLAN</string>
+    <string name="micloud_preference_extended_recovery_time">Temps de récupération prolongé</string>
+    <string name="micloud_preference_family_sharing">"Gérer l'espace de stockage familial"</string>
+    <string name="micloud_preference_gallery_detail">%1$s, %2$s</string>
+    <string name="micloud_preference_get_more_cloud_space">Obtenez plus de stockage dans le cloud pour des sauvegardes en temps opportun</string>
+    <string name="micloud_preference_idle_sync">Synchronisation au ralenti</string>
+    <string name="micloud_preference_idle_sync_desc">"Synchroniser uniquement lorsque l'écran est éteint et que l'appareil se charge"</string>
+    <string name="micloud_preference_last_sync_done_time">Dernière synchronisation : %1$s %2$s</string>
     <string name="micloud_preference_last_sync_time">Dernière synchro : %s</string>
+    <string name="micloud_preference_last_sync_time_1">La synchronisation la plus récente</string>
+    <string name="micloud_preference_manage_cloud_data">Gérer les données cloud</string>
+    <string name="micloud_preference_manage_membership">"Gérer l'abonnement"</string>
+    <string name="micloud_preference_max_storage">"Profitez d'un espace de stockage pouvant atteindre jusqu'à %d TB"</string>
+    <string name="micloud_preference_membership_benefits">Obtenez plus de stockage dans le cloud, des temps de récupération plus longs et plus</string>
+    <string name="micloud_preference_no_backup">"Pas d'historique de sauvegarde sur cet appareil"</string>
+    <string name="micloud_preference_open_cloud_membership">"Activer l'abonnement Xiaomi Cloud"</string>
+    <string name="micloud_preference_recent_backup">"Dernière sauvegarde : "</string>
+    <string name="micloud_preference_recently_deleted">Éléments supprimés récemment</string>
+    <string name="micloud_preference_renew_now">Renouveler</string>
+    <string name="micloud_preference_renew_reminder">Renouvelez votre adhésion pour vous assurer que vos données peuvent être synchronisées</string>
+    <string name="micloud_preference_renew_reminder_1">"Renouvelez votre abonnement pour profiter de plus d'avantages"</string>
+    <string name="micloud_preference_restore_contacts">Restaurer des contacts</string>
+    <string name="micloud_preference_share_space_with_family">Partager cet espace de stockage avec la famille</string>
+    <string name="micloud_preference_storage_detail">Utilisation du stockage</string>
+    <string name="micloud_preference_store_contacts">Stockez vos contacts dans Xiaomi Cloud pour pouvoir les voir et les partager sur tous vos appareils et i.mi.com</string>
+    <string name="micloud_preference_store_contacts_1">Stockez vos contacts dans Xiaomi Cloud pour pouvoir les voir et les partager sur tous vos appareils et i.mi.com</string>
+    <string name="micloud_preference_store_notes">Stockez vos notes dans Xiaomi Cloud pour pouvoir les voir, les partager et les modifier sur tous vos appareils et i.mi.com</string>
+    <string name="micloud_preference_store_notes_1">Stockez vos notes dans Xiaomi Cloud pour pouvoir les voir et les modifier sur tous vos appareils et i.mi.com</string>
+    <string name="micloud_preference_store_passwords">Stockez vos mots de passe dans Xiaomi Cloud pour pouvoir remplir rapidement les informations du compte sur tous les appareils</string>
+    <string name="micloud_preference_store_recordings">Stockez vos enregistrements dans Xiaomi Cloud pour pouvoir les voir et les partager sur tous vos appareils et i.mi.com</string>
+    <string name="micloud_preference_store_recordings_1">Stockez vos enregistrements dans Xiaomi Cloud pour pouvoir les voir et les modifier sur tous vos appareils et i.mi.com</string>
+    <string name="micloud_preference_store_sms">Stockez vos messages dans Xiaomi Cloud pour pouvoir les voir et les partager sur tous vos appareils et i.mi.com</string>
+    <string name="micloud_preference_subscribe_cloud_benefits">Profitez de ces avantages avec un abonnement Xiaomi Cloud</string>
+    <string name="micloud_preference_sync_avatar_delay">Lorsque cette fonctionnalité est activée, les photos de profil peuvent être synchronisées avec un délai</string>
+    <string name="micloud_preference_sync_data_saving">Enregistre les données mobiles mais peut retarder la synchronisation</string>
+    <string name="micloud_preference_sync_failed">Impossible de synchroniser. Appuyez sur le bouton pour afficher les détails.</string>
+    <string name="micloud_preference_sync_now">Synchroniser</string>
+    <string name="micloud_preference_sync_only_wlan">Synchroniser uniquement sur WLAN</string>
+    <string name="micloud_preference_sync_only_wlan_china">Synchroniser uniquement sur WLAN</string>
+    <string name="micloud_preference_sync_screen_off_only">"Synchroniser les éléments uniquement lorsque l'écran est éteint et que l'appareil se charge"</string>
+    <string name="micloud_preference_sync_settings_title">Synchroniser les paramètres</string>
+    <string name="micloud_preference_sync_sim_sms">Synchroniser les messages de cette carte SIM</string>
+    <string name="micloud_preference_sync_this_device">Synchroniser cet appareil avec le cloud</string>
     <string name="micloud_preference_syncing">Synchronisation en cours…</string>
+    <string name="micloud_preference_syncitem_title">Synchronisation cloud</string>
+    <string name="micloud_preference_up_cloud_membership">"Mettre à jour l'abonnement Xiaomi Cloud"</string>
+    <string name="micloud_preference_upgrade_membership_warning">"Le stockage du cloud est presque complet. Mettez à niveau votre abonnement au cloud Xiaomi pour obtenir plus d'espace de stockage et assurez-vous que vos éléments peuvent être synchronisés."</string>
+    <string name="micloud_preference_view_all">Tout afficher</string>
+    <string name="micloud_preference_view_cloud_notes">Afficher vos notes du cloud</string>
+    <string name="micloud_preference_view_cloud_recordings">Afficher les enregistrements cloud</string>
+    <string name="micloud_preference_view_cloud_shared_family">Abonnements du cloud partagés avec la famille</string>
+    <string name="micloud_preference_view_synced_contacts">Voir les contacts synchronisés</string>
+    <string name="micloud_preference_view_synced_sms">Voir les messages synchronisés</string>
+    <string name="micloud_preference_wechat_backup_1">Sauvegardes WeChat</string>
     <string name="micloud_privacy_cloud_off">La synchronisation est désactivée</string>
     <string name="micloud_privacy_cloud_sync">Activer les services de Xiaomi Cloud</string>
     <string name="micloud_privacy_explanation">"Accorder l'autorisation pour activer les services de Xiaomi Cloud"</string>
@@ -586,22 +690,6 @@ Vous pouvez également aider anonymement les autres à localiser leurs appareils
     <string name="micloud_request_permission_content_pad_without_sim_or_contact">"Pour pouvoir synchroniser les événements de l'agenda, les photos, les vidéos et d'autres éléments, Xiaomi Cloud a besoin d'autorisations pour accéder à votre agenda, comptes, photos et vidéos."</string>
     <string name="micloud_request_permission_title">"Xiaomi Cloud à besoin d'autorisations"</string>
     <string name="micloud_request_sync_too_frequent">Trop de requêtes. Patientez une ou deux minutes et réessayez.</string>
-    <string name="micloud_setting_antispam_summary">Exceptions et numéros de téléphone bloqués</string>
-    <string name="micloud_setting_bluetooth_summary">Synchronisez les informations sur vos appareils associés avec le cloud</string>
-    <string name="micloud_setting_browser_summary">Signets, historique et onglets</string>
-    <string name="micloud_setting_calendar_summary">Événements</string>
-    <string name="micloud_setting_calllog_summary">Historique des appels</string>
-    <string name="micloud_setting_contact_summary">Contacts et photos de profil</string>
-    <string name="micloud_setting_gallery_summary">Photos et vidéos</string>
-    <string name="micloud_setting_notes_summary">Notes</string>
-    <string name="micloud_setting_notes_summary_v2">Notes</string>
-    <string name="micloud_setting_personal_assistant_summary">"Cartes du Coffre d'applications et fonctionnalités"</string>
-    <string name="micloud_setting_phrase_summary">Phrases fréquentes</string>
-    <string name="micloud_setting_recorder_summary">Enregistrements audios et appels</string>
-    <string name="micloud_setting_sms_summary">Messages SMS et MMS</string>
-    <string name="micloud_setting_sms_summary_for_google_csp">Messages texte</string>
-    <string name="micloud_setting_wifi_summary">Paramètres Wi-Fi</string>
-    <string name="micloud_setting_wifi_summary_china">WLAN settings</string>
     <string name="micloud_share_cloud_storage_entrance_title">Partager le stockage cloud avec votre groupe familial</string>
     <string name="micloud_space_applist_detail">"Gérer les applications de l'écran d'accueil"</string>
     <string name="micloud_space_duokan_detail">"Télécharger et gérer les e-books avec l'application Duokan."</string>
@@ -609,10 +697,7 @@ Vous pouvez également aider anonymement les autres à localiser leurs appareils
     <string name="micloud_space_soundrecorder_detail">"Ouvrez l'application Magnétophone sur votre appareil Xiaomi et sélectionnez le dossier contenant les éléments stockés dans le cloud.
 Assurez-vous que vous utilisez le Compte Xiaomi associé comme votre compte système."</string>
     <string name="micloud_space_soundrecorder_title">Enregistrements</string>
-    <string name="micloud_storage_detail">Détails</string>
     <string name="micloud_storage_family_quota">Espace partagé</string>
-    <string name="micloud_storage_full_tip">Le stockage est plein</string>
-    <string name="micloud_storage_normal_tip">%s restant</string>
     <string name="micloud_storage_share_family">Partage familial</string>
     <string name="micloud_storage_unit_gb">%s Go</string>
     <string name="micloud_storage_unit_mb">%s Mo</string>
@@ -630,15 +715,14 @@ Assurez-vous que vous utilisez le Compte Xiaomi associé comme votre compte syst
     <string name="micloud_sync_result_secure_space_limit">Ne pas synchroniser les éléments du Second espace</string>
     <string name="micloud_sync_result_sim_activated_error">"Impossible d'activer la carte SIM"</string>
     <string name="micloud_sync_result_wifi_only">Cet élément est trop gros. Synchronisez-le lorsque vous êtes connecté au Wi-Fi.</string>
-    <string name="micloud_sync_result_wifi_only_china">This item is too big. Sync it when connected to WLAN.</string>
-    <string name="micloud_upgrade_storage">Mettre à niveau le plan de stockage</string>
+    <string name="micloud_sync_result_wifi_only_china">Cet élément est trop gros. Synchronisez-le lorsque vous êtes connecté au WLAN.</string>
     <string name="micloud_wipe_data_confirm_label">Supprimer les éléments synchronisés de cet appareil?</string>
     <string name="micloud_wipe_data_confirm_title">Certains éléments des applications suivantes sont synchronisés avec Xiaomi Cloud. Vous pouvez les supprimer de cet appareil tout en les conservant dans le cloud.</string>
     <string name="micloud_wipe_data_remove">Retirer</string>
     <string name="micloud_wipe_data_retain">Garder</string>
     <string name="midnight">Nuit</string>
     <string name="midrive_guide1_desc">"Sauvegarde des éléments dans le Cloud afin de libérer de l'espace de stockage sur votre appareil."</string>
-    <string name="midrive_guide1_title">Sécurise les sauvegardes</string>
+    <string name="midrive_guide1_title">Sauvegardes sécurisées</string>
     <string name="midrive_guide2_desc">Téléchargez des fichiers à une vitesse extrêmement rapide.</string>
     <string name="midrive_guide2_title">Téléchargements rapides</string>
     <string name="midrive_guide3_desc">Utilisez Mi Drive avec des appareils mobiles, des ordinateurs et dans des moteurs de recherche.</string>
@@ -647,9 +731,16 @@ Assurez-vous que vous utilisez le Compte Xiaomi associé comme votre compte syst
     <string name="midrive_guide_btn_installed">Ouvrir Mi Drive</string>
     <string name="midrive_guide_btn_installing">Installation…</string>
     <string name="miuix_access_state_desc">Sélectionné</string>
+    <string name="miuix_accessibility_title">Titre</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Réduit</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Étendu</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">"Quitter le mode d'édition"</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nouvelle notification</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Entrer en mode édition</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Tout désélectionner</string>
     <string name="miuix_appcompat_action_mode_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_action_mode_title_empty">Sélectionner des éléments</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Sélectionner</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Plus</string>
     <string name="miuix_appcompat_cancel_description">Annuler</string>
     <string name="miuix_appcompat_confirm_description">Confirmer</string>
@@ -662,6 +753,8 @@ Assurez-vous que vous utilisez le Compte Xiaomi associé comme votre compte syst
     <string name="miuix_appcompat_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_select_all_description">Tout sélectionner</string>
     <string name="miuix_appcompat_select_item">Sélectionnez les éléments</string>
+    <string name="miuix_appcompat_show_dialog_description">Fenêtre contextuelle</string>
+    <string name="miuix_progressbar_loading">Chargement</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Faites glisser vers le bas pour actualiser</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualisé avec succès</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Actualisation…</string>
@@ -670,6 +763,9 @@ Assurez-vous que vous utilisez le Compte Xiaomi associé comme votre compte syst
     <string name="miuix_sbl_tracking_progress_labe_up_none">"C'est tout pour le moment"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Juste un instant…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Impossible de charger les éléments</string>
+    <string name="miuix_show_password">Afficher le mot de passe</string>
+    <string name="miuix_stretchablewidget_collapsed">Réduit</string>
+    <string name="miuix_stretchablewidget_expanded">Étendu</string>
     <string name="monday">Lundi</string>
     <string name="monday_short">Lun</string>
     <string name="monday_shortest">Lun</string>
@@ -714,6 +810,7 @@ Assurez-vous que vous utilisez le Compte Xiaomi associé comme votre compte syst
     <string name="night">Soirée</string>
     <string name="no_sim">Impossible de trouver la carte SIM</string>
     <string name="noon">Midi</string>
+    <string name="not_checked">Non sélectionné</string>
     <string name="not_set">Non définie</string>
     <string name="noti_quota_button_text">Mettre à niveau</string>
     <string name="noti_quota_full_sum">Mettez à niveau votre plan de stockage pour continuer à synchroniser les éléments.</string>
@@ -735,7 +832,7 @@ Assurez-vous que vous utilisez le Compte Xiaomi associé comme votre compte syst
     <string name="offline_find_doing_enable">Activation de la localisation hors ligne…</string>
     <string name="offline_find_function">Localisation hors ligne</string>
     <string name="offline_find_msg_to_open_1">"Activez la localisation hors ligne sur cet appareil pour pouvoir afficher l'emplacement d'autres appareils hors connexion."</string>
-    <string name="offline_find_msg_to_open_2">"Vérifiez que cet appareil est approuvé et activez la localisation hors ligne pour pouvoir afficher l'emplacement des autres appareils hors connexion."</string>
+    <string name="offline_find_msg_to_open_2">Activez cette fonctionnalité pour pouvoir localiser cet appareil ou afficher la localisation d’autres appareils lorsqu’ils ne sont pas connectés au réseau.</string>
     <string name="offline_find_msg_to_open_3">"Pour protéger la sécurité de vos données, vérifiez que cet appareil est approuvé avant d'activer la localisation hors ligne."</string>
     <string name="offline_find_title_to_open_1">Activer la localisation hors ligne</string>
     <string name="offline_find_title_to_open_2">Vérifier cet appareil</string>
@@ -743,13 +840,21 @@ Assurez-vous que vous utilisez le Compte Xiaomi associé comme votre compte syst
     <string name="other_lockscreen_forget_pin">"Je ne connais pas le verrouillage d'écran de cet appareil"</string>
     <string name="other_lockscreen_forget_pin_dialog_another_message">La protection avancée des données est activée. Utiliser une clé de sécurité pour vous connecter ?</string>
     <string name="other_lockscreen_forget_pin_dialog_message">"Utilisez le verrouillage d'écran d'un autre appareil ou votre clé de sécurité"</string>
+    <string name="other_lockscreen_forget_pin_dialog_message_2fa">"Utilisez le verrouillage d'écran d'un autre appareil ou sélectionnez une autre méthode de vérification."</string>
     <string name="other_lockscreen_forget_pin_dialog_negative_btn">Annuler</string>
     <string name="other_lockscreen_forget_pin_dialog_neutral_btn">"Utiliser le verrouillage d'écran d'un autre appareil"</string>
     <string name="other_lockscreen_forget_pin_dialog_positive_btn">"Utiliser la clé d'accès de sécurité"</string>
     <string name="other_lockscreen_forget_pin_dialog_title">"Verrouillage d'écran oublié"</string>
     <string name="other_lockscreen_sub_title">"Entrez le verrouillage de l'écran de cet appareil pour terminer la vérification"</string>
     <string name="other_lockscreen_title">"Saisir le verrouillage d'écran de %s"</string>
+    <string name="other_lockscreen_title_2fa">"Saisissez le verrouillage d'écran de « %s » pour terminer la vérification"</string>
     <string name="other_lockscreen_update_password_error_hint">"Vous avez changé votre verrouillage d'écran récemment ? Essayez de saisir l'ancien verrouillage d'écran pour vérifier."</string>
+    <string name="passkeeper_install_keybag_forget">Mot de passe oublié</string>
+    <string name="passkeeper_install_keybag_forget_tip">"Les mots de passe ne peuvent pas être transférés si vous avez oublié le code d'accès"</string>
+    <string name="passkeeper_install_keybag_subtitle">"Le code d'accès est celui que vous définissez lors de la synchronisation de vos mots de passe avec le cloud."</string>
+    <string name="passkeeper_install_keybag_title">Entrez votre mot de passe pour le Gestionnaire de mots de passe</string>
+    <string name="passkeeper_sync_off_confirm_content">Vous ne pourrez pas synchroniser vos nouveaux mots de passe avec le cloud si vous désactivez cette fonctionnalité.</string>
+    <string name="passkeeper_sync_on">Activation…</string>
     <string name="pay_info_dialog_confirm_to_pay">Payer %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Utiliser les Mi Coins restant: %s</string>
     <string name="pay_info_dialog_title">Sélectionnez la méthode de paiement</string>
@@ -757,8 +862,8 @@ Assurez-vous que vous utilisez le Compte Xiaomi associé comme votre compte syst
     <string name="permission_status_allow">Accordé</string>
     <string name="permission_status_deny">Non accordé</string>
     <string name="permission_status_loading">"Accès à l'état de l'appareil…"</string>
-    <string name="phone_guarantee_service_description" formatted="false">"La protection contre les dommages à l'écran et les accidents peut être achetée dans les %d jours suivant l'activation. La garantie prolongée peut être achetée dans les %d jours suivant l'activation."</string>
-    <string name="phone_guarantee_service_name">"Garantie de l'appareil"</string>
+    <string name="phone_guarantee_service_description" formatted="false">"La protection contre les dommages à l'écran peut être achetée dans les %d jours suivant l'activation. La garantie prolongée peut être achetée dans les %d jours suivant l'activation."</string>
+    <string name="phone_guarantee_service_name">Service de garantie officiel Xiaomi</string>
     <string name="picker_list_empty">Pas de contacts ici</string>
     <string name="picker_search_empty">Impossible de trouver des contacts</string>
     <string name="picker_search_hint">Rechercher</string>
@@ -768,39 +873,41 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="power_off_locate_title">"Signaler la localisation avant de s'éteindre"</string>
     <string name="pre_privacy_policy">Politique de confidentialité</string>
     <string name="pre_user_agreement">Accord Utilisateur</string>
-    <string name="pref_summary_sync_display_photo_on_wifi_only">Synchronise uniquement les photos de profil des contacts lorsque vous êtes connecté à un réseau Wi-Fi</string>
-    <string name="pref_title_sync_contacts_title">Synchroniser les contacts</string>
     <string name="pref_title_sync_display_photo_on_wifi_only">Utiliser uniquement le Wi-Fi pour synchroniser les photos</string>
-    <string name="pref_title_sync_display_photo_on_wifi_only_china">Only use WLAN to sync photos</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only_china">Utiliser uniquement le WLAN pour synchroniser les photos</string>
     <string name="preference_copied">\"%1$s\" copié dans le presse-papier.</string>
     <string name="privacy_and_agreement">"Conditions générales d'utilisation"</string>
     <string name="privacy_dialog_finddevice_all_purpose_pad">"Bienvenue à Localiser l'appareil ! Vous pouvez utiliser cette application pour localiser, suivre et verrouiller votre appareil lorsqu'il est perdu. Vous pouvez également aider les autres à localiser leurs appareils Xiaomi de manière anonyme."</string>
+    <string name="privacy_dialog_finddevice_all_purpose_pad_without_offline_find">"Vous pouvez utiliser Localiser l'appareil pour localiser, verrouiller ou effacer les données de votre appareil s'il est perdu."</string>
     <string name="privacy_dialog_finddevice_all_purpose_phone">"Bienvenue à Localiser l'appareil ! Vous pouvez utiliser cette application pour localiser, suivre et verrouiller votre appareil lorsqu'il est perdu. Vous pouvez également aider les autres à localiser leurs appareils Xiaomi de manière anonyme."</string>
+    <string name="privacy_dialog_finddevice_all_purpose_phone_without_offline_find">"Vous pouvez utiliser Localiser l'appareil pour localiser, verrouiller ou effacer les données de votre appareil s'il est perdu."</string>
     <string name="privacy_dialog_sync_all_purpose_china">"Bienvenue sur les services Xiaomi Cloud! Vous pouvez utiliser Xiaomi Cloud pour synchroniser vos messages, les contacts, les notes, les paramètres du navigateur, les photos et les vidéos, les paramètres Wi-Fi, les enregistrements, la disposition de l'écran d'accueil, les applications, les événements de l'agenda, les éléments de la liste noire, historique d'appel et le coffre d'applications sur tous les appareils connectés."</string>
     <string name="privacy_dialog_sync_all_purpose_china_v2">"Bienvenue sur les services Xiaomi Cloud! Vous pouvez utiliser Xiaomi Cloud pour synchroniser vos messages, les contacts, les notes, les paramètres du navigateur, les photos et les vidéos, les paramètres Wi-Fi, les enregistrements, la disposition de l'écran d'accueil, les applications, les événements de l'agenda, les éléments de la liste noire, historique d'appel et le coffre d'applications sur tous les appareils connectés."</string>
     <string name="privacy_dialog_sync_all_purpose_pad">Bienvenue sur les services Xiaomi Cloud ! Vous pouvez utiliser cette application pour synchroniser vos messages, contacts, notes, éléments de navigateur, albums cloud, musique, calendrier, liste noire et historique des appels vers le cloud.</string>
     <string name="privacy_dialog_sync_all_purpose_pad_without_contact_but_sim">Bienvenue sur les services Xiaomi Cloud ! Vous pouvez utiliser cette application pour synchroniser vos messages, notes, éléments de navigateur, albums cloud, musique, calendrier, liste noire et historique des appels vers le cloud.</string>
     <string name="privacy_dialog_sync_all_purpose_pad_without_sim_but_contact">Bienvenue dans les services Xiaomi Cloud ! Vous pouvez utiliser Xiaomi Cloud pour synchroniser vos contacts, notes, paramètres de navigateur, photos et vidéos, enregistrements, événements de calendrier et éléments de liste de blocage sur tous les appareils connectés.</string>
     <string name="privacy_dialog_sync_all_purpose_pad_without_sim_or_contact">Bienvenue dans les services Xiaomi Cloud ! Vous pouvez utiliser Xiaomi Cloud pour synchroniser vos, notes, paramètres de navigateur, photos et vidéos, enregistrements, événements de calendrier et éléments de liste de blocage sur tous les appareils connectés.</string>
-    <string name="privacy_doc_cloudservice_china_v2_with_charge_hint">"Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, photos and videos, WLAN settings, recordings, Home screen layout, apps, calendar events, Blocklist items, and App vault across all connected devices. Access the items you sync from any browser at &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Calendar:&lt;br />For syncing events&lt;br />• Accessing SMS:&lt;br />For syncing messages&lt;br />• Accessing MMS:&lt;br />For syncing messages&lt;br />• Accessing contacts:&lt;br />For syncing contacts&lt;br />• Editing contacts:&lt;br />For syncing contacts&lt;br />• Storage:&lt;br />For saving items on your device (e.g. images and videos)&lt;br />If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.&lt;br />Read and agree to our &lt;a href=%2$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%3$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
-    <string name="privacy_doc_cloudservice_china_with_charge_hint">"Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, photos and videos, WLAN settings, recordings, Home screen layout, apps, calendar events, Blocklist items, and App vault across all connected devices. Access the things you sync from any browser at &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Calendar:&lt;br />For syncing events&lt;br />• Accessing SMS:&lt;br />For syncing messages&lt;br />• Accessing MMS:&lt;br />For syncing messages&lt;br />• Accessing contacts:&lt;br />For syncing contacts&lt;br />• Editing contacts:&lt;br />For syncing contacts&lt;br />• Storage:&lt;br />For saving items on your device (e.g. images and videos)&lt;br />If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.&lt;br />Read and agree to our &lt;a href=%2$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%3$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_cloudservice_china_v2_with_charge_hint_new">"Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, photos and videos, WLAN settings, recordings, Home screen layout, apps, calendar events, blocklist items, and App vault across all connected devices. Access the items you sync from any browser at &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Calendar:&lt;br />For syncing events&lt;br />• Accessing SMS:&lt;br />For syncing messages&lt;br />• Accessing MMS:&lt;br />For syncing messages&lt;br />• Accessing contacts:&lt;br />For syncing contacts&lt;br />• Editing contacts:&lt;br />For syncing contacts&lt;br />• Storage:&lt;br />For saving items on your device (e.g. images and videos)&lt;br />If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_cloudservice_china_with_charge_hint_new">"Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, photos and videos, WLAN settings, recordings, Home screen layout, apps, calendar events, blocklist items, and App vault across all connected devices. Access the items you sync from any browser at &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Calendar:&lt;br />For syncing events&lt;br />• Accessing SMS:&lt;br />For syncing messages&lt;br />• Accessing MMS:&lt;br />For syncing messages&lt;br />• Accessing contacts:&lt;br />For syncing contacts&lt;br />• Editing contacts:&lt;br />For syncing contacts&lt;br />• Storage:&lt;br />For saving items on your device (e.g. images and videos)&lt;br />If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
     <string name="privacy_doc_cloudservice_global">"Xiaomi Cloud doit se connecter à Internet pour fonctionner normalement. La synchronisation des données peut nécessiter l'utilisation de données mobiles et l'activation du Wi-Fi. Lisez et acceptez notre &lt;a href=%1$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et notre &lt;a href=%2$s>&lt;u>Politique de Confidentialité&lt;/u>&lt;/a> avant d'utiliser les services Xiaomi Cloud."</string>
-    <string name="privacy_doc_cloudservice_pad">"Bienvenue dans les services Xiaomi Cloud ! Vous pouvez utiliser Xiaomi Cloud pour synchroniser vos messages, contacts, notes, paramètres de navigateur, photos et vidéos, enregistrements, événements d'agenda et éléments de liste de blocage sur tous les appareils connectés. Accédez aux éléments que vous synchronisez depuis n'importe quel navigateur sur&lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Pour activer ces services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>un SMS local payant&lt;/b>&lt;/font> sera envoyé. Lorsque vous changez de carte SIM, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS local payants&lt;/b>&lt;/font>sera envoyé automatiquement pour réactivation.&lt;br/>Tous les frais de SMS générés par les actions susmentionnées seront perçus par votre opérateur. Xiaomi ne vous facturera pas ces messages.&lt;br />&lt;br />Nous protégerons vos informations personnelles conformément aux lois, réglementations et politiques de confidentialité applicables.&lt;br />Pour pouvoir fonctionner normalement, ces services doivent se connecter à Internet et nécessitent les autorisations suivantes pour collecter vos informations personnelles :&lt;br />• Agenda :&lt;br />Pour synchroniser les événements&lt;br />• Accéder aux SMS :&lt;br />Pour synchroniser les messages&lt;br />• Accéder aux MMS :&lt;br />Pour synchroniser les messages&lt;br />• Accéder aux contacts :&lt;br />Pour synchroniser les contacts&lt;br />• Modifier les contacts :&lt;br />Pour synchroniser les contacts&lt;br />• Stockage :&lt;br />Pour enregistrer des éléments sur votre appareil (par exemple des images, des vidéos)&lt;br />Si vous n'acceptez pas d'accorder de telles autorisations ou de partager et de télécharger vos informations personnelles, vous ne pourrez pas les utiliser prestations de service. Vous pouvez choisir de désinstaller cette application, de vous déconnecter ou de restreindre les autorisations dans les paramètres dans de tels cas.&lt;br />Lisez et acceptez notre &lt;a href=%2$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%3$s>&lt;u>Politique de confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services.&lt;br />"</string>
-    <string name="privacy_doc_cloudservice_pad_without_contact_but_sim">"Bienvenue dans les services Xiaomi Cloud ! Vous pouvez utiliser Xiaomi Cloud pour synchroniser vos messages, notes, paramètres de navigateur, photos et vidéos, enregistrements, événements d'agenda et éléments de liste de blocage sur tous les appareils connectés. Accédez aux éléments que vous synchronisez depuis n'importe quel navigateur sur&lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Pour activer ces services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>un SMS local payant&lt;/b>&lt;/font> sera envoyé. Lorsque vous changez de carte SIM, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS local payant&lt;/b>&lt;/font>sera envoyé automatiquement pour réactivation.&lt;br/>Tous les frais de SMS générés par les actions susmentionnées seront perçus par votre opérateur. Xiaomi ne vous facturera pas ces messages.&lt;br />&lt;br />Nous protégerons vos informations personnelles conformément aux lois, réglementations et politiques de confidentialité applicables.&lt;br />Pour pouvoir fonctionner normalement, ces services doivent se connecter à Internet et nécessitent les autorisations suivantes pour collecter vos informations personnelles :&lt;br />• Agenda :&lt;br />Pour synchroniser les événements&lt;br />• Accéder aux SMS :&lt;br />Pour synchroniser les messages&lt;br />• Accéder aux MMS :&lt;br />Pour synchroniser les messages&lt;br />• Stockage :&lt;br />Pour enregistrer des éléments sur votre appareil (par exemple des images, des vidéos)&lt;br />Si vous n'acceptez pas d'accorder de telles autorisations ou de partager et de télécharger vos informations personnelles, vous ne pourrez pas les utiliser prestations de service. Vous pouvez choisir de désinstaller cette application, de vous déconnecter ou de restreindre les autorisations dans les paramètres dans de tels cas.&lt;br />Lisez et acceptez notre &lt;a href=%2$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%3$s>&lt;u>Politique de confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services.&lt;br />"</string>
-    <string name="privacy_doc_cloudservice_pad_without_sim_but_contact">"Bienvenue dans les services Xiaomi Cloud ! Vous pouvez utiliser Xiaomi Cloud pour synchroniser vos contacts, notes, paramètres de navigateur, photos et vidéos, enregistrements, événements d'agenda et éléments de liste de blocage sur tous les appareils connectés. Accédez aux éléments que vous synchronisez depuis n'importe quel navigateur sur&lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Nous protégerons vos informations personnelles conformément aux lois, réglementations et politiques de confidentialité applicables.&lt;br />Pour pouvoir fonctionner normalement, ces services doivent se connecter à Internet et nécessitent les autorisations suivantes pour collecter vos informations personnelles :&lt;br />• Agenda :&lt;br />Pour synchroniser les événements&lt;br />• Accéder aux contacts :&lt;br />Pour synchroniser les contacts&lt;br />• Modifier les contacts :&lt;br />Pour synchroniser les contacts&lt;br />• Stockage :&lt;br />Pour enregistrer des éléments sur votre appareil (par exemple des images, des vidéos)&lt;br />Si vous n'acceptez pas d'accorder de telles autorisations ou de partager et de télécharger vos informations personnelles , vous ne pourrez pas utiliser ces services. Vous pouvez choisir de désinstaller cette application, de vous déconnecter ou de restreindre les autorisations dans les paramètres dans de tels cas.&lt;br />Lisez et acceptez notre &lt;a href=%2$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%3$s>&lt;u>Politique de confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services.&lt;br />"</string>
-    <string name="privacy_doc_cloudservice_pad_without_sim_or_contact">"Bienvenue dans les services Xiaomi Cloud ! Vous pouvez utiliser Xiaomi Cloud pour synchroniser vos notes, paramètres de navigateur, photos et vidéos, enregistrements, événements d'agenda et éléments de liste de blocage sur tous les appareils connectés. Accédez aux éléments que vous synchronisez depuis n'importe quel navigateur sur&lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Nous protégerons vos informations personnelles conformément aux lois, réglementations et politiques de confidentialité applicables.&lt;br />Pour pouvoir fonctionner normalement, ces services doivent se connecter à Internet et nécessitent les autorisations suivantes pour collecter vos informations personnelles :&lt;br />• Agenda :&lt;br />Pour synchroniser les événements&lt;br />• Stockage :&lt;br />Pour enregistrer des éléments sur votre appareil (par exemple des images, des vidéos)&lt;br />Si vous n'acceptez pas d'accorder de telles autorisations ou de partager et de télécharger vos informations personnelles , vous ne pourrez pas utiliser ces services. Vous pouvez choisir de désinstaller cette application, de vous déconnecter ou de restreindre les autorisations dans les paramètres dans de tels cas.&lt;br />Lisez et acceptez notre &lt;a href=%2$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%3$s>&lt;u>Politique de confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services.&lt;br />"</string>
-    <string name="privacy_doc_finddevice_pad">"Bienvenue à Localiser l'appareil ! Vous pouvez utiliser ce service pour localiser, verrouiller ou effacer les données de votre appareil s'il est perdu. Vous pouvez accéder à &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> pour le localiser, le verrouiller ou le réinitialiser. &lt;br />&lt;br />Nous protégerons vos informations personnelles selon lois, réglementations et Politiques de Confidentialité applicables. &lt;br />Pour pouvoir fonctionner normalement, ce service doit se connecter à Internet et requiert les autorisations suivantes afin de collecter vos informations personnelles :&lt;br />• Localisation :&lt;br />Pour localiser votre appareil et passer au Mode perdu&lt;br />Si vous n'acceptez pas de telles autorisations, vous ne pourrez pas utiliser ce service. Vous pouvez toujours activer et désactiver ce service dans les Paramètres.&lt;br />Lisez et acceptez notre &lt;a href=%1$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%2$s>&lt;u>Politique de Confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services. &lt;br />"</string>
-    <string name="privacy_doc_finddevice_phone">"Bienvenue à Localiser l'appareil ! Vous pouvez utiliser ce service pour localiser, verrouiller ou effacer les données de votre appareil s'il est perdu. Vous pouvez accéder à &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> pour le localiser, le verrouiller ou le réinitialiser. &lt;br />&lt;br />Nous protégerons vos informations personnelles selon lois, réglementations et Politiques de Confidentialité applicables. &lt;br />Pour pouvoir fonctionner normalement, ce service doit se connecter à Internet et requiert les autorisations suivantes afin de collecter vos informations personnelles :&lt;br />• Localisation :&lt;br />Pour localiser votre appareil et passer au Mode perdu&lt;br />Si vous n'acceptez pas de telles autorisations, vous ne pourrez pas utiliser ce service. Vous pouvez toujours activer et désactiver ce service dans les Paramètres.&lt;br />Lisez et acceptez notre &lt;a href=%1$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%2$s>&lt;u>Politique de Confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services. &lt;br />"</string>
-    <string name="privacy_doc_finddevice_with_telephony_feature_pad_inter_with_charge_hint">"Bienvenue dans Localiser l'appareil ! Vous pouvez utiliser ce service pour localiser, verrouiller ou effacer des données sur votre appareil en cas de perte. La visite de &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> vous permet de le localiser, de le verrouiller ou de le réinitialiser.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS internationaux payants&lt;/b>&lt;/font> seront envoyés automatiquement pour activer ce service. Lorsque vous changez de carte SIM, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS internationaux payants&lt;/b>&lt;/font> sera envoyé automatiquement pour réactivation.&lt;br/>Tous les frais de SMS générés par les actions susmentionnées seront perçus par votre opérateur. Xiaomi ne vous facturera pas ces messages.&lt;br />&lt;br />Nous protégerons vos informations personnelles conformément aux lois, réglementations et politiques de confidentialité en vigueur.&lt;br />Pour pouvoir fonctionner normalement, cela service doit se connecter à Internet et nécessite les autorisations suivantes pour collecter vos informations personnelles :&lt;br />• Localisation :&lt;br />Pour localiser votre appareil et passer en mode perdu&lt;br />• Envoyer un SMS :&lt;br />Pour localiser cet appareil lorsqu'il n'est pas connecté à Internet&lt;br />• Accéder aux informations sur l'appareil :&lt;br />Pour accéder au numéro de téléphone afin de localiser cet appareil lorsqu'il n'est pas connecté à Internet &lt;br />Si vous n'acceptez pas d'accorder de telles autorisations, vous ne pourrez pas utiliser ce service. Vous pouvez toujours activer et désactiver ce service dans les paramètres.&lt;br />Lisez et acceptez notre &lt;a href=%2$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%3$s>&lt;u>Politique de confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services.&lt;br />"</string>
-    <string name="privacy_doc_finddevice_with_telephony_feature_pad_with_common_charge_hint">"Bienvenue dans Trouver un appareil ! Vous pouvez utiliser ce service pour localiser, verrouiller ou effacer des données sur votre appareil en cas de perte. La visite de &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> vous permet de le localiser, de le verrouiller ou de le réinitialiser.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS payant&lt;/b>&lt;/font> sera envoyé automatiquement pour activer ce service. Lorsque vous changez de carte SIM, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS payants&lt;/b>&lt;/font> sera envoyé automatiquement pour réactivation.&lt;br/>Tous les frais de SMS générés par les actions précitées seront encaissés par votre opérateur. Xiaomi ne vous facturera pas ces messages.&lt;br />&lt;br />Nous protégerons vos informations personnelles conformément aux lois, réglementations et politiques de confidentialité en vigueur.&lt;br />Pour pouvoir fonctionner normalement, cela service doit se connecter à Internet et nécessite les autorisations suivantes pour collecter vos informations personnelles :&lt;br />• Localisation :&lt;br />Pour localiser votre appareil et passer en mode perdu&lt;br />• Envoyer un SMS :&lt;br />Pour localiser cet appareil lorsqu'il n'est pas connecté à Internet&lt;br />• Accéder aux informations sur l'appareil :&lt;br />Pour accéder au numéro de téléphone afin de localiser cet appareil lorsqu'il n'est pas connecté à Internet&lt;br />Si vous n'acceptez pas d'accorder de telles autorisations, vous ne pourrez pas utiliser ce service. Vous pouvez toujours activer et désactiver ce service dans les paramètres.&lt;br />Lisez et acceptez notre &lt;a href=%2$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%3$s>&lt;u>Politique de confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services.&lt;br />"</string>
-    <string name="privacy_doc_finddevice_with_telephony_feature_pad_with_domestic_charge_hint">"Bienvenue dans Localiser l'appareil ! Vous pouvez utiliser ce service pour localiser, verrouiller ou effacer des données sur votre appareil en cas de perte. La visite de &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>vous permet de le localiser, de le verrouiller ou de le réinitialiser.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS local payant&lt;/b>&lt;/font> sera envoyé automatiquement pour activer ce service. Lorsque vous changez de carte SIM, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS local payant&lt;/b>&lt;/font> sera envoyé automatiquement pour réactivation.&lt;br/>Tous les frais de SMS générés par les actions susmentionnées seront perçus par votre opérateur. Xiaomi ne vous facturera pas ces messages.&lt;br />&lt;br />Nous protégerons vos informations personnelles conformément aux lois, réglementations et politiques de confidentialité en vigueur.&lt;br />Pour pouvoir fonctionner normalement, cela service doit se connecter à Internet et nécessite les autorisations suivantes pour collecter vos informations personnelles :&lt;br />• Localisation :&lt;br />Pour localiser votre appareil et passer en mode perdu&lt;br />• Envoyer un SMS :&lt;br />Pour localiser cet appareil lorsqu'il n'est pas connecté à Internet&lt;br />• Accéder aux informations sur l'appareil :&lt;br />Pour accéder au numéro de téléphone afin de localiser cet appareil lorsqu'il n'est pas connecté à Internet&lt;br />Si vous n'acceptez pas d'accorder de telles autorisations, vous ne pourrez pas utiliser ce service. Vous pouvez toujours activer et désactiver ce service dans les paramètres.&lt;br />Lisez et acceptez notre &lt;a href=%2$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%3$s>&lt;u>Politique de confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services.&lt;br />"</string>
-    <string name="privacy_doc_finddevice_with_telephony_feature_phone_with_common_charge_hint">"Bienvenue à Localiser l'appareil ! Vous pouvez utiliser ce service pour localiser, verrouiller ou effacer des données sur votre appareil en cas de perte. La visite de &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> vous permet de le localiser, de le verrouiller ou de le réinitialiser.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS payant&lt;/b>&lt;/font> sera envoyé automatiquement pour activer ce service. Lorsque vous changez de carte SIM, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS payant&lt;/b>&lt;/font> sera envoyé automatiquement pour réactivation.&lt;br/>Tous les frais de SMS générés par les actions précitées seront encaissés par votre opérateur. Xiaomi ne vous facturera pas ces messages.&lt;br />&lt;br />Nous protégerons vos informations personnelles conformément aux lois, réglementations et politiques de confidentialité en vigueur.&lt;br />Pour pouvoir fonctionner normalement, cela service doit se connecter à Internet et nécessite les autorisations suivantes pour collecter vos informations personnelles :&lt;br />• Localisation :&lt;br />Pour localiser votre appareil et passer au Mode perdu&lt;br />• Envoyer un SMS :&lt;br />Pour localiser cet appareil lorsqu'il n'est pas connecté à Internet&lt;br />• Accéder aux informations sur l'appareil :&lt;br />Pour accéder au numéro de téléphone afin de localiser cet appareil lorsqu'il n'est pas connecté à Internet&lt;br />Si vous n'acceptez pas d'accorder de telles autorisations, vous ne pourrez pas utiliser ce service. Vous pouvez toujours activer et désactiver ce service dans les paramètres.&lt;br />Lisez et acceptez notre &lt;a href=%2$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%3$s>&lt;u>Politique de Confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services.&lt;br />"</string>
-    <string name="privacy_doc_finddevice_with_telephony_feature_phone_with_domestic_charge_hint">"Bienvenue à Localiser l'appareil ! Vous pouvez utiliser ce service pour localiser, verrouiller ou effacer des données sur votre appareil en cas de perte. La visite de &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>vous permet de le localiser, de le verrouiller ou de le réinitialiser.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS local payant&lt;/b>&lt;/font> sera envoyé automatiquement pour activer ce service. Lorsque vous changez de carte SIM, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS local payant&lt;/b>&lt;/font> sera envoyé automatiquement pour réactivation.&lt;br/>Tous les frais de SMS générés par les actions susmentionnées seront perçus par votre opérateur. Xiaomi ne vous facturera pas ces messages.&lt;br />&lt;br />Nous protégerons vos informations personnelles conformément aux lois, réglementations et politiques de confidentialité en vigueur.&lt;br />Pour pouvoir fonctionner normalement, cela service doit se connecter à Internet et nécessite les autorisations suivantes pour collecter vos informations personnelles :&lt;br />• Localisation :&lt;br />Pour localiser votre appareil et passer au Mode perdu&lt;br />• Envoyer un SMS :&lt;br />Pour localiser cet appareil lorsqu'il n'est pas connecté à Internet&lt;br />• Accéder aux informations sur l'appareil :&lt;br />Pour accéder au numéro de téléphone afin de localiser cet appareil lorsqu'il n'est pas connecté à Internet&lt;br />Si vous n'acceptez pas d'accorder de telles autorisations, vous ne pourrez pas utiliser ce service. Vous pouvez toujours activer et désactiver ce service dans les paramètres.&lt;br />Lisez et acceptez notre &lt;a href=%2$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%3$s>&lt;u>Politique de Confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services.&lt;br />"</string>
-    <string name="privacy_doc_finddevice_with_telephony_feature_phone_with_inter_charge_hint">"Bienvenue à Localiser l'appareil ! Vous pouvez utiliser ce service pour localiser, verrouiller ou effacer des données sur votre appareil en cas de perte. La visite de &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> vous permet de le localiser, de le verrouiller ou de le réinitialiser.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS international payant&lt;/b>&lt;/font> sera envoyé automatiquement pour activer ce service. Lorsque vous changez de carte SIM, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>SMS international payant&lt;/b>&lt;/font> sera envoyé automatiquement pour réactivation.&lt;br/>Tous les frais de SMS générés par les actions susmentionnées seront perçus par votre opérateur. Xiaomi ne vous facturera pas ces messages.&lt;br />&lt;br />Nous protégerons vos informations personnelles conformément aux lois, réglementations et politiques de confidentialité en vigueur.&lt;br />Pour pouvoir fonctionner normalement, cela service doit se connecter à Internet et nécessite les autorisations suivantes pour collecter vos informations personnelles :&lt;br />• Localisation :&lt;br />Pour localiser votre appareil et passer au Mode perdu&lt;br />• Envoyer un SMS :&lt;br />Pour localiser cet appareil lorsqu'il n'est pas connecté à Internet&lt;br />• Accéder aux informations sur l'appareil :&lt;br />Pour accéder au numéro de téléphone afin de localiser cet appareil lorsqu'il n'est pas connecté à Internet &lt;br />Si vous n'acceptez pas d'accorder de telles autorisations, vous ne pourrez pas utiliser ce service. Vous pouvez toujours activer et désactiver ce service dans les paramètres.&lt;br />Lisez et acceptez notre &lt;a href=%2$s>&lt;u>Accord Utilisateur&lt;/u>&lt;/a> et &lt;a href=%3$s>&lt;u>Politique de Confidentialité&lt;/u>&lt;/a> avant d'utiliser nos services.&lt;br />"</string>
+    <string name="privacy_doc_cloudservice_pad_new">"Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, contacts, notes, Browser settings, photos and videos, recordings, apps, calendar events, and blocklist items across all connected devices. Access the items you sync from any browser at &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Calendar:&lt;br />For syncing events&lt;br />• Accessing SMS:&lt;br />For syncing messages&lt;br />• Accessing MMS:&lt;br />For syncing messages&lt;br />• Accessing contacts:&lt;br />For syncing contacts&lt;br />• Editing contacts:&lt;br />For syncing contacts&lt;br />• Storage:&lt;br />For saving items on your device (e.g. images and videos)&lt;br />If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_cloudservice_pad_without_contact_but_sim_new">"Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, notes, Browser settings, photos and videos, recordings, apps, calendar events, and blocklist items across all connected devices. Access the items you sync from any browser at &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Calendar:&lt;br />For syncing events&lt;br />• Accessing SMS:&lt;br />For syncing messages&lt;br />• Accessing MMS:&lt;br />For syncing messages&lt;br />• Storage:&lt;br />For saving items on your device (e.g. images and videos)&lt;br />If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_cloudservice_pad_without_sim_but_contact_new">"Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your contacts, notes, Browser settings, photos and videos, recordings, apps, calendar events, and blocklist items across all connected devices. Access the items you sync from any browser at &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Calendar:&lt;br />For syncing events&lt;br />• Accessing contacts:&lt;br />For syncing contacts&lt;br />• Editing contacts:&lt;br />For syncing contacts&lt;br />• Storage:&lt;br />For saving items on your device (e.g. images, videos)&lt;br />If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_cloudservice_pad_without_sim_or_contact_new">"Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your notes, Browser settings, photos and videos, recordings, apps, calendar events, and blocklist items across all connected devices. Access the items you sync from any browser at &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Calendar:&lt;br />For syncing events&lt;br />• Storage:&lt;br />For saving items on your device (e.g. images, videos)&lt;br />If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_finddevice_pad_new">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> to locate, lock, or reset it.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, this service needs to connect to the internet and requires the following permissions in order to collect your personal information:&lt;br />• Location:&lt;br />For locating your device and switching to Lost mode&lt;br />If you don't agree to grant such permissions, you won't be able to use this service.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_finddevice_phone_new">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> to locate, lock, or reset it.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, this service needs to connect to the internet and requires the following permissions in order to collect your personal information:&lt;br />• Location:&lt;br />For locating your device and switching to Lost mode&lt;br />If you don't agree to grant such permissions, you won't be able to use this service.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_finddevice_with_telephony_feature_pad_inter_with_charge_hint_new">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> to locate, lock, or reset it.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> international paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> international paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Location:&lt;br />For locating your device and switching to Lost mode&lt;br />• Send SMS:&lt;br />For locating this device when it isn't connected to the internet&lt;br />• Access device info:&lt;br />For accessing phone number in order to locate this device when it isn't connected to the internet&lt;br />If you don't agree to grant such permissions, you won't be able to use this service.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_finddevice_with_telephony_feature_pad_with_common_charge_hint_new">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> to locate, lock, or reset it.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Location:&lt;br />For locating your device and switching to Lost mode&lt;br />• Send SMS:&lt;br />For locating this device when it isn't connected to the internet&lt;br />• Access device info:&lt;br />For accessing phone number in order to locate this device when it isn't connected to the internet&lt;br />If you don't agree to grant such permissions, you won't be able to use this service.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_finddevice_with_telephony_feature_pad_with_domestic_charge_hint_new">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> to locate, lock, or reset it.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Location:&lt;br />For locating your device and switching to Lost mode&lt;br />• Send SMS:&lt;br />For locating this device when it isn't connected to the internet&lt;br />• Access device info:&lt;br />For accessing phone number in order to locate this device when it isn't connected to the internet&lt;br />If you don't agree to grant such permissions, you won't be able to use this service.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_finddevice_with_telephony_feature_phone_with_common_charge_hint_new">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> to locate, lock, or reset it.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Location:&lt;br />For locating your device and switching to Lost mode&lt;br />• Send SMS:&lt;br />For locating this device when it isn't connected to the internet&lt;br />• Access device info:&lt;br />For accessing phone number in order to locate this device when it isn't connected to the internet&lt;br />If you don't agree to grant such permissions, you won't be able to use this service.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_finddevice_with_telephony_feature_phone_with_domestic_charge_hint_new">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> to locate, lock, or reset it.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> domestic paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Location:&lt;br />For locating your device and switching to Lost mode&lt;br />• Send SMS:&lt;br />For locating this device when it isn't connected to the internet&lt;br />• Access device info:&lt;br />For accessing phone number in order to locate this device when it isn't connected to the internet&lt;br />If you don't agree to grant such permissions, you won't be able to use this service.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
+    <string name="privacy_doc_finddevice_with_telephony_feature_phone_with_inter_charge_hint_new">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> to locate, lock, or reset it.&lt;br />&lt;br />To activate these services, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> international paid SMS&lt;/b>&lt;/font> will be sent. When you switch SIM cards, &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g>&lt;font color=#0097FF>&lt;b> international paid SMS&lt;/b>&lt;/font> will be sent automatically for reactivation.&lt;br/>All the SMS fees generated by the aforementioned actions will be collected by your carrier. Xiaomi won't charge you for these messages.&lt;br />&lt;br />We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.&lt;br />To be able to work normally, these services need to connect to the internet and require the following permissions in order to collect your personal information:&lt;br />• Location:&lt;br />For locating your device and switching to Lost mode&lt;br />• Send SMS:&lt;br />For locating this device when it isn't connected to the internet&lt;br />• Access device info:&lt;br />For accessing phone number in order to locate this device when it isn't connected to the internet&lt;br />If you don't agree to grant such permissions, you won't be able to use this service.&lt;br />Read and agree to our &lt;a href=%3$s>&lt;u>User Agreement&lt;/u>&lt;/a> and &lt;a href=%4$s>&lt;u>Privacy Policy&lt;/u>&lt;/a> before using our services.&lt;br />"</string>
     <string name="privacy_policy">Politique de Confidentialité</string>
     <string name="privacy_policy_reject_confirm_msg">"Vous ne pourrez pas continuer à utiliser Xiaomi Cloud à moins que vous n'acceptiez la nouvelle version de sa &lt;a href=%1$s>&lt;u>Politique de confidentialité&lt;/u>&lt;/a>. Accepter la politique de confidentialité mise à jour maintenant ?"</string>
     <string name="privacy_policy_reject_confirm_title">Attention</string>
-    <string name="privacy_policy_revoked_msg">"Le consentement à la politique de confidentialité de Xiaomi Cloud a été retiré pour ce compte. Essayez d'utiliser un autre compte."</string>
+    <string name="privacy_policy_revoked_btn_msg">"C'est compris"</string>
+    <string name="privacy_policy_revoked_msg">Vous avez retiré votre consentement à la Politique de Confidentialité de Xiaomi Cloud et toutes vos données stockées dans le cloud ont été effacées. Passez à un autre compte pour utiliser ce service.</string>
+    <string name="privacy_policy_revoked_msg_contains_manual_activation">"Vous avez retiré votre consentement à la Politique de Confidentialité de Xiaomi Cloud et vos données stockées dans le cloud ont été effacées. Pour utiliser à nouveau ce service, acceptez la Politique de Confidentialité sur i.mi.com. Pour votre sécurité, vous ne pouvez lactiver qu'un compte par jour."</string>
     <string name="privacy_policy_update_msg">La politique de confidentialité de Xiaomi Cloud a été mise à jour :&lt;br/>%1$s&lt;br/>Lisez et acceptez la nouvelle version de la &lt;a href=%2$s>&lt;u>Politique de confidentialité&lt;/u>&lt;/a> avant de continuer.</string>
     <string name="privacy_policy_update_title">Politique de confidentialité mise à jour</string>
     <string name="privacy_runtime_perm_calendar_desc">Pour synchroniser les événements du calendrier</string>
@@ -811,6 +918,8 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="privacy_runtime_perm_contacts_title">Accéder et modifier les contacts</string>
     <string name="privacy_runtime_perm_external_storage_desc">Pour synchroniser les photos de profil de contact</string>
     <string name="privacy_runtime_perm_external_storage_title">Accéder au stockage</string>
+    <string name="privacy_runtime_perm_get_installed_apps_desc">"Pour synchroniser les données de l'application"</string>
+    <string name="privacy_runtime_perm_get_installed_apps_title">"Accéder aux données d'application"</string>
     <string name="privacy_runtime_perm_notification_desc">Pour envoyer des notifications de services Xiaomi Cloud</string>
     <string name="privacy_runtime_perm_notification_title">Notifications</string>
     <string name="privacy_runtime_perm_phone_state_desc">"Pour accéder au numéro de téléphone et à l'état de l'appareil"</string>
@@ -822,20 +931,26 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="provision_next">Suivant</string>
     <string name="provision_skip_underline">Ignorer</string>
     <string name="provision_sync_items_loading">Préparation à la synchronisation des éléments</string>
-    <string name="quick_service_after_sale_policy_title">Policy</string>
+    <string name="quick_service_after_sale_policy_title">Politique</string>
     <string name="quick_service_after_sale_service_title">Services</string>
-    <string name="quick_service_authenticity_check_title">Authentication</string>
-    <string name="quick_service_maintenance_price_title">Repairs</string>
-    <string name="quick_service_title">Quick services</string>
+    <string name="quick_service_authenticity_check_title">Authentification</string>
+    <string name="quick_service_maintenance_price_title">Réparations</string>
+    <string name="quick_service_title">Services rapides</string>
     <string name="reading_status">"Chargement de l'état…"</string>
     <string name="reading_status_failure">"Impossible de lire l'état de la localisation de l'appareil."</string>
-    <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
-    <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
-    <string name="recommend_service_title">Recommended services</string>
+    <string name="recommend_service_cloudservice_description">"Synchronisez les données de l'application système, sauvegardez les paramètres, la mise en page de l'écran d’accueil et plus encore"</string>
+    <string name="recommend_service_sharelocation_description">Localisez, verrouillez et effacez les données sur les appareils manquants, et partagez la localisation avec vos amis et votre famille</string>
+    <string name="recommend_service_title">Services recommandés</string>
+    <string name="request_manual_notification_permission_labels">Pour vous assurer de recevoir des notifications importantes, autorisez cette application à envoyer des notifications dans les paramètres.</string>
+    <string name="request_manual_various_permissions_labels_exclude_notification_permission">Pour vous assurer que les données importantes (%1$s) peuvent être synchronisées dans le cloud, accordez à cette application les autorisations suivantes dans Paramètres : %2$s.</string>
+    <string name="request_manual_various_permissions_labels_include_notification_permission">Pour vous assurer que vous recevez des notifications importantes et que les données importantes (%1$s) peuvent être synchronisées dans le cloud, autorisez cette application à envoyer des notifications et accordez les autorisations suivantes dans Paramètres : %2$s.</string>
     <string name="request_os_permissions_dialog_message">"Xiaomi Cloud a besoin d'une autorisation pour accéder aux éléments stockés sur votre appareil afin de pouvoir identifier les éléments non synchronisés et leur quantité. Accorder cette autorisation maintenant ?"</string>
     <string name="request_os_permissions_dialog_neg_button">Refuser</string>
     <string name="request_os_permissions_dialog_pos_button">Accepter</string>
     <string name="request_os_permissions_dialog_title">Autorisations requises</string>
+    <string name="request_permissions_dialog_negative_button_mes">Pas maintenant</string>
+    <string name="request_permissions_dialog_positive_button_mes">"C'est compris"</string>
+    <string name="request_permissions_labels">"Il semble que vous n'avez pas autorisé Xiaomi Cloud à accéder aux types d'informations suivants : %1$s. Afin de vous assurer que tous les éléments peuvent être synchronisés sur le cloud normalement, accordez à Xiaomi Cloud les autorisations suivantes : %2$s."</string>
     <string name="retain_data_high_quality_photo_waring_message">Les copies de haute qualité de vos photos et vidéos seront supprimées de votre galerie après votre déconnexion. Les fichiers originaux correspondants seront toujours stockés dans le cloud. Vous pouvez également télécharger les fichiers originaux avant de vous déconnecter.</string>
     <string name="retain_data_high_quality_photo_waring_title">Les images de haute qualité ne seront pas disponibles</string>
     <string name="revoke_block_by_find_device">"Le retrait du consentement désactivera également Rechercher l'appareil. Vous devrez vérifier votre mot de passe après avoir continué."</string>
@@ -870,7 +985,6 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="share_location_menu_help">Aide et commentaires</string>
     <string name="share_location_menu_messages">Historique des messages</string>
     <string name="share_location_start_navigation_error">Impossible de trouver des cartes sur votre appareil</string>
-    <string name="share_miliao_not_installed">"Mi Talk n'est pas installé."</string>
     <string name="share_sdk_btn_already_shared_text">Invitation livrée</string>
     <string name="share_sdk_btn_quit_share_text">Arrêter de partager</string>
     <string name="share_sdk_btn_resend_share_text">Renvoyer</string>
@@ -950,23 +1064,23 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="share_success">Partagé</string>
     <string name="share_weibo_not_installed">"Weibo n'est pas installé."</string>
     <string name="share_weixin_not_installed">"Wechat n'est pas installé."</string>
+    <string name="short_app_name">"Localiser l'appareil"</string>
+    <string name="sms_sync_item_permission">messages</string>
     <string name="soundrecorder_sync_only_in_wifi">Synchronisation en Wi-Fi uniquement</string>
-    <string name="soundrecorder_sync_only_in_wifi_china">Only use WLAN to sync</string>
+    <string name="soundrecorder_sync_only_in_wifi_china">Utiliser uniquement WLAN pour synchroniser</string>
     <string name="soundrecorder_sync_only_in_wifi_summary">"L'enregistreur n'utilisera pas de données mobiles pour télécharger ou uploader les enregistrements"</string>
-    <string name="soundrecorder_sync_only_in_wifi_summary_china">Recorder will not use mobile data to download or upload recordings</string>
-    <string name="soundrecorder_sync_records">Synchroniser avec Xiaomi Cloud</string>
+    <string name="soundrecorder_sync_only_in_wifi_summary_china">"L'enregistreur n'utilisera pas de données mobiles pour télécharger ou télécharger les enregistrements"</string>
     <string name="starred_contact">Favoris</string>
     <string name="start_transfer_gallery_data">Transfert de données</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_manage_cloud_data_title">Afficher les éléments dans the cloud</string>
     <string name="storage_manage_list_title">Données cloud</string>
     <string name="storage_manage_list_title_action">Voir plus</string>
-    <string name="storage_upgrade_card_title">Mettre à niveau</string>
     <string name="sub_alert_notif_content">Activez Xiaomi Cloud</string>
     <string name="sub_alert_notif_title">Synchroniser avec Xiaomi Cloud</string>
     <string name="sub_sync_item_sms_summary">Synchroniser uniquement les messages contenant des photos, audio ou autres médias lorsque vous êtes connecté à un réseau Wi-Fi</string>
     <string name="sub_sync_item_sms_title_wifi_only">Uniquement en Wi-Fi pour les MMS</string>
-    <string name="sub_sync_item_sms_title_wifi_only_china">Only use WLAN to sync MMS</string>
+    <string name="sub_sync_item_sms_title_wifi_only_china">Utiliser uniquement WLAN pour synchroniser les MMS</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Dimanche</string>
     <string name="sunday_short">Dim</string>
@@ -982,12 +1096,16 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="sync_dspt_entrance_provision_confirm_open">Utiliser Xiaomi Cloud</string>
     <string name="sync_dspt_entrance_provision_confirm_title">Ne pas utiliser Xiaomi Cloud?</string>
     <string name="sync_dspt_entrance_provision_network">"Cette application doit se connecter à Internet pour fonctionner normalement. La synchronisation des données peut nécessiter la connexion des données mobiles et l'activation du Wi-Fi."</string>
-    <string name="sync_dspt_entrance_provision_network_china">This app needs to connect to the internet to work normally. Syncing data may require mobile data connection and turning on WLAN.</string>
+    <string name="sync_dspt_entrance_provision_network_china">"Cette application doit se connecter à Internet pour fonctionner normalement. La synchronisation des données peut nécessiter la connexion des données mobiles et l'activation du WLAN."</string>
     <string name="sync_dspt_entrance_provision_v2">"Synchronisez vos photos, vos notes et d'autres éléments sur tous vos appareils. Accédez aux éléments que vous synchronisez depuis n'importe quel navigateur à %s."</string>
     <string name="sync_item_autofill_summary">Cryptez vos mots de passe et synchronisez-les automatiquement avec le cloud</string>
     <string name="sync_item_autofill_title">Télécharger automatiquement</string>
+    <string name="sync_item_calllog_sim1_title">"Synchroniser l'historique des appels de la carte SIM %d"</string>
+    <string name="sync_item_calllog_sim2_title">"Synchroniser l'historique des appels de la carte SIM %d"</string>
     <string name="sync_item_calllog_summary">"Synchroniser les enregistrements d'appels émis et reçus sur cet appareil"</string>
     <string name="sync_item_calllog_title">"Synchroniser l'historique des appels"</string>
+    <string name="sync_item_sms_sim1_title">Synchroniser les messages de la carte SIM %d</string>
+    <string name="sync_item_sms_sim2_title">Synchroniser les messages de la carte SIM %d</string>
     <string name="sync_item_sms_summary">Synchroniser les SMS envoyés et reçus sur ce téléphone</string>
     <string name="sync_item_sms_title">Synchroniser les SMS</string>
     <string name="sync_item_title">"Synchroniser les données de l'application"</string>
@@ -997,13 +1115,13 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="sync_off_confirm_content">Vous ne pourrez pas synchroniser les nouveaux mots de passe après avoir désactivé le Gestionnaire de mots de passe.</string>
     <string name="sync_off_confirm_title">Attention</string>
     <string name="sync_on">Activé</string>
+    <string name="sync_on_success">Activé avec succès</string>
     <string name="sync_page_autofill_login">Connectez-vous au Compte Xiaomi pour utiliser le Gestionnaire de mots de passe</string>
     <string name="sync_page_autofill_title">Gestionnaire de mots de passe</string>
     <string name="sync_page_route_message">Le gestionnaire de mots de passe vous permet de crypter vos mots de passe et de les stocker dans le cloud. Activer le gestionnaire de mots de passe maintenant ?</string>
     <string name="sync_page_route_not_now">Non merci</string>
     <string name="sync_page_route_ok">Activer</string>
     <string name="sync_page_route_remember">Ne plus afficher</string>
-    <string name="sync_setting_title">Synchroniser les paramètres</string>
     <string name="system_busy_or_network_error">Une erreur est survenue. Attendez une minute ou deux et réessayez .</string>
     <string name="talkback_hide_passcode">Masquer le mot de passe</string>
     <string name="talkback_show_passcode">Afficher le mot de passe</string>
@@ -1069,7 +1187,6 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="update_dialog_no_update_toast_text">La version actuelle est à jour</string>
     <string name="update_dialog_title">Mises à jour disponibles</string>
     <string name="update_dialog_update_button_text">Installer</string>
-    <string name="upgrade_member_storage">Abonnement Xiaomi Cloud</string>
     <string name="user_agreement_content">En utilisant ce service, vous acceptez %s.</string>
     <string name="user_agreement_link">"Conditions générales d'utilisation de Xiaomi Cloud"</string>
     <string name="user_agreement_p5">"
@@ -1086,10 +1203,15 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="verify_camera_permission_title">Autorisations requises</string>
     <string name="verify_code_btn_negative">Annuler</string>
     <string name="verify_code_btn_positive">Suivant</string>
+    <string name="verify_code_dialog_message_default">Saisir ce code sur votre nouvel appareil</string>
+    <string name="verify_code_dialog_title_default">"Code de vérification de l'appareil"</string>
     <string name="verify_code_error_textView">"Clé d'accès incorrecte. Réessayez."</string>
     <string name="verify_code_error_view">Code incorrect. Réessayer.</string>
     <string name="verify_code_success_textView">"Mettre à jour la clé d'accès de sécurité"</string>
+    <string name="verify_code_warning_dialog_message_default">Autoriser votre nouvel appareil à accéder aux données cryptées ?</string>
     <string name="verify_code_warning_dialog_title">Code de vérification</string>
+    <string name="verify_code_warning_dialog_title_default">"Un nouvel appareil demande l'accès"</string>
+    <string name="verify_code_warning_subTitle_2fa">%d code de vérification a été envoyé à votre autre appareil de confiance exécutant Xiaomi HyperOS 2 ou une version ultérieure. Saisissez le code pour continuer.</string>
     <string name="verify_code_warning_text">Entrez le code de vérification à %d chiffres que vous avez reçu</string>
     <string name="verify_code_warning_text_title">"Entrez ce code de vérification sur l'autre appareil"</string>
     <string name="verify_code_warning_text_view">"Vous n'avez pas reçu de code ?"</string>
@@ -1104,17 +1226,26 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="verify_dialog_point">Ne partagez pas ce code de vérification avec qui que ce soit</string>
     <string name="verify_dialog_point_choose_method">Sélectionner une autre méthode de vérification</string>
     <string name="verify_dialog_point_device_password">"Entrer le verrouillage d'écran d'un autre appareil"</string>
+    <string name="verify_dialog_point_other_subtitle">Utilisez une méthode différente pour vérifier</string>
+    <string name="verify_dialog_point_other_title">Changer la méthode de vérification</string>
     <string name="verify_dialog_point_resend">Renvoyer le code de vérification</string>
     <string name="verify_dialog_point_send_to_other">Envoyer un code à un autre appareil</string>
     <string name="verify_dialog_point_two_factor">"Utilisez n'importe quel appareil avec l'authentification à deux facteurs activée"</string>
     <string name="verify_dialog_positive_btn">"C'est compris"</string>
     <string name="verify_dialog_title">"Vous n'avez pas reçu de code ?"</string>
+    <string name="verify_forget_security">Mot de passe de sécurité oublié ?</string>
     <string name="verify_loading_progressDialog">Vérification…</string>
     <string name="verify_login_error_not_support_toast">Un autre appareil a activé la protection des données avancée. Comme cet appareil ne prend pas en charge cette fonctionnalité, désactivez la protection des données avancée pour pouvoir vous connecter à votre Compte Xiaomi sur cet appareil.</string>
     <string name="verify_notification_text">Autoriser cet appareil à utiliser cette fonctionnalité sur tous vos appareils</string>
+    <string name="verify_notification_text_account_login_push" formatted="false">Connectez-vous à votre Compte Xiaomi (%s) sur votre %s maintenant ?</string>
+    <string name="verify_notification_text_apple_push">La protection avancée des données est activée pour votre compte. Autoriser votre appareil Apple à accéder à vos données chiffrées ?</string>
+    <string name="verify_notification_text_find_device_push">Permettre à l’autre appareil de localiser cet appareil</string>
     <string name="verify_notification_text_pc">La protection avancée des données est activée. Accordez les autorisations requises sur votre ordinateur pour pouvoir accéder aux données chiffrées.</string>
     <string name="verify_notification_text_web">La protection avancée des données est activée. Accordez les autorisations requises sur i.mi.com pour pouvoir accéder aux données chiffrées.</string>
     <string name="verify_notification_title">Un autre appareil a activé le chiffrement de bout en bout</string>
+    <string name="verify_notification_title_account_login_push">Se connecter avec Compte Xiaomi</string>
+    <string name="verify_notification_title_apple_push">"Autoriser l'appareil Apple"</string>
+    <string name="verify_notification_title_find_device_push">Un autre appareil a activé \"Localisation hors ligne\"</string>
     <string name="verify_ocr_loading_progressDialog">Reconnaissance…</string>
     <string name="verify_process_dialog_message">Vérification…</string>
     <string name="verify_scan_Second_title">"Saisir la clé d'accès à %d chiffres"</string>
@@ -1127,6 +1258,7 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="verify_scan_title">"Vérifier la clé d'accès de sécurité"</string>
     <string name="verify_send_code_btn">Envoyer le code</string>
     <string name="verify_send_new_code_btn">Envoyer un nouveau code</string>
+    <string name="verify_title_2fa">Authentification à deux facteurs</string>
     <string name="verify_toast_text">Code de vérification envoyé</string>
     <string name="verify_unknown_error_view">Une erreur inconnue est survenue</string>
     <string name="verify_use_other_key_btn">"Utiliser la clé d'accès de sécurité"</string>
@@ -1135,11 +1267,13 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="verify_warning_dialog_code_web">Saisir ce code sur i.mi.com</string>
     <string name="verify_warning_dialog_message">"%s veut activer le cryptage de bout en bout pour tous les appareils connectés à votre Compte Xiaomi. Cette fonctionnalité vous permettra d'accéder facilement à vos données chiffrées sur tous les appareils. Autoriser maintenant ?"</string>
     <string name="verify_warning_dialog_message_default">Votre appareil Xiaomi</string>
+    <string name="verify_warning_dialog_message_find_device">\"Localisation hors ligne\" est activée pour %s. Une fois cette fonctionnalité activée, vous pourrez vérifier la localisation de votre appareil lorsque vous êtes hors ligne.</string>
     <string name="verify_warning_dialog_message_pc">La protection avancée des données est activée. Accordez les autorisations requises sur votre ordinateur pour pouvoir accéder aux données chiffrées.</string>
     <string name="verify_warning_dialog_message_web">La protection avancée des données est activée. Accordez les autorisations requises sur i.mi.com pour pouvoir accéder aux données chiffrées.</string>
     <string name="verify_warning_dialog_negative_btn">Ne pas autoriser</string>
     <string name="verify_warning_dialog_positive_btn">Autoriser</string>
     <string name="verify_warning_dialog_title">Un autre appareil a activé le chiffrement de bout en bout</string>
+    <string name="verify_warning_dialog_title_find_device">\"Localisation hors ligne\" est activée pour un autre appareil</string>
     <string name="verify_warning_dialog_title_pc">Autorisations requises</string>
     <string name="verify_warning_dialog_title_web">Autorisations requises</string>
     <string name="verify_warning_verify_dialog_message">Entrer le code de vérification sur %s</string>
@@ -1148,8 +1282,10 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="web_view_auto_login_fail">Impossible de se connecter. Réessayez.</string>
     <string name="web_view_login_text">Connexion…</string>
     <string name="web_view_reload_btn_text">Réessayer</string>
+    <string name="web_view_reload_btn_text_new">Réessayer</string>
     <string name="web_view_reload_description_text">"Impossible de se connecter au réseau.
 Vérifiez vos paramètres réseau, puis réessayez."</string>
+    <string name="web_view_reload_description_text_new">Vérifiez vos paramètres réseau et réessayez.</string>
     <string name="wednesday">Mercredi</string>
     <string name="wednesday_short">Mer</string>
     <string name="wednesday_shortest">Mer</string>

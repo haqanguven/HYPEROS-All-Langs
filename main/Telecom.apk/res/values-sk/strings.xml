@@ -28,7 +28,10 @@
     <string name="abc_shareactionprovider_share_with_application">Zdieľať s aplikáciou %s</string>
     <string name="abc_toolbar_collapse_description">Zbaliť</string>
     <string name="accessibility_call_muted">Zvuk hovoru bol vypnutý.</string>
+    <string name="accessibility_sliding_button_state_description_off">Vypnuté</string>
+    <string name="accessibility_sliding_button_state_description_on">Povolené</string>
     <string name="accessibility_speakerphone_enabled">Reproduktor je povolený.</string>
+    <string name="accessibility_tab_state_description_unselect">Nevybrané</string>
     <string name="actionbar_button_up_description">Späť</string>
     <string name="add_blocked_dialog_body">Blokovať hovory a textové správy</string>
     <string name="add_blocked_number_hint">Telefónne číslo</string>
@@ -61,7 +64,13 @@
     <string name="blocked_numbers_number_already_blocked_message">Číslo %1$s je už zablokované.</string>
     <string name="blocked_numbers_number_blocked_message">Číslo %1$s je blokované</string>
     <string name="blocked_numbers_number_unblocked_message">Číslo %1$s je odblokované</string>
+    <string name="callFailed_already_ringing">Hovor sa nedá uskutočniť, pretože máte neprijatý prichádzajúci hovor. Prijmite alebo odmietnite prichádzajúci hovor a až potom uskutočnite nový hovor.</string>
+    <string name="callFailed_outgoing_already_present">Hovor sa nedá uskutočniť, pretože sa už pripája iný hovor. Pred uskutočnením ďalšieho hovoru počkajte na prijatie aktuálneho hovoru alebo ho ukončite.</string>
+    <string name="callFailed_reject_mmi">Tento kód MMI nie je k dispozícii pre hovory v rámci viacerých účtov.</string>
     <string name="callFailed_simError">Chyba SIM karty</string>
+    <string name="callFailed_too_many_calls_exclude_merge">Hovor sa nedá uskutočniť, pretože už prebiehajú dva hovory. Pred uskutočnením nového hovoru ukončite jeden z prebiehajúcich hovorov.</string>
+    <string name="callFailed_too_many_calls_include_merge">Hovor sa nedá uskutočniť, pretože už prebiehajú dva hovory. Odpojte jeden hovor alebo ich zlúčte do konferencie a až potom uskutočnite nový hovor.</string>
+    <string name="callFailed_unholdable_call">Hovor sa nedá uskutočniť, pretože prebieha hovor, ktorý sa nedá podržať. Pred uskutočnením nového hovoru najprv ukončite ten prebiehajúci.</string>
     <string name="call_notification_answer_action">Prijať</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Odmietnuť</string>
@@ -81,7 +90,8 @@
     <string name="can_not_dial_vt_while_voice_prompt">Nie je možné uskutočniť video hovor ak práve prebieha hlasový hovor</string>
     <string name="can_not_dial_while_vt_prompt">Nie je možné vytočiť počas video hovoru</string>
     <string name="cancel">Zrušiť</string>
-    <string name="cant_call_due_to_no_supported_service">Hovor sa nedá uskutočniť, pretože nie je k dispozícii žiaden účet, ktorý by tento typ hovorov podporoval.</string>
+    <string name="cant_call_due_to_dsdstransition_invalid_sub">Aktuálne konto nie je platné. Nie je možné uskutočňovať hovory.</string>
+    <string name="cant_call_due_to_no_supported_service">Nedá sa volať. Skontrolujte pripojenie zariadenia.</string>
     <string name="cant_call_due_to_ongoing_call">Hovor sa nedá uskutočniť, pretože prebieha hovor %1$s.</string>
     <string name="cant_call_due_to_ongoing_calls">Hovor sa nedá uskutočniť, pretože prebiehajú hovory %1$s.</string>
     <string name="cant_call_due_to_ongoing_unknown_call">Hovor sa nedá uskutočniť, pretože prebieha hovor v inej aplikácii.</string>
@@ -110,6 +120,7 @@
     <string name="do_not_show_again">Viac nezobrazovať</string>
     <string name="duplicate_video_call_not_allowed">Hovor momentálne nie je možné pridať.</string>
     <string name="early_morning">Ráno</string>
+    <string name="emergencyCall_reject_mmi">Kódy MMI nemožno vytočiť počas tiesňového volania.</string>
     <string name="empty" />
     <string name="enable_account_preference_title">Telefónne účty</string>
     <string name="eras_ad">CE</string>
@@ -177,6 +188,12 @@
     <string name="midnight">Noc</string>
     <string name="missedcall_notification_public_version_title">Telefón</string>
     <string name="miuix_access_state_desc">Vybraté</string>
+    <string name="miuix_accessibility_title">Nadpis</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Zbalené</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Rozbalené</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Ukončiť režim úprav</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nové upozornenie</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Prejsť do režimu úprav</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Zrušiť výber</string>
     <string name="miuix_appcompat_action_mode_select_all">Vybrať všetko</string>
     <string name="miuix_appcompat_action_mode_title_empty">Označiť položky</string>
@@ -192,6 +209,8 @@
     <string name="miuix_appcompat_select_all">Vybrať všetko</string>
     <string name="miuix_appcompat_select_all_description">Vybrať všetko</string>
     <string name="miuix_appcompat_select_item">Vybrať položky</string>
+    <string name="miuix_appcompat_show_dialog_description">Vyskakovacie okno</string>
+    <string name="miuix_progressbar_loading">Načítanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potiahnite pre obnovenie</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Úspešne obnovené</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Obnovuje sa…</string>
@@ -200,6 +219,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">To je na teraz všetko</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Malý moment…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nepodarilo sa načítať položky</string>
+    <string name="miuix_show_password">Zobraziť heslo</string>
+    <string name="miuix_stretchablewidget_collapsed">Zbalené</string>
+    <string name="miuix_stretchablewidget_expanded">Rozbalené</string>
     <string name="monday">Pondelok</string>
     <string name="monday_short">Pon</string>
     <string name="monday_shortest">Pon</string>

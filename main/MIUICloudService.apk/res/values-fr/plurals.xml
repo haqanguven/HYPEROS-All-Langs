@@ -96,6 +96,10 @@
         <item quantity="other">%d réseaux Wi-Fi</item>
         <item quantity="one">%d réseau Wi-Fi</item>
     </plurals>
+    <plurals name="display_number_of_devices">
+        <item quantity="other">Afficher uniquement %s appareils non approuvés.</item>
+        <item quantity="one">Afficher uniquement %s appareil non approuvé.</item>
+    </plurals>
     <plurals name="e2ee_device_verification_num">
         <item quantity="other">%s appareils non vérifiés</item>
         <item quantity="one">%s appareil non vérifié</item>
@@ -115,10 +119,6 @@
     <plurals name="error_screen_pwd_next_retry_time">
         <item quantity="other">Réessayer dans %d secondes</item>
         <item quantity="one">Réessayez dans %d seconde</item>
-    </plurals>
-    <plurals name="gallery_auto_sync_fail_noti_red_title">
-        <item quantity="other">Impossible de synchroniser &lt;font color=#F22424>%s éléments&lt;/font></item>
-        <item quantity="one">Impossible de synchroniser &lt;font color=#F22424>%s élément&lt;/font></item>
     </plurals>
     <plurals name="gallery_auto_sync_fail_noti_title">
         <item quantity="other">Impossible de synchroniser %s éléments</item>
@@ -168,9 +168,69 @@
         <item quantity="other">Reprise de la synchronisation dans %d minutes</item>
         <item quantity="one">Reprise de la synchronisation dans %d minute</item>
     </plurals>
+    <plurals name="micloud_preference_family_detail">
+        <item quantity="other">Partagé avec %1$d personnes. Les membres de la famille ont utilisé %2$s.</item>
+        <item quantity="one">Partagé avec %1$d personne. Le membre de la famille a utilisé %2$s.</item>
+    </plurals>
+    <plurals name="micloud_preference_items_count">
+        <item quantity="other">%s éléments</item>
+        <item quantity="one">%s élément</item>
+    </plurals>
+    <plurals name="micloud_preference_photo_detail">
+        <item quantity="other">%1$s photos</item>
+        <item quantity="one">%1$s photo</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted">
+        <item quantity="other">Les membres Premium peuvent restaurer des éléments dans %d jours de la suppression</item>
+        <item quantity="one">Les membres Premium peuvent restaurer des éléments dans %d jour de la suppression</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_1">
+        <item quantity="other">Les utilisateurs sans abonnement peuvent restaurer des éléments supprimés dans %d jours</item>
+        <item quantity="one">Les utilisateurs sans abonnement peuvent restaurer des éléments supprimés dans %d jour</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_2">
+        <item quantity="other">Les membres Méga peuvent restaurer des éléments supprimés dans %d jours</item>
+        <item quantity="one">Les membres Méga peuvent restaurer des éléments supprimés dans %d jour</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_3">
+        <item quantity="other">Les membres Ultra peuvent restaurer des éléments supprimés dans %d jours</item>
+        <item quantity="one">Les membres Ultra peuvent restaurer des éléments supprimés dans %d jour</item>
+    </plurals>
+    <plurals name="micloud_preference_record_detail">
+        <item quantity="other">%s éléments</item>
+        <item quantity="one">%s élément</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_deleted_data">
+        <item quantity="other">Les membres peuvent restaurer des éléments supprimés dans %d jours</item>
+        <item quantity="one">Les membres peuvent restaurer des éléments supprimés dans %d jour</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary">
+        <item quantity="other">"Les utilisateurs sans abonnement peuvent restaurer des contacts à n'importe quelle version enregistrée dans %d jours"</item>
+        <item quantity="one">"Les utilisateurs sans abonnement peuvent restaurer des contacts à n'importe quelle version enregistrée dans %d jour"</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_1">
+        <item quantity="other">"Les membres Premium peuvent restaurer des contacts à n'importe quelle version enregistrée dans %d jours"</item>
+        <item quantity="one">"Les membres Premium peuvent restaurer des contacts à n'importe quelle version enregistrée dans %d jour"</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_2">
+        <item quantity="other">"Les membres Méga peuvent restaurer des contacts à n'importe quelle version enregistrée dans %d jours"</item>
+        <item quantity="one">"Les membres Méga peuvent restaurer des contacts à n'importe quelle version enregistrée dans %d jour"</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_3">
+        <item quantity="other">"Les membres Ultra peuvent restaurer des contacts à n'importe quelle version enregistrée dans %d jours"</item>
+        <item quantity="one">"Les membres Ultra peuvent restaurer des contacts à n'importe quelle version enregistrée dans %d jour"</item>
+    </plurals>
+    <plurals name="micloud_preference_video_detail">
+        <item quantity="other">%1$s vidéos</item>
+        <item quantity="one">%1$s vidéo</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d éléments sélectionnés</item>
         <item quantity="one">%d élément sélectionné</item>
+    </plurals>
+    <plurals name="not_authenticated_devices">
+        <item quantity="other">Vous avez un total de %s appareils non approuvés.</item>
+        <item quantity="one">Vous avez un total de %s appareil non approuvé.</item>
     </plurals>
     <plurals name="noti_quota_full_title_with_icon_text">
         <item quantity="other">Stockage complet. Impossible de synchroniser &lt;font color=#F22424>%d applications&lt;/font>.</item>
@@ -213,7 +273,7 @@
         <item quantity="one">%1$s min</item>
     </plurals>
     <plurals name="verify_open_SMS_dialog_positive_btn_timer">
-        <item quantity="other">Envoyer le nouveau code (%ss)</item>
-        <item quantity="one">Envoyer le nouveau code (%ss)</item>
+        <item quantity="other">Envoyer le nouveau code (%s s)</item>
+        <item quantity="one">Envoyer le nouveau code (%s s)</item>
     </plurals>
 </resources>

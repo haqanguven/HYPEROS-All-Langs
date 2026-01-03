@@ -29,6 +29,9 @@
     <string name="abc_toolbar_collapse_description">Contraer</string>
     <string name="abort_backup_confirm">La copia de seguridad no ha terminado. ¿Detener de todos modos?</string>
     <string name="abort_restore_confirm">Restauración no finalizada. ¿Detener de todos modos?</string>
+    <string name="accessibility_sliding_button_state_description_off">Desactivado</string>
+    <string name="accessibility_sliding_button_state_description_on">Activado</string>
+    <string name="accessibility_tab_state_description_unselect">No seleccionado</string>
     <string name="account_contact_backup_info">Cuenta Google, Cuenta Mi y datos de contactos</string>
     <string name="account_login">Iniciar sesión</string>
     <string name="account_summary">Respaldar la cuenta de Google, Cuenta Mi y otros datos de usuario</string>
@@ -82,6 +85,8 @@
     <string name="backup_hint_onpad">Mantenga su dispositivo encendido</string>
     <string name="backup_hint_pad">Mantenga su dispositivo encendido</string>
     <string name="backup_is_running">Respaldando el dispositivo</string>
+    <string name="backup_item_collapsed">Contraído</string>
+    <string name="backup_item_expanded">Expandido</string>
     <string name="backup_new">Nuevo:</string>
     <string name="backup_notice_content">Sus copias de seguridad no se cifrarán, lo que significa que aplicaciones de terceros podrían acceder a ellas o manipularlas. También pueden surgir otros riesgos de seguridad. Asegúrese de almacenar los elementos respaldados en un entorno bien protegido.</string>
     <string name="backup_notice_title">Atención</string>
@@ -92,11 +97,6 @@
     <string name="backup_security_tips_title">Puede ser que los respaldos no funcionen</string>
     <string name="backup_update">Actualizar</string>
     <string name="batch_delete_backup_confirm">¿Eliminar respaldos seleccionados?</string>
-    <string name="bottomsheet_action_collapse">Contraer la hoja inferior</string>
-    <string name="bottomsheet_action_expand">Expandir la hoja inferior</string>
-    <string name="bottomsheet_action_expand_halfway">Expandir hasta la mitad</string>
-    <string name="bottomsheet_drag_handle_clicked">El control de arrastre se presionó dos veces</string>
-    <string name="bottomsheet_drag_handle_content_description">Controlador de arrastre</string>
     <string name="broken_screen_rescue_service">Copia de seguridad con pantalla dañada</string>
     <string name="broken_screen_rescue_service_content">Esta función le permite hacer una copia de seguridad de los elementos mediante un cable USB cuando la pantalla de su dispositivo está dañada o no responde. Para poder hacer una copia de seguridad de los elementos cuando la pantalla no responde, debe activar esta función cuando la pantalla aún funcione correctamente.</string>
     <string name="broken_screen_rescue_service_disable">Desactivar las copias de seguridad con la pantalla dañada ahora</string>
@@ -131,13 +131,6 @@
     <string name="button_return">Atrás</string>
     <string name="button_select">Seleccionar</string>
     <string name="button_send">Enviar</string>
-    <string name="call_notification_answer_action">Responder</string>
-    <string name="call_notification_answer_video_action">Video</string>
-    <string name="call_notification_decline_action">Rechazar</string>
-    <string name="call_notification_hang_up_action">Colgar</string>
-    <string name="call_notification_incoming_text">Llamada entrante</string>
-    <string name="call_notification_ongoing_text">Llamada en curso</string>
-    <string name="call_notification_screening_text">Filtrando una llamada entrante</string>
     <string name="call_title">Historial de llamadas</string>
     <string name="camera_summary">Ajustes de cámara (sin incluir fotos)</string>
     <string name="camera_summary_for_cta">Ajustes de cámara</string>
@@ -146,12 +139,12 @@
     <string name="cancel_moving_dialog_message">¿Detener la importación ahora?</string>
     <string name="cancel_moving_dialog_title">Detener la importación</string>
     <string name="cancel_restore">Detener</string>
+    <string name="cannot_use_backup_summary">%s está utilizando los servicios de copia de seguridad. Inténtelo de nuevo una vez finalizada la transferencia de datos.</string>
+    <string name="cannot_use_backup_title">No se puede hacer una copia de seguridad</string>
+    <string name="cannot_use_mi_backup_summary">El servicio de copia de seguridad del sistema está ocupado. Espere a que finalice y vuelva a intentarlo o reinicie el dispositivo.</string>
     <string name="category_contacts">Contactos</string>
     <string name="category_message_contacts">Mensajería y Contactos</string>
-    <string name="character_counter_content_description">Caracteres ingresados: %1$d de %2$d</string>
-    <string name="character_counter_overflowed_content_description">Se excedió en %1$d el límite de caracteres de %2$d</string>
     <string name="check_privacy_policy">Ver Política de Privacidad</string>
-    <string name="clear_text_end_icon_content_description">Borrar texto</string>
     <string name="clearable_edittext_clear_description">Borrar</string>
     <string name="click_soft_ap_to_link">Seleccione un punto de acceso para conectarse</string>
     <string name="click_to_view">Toque para visualizar</string>
@@ -161,9 +154,6 @@
 Después de crear una nueva pregunta de seguridad y confirmar su fecha de nacimiento, se desactivará la autenticación de dos factores de Apple ID. Si no ve la opción de desactivar la autenticación de dos factores en la página de la cuenta ID de Apple, no podrá desactivarla."</string>
     <string name="close_twice_auth_operation">"URL:
 https://appleid.apple.com/#!&amp;page=signin para cerrar"</string>
-    <string name="close_twice_auth_step_1">1. En cualquier computadora visite appleid.apple.com.</string>
-    <string name="close_twice_auth_step_2">2. Inicie sesión con el ID de Apple del que desea desactivar la autenticación de dos factores, vaya a la sección \"Seguridad\" de ajustes de la cuenta y elija \"Editar\".</string>
-    <string name="close_twice_auth_step_3">3. Haga clic en \"Desactivar autenticación de dos factores\". Haga clic de nuevo para confirmar.</string>
     <string name="close_twice_auth_steps">Siga estos pasos para desactivar la autenticación de dos factores de Apple ID:</string>
     <string name="close_twice_auth_tutor">Desactivar la autenticación de dos factores de Apple ID</string>
     <string name="cloud_app_name">Respaldo de Xiaomi Cloud</string>
@@ -179,7 +169,7 @@ https://appleid.apple.com/#!&amp;page=signin para cerrar"</string>
     <string name="cloud_restore_window_title">Restaurar desde Xiaomi Cloud</string>
     <string name="cloud_search">Buscando…</string>
     <string name="comma_seperator">", "</string>
-    <string name="compute_backup_info">Obteniendo info. del respaldo…</string>
+    <string name="compute_backup_info">Obteniendo información del respaldo…</string>
     <string name="compute_delete_contact_info">Obteniendo información…</string>
     <string name="confirm_exit_link">Salir</string>
     <string name="confirm_exit_link_cancel">No salir</string>
@@ -197,7 +187,7 @@ https://appleid.apple.com/#!&amp;page=signin para cerrar"</string>
     <string name="data_detail_description">Detalles</string>
     <string name="data_item_desc">Datos</string>
     <string name="data_no_enough_space_message">No hay suficiente espacio de almacenamiento en su dispositivo.</string>
-    <string name="date_format">dd/MM/yyyy HH:mm:ss</string>
+    <string name="date_format">dd-MM-yyyy HH:mm:ss</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -217,7 +207,7 @@ https://appleid.apple.com/#!&amp;page=signin para cerrar"</string>
     <string name="dialog_backup_password_change_device_restore_tips">No puede usar Mi Mudanza mientras la contraseña de respaldo esté activada. Desactive la contraseña primero.</string>
     <string name="dialog_backup_password_change_machine_tips">No podrá transferir respaldos protegidos con contraseña. Desactive la contraseña de los respaldos antes de usar Mi Mudanza.</string>
     <string name="dialog_backup_password_restore_tips">No se pueden restaurar elementos mientas la contraseña de respaldo esté activada. Desactive la contraseña primero.</string>
-    <string name="dialog_backup_password_to_settings">Ajustes</string>
+    <string name="dialog_backup_password_to_settings">Configuración</string>
     <string name="digit_percent">%</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="disable_encrypt_description">No encriptar</string>
@@ -256,18 +246,15 @@ https://appleid.apple.com/#!&amp;page=signin para cerrar"</string>
     <string name="err_user_abort">Cancelado por el usuario.</string>
     <string name="err_version_too_old">Archivo de copia de seguridad demasiado viejo.</string>
     <string name="err_version_unsupported">La versión de la copia de seguridad no es compatible.</string>
-    <string name="error_a11y_label">Error: No válido</string>
-    <string name="error_icon_content_description">Error</string>
     <string name="error_permissions">Esta aplicación no tiene los permisos para acceder al Calendario. Vaya a Ajustes y conceda los permisos para continuar.</string>
     <string name="evening">Tarde</string>
     <string name="every_day">Todos los días</string>
     <string name="exchange_account">Cambiar cuentas</string>
     <string name="expand_button_title">Opciones avanzadas</string>
-    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
     <string name="fail">Fallido</string>
     <string name="failed_description">Falló</string>
     <string name="feature_title_account">Cuenta Mi</string>
-    <string name="feature_title_antispam">Lista de bloqueos</string>
+    <string name="feature_title_antispam">Lista negra</string>
     <string name="feature_title_call_log">Historial de llamadas</string>
     <string name="feature_title_contacts">Contactos</string>
     <string name="feature_title_mms">MMS</string>
@@ -278,7 +265,7 @@ https://appleid.apple.com/#!&amp;page=signin para cerrar"</string>
     <string name="findlost_contact">Recuperar contactos</string>
     <string name="findlost_contact_online">Restaurar contactos desde la nube</string>
     <string name="flash_drive_backup_btn">Respaldar en una unidad USB</string>
-    <string name="flash_drive_backup_note">"Respalde aplicaciones en una unidad USB.
+    <string name="flash_drive_backup_note">"Copie el contenido en una unidad USB.
 Asegúrese de que la unidad USB tiene espacio suficiente antes de iniciar."</string>
     <string name="flash_drive_backup_restore">Respaldos USB</string>
     <string name="flash_drive_connection_failed">Unidad USB desconectada</string>
@@ -354,11 +341,7 @@ No modifique o renombre los archivos de respaldo."</string>
     <string name="hsa_send_again_countdown">Enviar de nuevo (%d s)</string>
     <string name="hsa_send_failed">No se pudo enviar el código de verificación. Espere un momento y vuelva a intentarlo.</string>
     <string name="hsa_sending">Enviando…</string>
-    <string name="hsa_tip_message">"1. Si no puede recibir el código de verificación, asegúrese de haber iniciado sesión en iCloud en su dispositivo Apple.r
-2. Si ingresar el código de verificación no funciona, desactive la autenticación en dos pasos. "</string>
     <string name="hsa_tip_message_shutdown_hsa">Cómo desactivar la autenticación de dos factores</string>
-    <string name="hsa_tip_message_with_device">"1. Un mensaje con el código de verificación ha sido enviado al %s asociado a su ID de Apple.r
-2. Desactive la autenticación de dos factores si el código de verificación no funciona."</string>
     <string name="hsa_tip_title">Consejos:</string>
     <string name="hsa_title">Autenticación de dos factores</string>
     <string name="hsa_verify_failed">La autenticación de dos factores falló</string>
@@ -367,9 +350,6 @@ No modifique o renombre los archivos de respaldo."</string>
     <string name="hsa_verify_shutdown">Desactivar</string>
     <string name="iCloud_ID_verification_tip">Toque \"Permitir\" en su dispositivo Apple para que aparezca el código de verificación. Ingrese el código aquí.</string>
     <string name="icloud_backup_tip">Inicie sesión en iCloud con la cuenta de su dispositivo iOS antiguo</string>
-    <string name="icloud_how_to_backup_tip_steps">"1. Abra Ajustes en su dispositivo iOS y seleccione iCloud.r
-2. Active los contactos y otros elementos.r
-3. Seleccione Fotos y active el interruptor de Fototeca de iCloud."</string>
     <string name="icloud_how_to_backup_tip_summary">Para importar datos de iOS, debe crear un respaldo de iCloud.</string>
     <string name="icloud_how_to_backup_tip_title">Consejos:</string>
     <string name="icloud_login_title">Iniciar sesión en iCloud</string>
@@ -377,23 +357,17 @@ No modifique o renombre los archivos de respaldo."</string>
 primero deberá crear un respaldo de iCloud."</string>
     <string name="icloud_need_wifi_message">Está desconectado. Para importar datos desde iCloud, debe conectarse a una red Wi-Fi.</string>
     <string name="icloud_need_wifi_title">Conectarse al Wi-Fi</string>
-    <string name="icon_content_description">Ícono de diálogo</string>
     <string name="import_again">Importar de nuevo</string>
     <string name="import_data_from_icloud">Importar datos de iCloud</string>
     <string name="import_from_xiaomi_account_hint2">Si ya tiene una copia de seguridad, toque Siguiente.</string>
     <string name="import_from_xiaomi_account_hint_title">Use Mi Talk para crear copias de seguridad de sus contactos entre dispositivos.</string>
     <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Debido a problemas de compatibilidad, sólo puede transferir datos parciales desde dispositivos iOS. Asegúrese de crear un respaldo de iCloud antes de iniciar la transferencia.</string>
-    <string name="item_view_role_description">Pestaña</string>
     <string name="lack_perm_msg">Mi Mudanza necesita los siguientes permisos: &lt;b>%s&lt;/b>.</string>
-    <string name="lack_perm_title">Se necesitan permisos</string>
+    <string name="lack_perm_title">Permisos necesarios</string>
     <string name="list_footer_tip_title">Consejos:</string>
     <string name="loading_data">Cargando datos</string>
     <string name="local_app_name">Respaldo</string>
-    <string name="local_back_up_detail_description">"Nota:
-1. Para evitar la pérdida de datos, copie copias de seguridad locales en su computador.
-2. Copie siempre las copias de seguridad locales en su computador antes de realizar un restablecimiento de fábrica; de lo contrario, se perderán las copias de seguridad locales.
-3. ¿Dónde se almacenan las copias de seguridad locales? %1$s"</string>
     <string name="local_backup_select_activity">Crear una copia de seguridad</string>
     <string name="local_backup_window_title">Copia de seguridad local</string>
     <string name="local_button_backup_data">Realizar una copia de seguridad</string>
@@ -415,7 +389,7 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="local_main_backup_time">Última copia de seguridad: %1$s</string>
     <string name="local_main_date_format">dd/MM/yyyy HH:mm</string>
     <string name="local_main_encrypt_backup_summary">Encripte los elementos que copio usando su Cuenta Mi</string>
-    <string name="local_main_encrypt_backup_title">Cifrar copias de seguridad</string>
+    <string name="local_main_encrypt_backup_title">Verificar cuenta para restaurar elementos</string>
     <string name="local_main_latest_backup_time_loading">Un momento…</string>
     <string name="local_no_backup">No hay copias de seguridad.</string>
     <string name="local_no_backup_data">No hay copias de seguridad aquí todavía</string>
@@ -433,23 +407,16 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="login">Iniciar sesión</string>
     <string name="login_failed">No se pudo iniciar sesión. Vuelva a intentarlo.</string>
     <string name="logining">Iniciando sesión…</string>
-    <string name="material_clock_toggle_content_description">Selecciona a.m. o p.m.</string>
-    <string name="material_hour_24h_suffix">%1$s horas</string>
-    <string name="material_hour_selection">Seleccione la hora.</string>
-    <string name="material_hour_suffix">%1$s en punto</string>
-    <string name="material_minute_selection">Seleccionar minutos</string>
-    <string name="material_minute_suffix">%1$s minutos</string>
-    <string name="material_timepicker_am">a.m.</string>
-    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para ingresar la hora.</string>
-    <string name="material_timepicker_hour">Hora</string>
-    <string name="material_timepicker_minute">Minuto</string>
-    <string name="material_timepicker_pm">p.m.</string>
-    <string name="material_timepicker_select_time">Selecciona una hora</string>
-    <string name="material_timepicker_text_input_mode_description">Cambia al modo de entrada de texto para ingresar la hora.</string>
     <string name="midnight">Noche</string>
     <string name="miliao_account_guide">Use su Cuenta Mi para iniciar sesión en Xiaomi Cloud, Temas MIUI y otros servicios Mi desde cualquier lugar.</string>
     <string name="miliao_account_login">Iniciar sesión con Mi Talk</string>
     <string name="miuix_access_state_desc">Seleccionado</string>
+    <string name="miuix_accessibility_title">Título</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Contraído</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Expandido</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Salir del modo de edición</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nueva notificación</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Entrar en modo de edición</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleccionar todo</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleccionar todo</string>
     <string name="miuix_appcompat_action_mode_title_empty">Seleccionar elementos</string>
@@ -465,6 +432,8 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="miuix_appcompat_select_all">Seleccionar todo</string>
     <string name="miuix_appcompat_select_all_description">Seleccionar todo</string>
     <string name="miuix_appcompat_select_item">Seleccionar elementos</string>
+    <string name="miuix_appcompat_show_dialog_description">Ventana emergente</string>
+    <string name="miuix_progressbar_loading">Cargando</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Deslice hacia abajo para actualizar</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualizado con éxito</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Actualizando…</string>
@@ -473,6 +442,9 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Eso es todo por ahora</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Un momento…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">No se pudieron cargar los elementos</string>
+    <string name="miuix_show_password">Mostrar contraseña</string>
+    <string name="miuix_stretchablewidget_collapsed">Contraído</string>
+    <string name="miuix_stretchablewidget_expanded">Expandido</string>
     <string name="mms_title">Mensajes multimedia</string>
     <string name="monday">Lunes</string>
     <string name="monday_short">Lun</string>
@@ -515,51 +487,6 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Más</string>
     <string name="morning">Mañana</string>
-    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
-    <string name="mtrl_checkbox_state_description_checked">Marcada</string>
-    <string name="mtrl_checkbox_state_description_indeterminate">Verificado parcialmente</string>
-    <string name="mtrl_checkbox_state_description_unchecked">Sin marcar</string>
-    <string name="mtrl_chip_close_icon_content_description">Quitar %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
-    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
-    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
-    <string name="mtrl_picker_announce_current_range_selection">Selección de fecha de inicio: %1$s – Selección de fecha de finalización: %2$s</string>
-    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
-    <string name="mtrl_picker_announce_current_selection_none">nada</string>
-    <string name="mtrl_picker_cancel">Cancelar</string>
-    <string name="mtrl_picker_confirm">Aceptar</string>
-    <string name="mtrl_picker_date_header_selected">%1$s</string>
-    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
-    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
-    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
-    <string name="mtrl_picker_end_date_description">Fecha de finalización: %1$s</string>
-    <string name="mtrl_picker_invalid_format">Formato no válido</string>
-    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
-    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
-    <string name="mtrl_picker_invalid_range">El rango no es válido.</string>
-    <string name="mtrl_picker_navigate_to_current_year_description">Navegar al año actual (%1$d)</string>
-    <string name="mtrl_picker_navigate_to_year_description">Navegar al año %1$d</string>
-    <string name="mtrl_picker_out_of_range">Fuera de rango: %1$s</string>
-    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio - %1$s</string>
-    <string name="mtrl_picker_range_header_only_start_selected">%1$s - fecha de finalización</string>
-    <string name="mtrl_picker_range_header_selected">%1$s-%2$s</string>
-    <string name="mtrl_picker_range_header_title">Selecciona un período</string>
-    <string name="mtrl_picker_range_header_unselected">Fecha de inicio - fecha de finalización</string>
-    <string name="mtrl_picker_save">Guardar</string>
-    <string name="mtrl_picker_start_date_description">Fecha de inicio: %1$s</string>
-    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
-    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
-    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
-    <string name="mtrl_picker_text_input_day_abbr">d</string>
-    <string name="mtrl_picker_text_input_month_abbr">m</string>
-    <string name="mtrl_picker_text_input_year_abbr">a</string>
-    <string name="mtrl_picker_today_description">Hoy, %1$s</string>
-    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de entrada de calendario</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Presiona para cambiar a la vista de Calendario</string>
-    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de entrada de texto</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Presiona para cambiar a la vista de año</string>
-    <string name="mtrl_timepicker_cancel">Cancelar</string>
-    <string name="mtrl_timepicker_confirm">Aceptar</string>
     <string name="multi_select_title">%1$s seleccionado(s)</string>
     <string name="multi_user_mode_backup_message">No se puede usar el Respaldo en el Modo multiusuario. Desactívelo para continuar.</string>
     <string name="multi_user_mode_dialog_message">No se puede usar Mi Mudanza en el Modo multiusuario. Desactive el Modo multiusuario para continuar.</string>
@@ -572,27 +499,27 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="new_britem_other">Otros</string>
     <string name="new_britem_pic">Imágenes</string>
     <string name="new_britem_video">Videos</string>
-    <string name="new_confirm_enable_encrypt_content">MIUI asocia copias de seguridad cifradas con su cuenta Mi. Tendrá que iniciar sesión en su cuenta Mi para restaurar elementos de dichas copias de seguridad.</string>
+    <string name="new_confirm_enable_encrypt_content">Las copias de seguridad cifradas están asociadas con su Cuenta Mi. Tendrá que iniciar sesión en su Cuenta Mi para restaurar elementos de dichas copias de seguridad.</string>
     <string name="new_confirm_enable_encrypt_title">Encriptar</string>
     <string name="new_local_button_backup">Copia de seguridad</string>
     <string name="new_local_button_restore">Restaurar</string>
     <string name="new_local_click_to_jump">Toque para ver instrucciones detalladas</string>
     <string name="new_local_detail_description">"Nota:
-%1$d. Copie las copias de seguridad a su ordenador para evitar la pérdida de datos. %2$s.
-%3$d. Las copias de seguridad serán guardadas en MIUI-Backup-AllBackup."</string>
+%1$d. Copie las copias de seguridad a su computadora para evitar la pérdida de datos. %2$s
+%3$d. Las copias de seguridad serán guardadas en MIUI > backup > AllBackup."</string>
     <string name="new_local_detail_description_global">"Nota:
-%1$d. Copie las copias de seguridad a su ordenador para evitar la pérdida de datos. %2$s.
-%3$d. Las copias de seguridad serán guardadas en MIUI-Backup-AllBackup. 
-%4$d. Es posible que algunas aplicaciones no admitan copias de seguridad."</string>
+%1$d. Copie las copias de seguridad a su computadora para evitar la pérdida de datos. %2$s
+%3$d. Las copias de seguridad serán guardadas en MIUI > backup > AllBackup.
+%4$d. Puede que no sea posible realizar copias de seguridad o restaurar algunas aplicaciones."</string>
     <string name="new_local_tab_backup">Copia de seguridad</string>
     <string name="new_local_tab_backup_pad">Copia de seguridad</string>
     <string name="new_local_tab_restore">Restaurar</string>
     <string name="new_local_tab_restore_pad">Restaurar</string>
     <string name="new_low_storage_title">No hay suficiente espacio de almacenamiento</string>
-    <string name="new_more_settings_label">Ajustes adicionales</string>
+    <string name="new_more_settings_label">Configuración adicional</string>
     <string name="new_pc_backup_content1">%1$d. Abre \"%2$s\".</string>
     <string name="new_pc_backup_content2">%d. Espere hasta que todos los elementos sean copiados.</string>
-    <string name="new_pc_backup_content3">%d. Encuentre la copia de seguridad en MIUI-Backup-AllBackup.</string>
+    <string name="new_pc_backup_content3">%d. Abra MIUI > backup > AllBackup y localice la carpeta de copia de seguridad o el archivo *.zip que está buscando por la fecha en el nombre.</string>
     <string name="new_pc_backup_content4">%d. Copie el archivo a su computadora.</string>
     <string name="new_pc_backup_restore_link">Dispositivo móvil</string>
     <string name="new_pc_backup_restore_link_pad">Dispositivo móvil</string>
@@ -602,8 +529,8 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="new_pc_backup_summary4">Nota: también puede copiar fotos y vídeos de DCIM.</string>
     <string name="new_pc_restore_content1">%d. Conecte su dispositivo móvil a la computadora mediante un cable USB.</string>
     <string name="new_pc_restore_content1_pad">%d. Conecte su dispositivo móvil a la computadora mediante un cable USB.</string>
-    <string name="new_pc_restore_content2">%d. Copie la copia de seguridad de su computadora a MIUI-Backup-AllBackup.</string>
-    <string name="new_pc_restore_content2_pad">%d. Copie la copia de seguridad de su computadora a MIUI-Backup-AllBackup.</string>
+    <string name="new_pc_restore_content2">%d. Copia la copia de seguridad de tu ordenador a MIUI > backup > AllBackup.</string>
+    <string name="new_pc_restore_content2_pad">%d. Copia la copia de seguridad de tu ordenador a MIUI > backup > AllBackup.</string>
     <string name="new_pc_restore_content3">%1$d. Abra \"%2$s\" y seleccione elementos para restaurarlos.</string>
     <string name="new_pc_title">Copias de respaldo</string>
     <string name="new_select_file">Audio, videos y archivos</string>
@@ -618,13 +545,15 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="new_tab_pc_restore">Restaurar</string>
     <string name="new_task_finished">Hecho</string>
     <string name="new_usb_detail_description">"Nota:
-%1$d. Este método permite hacer copias de seguridad de aplicaciones de terceros y datos de aplicaciones.
-%2$d. Asegúrese de que hay suficiente espacio de almacenamiento en su unidad USB para almacenar las copias."</string>
+%1$d. Haga una copia de seguridad del contenido en una unidad USB.
+%2$d. Asegúrese de que la unidad USB tenga suficiente espacio de almacenamiento antes de comenzar."</string>
     <string name="new_usb_disconnect_dialog_message">Conecte primero una unidad USB.</string>
     <string name="new_usb_disconnect_dialog_title">No se pudo encontrar la unidad USB</string>
     <string name="new_usb_select_data_no_space">Solo hay %s de almacenamiento disponible en su unidad USB. Libere espacio de almacenamiento.</string>
     <string name="new_usb_tab_backup">Copia de seguridad</string>
     <string name="new_usb_tab_restore">Restaurar</string>
+    <string name="new_usb_unwritable_storage_content">No se pudieron guardar elementos en el dispositivo de almacenamiento externo. Intente conectarse de nuevo.</string>
+    <string name="new_usb_unwritable_storage_title">No se pudo guardar</string>
     <string name="night">Noche</string>
     <string name="no_encrypt_password">Sin contraseña</string>
     <string name="no_network">No se puede conectar a la red</string>
@@ -664,10 +593,10 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="notif_trans_wait_for_reconnecting">Conexión interrumpida. Volver a conectar.</string>
     <string name="old_soft_name">Conectarse vía código QR</string>
     <string name="old_way">También puede generar un código QR en su nuevo dispositivo y escanearlo con el dispositivo antiguo.</string>
+    <string name="open_compatibility_mode">Activar</string>
     <string name="page_loading">Un momento…</string>
     <string name="password">Contraseña</string>
     <string name="password_null">La contraseña no puede estar vacía</string>
-    <string name="password_toggle_content_description">Mostrar contraseña</string>
     <string name="pause">Pausar</string>
     <string name="perm_camera">Cámara</string>
     <string name="perm_location">Ubicación</string>
@@ -686,8 +615,8 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="permission_backup_file">Para realizar copias de seguridad de archivos</string>
     <string name="permission_backup_sms">Para realizar copias de seguridad de mensajes</string>
     <string name="permission_backup_sms_desc">Para poder hacer una copia de seguridad de los mensajes, primero permita que esta aplicación acceda a sus mensajes.</string>
-    <string name="permission_content_title">Se necesitan permisos</string>
-    <string name="permission_dialog_positive_btn">Ajustes</string>
+    <string name="permission_content_title">Permisos necesarios</string>
+    <string name="permission_dialog_positive_btn">Configuración</string>
     <string name="permission_intro">Detalles de permisos</string>
     <string name="permission_management_entrance">Administrar permisos</string>
     <string name="permission_not_admit">No concedido</string>
@@ -784,8 +713,6 @@ Libere al menos %s."</string>
     <string name="sdcard_no_enough_space_message">No hay espacio de almacenamiento suficiente en su tarjeta SD.</string>
     <string name="sdcard_unmounted">Inserte una tarjeta SD ahora</string>
     <string name="search_menu_title">Buscar</string>
-    <string name="searchview_clear_text_content_description">Borrar texto</string>
-    <string name="searchview_navigation_content_description">Atrás</string>
     <string name="see_backup_files_on_router">Ver copias de seguridad en Mi Router %s</string>
     <string name="select_all">Seleccionar todo</string>
     <string name="select_backup_item">Seleccione elementos</string>
@@ -800,8 +727,8 @@ Libere al menos %s."</string>
     <string name="select_storage_location">Seleccione la ubicación de la copia de seguridad</string>
     <string name="send">Enviar</string>
     <string name="service_stoped">Servicio detenido</string>
+    <string name="set_app_suspend">Se está haciendo una copia de seguridad de esta aplicación en este momento. Espere a que termine y vuelva a intentarlo.</string>
     <string name="settings_summary">Ajustes de mensajes y teléfono</string>
-    <string name="side_sheet_accessibility_pane_title">Hoja lateral</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -809,6 +736,7 @@ Libere al menos %s."</string>
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="skip_compatibility_mode">Saltar</string>
     <string name="sms_title">Mensajes</string>
     <string name="soft_ap_create_failed">No se pudo crear el punto de acceso</string>
     <string name="soft_ap_creating">Creando punto de acceso…</string>
@@ -820,6 +748,7 @@ Libere al menos %s."</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_sd_card">Tarjeta SD</string>
     <string name="storage_usb">Unidad USB</string>
+    <string name="subtitle_compatibility_mode">Estas aplicaciones no son compatibles con la arquitectura de %d bits. Toque a continuación para activar el Modo de compatibilidad de aplicaciones y restaurar estas aplicaciones.</string>
     <string name="succ_description">Con éxito</string>
     <string name="succeed">Completado</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -905,6 +834,7 @@ Libere al menos %s."</string>
     <string name="time_picker_dialog_title">Ajustar hora</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="title_compatibility_mode">Modo de compatibilidad de aplicaciones</string>
     <string name="today">Hoy</string>
     <string name="tomorrow">Mañana</string>
     <string name="total_size">, %s</string>
@@ -923,7 +853,7 @@ Libere al menos %s."</string>
     <string name="trans_cancelling">Cancelando…</string>
     <string name="trans_complete_restoring">Transferido con éxito. Restaurando los datos de aplicación…</string>
     <string name="trans_connect_failed_device_incompatible">Dispositivo incompatible. Cancele la transferencia y vuelva a intentarlo.</string>
-    <string name="trans_connect_failed_message">No se pudo conectar, vuelva a internarlo o reinicie el dispositivo. En el otro dispositivo, vaya a Ajustes > Ajustes adicionales > Mi Mudanza, y toque [Soy el remitente], o vuelva a abrir Mi Mudanza después del reinicio.</string>
+    <string name="trans_connect_failed_message">No se pudo conectar, vuelva a internarlo o reinicie el dispositivo. En el otro dispositivo, vaya a Configuración > Configuración adicional > Mi Mudanza, y toque [Soy el remitente], o vuelva a abrir Mi Mudanza después del reinicio.</string>
     <string name="trans_connect_failed_title">No se pudo conectar</string>
     <string name="trans_connect_failed_toast">No se ha podido conectar</string>
     <string name="trans_connecting_toast">Conectando…</string>
@@ -945,9 +875,6 @@ Libere al menos %s."</string>
     <string name="trans_detail_item_app_data_selected_tip">También sus aplicaciones correspondientes.</string>
     <string name="trans_detail_item_app_data_skip_data">No se pueden transferir los datos de la aplicación</string>
     <string name="trans_detail_item_app_data_too_large_tip">El archivo es demasiado grande para transferirse.</string>
-    <string name="trans_detail_list_footer">"1. Puede seleccionar las aplicaciones individuales que desee transferir.
-2. Si selecciona datos de aplicaciones, las aplicaciones correspondientes serán seleccionadas también.
-3. Los datos de WeChat y QQ podrían no ser transferidos debido a problemas de compatibilidad. Puede intentar con las funciones de transferencia incluidas en las aplicaciones."</string>
     <string name="trans_detail_page_tip">Mientras más elementos seleccione, más tiempo tomará la transferencia.</string>
     <string name="trans_detail_qq_data">Datos de QQ (incluido el historial de conversaciones)</string>
     <string name="trans_detail_sys_data_list_title">Aplicaciones del sistema</string>
@@ -970,24 +897,17 @@ Libere al menos %s."</string>
     <string name="trans_install_guide_scan_install_tip">"Escanee este código QR con su teléfono antiguo
 para descargar e instalar Mi Mudanza."</string>
     <string name="trans_install_guide_step1_content">Escanee este código QR con su teléfono antiguo para descargar e instalar Mi Mudanza.</string>
-    <string name="trans_install_guide_step1_title">Paso 1</string>
     <string name="trans_install_guide_step2_content">Después de completar la instalación, toque \"Iniciar\".</string>
-    <string name="trans_install_guide_step2_title">Paso 2</string>
     <string name="trans_intro_desc_1">En un teléfono Mi, conéctese a Wi-Fi y toque \"Soy destinatario\". Seleccione su dispositivo iOS, inicie sesión en iCloud e importe datos.</string>
     <string name="trans_intro_desc_10">Toque \"Conectarse vía código QR\" en el dispositivo nuevo y escanee el código QR para conectarse.</string>
     <string name="trans_intro_desc_3">Cancele la transferencia, salga de Mi Mudanza y vuelva a empezar. Los archivos duplicados se sobrescribirán en la nueva transferencia.</string>
     <string name="trans_intro_desc_4">Mi Mudanza usa Wi-Fi para transferir archivos, por eso no puede conectarse a internet usando Wi-Fi en los dispositivos durante la transferencia. Sin embargo, sí puede utilizar datos móviles. Algunos nuevos dispositivos (p. ej. Mi 6) sí podrían conectarse a internet con Wi-Fi durante las transferencias.</string>
     <string name="trans_intro_desc_4_market">Mi Mudanza usa la red Wi-Fi para transferir archivos. Es por esto que no se puede conectar a internet usando Wi-Fi mientras se realiza una transferencia. Puede usar los datos móviles.</string>
-    <string name="trans_intro_desc_5">El espacio de almacenamiento en dispositivos antiguos se utiliza para crear paquetes de transferencia. Asegúrese de que tiene al menos 500 MB - 1 GB de espacio disponible antes de iniciar la transferencia.</string>
     <string name="trans_intro_desc_6">Posibles razones: problemas de compatibilidad de sistema y versión de la aplicación, problemas de red, problemas de compatibilidad específicos de un dispositivo particular, etc.</string>
     <string name="trans_intro_desc_7">Algunos perfiles de aplicaciones (banca electrónica, finanzas, etc) están asociados a un dispositivo específico por razones de seguridad. Intente borrar los datos de la aplicación o reinstarla en un nuevo dispositivo.</string>
     <string name="trans_intro_desc_8">Los datos de WeChat y el historial de conversaciones podrían no transferirse completamente con Mi Mudanza. Vaya a los ajustes de WeChat y cierre la sesión para tener más oportunidades de éxito.</string>
     <string name="trans_intro_desc_9_method_1_dec">Vaya a Pantalla de inicio > Herramientas > Comentarios.</string>
-    <string name="trans_intro_desc_9_method_1_title">1. Comparta sus dudas y sugerencias usando la aplicación Comentarios.</string>
     <string name="trans_intro_desc_9_method_2_dec">Envíe sus comentarios a miui-mover@xiaomi.com.</string>
-    <string name="trans_intro_desc_9_method_2_title">2. Envíenos un correo electrónico</string>
-    <string name="trans_intro_desc_9_method_3_dec">El grupo de Mi Mudanza en QQ es: 687338378</string>
-    <string name="trans_intro_desc_9_method_3_title">3. Reporte problemas en QQ</string>
     <string name="trans_intro_desc_account">Por razones de seguridad debe iniciar sesión de nuevo en sus cuentas (p. ej. Cuenta Mi, Exchange, Google, etc) en un nuevo dispositivo.</string>
     <string name="trans_intro_desc_gms">Debido a la alta probabilidad de error en la transferencia debido a problemas de compatibilidad, Mi Mudanza no soporta la transferencia de datos generados por aplicaciones de Google.</string>
     <string name="trans_intro_desc_multiapp">Mi Mudanza no transfiere datos de aplicaciones duales para evitar conflictos entre archivos.</string>
@@ -1011,7 +931,7 @@ para descargar e instalar Mi Mudanza."</string>
     <string name="trans_intro_title_account">Cuentas y contraseñas:</string>
     <string name="trans_intro_title_gms">Datos generados por aplicaciones de Google:</string>
     <string name="trans_intro_title_multiapp">Datos de aplicaciones duales:</string>
-    <string name="trans_intro_title_multiuser">Datos del segundo espacio:</string>
+    <string name="trans_intro_title_multiuser">Datos del Segundo espacio:</string>
     <string name="trans_intro_title_new">En un teléfono nuevo:</string>
     <string name="trans_intro_title_old">En un teléfono antiguo:</string>
     <string name="trans_intro_title_private">Álbum oculto:</string>
@@ -1029,12 +949,9 @@ Libere espacio de almacenamiento o transfiera solo los elementos importantes."</
     <string name="trans_open_location_title">Activar servicios de ubicación</string>
     <string name="trans_operate_func_one">Método A</string>
     <string name="trans_operate_func_two">Método B</string>
-    <string name="trans_operate_new_phone_tips">"Vaya a Ajustes > Ajustes adicionales > Mi Mudanza
+    <string name="trans_operate_new_phone_tips">"Vaya a Configuración > Configuración adicional > Mi Mudanza
 Toque [Soy el destinatario] para crear un código QR"</string>
-    <string name="trans_operate_old_phone_tips1">"1. Instale Mi Mudanza en su dispositivo antiguo
-2. Abra la aplicación y toque Iniciar
-3. Escanee el código QR con el dispositivo antiguo"</string>
-    <string name="trans_operate_old_phone_tips2">Vaya a Ajustes > Ajustes adicionales > Mi Mudanza, y toque [Soy el remitente]</string>
+    <string name="trans_operate_old_phone_tips2">Vaya a Configuración > Configuración adicional > Mi Mudanza, y toque [Soy el remitente]</string>
     <string name="trans_operate_reconnect_new_tips">"Espere hasta que el teléfono nuevo muestre \"Se interrumpió la conexión\".
 Después toque \"Volver a conectar\" para crear un código QR."</string>
     <string name="trans_operate_reconnect_old_tips">"Espere hasta que el teléfono viejo muestre \"Se interrumpió la conexión\".
@@ -1098,8 +1015,6 @@ Mantenga los dispositivos cerca uno del otro."</string>
 ¿Le gustó Mi Mudanza?"</string>
     <string name="trans_success_dialog_survey_title">Agradecemos sus comentarios</string>
     <string name="trans_success_survey_hint">Conteste todos los campos.</string>
-    <string name="trans_switching_5g">Cambiando a red Wi-Fi 5G…</string>
-    <string name="trans_time_format_second">Menos de 1 minuto</string>
     <string name="trans_time_spent">Tiempo transcurrido: %s</string>
     <string name="trans_wait_trans_data">"Conectado al dispositivo antiguo.
 Esperando la transferencia…"</string>

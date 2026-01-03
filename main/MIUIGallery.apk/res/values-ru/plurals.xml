@@ -319,10 +319,10 @@
         <item quantity="many">Не удалось синхронизировать %d объектов из-за нехватки места в облаке.</item>
     </plurals>
     <plurals name="collage_select_image_dynamic_range">
-        <item quantity="other">Коллаж может содержать от %1$d-%2$d фото</item>
-        <item quantity="one">Коллаж может содержать от %1$d до %2$d фото</item>
-        <item quantity="few">Коллаж может содержать от %1$d-%2$d фото</item>
-        <item quantity="many">Коллаж может содержать от %1$d-%2$d фото</item>
+        <item quantity="other">Коллажи могут содержать %1$d–%2$d объектов</item>
+        <item quantity="one">Коллажи могут содержать %1$d–%2$d объект</item>
+        <item quantity="few">Коллажи могут содержать %1$d–%2$d объекта</item>
+        <item quantity="many">Коллажи могут содержать %1$d–%2$d объектов</item>
     </plurals>
     <plurals name="creation_max_image">
         <item quantity="other">Выберите до %d фото</item>
@@ -359,6 +359,12 @@
         <item quantity="one">Удален %d объект</item>
         <item quantity="few">Удалено %d объекта</item>
         <item quantity="many">Удалено %d объектов</item>
+    </plurals>
+    <plurals name="delete_media_dialog_local">
+        <item quantity="other">Удалить %d выбранных объектов? Вы можете перейти в раздел «Недавно удаленные объекты», чтобы восстановить или окончательно удалить их.</item>
+        <item quantity="one">Удалить %d выбранный объект? Вы можете перейти в раздел «Недавно удаленные объекты», чтобы восстановить или окончательно удалить их.</item>
+        <item quantity="few">Удалить %d выбранных объекта? Вы можете перейти в раздел «Недавно удаленные объекты», чтобы восстановить или окончательно удалить их.</item>
+        <item quantity="many">Удалить %d выбранных объектов? Вы можете перейти в раздел «Недавно удаленные объекты», чтобы восстановить или окончательно удалить их.</item>
     </plurals>
     <plurals name="delete_media_from_all_devices_and_cloud_msg">
         <item quantity="other">Удалить %d объектов со всех устройств и из Xiaomi Cloud?</item>
@@ -397,10 +403,16 @@
         <item quantity="many">Не удалось загрузить %1$d файлов, проверьте подключение и повторите попытку</item>
     </plurals>
     <plurals name="downloading_title_link">
-        <item quantity="other">Скачивание объектов из облака (%2$d из %1$d)</item>
-        <item quantity="one">Скачивание объектов из облака (%2$d из %1$d)</item>
-        <item quantity="few">Скачивание объектов из облака (%2$d из %1$d)</item>
-        <item quantity="many">Скачивание объектов из облака (%2$d из %1$d)</item>
+        <item quantity="other">Загрузка объектов из облака (%2$d из %1$d)</item>
+        <item quantity="one">Загрузка объектов из облака (%2$d из %1$d)</item>
+        <item quantity="few">Загрузка объектов из облака (%2$d из %1$d)</item>
+        <item quantity="many">Загрузка объектов из облака (%2$d из %1$d)</item>
+    </plurals>
+    <plurals name="drop_contain_several_same_name_file">
+        <item quantity="other">Не удается сохранить. %d файлов с таким именем уже существуют.</item>
+        <item quantity="one">Не удается сохранить. %d файл с таким именем уже существует.</item>
+        <item quantity="few">Не удается сохранить. %d файла с таким именем уже существуют.</item>
+        <item quantity="many">Не удается сохранить. %d файлов с таким именем уже существуют.</item>
     </plurals>
     <plurals name="face_count">
         <item quantity="other">Всего %d фото</item>
@@ -456,6 +468,24 @@
         <item quantity="few">Полчаса назад</item>
         <item quantity="many">Полчаса назад</item>
     </plurals>
+    <plurals name="home_page_share_burst_over_limit_toast">
+        <item quantity="other">Вы можете перетаскивать до %d объектов (включая серии)</item>
+        <item quantity="one">Вы можете перетаскивать до %d объекта (включая серии)</item>
+        <item quantity="few">Вы можете перетаскивать до %d объектов (включая серии)</item>
+        <item quantity="many">Вы можете перетаскивать до %d объектов (включая серии)</item>
+    </plurals>
+    <plurals name="home_page_share_count_over_limit_toast">
+        <item quantity="other">Вы можете перетаскивать до %d объектов</item>
+        <item quantity="one">Вы можете перетаскивать до %d объекта</item>
+        <item quantity="few">Вы можете перетаскивать до %d объектов</item>
+        <item quantity="many">Вы можете перетаскивать до %d объектов</item>
+    </plurals>
+    <plurals name="hours_talkback">
+        <item quantity="other">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Через 1 час</item>
         <item quantity="one">Через 1 час</item>
@@ -486,6 +516,12 @@
         <item quantity="few">Только что</item>
         <item quantity="many">Только что</item>
     </plurals>
+    <plurals name="minutes_talkback">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
     <plurals name="miplay_time_minute_unit">
         <item quantity="other">%d мин</item>
         <item quantity="one">%d мин</item>
@@ -499,10 +535,10 @@
         <item quantity="many">%d с</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
-        <item quantity="other">Выбрано: %d</item>
-        <item quantity="one">Выбрано: %d</item>
-        <item quantity="few">Выбрано: %d</item>
-        <item quantity="many">Выбрано: %d</item>
+        <item quantity="other">Выбрано %d объектов</item>
+        <item quantity="one">Выбран %d объект</item>
+        <item quantity="few">Выбрано %d объекта</item>
+        <item quantity="many">Выбрано %d объектов</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">%d мин назад</item>
@@ -558,6 +594,12 @@
         <item quantity="few">%1$d видео ожидают синхронизации</item>
         <item quantity="many">%1$d видео ожидают синхронизации</item>
     </plurals>
+    <plurals name="other_group_name">
+        <item quantity="other">%1$s и %2$d других человек</item>
+        <item quantity="one">%1$s и ещё %2$d человек</item>
+        <item quantity="few">%1$s и %2$d других человека</item>
+        <item quantity="many">%1$s и %2$d других человек</item>
+    </plurals>
     <plurals name="photo_count">
         <item quantity="other">%d фото</item>
         <item quantity="one">%d фото</item>
@@ -569,6 +611,18 @@
         <item quantity="one">%1$d объект</item>
         <item quantity="few">%1$d объекта</item>
         <item quantity="many">%1$d объектов</item>
+    </plurals>
+    <plurals name="photo_count_talkback">
+        <item quantity="other">%d объектов</item>
+        <item quantity="one">%d объект</item>
+        <item quantity="few">%d объекта</item>
+        <item quantity="many">%d объектов</item>
+    </plurals>
+    <plurals name="photo_picker_title_format">
+        <item quantity="other">Выберите %d фото</item>
+        <item quantity="one">Выберите %d фото</item>
+        <item quantity="few">Выберите %d фото</item>
+        <item quantity="many">Выберите %d фото</item>
     </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d дней</item>
@@ -642,6 +696,12 @@
         <item quantity="few">%1$d файла (%2$d МБ) не были загружены. Загрузить через мобильный интернет?</item>
         <item quantity="many">%1$d файлов (%2$d МБ) не были загружены. Загрузить через мобильный интернет?</item>
     </plurals>
+    <plurals name="picker_overview_page_title">
+        <item quantity="other">Выбрано: %1$d</item>
+        <item quantity="one">Выбрано: %1$d</item>
+        <item quantity="few">Выбрано: %1$d</item>
+        <item quantity="many">Выбрано: %1$d</item>
+    </plurals>
     <plurals name="picker_retry_image_confirm_message">
         <item quantity="other">Не удалось загрузить %d файлов. Повторить попытку?</item>
         <item quantity="one">Не удалось загрузить %d файл. Повторить попытку?</item>
@@ -660,6 +720,24 @@
         <item quantity="few">Пропущено %d фото, которых нет на устройстве.</item>
         <item quantity="many">Пропущено %d фото, которых нет на устройстве.</item>
     </plurals>
+    <plurals name="picker_title_format_allow_image_and_video">
+        <item quantity="other">Выберите %1$d–%2$d объектов</item>
+        <item quantity="one">Выберите %1$d–%2$d объект</item>
+        <item quantity="few">Выберите %1$d–%2$d объекта</item>
+        <item quantity="many">Выберите %1$d–%2$d объектов</item>
+    </plurals>
+    <plurals name="picker_title_selection_format_multiple_os2">
+        <item quantity="other">Выберите %1$d–%2$d фото</item>
+        <item quantity="one">Выберите %1$d–%2$d фото</item>
+        <item quantity="few">Выберите %1$d–%2$d фото</item>
+        <item quantity="many">Выберите %1$d–%2$d фото</item>
+    </plurals>
+    <plurals name="picker_title_specify_format_allow_image_and_video">
+        <item quantity="other">Выберите %d объектов</item>
+        <item quantity="one">Выберите %d объект</item>
+        <item quantity="few">Выберите %d объекта</item>
+        <item quantity="many">Выберите %d объектов</item>
+    </plurals>
     <plurals name="picker_title_video_editor_component">
         <item quantity="other">Выберите %d сегментов</item>
         <item quantity="one">Выберите %d сегмент</item>
@@ -672,11 +750,29 @@
         <item quantity="few">Выберите %1$d сегмента (%2$d)</item>
         <item quantity="many">Выберите %1$d сегментов (%2$d)</item>
     </plurals>
+    <plurals name="picker_title_video_editor_component_format_os2">
+        <item quantity="other">Выберите %1$d сегментов</item>
+        <item quantity="one">Выберите %1$d сегмент</item>
+        <item quantity="few">Выберите %1$d сегмента</item>
+        <item quantity="many">Выберите %1$d сегментов</item>
+    </plurals>
+    <plurals name="privacy_watermark_word_count_not_full">
+        <item quantity="other">Введите дополнительно не более %d символов</item>
+        <item quantity="one">Введите дополнительно не более %d символа</item>
+        <item quantity="few">Введите дополнительно не более %d символов</item>
+        <item quantity="many">Введите дополнительно не более %d символов</item>
+    </plurals>
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">Найдено %1$d новых фото</item>
         <item quantity="one">Найдено %1$d новое фото</item>
         <item quantity="few">Найдено %1$d новых фото</item>
         <item quantity="many">Найдено %1$d новых фото</item>
+    </plurals>
+    <plurals name="rear_screen_confirm_delete_media_title">
+        <item quantity="other">Удалить %d объектов?</item>
+        <item quantity="one">Удалить %d объектов?</item>
+        <item quantity="few">Удалить %d объекта?</item>
+        <item quantity="many">Удалить %d объектов?</item>
     </plurals>
     <plurals name="remind_face_recommend_confirm_text">
         <item quantity="other">Всего %d фото</item>
@@ -719,6 +815,18 @@
         <item quantity="one">Найден %d объект</item>
         <item quantity="few">Найдено %d объекта</item>
         <item quantity="many">Найдено %d объектов</item>
+    </plurals>
+    <plurals name="search_title_new_ai">
+        <item quantity="other">Найдены %d объектов</item>
+        <item quantity="one">Найден %d объект</item>
+        <item quantity="few">Найдены %d объекта</item>
+        <item quantity="many">Найдены %d объектов</item>
+    </plurals>
+    <plurals name="seconds_talkback">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
     </plurals>
     <plurals name="send_apk_dialog_desc">
         <item quantity="other">%2$d установочных пакетов (%3$s) от %1$s.</item>
@@ -809,6 +917,24 @@
         <item quantity="one">Получение %2$d изображения или видео от %1$s…</item>
         <item quantity="few">Получение %2$d изображений или видео от %1$s…</item>
         <item quantity="many">Получение %2$d изображений или видео от %1$s…</item>
+    </plurals>
+    <plurals name="send_live_photo_dialog_desc">
+        <item quantity="other">%1$s отправил(-а) вам %2$d живых фото</item>
+        <item quantity="one">%1$s отправил(-а) вам %2$d живое фото</item>
+        <item quantity="few">%1$s отправил(-а) вам %2$d живых фото</item>
+        <item quantity="many">%1$s отправил(-а) вам %2$d живых фото</item>
+    </plurals>
+    <plurals name="send_live_photo_dialog_desc_received">
+        <item quantity="other">Получены %2$d живых фото от %1$s</item>
+        <item quantity="one">Получено %2$d живое фото от %1$s</item>
+        <item quantity="few">Получены %2$d живых фото от %1$s</item>
+        <item quantity="many">Получены %2$d живых фото от %1$s</item>
+    </plurals>
+    <plurals name="send_live_photo_dialog_desc_receiving">
+        <item quantity="other">Выполняется получение %2$d живых фото от %1$s</item>
+        <item quantity="one">Выполняется получение %2$d живого фото от %1$s</item>
+        <item quantity="few">Выполняется получение %2$d живых фото от %1$s</item>
+        <item quantity="many">Выполняется получение %2$d живых фото от %1$s</item>
     </plurals>
     <plurals name="send_more_type_file_dialog_desc">
         <item quantity="other">%2$d файлов от %1$s.</item>
@@ -929,6 +1055,18 @@
         <item quantity="one">Не удалось синхронизировать %d объект. Облачное хранилище владельца этого альбома заполнено.</item>
         <item quantity="few">Не удалось синхронизировать %d объекта. Облачное хранилище владельца этого альбома заполнено.</item>
         <item quantity="many">Не удалось синхронизировать %d объектов. Облачное хранилище владельца этого альбома заполнено.</item>
+    </plurals>
+    <plurals name="share_burst_over_limit_toast">
+        <item quantity="other">Не удалось отправить. Общее количество объектов, включая серии снимков, превышает %d.</item>
+        <item quantity="one">Не удалось отправить. Общее количество объектов, включая серии снимков, превышает %d.</item>
+        <item quantity="few">Не удалось отправить. Общее количество объектов, включая серии снимков, превышает %d.</item>
+        <item quantity="many">Не удалось отправить. Общее количество объектов, включая серии снимков, превышает %d.</item>
+    </plurals>
+    <plurals name="share_count_over_limit_toast">
+        <item quantity="other">Не удалось отправить. Общее количество объектов превышает %d.</item>
+        <item quantity="one">Не удалось отправить. Общее количество объектов превышает %d.</item>
+        <item quantity="few">Не удалось отправить. Общее количество объектов превышает %d.</item>
+        <item quantity="many">Не удалось отправить. Общее количество объектов превышает %d.</item>
     </plurals>
     <plurals name="slideshow_interval_value">
         <item quantity="other">%1$d секунд</item>
@@ -1124,6 +1262,12 @@
         <item quantity="few">Объекты могут быть сохранены здесь в течение %1$d дней. Обновите план подписки для увеличения этого срока.</item>
         <item quantity="many">Объекты могут быть сохранены здесь в течение %1$d дней. Обновите план подписки для увеличения этого срока.</item>
     </plurals>
+    <plurals name="universal_pick_bottom_bar_selected_content_format">
+        <item quantity="other">Показать %d выбранных объектов</item>
+        <item quantity="one">Показать %d выбранный объект</item>
+        <item quantity="few">Показать %d выбранных объекта</item>
+        <item quantity="many">Показать %d выбранных объектов</item>
+    </plurals>
     <plurals name="video_count_format">
         <item quantity="other">%1$d файлов</item>
         <item quantity="one">%1$d файл</item>
@@ -1131,10 +1275,10 @@
         <item quantity="many">%1$d файлов</item>
     </plurals>
     <plurals name="video_editor_component_hint_text">
-        <item quantity="other">Требуются %d сегментов</item>
-        <item quantity="one">Требуется %d сегмент</item>
-        <item quantity="few">Требуются %d сегмента</item>
-        <item quantity="many">Требуются %d сегментов</item>
+        <item quantity="other">Добавить %1$d сегментов (%2$d/%3$d)</item>
+        <item quantity="one">Добавить %1$d сегмент (%2$d/%3$d)</item>
+        <item quantity="few">Добавить %1$d сегмента (%2$d/%3$d)</item>
+        <item quantity="many">Добавить %1$d сегментов (%2$d/%3$d)</item>
     </plurals>
     <plurals name="video_editor_component_imageview_content_description">
         <item quantity="other">Слот %1$d: добавьте сегмент длительностью не менее %2$s с</item>
@@ -1147,6 +1291,30 @@
         <item quantity="one">Добавьте еще %d сегмент, чтобы продолжить</item>
         <item quantity="few">Добавьте еще %d сегмента, чтобы продолжить</item>
         <item quantity="many">Добавьте еще %d сегментов, чтобы продолжить</item>
+    </plurals>
+    <plurals name="video_hours_talkback">
+        <item quantity="other">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="video_millseconds_talkback">
+        <item quantity="other">%d миллисекунд</item>
+        <item quantity="one">%d миллисекунда</item>
+        <item quantity="few">%d миллисекунды</item>
+        <item quantity="many">%d миллисекунд</item>
+    </plurals>
+    <plurals name="video_minutes_talkback">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="video_seconds_talkback">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d видео</item>

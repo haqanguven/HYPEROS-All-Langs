@@ -145,10 +145,10 @@
         <item quantity="many">%s hod.</item>
     </plurals>
     <plurals name="ai_image_over_limit_msg">
-        <item quantity="other">Jedna osoba môže vytvoriť maximálne %d AI obrázkov.</item>
-        <item quantity="one">Jedna osoba môže vytvoriť maximálne %d AI obrázok.</item>
-        <item quantity="few">Jedna osoba môže vytvoriť maximálne %d AI obrázky.</item>
-        <item quantity="many">Jedna osoba môže vytvoriť maximálne %d AI obrázkov.</item>
+        <item quantity="other">Jedna osoba môže vytvoriť maximálne %d obrázkov AI.</item>
+        <item quantity="one">Jedna osoba môže vytvoriť maximálne %d obrázok AI</item>
+        <item quantity="few">Jedna osoba môže vytvoriť maximálne %d obrázky AI.</item>
+        <item quantity="many">Jedna osoba môže vytvoriť maximálne %d obrázkov AI.</item>
     </plurals>
     <plurals name="ai_minute">
         <item quantity="other">%d min.</item>
@@ -319,10 +319,10 @@
         <item quantity="many">Nebolo možné aktualizovať %d položky z dôvodu nedostatku úložiska</item>
     </plurals>
     <plurals name="collage_select_image_dynamic_range">
-        <item quantity="other">Koláže môžu obsahovať %1$d-%2$d fotografií</item>
-        <item quantity="one">Koláže môžu obsahovať %1$d-%2$d fotografiu</item>
-        <item quantity="few">Koláže môžu obsahovať %1$d-%2$d fotografie</item>
-        <item quantity="many">Koláže môžu obsahovať %1$d-%2$d fotografie</item>
+        <item quantity="other">Koláže môžu obsahovať %1$d–%2$d položiek</item>
+        <item quantity="one">Koláže môžu obsahovať %1$d–%2$d položku</item>
+        <item quantity="few">Koláže môžu obsahovať %1$d–%2$d položky</item>
+        <item quantity="many">Koláže môžu obsahovať %1$d–%2$d položky</item>
     </plurals>
     <plurals name="creation_max_image">
         <item quantity="other">Vyberte maximálne %d fotografií</item>
@@ -360,6 +360,12 @@
         <item quantity="few">Vymazané %d položky</item>
         <item quantity="many">Vymazanej %d položky</item>
     </plurals>
+    <plurals name="delete_media_dialog_local">
+        <item quantity="other">Vymazať %d vybraných položiek? Môžete prejsť do časti „Nedávno odstránené položky“ a obnoviť ich alebo položky natrvalo odstrániť.</item>
+        <item quantity="one">Vymazať %d vybranú položku? Môžete prejsť do časti „Nedávno odstránené položky“ a obnoviť ju alebo položku natrvalo odstrániť.</item>
+        <item quantity="few">Vymazať %d vybrané položky? Môžete prejsť do časti „Nedávno odstránené položky“ a obnoviť ich alebo položky natrvalo odstrániť.</item>
+        <item quantity="many">Vymazať %d vybranej položky? Môžete prejsť do časti „Nedávno odstránené položky“ a obnoviť ich alebo položky natrvalo odstrániť.</item>
+    </plurals>
     <plurals name="delete_media_from_all_devices_and_cloud_msg">
         <item quantity="other">Vymazať %d položiek zo všetkých zariadení a služby Xiaomi Cloud?</item>
         <item quantity="one">Vymazať %d položku zo všetkých zariadení a služby Xiaomi Cloud?</item>
@@ -367,10 +373,10 @@
         <item quantity="many">Vymazať %d položky zo všetkých zariadení a služby Xiaomi Cloud?</item>
     </plurals>
     <plurals name="delete_media_from_local">
-        <item quantity="other">Odstrániť %d položiek?</item>
-        <item quantity="one">Odstrániť %d položku?</item>
-        <item quantity="few">Odstrániť %d položky?</item>
-        <item quantity="many">Odstrániť %d položky?</item>
+        <item quantity="other">Vymazať %d položiek?</item>
+        <item quantity="one">Vymazať %d položku?</item>
+        <item quantity="few">Vymazať %d položky?</item>
+        <item quantity="many">Vymazať %d položiek?</item>
     </plurals>
     <plurals name="delete_media_title">
         <item quantity="other">Odstrániť %d položiek?</item>
@@ -397,10 +403,16 @@
         <item quantity="many">Nepodarilo sa stiahnuť %1$d súboru, skontrolujte pripojenie na sieť a skúste to znova</item>
     </plurals>
     <plurals name="downloading_title_link">
-        <item quantity="other">Sťahovanie položiek z cloudu (%2$d/%1$d)</item>
-        <item quantity="one">Sťahovanie položiek z cloudu (%2$d/%1$d)</item>
-        <item quantity="few">Sťahovanie položiek z cloudu (%2$d/%1$d)</item>
-        <item quantity="many">Sťahovanie položiek z cloudu (%2$d/%1$d)</item>
+        <item quantity="other">Načítavanie položiek z cloudu (%2$d/%1$d)</item>
+        <item quantity="one">Načítavanie položiek z cloudu (%2$d/%1$d)</item>
+        <item quantity="few">Načítavanie položiek z cloudu (%2$d/%1$d)</item>
+        <item quantity="many">Načítavanie položiek z cloudu (%2$d/%1$d)</item>
+    </plurals>
+    <plurals name="drop_contain_several_same_name_file">
+        <item quantity="other">Nie je možné uložiť. %d súborov s týmto názvom už existuje.</item>
+        <item quantity="one">Nie je možné uložiť. %d súbor s týmto názvom už existuje.</item>
+        <item quantity="few">Nie je možné uložiť. %d súbory s týmto názvom už existujú.</item>
+        <item quantity="many">Nie je možné uložiť. %d súboru s týmto názvom už existuje.</item>
     </plurals>
     <plurals name="face_count">
         <item quantity="other">Celkovo %d fotografií</item>
@@ -456,6 +468,24 @@
         <item quantity="few">Pred pol hodinou</item>
         <item quantity="many">Pred pol hodinou</item>
     </plurals>
+    <plurals name="home_page_share_burst_over_limit_toast">
+        <item quantity="other">Môžete presunúť max. %d položiek (vrátane sériových záberov)</item>
+        <item quantity="one">Môžete presunúť max. %d položku (vrátane sériových záberov)</item>
+        <item quantity="few">Môžete presunúť max. %d položky (vrátane sériových záberov)</item>
+        <item quantity="many">Môžete presunúť max. %d položky (vrátane sériových záberov)</item>
+    </plurals>
+    <plurals name="home_page_share_count_over_limit_toast">
+        <item quantity="other">Môžete presunúť max. %d položiek</item>
+        <item quantity="one">Môžete presunúť max. %d položku</item>
+        <item quantity="few">Môžete presunúť max. %d položky</item>
+        <item quantity="many">Môžete presunúť max. %d položky</item>
+    </plurals>
+    <plurals name="hours_talkback">
+        <item quantity="other">%d hodín</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodiny</item>
+    </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">Do hodiny</item>
         <item quantity="one">Do hodiny</item>
@@ -486,6 +516,12 @@
         <item quantity="few">Práve teraz</item>
         <item quantity="many">Práve teraz</item>
     </plurals>
+    <plurals name="minutes_talkback">
+        <item quantity="other">%d minút</item>
+        <item quantity="one">%d minúta</item>
+        <item quantity="few">%d minúty</item>
+        <item quantity="many">%d minúty</item>
+    </plurals>
     <plurals name="miplay_time_minute_unit">
         <item quantity="other">%d minút</item>
         <item quantity="one">%d minúta</item>
@@ -502,7 +538,7 @@
         <item quantity="other">Vybraných %d položiek</item>
         <item quantity="one">Vybraná %d položka</item>
         <item quantity="few">Vybrané %d položky</item>
-        <item quantity="many">Vybranej %d položky</item>
+        <item quantity="many">Vybraných %d položiek</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Pred %d minútami</item>
@@ -558,6 +594,12 @@
         <item quantity="few">%1$d videá čakajú na synchr.</item>
         <item quantity="many">%1$d videa čaká na synchr.</item>
     </plurals>
+    <plurals name="other_group_name">
+        <item quantity="other">%1$s a %2$d ďalších ľudí</item>
+        <item quantity="one">%1$s a %2$d ďalší človek</item>
+        <item quantity="few">%1$s a %2$d ďalší ľudia</item>
+        <item quantity="many">%1$s a %2$d ďalších ľudí</item>
+    </plurals>
     <plurals name="photo_count">
         <item quantity="other">%d fotografií</item>
         <item quantity="one">%d fotografia</item>
@@ -569,6 +611,18 @@
         <item quantity="one">Celkovo %1$d položka</item>
         <item quantity="few">Celkovo %1$d položky</item>
         <item quantity="many">Celkovo %1$d položky</item>
+    </plurals>
+    <plurals name="photo_count_talkback">
+        <item quantity="other">%d položiek</item>
+        <item quantity="one">%d položka</item>
+        <item quantity="few">%d položky</item>
+        <item quantity="many">%d položky</item>
+    </plurals>
+    <plurals name="photo_picker_title_format">
+        <item quantity="other">Vyberte %d fotografií</item>
+        <item quantity="one">Vyberte %d fotografiu</item>
+        <item quantity="few">Vyberte %d fotografií</item>
+        <item quantity="many">Vyberte %d fotografií</item>
     </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d dní</item>
@@ -642,6 +696,12 @@
         <item quantity="few">%1$d súbory (%2$d MB) zatiaľ nie sú stiahnuté. Stiahnuť súbory pomocou mobilných dát?</item>
         <item quantity="many">%1$d súborov (%2$d MB) zatiaľ nie je stiahnutých. Stiahnuť súbory pomocou mobilných dát?</item>
     </plurals>
+    <plurals name="picker_overview_page_title">
+        <item quantity="other">Vybraných %1$d položiek</item>
+        <item quantity="one">Vybraná %1$d položka</item>
+        <item quantity="few">Vybrané %1$d položky</item>
+        <item quantity="many">Vybranej %1$d položky</item>
+    </plurals>
     <plurals name="picker_retry_image_confirm_message">
         <item quantity="other">%d súborov nebolo možné stiahnuť. Skúsiť to znova?</item>
         <item quantity="one">%d súbor nebolo možné stiahnuť. Skúsiť to znova?</item>
@@ -660,6 +720,24 @@
         <item quantity="few">Preskočiť %d fotografie, ktoré nie sú v zariadení.</item>
         <item quantity="many">Preskočiť %d fotografie, ktorá nie je v zariadení.</item>
     </plurals>
+    <plurals name="picker_title_format_allow_image_and_video">
+        <item quantity="other">Vyberte %1$d–%2$d položiek</item>
+        <item quantity="one">Vyberte %1$d–%2$d položku</item>
+        <item quantity="few">Vyberte %1$d–%2$d položky</item>
+        <item quantity="many">Vyberte %1$d–%2$d položky</item>
+    </plurals>
+    <plurals name="picker_title_selection_format_multiple_os2">
+        <item quantity="other">Vyberte %1$d ~ %2$d fotografií</item>
+        <item quantity="one">Vyberte %1$d ~ %2$d fotografiu</item>
+        <item quantity="few">Vyberte %1$d ~ %2$d fotografie</item>
+        <item quantity="many">Vyberte %1$d ~ %2$d fotografie</item>
+    </plurals>
+    <plurals name="picker_title_specify_format_allow_image_and_video">
+        <item quantity="other">Vyberte %d položiek</item>
+        <item quantity="one">Vyberte %d položku</item>
+        <item quantity="few">Vyberte %d položky</item>
+        <item quantity="many">Vyberte %d položky</item>
+    </plurals>
     <plurals name="picker_title_video_editor_component">
         <item quantity="other">Vyberte %d segmentov</item>
         <item quantity="one">Vyberte %d segment</item>
@@ -672,11 +750,29 @@
         <item quantity="few">Vyberte %1$d segmenty (%2$d)</item>
         <item quantity="many">Vyberte %1$d segmentu (%2$d)</item>
     </plurals>
+    <plurals name="picker_title_video_editor_component_format_os2">
+        <item quantity="other">Vyberte %1$d segmentov</item>
+        <item quantity="one">Vyberte %1$d segment</item>
+        <item quantity="few">Vyberte %1$d segmenty</item>
+        <item quantity="many">Vyberte %1$d segmentu</item>
+    </plurals>
+    <plurals name="privacy_watermark_word_count_not_full">
+        <item quantity="other">Zadajte až %d znakov naviac</item>
+        <item quantity="one">Zadajte %d znak naviac</item>
+        <item quantity="few">Zadajte až %d znaky naviac</item>
+        <item quantity="many">Zadajte až %d znaku naviac</item>
+    </plurals>
     <plurals name="quickly_discovery_message_format">
         <item quantity="other">Našlo sa %1$d nových fotografií</item>
         <item quantity="one">Našla sa %1$d nová fotografia</item>
         <item quantity="few">Našli sa %1$d nové fotografie</item>
         <item quantity="many">Našlo sa %1$d nových fotografií</item>
+    </plurals>
+    <plurals name="rear_screen_confirm_delete_media_title">
+        <item quantity="other">Vymazať %d položiek teraz?</item>
+        <item quantity="one">Vymazať %d položiek teraz?</item>
+        <item quantity="few">Vymazať %d položky teraz?</item>
+        <item quantity="many">Vymazať %d položiek teraz?</item>
     </plurals>
     <plurals name="remind_face_recommend_confirm_text">
         <item quantity="other">Spolu %d fotografií</item>
@@ -719,6 +815,18 @@
         <item quantity="one">Našla sa %d položka</item>
         <item quantity="few">Našli sa %d položky</item>
         <item quantity="many">Našlo sa %d položky</item>
+    </plurals>
+    <plurals name="search_title_new_ai">
+        <item quantity="other">Našlo sa %d položiek</item>
+        <item quantity="one">Našla sa %d položka</item>
+        <item quantity="few">Našli sa %d položky</item>
+        <item quantity="many">Našlo sa %d položky</item>
+    </plurals>
+    <plurals name="seconds_talkback">
+        <item quantity="other">%d sekúnd</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekundy</item>
     </plurals>
     <plurals name="send_apk_dialog_desc">
         <item quantity="other">%2$d inštalačných balíkov (%3$s) od používateľa %1$s</item>
@@ -809,6 +917,24 @@
         <item quantity="one">%2$d prichádzajúci obrázok alebo video od používateľa %1$s…</item>
         <item quantity="few">%2$d prichádzajúce obrázky alebo videá od používateľa %1$s…</item>
         <item quantity="many">%2$d prichádzajúceho obrázku alebo videa od používateľa %1$s…</item>
+    </plurals>
+    <plurals name="send_live_photo_dialog_desc">
+        <item quantity="other">Používateľ(ka) %1$s vám odoslal(a) %2$d Živých fotografií</item>
+        <item quantity="one">Používateľ(ka) %1$s vám odoslal(a) %2$d Živú fotografiu</item>
+        <item quantity="few">Používateľ(ka) %1$s vám odoslal(a) %2$d Živé fotografie</item>
+        <item quantity="many">Používateľ(ka) %1$s vám odoslal(a) %2$d Živých fotografií</item>
+    </plurals>
+    <plurals name="send_live_photo_dialog_desc_received">
+        <item quantity="other">Prijatých %2$d Živých fotografií od používateľa(ky) %1$s</item>
+        <item quantity="one">Prijatá %2$d Živá fotografia od používateľa(ky) %1$s</item>
+        <item quantity="few">Prijaté %2$d Živé fotografie od používateľa(ky) %1$s</item>
+        <item quantity="many">Prijatých %2$d Živých fotografií od používateľa(ky) %1$s</item>
+    </plurals>
+    <plurals name="send_live_photo_dialog_desc_receiving">
+        <item quantity="other">Prijíma sa %2$d Živých fotografií od používateľa(ky) %1$s</item>
+        <item quantity="one">Prijíma sa %2$d Živá fotografia od používateľa(ky) %1$s</item>
+        <item quantity="few">Prijímajú sa %2$d Živé fotografie od používateľa(ky) %1$s</item>
+        <item quantity="many">Prijíma sa %2$d Živých fotografií od používateľa(ky) %1$s</item>
     </plurals>
     <plurals name="send_more_type_file_dialog_desc">
         <item quantity="other">%2$d súborov od používateľa %1$s</item>
@@ -929,6 +1055,18 @@
         <item quantity="one">Synchronizácia %d položky zlyhala. Majiteľ tohto albumu je mimo cloudového úložiska.</item>
         <item quantity="few">Synchronizácia %d položiek zlyhala. Majiteľ tohto albumu je mimo cloudového úložiska.</item>
         <item quantity="many">Synchronizácia %d položiek zlyhala. Majiteľ tohto albumu je mimo cloudového úložiska.</item>
+    </plurals>
+    <plurals name="share_burst_over_limit_toast">
+        <item quantity="other">Nebolo možné odoslať. Vrátane dávkových záberov, celkový počet položiek presahuje %d.</item>
+        <item quantity="one">Nebolo možné odoslať. Vrátane dávkových záberov, celkový počet položiek presahuje %d.</item>
+        <item quantity="few">Nebolo možné odoslať. Vrátane dávkových záberov, celkový počet položiek presahuje %d.</item>
+        <item quantity="many">Nebolo možné odoslať. Vrátane dávkových záberov, celkový počet položiek presahuje %d.</item>
+    </plurals>
+    <plurals name="share_count_over_limit_toast">
+        <item quantity="other">Nebolo možné odoslať. Celkový počet položiek presahuje počet %d.</item>
+        <item quantity="one">Nebolo možné odoslať. Celkový počet položiek presahuje počet %d.</item>
+        <item quantity="few">Nebolo možné odoslať. Celkový počet položiek presahuje počet %d.</item>
+        <item quantity="many">Nebolo možné odoslať. Celkový počet položiek presahuje počet %d.</item>
     </plurals>
     <plurals name="slideshow_interval_value">
         <item quantity="other">%1$d sekúnd</item>
@@ -1124,6 +1262,12 @@
         <item quantity="few">Položky tu môžu byť uložené po dobu %1$d dní. Inovujte si program pre predĺženie tejto doby.</item>
         <item quantity="many">Položky tu môžu byť uložené po dobu %1$d dňa. Inovujte si program pre predĺženie tejto doby.</item>
     </plurals>
+    <plurals name="universal_pick_bottom_bar_selected_content_format">
+        <item quantity="other">Zobraziť %d vybraných položiek</item>
+        <item quantity="one">Zobraziť %d vybranú položku</item>
+        <item quantity="few">Zobraziť %d vybrané položky</item>
+        <item quantity="many">Zobraziť %d vybranej položky</item>
+    </plurals>
     <plurals name="video_count_format">
         <item quantity="other">%1$d súborov</item>
         <item quantity="one">%1$d súbor</item>
@@ -1131,10 +1275,10 @@
         <item quantity="many">%1$d súboru</item>
     </plurals>
     <plurals name="video_editor_component_hint_text">
-        <item quantity="other">Vyžaduje sa %d segmentov</item>
-        <item quantity="one">Vyžaduje sa %d segment</item>
-        <item quantity="few">Vyžadujú sa %d segmenty</item>
-        <item quantity="many">Vyžaduje sa %d segmentu</item>
+        <item quantity="other">Pridať %1$d segmentov (%2$d/%3$d)</item>
+        <item quantity="one">Pridať %1$d segment (%2$d/%3$d)</item>
+        <item quantity="few">Pridať %1$d segmenty (%2$d/%3$d)</item>
+        <item quantity="many">Pridať %1$d segmentu (%2$d/%3$d)</item>
     </plurals>
     <plurals name="video_editor_component_imageview_content_description">
         <item quantity="other">Slot %1$d: Pridajte segment nie kratší ako %2$s sek.</item>
@@ -1147,6 +1291,30 @@
         <item quantity="one">Pridajte %d segment naviac pre pokračovanie</item>
         <item quantity="few">Pridajte %d segmenty naviac pre pokračovanie</item>
         <item quantity="many">Pridajte %d segmentu naviac pre pokračovanie</item>
+    </plurals>
+    <plurals name="video_hours_talkback">
+        <item quantity="other">%d hodín</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodiny</item>
+    </plurals>
+    <plurals name="video_millseconds_talkback">
+        <item quantity="other">%d milisekúnd</item>
+        <item quantity="one">%d milisekunda</item>
+        <item quantity="few">%d milisekundy</item>
+        <item quantity="many">%d milisekundy</item>
+    </plurals>
+    <plurals name="video_minutes_talkback">
+        <item quantity="other">%d minút</item>
+        <item quantity="one">%d minúta</item>
+        <item quantity="few">%d minúty</item>
+        <item quantity="many">%d minúty</item>
+    </plurals>
+    <plurals name="video_seconds_talkback">
+        <item quantity="other">%d sekúnd</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekundy</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d videí</item>

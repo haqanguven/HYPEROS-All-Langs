@@ -29,6 +29,9 @@
     <string name="abc_toolbar_collapse_description">Ciutkan</string>
     <string name="access_non_personal_data">Jika Anda menarik persetujuan untuk akses dan penggunaan data non-pribadi dari perangkat Anda, layanan Komedi putar Wallpaper akan dinonaktifkan dan semua data yang dikumpulkan akan dihapus dalam jangka waktu yang ditentukan dalam undang-undang dan peraturan yang berlaku.</string>
     <string name="accessibility_enabled">Aksesibilitas diaktifkan.</string>
+    <string name="accessibility_sliding_button_state_description_off">Dimatikan</string>
+    <string name="accessibility_sliding_button_state_description_on">Dihidupkan</string>
+    <string name="accessibility_tab_state_description_unselect">Tidak ada yang dipilih</string>
     <string name="actionbar_button_up_description">Kembali</string>
     <string name="activate_esim_tips">Tidak dapat mengaktivasi. Coba lagi.</string>
     <string name="activating_esim_tips">Mengaktivasi…</string>
@@ -76,7 +79,7 @@
     <string name="carrier_introduction_china">Untuk memberikan layanan yang lebih baik, proses yang berjalan pada perangkat Anda (termasuk SystemHelper, RegService, dan Layanan Operator) mungkin secara berkala mengirimkan informasi terkait perangkat dan kartu SIM Anda (termasuk IMEI, IMSI, MSISDN, MEID, ICCID, alamat MAC, versi sistem, versi Android, model perangkat, dan spesifikasi perangkat keras dasar), serta perkiraan informasi lokasi (termasuk wilayah, koordinat, pengidentifikasi area, dan ID stasiun pangkalan) ke operator melalui WLAN, jaringan data seluler, atau SMS gratis. Operator berjanji untuk menganalisis informasi yang relevan hanya untuk meningkatkan kualitas layanan atau untuk menyediakan layanan atau teknologi yang disesuaikan, dan tidak akan mengungkapkan informasi yang relevan kepada pihak ketiga dalam bentuk apa pun yang dapat mengidentifikasi Anda secara pribadi. Pernyataan operator tertentu akan berlaku. Konsultasikan dengan operator Anda mengenai biaya penggunaan layanan ini.</string>
     <string name="carrier_introduction_china_rothko">Untuk meningkatkan kualitas layanan yang diberikan kepada Anda, maka program yang berjalan pada perangkat ini (termasuk SystemHelper, RegService, dan layanan Operator) dapat mengirimkan informasi tentang perangkat ini atau kartu SIM Anda (termasuk IMEI, IMSI, MSISDN, MEID, ICCID, alamat MAC, versi sistem, versi Android, model perangkat, konfigurasi perangkat keras dasar, dan nomor telepon), serta perkiraan lokasi Anda (termasuk daerah, koordinat, pengenal lingkungan, dan ID stasiun pangkalan), ke operator Anda melalui WLAN, jaringan seluler, atau SMS. Saat melakukan panggilan, DCService akan terhubung ke jaringan. Operator seluler menjamin bahwa informasi ini hanya akan digunakan untuk analisis, peningkatan kualitas layanan, atau penyediaan layanan atau teknologi yang dikustomisasi dan tidak akan pernah dibagikan kepada siapa pun dengan cara yang memungkinkan untuk mengidentifikasi Anda secara pribadi. Lihat pernyataan yang relevan dari operator Anda untuk detailnya. Anda dapat menanyakan tentang semua biaya layanan terkait langsung dari operator Anda.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
-    <string name="check_box_label_new"><Data>Anda dapat menggunakan Interkonektivitas Xiaomi untuk mengontrol dan mentransfer data antar perangkat. Setujui &lt;a href=%1$s>Kebijakan Privasi&lt;/a > Interkonektivitas Xiaomi sebelum menggunakan fiturnya. Apl ini perlu terhubung ke internet dan memerlukan perizinan berikut:</Data></string>
+    <string name="check_box_label_new"><Data>Dengan Interkonektivitas, Anda dapat mentransfer item antar perangkat dan menggunakan kontrol lintas perangkat. Menghidupkan fitur ini menandakan bahwa Anda menyetujui &lt;a href=%1$s>Kebijakan Privasi&lt;/a >. Layanan ini perlu terhubung ke internet dan mengakses perizinan berikut:</Data></string>
     <string name="clearable_edittext_clear_description">Bersihkan</string>
     <string name="clock_introduction">Anda dapat menggunakan aplikasi ini untuk melihat waktu, dan juga timer, jam dunia, stopwatch, menyetel alarm, dan lain sebagainya.</string>
     <string name="close">Tutup</string>
@@ -122,7 +125,7 @@
     <string name="disagreement_function">Jika Anda tidak setuju untuk memberikan izin atau membagikan dan mengunggah informasi pribadi Anda, Anda tidak akan dapat menggunakan aplikasi ini. Anda dapat memilih untuk tidak menggunakan fitur ini dalam kasus seperti itu.</string>
     <string name="disagreement_location_service">Jika Anda tidak setuju untuk memberikan izin tersebut atau membagikan dan mengunggah informasi pribadi Anda, Anda tidak akan dapat menggunakan layanan ini.</string>
     <string name="disagreement_location_service_abnormal">Jika Anda tidak setuju untuk memberikan izin ini, Anda tidak akan dapat menggunakan layanan lokasi. Anda dapat menghidupkan atau mematikan layanan lokasi kapan saja di Setelan > Perlindungan privasi.</string>
-    <string name="disagreement_mi_account_abnormal">Jika Anda tidak setuju untuk memberikan perizinan ini, Anda tidak akan dapat menggunakan layanan Akun Mi. Anda dapat menghidupkan atau mematikan layanan Akun Mi kapan saja di Setelan > Akun Mi.</string>
+    <string name="disagreement_mi_account_abnormal">Anda bisa memulai atau menghentikan penggunaan layanan Akun Xiaomi di Setelan > Akun Xiaomi.</string>
     <string name="disagreement_service_not_working_properly">Jika Anda tidak setuju untuk memberikan izin ini, Anda tidak akan dapat menggunakan apl ini.</string>
     <string name="disagreement_service_not_working_properly_settings">Jika Anda tidak setuju untuk memberikan izin ini, layanan ini tidak akan dapat berfungsi secara normal.</string>
     <string name="disagreement_service_not_working_properly_with_media_storage">Jika Anda memilih untuk tidak memberikan izin ini, layanan tidak akan dapat bekerja dengan normal.</string>
@@ -205,12 +208,14 @@
     <string name="font_use_case_text_example">Badan</string>
     <string name="font_use_case_title_example">Judul</string>
     <string name="framework_introduction">Xiaomi service framework (Mi Push, Analytics, and MIUIBI) is a basic system service that provides push notifications, risk prevention, statistics, and analytics capabilities. In order to provide these services, we need to collect and process relevant and necessary personal information. When collecting and processing such information, we will comply with applicable laws, regulations, and other normative documents.</string>
-    <string name="framwork_base_service">"In order to provide push notification functionality, we need to collect device identifiers (OAID and encrypted Android ID), information about the apps that use the push service (e.g. app package name, version, and runtime status), device manufacturer, device model, device memory, operating system version, region, name of the SIM card carrier name, current network type, and the Wi-Fi status. You can change the way you receive push notifications in Settings, and we'll provide you with push notifications based on your preferences, for which we'll also collect the information about your preferences including whether you choose to block notifications or not, and whether you allow them to appear on Lock screen.
-For the purposes of risk prevention, statistics, and analytical processing, we need permission to connect to the network and access your location, device IMEI, device IMSI, device identifiers (OAID, MAC address, and encrypted Android ID), device manufacturer, device model, device memory, operating system version, region, and current network type. The above information will be collected once a day for as long as you use this device."</string>
+    <string name="framwork_base_service">"Untuk menyediakan fungsionalitas notifikasi dorong, kami perlu mengumpulkan pengenal perangkat (OAID dan ID Android terenkripsi), informasi tentang apl yang menggunakan layanan dorong (misalnya, nama paket apl, versi, dan status runtime), pabrikan perangkat, model perangkat, memori perangkat, versi sistem operasi, daerah, nama operator kartu SIM, jenis jaringan saat ini, dan status Wi-Fi. Anda dapat mengubah cara menerima notifikasi dorong di Setelan, dan kami akan memberi Anda notifikasi dorong berdasarkan preferensi Anda, yang mana kami juga akan mengumpulkan informasi tentang preferensi Anda termasuk apakah Anda memilih untuk memblokir notifikasi atau tidak, dan apakah Anda mengizinkannya muncul di Layar kunci.
+Untuk tujuan pencegahan risiko, statistik, dan pemrosesan analitik, kami memerlukan izin untuk terhubung ke jaringan dan mengakses lokasi Anda, IMEI perangkat, IMSI perangkat, pengenal perangkat (OAID, alamat MAC, dan ID Android terenkripsi), pabrikan perangkat, model perangkat, memori perangkat, versi sistem operasi, daerah, dan jenis jaringan saat ini. Informasi di atas akan dikumpulkan sekali sehari selama Anda menggunakan perangkat ini."</string>
     <string name="friday">Jumat</string>
     <string name="friday_short">Jum</string>
     <string name="friday_shortest">Jum</string>
     <string name="game_introduction">Dengan plug-in permainan, Anda dapat masuk, membuat pesanan, menyelesaikan pembayaran, menggunakan kupon, dan berpartisipasi di kegiatan promosi.</string>
+    <string name="get_audio_and_video_information_settings">Akses foto, video, dan audio yang disimpan di perangkat</string>
+    <string name="get_contact_information_settings">Access contacts</string>
     <string name="get_imei_information">Access IMEI</string>
     <string name="get_imei_information_settings">Akses pengidentifikasi unik perangkat (IMEI)</string>
     <string name="google_service_introduction">Untuk dapat bekerja dengan normal, Google Play butuh terhubung ke internet, mengakses lokasi Anda, mengirimkan SMS dan MMS, merekam audio, membuat panggilan, mengakses acara kalender, riwayat panggilan, sensor, ruang penyimpanan, kamera, info perangkat, dan akun.</string>
@@ -225,10 +230,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="input_method_setting">Pilih keyboard</string>
     <string name="install_preinstall_app">Memuat aplikasi…</string>
     <string name="interconnection_communication_introduction">Layanan Komunikasi Internet Xiaomi memungkinkan Anda untuk menemukan, menghubungkan, dan berkomunikasi dengan perangkat Xiaomi lainnya.</string>
-    <string name="interconnection_service_global_item_title">Interkonektivitas Xiaomi</string>
-    <string name="interconnection_service_global_label">&lt;Data>Interkonektivitas Xiaomi memungkinkan perangkat Anda berinteraksi satu sama lain secara nirkabel. Dengan mengaktifkan tombol ini berarti Anda menyetujui &lt;a href=%1$s>Kebijakan Privasi&lt;/a > Interkonektivitas Xiaomi.&lt;/Data></string>
+    <string name="interconnection_service_global_label"><Data>Dengan Interkonektivitas, Anda dapat mentransfer item antar perangkat dan menggunakan kontrol lintas perangkat. Menghidupkan fitur ini menandakan bahwa Anda menyetujui &lt;a href=%1$s>Kebijakan Privasi&lt;/a >.</Data></string>
     <string name="interconnection_service_permission1">Menghidupkan dan mematikan Bluetooth</string>
-    <string name="interconnection_service_permission10">Untuk menemukan perangkat di sekitar</string>
+    <string name="interconnection_service_permission10">Untuk mengenali perangkat yang terhubung</string>
     <string name="interconnection_service_permission11">Transfer data antar perangkat</string>
     <string name="interconnection_service_permission12">Untuk mentransfer data antar perangkat yang terhubung</string>
     <string name="interconnection_service_permission13">Akses konten layar</string>
@@ -237,7 +241,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_service_permission16">Untuk mentransfer panggilan antar perangkat selama pencerminan layar</string>
     <string name="interconnection_service_permission17">Akses daftar aplikasi terinstal</string>
     <string name="interconnection_service_permission18">Untuk mengakses daftar aplikasi terinstal pada perangkat seluler dan pencerminan layar di komputer</string>
+    <string name="interconnection_service_permission19">Akses dan gunakan notifikasi</string>
     <string name="interconnection_service_permission2">Untuk menghubungkan dan mentransfer data antara dua perangkat</string>
+    <string name="interconnection_service_permission20">Untuk mengakses notifikasi perangkat, termasuk nama apl, judul, dan konten.</string>
     <string name="interconnection_service_permission3">Menghidupkan dan mematikan WLAN</string>
     <string name="interconnection_service_permission4">Untuk mentransfer data antara dua perangkat via WLAN</string>
     <string name="interconnection_service_permission5">Rekam audio</string>
@@ -245,82 +251,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_service_permission7">Akses dan ubah foto dan berkas di perangkat Anda</string>
     <string name="interconnection_service_permission8">Untuk memproyeksi dan mentransfer konten dari perangkat ini</string>
     <string name="interconnection_service_permission9">Akses pengidentifikasi perangkat</string>
-    <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
-\u0009\u0009互传：
-\u0009\u0009读写设备上的照片及文件
-\u0009\u0009用于发送和接收传输的文件
-\u0009\u0009获取位置信息
-\u0009\u0009用于实现蓝牙/WLAN状态下的文件传输功能
-\u0009\u0009开启或关闭蓝牙
-\u0009\u0009使用蓝牙扫描附近可互传文件的设备
-\u0009\u0009开启或关闭WLAN
-\u0009\u0009使用WLAN扫描周围设备并传输文件
-\u0009\u0009连接附近的设备
-\u0009\u0009发现并连接到附近的设备
-\u0009\u0009影音互联（小米妙播、投屏）：
-\u0009\u0009开启或关闭蓝牙
-\u0009\u0009使用蓝牙扫描和连接附近可用设备
-\u0009\u0009开启或关闭WLAN
-\u0009\u0009使用WLAN扫描附近可投屏的设备
-\u0009\u0009向其他设备传输数据
-\u0009\u0009用于在两台设备间建立蓝牙连接并交换数据
-\u0009\u0009获取设备的位置信息
-\u0009\u0009用于获取附近可投屏的设备信息
-\u0009\u0009录制设备内部音频
-\u0009\u0009用于投屏、镜像过程中将声音传输至其他设备播放
-\u0009\u0009读写设备上的照片、视频、音频
-\u0009\u0009用于发送及接收传输的文件
-\u0009\u0009读取设备MAC地址
-\u0009\u0009用于互联设备的识别
-\u0009\u0009获取屏幕上的信息
-\u0009\u0009在录制或投屏时，提供此功能的服务会获取在您的屏幕上显示或从您的设备播放的任何敏感信息，包括音频、密码、付款信息、照片和消息等
-\u0009\u0009应用生态融合（应用接力、妙享桌面）：
-\u0009\u0009开启或关闭蓝牙
-\u0009\u0009使用蓝牙扫描和连接附近可用设备
-\u0009\u0009开启或关闭WLAN
-\u0009\u0009使用WLAN扫描附近可投屏的设备
-\u0009\u0009读取设备MAC地址
-\u0009\u0009用于互联设备的识别
-\u0009\u0009读写设备上的照片、视频、音频
-\u0009\u0009用于发送及接收传输的文件
-\u0009\u0009向其他设备传输数据
-\u0009\u0009用于在两台设备间建立蓝牙连接并交换数据
-\u0009\u0009录制设备内部音频
-\u0009\u0009用于投屏、镜像过程中将声音传输至其他设备播放
-\u0009\u0009获取屏幕上的信息
-\u0009\u0009在录制或投屏时，提供此功能的服务会获取在您的屏幕上显示或从您的设备播放的任何敏感信息，包括音频、密码、付款信息、照片和消息等
-\u0009\u0009文件系统（跨设备剪贴板、笔记跨设备拍照）：
-\u0009\u0009开启或关闭蓝牙
-\u0009\u0009使用蓝牙扫描和连接附近可用设备
-\u0009\u0009开启或关闭WLAN
-\u0009\u0009使用WLAN扫描附近可投屏的设备
-\u0009\u0009读写设备上的照片、视频、音频
-\u0009\u0009用于发送及接收传输的文件
-\u0009\u0009读取剪切板
-\u0009\u0009允许应用读取复制的内容
-\u0009\u0009硬件协同（网络协同、键鼠协同、相机协同）：
-\u0009\u0009开启或关闭蓝牙
-\u0009\u0009使用蓝牙扫描和连接附近可用设备
-\u0009\u0009开启或关闭WLAN
-\u0009\u0009使用WLAN扫描附近可投屏的设备
-\u0009\u0009读写设备上的照片、视频、音频
-\u0009\u0009用于发送及接收传输的文件
-\u0009\u0009相机
-\u0009\u0009调用相机拍摄照片和录制视频
-\u0009\u0009设备中心：
-\u0009\u0009开启或关闭蓝牙
-\u0009\u0009使用蓝牙扫描和连接附近可用设备
-\u0009\u0009开启或关闭WLAN
-\u0009\u0009使用WLAN扫描附近可投屏的设备
-\u0009\u0009录制设备内部音频
-\u0009\u0009用于投屏、镜像过程中将声音传输至其他设备播放
-\u0009\u0009读写设备上的照片、视频、音频
-\u0009\u0009用于发送及接收传输的文件
-如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
-因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
-    <string name="interconnection_service_summary_china_new">%1$s Fitur Interkonektivitas Xiaomi yang tersedia di perangkat Anda dapat bervariasi karena perbedaan versi sistem dan model perangkat. Kunjungi situs web resmi kami (%2$s) untuk informasi lebih lanjut.</string>
-    <string name="interconnection_service_summary_global">Fitur Interkonektivitas Xiaomi dapat bervariasi tergantung pada model perangkat dan versi sistem. Kunjungi situs web resmi sistem untuk mempelajari lebih lanjut.</string>
-    <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
+    <string name="interconnection_service_summary_china">Fitur Interkonektivitas dapat bervariasi tergantung pada model perangkat dan versi sistem. Kunjungi (%1$s) untuk mempelajari lebih lanjut.</string>
+    <string name="interconnection_service_summary_global">Fitur Interkonektivitas dapat bervariasi tergantung pada model perangkat dan versi sistem. Kunjungi situs web resmi sistem untuk mempelajari lebih lanjut.</string>
+    <string name="interconnection_service_title">Interkonektivitas</string>
     <string name="item_contents_wwarning">Jika perangkat Anda hilang, Anda tidak akan dapat mencegah orang lain menggunakannya dan mengakses data Anda kecuali Anda menyetel kunci layar. Tetap lewati?</string>
     <string name="item_facerecognition">Buka kunci dengan wajah</string>
     <string name="item_fingerprint">Sidik jari</string>
@@ -328,6 +261,14 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="item_lock_screen_password_only">Kunci layar</string>
     <string name="item_return">Setel</string>
     <string name="item_skip">Lewati</string>
+    <string name="kind_note01">Saat melipat perangkat, hindari meletakkan benda keras seperti kartu, koin, atau kunci di layar agar tidak menggores layar dalam.</string>
+    <string name="kind_note02">Keempat sudut layar mengandung komponen magnetik. Periksa apakah ada benda logam di sekitar layar sebelum melipatnya.</string>
+    <string name="kind_note03">Kamera depan dan engsel lipat layar dalam merupakan bagian yang rapuh. Hindari merusak area tersebut dengan benda tajam, yang dapat memengaruhi garansi.</string>
+    <string name="kind_note04">Lipat perangkat sebelum memasukkannya ke dalam tas atau saku. Cara ini dapat menghemat ruang dan melindungi layar dengan lebih baik.</string>
+    <string name="kind_note05">Hindari meletakkan perangkat dengan layar dalam menghadap ke bawah. Tekanan pada layar fleksibel dapat merusaknya dan memengaruhi garansi.</string>
+    <string name="kind_note06_cn">Layar dalam perangkat ini ditutupi oleh lapisan pelindung khusus. Jangan melepas atau mengganti sendiri pelindung layar dalam, karena kerusakan pada layar dalam yang diakibatkan atas tindakan tersebut akan mempengaruhi garansi. Jika Anda perlu mengganti pelindung layar, hubungi layanan purna jual Xiaomi.</string>
+    <string name="kind_note06_global">Layar dalam perangkat ini ditutupi oleh lapisan pelindung khusus. Jangan melepas atau mengganti sendiri pelindung layar dalam, karena dapat merusak layar.</string>
+    <string name="kind_subtitle">Perangkat ini menggunakan desain layar lipat. Untuk melindungi perangkat, perhatikan hal berikut:</string>
     <string name="kind_tip_details_inner_details">Hindari menekan layar dengan benda tajam (ujung pena, kuku, dll.) saat Anda menggunakan atau membawa perangkat. Sebelum melipat perangkat, pastikan layar dalam bebas dari benda keras seperti kartu, koin, atau kunci.</string>
     <string name="kind_tip_details_inner_title">Jangan menekan layar dalam dengan benda tajam atau keras</string>
     <string name="kind_tip_details_pocket_details">Lipat perangkat kapan pun Anda tidak menggunakannya. Hindari kontak antara layar dalam dengan benda tajam dan keras di tas atau saku Anda.</string>
@@ -339,12 +280,16 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="kind_tip_title">Perhatian</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Berbagi informasi lokasi dengan agen penyelamat situasi darurat</string>
+    <string name="language_disabled_description">%1$s, tidak tersedia</string>
     <string name="language_picker_other_languages_title">Bahasa lainnya</string>
+    <string name="language_selected_description">%1$s, terpilih</string>
     <string name="language_settings">Pilih bahasa</string>
+    <string name="language_unselected_description">%1$s, ketuk 2x untuk terapkan</string>
     <string name="layout_size_huge">XL</string>
     <string name="layout_size_large">Besar</string>
     <string name="layout_size_normal">Reguler</string>
     <string name="locale_picker_other_locale_title">Daerah lainnya</string>
+    <string name="locale_picker_search_hint">Cari daerah</string>
     <string name="locale_picker_title">Pilih lokasi Anda</string>
     <string name="location_U">U+ GPSnWPS</string>
     <string name="location_content">Sesuai dengan hukum yang berlaku, operator seluler dapat memperoleh info lokasi perangkat seluler untuk memenuhi persyaratan badan penyelamat saat gawat darurat (pemadam kebakaran dan polisi) dengan tujuan untuk keamanan dan penyelamatan darurat.</string>
@@ -365,6 +310,12 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="miui_settings">Setelan</string>
     <string name="miui_terms_no_network">Anda tidak memiliki koneksi internet. Lihat Perjanjian Pengguna di %s.</string>
     <string name="miuix_access_state_desc">Terpilih</string>
+    <string name="miuix_accessibility_title">Judul</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Dibuat menjadi kecil</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Dibuka lebar</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Keluar dari mode penyuntingan</string>
+    <string name="miuix_appcompat_accessibility_new_message">Notifikasi baru</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Masuk ke mode pengeditan</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Batal pilih</string>
     <string name="miuix_appcompat_action_mode_select_all">Pilih semua</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pilih item</string>
@@ -380,6 +331,8 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="miuix_appcompat_select_all">Pilih semua</string>
     <string name="miuix_appcompat_select_all_description">Pilih semua</string>
     <string name="miuix_appcompat_select_item">Pilih item</string>
+    <string name="miuix_appcompat_show_dialog_description">Jendela pop-up</string>
+    <string name="miuix_progressbar_loading">Memuat</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tarik ke bawah untuk segarkan</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Berhasil disegarkan</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Menyegarkan…</string>
@@ -388,6 +341,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="miuix_sbl_tracking_progress_labe_up_none">Tidak ada yang lainnya lagi.</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Tunggu sebentar…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Tidak dapat memuat item</string>
+    <string name="miuix_show_password">Tampilkan kata sandi</string>
+    <string name="miuix_stretchablewidget_collapsed">Dibuat menjadi kecil</string>
+    <string name="miuix_stretchablewidget_expanded">Dibuka lebar</string>
     <string name="mobile_network">Pakai data seluler</string>
     <string name="monday">Senin</string>
     <string name="monday_short">Sen</string>
@@ -449,7 +405,6 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="noon">Tengah hari</string>
     <string name="not_set">Belum disetel</string>
     <string name="note_introduction">Dengan aplikasi ini, Anda dapat membuat, melihat, dan mengubah catatan.</string>
-    <string name="official_website_real">hyperos.mi.com</string>
     <string name="other_settings">Setelan dasar</string>
     <string name="other_settings_ad_dialog_agree">Hidupkan</string>
     <string name="other_settings_ad_dialog_content">Saat rekomendasi iklan yang dipersonalisasi dimatikan, Anda masih akan melihat jumlah iklan yang sama seperti saat fitur ini dihidupkan. Namun, iklan tidak lagi relevan karena tidak akan didasarkan pada preferensi pribadi Anda.</string>
@@ -457,10 +412,10 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="other_settings_ad_dialog_disagree">Matikan</string>
     <string name="other_settings_ad_disable_summary">Hidupkan untuk mempersonalisasi iklan</string>
     <string name="other_settings_ad_enable">Personalisasi iklan</string>
-    <string name="other_settings_ad_enable_summary">Mempersonalisasi iklan berdasarkan ketertarikan Anda</string>
+    <string name="other_settings_ad_enable_summary">Saat rekomendasi iklan yang dipersonalisasi dimatikan, Anda masih akan melihat jumlah iklan yang sama di aplikasi sistem seperti saat fitur dihidupkan. Namun, iklan dari Xiaomi dan platform pihak ketiga tidak lagi relevan karena tidak didasarkan pada preferensi pribadi Anda.</string>
     <string name="other_settings_alarm_assistance">Emergency location</string>
     <string name="other_settings_alarm_assistance_privacy">Privacy Policy</string>
-    <string name="other_settings_alarm_assistance_summary">"You can send your location info to the police using SMS or mobile data automatically while you're calling 110, 120, 119, or 122. Read and agree to our &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a> before using this feature."</string>
+    <string name="other_settings_alarm_assistance_summary">Anda dapat mengirimkan informasi lokasi Anda ke polisi menggunakan SMS atau data seluler secara otomatis saat Anda menelepon 110, 120, 119, or 122. Baca dan setujui &lt;a href=\"%1$s\">Perjanjian Pengguna&lt;/a> dan &lt;a href=\"%2$s\">Kebijakan Privasi&lt;/a> kami sebelum menggunakan fitur ini.</string>
     <string name="other_settings_alarm_assistance_user">User Agreement</string>
     <string name="other_settings_auto_update">Pembaruan sistem otomatis</string>
     <string name="other_settings_auto_update_summary">Sistem akan memilih waktu terbaik untuk mengunduh dan menginstal pembaruan. Perangkat Anda akan otomatis dimulai ulang untuk menerapkan perubahan tersebut.</string>
@@ -475,12 +430,14 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 Anda dapat mematikan pembaruan otomatis di GetApps > Setelan > Pembaruan otomatis."</string>
     <string name="other_settings_location">Lokasi</string>
     <string name="other_settings_location_summary">Izinkan aplikasi dan situs web mengakses info lokasi Anda untuk menyediakan layanan berbasis lokasi</string>
+    <string name="other_settings_minor_mode">Mode Anak</string>
+    <string name="other_settings_minor_mode_summary"><Data>Memantu anak di bawah umur mengembangkan kebiasaan penggunaan perangkat yang sehat. Saat Mode Anak dihidupkan, pintasan fitur akan ditambahkan di Setelan dan di Layar utama. Dengan menghidupkan fitur ini, Anda menyetujui &lt;a href=%1$s>Kebijakan Privasi Mode Anak&lt;/a >.</Data></string>
     <string name="other_settings_quality_service">Perizinan Daemon sistem</string>
     <string name="other_settings_quality_service_summary">Daemon sistem digunakan untuk meningkatkan stabilitas dan kinerja sistem. Agar dapat bekerja secara normal, layanan ini memerlukan izin untuk mengakses dan menyimpan item ke penyimpanan perangkat.</string>
-    <string name="other_settings_upload_debug_log_detail">"Bantu tingkatkan pengalaman Anda dengan mengirimkan data diagnostik, perangkat, dan penggunaan aplikasi secara otomatis ke Xiaomi. Hal ini akan membantu meningkatkan daya tahan baterai, stabilitas sistem dan aplikasi, dan lainnya.
-Data yang akan Anda kirim akan berisi informasi umum tentang perangkat Anda dan cara Anda menggunakannya (misalnya: level baterai, aktivitas sistem dan aplikasi, serta kesalahan). Data akan digunakan untuk meningkatkan perangkat Xiaomi.
-Jika fitur ini dimatikan, hal ini tidak akan memengaruhi kemampuan perangkat Anda untuk mengirim informasi yang diperlukan untuk layanan penting seperti pembaruan sistem dan keamanan.
-Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci layar > Privasi > Penggunaan dan diagnostik."</string>
+    <string name="other_settings_upload_debug_log_detail">"Bantu tingkatkan pengalaman Anda dengan mengirimkan data diagnostik, perangkat, dan penggunaan apl secara otomatis ke Xiaomi. Hal ini akan membantu meningkatkan masa pakai baterai, stabilitas sistem dan aplikasi, serta banyak lagi.
+Data yang akan Anda kirimkan akan berisi informasi umum tentang perangkat ini dan cara Anda menggunakannya (contoh: level baterai, aktivitas sistem dan aplikasi, serta info kesalahan). Data akan digunakan untuk meningkatkan perangkat kami.
+Jika fitur ini dimatikan, hal ini tidak akan memengaruhi kemampuan perangkat ini untuk mengirimkan informasi yang diperlukan untuk layanan penting seperti pembaruan dan keamanan sistem.
+Anda dapat menghidupkan atau mematikan fitur ini dengan mencari \"Penggunaan dan diagnostik\" di Setelan."</string>
     <string name="other_settings_upload_debug_log_summary">Bantu tingkatkan pengalaman Anda dengan mengirimkan data diagnostik, perangkat, dan penggunaan aplikasi secara otomatis ke Xiaomi. Hal ini akan membantu meningkatkan masa pakai baterai, sistem dan stabilitas aplikasi, dan lainnya.</string>
     <string name="other_settings_upload_debug_log_title">Kirim data penggunaan dan diagnostik</string>
     <string name="other_settings_user_experience">Program Pengalaman Pengguna</string>
@@ -503,7 +460,7 @@ Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci l
     <string name="permission_clock_info_introduction">Untuk menyimpan data alarm</string>
     <string name="permission_contact">Akses kontak</string>
     <string name="permission_contact_describe">Akses kontak</string>
-    <string name="permission_contact_describe_MIUIDaemon_summary">Untuk memverifikasi identitas Anda.</string>
+    <string name="permission_contact_describe_MIUIDaemon_summary">Untuk memverifikasi identitas Anda</string>
     <string name="permission_contact_describe_bluetooth_summary">Untuk mengizinkan perangkat lain yang kompatibel yang mana Anda hubungkan ke perangkat ini untuk mengakses kontak. Ini hanya akan terjadi saat Anda menghidupkan Bluetooth atau mengubah info kontak saat Bluetooth dihidupkan.</string>
     <string name="permission_contact_describe_desktop_summary">Untuk menggunakan fitur kontak darurat di Layar utama pada mode Mudah dan menampilkan notifikasi percakapan;</string>
     <string name="permission_contact_describe_message_summary">Untuk menampilkan informasi kontak yang sesuai dari SMS dan MMS.</string>
@@ -512,7 +469,7 @@ Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci l
     <string name="permission_device_desktop_summary">Untuk mengakses info perangkat (contoh: nama operator);</string>
     <string name="permission_device_fast_pairing_summary">Untuk mengakses status perangkat dan mengomunikasikannya ke perangkat yang dapat dipakai;</string>
     <string name="permission_device_message_summary">Untuk mengirim dan menerima SMS dan MMS;</string>
-    <string name="permission_device_mi_account_summary">Untuk memastikan keamanan lingkungan saat masuk.</string>
+    <string name="permission_device_mi_account_summary">Untuk masuk dengan cepat via nomor telepon Anda</string>
     <string name="permission_different_device_introduction">Untuk mengidentifikasi layanan yang tertaut dengan perangkat yang berbeda</string>
     <string name="permission_different_info_introduction">Untuk mengidentifikasi perangkat yang berbeda</string>
     <string name="permission_direct_call">Buat panggilan</string>
@@ -520,6 +477,7 @@ Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci l
     <string name="permission_download_introduction">Untuk mencache item yang diunduh dan menyimpannya di perangkat Anda</string>
     <string name="permission_enable_disable_bluetooth_summary">For finding devices nearby in order to connect and transfer data</string>
     <string name="permission_fast_pairing">Untuk dapat mecari perangkat di sekitar, Mi Link perlu terhubung ke internet dan memerlukan izin berikut:</string>
+    <string name="permission_get_audio_and_video_summary_settings">Untuk menyetel foto profil dan pratinjau nada dering (termasuk Setelan)</string>
     <string name="permission_get_imei_information_summary">For identifying device activation time</string>
     <string name="permission_get_imei_information_summary_settings">Untuk menampilkan info dan spesifikasi perangkat</string>
     <string name="permission_imei_service">Untuk mengakses IMEI dan menyediakan layanan yang tertaut dengan perangkat Anda</string>
@@ -538,6 +496,7 @@ Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci l
     <string name="permission_make_a_call_fast_application_summary">Untuk mengizinkan quick apps membuat panggilan;</string>
     <string name="permission_media_storage_summary">Untuk memeriksa bagaimana apl menggunakan izin terkait privasi saat mengakses berkas</string>
     <string name="permission_message_introduction">Untuk mengirimkan pesan ke kontak yang terblokir</string>
+    <string name="permission_mi_account">Akses status panggilan</string>
     <string name="permission_number">读取本机号码</string>
     <string name="permission_number_introduction">用于支持连接系统蓝牙并实现车载或蓝牙耳机通话；</string>
     <string name="permission_phone_imei_device">Untuk mengakses IMEI agar dapat mengidentifikasi perangkat</string>
@@ -548,13 +507,13 @@ Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci l
     <string name="permission_photo_video_introduction">Untuk mengambil foto, merekam video, dan menggunakan flash</string>
     <string name="permission_picture_introduction">Untuk menyimpan, mengubah, dan menyinkronkan foto dan video</string>
     <string name="permission_qualcomm_describe_summary">用于针对不同类型应用动态调整系统参数，完成系统组件及应用的进程调度。</string>
-    <string name="permission_quality_describe_summary">用于收集应用崩溃信息。</string>
+    <string name="permission_quality_describe_summary">Untuk mengumpulkan informasi tentang apl yang tutup tba-tiba</string>
     <string name="permission_read_app_list">Akses daftar apl yang terinstal di perangkat ini</string>
     <string name="permission_read_application_list_summary">Untuk memperbarui aplikasi yang diunduh dan mengonfirmasi informasi aplikasi yang digunakan oleh penginstal paket;</string>
     <string name="permission_read_call_records">Ubah riwayat panggilan</string>
     <string name="permission_read_call_records_introduction">Untuk menambahkan item ke riwayat panggilan dan menghapus panggilan yang terblokir</string>
     <string name="permission_read_contacts">Mengakses kontak</string>
-    <string name="permission_read_contacts_introduction">For verifying your identity</string>
+    <string name="permission_read_contacts_introduction">Untuk memverifikasi identitas Anda</string>
     <string name="permission_read_device_store">Akses penyimpanan perangkat</string>
     <string name="permission_read_device_store_summary">Untuk mengakses berkas sumber yang diunduh dan berkas konfigurasi sumber;</string>
     <string name="permission_read_message">Akses pesan teks</string>
@@ -584,6 +543,7 @@ Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci l
     <string name="permission_recorder_file_introduction">Untuk mengakses dan menyimpan rekaman audio</string>
     <string name="permission_recording">Rekam panggilan dan audio:</string>
     <string name="permission_recording_introduction">Untuk merekam audio saat merekam video</string>
+    <string name="permission_reminder_mode_summary_settings">For selecting incoming call reminder types</string>
     <string name="permission_screen_shoot_introduction">Untuk mengakses dan menyimpan rekaman layar</string>
     <string name="permission_send_message">Kirim SMS:</string>
     <string name="permission_use_camera">Akses kamera</string>
@@ -623,7 +583,7 @@ Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci l
     <string name="prompt_fingerprint">Perlindungan data tingkat lanjut dihidupkan untuk akun Anda. Setel kunci layar untuk perangkat ini.</string>
     <string name="protect_persoanl_info_statement">Kami akan melindungi informasi pribadi Anda sesuai dengan hukum, peraturan, dan kebijakan privasi yang relevan.</string>
     <string name="provision_back">Kembali</string>
-    <string name="provision_complete_text">Lanjutkan</string>
+    <string name="provision_complete_text">Selesai</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Lihat &lt;a href=%1$s>Kebijakan Privasi&lt;/a > keyboard pilihan Anda.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Kebijakan Privasi</string>
     <string name="provision_next">Berikutnya</string>
@@ -646,7 +606,7 @@ Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci l
     <string name="require_telephone_imei">Baca IMEI dan IMSI</string>
     <string name="require_telephone_imei_summary">Untuk mengakses IMEI</string>
     <string name="require_telephone_location">Akses lokasi</string>
-    <string name="require_telephone_location_summary">Untuk mengakses perkiraan lokasi dan menyediakan layanan pengoptimalan jaringan berbasis lokasi</string>
+    <string name="require_telephone_location_summary">Untuk mengakses perkiraan lokasi Anda guna menyediakan layanan optimalisasi jaringan berbasis lokasi dan kalibrasi zona waktu</string>
     <string name="require_telephone_statement">Untuk menyediakan layanan dasar, diperlukan izin berikut:</string>
     <string name="sample_text_summary">Xiaomi terus meluncurkan produk-produk luar biasa dengan harga yang sesuai agar semua orang dapat menikmati kehidupan yang lebih baik lewat teknologi inovatif.</string>
     <string name="sample_text_title">Contoh teks:</string>
@@ -729,6 +689,7 @@ Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci l
     <string name="startup_page_text_hint">Bentangkan untuk mengaktifkan perangkat</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="study_full_screen_gesture_text">Pelajari gerakan navigasi</string>
+    <string name="sub_screen_boot_tip">Selesaikan pengaturan di layar utama</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_not_set">Belum diatur</string>
     <string name="sunday">Minggu</string>
@@ -753,7 +714,7 @@ Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci l
     <string name="terms_of_use_label_cloud">Xiaomi Cloud</string>
     <string name="terms_of_use_label_communication_service">Layanan Komunikasi Internet Xiaomi</string>
     <string name="terms_of_use_label_config_updater">ConfigUpdater</string>
-    <string name="terms_of_use_label_finddevice">Cari perangkat</string>
+    <string name="terms_of_use_label_finddevice">Cari</string>
     <string name="terms_of_use_label_game">Permainan</string>
     <string name="terms_of_use_label_home">Layar utama</string>
     <string name="terms_of_use_label_htmlViewer">HTML Viewer</string>
@@ -782,7 +743,7 @@ Anda dapat mengontrol fitur ini di Setelan > Sidik jari, data wajah, dan kunci l
     <string name="terms_of_use_label_translation">Layanan Terjemahan</string>
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">Layanan Pembaruan Sistem (memeriksa pembaruan secara online dan memberi tahu tentang versi baru)</string>
-    <string name="terms_of_use_label_use_location_and_network_global">Sebelum menggunakan sistem ini, Anda harus membaca dan menyetujui Perjanjian Pengguna dan Kebijakan Privasi kami. Kami akan melindungi informasi pribadi Anda sesuai dengan undang-undang, peraturan, dan kebijakan privasi yang relevan. Saat perangkat Anda diaktifkan, layanan berikut akan terhubung ke jaringan dan mengakses lokasi Anda:</string>
+    <string name="terms_of_use_label_use_location_and_network_global">Sebelum menggunakan sistem ini, baca dan setujui Perjanjian Pengguna dan Kebijakan Privasi kami, yang mencakup aplikasi Xiaomi yang sudah diinstal sebelumnya di perangkat Anda (misalnya Galeri, Mi Musik, Mi Browser, Mi Video, Tema, dll.). Kami akan melindungi informasi pribadi Anda sesuai dengan undang-undang, peraturan, dan kebijakan privasi yang relevan. Data pada perangkat ini dienkripsi dan dapat dihapus secara permanen dengan melakukan setel ulang pabrik. Saat perangkat Anda diaktifkan, layanan berikut akan terhubung ke jaringan dan mengakses lokasi Anda:</string>
     <string name="terms_of_use_label_use_network_china">Sebelum menggunakan sistem, baca dan setujui &lt;a href=\"%1$s\">Perjanjian Pengguna&lt;/a> dan &lt;a href=\"%2$s\">Kebijakan Privasi&lt;/a>. Kami akan melindungi informasi pribadi Anda sesuai dengan hukum, peraturan, dan kebijakan privasi yang relevan.</string>
     <string name="terms_of_use_label_use_network_china_append">Saat perangkat Anda diaktifkan, layanan berikut akan terhubung ke jaringan:</string>
     <string name="terms_of_use_label_wallpaper">Wallpaper</string>
@@ -849,7 +810,13 @@ Anda harus menyetujui Kebijakan Privasi Mint Keyboard sebelum menggunakan fitur 
     <string name="time_picker_label_hour">J</string>
     <string name="time_picker_label_minute">M</string>
     <string name="title_fingerprint">Setel kunci layar</string>
+    <string name="title_fingers_and_faces">Setel sidik jari dan data wajah</string>
+    <string name="title_horizontal_layout">Horisontal</string>
+    <string name="title_only_fingerprint">Setel sidik jari</string>
+    <string name="title_recent_tasks_style">Susunan terkini</string>
     <string name="title_set_fingerprint">Kunci layar</string>
+    <string name="title_setting_up_face">Setel data wajah</string>
+    <string name="title_vertical_layout">Vertikal</string>
     <string name="today">Hari ini</string>
     <string name="tomorrow">Besok</string>
     <string name="tuesday">Selasa</string>

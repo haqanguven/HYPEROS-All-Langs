@@ -93,8 +93,12 @@
         <item quantity="one">%d WLAN-Netzwerk</item>
     </plurals>
     <plurals name="dirty_wlan_count_china">
-        <item quantity="other">%d WLAN networks</item>
-        <item quantity="one">%d WLAN network</item>
+        <item quantity="other">%d WLAN-Netzwerke</item>
+        <item quantity="one">%d WLAN-Netzwerk</item>
+    </plurals>
+    <plurals name="display_number_of_devices">
+        <item quantity="other">Nur die ersten %s nicht vertrauenswürdigen Geräte werden angezeigt.</item>
+        <item quantity="one">Nur das erste %s nicht vertrauenswürdige Gerät wird angezeigt.</item>
     </plurals>
     <plurals name="e2ee_device_verification_num">
         <item quantity="other">%s nicht verifizierte Geräte</item>
@@ -115,10 +119,6 @@
     <plurals name="error_screen_pwd_next_retry_time">
         <item quantity="other">In %d Sekunden erneut versuchen</item>
         <item quantity="one">In %d Sekunde erneut versuchen</item>
-    </plurals>
-    <plurals name="gallery_auto_sync_fail_noti_red_title">
-        <item quantity="other">&lt;font color=#F22424>%s Elemente&lt;/font> konnten nicht synchronisiert werden</item>
-        <item quantity="one">&lt;font color=#F22424>%s Element&lt;/font> konnte nicht synchronisiert werden</item>
     </plurals>
     <plurals name="gallery_auto_sync_fail_noti_title">
         <item quantity="other">%s Elemente konnten nicht synchronisiert werden</item>
@@ -168,9 +168,69 @@
         <item quantity="other">In %d Minuten synchronisieren fortsetzten</item>
         <item quantity="one">In %d Minute synchronisieren fortsetzten</item>
     </plurals>
+    <plurals name="micloud_preference_family_detail">
+        <item quantity="other">Geteilt mit %1$d Personen. Familienmitglied nutzt %2$s.</item>
+        <item quantity="one">Geteilt mit %1$d Person. Familienmitglied nutzt %2$s.</item>
+    </plurals>
+    <plurals name="micloud_preference_items_count">
+        <item quantity="other">%s Elemente</item>
+        <item quantity="one">%s Element</item>
+    </plurals>
+    <plurals name="micloud_preference_photo_detail">
+        <item quantity="other">%1$s Fotos</item>
+        <item quantity="one">%1$s Foto</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted">
+        <item quantity="other">Premium-Mitglieder können Objekte innerhalb von %d Tagen nach der Löschung wiederherstellen</item>
+        <item quantity="one">Premium-Mitglieder können Objekte innerhalb von %d Tag nach der Löschung wiederherstellen</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_1">
+        <item quantity="other">Benutzer ohne Mitgliedschaft können gelöschte Elemente innerhalb von %d Tagen wiederherstellen</item>
+        <item quantity="one">Benutzer ohne Mitgliedschaft können gelöschte Elemente innerhalb von %d Tag wiederherstellen</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_2">
+        <item quantity="other">Mega-Mitglieder können gelöschte Elemente innerhalb von %d Tagen wiederherstellen</item>
+        <item quantity="one">Mega-Mitglieder können gelöschte Elemente innerhalb von %d Tag wiederherstellen</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_3">
+        <item quantity="other">Ultra-Mitglieder können gelöschte Elemente innerhalb von %d Tagen wiederherstellen</item>
+        <item quantity="one">Ultra-Mitglieder können gelöschte Elemente innerhalb von %d Tag wiederherstellen</item>
+    </plurals>
+    <plurals name="micloud_preference_record_detail">
+        <item quantity="other">%s Elemente</item>
+        <item quantity="one">%s Element</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_deleted_data">
+        <item quantity="other">Mitglieder können gelöschte Elemente innerhalb von %d Tagen wiederherstellen</item>
+        <item quantity="one">Mitglieder können gelöschte Elemente innerhalb von %d Tag wiederherstellen</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary">
+        <item quantity="other">Benutzer ohne Mitgliedschaft können Kontakte in jeder Version wiederherstellen, die innerhalb von %d Tagen gespeichert wurden</item>
+        <item quantity="one">Benutzer ohne Mitgliedschaft können Kontakte in jeder Version wiederherstellen, die innerhalb von %d Tag gespeichert wurden</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_1">
+        <item quantity="other">Premium-Mitglieder können Kontakte in jeder Version wiederherstellen, die innerhalb von %d Tagen gespeichert wurden</item>
+        <item quantity="one">Premium-Mitglieder können Kontakte in jeder Version wiederherstellen, die innerhalb von %d Tag gespeichert wurden</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_2">
+        <item quantity="other">Mega-Mitglieder können Kontakte in jeder Version wiederherstellen, die innerhalb von %d Tagen gespeichert wurden</item>
+        <item quantity="one">Mega-Mitglieder können Kontakte in jeder Version wiederherstellen, die innerhalb von %d Tag gespeichert wurden</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_3">
+        <item quantity="other">Ultra-Mitglieder können Kontakte in jeder Version wiederherstellen, die innerhalb von %d Tagen gespeichert wurden</item>
+        <item quantity="one">Ultra-Mitglieder können Kontakte in jeder Version wiederherstellen, die innerhalb von %d Tag gespeichert wurden</item>
+    </plurals>
+    <plurals name="micloud_preference_video_detail">
+        <item quantity="other">%1$s Videos</item>
+        <item quantity="one">%1$s Video</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
-        <item quantity="other">%d Elemente ausgewählt</item>
-        <item quantity="one">%d Element ausgewählt</item>
+        <item quantity="other">%d ausgesuchte Elemente</item>
+        <item quantity="one">%d ausgesuchtes Element</item>
+    </plurals>
+    <plurals name="not_authenticated_devices">
+        <item quantity="other">Du hast insgesamt %s nicht vertrauenswürdige Geräte.</item>
+        <item quantity="one">Du hast insgesamt %s nicht vertrauenswürdiges Gerät.</item>
     </plurals>
     <plurals name="noti_quota_full_title_with_icon_text">
         <item quantity="other">Speicher ist voll. &lt;font color=#F22424>%d Apps&lt;/font> konnten nicht synchronisiert werden.</item>

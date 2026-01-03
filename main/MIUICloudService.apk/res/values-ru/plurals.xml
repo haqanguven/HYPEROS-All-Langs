@@ -144,6 +144,12 @@
         <item quantity="few">%d сети WLAN</item>
         <item quantity="many">%d сетей WLAN</item>
     </plurals>
+    <plurals name="display_number_of_devices">
+        <item quantity="other">Показано только первые %s ненадежных устройств.</item>
+        <item quantity="one">Показано только первое %s ненадежное устройство.</item>
+        <item quantity="few">Показано только первые %s ненадежных устройства.</item>
+        <item quantity="many">Показано только первые %s ненадежных устройств.</item>
+    </plurals>
     <plurals name="e2ee_device_verification_num">
         <item quantity="other">%s непроверенных устройств</item>
         <item quantity="one">%s непроверенное устройство</item>
@@ -173,12 +179,6 @@
         <item quantity="one">Повторите попытку через %d секунду</item>
         <item quantity="few">Повторите попытку через %d секунды</item>
         <item quantity="many">Повторите попытку через %d секунд</item>
-    </plurals>
-    <plurals name="gallery_auto_sync_fail_noti_red_title">
-        <item quantity="other">Не удалось синхронизировать &lt;font color=#F22424>%s объектов&lt;/font></item>
-        <item quantity="one">Не удалось синхронизировать &lt;font color=#F22424>%s объект&lt;/font></item>
-        <item quantity="few">Не удалось синхронизировать &lt;font color=#F22424>%s объекта&lt;/font></item>
-        <item quantity="many">Не удалось синхронизировать &lt;font color=#F22424>%s объектов&lt;/font></item>
     </plurals>
     <plurals name="gallery_auto_sync_fail_noti_title">
         <item quantity="other">Не удалось синхронизировать %s объектов</item>
@@ -252,11 +252,101 @@
         <item quantity="few">Синхронизация продолжится через %d минуты</item>
         <item quantity="many">Синхронизация продолжится через %d минут</item>
     </plurals>
+    <plurals name="micloud_preference_family_detail">
+        <item quantity="other">В общем доступе с %1$d людьми. Члены семьи использовали %2$s.</item>
+        <item quantity="one">В общем доступе с %1$d человеком. Член семьи использовал %2$s.</item>
+        <item quantity="few">В общем доступе с %1$d людьми. Члены семьи использовали %2$s.</item>
+        <item quantity="many">В общем доступе с %1$d людьми. Члены семьи использовали %2$s.</item>
+    </plurals>
+    <plurals name="micloud_preference_items_count">
+        <item quantity="other">%s объектов</item>
+        <item quantity="one">%s объект</item>
+        <item quantity="few">%s объекта</item>
+        <item quantity="many">%s объектов</item>
+    </plurals>
+    <plurals name="micloud_preference_photo_detail">
+        <item quantity="other">%1$s фото</item>
+        <item quantity="one">%1$s фото</item>
+        <item quantity="few">%1$s фото</item>
+        <item quantity="many">%1$s фото</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted">
+        <item quantity="other">Премиум-участники могут восстанвливать объекты в течение %d дней после удаления</item>
+        <item quantity="one">Премиум-участники могут восстанвливать объекты в течение %d дня после удаления</item>
+        <item quantity="few">Премиум-участники могут восстанвливать объекты в течение %d дней после удаления</item>
+        <item quantity="many">Премиум-участники могут восстанвливать объекты в течение %d дней после удаления</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_1">
+        <item quantity="other">Пользователи без подписки могут восстанавливать удаленные элементы в течение %d дней</item>
+        <item quantity="one">Пользователи без подписки могут восстанавливать удаленные элементы в течение %d дня</item>
+        <item quantity="few">Пользователи без подписки могут восстанавливать удаленные элементы в течение %d дней</item>
+        <item quantity="many">Пользователи без подписки могут восстанавливать удаленные элементы в течение %d дней</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_2">
+        <item quantity="other">Мега-участники могут восстанавливать удаленные объекты в течение %d дней</item>
+        <item quantity="one">Мега-участники могут восстанавливать удаленные объекты в течение %d дня</item>
+        <item quantity="few">Мега-участники могут восстанавливать удаленные объекты в течение %d дней</item>
+        <item quantity="many">Мега-участники могут восстанавливать удаленные объекты в течение %d дней</item>
+    </plurals>
+    <plurals name="micloud_preference_premium_restore_deleted_3">
+        <item quantity="other">Ультра-участники могут восстанавливать удаленные объекты в течение %d дней</item>
+        <item quantity="one">Ультра-участники могут восстанавливать удаленные объекты в течение %d дня</item>
+        <item quantity="few">Ультра-участники могут восстанавливать удаленные объекты в течение %d дней</item>
+        <item quantity="many">Ультра-участники могут восстанавливать удаленные объекты в течение %d дней</item>
+    </plurals>
+    <plurals name="micloud_preference_record_detail">
+        <item quantity="other">%s объектов</item>
+        <item quantity="one">%s объект</item>
+        <item quantity="few">%s объекта</item>
+        <item quantity="many">%s объектов</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_deleted_data">
+        <item quantity="other">Участники могут восстанавливать удаленные объекты в течение %d дней</item>
+        <item quantity="one">Участники могут восстанавливать удаленные объекты в течение %d дня</item>
+        <item quantity="few">Участники могут восстанавливать удаленные объекты в течение %d дней</item>
+        <item quantity="many">Участники могут восстанавливать удаленные объекты в течение %d дней</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary">
+        <item quantity="other">Пользователи без подписки могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+        <item quantity="one">Пользователи без подписки могут восстанавливать контакты в любой версии, сохраненной в течение %d дня</item>
+        <item quantity="few">Пользователи без подписки могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+        <item quantity="many">Пользователи без подписки могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_1">
+        <item quantity="other">Премиум-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+        <item quantity="one">Премиум-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дня</item>
+        <item quantity="few">Премиум-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+        <item quantity="many">Премиум-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_2">
+        <item quantity="other">Мега-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+        <item quantity="one">Мега-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дня</item>
+        <item quantity="few">Мега-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+        <item quantity="many">Мега-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+    </plurals>
+    <plurals name="micloud_preference_recover_summary_3">
+        <item quantity="other">Ультра-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+        <item quantity="one">Ультра-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дня</item>
+        <item quantity="few">Ультра-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+        <item quantity="many">Ультра-участники могут восстанавливать контакты в любой версии, сохраненной в течение %d дней</item>
+    </plurals>
+    <plurals name="micloud_preference_video_detail">
+        <item quantity="other">%1$s видео</item>
+        <item quantity="one">%1$s видео</item>
+        <item quantity="few">%1$s видео</item>
+        <item quantity="many">%1$s видео</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
-        <item quantity="other">Выбрано: %d</item>
-        <item quantity="one">Выбрано: %d</item>
-        <item quantity="few">Выбрано: %d</item>
-        <item quantity="many">Выбрано: %d</item>
+        <item quantity="other">Выбрано %d объектов</item>
+        <item quantity="one">Выбран %d объект</item>
+        <item quantity="few">Выбрано %d объекта</item>
+        <item quantity="many">Выбрано %d объектов</item>
+    </plurals>
+    <plurals name="not_authenticated_devices">
+        <item quantity="other">Всего у вас %s ненадежных устройств.</item>
+        <item quantity="one">Всего у вас %s ненадежное устройство.</item>
+        <item quantity="few">Всего у вас %s ненадежных устройства.</item>
+        <item quantity="many">Всего у вас %s ненадежных устройств.</item>
     </plurals>
     <plurals name="noti_quota_full_title_with_icon_text">
         <item quantity="other">Хранилище заполнено. Не удалось синхронизировать &lt;font color=#F22424>%d приложений&lt;/font>.</item>

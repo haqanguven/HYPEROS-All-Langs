@@ -28,7 +28,10 @@
     <string name="abc_shareactionprovider_share_with_application">Поділитися через додаток %s</string>
     <string name="abc_toolbar_collapse_description">Згорнути</string>
     <string name="accessibility_call_muted">Звук виклику вимкнено.</string>
+    <string name="accessibility_sliding_button_state_description_off">Вимкнено</string>
+    <string name="accessibility_sliding_button_state_description_on">Увімкнено</string>
     <string name="accessibility_speakerphone_enabled">Гучний зв’язок увімкнено.</string>
+    <string name="accessibility_tab_state_description_unselect">Не вибрано</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="add_blocked_dialog_body">Заблокувати виклики та SMS із</string>
     <string name="add_blocked_number_hint">Номер телефону</string>
@@ -61,7 +64,13 @@
     <string name="blocked_numbers_number_already_blocked_message">Номер %1$s уже заблоковано.</string>
     <string name="blocked_numbers_number_blocked_message">Номер %1$s заблоковано</string>
     <string name="blocked_numbers_number_unblocked_message">Номер %1$s розблоковано</string>
+    <string name="callFailed_already_ringing">Неможливо зателефонувати. Прийміть або відхиліть вхідний дзвінок, перш ніж здійснювати новий.</string>
+    <string name="callFailed_outgoing_already_present">Неможливо зателефонувати, оскільки здійснюється інший виклик. Зачекайте, поки абонент вам відповість, або скасуйте наявний виклик, перш ніж починати інший.</string>
+    <string name="callFailed_reject_mmi">Цей код MMI недоступний для дзвінків із використанням кількох облікових записів.</string>
     <string name="callFailed_simError">Помилка SIM-карти</string>
+    <string name="callFailed_too_many_calls_exclude_merge">Неможливо зателефонувати, оскільки тривають уже два виклики. Припиніть один із них, перш ніж здійснити новий.</string>
+    <string name="callFailed_too_many_calls_include_merge">Неможливо зателефонувати, оскільки тривають уже два виклики. Припиніть один із них або об’єднайте їх у конференцію, перш ніж здійснити новий.</string>
+    <string name="callFailed_unholdable_call">Неможливо зателефонувати, оскільки поточний виклик не можна поставити на утримання. Припиніть виклик, перш ніж здійснити новий.</string>
     <string name="call_notification_answer_action">Відповісти</string>
     <string name="call_notification_answer_video_action">Відео</string>
     <string name="call_notification_decline_action">Відхилити</string>
@@ -81,7 +90,8 @@
     <string name="can_not_dial_vt_while_voice_prompt">Неможливо здійснити відеовиклик під час голосового виклику</string>
     <string name="can_not_dial_while_vt_prompt">Неможливо набрати номер у процесі відеодзвінка</string>
     <string name="cancel">Скасувати</string>
-    <string name="cant_call_due_to_no_supported_service">Такі виклики не підтримуються. Немає потрібного облікового запису чи сервісу.</string>
+    <string name="cant_call_due_to_dsdstransition_invalid_sub">Поточний акаунт недійсний. Прийом викликів недоступний.</string>
+    <string name="cant_call_due_to_no_supported_service">Не вдається здійснити виклик. Перевірте підключення пристрою.</string>
     <string name="cant_call_due_to_ongoing_call">Неможливо зателефонувати через поточний виклик у %1$s.</string>
     <string name="cant_call_due_to_ongoing_calls">Неможливо зателефонувати через поточні виклики в %1$s.</string>
     <string name="cant_call_due_to_ongoing_unknown_call">Неможливо зателефонувати через поточний виклик в іншому додатку.</string>
@@ -110,6 +120,7 @@
     <string name="do_not_show_again">Більше не показувати</string>
     <string name="duplicate_video_call_not_allowed">Зараз не можна почати дзвінок.</string>
     <string name="early_morning">Ранок</string>
+    <string name="emergencyCall_reject_mmi">Не можна набирати коди MMI під час екстреного виклику.</string>
     <string name="empty" />
     <string name="enable_account_preference_title">Облікові записи для дзвінків</string>
     <string name="eras_ad">н. е.</string>
@@ -177,6 +188,12 @@
     <string name="midnight">Ніч</string>
     <string name="missedcall_notification_public_version_title">Телефон</string>
     <string name="miuix_access_state_desc">Вибрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Згорнуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Розгорнуто</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Вийти з режиму редагування</string>
+    <string name="miuix_appcompat_accessibility_new_message">Нове сповіщення</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Ввійти в режим редагування</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Зняти вибір</string>
     <string name="miuix_appcompat_action_mode_select_all">Вибрати все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Вибрати</string>
@@ -192,6 +209,8 @@
     <string name="miuix_appcompat_select_all">Вибрати все</string>
     <string name="miuix_appcompat_select_all_description">Вибрати все</string>
     <string name="miuix_appcompat_select_item">Вибрати елементи</string>
+    <string name="miuix_appcompat_show_dialog_description">Спливаюче вікно</string>
+    <string name="miuix_progressbar_loading">Завантаження</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потягніть вниз для оновлення</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Оновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Оновлення…</string>
@@ -200,6 +219,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Більше нічого немає</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Хвилинку…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не вдалося завантажити елементи</string>
+    <string name="miuix_show_password">Показати пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Згорнуто</string>
+    <string name="miuix_stretchablewidget_expanded">Розгорнуто</string>
     <string name="monday">Понеділок</string>
     <string name="monday_short">Пон</string>
     <string name="monday_shortest">Пн</string>

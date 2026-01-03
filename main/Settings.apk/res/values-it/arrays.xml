@@ -101,7 +101,7 @@
         <item>Volume Bluetooth</item>
         <item>Mantieni attivo</item>
         <item>Posizione</item>
-        <item>Geolocalizzazione</item>
+        <item>Posizione</item>
         <item>"Ricevi statistiche sull'utilizzo"</item>
         <item>Attiva/disattiva microfono</item>
         <item>"Visualizzazione dell'avviso popup"</item>
@@ -313,18 +313,20 @@
         <item>Miglior risultato (bit rate automatico)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Usa selezione di sistema (predefinita)</item>
+        <item>Usa preferenze di sistema (predefinito)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Usa selezione di sistema (predefinita)</item>
+        <item>Usa preferenze di sistema (predefinito)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
+        <item>192.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
         <item>Usa preferenze di sistema (predefinito)</item>
@@ -582,6 +584,7 @@
         <item>Mostra aree overdraw</item>
         <item>Mostra aree con deuteranomalia</item>
     </string-array>
+    <array name="display_over_apps_permission_change_exempt" />
     <string-array name="eap_ocsp_type">
         <item>Non verificare</item>
         <item>Chiedi stato dei certificati</item>
@@ -742,8 +745,8 @@
     </string-array>
     <string-array name="long_press_volume_down_action">
         <item>Nessuno</item>
-        <item>Modalità scatto veloce (foto)</item>
-        <item>Modalità scatto veloce (video)</item>
+        <item>Modalità scatto rapido (foto)</item>
+        <item>Modalità scatto rapido (video)</item>
         <item>Collegamenti mezzi pubblici</item>
     </string-array>
     <string-array name="max_number_titles">
@@ -1105,6 +1108,33 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>Standard</item>
         <item>Freddo</item>
     </string-array>
+    <string-array name="screen_flash_color_entries">
+        <item>@string/screen_flash_color_none</item>
+        <item>@string/screen_flash_color_blue</item>
+        <item>@string/screen_flash_color_green</item>
+        <item>@string/screen_flash_color_yellow</item>
+        <item>@string/screen_flash_color_orange</item>
+        <item>@string/screen_flash_color_red</item>
+        <item>@string/screen_flash_color_violet</item>
+    </string-array>
+    <array name="screen_flash_color_icons">
+        <item>@drawable/screen_flash_color_none</item>
+        <item>@drawable/screen_flash_color_blue</item>
+        <item>@drawable/screen_flash_color_green</item>
+        <item>@drawable/screen_flash_color_yellow</item>
+        <item>@drawable/screen_flash_color_orange</item>
+        <item>@drawable/screen_flash_color_red</item>
+        <item>@drawable/screen_flash_color_violet</item>
+    </array>
+    <string-array name="screen_flash_color_values">
+        <item>0</item>
+        <item>4D0000FE</item>
+        <item>6600FF01</item>
+        <item>66FFFF00</item>
+        <item>66FF7F00</item>
+        <item>66FE0000</item>
+        <item>667F00FF</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0,5 secondi</item>
         <item>1 secondo</item>
@@ -1124,9 +1154,17 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>Migliora sempre i colori</item>
         <item>Il contrasto rimarrà costante</item>
     </string-array>
+    <string-array name="screen_optimize_summary_new">
+        <item>Colori migliorati per un display più vivace</item>
+        <item>Ripristina i colori standard dello schermo</item>
+    </string-array>
     <string-array name="screen_optimize_title">
         <item>Vivido (consigliato)</item>
         <item>Intenso</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="screen_optimize_title_new">
+        <item>Vivido (consigliato)</item>
         <item>Standard</item>
     </string-array>
     <string-array name="screen_resolution_format">
@@ -1208,6 +1246,24 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>Tutti tranne il segnale radio</item>
         <item>solo kernel</item>
     </string-array>
+    <string-array name="shade_display_awareness_entries">
+        <item>Solo display del dispositivo (impostazione predefinita)</item>
+        <item>Display esterno</item>
+        <item>Ultimo tocco alla barra di stato</item>
+        <item>In base alla selezione</item>
+    </string-array>
+    <string-array name="shade_display_awareness_summaries">
+        <item>"Mostra l'area delle notifiche solo sul display del dispositivo"</item>
+        <item>"Mostra l'area delle notifiche su un singolo display esterno"</item>
+        <item>"Mostra l'area delle notifiche sul display in cui è avvenuta l'ultima interazione con la barra di stato"</item>
+        <item>"Mostra l'area delle notifiche sull'ultimo display selezionato"</item>
+    </string-array>
+    <string-array name="shade_display_awareness_values">
+        <item>default_display</item>
+        <item>any_external_display</item>
+        <item>status_bar_latest_touch</item>
+        <item>focused_display</item>
+    </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Off</item>
         <item>Area ritaglio non rettangolare blu</item>
@@ -1265,12 +1321,6 @@ Nota: Solo per Ubuntu 8.04!"</item>
     <string-array name="tabs_taptic_detail_m2">
         <item>Nitido</item>
         <item>Solido</item>
-    </string-array>
-    <string-array name="tare_modifiers_subfactors">
-        <item>In carica</item>
-        <item>Sospensione</item>
-        <item>Modalità di risparmio energetico</item>
-        <item>Stato processo</item>
     </string-array>
     <array name="three_drop">
         <item>@drawable/threedrop01</item>
@@ -1335,10 +1385,18 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>Migliora sempre i colori</item>
         <item>Ripristina il colore standard del contenuto dello schermo con la calibrazione del colore</item>
     </string-array>
+    <string-array name="true_color_screen_optimize_summary_new">
+        <item>Colori migliorati per un display più vivace</item>
+        <item>Ripristina i colori standard del contenuto dello schermo con la calibrazione del colore</item>
+    </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Vivido (consigliato)</item>
         <item>Intenso</item>
         <item>Colore originale</item>
+    </string-array>
+    <string-array name="true_color_screen_optimize_title_new">
+        <item>Vivido (consigliato)</item>
+        <item>Originale</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>60%</item>
@@ -1574,5 +1632,47 @@ Nota: Solo per Ubuntu 8.04!"</item>
         <item>Scala animazione 2x</item>
         <item>Scala animazione 5x</item>
         <item>Scala animazione 10x</item>
+    </string-array>
+    <string-array name="zen_mode_icon_options_descriptions">
+        <item>Valigetta</item>
+        <item>Edificio classico</item>
+        <item>Condominio</item>
+        <item>Fumetto</item>
+        <item>Gruppo di persone</item>
+        <item>Lampadina</item>
+        <item>Calendario</item>
+        <item>Non disturbare</item>
+        <item>Persona che corre</item>
+        <item>Golf</item>
+        <item>Manubrio da palestra</item>
+        <item>Nuoto</item>
+        <item>"Persona che fa un'escursione"</item>
+        <item>Persona che lancia una palla</item>
+        <item>Persona che tira un calcio</item>
+        <item>Controller di gioco</item>
+        <item>Tavolozza dei colori da artista</item>
+        <item>Fiocco di neve</item>
+        <item>Ombrellone da spiaggia</item>
+        <item>Strumenti per il workshop</item>
+        <item>Piano</item>
+        <item>Pellicola</item>
+        <item>Libro</item>
+        <item>Fiore di loto</item>
+        <item>Mente di una persona</item>
+        <item>Cuffie</item>
+        <item>TV</item>
+        <item>Treno</item>
+        <item>Auto</item>
+        <item>Forchetta e coltello</item>
+        <item>Carrello</item>
+        <item>Figlio</item>
+        <item>Zampa di animale</item>
+        <item>Badge a forma di stella</item>
+        <item>Due persone</item>
+        <item>Stella</item>
+        <item>Cuore</item>
+        <item>Casa</item>
+        <item>Mezza luna</item>
+        <item>Orologio</item>
     </string-array>
 </resources>

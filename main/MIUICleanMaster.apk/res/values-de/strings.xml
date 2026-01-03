@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Teilen mit</string>
     <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
     <string name="abc_toolbar_collapse_description">Minimieren</string>
+    <string name="accessibility_sliding_button_state_description_off">Ausgeschaltet</string>
+    <string name="accessibility_sliding_button_state_description_on">Eingeschaltet</string>
+    <string name="accessibility_tab_state_description_unselect">Nicht ausgewählt</string>
     <string name="actionbar_button_up_description">Zurück</string>
     <string name="activity_title_ad">Werbung</string>
     <string name="activity_title_apk">Pakete</string>
@@ -125,17 +128,15 @@
     <string name="auto_cleaner_open">Einschalten</string>
     <string name="back">Zurück</string>
     <string name="be_figuring">Berechnen…</string>
-    <string name="btn_text_done">Fertig</string>
     <string name="btn_text_quick_cleanup">Bereinigen</string>
     <string name="btn_text_quick_cleanup_apk">%1$s ausgewählte APKs löschen</string>
     <string name="btn_text_quick_cleanup_appdata">%1$s ausgewählte Daten löschen</string>
     <string name="btn_text_quick_cleanup_large_file">%1$s ausgewählte Dateien löschen</string>
     <string name="btn_text_quick_cleanup_video">%1$s ausgewählte Videos löschen</string>
-    <string name="btn_text_quick_scan">Suchen</string>
     <string name="btn_text_stop">Stoppen</string>
     <string name="button_text_add_to_white_list">Ausnahme</string>
     <string name="button_text_backup_uninstall">Zuerst sichern</string>
-    <string name="button_text_cancel">Abbruch</string>
+    <string name="button_text_cancel">Abbrechen</string>
     <string name="button_text_cleanup">Bereinigen</string>
     <string name="button_text_delete_from_white_list">Löschen</string>
     <string name="button_text_delete_pic">Löschen</string>
@@ -159,7 +160,6 @@
     <string name="button_text_unselect_pic">Abwählen</string>
     <string name="button_text_view_detail">Details</string>
     <string name="button_text_view_file">Datei</string>
-    <string name="buy_a_new_phone">Mehr Speicherplatz erhalten</string>
     <string name="buy_immediately">Kaufen</string>
     <string name="buy_traffic_pack">Mehr Datenvolumen kaufen</string>
     <string name="byteShort">B</string>
@@ -174,13 +174,13 @@
     <string name="call_notification_incoming_text">Eingehender Anruf</string>
     <string name="call_notification_ongoing_text">Aktueller Anruf</string>
     <string name="call_notification_screening_text">Filter für eingehenden Anruf</string>
-    <string name="cancel">Abbruch</string>
+    <string name="cancel">Abbrechen</string>
     <string name="cd_back">Zurück</string>
     <string name="cd_check_box_checked">geprüft</string>
     <string name="cd_check_box_middle">teilweise ausgewählt</string>
     <string name="cd_check_box_unchecked">nicht geprüft</string>
-    <string name="cd_list_item_collapse">einklappen</string>
-    <string name="cd_list_item_expanded">erweitern</string>
+    <string name="cd_list_item_collapse">Eingeklappt</string>
+    <string name="cd_list_item_expanded">Erweitert</string>
     <string name="cd_percent">Prozent</string>
     <string name="cd_scanning">scannen</string>
     <string name="cd_settings">Einstellungen</string>
@@ -226,7 +226,6 @@
     <string name="common_signin_button_text">Anmelden</string>
     <string name="common_signin_button_text_long">Über Google anmelden</string>
     <string name="confirm_auto_cleaner">OK</string>
-    <string name="conn_of_function_safe">Netzwerkverbindung für Sicherheit</string>
     <string name="connecting">Verbinden…</string>
     <string name="copy">Kopieren</string>
     <string name="copy_toast_msg">Link in Zwischenablage kopiert</string>
@@ -256,7 +255,9 @@
     <string name="dc_storage_info_new">%1$s verfügbar</string>
     <string name="deep_clean_completed_tips">Erfolgreich bereinigt</string>
     <string name="deep_clean_data_path_clean_title">Cache löschen</string>
+    <string name="deep_clean_down">Absteigende Reihenfolge</string>
     <string name="deep_clean_uninstall_completed_tips">Erfolgreich deinstalliert</string>
+    <string name="deep_clean_up">Aufsteigende Reihenfolge</string>
     <string name="deepclean_1_k_clean">Speicher bereinigen</string>
     <string name="deepclean_apk_content">APKs oder unnötige Apps löschen</string>
     <string name="deepclean_apk_group_hint_checked">Alle auswählen</string>
@@ -292,6 +293,7 @@
     <string name="deepclean_video_content">Bereits angeschaute oder unnötige Videos löschen</string>
     <string name="deepclean_video_summary_empty">Alles sieht gut aus!</string>
     <string name="default_cache_type">Datensätze</string>
+    <string name="delete">Löschen</string>
     <string name="delete_confirm">Löschen</string>
     <string name="delete_confirm_msg">Ausgewählte Dateien dauerhaft löschen?</string>
     <string name="desc_image">Bild</string>
@@ -303,8 +305,14 @@
     <string name="dialog_msg_esc_cleanmaster">Scan anhalten und Bereinigung verlassen?</string>
     <string name="dialog_msg_load_cleanup_engine_error">Cleaner Modul wurde beschädigt.</string>
     <string name="dialog_msg_stop_scan">Scannen jetzt anhalten?</string>
+    <string name="dialog_msg_uninstall_app_os3">Bei der Deinstallation der App werden alle ihre Daten gelöscht.</string>
     <string name="dialog_msg_uninstall_apps">Diese Apps entfernen?</string>
+    <string name="dialog_msg_uninstall_apps_comfirm">Ich verstehe, dass gelöschte App-Daten nicht wiederhergestellt werden können.</string>
+    <string name="dialog_msg_uninstall_apps_os3">Bei der Deinstallation werden alle App-Daten entfernt.</string>
+    <string name="dialog_msg_uninstall_apps_toast">Bestätige, dass du verstehst, dass gelöschte App-Daten nicht wiederhergestellt werden können.</string>
     <string name="dialog_msg_uninstall_apps_xspace">Diese Apps samt Dual-Apps entfernen?</string>
+    <string name="dialog_msg_uninstall_apps_xspace_os3">Die duale App wird zusammen mit dieser deinstalliert.</string>
+    <string name="dialog_msg_uninstall_apps_xspace_os3_multiple">Die entsprechenden dualen Apps werden zusammen mit den App-Daten deinstalliert.</string>
     <string name="dialog_ok_add_white_list_error">Verstanden</string>
     <string name="dialog_title_add_white_list_error">Achtung</string>
     <string name="dialog_title_backup_and_uninstall_apps">Sichern und entfernen</string>
@@ -416,9 +424,8 @@
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">Fr</string>
     <string name="function_app_lock_title">%d Apps bergen Datenschutzrisiken</string>
-    <string name="garbage_clean_detail">Details</string>
-    <string name="garbage_month">%s in diesem Monat bereinigt</string>
     <string name="gigabyteShort">GB</string>
+    <string name="global_summary_wa_setting">Erhalte Benachrichtigungen, wenn der WhatsApp-Papierkorb die ausgewählte Größe überschreitet</string>
     <string name="global_wa_audio">Audio</string>
     <string name="global_wa_audio_item_title">Sprachnachrichten</string>
     <string name="global_wa_backend_alert_dialog_content">Mache Speicherplatz frei, indem du WhatsApp-Elemente bereinigst</string>
@@ -471,7 +478,6 @@
     <string name="global_wa_shortcut_toast">Startbildschirmverknüpfung erfolgreich erstellt</string>
     <string name="global_wa_wrapper">Hintergrundbilder</string>
     <string name="go_to">Weiter</string>
-    <string name="golbal_wa_backend_alert_dialog_btn">Öffnen</string>
     <string name="goto_set">Festlegen</string>
     <string name="grabage_rank_title">Heute bereinigt</string>
     <string name="guide_dc_dialog_message_new">Es verbleiben weniger als %d GB freier Speicherplatz. Dies könnte dein Gerät verlangsamen. Führe eine Tiefe Bereinigung durch, um Speicherplatz freizulegen.</string>
@@ -479,11 +485,11 @@
     <string name="guide_dc_dialog_positive">OK</string>
     <string name="guide_dc_dialog_title">Speicherplatz wird knapp</string>
     <string name="guide_secure_dialog_message_new">Optimierungsfaktor deines Gerätes liegt unter %d Punkten. Jetzt optimieren?</string>
-    <string name="guide_secure_dialog_negative">Abbruch</string>
+    <string name="guide_secure_dialog_negative">Abbrechen</string>
     <string name="guide_secure_dialog_positive">Optimieren</string>
     <string name="guide_secure_dialog_title">Leistung optimieren</string>
     <string name="guide_virus_dialog_message">Scannen von Apps und Installationspaketen schützt dein Gerät vor Viren und Malware. Jetzt scannen?</string>
-    <string name="guide_virus_dialog_negative">Abbruch</string>
+    <string name="guide_virus_dialog_negative">Abbrechen</string>
     <string name="guide_virus_dialog_positive">Scannen</string>
     <string name="guide_virus_dialog_title">Antivirenscan</string>
     <string name="hint_clean_select_items">Duplikate löschen…</string>
@@ -540,7 +546,6 @@
     <string name="hints_title_garbage">Müll</string>
     <string name="hints_video_camera">Aufgenommene Videos</string>
     <string name="hints_video_download">Heruntergeladene Videos</string>
-    <string name="hot">Beliebt</string>
     <string name="hot_today">Heute beliebt</string>
     <string name="information_setting">Empfehlungen</string>
     <string name="install_sucess">%s erfolgreich installiert</string>
@@ -562,7 +567,7 @@
     <string name="low_memory_clean_dialog_msg_new">Lege zunächst mindestens %d MB Dateispeicher frei</string>
     <string name="low_memory_clean_dialog_ok_button">OK</string>
     <string name="low_memory_clean_dialog_title">Nicht genug Speicherplatz</string>
-    <string name="low_memory_warning_dialog_cancel_button">Abbruch</string>
+    <string name="low_memory_warning_dialog_cancel_button">Abbrechen</string>
     <string name="low_memory_warning_dialog_msg">Zum Fortfahren Speicher freimachen</string>
     <string name="low_memory_warning_dialog_ok_button">Löschen</string>
     <string name="low_memory_warning_dialog_title">Nicht genug Speicherplatz</string>
@@ -572,7 +577,6 @@
     <string name="mainbtn_text_quick_cleanup">%s bereinigen</string>
     <string name="mainbtn_text_quick_cleanup_default">Aufräumen</string>
     <string name="megabyteShort">MB</string>
-    <string name="memeory_check_content">%1$d Apps, Speicher %2$s</string>
     <string name="memory_clean_icon_text">Geschwindigkeit erhöhen</string>
     <string name="memory_clean_no_trash_tip">Alles sieht gut aus</string>
     <string name="menu_add_to_white_list">Zu Ausnahmen hinzufügen</string>
@@ -583,9 +587,16 @@
     <string name="menu_view">In Ordner anzeigen</string>
     <string name="midnight">Nacht</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Eingeklappt</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Erweitert</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus beenden</string>
+    <string name="miuix_appcompat_accessibility_new_message">Neue Benachrichtigung</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus starten</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Auswahl aufheben</string>
     <string name="miuix_appcompat_action_mode_select_all">Alles auswählen</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elemente auswählen</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Auswählen</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mehr</string>
     <string name="miuix_appcompat_cancel_description">Abbruch</string>
     <string name="miuix_appcompat_confirm_description">Bestätigen</string>
@@ -598,6 +609,8 @@
     <string name="miuix_appcompat_select_all">Alles auswählen</string>
     <string name="miuix_appcompat_select_all_description">Alles auswählen</string>
     <string name="miuix_appcompat_select_item">Elemente auswählen</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop-up-Fenster</string>
+    <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Wird aktualisiert…</string>
@@ -606,6 +619,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">"Das war's fürs Erste"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Moment...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Laden von Elementen fehlgeschlagen</string>
+    <string name="miuix_show_password">Vis adgangskode</string>
+    <string name="miuix_stretchablewidget_collapsed">Eingeklappt</string>
+    <string name="miuix_stretchablewidget_expanded">Erweitert</string>
     <string name="monday">Montag</string>
     <string name="monday_short">Mo</string>
     <string name="monday_shortest">Mo</string>
@@ -661,6 +677,7 @@
     <string name="native_media_view">Medienansicht</string>
     <string name="nb_clear_set">In der Benachrichtigungsleiste Cache löschen sowie Akku- und Sperrlisteninformationen anzeigen</string>
     <string name="network_not_available">Netzwerkverbindung fehlgeschlagen</string>
+    <string name="never_remind">Niemals</string>
     <string name="news_change">Ändern</string>
     <string name="night">Abend</string>
     <string name="no_network">Netzwerkverbindung fehlgeschlagen, später erneut versuchen</string>
@@ -748,9 +765,10 @@ Du erhältst weitere Informationen, sobald du wieder online bist."</string>
     <string name="open_app">Öffnen</string>
     <string name="open_browser">Im Browser öffnen</string>
     <string name="open_file_error">App zum Öffnen dieser Datei nicht gefunden</string>
+    <string name="out">Über %s</string>
     <string name="output_videos">Videos exportieren</string>
     <string name="permission_dialog_storage_btn1">Einstellungen</string>
-    <string name="permission_dialog_storage_btn2">Abbruch</string>
+    <string name="permission_dialog_storage_btn2">Abbrechen</string>
     <string name="permission_dialog_storage_content">Um normal arbeiten zu können, benötigt der Cleaner die Berechtigung, auf den internen Speicher zuzugreifen. Tippe auf „Einstellungen“, um die Speicherberechtigungen zu verwalten.</string>
     <string name="permission_dialog_storage_title">Berechtigungen erforderlich</string>
     <string name="petabyteShort">PB</string>
@@ -775,10 +793,12 @@ Du erhältst weitere Informationen, sobald du wieder online bist."</string>
     <string name="pref_category_title_cleanup_white_list">Ausnahmen</string>
     <string name="pref_category_title_engine_settings">Einstellungen Scandefinition</string>
     <string name="pref_category_title_garbage_cleanup_check">Benachrichtigungen</string>
+    <string name="pref_category_title_notification_settings">Benachrichtigungen</string>
     <string name="pref_category_title_other_clean_settings">Weitere Einstellungen</string>
     <string name="pref_content_cleanup_white_list_none">Keine</string>
     <string name="pref_summary_auto_clean_and_alert">Plane die autom. Ausführung des Cleaners</string>
     <string name="pref_summary_auto_update_cleanup_db">Letzte Aktualisierung: %s</string>
+    <string name="pref_summary_clean_settings">Erhalte Benachrichtigungen, wenn der Papierkorb die ausgewählte Größe überschreitet</string>
     <string name="pref_summary_cleanup_white_list">Ausgewählte Dateien von der Bereinigung ausschließen</string>
     <string name="pref_summary_expand_cache_group">Cachedetails automatisch anzeigen</string>
     <string name="pref_summary_garbage_auto_clean_content">Wähle Elemente zur automatischen Bereinigung</string>
@@ -786,6 +806,8 @@ Du erhältst weitere Informationen, sobald du wieder online bist."</string>
     <string name="pref_summary_garbage_cleanup_check_time">Reinigungsroutine planen</string>
     <string name="pref_summary_garbage_process_mode">Benachrichtigungen festlegen, während Cleaner läuft</string>
     <string name="pref_summary_open_optimizer_cloud_scan">Unbekannte Dateinamen hochladen und mit Online Definitionen vergleichen</string>
+    <string name="pref_summary_reminder_interval">Erhalte nur eine Benachrichtigung während des ausgewählten Zeitraums</string>
+    <string name="pref_summary_wechat_clean_settings">Erhalte Benachrichtigungen, wenn der WeChat-Papierkorb die ausgewählte Größe überschreitet</string>
     <string name="pref_title_apps_cleanup_size">Wenn Cache-Größe erreicht</string>
     <string name="pref_title_auto_clean_content_choose">Wähle Elemente zum Bereinigen</string>
     <string name="pref_title_auto_update_cleanup_db">Automatisch aktualisieren</string>
@@ -793,6 +815,7 @@ Du erhältst weitere Informationen, sobald du wieder online bist."</string>
     <string name="pref_title_clean_alert">An Bereinigung erinnern</string>
     <string name="pref_title_cleanup_white_list">Ausnahmen</string>
     <string name="pref_title_create_onekeyclean_shortcut">Startbildschirmverknüpfung anzeigen</string>
+    <string name="pref_title_engine">Definitionen scannen</string>
     <string name="pref_title_expand_cache_group">Zwischengespeicherte Elemente anzeigen</string>
     <string name="pref_title_garbage_cleanup_check_size">Begrenzung Papierkorbgröße</string>
     <string name="pref_title_garbage_cleanup_check_time">Zeitplan</string>
@@ -813,18 +836,10 @@ Du erhältst weitere Informationen, sobald du wieder online bist."</string>
     <string name="qq_clean">QQ-Bereinigung</string>
     <string name="qq_clean_exit_confirm_msg">Scan anhalten und verlassen?</string>
     <string name="qq_clean_finish_summary">Ausgewählte Dateien wurden erfolgreich gelöscht</string>
-    <string name="qq_data_type_cache">QQ Cache</string>
-    <string name="qq_data_type_cache_desc">Du kannst diese Dateien bei einer Internetverbindung wiederherstellen.</string>
-    <string name="qq_data_type_chat">Chatverlauf</string>
-    <string name="qq_data_type_chat_desc">Du kannst den Chatverlauf nicht wiederherstellen.</string>
-    <string name="qq_data_type_normal">Müll</string>
-    <string name="qq_data_type_normal_clean_tips">Dies sind technische Dateien. Löschen beeinträchtigt die Nutzung nicht.</string>
-    <string name="qq_data_type_normal_desc">Löschen beeinträchtigt die Nutzung nicht.</string>
-    <string name="qq_data_type_other">Sonstiges</string>
-    <string name="qq_data_type_other_desc">Achte darauf, dass du diese Dateien nach dem Löschen möglicherweise nicht wiederherstellen kannst.</string>
     <string name="recommend_news">Empfehlungen anzeigen</string>
     <string name="recommend_the_following">Führe Folgendes aus, um das Beste aus deinem Gerät zu holen</string>
     <string name="recommended">Empfohlen</string>
+    <string name="reminder_interval">Erinnerungsintervall</string>
     <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> weitere Dateien können gelöscht werden. Mehr Speicher freigeben.</Data></string>
     <string name="resutl_function_qq_clean_summary"><Data>Du kannst &lt;font color=#ff0000 >%1$s&lt;/font> des von QQ generierten Cache löschen</Data></string>
     <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> von WeChat-Cache. Mehr Speicher freigeben.</Data></string>
@@ -865,7 +880,6 @@ Du erhältst weitere Informationen, sobald du wieder online bist."</string>
     <string name="start_install">Jetzt installieren</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
-    <string name="summary_delete_apk">Ausgewählte APKs dauerhaft löschen?</string>
     <string name="summary_delete_cache">Cache der ausgewählten Apps leeren?</string>
     <string name="summary_delete_large_file">Ausgewählte Dateien dauerhaft löschen?</string>
     <string name="summary_delete_video">Ausgewählte Videos dauerhaft löschen?</string>
@@ -920,7 +934,7 @@ Du erhältst weitere Informationen, sobald du wieder online bist."</string>
     <string name="time_picker_dialog_title">Uhrzeit einstellen</string>
     <string name="time_picker_label_hour">Std</string>
     <string name="time_picker_label_minute">Min.</string>
-    <string name="tips_low_storage_dialog_cancel">Abbruch</string>
+    <string name="tips_low_storage_dialog_cancel">Abbrechen</string>
     <string name="tips_low_storage_dialog_msg_qq_new">QQ Cache-Speicher beträgt %d GB. Dies verlangsamt dein Gerät eventuell. QQ-Cache jetzt löschen?</string>
     <string name="tips_low_storage_dialog_msg_storage_new">Du verwendest %s deines Speicherplatzes. Deinstalliere nicht verwendete Apps.</string>
     <string name="tips_low_storage_dialog_msg_wechat_new">WeChat Cache-Speicher beträgt %d GB. Dies verlangsamt dein Gerät eventuell. WeChat-Cache jetzt löschen?</string>
@@ -1107,6 +1121,7 @@ Du erhältst weitere Informationen, sobald du wieder online bist."</string>
     <string name="tuesday">Dienstag</string>
     <string name="tuesday_short">Di</string>
     <string name="tuesday_shortest">Di</string>
+    <string name="uninstall_one">%s deinstallieren</string>
     <string name="unit_gb">%s GB</string>
     <string name="unit_mb">%s MB</string>
     <string name="unlike">Nein, danke</string>
@@ -1161,7 +1176,7 @@ Du erhältst weitere Informationen, sobald du wieder online bist."</string>
     <string name="whatsapp_clean_exit_confirm_ok">Anhalten</string>
     <string name="whatsapp_clean_exit_confirm_title">Scan anhalten?</string>
     <string name="whatsapp_content_empty">Keine Elemente vorhanden.</string>
-    <string name="whatsapp_delete_confirm_cancel">Abbruch</string>
+    <string name="whatsapp_delete_confirm_cancel">Abbrechen</string>
     <string name="whatsapp_delete_confirm_message">Jetzt löschen?</string>
     <string name="whatsapp_delete_confirm_ok">OK</string>
     <string name="whatsapp_delete_done">Fertig</string>
@@ -1191,5 +1206,4 @@ Du erhältst weitere Informationen, sobald du wieder online bist."</string>
     <string name="wqfile_group_chat_video">Videos von Messengern</string>
     <string name="wqfile_group_chat_voice">Sprachnachrichten</string>
     <string name="year_month_day_format">d. MMM yyyy</string>
-    <string name="yesterday">Gestern</string>
 </resources>

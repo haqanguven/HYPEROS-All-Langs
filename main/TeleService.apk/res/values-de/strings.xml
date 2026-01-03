@@ -30,6 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
     <string name="abc_toolbar_collapse_description">Minimieren</string>
     <string name="accessibility_settings_activity_title">Bedienungshilfen</string>
+    <string name="accessibility_sliding_button_state_description_off">Ausgeschaltet</string>
+    <string name="accessibility_sliding_button_state_description_on">Eingeschaltet</string>
+    <string name="accessibility_tab_state_description_unselect">Nicht ausgewählt</string>
     <string name="actionbar_button_up_description">Zurück</string>
     <string name="activity_title_fakecell">Protection from fake base stations</string>
     <string name="add">Hinzufügen</string>
@@ -129,6 +132,12 @@ Möchtest du den Vorgang jetzt beenden?}}"</string>
     <string name="band_mode_set">Festlegen</string>
     <string name="band_mode_succeeded">Erfolgreich</string>
     <string name="band_mode_title">Frequenzbereichmodus festlegen</string>
+    <string name="beidou_findout_settings_title">Über BeiDou-Satellitennachrichten</string>
+    <string name="beidou_mobile_settings_summary">Nur für Benutzer von China Mobile verfügbar</string>
+    <string name="beidou_mobile_settings_summary_all">Nur für Benutzer mit aktivem BeiDou-Satellitenkommunikationsdienst verfügbar</string>
+    <string name="beidou_mobile_settings_title">BeiDou-Satellitenkommunikation</string>
+    <string name="beidou_satellite_enable_message_all">Kontaktiere deinen Anbieter, um den Dienst zu aktivieren.</string>
+    <string name="beidou_sms_location_fail_toast">Erlaube dieser Funktion zuerst den Zugriff auf deinen Standort</string>
     <string name="bf_news_settings">Geschäfts- und Finanznachrichten</string>
     <string name="business_hall_settings_summary">Kontrolliere deine Anrufe und Datennutzung</string>
     <string name="business_hall_settings_title">Einstellungen für den Netzbetreibertarif</string>
@@ -238,6 +247,8 @@ Möchtest du den Vorgang jetzt beenden?}}"</string>
     <string name="call_record_on_summary">Ein</string>
     <string name="call_record_setting">Anrufaufnahme</string>
     <string name="call_record_whitelist_custom">Ausgewählte Nummern</string>
+    <string name="call_recording_disclaimer_msg">Das geltende Recht in dem Land, in dem du oder andere Gesprächsteilnehmer sich befinden, kann verlangen, dass alle Parteien der Aufzeichnung zustimmen. Du bist verpflichtet, diese Gesetze einzuhalten und Xiaomi ist nicht haftbar für eine illegale Nutzung dieser Funktion. Gesprächsaufzeichnungen werden nur auf deinem Gerät gespeichert und können von Xiaomi nicht eingesehen werden.</string>
+    <string name="call_recording_disclaimer_title">Haftungsausschluss</string>
     <string name="call_recording_notification_message">Tippen zum Abspielen.</string>
     <string name="call_recording_notification_message_low_storage">Die SD-Karte ist voll.</string>
     <string name="call_recording_notification_message_sd_unmounted">SD-Karte wurde entfernt.</string>
@@ -336,6 +347,7 @@ Möchtest du den Vorgang jetzt beenden?}}"</string>
     <string name="china_mobile_palm_category">Carrier-Dienste</string>
     <string name="china_mobile_palm_title">CMCC Online Service Hall</string>
     <string name="choose_network_title">Netz auswählen</string>
+    <string name="choose_satellite_data_mode">Simulierter Satellitendatenmodus (nur Debug)</string>
     <string name="clearable_edittext_clear_description">Löschen</string>
     <string name="clh_callFailed_ACM_equal_to_or_greater_than_ACMmax_txt">Anruf konnte nicht korrekt abgeschlossen werden. Fehlercode 68.</string>
     <string name="clh_callFailed_access_information_discarded_txt">Anruf konnte nicht korrekt abgeschlossen werden. Fehlercode 43.</string>
@@ -457,6 +469,7 @@ Möchtest du den Vorgang jetzt beenden?}}"</string>
     <string name="delete">Löschen</string>
     <string name="delete_fdn_contact">Zugelassene Rufnummer löschen</string>
     <string name="deleting_fdn_contact">Zugelassene Rufnummer wird gelöscht...</string>
+    <string name="demo_esos_satellite_string">eSOS-Modus mit Demo-Satelliten testen (nur Debug-Build)</string>
     <string name="depopulated_zone_satellite_notification">Satellite communication reminders</string>
     <string name="description_concat_format">%1$s, %2$s</string>
     <string name="description_delete_button">Zurück</string>
@@ -569,7 +582,9 @@ Möchtest du den Vorgang jetzt beenden?}}"</string>
     <string name="enable_2g_dialog_title">Achtung</string>
     <string name="enable_2g_dialog_warn_message">Wenn du 2G ausschaltest und dich in einem Gebiet befindest, in dem nur 2G-Netze verfügbar sind, kannst du keine Notrufe oder andere Anrufe tätigen. Trotzdem ausschalten?</string>
     <string name="enable_2g_summary">2G-Netze sind weniger sicher, können aber an manchen Orten die Verbindungsqualität verbessern</string>
+    <string name="enable_2g_summary_eu">2G-Mobilfunkverbindungen verwenden. Für Notrufe ist die 2G-Verbindung immer eingeschaltet.</string>
     <string name="enable_2g_title">Nutzung von 2G erlauben</string>
+    <string name="enable_2g_title_eu">2G zulassen</string>
     <string name="enable_antispam_strange_summary">Ersten Anruf bei unbekannten Telefonnummern stummschalten</string>
     <string name="enable_antispam_strange_title">Ersten Anruf stummschalten</string>
     <string name="enable_cdma_call_waiting_setting">Du wirst während eines Anrufs über eingehende Anrufe benachrichtigt</string>
@@ -601,8 +616,8 @@ Möchtest du den Vorgang jetzt beenden?}}"</string>
     <string name="enable_esim_dialog_title">eSIM einschalten</string>
     <string name="enable_esim_error_toast_message">eSIM konnte nicht eingeschaltet werden</string>
     <string name="enable_esim_progress_activating_message">eSIM wird eingeschaltet…</string>
-    <string name="enable_esim_summary">SIM %s nach dem Einschalten deaktivieren</string>
-    <string name="enable_esim_title">eSIM einschalten</string>
+    <string name="enable_esim_summary">eSIM wird SIM %s ersetzen</string>
+    <string name="enable_esim_title">eSIM verwenden</string>
     <string name="enable_fdn">Rufnummernbeschränkung aktivieren</string>
     <string name="enable_fdn_ok">Rufnummernbeschränkung deaktivieren</string>
     <string name="enable_in_progress">PIN wird festgelegt…</string>
@@ -617,6 +632,7 @@ Möchtest du den Vorgang jetzt beenden?}}"</string>
     <string name="enable_video_calling_dialog_settings">Netzwerkeinstellungen</string>
     <string name="enable_video_calling_title">Videoanrufe aktivieren</string>
     <string name="enabled_by_admin">Vom Administrator aktiviert</string>
+    <string name="enforce_satellite_channel_string">LTE-Kanal für Satelliten-Camp erzwingen (nur Debug-Build)</string>
     <string name="enhanced_4g_lte_mode_off_failed">VoLTE deaktivieren fehlgeschlagen.</string>
     <string name="enhanced_4g_lte_mode_on_failed">VoLTE aktivieren fehlgeschlagen.</string>
     <string name="enhanced_4g_lte_mode_summary">Zur Verbesserung von Sprache und Kommunikation LTE-Dienste verwenden (empfohlen)</string>
@@ -624,6 +640,8 @@ Möchtest du den Vorgang jetzt beenden?}}"</string>
     <string name="enhanced_4g_lte_mode_title">Erweiterter 4G LTE-Modus</string>
     <string name="enter_callbarring_password">Trage ein Passwort zum Sperren von Anrufen ein (aus %d Zahlen)</string>
     <string name="enter_esim_manager_title">eSIM verwalten</string>
+    <string name="enter_esim_service_support_summary">Liste unterstützter Netzwerkanbieter anzeigen</string>
+    <string name="enter_esim_service_support_title">Unterstützte Netzwerkanbieter</string>
     <string name="enter_input">Die USSD-Nachricht muss zwischen %1$d und %2$d Zeichen lang sein. Bitte versuche es noch einmal.</string>
     <string name="enter_mep_esim_manager_title">SIM verwalten</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -646,6 +664,7 @@ Möchtest du den Vorgang jetzt beenden?}}"</string>
     <string name="fdn">Rufnummernbeschränkung</string>
     <string name="fdnListLabel">Zugelassene Rufnummern</string>
     <string name="fdn_activation">Aktivierung der Rufnummernbeschränkung</string>
+    <string name="fdn_blocked_mmi">MMI-Code kann nicht gewählt werden, da die Rufnummernbeschränkung aktiviert ist.</string>
     <string name="fdn_check_failure">Da die Rufnummernbeschränkung in deiner Telefon-App aktiviert ist, funktionieren nicht alle Anruffunktionen.</string>
     <string name="fdn_contact_added">Zugelassene Rufnummer hinzugefügt</string>
     <string name="fdn_contact_deleted">Zugelassene Rufnummer gelöscht</string>
@@ -660,10 +679,15 @@ Möchtest du den Vorgang jetzt beenden?}}"</string>
     <string name="fdn_summary">Ausgehende Anrufe auf Rufnummern oder Nummern mit bestimmten Präfixen beschränken</string>
     <string name="fdn_with_label">Zugelassene Rufnummern (%s)</string>
     <string name="feedback_title">Feedback</string>
+    <string name="filp_auto_answer_call_title">Aufklappen, um Anrufe anzunehmen</string>
+    <string name="filp_auto_hangup_call_summary">Funktioniert nur, wenn Bluetooth oder kabelgebundene Kopfhörer angeschlossen sind</string>
+    <string name="filp_auto_hangup_call_title">Einklappen, um Anrufe zu beenden</string>
     <string name="fire_type_description">Feuerwehr</string>
     <string name="fiveg_carrier_aggregation_title">5G Betreiber-Aggregation</string>
     <string name="fiveg_hosted_mode_summary">Automatisch das beste Netz wählen, um den Akku zu schonen</string>
     <string name="fiveg_hosted_mode_title">Smarter 5G-Wechsel</string>
+    <string name="fiveg_interruption_remind">Es sieht so aus, als ob deine SIM %s keine 5G-SA-Dienste nutzen kann. Wende dich für weitere Informationen an deinen Anbieter.</string>
+    <string name="fiveg_interruption_remind_title">5G-Dienste können nicht genutzt werden</string>
     <string name="fiveg_network_mode_default">Automatisch</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -965,6 +989,12 @@ Du kannst weiterhin Notrufe absetzen."</string>
     <string name="miui_notification_network_selection_title">SIM: Kein Dienst</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Kein Dienst</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Eingeklappt</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Erweitert</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus beenden</string>
+    <string name="miuix_appcompat_accessibility_new_message">Neue Benachrichtigung</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus starten</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Auswahl aufheben</string>
     <string name="miuix_appcompat_action_mode_select_all">Alles auswählen</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elemente auswählen</string>
@@ -980,6 +1010,8 @@ Du kannst weiterhin Notrufe absetzen."</string>
     <string name="miuix_appcompat_select_all">Alles auswählen</string>
     <string name="miuix_appcompat_select_all_description">Alles auswählen</string>
     <string name="miuix_appcompat_select_item">Elemente auswählen</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop-up-Fenster</string>
+    <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Wird aktualisiert…</string>
@@ -988,6 +1020,9 @@ Du kannst weiterhin Notrufe absetzen."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">"Das war's fürs Erste"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Moment...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Laden von Elementen fehlgeschlagen</string>
+    <string name="miuix_show_password">Vis adgangskode</string>
+    <string name="miuix_stretchablewidget_collapsed">Eingeklappt</string>
+    <string name="miuix_stretchablewidget_expanded">Erweitert</string>
     <string name="mmiCancelled">MMI-Code abgebrochen</string>
     <string name="mmiStarted">MMI-Code gestartet</string>
     <string name="mobile_advanced_dns_server_title">DNS-Serveradresse</string>
@@ -1164,6 +1199,8 @@ Benutze das bevorzugte Netzwerk stattdessen."</string>
     <string name="new_password_label">Neues Passwort aus %d Zahlen</string>
     <string name="new_pin2_label">Neue PIN%d</string>
     <string name="new_pin_label">Neue PIN</string>
+    <string name="newcall_settings_summary">„5G New Calling“-Dienste werden von deinem Anbieter zur Verfügung gestellt</string>
+    <string name="newcall_settings_title">5G New Calling</string>
     <string name="night">Abend</string>
     <string name="no_active_esim_text">Keine eSIM</string>
     <string name="no_change">Es wurden keine Änderungen vorgenommen.</string>
@@ -1200,6 +1237,8 @@ Benutze das bevorzugte Netzwerk stattdessen."</string>
     <string name="obtain_location_information">Standort</string>
     <string name="obtain_location_information_summary">Zum Optimieren der aktuellen Netzwerkumgebung</string>
     <string name="oem_radio_info_label">OEM-spezifische Infos/Einstellungen</string>
+    <string name="offline_call_has_call">Die andere Person ist beschäftigt. Versuche es in ein oder zwei Minuten erneut.</string>
+    <string name="offline_call_not_match_contact">Anruf fehlgeschlagen. Du bist kein Kontakt der anderen Person.</string>
     <string name="ok">Ok</string>
     <string name="oldPin2Label">Alte PIN2</string>
     <string name="oldPinLabel">Alte PIN</string>
@@ -1481,6 +1520,7 @@ Die SIM-Karte wird bei einem weiteren Fehlversuch gesperrt."</string>
     <string name="radio_info_data_connection_enable">Datenverbindung aktivieren</string>
     <string name="radio_info_data_network_type_label">Datennetzwerktyp:</string>
     <string name="radio_info_data_raw_registration_state_label">Registrierungsstatus der Daten:</string>
+    <string name="radio_info_data_view_satellite_config">Satellitenkonfiguration anzeigen</string>
     <string name="radio_info_dcnr_restricted">DCNR eingeschränkt (NSA):</string>
     <string name="radio_info_dds">Unter-ID der standardmäßigen Daten-SIM:</string>
     <string name="radio_info_dl_kbps">DL-Bandbreite (kbit/s):</string>
@@ -1519,7 +1559,6 @@ UT-Oberfläche: %5$s"</string>
     <string name="radio_info_smsc_refresh_label">Aktualisieren</string>
     <string name="radio_info_smsc_update_label">Update</string>
     <string name="radio_info_subid">Aktuelle Unter-ID:</string>
-    <string name="radio_info_toggle_dns_check_label">DNS-Überprüfung ein-/ausschalten</string>
     <string name="radio_info_ul_kbps">UL-Bandbreite (kbit/s):</string>
     <string name="radio_info_voice_network_type_label">Sprachnetzwerktyp:</string>
     <string name="radio_info_voice_raw_registration_state_label">Registrierungsstatus von Voice:</string>
@@ -1588,6 +1627,7 @@ UT-Oberfläche: %5$s"</string>
     <string name="roaming_notification_content">Ländercodes können automatisch hinzugefügt werden um das Anrufen beim Roaming zu vereinfachen.</string>
     <string name="roaming_notification_title">Scheinbar ist Roaming aktiviert</string>
     <string name="roaming_on_notification_title">Daten-Roaming aktiviert</string>
+    <string name="roaming_preferred_wificall_title">Netzwerkeinstellungen (Roaming)</string>
     <string name="roaming_reenable_message">Probiere Roaming aus um erneut eine Verbindung herzustellen.</string>
     <string name="roaming_user_package_summary_kr">Ein Roaming-Paket kaufen, abmelden oder bearbeiten. Die Nutzung dieses Menüs beim Roaming ist kostenlos.</string>
     <string name="roaming_user_package_title_kr">Roaming-Paket nutzen</string>
@@ -1597,9 +1637,23 @@ UT-Oberfläche: %5$s"</string>
        &lt;br> – RTT ist nicht für Videoanrufe verfügbar"</string>
     <string name="rtt_mode_summary">Nachrichten in Sprachanrufen erlauben</string>
     <string name="rtt_mode_title">RTT-Anruf</string>
+    <string name="rtt_settings_summary">Mit Echtzeit-Text (RTT) kannst du während eines Telefongesprächs mit Text kommunizieren</string>
+    <string name="rtt_settings_title">RTT-Anruf</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
+    <string name="satellite_config_allow_access_label">allow_access:</string>
+    <string name="satellite_config_country_code_label">Ländercodes:</string>
+    <string name="satellite_config_json_label">JSON-Konfiguration für Satellitenzugriff:</string>
+    <string name="satellite_config_service_type_label">subId/plmn/servicetype:</string>
+    <string name="satellite_config_size_of_sats2_dat_label">Größe von sats2.dat:</string>
+    <string name="satellite_config_version_label">Version:</string>
+    <string name="satellite_config_viewer">Satellite Config Viewer</string>
+    <string name="satellite_data_constrained_string">Begrenzt</string>
+    <string name="satellite_data_restricted_string">Eingeschränkt</string>
+    <string name="satellite_data_unConstrained_string">Unbegrenzt</string>
+    <string name="satellite_enable_non_emergency_mode_string">non-eSOS-Modus mit echtem Satelliten testen (nur Debug-Build)</string>
     <string name="satellite_exit_now_battery">Jetzt verlassen</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">Satellitennetzwerk</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">Nicht mehr anzeigen</string>
@@ -1607,6 +1661,9 @@ UT-Oberfläche: %5$s"</string>
     <string name="satellite_notification_title">"You're in a weak signal area"</string>
     <string name="satellite_point_title">Turn on Tiantong Satellite communications</string>
     <string name="satellite_select_enable_sim">SIM-Karte auswählen</string>
+    <string name="satellite_setting_disabled_summary">Nachrichten per Satellitenfunk senden und empfangen. Dein Konto unterstützt diesen Dienst nicht.</string>
+    <string name="satellite_setting_enabled_summary">Nachrichten per Satellitenfunk senden und empfangen. Dein Konto unterstützt diesen Dienst.</string>
+    <string name="satellite_setting_title">Nachrichten per Satellit</string>
     <string name="satellite_signal_boost_setting_summary">Enhance signal strength and stability in cloudy or other non-optimal weather conditions</string>
     <string name="satellite_signal_boost_setting_title">Use Tiantong signal amplifier</string>
     <string name="satellite_start">Verstanden</string>
@@ -1750,6 +1807,7 @@ Prüfe die Einstellung für das Standardkonto für Anrufe."</string>
     <string name="speed_limit_sim_summary">Du hast das Datenlimit deines Tarifs erreicht. Die Datengeschwindigkeit wird verlangsamt. Wende dich für weitere Informationen an deinen Anbieter.</string>
     <string name="speed_limit_sim_title">Die Datengeschwindigkeit ist begrenzt</string>
     <string name="sports_news_settings">Sportnachrichten</string>
+    <string name="start_call_record">Start</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">WiFi Calling from</string>
     <string name="status_hint_label_wifi_call">WiFi Calling</string>
@@ -1935,6 +1993,8 @@ Der nächste Zeitraum beginnt in %2$d Tagen (%3$s)."</string>
     <string name="turnover_mute_summary">Wenn sich das Gerät auf einer horizontalen Fläche mit nach oben liegendem Bildschirm befindet, drehe es um, um den Klingelton auszuschalten, die Vibration auszuschalten und das Benachrichtigungslicht zu stoppen.</string>
     <string name="turnover_mute_title">Gerät drehen um den Klingelton stummzuschalten</string>
     <string name="undefined">Keine</string>
+    <string name="unfold_show_bublle_pref_summary">Klappe das Gerät während eines Anrufs auf, um diesen in einem schwebenden Fenster aufzuzeigen.</string>
+    <string name="unfold_show_bublle_pref_title">Aufklappen um Anrufe zu minimieren</string>
     <string name="unknown">Unbekannt</string>
     <string name="unlock_failed">Entsperranforderung für netzgebundenes Gerät war nicht erfolgreich.</string>
     <string name="unlock_success">Entsperrung des netzgebundenen Geräts war nicht erfolgreich.</string>
@@ -2041,6 +2101,7 @@ Notrufe sind daher nur bei vorhandener Mobilfunkabdeckung möglich."</string>
     <string name="wfcmode_wifi_preferred">WLAN bevorzugen</string>
     <string name="wifi_call_accept">Überspringen</string>
     <string name="wifi_call_available_message">Sie können nun Anrufe per WLAN tätigen. Wenn Sie mit einem WLAN-Netzwerk verbunden sind, können Sie auch dann telefonieren, wenn kein Mobilfunknetz verfügbar ist.</string>
+    <string name="wifi_call_available_message_DEO2">Ihre Anrufe werden über WLAN getätigt, sofern keine ausreichende Mobilfunkversorgung vorliegt und ihr Gerät mit dem WLAN verbunden ist.Sie können diese Einstellung jederzeit auf Ihrem Smartphone anpassen. Bei Fragen wenden Sie sich bitte an Ihren Mobilfunkanbieter.</string>
     <string name="wifi_call_available_title">WLAN-Anrufe werden aktiviert</string>
     <string name="wifi_call_cancel">Mehr Informationen</string>
     <string name="wifi_call_help">Hilfe</string>
